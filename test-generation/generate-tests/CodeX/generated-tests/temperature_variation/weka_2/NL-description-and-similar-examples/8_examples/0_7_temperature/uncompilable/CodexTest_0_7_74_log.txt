@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_74.java:20: error: cannot find symbol
+    i1.setDataset(m_Instances);
+                  ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_7_74
+CodexTest_0_7_74.java:26: error: cannot find symbol
+    Instance i2 = m_V1.getAsInstance(m_Instances, r);
+                                     ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_7_74
+CodexTest_0_7_74.java:26: error: cannot find symbol
+    Instance i2 = m_V1.getAsInstance(m_Instances, r);
+                  ^
+  symbol:   variable m_V1
+  location: class CodexTest_0_7_74

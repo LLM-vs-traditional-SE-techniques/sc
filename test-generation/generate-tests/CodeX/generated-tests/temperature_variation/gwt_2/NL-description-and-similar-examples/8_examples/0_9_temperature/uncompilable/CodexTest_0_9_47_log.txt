@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_47.java:23: error: illegal start of type
+*/
+^
+CodexTest_0_9_47.java:23: error: ';' expected
+*/
+ ^
+CodexTest_0_9_47.java:25: error: class, interface, or enum expected
+}
+^

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_86.java:27: error: cannot find symbol
+    int written = bitArray.writeBytesTo(dest, 0, numBytes);
+                  ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_86
+CodexTest_0_5_86.java:30: error: cannot find symbol
+    assertEquals(numBytes, bitArray.length() / 8);
+                           ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_86
+CodexTest_0_5_86.java:31: error: cannot find symbol
+    assertEquals(numBytes, bitArray.writeBytesTo(dest, 0, numBytes + 1));
+                           ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_86

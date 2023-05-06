@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_1.java:29: error: cannot find symbol
+    byte[] hashBytes = ByteBuffer.allocate(4).putInt(hash).array();
+                                                     ^
+  symbol:   variable hash
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:29: error: cannot find symbol
+    byte[] hashBytes = ByteBuffer.allocate(4).putInt(hash).array();
+                       ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:30: error: cannot find symbol
+    int numBytesWritten = hashCode.writeBytesTo(dest, 0, hashBytes.length);
+                          ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_7_1

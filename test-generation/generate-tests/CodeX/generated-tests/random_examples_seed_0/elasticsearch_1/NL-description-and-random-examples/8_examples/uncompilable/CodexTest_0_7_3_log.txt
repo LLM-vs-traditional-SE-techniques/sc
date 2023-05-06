@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_3.java:68: error: cannot find symbol
+        Metric metric = new Metric(parent, name);
+        ^
+  symbol:   class Metric
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:68: error: cannot find symbol
+        Metric metric = new Metric(parent, name);
+                            ^
+  symbol:   class Metric
+  location: class CodexTest_0_7_3

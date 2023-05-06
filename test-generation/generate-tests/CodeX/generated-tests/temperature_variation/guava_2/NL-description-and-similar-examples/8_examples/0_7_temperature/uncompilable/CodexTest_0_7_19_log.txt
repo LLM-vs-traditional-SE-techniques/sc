@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_19.java:28: error: cannot find symbol
+    Longs.fromBytes(-1L, 0, src, 0, 8);
+    ^
+  symbol:   variable Longs
+  location: class CodexTest_0_7_19
+CodexTest_0_7_19.java:29: error: cannot find symbol
+    BitArray bitArray = BitArray.fromBytes(src);
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_7_19
+CodexTest_0_7_19.java:29: error: cannot find symbol
+    BitArray bitArray = BitArray.fromBytes(src);
+                        ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_7_19

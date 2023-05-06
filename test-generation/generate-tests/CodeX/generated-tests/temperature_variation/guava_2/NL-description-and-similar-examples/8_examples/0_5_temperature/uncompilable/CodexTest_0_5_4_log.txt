@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_4.java:26: error: cannot find symbol
+    writeBytesToImpl(bytes, 1, 3);
+    ^
+  symbol:   method writeBytesToImpl(byte[],int,int)
+  location: class CodexTest_0_5_4

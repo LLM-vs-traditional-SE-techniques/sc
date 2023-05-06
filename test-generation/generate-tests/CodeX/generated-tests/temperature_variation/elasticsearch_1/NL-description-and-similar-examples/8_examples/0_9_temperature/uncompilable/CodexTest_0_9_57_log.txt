@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_57.java:67: error: cannot find symbol
+        HierarchicalMethodReferenceID oldID = new HierarchicalMethodReferenceID(path, "provavoid");
+        ^
+  symbol:   class HierarchicalMethodReferenceID
+  location: class CodexTest_0_9_57
+CodexTest_0_9_57.java:67: error: cannot find symbol
+        HierarchicalMethodReferenceID oldID = new HierarchicalMethodReferenceID(path, "provavoid");
+                                                  ^
+  symbol:   class HierarchicalMethodReferenceID
+  location: class CodexTest_0_9_57

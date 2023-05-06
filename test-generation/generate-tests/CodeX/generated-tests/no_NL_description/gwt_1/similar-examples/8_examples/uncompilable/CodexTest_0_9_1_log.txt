@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_1.java:16: error: cannot find symbol
+            assertTrue(WindowUtil.isClient());
+                       ^
+  symbol:   variable WindowUtil
+  location: class CodexTest_0_9_1

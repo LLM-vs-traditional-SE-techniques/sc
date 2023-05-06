@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_24.java:24: error: cannot find symbol
+		assertArrayEquals("AlgVector Add", exp, v.getData(), 0.001);
+		                                         ^
+  symbol:   method getData()
+  location: variable v of type weka.core.AlgVector

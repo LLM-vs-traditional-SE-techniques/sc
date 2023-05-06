@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_13.java:25: error: cannot find symbol
+    Bits1 bits = new Bits1(32);
+    ^
+  symbol:   class Bits1
+  location: class CodexTest_0_9_13
+CodexTest_0_9_13.java:25: error: cannot find symbol
+    Bits1 bits = new Bits1(32);
+                     ^
+  symbol:   class Bits1
+  location: class CodexTest_0_9_13

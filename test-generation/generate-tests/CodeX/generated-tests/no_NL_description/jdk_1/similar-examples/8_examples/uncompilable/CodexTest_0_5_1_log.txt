@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_5_1.java:21: error: <identifier> expected
+Input: public void validate() {
+     ^
+CodexTest_0_5_1.java:29: error: <identifier> expected
+Output: public void testValidate() {
+      ^

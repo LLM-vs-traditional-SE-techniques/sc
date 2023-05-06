@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_6.java:36: error: cannot find symbol
+					System.out.println(vector.getElement(i));
+					                         ^
+  symbol:   method getElement(int)
+  location: variable vector of type cern.colt.matrix.DoubleMatrix1D

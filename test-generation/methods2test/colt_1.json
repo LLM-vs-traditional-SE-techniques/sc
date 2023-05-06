@@ -1,0 +1,21 @@
+{
+	"project": "Colt",
+	"package": "cern.colt.matrix.impl",
+	"class": "DenseDoubleMatrix1D",
+	"method_signature": "DoubleMatrix1D assign(DoubleMatrix1D source)",
+	"method": "public DoubleMatrix1D assign(DoubleMatrix1D source) {\n		// overriden for performance only\n		if (! (source instanceof DenseDoubleMatrix1D)) {\n			return super.assign(source);\n		}\n		DenseDoubleMatrix1D other = (DenseDoubleMatrix1D) source;\n		if (other==this) return this;\n		checkSize(other);\n		if (isNoView && other.isNoView) { // quickest\n			System.arraycopy(other.elements, 0, this.elements, 0, this.elements.length);\n			return this;\n		}\n		if (haveSharedCells(other)) {\n			DoubleMatrix1D c = other.copy();\n			if (! (c instanceof DenseDoubleMatrix1D)) { // should not happen\n				return super.assign(source);\n			}\n			other = (DenseDoubleMatrix1D) c;\n		}\n\n			final double[] elems = this.elements;\n		final double[] otherElems = other.elements;\n		if (elements==null || otherElems==null) throw new InternalError();\n		int s = this.stride;\n		int ys = other.stride;\n\n			int index = index(0);\n		int otherIndex = other.index(0);\n		for (int k=size; --k >= 0; ) {\n			elems[index] = otherElems[otherIndex];\n			index += s;\n			otherIndex += ys;\n		}\n		return this;\n	}",
+	"helpers": [],
+	"example_same_class": {
+		"method_signature": "DenseDoubleMatrix1D(double[] values)",
+		"method": "public DenseDoubleMatrix1D(double[] values) {\n			this(values.length);\n			assign(values);\n		}",
+		"test": "public static void testMax() {\n  double[] temp = new double[2];\n\n   temp[0] = 8.9;\n  temp[1] = 1;\n\n   DenseDoubleMatrix1D d1Double = new DenseDoubleMatrix1D(temp);\n    hep.aida.bin.DynamicBin1D d1ynamicBin = cern.colt.matrix.doublealgo.Statistic.bin(d1Double);\n   double max = d1ynamicBin.max();\n   System.out.println(\"max = \"+ max);\n}"
+	},
+	"example_different_project" : {
+		"id": "guava_1",
+		"method_signature": "HashCode fromBytes(byte[] bytes)",
+		"method": "public static HashCode fromBytes(byte[] bytes) {\n    checkArgument(bytes.length >= 1, \"A HashCode must contain at least 1 byte.\");\n    return fromBytesNoCopy(bytes.clone());\n  }",
+		"test": "public void testRoundTripHashCodeUsingBaseEncoding() {\n    HashCode hash1 = Hashing.sha1().hashString(\"foo\", Charsets.US_ASCII);\n    HashCode hash2 = HashCode.fromBytes(BaseEncoding.base16().lowerCase().decode(hash1.toString()));\n    assertEquals(hash1, hash2);\n  }"
+	},
+	"method_class_imports": "import cern.colt.matrix.impl.*;\nimport cern.colt.matrix.DoubleMatrix1D;\nimport cern.colt.matrix.DoubleMatrix2D;",
+	"test_class_imports": "import hep.aida.bin.*;\nimport cern.colt.matrix.impl.*;\nimport cern.colt.function.DoubleDoubleFunction;\nimport cern.colt.function.DoubleFunction;\nimport cern.colt.list.IntArrayList;\nimport cern.colt.map.AbstractIntDoubleMap;\nimport cern.colt.map.OpenIntDoubleHashMap;\nimport cern.colt.matrix.DoubleFactory2D;\nimport cern.colt.matrix.DoubleMatrix1D;\nimport cern.colt.matrix.DoubleMatrix2D;\nimport cern.colt.matrix.DoubleMatrix3D;\nimport cern.colt.matrix.doublealgo.DoubleMatrix2DComparator;\nimport cern.colt.matrix.linalg.Algebra;\nimport cern.colt.matrix.linalg.LUDecompositionQuick;\nimport cern.colt.matrix.linalg.SeqBlas;"
+}

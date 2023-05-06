@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_3_6.java:31: error: incompatible types: double cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D p1 = new Vector1D(2.0, 3.0);
+                                        ^
+CodexTest_0_3_6.java:32: error: incompatible types: double cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D p2 = new Vector1D(4.0, 5.0);
+                                        ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

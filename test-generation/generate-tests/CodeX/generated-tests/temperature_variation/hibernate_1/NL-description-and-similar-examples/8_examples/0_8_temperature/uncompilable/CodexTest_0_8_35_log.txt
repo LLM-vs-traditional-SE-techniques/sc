@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_35.java:24: error: <identifier> expected
+Input: public  int toInt(Boolean value) {
+     ^
+CodexTest_0_8_35.java:27: error: <identifier> expected
+Output:
+      ^

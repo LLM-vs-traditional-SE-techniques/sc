@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_1.java:18: error: cannot find symbol
+        AlgVector v1 = new AlgVector(3).set(1, 2.0).set(2, 3.0);
+                                       ^
+  symbol:   method set(int,double)
+  location: class weka.core.AlgVector
+CodexTest_0_9_1.java:23: error: cannot find symbol
+        } catch (InvalidOperationException e) {
+                 ^
+  symbol:   class InvalidOperationException
+  location: class CodexTest_0_9_1

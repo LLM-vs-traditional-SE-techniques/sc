@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_6.java:16: error: cannot find symbol
+    assertEquals("Unexpected short value", (short) 1, new TrueFalseToShort().toShort(Boolean.TRUE));
+                                                          ^
+  symbol:   class TrueFalseToShort
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:17: error: cannot find symbol
+    assertEquals("Unexpected short value", (short) 0, new TrueFalseToShort().toShort(Boolean.FALSE));
+                                                          ^
+  symbol:   class TrueFalseToShort
+  location: class CodexTest_0_8_6

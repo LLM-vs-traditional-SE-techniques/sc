@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_29.java:37: error: <identifier> expected
+Input: public void test() throws InterruptedException {
+     ^
+CodexTest_0_9_29.java:60: error: reached end of file while parsing
+}
+ ^

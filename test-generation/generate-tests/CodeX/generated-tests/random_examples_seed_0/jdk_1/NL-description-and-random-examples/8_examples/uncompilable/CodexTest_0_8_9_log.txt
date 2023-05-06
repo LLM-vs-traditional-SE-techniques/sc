@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_8_9.java:27: error: reference to assertEquals is ambiguous
+            assertEquals(al.remove(0), i);
+            ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match

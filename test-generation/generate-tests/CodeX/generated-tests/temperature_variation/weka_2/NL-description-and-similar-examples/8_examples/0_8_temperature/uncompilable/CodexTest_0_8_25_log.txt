@@ -1,0 +1,52 @@
+isCompilable => false
+CodexTest_0_8_25.java:21: error: cannot find symbol
+      DataBase db = new DataBase();
+      ^
+  symbol:   class DataBase
+  location: class CodexTest_0_8_25
+CodexTest_0_8_25.java:21: error: cannot find symbol
+      DataBase db = new DataBase();
+                        ^
+  symbol:   class DataBase
+  location: class CodexTest_0_8_25
+CodexTest_0_8_25.java:23: error: cannot find symbol
+      Relation r = db.getTable("test");
+      ^
+  symbol:   class Relation
+  location: class CodexTest_0_8_25
+CodexTest_0_8_25.java:24: error: cannot find symbol
+      r.addTuple(new Tuple(new String[]{"thriller", "2007", "The Bourne Ultimatum"})); 
+                     ^
+  symbol:   class Tuple
+  location: class CodexTest_0_8_25
+CodexTest_0_8_25.java:25: error: cannot find symbol
+      r.addTuple(new Tuple(new String[]{"action", "2006", "Casino Royale"}));
+                     ^
+  symbol:   class Tuple
+  location: class CodexTest_0_8_25
+CodexTest_0_8_25.java:26: error: cannot find symbol
+      r.addTuple(new Tuple(new String[]{"horror", "2004", "The Grudge"}));
+                     ^
+  symbol:   class Tuple
+  location: class CodexTest_0_8_25
+CodexTest_0_8_25.java:29: error: no suitable constructor found for AlgVector(int[])
+      AlgVector v1 = new AlgVector(m_Elements);
+                     ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; int[] cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; int[] cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; int[] cannot be converted to weka.core.Instance)
+CodexTest_0_8_25.java:31: error: no suitable constructor found for AlgVector(int[])
+      AlgVector v2 = new AlgVector(m_Elements2);
+                     ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; int[] cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; int[] cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; int[] cannot be converted to weka.core.Instance)
+Note: CodexTest_0_8_25.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,3 @@
+org.hibernate.type.descriptor.java.BooleanTypeDescriptor()
+java.lang.String()
+org.hibernate.type.descriptor.java.BooleanTypeDescriptor.fromString(java.lang.String)

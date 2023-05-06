@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_1.java:16: error: cannot find symbol
+    assertTrue(GwtUtils.isClient());
+               ^
+  symbol:   variable GwtUtils
+  location: class CodexTest_0_3_1

@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_8_5.java:20: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+                Edge e1 = new Edge(1, 2, 0);
+                          ^
+CodexTest_0_8_5.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+                Edge e2 = new Edge(1, 2, 0);
+                          ^
+CodexTest_0_8_5.java:22: error: cannot find symbol
+                boolean b1 = e1.contains(e2);
+                               ^
+  symbol:   method contains(org.graphstream.graph.Edge)
+  location: variable e1 of type org.graphstream.graph.Edge

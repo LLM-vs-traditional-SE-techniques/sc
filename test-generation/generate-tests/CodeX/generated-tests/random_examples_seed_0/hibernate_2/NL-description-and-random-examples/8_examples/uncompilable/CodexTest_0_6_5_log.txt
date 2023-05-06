@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_5.java:17: error: cannot find symbol
+        Boolean result = BooleanConverter.fromString("true");
+                         ^
+  symbol:   variable BooleanConverter
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:19: error: cannot find symbol
+        result = BooleanConverter.fromString("false");
+                 ^
+  symbol:   variable BooleanConverter
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:21: error: cannot find symbol
+        result = BooleanConverter.fromString("TRUE");
+                 ^
+  symbol:   variable BooleanConverter
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:23: error: cannot find symbol
+        result = BooleanConverter.fromString("FALSE");
+                 ^
+  symbol:   variable BooleanConverter
+  location: class CodexTest_0_6_5

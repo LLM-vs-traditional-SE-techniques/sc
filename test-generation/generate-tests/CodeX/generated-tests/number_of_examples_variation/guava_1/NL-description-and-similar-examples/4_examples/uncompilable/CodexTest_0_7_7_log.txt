@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_7.java:25: error: cannot find symbol
+		DoubleHashCode hashCode = new DoubleHashCode(42.0);
+		^
+  symbol:   class DoubleHashCode
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:25: error: cannot find symbol
+		DoubleHashCode hashCode = new DoubleHashCode(42.0);
+		                              ^
+  symbol:   class DoubleHashCode
+  location: class CodexTest_0_7_7

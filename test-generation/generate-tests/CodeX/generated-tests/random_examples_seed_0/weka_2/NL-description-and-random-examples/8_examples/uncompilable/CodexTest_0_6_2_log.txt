@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_2.java:56: error: ')' expected
+            if (model.attribute(i
+                                 ^
+CodexTest_0_6_2.java:57: error: illegal start of statement
+}
+ ^

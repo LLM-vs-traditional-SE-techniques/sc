@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_58.java:28: error: cannot find symbol
+    int bytesWritten = hashCode.writeBytesTo(dest, offset, maxLength);
+                       ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_3_58

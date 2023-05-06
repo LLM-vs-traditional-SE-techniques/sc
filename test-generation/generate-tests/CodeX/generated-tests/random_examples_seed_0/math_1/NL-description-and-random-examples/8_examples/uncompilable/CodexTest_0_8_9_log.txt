@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_9.java:42: error: <identifier> expected
+Input: public final Vector1D scalarMultiply(double a) {
+     ^
+CodexTest_0_8_9.java:45: error: <identifier> expected
+Output: @Test
+      ^

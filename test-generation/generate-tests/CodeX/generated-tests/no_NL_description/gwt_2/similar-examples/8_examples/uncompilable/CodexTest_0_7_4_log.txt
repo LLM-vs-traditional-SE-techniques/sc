@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_4.java:16: error: cannot find symbol
+      new Handler();
+          ^
+  symbol:   class Handler
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:20: error: cannot find symbol
+    new Handler(true);
+        ^
+  symbol:   class Handler
+  location: class CodexTest_0_7_4

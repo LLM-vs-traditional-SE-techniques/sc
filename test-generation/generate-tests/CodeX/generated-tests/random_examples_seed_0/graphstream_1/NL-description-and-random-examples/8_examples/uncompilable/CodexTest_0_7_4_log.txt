@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_7_4.java:22: error: cannot find symbol
+        Edge edge = new Edge(new DenseDoubleMatrix1D(new double[]{1, 2, 3}), 4);
+                                 ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        Edge edge = new Edge(new DenseDoubleMatrix1D(new double[]{1, 2, 3}), 4);
+                    ^
+CodexTest_0_7_4.java:23: error: cannot find symbol
+        EdgePath edgePath = new EdgePath(edge);
+        ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:23: error: cannot find symbol
+        EdgePath edgePath = new EdgePath(edge);
+                                ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_7_4

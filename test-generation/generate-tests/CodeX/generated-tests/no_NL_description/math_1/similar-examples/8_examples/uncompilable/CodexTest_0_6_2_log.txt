@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_2.java:36: error: bad operand types for binary operator '*'
+        Assert.assertEquals(2 * v2, v2.scalarMultiply(2));
+                              ^
+  first type:  int
+  second type: org.apache.commons.math3.geometry.euclidean.oned.Vector1D

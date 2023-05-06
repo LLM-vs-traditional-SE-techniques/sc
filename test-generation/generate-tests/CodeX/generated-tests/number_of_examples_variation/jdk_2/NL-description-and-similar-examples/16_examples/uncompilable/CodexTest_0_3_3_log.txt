@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_3.java:22: error: cannot find symbol
+        assertTrue(new ArrayList<Object>(asList("foo")).contains("foo"));
+                                         ^
+  symbol:   method asList(java.lang.String)
+  location: class CodexTest_0_3_3

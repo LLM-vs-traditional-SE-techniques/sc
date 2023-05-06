@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_5.java:32: error: <identifier> expected
+Input: @Override
+     ^
+CodexTest_0_8_5.java:36: error: <identifier> expected
+Output: public void testFromStringShouldReturnFalseWhenStringGiven() {
+      ^
+CodexTest_0_8_5.java:48: error: ';' expected
+		boolean result = underTest.from
+		                               ^
+CodexTest_0_8_5.java:49: error: reached end of file while parsing
+}
+ ^

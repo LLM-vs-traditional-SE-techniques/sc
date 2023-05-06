@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_68.java:29: error: invalid method declaration; return type required
+    public ArrayList() {
+           ^

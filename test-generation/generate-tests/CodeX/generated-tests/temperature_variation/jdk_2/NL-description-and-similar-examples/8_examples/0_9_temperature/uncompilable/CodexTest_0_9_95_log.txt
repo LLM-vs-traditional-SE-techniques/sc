@@ -1,0 +1,52 @@
+isCompilable => false
+CodexTest_0_9_95.java:28: error: <identifier> expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+        ^
+CodexTest_0_9_95.java:28: error: ';' expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                    ^
+CodexTest_0_9_95.java:28: error: ';' expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                          ^
+CodexTest_0_9_95.java:28: error: ';' expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                            ^
+CodexTest_0_9_95.java:28: error: ';' expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                                    ^
+CodexTest_0_9_95.java:28: error: <identifier> expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                                       ^
+CodexTest_0_9_95.java:28: error: ';' expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                                             ^
+CodexTest_0_9_95.java:28: error: ';' expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                                                    ^
+CodexTest_0_9_95.java:28: error: <identifier> expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                                                            ^
+CodexTest_0_9_95.java:28: error: ';' expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                                                                 ^
+CodexTest_0_9_95.java:28: error: ';' expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                                                                                ^
+CodexTest_0_9_95.java:28: error: ';' expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                                                                                         ^
+CodexTest_0_9_95.java:28: error: ';' expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                                                                                                 ^
+CodexTest_0_9_95.java:28: error: ';' expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                                                                                                            ^
+CodexTest_0_9_95.java:28: error: ';' expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                                                                                                                        ^
+CodexTest_0_9_95.java:28: error: <identifier> expected
+Actually, approaches for inputs containing method signatures such as b1,b2,b4 can be similar, but the difference might be in what the output should look like.
+                                                                                                                                                              ^
+CodexTest_0_9_95.java:29: error: reached end of file while parsing
+}
+ ^

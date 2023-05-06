@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_60.java:17: error: cannot find symbol
+      Boolean result = underTest.fromString("Y");
+                       ^
+  symbol:   variable underTest
+  location: class CodexTest_0_7_60

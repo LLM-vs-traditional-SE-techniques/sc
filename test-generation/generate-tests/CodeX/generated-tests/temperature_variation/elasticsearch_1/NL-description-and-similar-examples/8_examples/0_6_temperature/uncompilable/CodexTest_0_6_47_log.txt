@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_47.java:66: error: cannot find symbol
+        assertEquals(s.parent(), "org.apache.lucene.search.highlight");
+                      ^
+  symbol:   method parent()
+  location: variable s of type java.lang.String

@@ -1,0 +1,15 @@
+isCompilable => false
+CodexTest_0_9_86.java:34: error: cannot find symbol
+        AbstractAlgebra abstractAlgebra = null;
+        ^
+  symbol:   class AbstractAlgebra
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:39: error: no suitable method found for assertThat(double[][])
+        assertThat(result).isEqualTo(expected);
+        ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_8.java:27: error: cannot find symbol
+         final Base32 base32 = new Base32();
+               ^
+  symbol:   class Base32
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:27: error: cannot find symbol
+         final Base32 base32 = new Base32();
+                                   ^
+  symbol:   class Base32
+  location: class CodexTest_0_8_8

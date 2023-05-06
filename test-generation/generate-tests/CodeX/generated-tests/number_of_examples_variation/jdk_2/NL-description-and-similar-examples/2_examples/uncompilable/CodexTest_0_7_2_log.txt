@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_2.java:25: error: cannot find symbol
+        boolean result = underTest.contains(object);
+                                  ^
+  symbol:   method contains(java.lang.Object)
+  location: variable underTest of type int[]

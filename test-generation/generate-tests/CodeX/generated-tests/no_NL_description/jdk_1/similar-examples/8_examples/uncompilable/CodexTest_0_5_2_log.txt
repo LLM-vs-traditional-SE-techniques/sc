@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_5_2.java:21: error: <identifier> expected
+Input: public static <T> ImmutableSet<T> of(T element) {
+     ^
+CodexTest_0_5_2.java:24: error: <identifier> expected
+Output: public void testOf() {
+      ^

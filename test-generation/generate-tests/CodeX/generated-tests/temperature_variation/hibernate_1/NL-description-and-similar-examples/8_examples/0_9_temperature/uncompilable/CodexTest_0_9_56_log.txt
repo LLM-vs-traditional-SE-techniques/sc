@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_56.java:24: error: ')' expected
+            assertTrue(predicate is OK);
+                                ^
+CodexTest_0_9_56.java:24: error: not a statement
+            assertTrue(predicate is OK);
+                                    ^
+CodexTest_0_9_56.java:24: error: ';' expected
+            assertTrue(predicate is OK);
+                                      ^

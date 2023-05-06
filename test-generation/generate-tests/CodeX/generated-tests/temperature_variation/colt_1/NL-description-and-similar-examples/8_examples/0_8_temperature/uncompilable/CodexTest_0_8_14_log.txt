@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_8_14.java:29: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+CodexTest_0_8_14.java:32: error: cannot find symbol
+            if (this.isNoView && value == 0) {
+                    ^
+  symbol: variable isNoView
+CodexTest_0_8_14.java:33: error: cannot find symbol
+                Arrays.fill(this.elements, 0, this.size, value);
+                                ^
+  symbol: variable elements
+CodexTest_0_8_14.java:33: error: cannot find symbol
+                Arrays.fill(this.elements, 0, this.size, value);
+                                                  ^
+  symbol: variable size
+CodexTest_0_8_14.java:33: error: cannot find symbol
+                Arrays.fill(this.elements, 0, this.size, value);
+                ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_8_14
+CodexTest_0_8_14.java:35: error: cannot find symbol
+                super.assign(value);
+                     ^
+  symbol: method assign(double)

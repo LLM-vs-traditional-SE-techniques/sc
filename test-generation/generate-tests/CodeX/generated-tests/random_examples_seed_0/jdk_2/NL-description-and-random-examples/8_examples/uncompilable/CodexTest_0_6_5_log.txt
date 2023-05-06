@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_5.java:22: error: cannot find symbol
+        assertFalse("List without target should not return true", list.contains("a"));
+                                                                  ^
+  symbol:   variable list
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:23: error: cannot find symbol
+        assertTrue("List with target should return true", list.contains("b"));
+                                                          ^
+  symbol:   variable list
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:24: error: cannot find symbol
+        assertFalse("List with target but different type should return false", list.contains(1));
+                                                                               ^
+  symbol:   variable list
+  location: class CodexTest_0_6_5

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_3.java:18: error: cannot find symbol
+        assertEquals(s, TypeConverter.toShort(b));
+                        ^
+  symbol:   variable TypeConverter
+  location: class CodexTest_0_7_3

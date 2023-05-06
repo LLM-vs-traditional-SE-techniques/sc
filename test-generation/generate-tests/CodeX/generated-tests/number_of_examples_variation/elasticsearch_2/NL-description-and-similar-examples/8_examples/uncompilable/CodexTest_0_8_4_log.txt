@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_4.java:72: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("failed to parse field [field] of class [java.lang.Object]"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_4

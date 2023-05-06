@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_51.java:65: error: cannot find symbol
+        InputStream is = XContentHelper.smallFromXContent(XContentType.JSON, "{}");
+        ^
+  symbol:   class InputStream
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:65: error: cannot find symbol
+        InputStream is = XContentHelper.smallFromXContent(XContentType.JSON, "{}");
+                                       ^
+  symbol:   method smallFromXContent(org.elasticsearch.common.xcontent.XContentType,java.lang.String)
+  location: class org.elasticsearch.common.xcontent.XContentHelper

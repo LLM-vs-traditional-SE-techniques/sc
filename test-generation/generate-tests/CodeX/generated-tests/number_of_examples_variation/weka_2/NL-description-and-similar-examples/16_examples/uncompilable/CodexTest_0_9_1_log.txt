@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_1.java:17: error: cannot find symbol
+  private T causeStubThrows() throws Throwable {
+          ^
+  symbol:   class T
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:18: error: cannot find symbol
+    if (stubbedMethod.throwsException()) {
+        ^
+  symbol:   variable stubbedMethod
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:19: error: cannot find symbol
+      throw stubbedMethod.getExceptionToThrow();
+            ^
+  symbol:   variable stubbedMethod
+  location: class CodexTest_0_9_1

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_2.java:66: error: cannot find symbol
+        Node n = new Node(s);
+        ^
+  symbol:   class Node
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:66: error: cannot find symbol
+        Node n = new Node(s);
+                     ^
+  symbol:   class Node
+  location: class CodexTest_0_7_2

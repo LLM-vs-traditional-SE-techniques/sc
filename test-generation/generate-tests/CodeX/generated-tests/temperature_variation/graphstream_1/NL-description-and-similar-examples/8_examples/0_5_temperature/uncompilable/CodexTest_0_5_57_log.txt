@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_5_57.java:21: error: type org.graphstream.graph.Graph does not take parameters
+        Graph<String, Edge> graph = new DirectedSparseGraph<>();
+             ^
+CodexTest_0_5_57.java:21: error: cannot find symbol
+        Graph<String, Edge> graph = new DirectedSparseGraph<>();
+                                        ^
+  symbol:   class DirectedSparseGraph
+  location: class CodexTest_0_5_57
+CodexTest_0_5_57.java:22: error: cannot find symbol
+        Edge edge = new DirectedSparseEdge<>(graph.addVertex(), graph.addVertex());
+                        ^
+  symbol:   class DirectedSparseEdge
+  location: class CodexTest_0_5_57

@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_1.java:15: error: cannot find symbol
+  public void testOptionWithArgAndLongOpt() throws CmdLineException {
+                                                   ^
+  symbol:   class CmdLineException
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:16: error: cannot find symbol
+        Arg<Double> money = Arg.create();
+        ^
+  symbol:   class Arg
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:16: error: cannot find symbol
+        Arg<Double> money = Arg.create();
+                            ^
+  symbol:   variable Arg
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:17: error: cannot find symbol
+        optionsBuilder = new OptionsBuilder();
+        ^
+  symbol:   variable optionsBuilder
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:17: error: cannot find symbol
+        optionsBuilder = new OptionsBuilder();
+                             ^
+  symbol:   class OptionsBuilder
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:18: error: cannot find symbol
+        parser = new CmdLineParser(this);
+        ^
+  symbol:   variable parser
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:18: error: cannot find symbol
+        parser = new CmdLineParser(this);
+                     ^
+  symbol:   class CmdLineParser
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:19: error: cannot find symbol
+        parser.parseArgument("--double", "3.14");
+        ^
+  symbol:   variable parser
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:20: error: cannot find symbol
+        assertThat(money.getValue(), is(3.14));
+                                     ^
+  symbol:   method is(double)
+  location: class CodexTest_0_9_1

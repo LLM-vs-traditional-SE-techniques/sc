@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_81.java:65: error: cannot find symbol
+        XContentParser parser =
+        ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:66: error: cannot find symbol
+                createParser(JsonXContent.jsonXContent, "{\"a\" : [ " + "{" + "\"b\" : \"value1\"," + "\"c\" : \"value2\"" + "}" + "]}");
+                             ^
+  symbol:   variable JsonXContent
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:68: error: cannot find symbol
+        assertThat(map.containsKey("a"), equalTo(true));
+                                         ^
+  symbol:   method equalTo(boolean)
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:69: error: cannot find symbol
+        assertThat(map.get("a"), CoreMatchers.instanceOf(List.class));
+                                 ^
+  symbol:   variable CoreMatchers
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:71: error: cannot find symbol
+        assertThat(value.size(), equalTo(1));
+                                 ^
+  symbol:   method equalTo(int)
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:73: error: cannot find symbol
+        assertThat(innerMap.containsKey("b"), equalTo(true));
+                                              ^
+  symbol:   method equalTo(boolean)
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:74: error: cannot find symbol
+        assertThat(innerMap.get("b"), equalTo("value1"));
+                                      ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_81

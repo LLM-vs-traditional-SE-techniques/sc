@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_10.java:22: error: cannot find symbol
+            RecvSarWxPacket packet = new RecvSarWxPacket();
+            ^
+  symbol:   class RecvSarWxPacket
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:22: error: cannot find symbol
+            RecvSarWxPacket packet = new RecvSarWxPacket();
+                                         ^
+  symbol:   class RecvSarWxPacket
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:28: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("Not a valid WxPacket"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_10

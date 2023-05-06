@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_7.java:26: error: cannot find symbol
+    assertEquals(4, new BitArray(new byte[] { (byte) 0x12, (byte) 0x34, (byte) 0x56, (byte) 0x78 }).writeBytesTo(dest, 0, 4));
+                        ^
+  symbol:   class BitArray
+  location: class CodexTest_0_3_7

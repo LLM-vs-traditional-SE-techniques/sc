@@ -1,0 +1,65 @@
+prompt,output
+"Suggest a test for a method with the Boolean fromString(String string) signature.
+
+Input: public static String getModuleName() {
+    return Impl.getModuleName();
+  }
+Output: public void testGetModuleName() {
+    assertEquals(""com.google.gwt.core.Core.JUnit"", GWT.getModuleName());
+  }
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnFalseWhenFStringGiven() {
+			// given
+			BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+			// when
+			Boolean result = underTest.wrap('N', null);
+			// then
+			assertFalse(result);
+		}
+
+Input: public Boolean fromString(String string) {
+		return Boolean.valueOf( string );
+	}
+Output:
+  ","import org.hibernate.type.descriptor.java.*;
+import org.hibernate.type.descriptor.WrapperOptions;
+import static java.lang.Boolean.FALSE;
+import static java.lang.Boolean.TRUE;
+
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_1_1 { 
+  @Test
+    public void testFromStringShouldReturnFalseWhenFStringGiven() {
+        // given
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+        // when
+        Boolean result = underTest.fromString(""F"");
+        // then
+        assertFalse(result);
+    }
+}"

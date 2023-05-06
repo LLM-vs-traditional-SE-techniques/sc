@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_7_49.java:17: error: <identifier> expected
+Input: public static Edge createEdge(Graph graph, String id, String sourceId, String targetId, boolean directed) {
+     ^
+CodexTest_0_7_49.java:27: error: <identifier> expected
+Output: @Test(expected = IllegalArgumentException.class)
+      ^
+CodexTest_0_7_49.java:30: error: reached end of file while parsing
+}
+ ^

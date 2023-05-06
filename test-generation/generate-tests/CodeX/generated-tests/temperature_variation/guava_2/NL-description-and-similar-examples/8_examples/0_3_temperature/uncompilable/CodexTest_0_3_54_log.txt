@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_54.java:29: error: method fromBytes in class com.google.common.hash.HashCode cannot be applied to given types;
+    assertEquals(hashCode, HashCode.fromBytes(dest, 0, numBytes));
+                                   ^
+  required: byte[]
+  found: byte[],int,int
+  reason: actual and formal argument lists differ in length

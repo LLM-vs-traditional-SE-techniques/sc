@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_7.java:66: error: cannot find symbol
+        ExecutionDataStore store = new ExecutionDataStore();
+        ^
+  symbol:   class ExecutionDataStore
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:66: error: cannot find symbol
+        ExecutionDataStore store = new ExecutionDataStore();
+                                       ^
+  symbol:   class ExecutionDataStore
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:67: error: cannot find symbol
+        store.setExecutionData(new ExecutionData("id", "name", parent, 1, 0));
+                                   ^
+  symbol:   class ExecutionData
+  location: class CodexTest_0_6_7

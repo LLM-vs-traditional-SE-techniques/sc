@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_6_9.java:66: error: unreported exception java.lang.ClassNotFoundException; must be caught or declared to be thrown
+	Class c = Class.forName(s);
+	                       ^

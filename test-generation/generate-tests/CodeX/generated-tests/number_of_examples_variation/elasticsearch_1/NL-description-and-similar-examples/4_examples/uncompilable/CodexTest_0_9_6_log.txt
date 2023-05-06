@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_9_6.java:65: error: cannot find symbol
+        RealMatrix test = createRealIdentityMatrix(1);
+        ^
+  symbol:   class RealMatrix
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:65: error: cannot find symbol
+        RealMatrix test = createRealIdentityMatrix(1);
+                          ^
+  symbol:   method createRealIdentityMatrix(int)
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:66: error: cannot find symbol
+        Array2DRowRealMatrix m = (Array2DRowRealMatrix) createRandomMatrix(1, 1);
+        ^
+  symbol:   class Array2DRowRealMatrix
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:66: error: cannot find symbol
+        Array2DRowRealMatrix m = (Array2DRowRealMatrix) createRandomMatrix(1, 1);
+                                  ^
+  symbol:   class Array2DRowRealMatrix
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:66: error: cannot find symbol
+        Array2DRowRealMatrix m = (Array2DRowRealMatrix) createRandomMatrix(1, 1);
+                                                        ^
+  symbol:   method createRandomMatrix(int,int)
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:67: error: cannot find symbol
+        RealMatrix n = createIdentityMatrix(1);
+        ^
+  symbol:   class RealMatrix
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:67: error: cannot find symbol
+        RealMatrix n = createIdentityMatrix(1);
+                       ^
+  symbol:   method createIdentityMatrix(int)
+  location: class CodexTest_0_9_6

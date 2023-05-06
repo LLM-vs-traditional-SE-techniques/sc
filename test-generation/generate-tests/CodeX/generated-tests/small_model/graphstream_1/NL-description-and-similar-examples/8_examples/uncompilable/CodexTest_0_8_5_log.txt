@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_5.java:20: error: cannot find symbol
+      Edge edge = makeEdge(VE, VA);
+                           ^
+  symbol:   variable VE
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:20: error: cannot find symbol
+      Edge edge = makeEdge(VE, VA);
+                               ^
+  symbol:   variable VA
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:22: error: cannot find symbol
+      EdgePath<Edge> edgePath = new EdgePath<Edge>();
+      ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:22: error: cannot find symbol
+      EdgePath<Edge> edgePath = new EdgePath<Edge>();
+                                    ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:25: error: cannot find symbol
+      assertEquals(true, graph.contains(edge));
+                              ^
+  symbol:   method contains(org.graphstream.graph.Edge)
+  location: variable graph of type org.graphstream.graph.implementations.DefaultGraph

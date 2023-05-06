@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_3_7.java:20: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		Edge e1 = new Edge(1, 2);
+		          ^
+CodexTest_0_3_7.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		Edge e2 = new Edge(2, 3);
+		          ^
+CodexTest_0_3_7.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		Edge e3 = new Edge(3, 4);
+		          ^
+CodexTest_0_3_7.java:23: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		Edge e4 = new Edge(4, 5);
+		          ^
+CodexTest_0_3_7.java:33: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		assertFalse(p.contains(new Edge(1, 3)));
+		                       ^
+CodexTest_0_3_7.java:34: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		assertFalse(p.contains(new Edge(3, 1)));
+		                       ^
+CodexTest_0_3_7.java:35: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		assertFalse(p.contains(new Edge(5, 4)));
+		                       ^
+CodexTest_0_3_7.java:36: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		assertFalse(p.contains(new Edge(4, 5)));
+		                       ^

@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_6_6.java:26: error: cannot find symbol
+    int length = hash.writeBytesTo(bytes, 0, bytes.length);
+                 ^
+  symbol:   variable hash
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:28: error: cannot find symbol
+    assertTrue(new HashCode(bytes).equals(hash));
+                                          ^
+  symbol:   variable hash
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:28: error: com.google.common.hash.HashCode is abstract; cannot be instantiated
+    assertTrue(new HashCode(bytes).equals(hash));
+               ^

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_20.java:66: error: cannot find symbol
+        GetMappingsResponse getMappingsResponse = new GetMappingsResponse();
+        ^
+  symbol:   class GetMappingsResponse
+  location: class CodexTest_0_6_20
+CodexTest_0_6_20.java:66: error: cannot find symbol
+        GetMappingsResponse getMappingsResponse = new GetMappingsResponse();
+                                                      ^
+  symbol:   class GetMappingsResponse
+  location: class CodexTest_0_6_20
+CodexTest_0_6_20.java:68: error: cannot find symbol
+        assertThat(getMappingsResponse.parent(), equalTo(parent));
+                                                 ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_6_20

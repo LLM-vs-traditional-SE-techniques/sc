@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_7.java:20: error: cannot find symbol
+		Instance instance = v.getAsInstance(m_Instances, null);
+		                                    ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_7

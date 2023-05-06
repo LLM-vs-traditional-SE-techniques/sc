@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_8.java:20: error: cannot find symbol
+        Instances data = DataFactory.createDataForNominalAttributeWithNumericClass();
+                         ^
+  symbol:   variable DataFactory
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:21: error: cannot find symbol
+        GiniSplitCrit splitCrit = new GiniSplitCrit();
+        ^
+  symbol:   class GiniSplitCrit
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:21: error: cannot find symbol
+        GiniSplitCrit splitCrit = new GiniSplitCrit();
+                                      ^
+  symbol:   class GiniSplitCrit
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:22: error: cannot find symbol
+        DecisionTree tree = new DecisionTree();
+        ^
+  symbol:   class DecisionTree
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:22: error: cannot find symbol
+        DecisionTree tree = new DecisionTree();
+                                ^
+  symbol:   class DecisionTree
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:25: error: cannot find symbol
+        Instances testData = DataFactory.createTestDataForNominalAttributeWithNumericClass();
+                             ^
+  symbol:   variable DataFactory
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:27: error: cannot find symbol
+        assertEquals(1.0, actual, DELTA);
+                                  ^
+  symbol:   variable DELTA
+  location: class CodexTest_0_8_8

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_4.java:25: error: cannot find symbol
+    Random rnd = new Random(0);
+    ^
+  symbol:   class Random
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:25: error: cannot find symbol
+    Random rnd = new Random(0);
+                     ^
+  symbol:   class Random
+  location: class CodexTest_0_8_4

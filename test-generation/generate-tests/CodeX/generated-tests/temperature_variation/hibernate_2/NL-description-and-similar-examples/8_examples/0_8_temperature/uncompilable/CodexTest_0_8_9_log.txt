@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_9.java:23: error: <identifier> expected
+Input: public static String getModuleName() {
+     ^
+CodexTest_0_8_9.java:26: error: <identifier> expected
+Output:
+      ^

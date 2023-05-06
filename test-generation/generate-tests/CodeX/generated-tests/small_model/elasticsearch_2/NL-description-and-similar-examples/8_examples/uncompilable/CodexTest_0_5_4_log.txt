@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_4.java:66: error: cannot find symbol
+            assertThat(new AlgVector(1).add(null), is(nullValue()));
+                           ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:66: error: cannot find symbol
+            assertThat(new AlgVector(1).add(null), is(nullValue()));
+                                                      ^
+  symbol:   method nullValue()
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:69: error: cannot find symbol
+            assertThat(e.getMessage(), is("v is marked @Nullable but is not of type java.lang.Number"));
+                                       ^
+  symbol:   method is(java.lang.String)
+  location: class CodexTest_0_5_4

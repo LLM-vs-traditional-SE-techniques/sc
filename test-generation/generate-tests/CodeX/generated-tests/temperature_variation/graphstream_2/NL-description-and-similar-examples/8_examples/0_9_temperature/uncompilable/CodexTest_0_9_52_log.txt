@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_9_52.java:20: error: cannot find symbol
+    List<Integer> empty = new ArrayList<Integer>();
+                              ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:21: error: cannot find symbol
+    assertFalse(BioJavaHelper.allElementsIn(empty, 42));
+                ^
+  symbol:   variable BioJavaHelper
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:23: error: cannot find symbol
+    assertFalse(BioJavaHelper.allElementsIn(empty, 42));
+                ^
+  symbol:   variable BioJavaHelper
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:24: error: cannot find symbol
+    assertTrue(BioJavaHelper.allElementsIn(nonEmpty, 42));
+               ^
+  symbol:   variable BioJavaHelper
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:25: error: cannot find symbol
+    assertTrue(BioJavaHelper.allElementsIn(list(42, 42), 42));
+                                           ^
+  symbol:   method list(int,int)
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:25: error: cannot find symbol
+    assertTrue(BioJavaHelper.allElementsIn(list(42, 42), 42));
+               ^
+  symbol:   variable BioJavaHelper
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:26: error: cannot find symbol
+    assertTrue(BioJavaHelper.allElementsIn(list(42, 43), 42, 43));
+                                           ^
+  symbol:   method list(int,int)
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:26: error: cannot find symbol
+    assertTrue(BioJavaHelper.allElementsIn(list(42, 43), 42, 43));
+               ^
+  symbol:   variable BioJavaHelper
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:27: error: cannot find symbol
+    assertFalse(BioJavaHelper.allElementsIn(list(42, 43, 43), 42, 44));
+                                            ^
+  symbol:   method list(int,int,int)
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:27: error: cannot find symbol
+    assertFalse(BioJavaHelper.allElementsIn(list(42, 43, 43), 42, 44));
+                ^
+  symbol:   variable BioJavaHelper
+  location: class CodexTest_0_9_52

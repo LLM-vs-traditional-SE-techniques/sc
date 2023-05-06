@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_45.java:65: error: cannot find symbol
+        assertEquals(parent, document.parent());
+                     ^
+  symbol:   variable parent
+  location: class CodexTest_0_5_45
+CodexTest_0_5_45.java:65: error: cannot find symbol
+        assertEquals(parent, document.parent());
+                             ^
+  symbol:   variable document
+  location: class CodexTest_0_5_45

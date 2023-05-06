@@ -1,0 +1,21 @@
+{
+	"project": "Graphstream",
+	"package": "org.graphstream.graph",
+	"class": "Path",
+	"method_signature": "boolean equals(Path p)",
+	"method": "public boolean equals(Path p) {\n		if (nodePath.size() != p.nodePath.size()) {\n			return false;\n		} else {\n			for (int i = 0; i < nodePath.size(); i++) {\n				if (nodePath.get(i) != p.nodePath.get(i)) {\n					return false;\n				}\n			}\n		}\n		return true;\n	}",
+	"helpers": ["Path()"],
+	"example_same_class": {
+		"method_signature": "void add(Edge edge)",
+		"method": "public void add(Edge edge) {\n		if (nodePath.isEmpty()) {\n			add(null, edge);\n		} else {\n			add(nodePath.peek(), edge);\n		}	}",
+		"test": "@Test(expected = IllegalArgumentException.class)\n	public void add_whenAddingEdgeRootMustBeSet() {\n		Graph graph = new DefaultGraph(\"test\");\n		graph.setStrict(false);\n		graph.setAutoCreate(true);\n\n		graph.addEdge(\"ab\", \"a\", \"b\");\n		graph.addEdge(\"bc\", \"b\", \"c\");\n		graph.addEdge(\"cd\", \"c\", \"d\");\n		Path path = new Path();\n\n		// this has to fail as root of the path is not set\n		path.add(graph.getEdge(\"ab\"));\n	}"
+	},
+	"example_different_project": {
+		"id": "elasticsearch_2",
+		"method_signature": "IndexRequest opType(String opType)",
+		"method": "public IndexRequest opType(String opType) {\n        String op = opType.toLowerCase(Locale.ROOT);\n        if (op.equals(\"create\")) {\n            opType(OpType.CREATE);\n        } else if (op.equals(\"index\")) {\n            opType(OpType.INDEX);\n        } else {\n            throw new IllegalArgumentException(\"opType must be 'create' or 'index', found: [\" + opType + \"]\");\n        }\n        return this;\n    }",
+		"test": "public void testReadBogusString() {\n        try {\n            IndexRequest indexRequest = new IndexRequest(\"\");\n            indexRequest.opType(\"foobar\");\n            fail(\"Expected IllegalArgumentException\");\n        } catch (IllegalArgumentException e) {\n            assertThat(e.getMessage(), equalTo(\"opType must be 'create' or 'index', found: [foobar]\"));\n        }    }"
+	},
+	"method_class_imports": "import org.graphstream.graph.*;\nimport java.util.Collection;\nimport java.util.List;\nimport java.util.Stack;\nimport java.util.logging.Logger;\nimport java.util.stream.Stream;",
+	"test_class_imports": "import org.graphstream.graph.Graph;\nimport org.graphstream.graph.Path;\nimport org.graphstream.graph.implementations.DefaultGraph;"
+}

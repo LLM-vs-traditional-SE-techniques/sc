@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_79.java:32: error: cannot find symbol
+            assertEquals(res.getElement(i), data[i]+data2[i], TestUtils.precision);
+                                                              ^
+  symbol:   variable TestUtils
+  location: class CodexTest_0_9_79

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_7.java:22: error: cannot find symbol
+        assertFalse(m_names.contains(tooShortName));
+                    ^
+  symbol:   variable m_names
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:24: error: cannot find symbol
+        assertFalse(m_names.contains(notPresentName));
+                    ^
+  symbol:   variable m_names
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:26: error: cannot find symbol
+        assertTrue(m_names.contains(presentName));
+                   ^
+  symbol:   variable m_names
+  location: class CodexTest_0_9_7

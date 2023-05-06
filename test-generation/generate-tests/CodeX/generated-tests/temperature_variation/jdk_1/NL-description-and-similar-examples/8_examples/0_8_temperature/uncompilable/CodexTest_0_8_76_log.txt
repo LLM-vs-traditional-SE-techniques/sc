@@ -1,0 +1,137 @@
+isCompilable => false
+CodexTest_0_8_76.java:22: error: illegal start of type
+                                for (int i = 0; i < original.length; i++) {
+                                ^
+CodexTest_0_8_76.java:22: error: ')' expected
+                                for (int i = 0; i < original.length; i++) {
+                                          ^
+CodexTest_0_8_76.java:22: error: illegal start of type
+                                for (int i = 0; i < original.length; i++) {
+                                             ^
+CodexTest_0_8_76.java:22: error: <identifier> expected
+                                for (int i = 0; i < original.length; i++) {
+                                              ^
+CodexTest_0_8_76.java:22: error: ';' expected
+                                for (int i = 0; i < original.length; i++) {
+                                               ^
+CodexTest_0_8_76.java:22: error: > expected
+                                for (int i = 0; i < original.length; i++) {
+                                                            ^
+CodexTest_0_8_76.java:22: error: '(' expected
+                                for (int i = 0; i < original.length; i++) {
+                                                                   ^
+CodexTest_0_8_76.java:22: error: <identifier> expected
+                                for (int i = 0; i < original.length; i++) {
+                                                                      ^
+CodexTest_0_8_76.java:22: error: illegal start of type
+                                for (int i = 0; i < original.length; i++) {
+                                                                        ^
+CodexTest_0_8_76.java:22: error: <identifier> expected
+                                for (int i = 0; i < original.length; i++) {
+                                                                         ^
+CodexTest_0_8_76.java:22: error: ';' expected
+                                for (int i = 0; i < original.length; i++) {
+                                                                           ^
+CodexTest_0_8_76.java:23: error: illegal start of type
+                                        if (original[i]) {
+                                           ^
+CodexTest_0_8_76.java:23: error: ']' expected
+                                        if (original[i]) {
+                                                     ^
+CodexTest_0_8_76.java:23: error: illegal start of type
+                                        if (original[i]) {
+                                                      ^
+CodexTest_0_8_76.java:23: error: <identifier> expected
+                                        if (original[i]) {
+                                                       ^
+CodexTest_0_8_76.java:23: error: ';' expected
+                                        if (original[i]) {
+                                                        ^
+CodexTest_0_8_76.java:24: error: <identifier> expected
+                                                set.set(i);
+                                                       ^
+CodexTest_0_8_76.java:24: error: <identifier> expected
+                                                set.set(i);
+                                                         ^
+CodexTest_0_8_76.java:26: error: class, interface, or enum expected
+                                }
+                                ^
+CodexTest_0_8_76.java:28: error: class, interface, or enum expected
+                                assertEquals(false, set.get(1));
+                                ^
+CodexTest_0_8_76.java:29: error: class, interface, or enum expected
+                                assertEquals(true, set.get(2));
+                                ^
+CodexTest_0_8_76.java:30: error: class, interface, or enum expected
+                                assertEquals(false, set.get(3));
+                                ^
+CodexTest_0_8_76.java:31: error: class, interface, or enum expected
+                                assertEquals(true, set.get(4));
+                                ^
+CodexTest_0_8_76.java:32: error: class, interface, or enum expected
+                                assertEquals(false, set.get(5));
+                                ^
+CodexTest_0_8_76.java:33: error: class, interface, or enum expected
+                                set.remove(2);
+                                ^
+CodexTest_0_8_76.java:34: error: class, interface, or enum expected
+                                assertEquals(true, set.get(0));
+                                ^
+CodexTest_0_8_76.java:35: error: class, interface, or enum expected
+                                assertEquals(false, set.get(1));
+                                ^
+CodexTest_0_8_76.java:36: error: class, interface, or enum expected
+                                assertEquals(false, set.get(2));
+                                ^
+CodexTest_0_8_76.java:37: error: class, interface, or enum expected
+                                assertEquals(false, set.get(3));
+                                ^
+CodexTest_0_8_76.java:38: error: class, interface, or enum expected
+                                assertEquals(true, set.get(4));
+                                ^
+CodexTest_0_8_76.java:39: error: class, interface, or enum expected
+                                assertEquals(false, set.get(5));
+                                ^
+CodexTest_0_8_76.java:40: error: class, interface, or enum expected
+                                try {
+                                ^
+CodexTest_0_8_76.java:42: error: class, interface, or enum expected
+                                        fail("Should throw IndexOutOfBoundsException");
+                                        ^
+CodexTest_0_8_76.java:43: error: class, interface, or enum expected
+                                } catch (IndexOutOfBoundsException e) {
+                                ^
+CodexTest_0_8_76.java:48: error: class, interface, or enum expected
+                                        fail("Should throw IndexOutOfBoundsException");
+                                        ^
+CodexTest_0_8_76.java:49: error: class, interface, or enum expected
+                                } catch (IndexOutOfBoundsException e) {
+                                ^
+CodexTest_0_8_76.java:53: error: class, interface, or enum expected
+                                assertEquals(true, set.get(0));
+                                ^
+CodexTest_0_8_76.java:54: error: class, interface, or enum expected
+                                assertEquals(false, set.get(1));
+                                ^
+CodexTest_0_8_76.java:55: error: class, interface, or enum expected
+                                assertEquals(false, set.get(2));
+                                ^
+CodexTest_0_8_76.java:56: error: class, interface, or enum expected
+                                assertEquals(false, set.get(3));
+                                ^
+CodexTest_0_8_76.java:57: error: class, interface, or enum expected
+                                assertEquals(true, set.get(4));
+                                ^
+CodexTest_0_8_76.java:58: error: class, interface, or enum expected
+                                assertEquals(false, set.get(5));
+                                ^
+CodexTest_0_8_76.java:59: error: class, interface, or enum expected
+                                set.remove(0);
+                                ^
+CodexTest_0_8_76.java:60: error: class, interface, or enum expected
+                                assertEquals(false, set.get(0));
+                                ^
+CodexTest_0_8_76.java:61: error: as of release 1.4, 'assert' is a keyword, and may not be used as an identifier
+                                assert
+                                ^
+  (use -source 1.3 or lower to use 'assert' as an identifier)

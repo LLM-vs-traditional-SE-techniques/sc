@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_4_8.java:19: error: no suitable constructor found for AlgVector(no arguments)
+    AlgVector v = new AlgVector();
+                  ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instances,java.util.Random) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_4_8.java:21: error: method getAsInstance in class weka.core.AlgVector cannot be applied to given types;
+    Instance result = v.getAsInstance(new DenseInstance(0));
+                       ^
+  required: weka.core.Instances,java.util.Random
+  found: weka.core.DenseInstance
+  reason: actual and formal argument lists differ in length

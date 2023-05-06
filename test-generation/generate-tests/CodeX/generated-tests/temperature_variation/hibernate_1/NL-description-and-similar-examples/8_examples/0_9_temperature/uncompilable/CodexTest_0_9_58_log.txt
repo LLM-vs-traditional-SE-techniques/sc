@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_58.java:19: error: incompatible types: short cannot be converted to java.lang.Boolean
+        Short result = underTest.toShort((short) 2);
+                                         ^
+CodexTest_0_9_58.java:21: error: cannot find symbol
+        assertThat(result, is(equalTo((short) 2)));
+                              ^
+  symbol:   method equalTo(short)
+  location: class CodexTest_0_9_58
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

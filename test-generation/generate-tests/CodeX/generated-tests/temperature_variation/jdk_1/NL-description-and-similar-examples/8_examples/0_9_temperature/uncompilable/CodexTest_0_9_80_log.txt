@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_80.java:21: error: cannot find symbol
+            int expectedSize = getCollection().size() - 1;
+                               ^
+  symbol:   method getCollection()
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:22: error: cannot find symbol
+            Object o = getArray()[1];
+                       ^
+  symbol:   method getArray()
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:23: error: cannot find symbol
+            assertTrue(getCollection().remove(o));
+                       ^
+  symbol:   method getCollection()
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:24: error: cannot find symbol
+            assertEquals(expectedSize, getCollection().size());
+                                       ^
+  symbol:   method getCollection()
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:25: error: cannot find symbol
+            assertFalse(getCollection().contains(o));
+                        ^
+  symbol:   method getCollection()
+  location: class CodexTest_0_9_80

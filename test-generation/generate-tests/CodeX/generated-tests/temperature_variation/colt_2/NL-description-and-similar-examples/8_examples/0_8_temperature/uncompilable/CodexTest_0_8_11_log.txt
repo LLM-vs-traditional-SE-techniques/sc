@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_11.java:30: error: cannot find symbol
+        final DoubleMatrix2D m = factory.create(new double[][] {{1, 2, 3}, {4, 5, 6}});
+                                 ^
+  symbol:   variable factory
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:32: error: cannot find symbol
+        TestUtils.assertEquals(new double[][] {{1, 4}, {2, 5}, {3, 6}}, t);
+        ^
+  symbol:   variable TestUtils
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:33: error: cannot find symbol
+        t.assign(factory.like2D(3, 2));
+                 ^
+  symbol:   variable factory
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:34: error: cannot find symbol
+        TestUtils.assertEquals(new double[][] {{0, 0}, {0, 0}, {0, 0}}, t);
+        ^
+  symbol:   variable TestUtils
+  location: class CodexTest_0_8_11

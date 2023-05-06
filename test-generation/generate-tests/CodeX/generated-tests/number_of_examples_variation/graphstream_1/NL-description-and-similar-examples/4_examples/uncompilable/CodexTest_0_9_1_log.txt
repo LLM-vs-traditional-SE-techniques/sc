@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_1.java:20: error: cannot find symbol
+        Edge edge1 = new DirectedEdge("a1", "a2");
+                         ^
+  symbol:   class DirectedEdge
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:21: error: cannot find symbol
+        Edge edge2 = new DirectedEdge("a2", "a3");
+                         ^
+  symbol:   class DirectedEdge
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:22: error: cannot find symbol
+        Edge edge3 = new DirectedEdge("a3", "a4");
+                         ^
+  symbol:   class DirectedEdge
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:23: error: cannot find symbol
+        Edge edge4 = new DirectedEdge("a4", "a5");
+                         ^
+  symbol:   class DirectedEdge
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:24: error: cannot find symbol
+        Edge edge5 = new DirectedEdge("a5", "a6");
+                         ^
+  symbol:   class DirectedEdge
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:25: error: cannot find symbol
+        Edge edge6 = new DirectedEdge("a6", "a7");
+                         ^
+  symbol:   class DirectedEdge
+  location: class CodexTest_0_9_1

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_8.java:21: error: cannot find symbol
+        checkBounds(index);
+        ^
+  symbol:   method checkBounds(int)
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:22: error: cannot find symbol
+        elements.remove(index);
+        ^
+  symbol:   variable elements
+  location: class CodexTest_0_7_8

@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_77.java:19: error: cannot find symbol
+    Instances dataset = makeTestDataset(numInstances, 0);
+                        ^
+  symbol:   method makeTestDataset(int,int)
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:23: error: incompatible types: weka.core.Instances cannot be converted to java.util.Random
+      algVector.initialize(dataset);
+                           ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

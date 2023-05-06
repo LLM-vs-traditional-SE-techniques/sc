@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_5.java:48: error: <identifier> expected
+Input: 	
+     ^
+CodexTest_0_9_5.java:73: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_9_5.java:76: error: integer number too large: 9223372036854775808
+		long value = 9223372036854775808L;
+		             ^
+CodexTest_0_9_5.java:78: error: reached end of file while parsing
+}
+ ^

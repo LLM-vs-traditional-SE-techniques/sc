@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_4.java:17: error: cannot find symbol
+		assertEquals( s, converter.toShort( s ) );
+		                 ^
+  symbol:   variable converter
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:18: error: cannot find symbol
+		assertEquals( s, converter.toShort( Boolean.TRUE ) );
+		                 ^
+  symbol:   variable converter
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:19: error: cannot find symbol
+		assertEquals( Short.valueOf( (short) 0 ), converter.toShort( Boolean.FALSE ) );
+		                                          ^
+  symbol:   variable converter
+  location: class CodexTest_0_7_4

@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_8.java:95: error: unclosed string literal
+        list.add("seventy
+                 ^
+CodexTest_0_3_8.java:95: error: ';' expected
+        list.add("seventy
+                         ^
+CodexTest_0_3_8.java:96: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_2.java:38: error: <identifier> expected
+Input: public static void assertThat(boolean b, String message) {
+     ^
+CodexTest_0_8_2.java:42: error: <identifier> expected
+Output: public void assertThatBooleanIsFalseWithMessageTest() {
+      ^

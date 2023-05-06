@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_2_7.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                                            ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_2_7
+CodexTest_0_2_7.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                                                               ^
+  symbol:   class StringReader
+  location: class CodexTest_0_2_7
+CodexTest_0_2_7.java:23: error: cannot find symbol
+        if (m_Elements != null) {
+            ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_2_7
+CodexTest_0_2_7.java:28: error: cannot find symbol
+                    if (j >= m_Elements.length)
+                             ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_2_7
+CodexTest_0_2_7.java:30: error: cannot find symbol
+                    newInst.setValue(i, m_Elements[j++]);
+                                        ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_2_7
+CodexTest_0_2_7.java:33: error: cannot find symbol
+                    int newVal = (int) (random.nextDouble() * (double) (model
+                                        ^
+  symbol:   variable random
+  location: class CodexTest_0_2_7
+CodexTest_0_2_7.java:41: error: cannot find symbol
+        assertEquals(newInst, getAsInstance(model, random));
+                                                   ^
+  symbol:   variable random
+  location: class CodexTest_0_2_7

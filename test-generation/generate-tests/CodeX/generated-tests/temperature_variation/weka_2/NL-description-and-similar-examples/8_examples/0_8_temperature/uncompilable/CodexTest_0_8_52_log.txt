@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_52.java:18: error: cannot find symbol
+	AlgMatrix matrix3 = new AlgMatrix(matrix2);
+	^
+  symbol:   class AlgMatrix
+  location: class CodexTest_0_8_52
+CodexTest_0_8_52.java:18: error: cannot find symbol
+	AlgMatrix matrix3 = new AlgMatrix(matrix2);
+	                        ^
+  symbol:   class AlgMatrix
+  location: class CodexTest_0_8_52
+CodexTest_0_8_52.java:18: error: cannot find symbol
+	AlgMatrix matrix3 = new AlgMatrix(matrix2);
+	                                  ^
+  symbol:   variable matrix2
+  location: class CodexTest_0_8_52
+CodexTest_0_8_52.java:20: error: cannot find symbol
+	assertEquals("equals must be true", matrix2, matrix3);
+	                                    ^
+  symbol:   variable matrix2
+  location: class CodexTest_0_8_52
+CodexTest_0_8_52.java:21: error: cannot find symbol
+	assertNotSame("equals must be false", matrix2, matrix3);
+	                                      ^
+  symbol:   variable matrix2
+  location: class CodexTest_0_8_52

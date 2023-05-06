@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_8_48.java:65: error: cannot find symbol
+            String opType = randomAsciiOfLengthBetween(3, 10);
+                            ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_8_48
+CodexTest_0_8_48.java:66: error: cannot find symbol
+            String[] randomFields = generateRandomStringArray(10, 10, false, false);
+                                    ^
+  symbol:   method generateRandomStringArray(int,int,boolean,boolean)
+  location: class CodexTest_0_8_48
+CodexTest_0_8_48.java:67: error: cannot find symbol
+            XContentType xContentType = randomFrom(XContentType.values());
+                                        ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_8_48
+CodexTest_0_8_48.java:68: error: cannot find symbol
+            BytesReference bytes = toShuffledXContent(this.source, xContentType, ToXContent.EMPTY_PARAMS, randomFields);
+                                                          ^
+  symbol: variable source
+CodexTest_0_8_48.java:68: error: cannot find symbol
+            BytesReference bytes = toShuffledXContent(this.source, xContentType, ToXContent.EMPTY_PARAMS, randomFields);
+                                                                                 ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_8_48

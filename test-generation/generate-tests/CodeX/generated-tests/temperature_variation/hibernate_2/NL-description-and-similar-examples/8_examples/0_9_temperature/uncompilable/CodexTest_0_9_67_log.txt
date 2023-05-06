@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_67.java:16: error: cannot find symbol
+    assertTrue(isTrue("true"));
+               ^
+  symbol:   method isTrue(java.lang.String)
+  location: class CodexTest_0_9_67
+CodexTest_0_9_67.java:17: error: cannot find symbol
+    assertTrue(isTrue("TrUE"));
+               ^
+  symbol:   method isTrue(java.lang.String)
+  location: class CodexTest_0_9_67
+CodexTest_0_9_67.java:18: error: cannot find symbol
+    assertFalse(isTrue("false"));
+                ^
+  symbol:   method isTrue(java.lang.String)
+  location: class CodexTest_0_9_67
+CodexTest_0_9_67.java:19: error: cannot find symbol
+    assertFalse(isTrue("something else"));
+                ^
+  symbol:   method isTrue(java.lang.String)
+  location: class CodexTest_0_9_67

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_4.java:21: error: cannot find symbol
+        assertTrue("Expected to contain foo", m_Vector.contains("foo"));
+                                              ^
+  symbol:   variable m_Vector
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:22: error: cannot find symbol
+        assertFalse("Expected not to contain bar", m_Vector.contains("bar"));
+                                                   ^
+  symbol:   variable m_Vector
+  location: class CodexTest_0_5_4

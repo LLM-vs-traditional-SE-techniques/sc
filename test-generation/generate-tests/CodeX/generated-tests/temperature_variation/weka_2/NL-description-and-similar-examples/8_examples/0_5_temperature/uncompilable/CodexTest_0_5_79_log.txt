@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_5_79.java:62: error: not a statement
+    test.setUseS
+        ^
+CodexTest_0_5_79.java:62: error: ';' expected
+    test.setUseS
+                ^
+CodexTest_0_5_79.java:63: error: reached end of file while parsing
+}
+ ^

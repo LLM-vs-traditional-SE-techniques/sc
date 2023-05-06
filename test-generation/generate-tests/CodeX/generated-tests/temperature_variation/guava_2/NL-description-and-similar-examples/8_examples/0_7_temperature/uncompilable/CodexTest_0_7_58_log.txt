@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_58.java:25: error: cannot find symbol
+        ByteBuffer bb = ByteBuffer.allocate(4).order(ByteOrder.LITTLE_ENDIAN);
+        ^
+  symbol:   class ByteBuffer
+  location: class CodexTest_0_7_58
+CodexTest_0_7_58.java:25: error: cannot find symbol
+        ByteBuffer bb = ByteBuffer.allocate(4).order(ByteOrder.LITTLE_ENDIAN);
+                                                     ^
+  symbol:   variable ByteOrder
+  location: class CodexTest_0_7_58
+CodexTest_0_7_58.java:25: error: cannot find symbol
+        ByteBuffer bb = ByteBuffer.allocate(4).order(ByteOrder.LITTLE_ENDIAN);
+                        ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_7_58
+CodexTest_0_7_58.java:30: error: cannot find symbol
+        BitVector bv = BitVector.fromBytes(bytes);
+        ^
+  symbol:   class BitVector
+  location: class CodexTest_0_7_58
+CodexTest_0_7_58.java:30: error: cannot find symbol
+        BitVector bv = BitVector.fromBytes(bytes);
+                       ^
+  symbol:   variable BitVector
+  location: class CodexTest_0_7_58

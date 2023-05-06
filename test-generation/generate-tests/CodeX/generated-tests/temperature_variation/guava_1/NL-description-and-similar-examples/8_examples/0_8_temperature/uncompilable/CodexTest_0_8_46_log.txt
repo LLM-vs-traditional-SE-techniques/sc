@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_46.java:27: error: cannot find symbol
+        assertEquals(Objects.hashCode(o), hashCode.asInt());
+                     ^
+  symbol:   variable Objects
+  location: class CodexTest_0_8_46
+CodexTest_0_8_46.java:28: error: cannot find symbol
+        assertEquals(Objects.hashCode(o), hashCode.hashCode());
+                     ^
+  symbol:   variable Objects
+  location: class CodexTest_0_8_46
+CodexTest_0_8_46.java:29: error: cannot find symbol
+        assertEquals(Objects.hashCode(o), hashCode.asBytes()[0]);
+                     ^
+  symbol:   variable Objects
+  location: class CodexTest_0_8_46
+CodexTest_0_8_46.java:30: error: cannot find symbol
+        assertEquals(Objects.hashCode(o), hashCode.asLong());
+                     ^
+  symbol:   variable Objects
+  location: class CodexTest_0_8_46

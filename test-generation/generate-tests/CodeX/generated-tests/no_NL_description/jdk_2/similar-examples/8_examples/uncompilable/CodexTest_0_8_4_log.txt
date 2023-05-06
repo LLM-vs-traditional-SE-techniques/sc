@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_4.java:21: error: cannot find symbol
+        assertTrue(small.contains(n3));
+                                  ^
+  symbol:   variable n3
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:21: error: cannot find symbol
+        assertTrue(small.contains(n3));
+                   ^
+  symbol:   variable small
+  location: class CodexTest_0_8_4

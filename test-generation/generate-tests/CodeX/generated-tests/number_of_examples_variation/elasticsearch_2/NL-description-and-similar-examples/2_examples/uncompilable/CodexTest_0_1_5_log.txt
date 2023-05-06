@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_1_5.java:65: error: cannot find symbol
+        XContentType xContentType = randomFrom(XContentType.values());
+                                    ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_1_5

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_4.java:16: error: cannot find symbol
+        assertNull(BooleanUtils.toBooleanObject(null));
+                   ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_6_4

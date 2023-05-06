@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_19.java:20: error: cannot find symbol
+		Path path = new Path(startVertex.addEdge(endVertex));
+		                                         ^
+  symbol:   variable endVertex
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:20: error: cannot find symbol
+		Path path = new Path(startVertex.addEdge(endVertex));
+		                     ^
+  symbol:   variable startVertex
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:21: error: cannot find symbol
+		Assert.assertTrue(path.contains(startVertex.getOutgoingEdges().iterator().next()));
+		                                ^
+  symbol:   variable startVertex
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:22: error: cannot find symbol
+		Assert.assertFalse(path.contains(startVertex.addEdge(endVertex)));
+		                                                     ^
+  symbol:   variable endVertex
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:22: error: cannot find symbol
+		Assert.assertFalse(path.contains(startVertex.addEdge(endVertex)));
+		                                 ^
+  symbol:   variable startVertex
+  location: class CodexTest_0_9_19

@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_39.java:21: error: cannot find symbol
+    Instances i = new Instances(m_Instances);
+                                ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_39
+CodexTest_0_9_39.java:22: error: cannot find symbol
+    DoubleVector v = new DoubleVector(m_Instance.toDoubleArray());
+    ^
+  symbol:   class DoubleVector
+  location: class CodexTest_0_9_39
+CodexTest_0_9_39.java:22: error: cannot find symbol
+    DoubleVector v = new DoubleVector(m_Instance.toDoubleArray());
+                         ^
+  symbol:   class DoubleVector
+  location: class CodexTest_0_9_39
+CodexTest_0_9_39.java:22: error: cannot find symbol
+    DoubleVector v = new DoubleVector(m_Instance.toDoubleArray());
+                                      ^
+  symbol:   variable m_Instance
+  location: class CodexTest_0_9_39
+CodexTest_0_9_39.java:34: error: cannot find symbol
+       if (!Utils.eq(newInst.value(j), m_Instance.value(j))) {
+                                       ^
+  symbol:   variable m_Instance
+  location: class CodexTest_0_9_39
+CodexTest_0_9_39.java:41: error: cannot find symbol
+    assertTrue(!m_Instance.classIsMissing() || !correctClass);
+                ^
+  symbol:   variable m_Instance
+  location: class CodexTest_0_9_39

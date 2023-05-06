@@ -1,0 +1,29 @@
+isCompilable => false
+CodexTest_0_9_5.java:21: error: cannot find symbol
+        assertFalse(this.empty.contains((Object) null));
+                        ^
+  symbol: variable empty
+CodexTest_0_9_5.java:22: error: cannot find symbol
+        assertFalse(this.empty.contains(this.one));
+                                            ^
+  symbol: variable one
+CodexTest_0_9_5.java:22: error: cannot find symbol
+        assertFalse(this.empty.contains(this.one));
+                        ^
+  symbol: variable empty
+CodexTest_0_9_5.java:23: error: cannot find symbol
+        assertFalse(this.empty.contains(this.two));
+                                            ^
+  symbol: variable two
+CodexTest_0_9_5.java:23: error: cannot find symbol
+        assertFalse(this.empty.contains(this.two));
+                        ^
+  symbol: variable empty
+CodexTest_0_9_5.java:24: error: cannot find symbol
+        assertFalse(this.empty.contains(this.three));
+                                            ^
+  symbol: variable three
+CodexTest_0_9_5.java:24: error: cannot find symbol
+        assertFalse(this.empty.contains(this.three));
+                        ^
+  symbol: variable empty

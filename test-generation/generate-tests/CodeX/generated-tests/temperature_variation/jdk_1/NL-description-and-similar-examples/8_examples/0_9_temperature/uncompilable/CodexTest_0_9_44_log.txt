@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_44.java:23: error: incompatible types: java.util.List<java.lang.Object> cannot be converted to java.util.Collection<java.lang.String>
+            List<String> list = new ArrayList<>((java.util.Collection<String>) Arrays.asList(array));
+                                                                                            ^

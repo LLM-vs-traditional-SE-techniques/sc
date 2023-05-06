@@ -1,0 +1,48 @@
+isCompilable => false
+CodexTest_0_3_6.java:21: error: cannot find symbol
+        assertTrue("contains", c.contains(new Integer(8)));
+                               ^
+  symbol:   variable c
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:22: error: cannot find symbol
+        assertTrue("contains", !c.contains(new Integer(3)));
+                                ^
+  symbol:   variable c
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:25: error: cannot find symbol
+        assertTrue("contains null", !c.contains(null));
+                                     ^
+  symbol:   variable c
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:26: error: cannot find symbol
+        c.add(null);
+        ^
+  symbol:   variable c
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:27: error: cannot find symbol
+        assertTrue("contains null", c.contains(null));
+                                    ^
+  symbol:   variable c
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:30: error: cannot find symbol
+        assertTrue("contains null", !c.containsAll(l));
+                                     ^
+  symbol:   variable c
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:32: error: cannot find symbol
+        assertTrue("contains null", !c.containsAll(l));
+                                     ^
+  symbol:   variable c
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:34: error: cannot find symbol
+        assertTrue("contains null", !c.containsAll(l));
+                                     ^
+  symbol:   variable c
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:36: error: cannot find symbol
+        assertTrue("contains null", c.containsAll(l));
+                                    ^
+  symbol:   variable c
+  location: class CodexTest_0_3_6
+Note: CodexTest_0_3_6.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

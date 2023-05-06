@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_35.java:16: error: cannot find symbol
+      Assert.assertFalse(com.google.gwt.core.GWT.isClient());
+                                            ^
+  symbol:   class GWT
+  location: package com.google.gwt.core

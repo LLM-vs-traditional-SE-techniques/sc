@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_93.java:19: error: cannot find symbol
+    @Parameters(method = "getPaths")
+     ^
+  symbol:   class Parameters
+  location: class CodexTest_0_7_93

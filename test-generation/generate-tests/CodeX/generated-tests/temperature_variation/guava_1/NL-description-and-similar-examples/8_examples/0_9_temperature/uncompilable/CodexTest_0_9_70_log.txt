@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_70.java:26: error: cannot find symbol
+			HashCode hashCode1 = HashCode.fromLongs(ints);
+			                             ^
+  symbol:   method fromLongs(int[])
+  location: class com.google.common.hash.HashCode
+CodexTest_0_9_70.java:27: error: cannot find symbol
+			HashCode hashCode2 = HashCode.fromInts(ints);
+			                             ^
+  symbol:   method fromInts(int[])
+  location: class com.google.common.hash.HashCode

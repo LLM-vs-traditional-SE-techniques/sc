@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_50.java:67: error: <identifier> expected
+        builder.searchSource(sourceBuilder);
+                            ^
+CodexTest_0_9_50.java:67: error: <identifier> expected
+        builder.searchSource(sourceBuilder);
+                                          ^

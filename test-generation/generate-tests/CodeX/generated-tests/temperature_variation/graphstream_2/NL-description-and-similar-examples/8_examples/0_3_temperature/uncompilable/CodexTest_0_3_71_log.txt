@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_3_71.java:23: error: cannot find symbol
+        Graph g = createSimpleGraph();
+                  ^
+  symbol:   method createSimpleGraph()
+  location: class CodexTest_0_3_71
+CodexTest_0_3_71.java:24: error: cannot find symbol
+        p1.setRoot(g.getNode(a));
+                             ^
+  symbol:   variable a
+  location: class CodexTest_0_3_71
+CodexTest_0_3_71.java:25: error: cannot find symbol
+        p2.setRoot(g.getNode(b));
+                             ^
+  symbol:   variable b
+  location: class CodexTest_0_3_71
+CodexTest_0_3_71.java:26: error: cannot find symbol
+        p3.setRoot(g.getNode(a));
+                             ^
+  symbol:   variable a
+  location: class CodexTest_0_3_71
+CodexTest_0_3_71.java:27: error: cannot find symbol
+        p1.add(g.getEdge(ab));
+                         ^
+  symbol:   variable ab
+  location: class CodexTest_0_3_71
+CodexTest_0_3_71.java:28: error: cannot find symbol
+        p1.add(g.getEdge(bc));
+                         ^
+  symbol:   variable bc
+  location: class CodexTest_0_3_71
+CodexTest_0_3_71.java:29: error: cannot find symbol
+        p2.add(g.getEdge(bc));
+                         ^
+  symbol:   variable bc
+  location: class CodexTest_0_3_71
+CodexTest_0_3_71.java:30: error: cannot find symbol
+        p2.add(g.getEdge(cd));
+                         ^
+  symbol:   variable cd
+  location: class CodexTest_0_3_71
+CodexTest_0_3_71.java:31: error: cannot find symbol
+        p3.add(g.getEdge(ab));
+                         ^
+  symbol:   variable ab
+  location: class CodexTest_0_3_71
+CodexTest_0_3_71.java:32: error: cannot find symbol
+        p3.add(g.getEdge(bc));
+                         ^
+  symbol:   variable bc
+  location: class CodexTest_0_3_71

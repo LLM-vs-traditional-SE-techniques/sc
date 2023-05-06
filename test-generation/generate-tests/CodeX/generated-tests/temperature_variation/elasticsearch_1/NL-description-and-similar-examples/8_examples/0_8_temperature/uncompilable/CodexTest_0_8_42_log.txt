@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_42.java:65: error: cannot find symbol
+        SearchRequest searchRequest = new SearchRequest().source(new SearchSourceBuilder().query(matchAllQuery()).sort(new FieldSortBuilder("field").order(SortOrder.ASC)));
+        ^
+  symbol:   class SearchRequest
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:65: error: cannot find symbol
+        SearchRequest searchRequest = new SearchRequest().source(new SearchSourceBuilder().query(matchAllQuery()).sort(new FieldSortBuilder("field").order(SortOrder.ASC)));
+                                                                                                                                                           ^
+  symbol:   variable SortOrder
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:65: error: cannot find symbol
+        SearchRequest searchRequest = new SearchRequest().source(new SearchSourceBuilder().query(matchAllQuery()).sort(new FieldSortBuilder("field").order(SortOrder.ASC)));
+                                                                                                                           ^
+  symbol:   class FieldSortBuilder
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:65: error: cannot find symbol
+        SearchRequest searchRequest = new SearchRequest().source(new SearchSourceBuilder().query(matchAllQuery()).sort(new FieldSortBuilder("field").order(SortOrder.ASC)));
+                                                                                                 ^
+  symbol:   method matchAllQuery()
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:65: error: cannot find symbol
+        SearchRequest searchRequest = new SearchRequest().source(new SearchSourceBuilder().query(matchAllQuery()).sort(new FieldSortBuilder("field").order(SortOrder.ASC)));
+                                                                     ^
+  symbol:   class SearchSourceBuilder
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:65: error: cannot find symbol
+        SearchRequest searchRequest = new SearchRequest().source(new SearchSourceBuilder().query(matchAllQuery()).sort(new FieldSortBuilder("field").order(SortOrder.ASC)));
+                                          ^
+  symbol:   class SearchRequest
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:66: error: cannot find symbol
+        assertThat(searchRequest.parent(), equalTo(null));
+                                           ^
+  symbol:   method equalTo(<nulltype>)
+  location: class CodexTest_0_8_42

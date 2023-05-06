@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_2_3.java:23: error: cannot find symbol
+        Instances dataset = new Instances(new BufferedReader(new StringReader(
+                                              ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_2_3
+CodexTest_0_2_3.java:23: error: cannot find symbol
+        Instances dataset = new Instances(new BufferedReader(new StringReader(
+                                                                 ^
+  symbol:   class StringReader
+  location: class CodexTest_0_2_3
+CodexTest_0_2_3.java:24: error: cannot find symbol
+                InstancesTest.makeInstancesTestString(numInstances, numAttributes,
+                ^
+  symbol:   variable InstancesTest
+  location: class CodexTest_0_2_3
+CodexTest_0_2_3.java:32: error: cannot find symbol
+        assertEquals(numNominal, inst.numNominalAttributes());
+                                     ^
+  symbol:   method numNominalAttributes()
+  location: variable inst of type weka.core.Instance
+CodexTest_0_2_3.java:33: error: cannot find symbol
+        assertEquals(numNumeric, inst.numNumericAttributes());
+                                     ^
+  symbol:   method numNumericAttributes()
+  location: variable inst of type weka.core.Instance

@@ -1,0 +1,64 @@
+isCompilable => false
+CodexTest_0_6_4.java:20: error: cannot find symbol
+		EdgePath ep = new EdgePath(Arrays.asList(new Edge(1, 2), new Edge(2, 3)));
+		^
+  symbol:   class EdgePath
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:20: error: cannot find symbol
+		EdgePath ep = new EdgePath(Arrays.asList(new Edge(1, 2), new Edge(2, 3)));
+		                  ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:20: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		EdgePath ep = new EdgePath(Arrays.asList(new Edge(1, 2), new Edge(2, 3)));
+		                                         ^
+CodexTest_0_6_4.java:20: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		EdgePath ep = new EdgePath(Arrays.asList(new Edge(1, 2), new Edge(2, 3)));
+		                                                         ^
+CodexTest_0_6_4.java:20: error: cannot find symbol
+		EdgePath ep = new EdgePath(Arrays.asList(new Edge(1, 2), new Edge(2, 3)));
+		                           ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:21: error: cannot find symbol
+		EdgePath ep2 = new EdgePath(Arrays.asList(new Edge(1, 2), new Edge(2, 3), new Edge(3, 4)));
+		^
+  symbol:   class EdgePath
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:21: error: cannot find symbol
+		EdgePath ep2 = new EdgePath(Arrays.asList(new Edge(1, 2), new Edge(2, 3), new Edge(3, 4)));
+		                   ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		EdgePath ep2 = new EdgePath(Arrays.asList(new Edge(1, 2), new Edge(2, 3), new Edge(3, 4)));
+		                                          ^
+CodexTest_0_6_4.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		EdgePath ep2 = new EdgePath(Arrays.asList(new Edge(1, 2), new Edge(2, 3), new Edge(3, 4)));
+		                                                          ^
+CodexTest_0_6_4.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		EdgePath ep2 = new EdgePath(Arrays.asList(new Edge(1, 2), new Edge(2, 3), new Edge(3, 4)));
+		                                                                          ^
+CodexTest_0_6_4.java:21: error: cannot find symbol
+		EdgePath ep2 = new EdgePath(Arrays.asList(new Edge(1, 2), new Edge(2, 3), new Edge(3, 4)));
+		                            ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		assertTrue(ep.contains(new Edge(1, 2)));
+		                       ^
+CodexTest_0_6_4.java:23: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		assertTrue(ep2.contains(new Edge(1, 2)));
+		                        ^
+CodexTest_0_6_4.java:24: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		assertTrue(ep2.contains(new Edge(2, 3)));
+		                        ^
+CodexTest_0_6_4.java:25: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		assertTrue(ep2.contains(new Edge(3, 4)));
+		                        ^
+CodexTest_0_6_4.java:26: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		assertFalse(ep.contains(new Edge(1, 3)));
+		                        ^
+CodexTest_0_6_4.java:27: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		assertFalse(ep2.contains(new Edge(4, 3)));
+		                         ^

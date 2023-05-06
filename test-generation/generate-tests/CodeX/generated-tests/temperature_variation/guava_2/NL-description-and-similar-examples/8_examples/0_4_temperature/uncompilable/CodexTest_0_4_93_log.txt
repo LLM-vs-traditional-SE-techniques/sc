@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_4_93.java:26: error: int cannot be dereferenced
+    int writtenBytes = Ints.fromByteArray(new byte[] {0, 1, 2, 3, 4}).writeBytesTo(dest, 1, 3);
+                                                                     ^

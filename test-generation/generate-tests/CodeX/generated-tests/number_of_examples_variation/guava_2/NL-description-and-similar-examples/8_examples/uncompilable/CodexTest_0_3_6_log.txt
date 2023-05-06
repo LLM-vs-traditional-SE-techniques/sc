@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_6.java:26: error: com.google.common.hash.HashCode is abstract; cannot be instantiated
+    assertEquals(5, new HashCode(new byte[] {(byte) 0xde, (byte) 0xad, (byte) 0xbe, (byte) 0xef, (byte) 0xde, (byte) 0xad, (byte) 0xbe, (byte) 0xef, (byte) 0xde, (byte) 0xad, (byte) 0xbe, (byte) 0xef, (byte) 0xde, (byte) 0xad, (byte) 0xbe, (byte) 0xef, (byte) 0xde, (byte) 0xad, (byte) 0xbe, (byte) 0xef}).writeBytesTo(dest, 0, dest.length));
+                    ^
+CodexTest_0_3_6.java:27: error: com.google.common.hash.HashCode is abstract; cannot be instantiated
+    assertEquals(new HashCode(new byte[] {(byte) 0xde, (byte) 0xad, (byte) 0xbe, (byte) 0xef, (byte) 0xde}), HashCode.fromBytesNoCopy(dest));
+                 ^
+CodexTest_0_3_6.java:27: error: fromBytesNoCopy(byte[]) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+    assertEquals(new HashCode(new byte[] {(byte) 0xde, (byte) 0xad, (byte) 0xbe, (byte) 0xef, (byte) 0xde}), HashCode.fromBytesNoCopy(dest));
+                                                                                                                     ^

@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_42.java:21: error: cannot find symbol
+        assertTrue(arrayList.contains(null));
+                   ^
+  symbol:   variable arrayList
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:22: error: cannot find symbol
+        assertTrue(arrayList.contains(new Integer(0)));
+                   ^
+  symbol:   variable arrayList
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:23: error: cannot find symbol
+        assertTrue(arrayList.contains(new Integer(1)));
+                   ^
+  symbol:   variable arrayList
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:24: error: cannot find symbol
+        assertTrue(arrayList.contains(new Integer(7)));
+                   ^
+  symbol:   variable arrayList
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:25: error: cannot find symbol
+        assertTrue(arrayList.contains(new Integer(99)));
+                   ^
+  symbol:   variable arrayList
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:26: error: cannot find symbol
+        assertFalse(arrayList.contains(new Integer(-1)));
+                    ^
+  symbol:   variable arrayList
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:27: error: cannot find symbol
+        assertFalse(arrayList.contains(new Integer(100)));
+                    ^
+  symbol:   variable arrayList
+  location: class CodexTest_0_8_42

@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_4_15.java:69: error: cannot find symbol
+        Group g = new Group(parent);
+        ^
+  symbol:   class Group
+  location: class CodexTest_0_4_15
+CodexTest_0_4_15.java:69: error: cannot find symbol
+        Group g = new Group(parent);
+                      ^
+  symbol:   class Group
+  location: class CodexTest_0_4_15
+CodexTest_0_4_15.java:70: error: cannot find symbol
+        Group gc = new Group(child, parent);
+        ^
+  symbol:   class Group
+  location: class CodexTest_0_4_15
+CodexTest_0_4_15.java:70: error: cannot find symbol
+        Group gc = new Group(child, parent);
+                       ^
+  symbol:   class Group
+  location: class CodexTest_0_4_15
+CodexTest_0_4_15.java:71: error: cannot find symbol
+        Group ggc = new Group(grandchild, child);
+        ^
+  symbol:   class Group
+  location: class CodexTest_0_4_15
+CodexTest_0_4_15.java:71: error: cannot find symbol
+        Group ggc = new Group(grandchild, child);
+                        ^
+  symbol:   class Group
+  location: class CodexTest_0_4_15
+CodexTest_0_4_15.java:72: error: cannot find symbol
+        Group gggc = new Group(greatgrandchild, grandchild);
+        ^
+  symbol:   class Group
+  location: class CodexTest_0_4_15
+CodexTest_0_4_15.java:72: error: cannot find symbol
+        Group gggc = new Group(greatgrandchild, grandchild);
+                         ^
+  symbol:   class Group
+  location: class CodexTest_0_4_15

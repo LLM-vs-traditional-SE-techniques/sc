@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_5.java:53: error: <identifier> expected
+        assertFalse(this.empty.
+                               ^
+CodexTest_0_3_5.java:54: error: reached end of file while parsing
+}
+ ^

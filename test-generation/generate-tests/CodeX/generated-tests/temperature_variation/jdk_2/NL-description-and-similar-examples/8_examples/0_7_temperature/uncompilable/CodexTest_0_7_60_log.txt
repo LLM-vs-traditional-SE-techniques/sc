@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_60.java:22: error: cannot find symbol
+        TestEntity entity = new TestEntity();
+        ^
+  symbol:   class TestEntity
+  location: class CodexTest_0_7_60
+CodexTest_0_7_60.java:22: error: cannot find symbol
+        TestEntity entity = new TestEntity();
+                                ^
+  symbol:   class TestEntity
+  location: class CodexTest_0_7_60

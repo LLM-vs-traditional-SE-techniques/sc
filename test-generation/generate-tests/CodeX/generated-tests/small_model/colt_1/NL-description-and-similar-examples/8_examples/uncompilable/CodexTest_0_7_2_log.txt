@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_7_2.java:30: error: incompatible types: CodexTest_0_7_2 cannot be converted to double[][]
+        return new DenseDoubleMatrix2D(this);
+                                       ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

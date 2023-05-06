@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_4.java:65: error: cannot find symbol
+    	assertNull(new Folder().parent());
+    	               ^
+  symbol:   class Folder
+  location: class CodexTest_0_8_4

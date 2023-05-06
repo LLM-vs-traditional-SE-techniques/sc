@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_34.java:29: error: no suitable method found for assertThat(byte[])
+    assertThat(dest).asList().containsExactly(0, 0x34, (byte) 0xAB, 0).inOrder();
+    ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))

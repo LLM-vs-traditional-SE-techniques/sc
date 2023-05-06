@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_2.java:23: error: <identifier> expected
+Input: private int getfix(int n) { return n>=0?n:1;}
+     ^
+CodexTest_0_9_2.java:24: error: <identifier> expected
+Output: public void testGetDomain() {
+      ^

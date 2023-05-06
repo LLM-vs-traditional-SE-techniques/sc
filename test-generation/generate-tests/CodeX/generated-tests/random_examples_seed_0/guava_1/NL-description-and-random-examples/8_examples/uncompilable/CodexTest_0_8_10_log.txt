@@ -1,0 +1,97 @@
+isCompilable => false
+CodexTest_0_8_10.java:29: error: ';' expected
+Suggest a test for a method with the HashCode fromInt(int hash) signature.
+         ^
+CodexTest_0_8_10.java:29: error: <identifier> expected
+Suggest a test for a method with the HashCode fromInt(int hash) signature.
+              ^
+CodexTest_0_8_10.java:29: error: ';' expected
+Suggest a test for a method with the HashCode fromInt(int hash) signature.
+                           ^
+CodexTest_0_8_10.java:29: error: ';' expected
+Suggest a test for a method with the HashCode fromInt(int hash) signature.
+                                    ^
+CodexTest_0_8_10.java:29: error: ';' expected
+Suggest a test for a method with the HashCode fromInt(int hash) signature.
+                                                               ^
+CodexTest_0_8_10.java:30: error: ';' expected
+Suggest a test for a method with the HashCode fromBytes(byte[] bytes) signature.
+                                                                    ^
+CodexTest_0_8_10.java:31: error: ';' expected
+Suggest a test for a method with the int asInt() signature.
+         ^
+CodexTest_0_8_10.java:31: error: <identifier> expected
+Suggest a test for a method with the int asInt() signature.
+              ^
+CodexTest_0_8_10.java:31: error: ';' expected
+Suggest a test for a method with the int asInt() signature.
+                           ^
+CodexTest_0_8_10.java:31: error: ';' expected
+Suggest a test for a method with the int asInt() signature.
+                                    ^
+CodexTest_0_8_10.java:31: error: ';' expected
+Suggest a test for a method with the int asInt() signature.
+                                                ^
+CodexTest_0_8_10.java:32: error: ';' expected
+Suggest a test for a method with the long asLong() signature.
+                                                  ^
+CodexTest_0_8_10.java:33: error: ';' expected
+Suggest a test for a method with the byte[] asBytes() signature.
+                                                     ^
+CodexTest_0_8_10.java:34: error: ';' expected
+Suggest a test for a method with the public Builder toString() signature.
+                                                              ^
+CodexTest_0_8_10.java:35: error: ';' expected
+Suggest a test for a method with the public Builder append(char c) signature.
+                                                                  ^
+CodexTest_0_8_10.java:36: error: ';' expected
+Suggest a test for a method with the public Builder append(Object obj) signature.
+                                                                      ^
+CodexTest_0_8_10.java:37: error: ';' expected
+Suggest a test for a method with the public Builder append(String string) signature.
+                                                                         ^
+CodexTest_0_8_10.java:38: error: ';' expected
+Suggest a test for a method with the public Builder append(boolean b) signature.
+                                                                     ^
+CodexTest_0_8_10.java:39: error: ';' expected
+Suggest a test for a method with the public Builder append(char[] chars) signature.
+                                                                        ^
+CodexTest_0_8_10.java:40: error: ';' expected
+Suggest a test for a method with the public Builder append(char[] chars, int start, int length) signature.
+                                                                                               ^
+CodexTest_0_8_10.java:41: error: ';' expected
+Suggest a test for a method with the public Builder append(CharSequence charSequence) signature.
+                                                                                     ^
+CodexTest_0_8_10.java:42: error: ';' expected
+Suggest a test for a method with the public Builder append(CharSequence charSequence, int start, int end) signature.
+                                                                                                         ^
+CodexTest_0_8_10.java:43: error: ';' expected
+Suggest a test for a method with the public Builder appendCodePoint(int codepoint) signature.
+                                                                                  ^
+CodexTest_0_8_10.java:44: error: ';' expected
+Suggest a test for a method with the public <T> Builder appendAll(T... elements) signature.
+                                                                                ^
+CodexTest_0_8_10.java:45: error: ';' expected
+Suggest a test for a method with the public <T> Builder appendAll(Iterable<? extends T> elements) signature.
+                                                                                                 ^
+CodexTest_0_8_10.java:46: error: ';' expected
+Suggest a test for a method with the public Builder appendNull() signature.
+                                                                ^
+CodexTest_0_8_10.java:47: error: ';' expected
+Suggest a test for a method with the public Builder appendNull(String nullText) signature.
+                                                                               ^
+CodexTest_0_8_10.java:48: error: ';' expected
+Suggest a test for a method with the public Builder appendValue(Object value) signature.
+                                                                             ^
+CodexTest_0_8_10.java:49: error: ';' expected
+Suggest a test for a method with the public Builder appendValue(char value) signature.
+                                                                           ^
+CodexTest_0_8_10.java:50: error: ';' expected
+Suggest a test for a method with the public Builder appendValue(boolean value) signature.
+                                                                              ^
+CodexTest_0_8_10.java:51: error: <identifier> expected
+Suggest a test for a method with the public Builder
+                                                   ^
+CodexTest_0_8_10.java:52: error: reached end of file while parsing
+}
+ ^

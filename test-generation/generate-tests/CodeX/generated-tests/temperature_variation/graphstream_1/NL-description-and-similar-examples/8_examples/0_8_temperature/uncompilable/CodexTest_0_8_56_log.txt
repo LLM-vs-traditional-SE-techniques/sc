@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_8_56.java:21: error: cannot find symbol
+		DirectedGraph<Vertex, Edge> directedGraph = createSimpleDirectedGraph();
+		^
+  symbol:   class DirectedGraph
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:21: error: cannot find symbol
+		DirectedGraph<Vertex, Edge> directedGraph = createSimpleDirectedGraph();
+		              ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:21: error: cannot find symbol
+		DirectedGraph<Vertex, Edge> directedGraph = createSimpleDirectedGraph();
+		                                            ^
+  symbol:   method createSimpleDirectedGraph()
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:22: error: cannot find symbol
+		Path<Vertex, Edge> path = createPath(directedGraph);
+		     ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:22: error: type org.graphstream.graph.Path does not take parameters
+		Path<Vertex, Edge> path = createPath(directedGraph);
+		    ^

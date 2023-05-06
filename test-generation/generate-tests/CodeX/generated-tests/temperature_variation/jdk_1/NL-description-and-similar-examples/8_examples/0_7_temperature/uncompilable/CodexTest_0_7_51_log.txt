@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_51.java:21: error: cannot find symbol
+			for (int i = 0; i < list.size(); i++) {
+			                    ^
+  symbol:   variable list
+  location: class CodexTest_0_7_51
+CodexTest_0_7_51.java:22: error: cannot find symbol
+				Integer x = list.get(i);
+				            ^
+  symbol:   variable list
+  location: class CodexTest_0_7_51
+CodexTest_0_7_51.java:23: error: cannot find symbol
+				assertEquals(x, list.remove(i));
+				                ^
+  symbol:   variable list
+  location: class CodexTest_0_7_51
+CodexTest_0_7_51.java:25: error: cannot find symbol
+			assertTrue(list.isEmpty());
+			           ^
+  symbol:   variable list
+  location: class CodexTest_0_7_51

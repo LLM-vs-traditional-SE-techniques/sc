@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_4_1.java:23: error: ')' expected
+								       "A,B,C\n"
+								                ^
+CodexTest_0_4_1.java:24: error: ')' expected
+								       "1,1,1\n"
+								                ^
+CodexTest_0_4_1.java:25: error: ';' expected
+								       "2,2,2\n"
+								                ^
+CodexTest_0_4_1.java:27: error: not a statement
+								       "4,4,4\n"
+								       ^
+CodexTest_0_4_1.java:27: error: ';' expected
+								       "4,4,4\n"
+								                ^
+CodexTest_0_4_1.java:34: error: unclosed string literal
+								       "11,11
+								       ^
+CodexTest_0_4_1.java:35: error: reached end of file while parsing
+}
+ ^

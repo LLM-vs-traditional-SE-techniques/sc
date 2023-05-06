@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_3.java:22: error: cannot find symbol
+        ListTypeDescriptor<Long> underTest = new ListTypeDescriptor<>(Long.class);
+        ^
+  symbol:   class ListTypeDescriptor
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:22: error: cannot find symbol
+        ListTypeDescriptor<Long> underTest = new ListTypeDescriptor<>(Long.class);
+                                                 ^
+  symbol:   class ListTypeDescriptor
+  location: class CodexTest_0_9_3

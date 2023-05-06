@@ -1,0 +1,43 @@
+isCompilable => false
+CodexTest_0_8_8.java:32: error: <identifier> expected
+Output: protected void handleIllegalArgumentException(Exception e) {
+      ^
+CodexTest_0_8_8.java:35: error: <identifier> expected
+Output: protected void handleIllegalStateException(Exception e) {
+      ^
+CodexTest_0_8_8.java:38: error: <identifier> expected
+Output: protected void handlePersistenceException(Exception e) {
+      ^
+CodexTest_0_8_8.java:41: error: <identifier> expected
+Output: protected void handleRuntimeException(Exception e) {
+      ^
+CodexTest_0_8_8.java:44: error: <identifier> expected
+Output: protected void handleException(Exception e) {
+      ^
+CodexTest_0_8_8.java:47: error: <identifier> expected
+Output: public void assertEquals(Object expected, Object actual) {
+      ^
+CodexTest_0_8_8.java:53: error: <identifier> expected
+Output: public void assertEquals(String message, Object expected, Object actual) {
+      ^
+CodexTest_0_8_8.java:59: error: <identifier> expected
+Output: public <T> T get(T[] arr, int index) {
+      ^
+CodexTest_0_8_8.java:62: error: <identifier> expected
+Output: public <T> T[] set(T[] arr, int index, T element) {
+      ^
+CodexTest_0_8_8.java:66: error: <identifier> expected
+Output: public double[] sort(double[] arr) {
+      ^
+CodexTest_0_8_8.java:70: error: <identifier> expected
+Output: public int[] sort(int[] arr) {
+      ^
+CodexTest_0_8_8.java:74: error: <identifier> expected
+Output: public void assertNotEquals(boolean expected, boolean actual) {
+      ^
+CodexTest_0_8_8.java:79: error: illegal start of expression
+}
+^
+CodexTest_0_8_8.java:79: error: reached end of file while parsing
+}
+ ^

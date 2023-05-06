@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_4_5.java:20: error: cannot find symbol
+        assertTrue(path.equals(path));
+                               ^
+  symbol:   variable path
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:20: error: cannot find symbol
+        assertTrue(path.equals(path));
+                   ^
+  symbol:   variable path
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:21: error: cannot find symbol
+        assertFalse(path.equals(null));
+                    ^
+  symbol:   variable path
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:22: error: cannot find symbol
+        assertFalse(path.equals(new Object()));
+                    ^
+  symbol:   variable path
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:23: error: cannot find symbol
+        assertFalse(path.equals(new Path()));
+                    ^
+  symbol:   variable path
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:24: error: cannot find symbol
+        path.add(edge);
+                 ^
+  symbol:   variable edge
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:24: error: cannot find symbol
+        path.add(edge);
+        ^
+  symbol:   variable path
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:25: error: cannot find symbol
+        assertFalse(path.equals(new Path()));
+                    ^
+  symbol:   variable path
+  location: class CodexTest_0_4_5

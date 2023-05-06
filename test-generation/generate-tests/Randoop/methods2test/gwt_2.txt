@@ -1,0 +1,2 @@
+com.google.gwt.core.client.GWT.create(java.lang.Class)
+com.google.gwt.core.client.GWT.getUncaughtExceptionHandler()

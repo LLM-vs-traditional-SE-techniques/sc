@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_48.java:66: error: cannot find symbol
+        Child child = new Child(parent);
+        ^
+  symbol:   class Child
+  location: class CodexTest_0_5_48
+CodexTest_0_5_48.java:66: error: cannot find symbol
+        Child child = new Child(parent);
+                          ^
+  symbol:   class Child
+  location: class CodexTest_0_5_48

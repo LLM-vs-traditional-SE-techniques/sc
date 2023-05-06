@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_1.java:66: error: cannot find symbol
+			TermQueryBuilder termQueryBuilder = new TermQueryBuilder("age", 35);
+			^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:66: error: cannot find symbol
+			TermQueryBuilder termQueryBuilder = new TermQueryBuilder("age", 35);
+			                                        ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:67: error: cannot find symbol
+			HasParentQueryBuilder hasParentQueryBuilder = new HasParentQueryBuilder(parent, termQueryBuilder, false);
+			^
+  symbol:   class HasParentQueryBuilder
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:67: error: cannot find symbol
+			HasParentQueryBuilder hasParentQueryBuilder = new HasParentQueryBuilder(parent, termQueryBuilder, false);
+			                                                  ^
+  symbol:   class HasParentQueryBuilder
+  location: class CodexTest_0_8_1

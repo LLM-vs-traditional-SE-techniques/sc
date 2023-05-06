@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_7_70.java:44: error: no suitable method found for chain(cern.colt.function.DoubleDoubleFunction,cern.colt.function.DoubleFunction)
+		m2.assign(m, cern.jet.math.Functions.chain(cern.jet.math.Functions.mult,cern.jet.math.Functions.square));
+		                                    ^
+    method cern.jet.math.Functions.chain(cern.colt.function.DoubleFunction,cern.colt.function.DoubleDoubleFunction) is not applicable
+      (argument mismatch; cern.colt.function.DoubleDoubleFunction cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.jet.math.Functions.chain(cern.colt.function.DoubleFunction,cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; cern.colt.function.DoubleDoubleFunction cannot be converted to cern.colt.function.DoubleFunction)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

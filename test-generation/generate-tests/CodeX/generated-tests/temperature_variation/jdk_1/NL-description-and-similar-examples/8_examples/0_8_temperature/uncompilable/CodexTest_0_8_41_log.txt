@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_41.java:35: error: cannot find symbol
+            for (int index = 0; index < size; index++)
+                                        ^
+  symbol:   variable size
+  location: class CodexTest_0_8_41
+CodexTest_0_8_41.java:36: error: cannot find symbol
+                if (elementData[index] == null) {
+                    ^
+  symbol:   variable elementData
+  location: class CodexTest_0_8_41
+CodexTest_0_8_41.java:37: error: cannot find symbol
+                    fastRemove(index);
+                    ^
+  symbol:   method fastRemove(int)
+  location: class CodexTest_0_8_41
+CodexTest_0_8_41.java:41: error: cannot find symbol
+            for (int index = 0; index < size; index++)
+                                        ^
+  symbol:   variable size
+  location: class CodexTest_0_8_41
+CodexTest_0_8_41.java:42: error: cannot find symbol
+                if (o.equals(elementData[index])) {
+                             ^
+  symbol:   variable elementData
+  location: class CodexTest_0_8_41
+CodexTest_0_8_41.java:43: error: cannot find symbol
+                    fastRemove(index);
+                    ^
+  symbol:   method fastRemove(int)
+  location: class CodexTest_0_8_41

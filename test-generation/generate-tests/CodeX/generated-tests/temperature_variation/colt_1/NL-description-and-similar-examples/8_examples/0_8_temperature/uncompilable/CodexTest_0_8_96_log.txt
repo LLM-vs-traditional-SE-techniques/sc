@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_96.java:33: error: cannot find symbol
+      TestUtils.assertEquals("DenseDoubleMatrix1D.assign: check d1 == d1", values, d1.getMaxLocation()[0]);
+                                                                                     ^
+  symbol:   method getMaxLocation()
+  location: variable d1 of type cern.colt.matrix.impl.DenseDoubleMatrix1D
+CodexTest_0_8_96.java:33: error: cannot find symbol
+      TestUtils.assertEquals("DenseDoubleMatrix1D.assign: check d1 == d1", values, d1.getMaxLocation()[0]);
+      ^
+  symbol:   variable TestUtils
+  location: class CodexTest_0_8_96

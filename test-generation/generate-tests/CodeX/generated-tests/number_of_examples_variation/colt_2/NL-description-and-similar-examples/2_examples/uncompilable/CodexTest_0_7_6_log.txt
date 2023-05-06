@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_6.java:46: error: ')' expected
+		matrix1.assign(matrix2, org.apache.mahout.math.function.Functions.toDouble
+		                                                                          ^
+CodexTest_0_7_6.java:47: error: reached end of file while parsing
+}
+ ^

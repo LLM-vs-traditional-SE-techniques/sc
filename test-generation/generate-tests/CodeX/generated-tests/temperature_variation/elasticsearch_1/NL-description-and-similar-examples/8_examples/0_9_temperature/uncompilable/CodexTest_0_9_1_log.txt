@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_9_1.java:65: error: cannot find symbol
+            this.h.setEnumName("test");
+                ^
+  symbol: variable h
+CodexTest_0_9_1.java:66: error: cannot find symbol
+            Assert.assertEquals("test", this.h.parent());
+                                            ^
+  symbol: variable h

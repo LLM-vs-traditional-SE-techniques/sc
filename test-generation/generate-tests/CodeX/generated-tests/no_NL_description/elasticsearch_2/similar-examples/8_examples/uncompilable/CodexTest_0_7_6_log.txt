@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_6.java:70: error: cannot find symbol
+        byte[] bytes = indexRequest.source().uncompressed();
+                                            ^
+  symbol:   method uncompressed()
+  location: class org.elasticsearch.common.bytes.BytesReference

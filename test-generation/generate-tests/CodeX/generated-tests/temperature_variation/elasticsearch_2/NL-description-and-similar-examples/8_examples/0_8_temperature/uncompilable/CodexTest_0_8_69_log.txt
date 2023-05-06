@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_69.java:67: error: cannot find symbol
+        assertThat(underTest.version(), is(equalTo(1L)));
+                                           ^
+  symbol:   method equalTo(long)
+  location: class CodexTest_0_8_69

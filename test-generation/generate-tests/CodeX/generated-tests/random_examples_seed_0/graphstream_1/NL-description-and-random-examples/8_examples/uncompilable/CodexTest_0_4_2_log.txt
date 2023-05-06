@@ -1,0 +1,29 @@
+isCompilable => false
+CodexTest_0_4_2.java:20: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        Edge edge = new Edge();
+                    ^
+CodexTest_0_4_2.java:21: error: cannot find symbol
+        edge.setFrom(1);
+            ^
+  symbol:   method setFrom(int)
+  location: variable edge of type org.graphstream.graph.Edge
+CodexTest_0_4_2.java:22: error: cannot find symbol
+        edge.setTo(2);
+            ^
+  symbol:   method setTo(int)
+  location: variable edge of type org.graphstream.graph.Edge
+CodexTest_0_4_2.java:23: error: cannot find symbol
+        edge.setCost(3);
+            ^
+  symbol:   method setCost(int)
+  location: variable edge of type org.graphstream.graph.Edge
+CodexTest_0_4_2.java:24: error: cannot find symbol
+        edgePath.add(edge);
+        ^
+  symbol:   variable edgePath
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:25: error: cannot find symbol
+        assertTrue(edgePath.contains(edge));
+                   ^
+  symbol:   variable edgePath
+  location: class CodexTest_0_4_2

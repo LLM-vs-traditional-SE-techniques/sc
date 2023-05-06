@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_6_5.java:35: error: <identifier> expected
+Input: public boolean contains(Object o) {
+     ^
+CodexTest_0_6_5.java:38: error: <identifier> expected
+Output: public void testContains() {
+      ^
+CodexTest_0_6_5.java:46: error: <identifier> expected
+Input: public boolean containsKey(Object key) {
+     ^
+CodexTest_0_6_5.java:49: error: <identifier> expected
+Output: public void testContainsKey() {
+      ^
+CodexTest_0_6_5.java:52: error: illegal start of expression
+}
+^
+CodexTest_0_6_5.java:52: error: reached end of file while parsing
+}
+ ^

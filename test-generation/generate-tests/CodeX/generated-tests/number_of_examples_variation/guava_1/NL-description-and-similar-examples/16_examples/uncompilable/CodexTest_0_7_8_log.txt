@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_8.java:28: error: cannot find symbol
+            "hello, world", hf.hashString("hello, world", UTF_8)),
+                                                          ^
+  symbol:   variable UTF_8
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:30: error: cannot find symbol
+                hf2.hashString("hello, world", UTF_8), "hello, world"));
+                                               ^
+  symbol:   variable UTF_8
+  location: class CodexTest_0_7_8

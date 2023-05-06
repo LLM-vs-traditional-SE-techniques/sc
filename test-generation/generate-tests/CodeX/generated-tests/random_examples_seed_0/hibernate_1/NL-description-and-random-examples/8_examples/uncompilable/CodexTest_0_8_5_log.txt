@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_8_5.java:17: error: invalid method declaration; return type required
+   assertEquals( b1, b2 );
+   ^
+CodexTest_0_8_5.java:17: error: <identifier> expected
+   assertEquals( b1, b2 );
+                   ^
+CodexTest_0_8_5.java:17: error: <identifier> expected
+   assertEquals( b1, b2 );
+                       ^
+CodexTest_0_8_5.java:20: error: invalid method declaration; return type required
+   assertEquals( s1, s2 );
+   ^
+CodexTest_0_8_5.java:20: error: <identifier> expected
+   assertEquals( s1, s2 );
+                   ^
+CodexTest_0_8_5.java:20: error: <identifier> expected
+   assertEquals( s1, s2 );
+                       ^

@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_17.java:30: error: cannot find symbol
+        list = new ArrayList();
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_8_17
+CodexTest_0_8_17.java:30: error: cannot find symbol
+        list = new ArrayList();
+                   ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_8_17
+CodexTest_0_8_17.java:31: error: cannot find symbol
+        list.add(a);
+                 ^
+  symbol:   variable a
+  location: class CodexTest_0_8_17
+CodexTest_0_8_17.java:31: error: cannot find symbol
+        list.add(a);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_8_17
+CodexTest_0_8_17.java:32: error: cannot find symbol
+        list.add(b);
+                 ^
+  symbol:   variable b
+  location: class CodexTest_0_8_17
+CodexTest_0_8_17.java:32: error: cannot find symbol
+        list.add(b);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_8_17
+CodexTest_0_8_17.java:33: error: cannot find symbol
+        list.add(c);
+                 ^
+  symbol:   variable c
+  location: class CodexTest_0_8_17
+CodexTest_0_8_17.java:33: error: cannot find symbol
+        list.add(c);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_8_17

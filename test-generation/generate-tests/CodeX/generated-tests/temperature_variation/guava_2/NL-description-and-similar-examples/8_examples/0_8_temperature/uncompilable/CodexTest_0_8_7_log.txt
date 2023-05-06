@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_7.java:24: error: cannot find symbol
+    public void whenInputStreamIsEmpty_thenReadZeroBytes() throws IOException {
+                                                                  ^
+  symbol:   class IOException
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:25: error: cannot find symbol
+        try (ByteArrayInputStream input = new ByteArrayInputStream(new byte[0])) {
+             ^
+  symbol:   class ByteArrayInputStream
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:25: error: cannot find symbol
+        try (ByteArrayInputStream input = new ByteArrayInputStream(new byte[0])) {
+                                              ^
+  symbol:   class ByteArrayInputStream
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:27: error: cannot find symbol
+            assertThat(bytesRead, is(-1));
+                                  ^
+  symbol:   method is(int)
+  location: class CodexTest_0_8_7

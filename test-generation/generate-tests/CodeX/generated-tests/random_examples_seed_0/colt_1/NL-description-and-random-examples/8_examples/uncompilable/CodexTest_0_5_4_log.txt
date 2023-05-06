@@ -1,0 +1,106 @@
+isCompilable => false
+CodexTest_0_5_4.java:31: error: cannot find symbol
+			assertEquals(0, v.getQuick(0), TOL);
+			                ^
+  symbol:   variable v
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:31: error: cannot find symbol
+			assertEquals(0, v.getQuick(0), TOL);
+			                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:32: error: cannot find symbol
+			assertEquals(0, v.getQuick(1), TOL);
+			                ^
+  symbol:   variable v
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:32: error: cannot find symbol
+			assertEquals(0, v.getQuick(1), TOL);
+			                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:33: error: cannot find symbol
+			assertEquals(0, v.getQuick(2), TOL);
+			                ^
+  symbol:   variable v
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:33: error: cannot find symbol
+			assertEquals(0, v.getQuick(2), TOL);
+			                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:34: error: cannot find symbol
+			assertEquals(0, v.getQuick(3), TOL);
+			                ^
+  symbol:   variable v
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:34: error: cannot find symbol
+			assertEquals(0, v.getQuick(3), TOL);
+			                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:35: error: cannot find symbol
+			assertEquals(0, v.getQuick(4), TOL);
+			                ^
+  symbol:   variable v
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:35: error: cannot find symbol
+			assertEquals(0, v.getQuick(4), TOL);
+			                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:36: error: cannot find symbol
+			v.assign(DoubleFactory1D.dense.make(expected));
+			^
+  symbol:   variable v
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:37: error: cannot find symbol
+			assertEquals(1, v.getQuick(0), TOL);
+			                ^
+  symbol:   variable v
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:37: error: cannot find symbol
+			assertEquals(1, v.getQuick(0), TOL);
+			                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:38: error: cannot find symbol
+			assertEquals(2, v.getQuick(1), TOL);
+			                ^
+  symbol:   variable v
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:38: error: cannot find symbol
+			assertEquals(2, v.getQuick(1), TOL);
+			                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:39: error: cannot find symbol
+			assertEquals(3, v.getQuick(2), TOL);
+			                ^
+  symbol:   variable v
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:39: error: cannot find symbol
+			assertEquals(3, v.getQuick(2), TOL);
+			                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:40: error: cannot find symbol
+			assertEquals(4, v.getQuick(3), TOL);
+			                ^
+  symbol:   variable v
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:40: error: cannot find symbol
+			assertEquals(4, v.getQuick(3), TOL);
+			                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:41: error: cannot find symbol
+			assertEquals(5, v.getQuick(4), TOL);
+			                ^
+  symbol:   variable v
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:41: error: cannot find symbol
+			assertEquals(5, v.getQuick(4), TOL);
+			                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_4

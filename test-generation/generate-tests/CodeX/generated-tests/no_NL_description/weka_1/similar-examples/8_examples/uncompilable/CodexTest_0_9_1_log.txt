@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_1.java:26: error: cannot find symbol
+              assertEquals(v.sub(vother),vres);
+                            ^
+  symbol:   method sub(weka.core.AlgVector)
+  location: variable v of type weka.core.AlgVector

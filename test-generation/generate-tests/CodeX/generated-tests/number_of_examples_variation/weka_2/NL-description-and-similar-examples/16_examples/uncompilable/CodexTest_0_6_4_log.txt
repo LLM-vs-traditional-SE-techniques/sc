@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_6_4.java:19: error: cannot find symbol
+		Instances inst = new Instances(m_Instances, 0);
+		                               ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:21: error: cannot find symbol
+		inst.add(getAsInstance(inst, new Random(1)));
+		         ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:22: error: cannot find symbol
+		assertEquals(inst.numAttributes(), m_Instances.numAttributes());
+		                                   ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:23: error: cannot find symbol
+		assertEquals(inst.numInstances(), m_Instances.numInstances() + 1);
+		                                  ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:27: error: cannot find symbol
+				 m_Instances.instance(i % m_Instances.numInstances()).value(j));
+				                          ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:27: error: cannot find symbol
+				 m_Instances.instance(i % m_Instances.numInstances()).value(j));
+				 ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_4

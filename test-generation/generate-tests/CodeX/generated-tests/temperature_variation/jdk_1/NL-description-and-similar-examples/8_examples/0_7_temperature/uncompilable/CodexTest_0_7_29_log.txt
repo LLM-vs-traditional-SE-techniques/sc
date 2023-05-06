@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_29.java:23: error: cannot find symbol
+                List<Integer> list = intArrayAsList(new int[size]);
+                                     ^
+  symbol:   method intArrayAsList(int[])
+  location: class CodexTest_0_7_29
+CodexTest_0_7_29.java:32: error: cannot find symbol
+                assertEqualContent(list, array);
+                ^
+  symbol:   method assertEqualContent(java.util.List<java.lang.Integer>,int[])
+  location: class CodexTest_0_7_29

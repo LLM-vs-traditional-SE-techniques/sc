@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_81.java:26: error: illegal start of type
+*/
+^
+CodexTest_0_8_81.java:26: error: ';' expected
+*/
+ ^

@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_81.java:20: error: cannot find symbol
+            EdgePath ep = new EdgePath();
+            ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:20: error: cannot find symbol
+            EdgePath ep = new EdgePath();
+                              ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:21: error: cannot find symbol
+            Edge edge = new DirectedEdge(new Vertex("1"), new Vertex("2"), 1, 2);
+                            ^
+  symbol:   class DirectedEdge
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:21: error: cannot find symbol
+            Edge edge = new DirectedEdge(new Vertex("1"), new Vertex("2"), 1, 2);
+                                             ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:21: error: cannot find symbol
+            Edge edge = new DirectedEdge(new Vertex("1"), new Vertex("2"), 1, 2);
+                                                              ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_81

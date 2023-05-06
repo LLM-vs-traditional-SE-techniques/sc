@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_2.java:39: error: <identifier> expected
+Input: public int index(int rank) {
+     ^
+CodexTest_0_8_2.java:42: error: <identifier> expected
+Output: public static void testIndex() {
+      ^
+CodexTest_0_8_2.java:51: error: reached end of file while parsing
+}
+ ^

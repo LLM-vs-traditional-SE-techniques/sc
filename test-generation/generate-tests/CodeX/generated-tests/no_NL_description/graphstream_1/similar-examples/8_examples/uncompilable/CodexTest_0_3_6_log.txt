@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_3_6.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		path.add(new Edge(1, 2));
+		         ^
+CodexTest_0_3_6.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		path.add(new Edge(2, 3));
+		         ^
+CodexTest_0_3_6.java:23: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		path.add(new Edge(3, 4));
+		         ^
+CodexTest_0_3_6.java:24: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		path.add(new Edge(4, 5));
+		         ^
+CodexTest_0_3_6.java:25: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		assertTrue(path.contains(new Edge(2, 3)));
+		                         ^
+CodexTest_0_3_6.java:26: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		assertFalse(path.contains(new Edge(3, 2)));
+		                          ^

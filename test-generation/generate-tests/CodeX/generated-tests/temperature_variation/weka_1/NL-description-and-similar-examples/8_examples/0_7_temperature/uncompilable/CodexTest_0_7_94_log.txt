@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_94.java:28: error: cannot find symbol
+        assertEquals("i: " + i, 2 * data[i], x.getElement(i), EPS);
+                                                              ^
+  symbol:   variable EPS
+  location: class CodexTest_0_7_94

@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_4_9.java:30: error: variable maxLength is already defined in method testWriteBytesTo()
+    int maxLength = Ints.min(maxLength, bits() / 8);
+        ^
+CodexTest_0_4_9.java:30: error: cannot find symbol
+    int maxLength = Ints.min(maxLength, bits() / 8);
+                                        ^
+  symbol:   method bits()
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:32: error: cannot find symbol
+    writeBytesToImpl(dest, offset, maxLength);
+    ^
+  symbol:   method writeBytesToImpl(byte[],int,int)
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:33: error: incompatible types: unexpected return value
+    return maxLength;
+           ^

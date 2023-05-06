@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_11.java:59: error: ';' expected
+    int numClassDistributionIsNom
+                                 ^
+CodexTest_0_2_11.java:60: error: reached end of file while parsing
+}
+ ^

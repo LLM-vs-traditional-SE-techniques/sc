@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_4_2.java:35: error: unclosed string literal
+        assertEquals("-2147483649", "-32768", NumberUtils.toShort("-2147
+                                                                  ^
+CodexTest_0_4_2.java:35: error: ')' expected
+        assertEquals("-2147483649", "-32768", NumberUtils.toShort("-2147
+                                                                        ^
+CodexTest_0_4_2.java:36: error: reached end of file while parsing
+}
+ ^

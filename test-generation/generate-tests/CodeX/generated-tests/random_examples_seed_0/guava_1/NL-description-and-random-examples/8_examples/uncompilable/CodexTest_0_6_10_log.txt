@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_10.java:25: error: cannot find symbol
+    assertEquals(new LongHashCode(0x123456789abcdef0L), HashCode.fromLong(0x123456789abcdef0L));
+                     ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_6_10

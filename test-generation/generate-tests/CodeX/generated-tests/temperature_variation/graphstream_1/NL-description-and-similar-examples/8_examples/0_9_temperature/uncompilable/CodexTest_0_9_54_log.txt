@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_54.java:20: error: cannot find symbol
+		Edge edge = Mockito.mock(Edge.class);
+		            ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_9_54
+CodexTest_0_9_54.java:21: error: cannot find symbol
+		path.add(edge);
+		^
+  symbol:   variable path
+  location: class CodexTest_0_9_54
+CodexTest_0_9_54.java:22: error: cannot find symbol
+		assertTrue(path.contains(edge));
+		           ^
+  symbol:   variable path
+  location: class CodexTest_0_9_54

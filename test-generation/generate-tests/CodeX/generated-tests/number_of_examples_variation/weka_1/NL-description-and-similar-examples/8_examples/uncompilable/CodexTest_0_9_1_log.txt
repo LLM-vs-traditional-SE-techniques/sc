@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_1.java:18: error: cannot find symbol
+    DoubleTableSlice dts = new DoubleTableSlice(mockedVec1, "test");
+    ^
+  symbol:   class DoubleTableSlice
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:18: error: cannot find symbol
+    DoubleTableSlice dts = new DoubleTableSlice(mockedVec1, "test");
+                               ^
+  symbol:   class DoubleTableSlice
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:18: error: cannot find symbol
+    DoubleTableSlice dts = new DoubleTableSlice(mockedVec1, "test");
+                                                ^
+  symbol:   variable mockedVec1
+  location: class CodexTest_0_9_1

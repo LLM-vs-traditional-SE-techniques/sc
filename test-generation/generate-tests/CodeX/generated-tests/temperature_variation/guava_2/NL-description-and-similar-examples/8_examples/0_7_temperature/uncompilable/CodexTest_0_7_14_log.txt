@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_14.java:27: error: cannot find symbol
+		int written = Ints.writeBytes(Integer.MAX_VALUE, b, 0, b.length);
+		                  ^
+  symbol:   method writeBytes(int,byte[],int,int)
+  location: class com.google.common.primitives.Ints
+CodexTest_0_7_14.java:29: error: cannot find symbol
+		assertEquals(Integer.MAX_VALUE, Ints.readBytes(b, 0, b.length));
+		                                    ^
+  symbol:   method readBytes(byte[],int,int)
+  location: class com.google.common.primitives.Ints
+CodexTest_0_7_14.java:31: error: cannot find symbol
+		written = Ints.writeBytes(Integer.MIN_VALUE, b, 0, b.length);
+		              ^
+  symbol:   method writeBytes(int,byte[],int,int)
+  location: class com.google.common.primitives.Ints
+CodexTest_0_7_14.java:33: error: cannot find symbol
+		assertEquals(Integer.MIN_VALUE, Ints.readBytes(b, 0, b.length));
+		                                    ^
+  symbol:   method readBytes(byte[],int,int)
+  location: class com.google.common.primitives.Ints
+CodexTest_0_7_14.java:35: error: cannot find symbol
+		written = Ints.writeBytes(0, b, 0, b.length);
+		              ^
+  symbol:   method writeBytes(int,byte[],int,int)
+  location: class com.google.common.primitives.Ints
+CodexTest_0_7_14.java:37: error: cannot find symbol
+		assertEquals(0, Ints.readBytes(b, 0, b.length));
+		                    ^
+  symbol:   method readBytes(byte[],int,int)
+  location: class com.google.common.primitives.Ints

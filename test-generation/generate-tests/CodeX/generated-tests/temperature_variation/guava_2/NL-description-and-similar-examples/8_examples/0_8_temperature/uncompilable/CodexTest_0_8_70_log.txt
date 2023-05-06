@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_70.java:29: error: cannot find symbol
+		writeLong(dest, offset, l, maxLength);
+		^
+  symbol:   method writeLong(byte[],int,long,int)
+  location: class CodexTest_0_8_70

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_16.java:20: error: cannot find symbol
+    Instances insts = makeRandomInstances(numAtts, numVals);
+                      ^
+  symbol:   method makeRandomInstances(int,int)
+  location: class CodexTest_0_5_16

@@ -1,0 +1,43 @@
+isCompilable => false
+CodexTest_0_3_88.java:25: error: method join in class com.google.common.primitives.Ints cannot be applied to given types;
+    assertEquals("0", Ints.join(",", Ints.asList(0)));
+                          ^
+  required: java.lang.String,int[]
+  found: java.lang.String,java.util.List<java.lang.Integer>
+  reason: varargs mismatch; java.util.List<java.lang.Integer> cannot be converted to int
+CodexTest_0_3_88.java:26: error: method join in class com.google.common.primitives.Ints cannot be applied to given types;
+    assertEquals("1", Ints.join(",", Ints.asList(1)));
+                          ^
+  required: java.lang.String,int[]
+  found: java.lang.String,java.util.List<java.lang.Integer>
+  reason: varargs mismatch; java.util.List<java.lang.Integer> cannot be converted to int
+CodexTest_0_3_88.java:27: error: method join in class com.google.common.primitives.Ints cannot be applied to given types;
+    assertEquals("1,2", Ints.join(",", Ints.asList(1, 2)));
+                            ^
+  required: java.lang.String,int[]
+  found: java.lang.String,java.util.List<java.lang.Integer>
+  reason: varargs mismatch; java.util.List<java.lang.Integer> cannot be converted to int
+CodexTest_0_3_88.java:28: error: method join in class com.google.common.primitives.Ints cannot be applied to given types;
+    assertEquals("1,2,3", Ints.join(",", Ints.asList(1, 2, 3)));
+                              ^
+  required: java.lang.String,int[]
+  found: java.lang.String,java.util.List<java.lang.Integer>
+  reason: varargs mismatch; java.util.List<java.lang.Integer> cannot be converted to int
+CodexTest_0_3_88.java:29: error: method join in class com.google.common.primitives.Ints cannot be applied to given types;
+    assertEquals("-1", Ints.join(",", Ints.asList(-1)));
+                           ^
+  required: java.lang.String,int[]
+  found: java.lang.String,java.util.List<java.lang.Integer>
+  reason: varargs mismatch; java.util.List<java.lang.Integer> cannot be converted to int
+CodexTest_0_3_88.java:30: error: method join in class com.google.common.primitives.Ints cannot be applied to given types;
+    assertEquals("-1,2", Ints.join(",", Ints.asList(-1, 2)));
+                             ^
+  required: java.lang.String,int[]
+  found: java.lang.String,java.util.List<java.lang.Integer>
+  reason: varargs mismatch; java.util.List<java.lang.Integer> cannot be converted to int
+CodexTest_0_3_88.java:31: error: method join in class com.google.common.primitives.Ints cannot be applied to given types;
+    assertEquals("-1,2,3", Ints.join(",", Ints.asList(-1, 2, 3)));
+                               ^
+  required: java.lang.String,int[]
+  found: java.lang.String,java.util.List<java.lang.Integer>
+  reason: varargs mismatch; java.util.List<java.lang.Integer> cannot be converted to int

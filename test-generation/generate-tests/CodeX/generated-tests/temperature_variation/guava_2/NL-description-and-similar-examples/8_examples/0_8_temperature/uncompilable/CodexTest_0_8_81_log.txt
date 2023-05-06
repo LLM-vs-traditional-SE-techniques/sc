@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_81.java:25: error: cannot find symbol
+          for (int i = 0; i < SIZE_IN_BYTES; i++) {
+                              ^
+  symbol:   variable SIZE_IN_BYTES
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:26: error: cannot find symbol
+            byte[] b = new byte[SIZE_IN_BYTES];
+                                ^
+  symbol:   variable SIZE_IN_BYTES
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:30: error: cannot find symbol
+            IntHashCode hashCode = IntHashCode.fromBytesNoCopy(b);
+            ^
+  symbol:   class IntHashCode
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:30: error: cannot find symbol
+            IntHashCode hashCode = IntHashCode.fromBytesNoCopy(b);
+                                   ^
+  symbol:   variable IntHashCode
+  location: class CodexTest_0_8_81
+CodexTest_0_8_81.java:31: error: cannot find symbol
+            byte[] result = new byte[SIZE_IN_BYTES];
+                                     ^
+  symbol:   variable SIZE_IN_BYTES
+  location: class CodexTest_0_8_81

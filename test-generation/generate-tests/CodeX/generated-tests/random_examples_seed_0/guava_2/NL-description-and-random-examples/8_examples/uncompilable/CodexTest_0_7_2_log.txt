@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_2.java:25: error: cannot find symbol
+        List<Integer> values = Arrays.asList(0xC, 0xD, 0xE);
+        ^
+  symbol:   class List
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:26: error: cannot find symbol
+        ImmutableBitArray bitArray = new ImmutableBitArray(values);
+        ^
+  symbol:   class ImmutableBitArray
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:26: error: cannot find symbol
+        ImmutableBitArray bitArray = new ImmutableBitArray(values);
+                                         ^
+  symbol:   class ImmutableBitArray
+  location: class CodexTest_0_7_2

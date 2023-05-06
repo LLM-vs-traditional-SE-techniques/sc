@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_1_5.java:27: error: reached end of file while parsing
+}
+ ^

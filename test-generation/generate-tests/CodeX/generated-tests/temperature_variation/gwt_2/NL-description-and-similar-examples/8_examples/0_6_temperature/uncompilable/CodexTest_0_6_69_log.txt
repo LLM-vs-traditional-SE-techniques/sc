@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_69.java:16: error: cannot find symbol
+      RuntimeException e = new RuntimeException(test);
+                                                ^
+  symbol:   variable test
+  location: class CodexTest_0_6_69
+CodexTest_0_6_69.java:17: error: cannot find symbol
+      GWT.setUncaughtExceptionHandler(new UncaughtExceptionHandler() {
+                                          ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_69
+CodexTest_0_6_69.java:24: error: cannot find symbol
+      assertEquals(test, e.getMessage());
+                   ^
+  symbol:   variable test
+  location: class CodexTest_0_6_69

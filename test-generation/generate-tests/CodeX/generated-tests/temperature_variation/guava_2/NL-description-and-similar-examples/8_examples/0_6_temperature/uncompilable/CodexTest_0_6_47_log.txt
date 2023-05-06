@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_47.java:25: error: cannot find symbol
+    BloomFilter<String> filter = BloomFilter.create(Funnels.stringFunnel(UTF_8), 100);
+                                                                         ^
+  symbol:   variable UTF_8
+  location: class CodexTest_0_6_47
+CodexTest_0_6_47.java:28: error: cannot find symbol
+    int writtenBytes = filter.writeBytesTo(dest, 0, 100);
+                             ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.String>
+CodexTest_0_6_47.java:31: error: cannot find symbol
+    ByteBuffer byteBuffer = ByteBuffer.wrap(expected);
+    ^
+  symbol:   class ByteBuffer
+  location: class CodexTest_0_6_47
+CodexTest_0_6_47.java:31: error: cannot find symbol
+    ByteBuffer byteBuffer = ByteBuffer.wrap(expected);
+                            ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_6_47

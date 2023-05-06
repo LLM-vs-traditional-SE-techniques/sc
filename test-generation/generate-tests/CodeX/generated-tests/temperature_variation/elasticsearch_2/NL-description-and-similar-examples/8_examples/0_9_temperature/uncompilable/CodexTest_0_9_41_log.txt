@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_9_41.java:98: error: cannot find symbol
+        Bulk bulk = new Bulk.Builder()
+        ^
+  symbol:   class Bulk
+  location: class CodexTest_0_9_41
+CodexTest_0_9_41.java:98: error: package Bulk does not exist
+        Bulk bulk = new Bulk.Builder()
+                            ^
+CodexTest_0_9_41.java:103: error: cannot find symbol
+        Assert.assertEquals("/_bulk", bulk.getURI(Elasticsearch.VERSION));
+                                                  ^
+  symbol:   variable Elasticsearch
+  location: class CodexTest_0_9_41

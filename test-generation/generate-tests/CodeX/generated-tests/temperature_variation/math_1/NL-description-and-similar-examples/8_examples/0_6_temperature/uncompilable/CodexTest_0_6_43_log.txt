@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_43.java:50: error: ')' expected
+        Assert.assertEquals(11.0, v10.scalarMultiply(11).get
+                                                            ^
+CodexTest_0_6_43.java:51: error: reached end of file while parsing
+}
+ ^

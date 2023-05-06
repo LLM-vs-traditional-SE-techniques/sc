@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_4.java:32: error: cannot find symbol
+        DoubleMatrix2D actual = DoubleMatrix2D.Factory.like2D(rows, columns);
+                                              ^
+  symbol:   variable Factory
+  location: class cern.colt.matrix.DoubleMatrix2D

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_9.java:26: error: cannot find symbol
+        Hashing.murmur3_128().hashString("foo", UTF_8).toString());
+                                                ^
+  symbol:   variable UTF_8
+  location: class CodexTest_0_8_9

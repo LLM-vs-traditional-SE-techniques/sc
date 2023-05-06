@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_81.java:22: error: cannot find symbol
+        Collection<String> underTest = ImmutableList.of(Ja, va, 8);
+                                                        ^
+  symbol:   variable Ja
+  location: class CodexTest_0_9_81
+CodexTest_0_9_81.java:22: error: cannot find symbol
+        Collection<String> underTest = ImmutableList.of(Ja, va, 8);
+                                                            ^
+  symbol:   variable va
+  location: class CodexTest_0_9_81
+CodexTest_0_9_81.java:22: error: cannot find symbol
+        Collection<String> underTest = ImmutableList.of(Ja, va, 8);
+                                       ^
+  symbol:   variable ImmutableList
+  location: class CodexTest_0_9_81
+CodexTest_0_9_81.java:24: error: cannot find symbol
+        boolean result = underTest.contains(Va);
+                                            ^
+  symbol:   variable Va
+  location: class CodexTest_0_9_81

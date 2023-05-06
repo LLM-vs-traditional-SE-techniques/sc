@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_4_45.java:74: error: variable routing is already defined in method testParent()
+        String routing = "routing";
+               ^
+CodexTest_0_4_45.java:83: error: cannot find symbol
+        IndexRequest indexRequest = new IndexRequest(index, type, id);
+                                                     ^
+  symbol:   variable index
+  location: class CodexTest_0_4_45

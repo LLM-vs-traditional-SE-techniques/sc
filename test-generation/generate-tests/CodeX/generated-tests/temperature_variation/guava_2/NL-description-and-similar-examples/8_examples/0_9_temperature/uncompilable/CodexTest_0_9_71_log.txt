@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_9_71.java:26: error: illegal start of type
+    new Random().nextBytes(randomBytes);
+    ^
+CodexTest_0_9_71.java:26: error: ';' expected
+    new Random().nextBytes(randomBytes);
+       ^
+CodexTest_0_9_71.java:26: error: illegal start of type
+    new Random().nextBytes(randomBytes);
+              ^
+CodexTest_0_9_71.java:26: error: <identifier> expected
+    new Random().nextBytes(randomBytes);
+               ^
+CodexTest_0_9_71.java:26: error: ';' expected
+    new Random().nextBytes(randomBytes);
+                ^
+CodexTest_0_9_71.java:26: error: invalid method declaration; return type required
+    new Random().nextBytes(randomBytes);
+                 ^
+CodexTest_0_9_71.java:26: error: <identifier> expected
+    new Random().nextBytes(randomBytes);
+                                      ^

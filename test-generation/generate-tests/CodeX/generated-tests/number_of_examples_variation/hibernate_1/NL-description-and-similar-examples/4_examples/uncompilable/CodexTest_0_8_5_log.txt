@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_5.java:34: error: <identifier> expected
+Output: public void testWrapShouldReturnTrueWhenYStringGiven() {
+      ^

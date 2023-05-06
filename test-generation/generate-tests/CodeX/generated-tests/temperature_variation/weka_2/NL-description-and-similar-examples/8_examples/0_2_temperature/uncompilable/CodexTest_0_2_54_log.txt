@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_54.java:55: error: '{' expected
+    } catch (Exception e)
+                         ^
+CodexTest_0_2_54.java:56: error: reached end of file while parsing
+}
+ ^

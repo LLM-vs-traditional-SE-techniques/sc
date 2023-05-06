@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_15.java:22: error: cannot find symbol
+    RandomGenerator rg = new JDKRandomGenerator();
+    ^
+  symbol:   class RandomGenerator
+  location: class CodexTest_0_9_15
+CodexTest_0_9_15.java:22: error: cannot find symbol
+    RandomGenerator rg = new JDKRandomGenerator();
+                             ^
+  symbol:   class JDKRandomGenerator
+  location: class CodexTest_0_9_15
+CodexTest_0_9_15.java:32: error: cannot find symbol
+      assertEquals("Check add method", a.getElement(i) + b.getElement(i), c.getElement(i), TOLERANCE);
+                                                                                           ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_9_15

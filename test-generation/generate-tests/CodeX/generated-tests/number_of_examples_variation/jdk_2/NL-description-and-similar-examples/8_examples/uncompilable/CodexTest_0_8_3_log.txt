@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_3.java:21: error: cannot find symbol
+        List<String> list = new WrapperArrayList<String>();
+                                ^
+  symbol:   class WrapperArrayList
+  location: class CodexTest_0_8_3

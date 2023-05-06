@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_71.java:26: error: cannot find symbol
+    int length = Bits.getBits(42, 0, 24);
+                 ^
+  symbol:   variable Bits
+  location: class CodexTest_0_4_71
+CodexTest_0_4_71.java:28: error: cannot find symbol
+    int written = Bits.getBits(42, 0, 24).writeBytesTo(dest, 0, dest.length);
+                  ^
+  symbol:   variable Bits
+  location: class CodexTest_0_4_71

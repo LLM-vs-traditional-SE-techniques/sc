@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_44.java:65: error: <identifier> expected
+Input: public void midpoint(double x, double y, double z, Vector3D p) {
+     ^
+CodexTest_0_9_44.java:70: error: <identifier> expected
+Output: public void testMidpoint() {
+      ^

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_8.java:35: error: <identifier> expected
+Input: public static Ordering<String> usingToString() {
+     ^
+CodexTest_0_8_8.java:38: error: <identifier> expected
+Output: public void testNatural_List_varargs() {
+      ^

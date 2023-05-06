@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_5_5.java:30: error: cannot find symbol
+		DenseDoubleMatrix2D A = new DenseDoubleMatrix2D(AbstractMatrix2D.DEFAULT_SHAPE, AbstractMatrix2D.DEFAULT_SHAPE, 0, 0, AbstractMatrix2D.DEFAULT_STORAGE_INCREMENT, AbstractMatrix2D.DEFAULT_STORAGE_INCREMENT);
+		                                                                ^
+  symbol:   variable DEFAULT_SHAPE
+  location: class cern.colt.matrix.impl.AbstractMatrix2D
+CodexTest_0_5_5.java:30: error: cannot find symbol
+		DenseDoubleMatrix2D A = new DenseDoubleMatrix2D(AbstractMatrix2D.DEFAULT_SHAPE, AbstractMatrix2D.DEFAULT_SHAPE, 0, 0, AbstractMatrix2D.DEFAULT_STORAGE_INCREMENT, AbstractMatrix2D.DEFAULT_STORAGE_INCREMENT);
+		                                                                                                ^
+  symbol:   variable DEFAULT_SHAPE
+  location: class cern.colt.matrix.impl.AbstractMatrix2D
+CodexTest_0_5_5.java:30: error: cannot find symbol
+		DenseDoubleMatrix2D A = new DenseDoubleMatrix2D(AbstractMatrix2D.DEFAULT_SHAPE, AbstractMatrix2D.DEFAULT_SHAPE, 0, 0, AbstractMatrix2D.DEFAULT_STORAGE_INCREMENT, AbstractMatrix2D.DEFAULT_STORAGE_INCREMENT);
+		                                                                                                                                      ^
+  symbol:   variable DEFAULT_STORAGE_INCREMENT
+  location: class cern.colt.matrix.impl.AbstractMatrix2D
+CodexTest_0_5_5.java:30: error: cannot find symbol
+		DenseDoubleMatrix2D A = new DenseDoubleMatrix2D(AbstractMatrix2D.DEFAULT_SHAPE, AbstractMatrix2D.DEFAULT_SHAPE, 0, 0, AbstractMatrix2D.DEFAULT_STORAGE_INCREMENT, AbstractMatrix2D.DEFAULT_STORAGE_INCREMENT);
+		                                                                                                                                                                                  ^
+  symbol:   variable DEFAULT_STORAGE_INCREMENT
+  location: class cern.colt.matrix.impl.AbstractMatrix2D
+CodexTest_0_5_5.java:31: error: no suitable method found for assign(double[])
+		A.assign(new double[] {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16});
+		 ^
+    method cern.colt.matrix.DoubleMatrix2D.assign(double[][]) is not applicable
+      (argument mismatch; double[] cannot be converted to double[][])
+    method cern.colt.matrix.DoubleMatrix2D.assign(double) is not applicable
+      (argument mismatch; double[] cannot be converted to double)
+    method cern.colt.matrix.DoubleMatrix2D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.DoubleMatrix2D.assign(cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+    method cern.colt.matrix.impl.DenseDoubleMatrix2D.assign(double[][]) is not applicable
+      (argument mismatch; double[] cannot be converted to double[][])
+    method cern.colt.matrix.impl.DenseDoubleMatrix2D.assign(double) is not applicable
+      (argument mismatch; double[] cannot be converted to double)
+    method cern.colt.matrix.impl.DenseDoubleMatrix2D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.impl.DenseDoubleMatrix2D.assign(cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+CodexTest_0_5_5.java:38: error: cannot find symbol
+		assertTrue("Assign double[]", Compare.ArrayEquals(expected, A.toArray()));
+		                              ^
+  symbol:   variable Compare
+  location: class CodexTest_0_5_5
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

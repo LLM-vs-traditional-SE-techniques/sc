@@ -1,0 +1,3 @@
+weka.core.AlgVector(int)
+weka.core.AlgVector.numElements()
+weka.core.AlgVector.add(weka.core.AlgVector)

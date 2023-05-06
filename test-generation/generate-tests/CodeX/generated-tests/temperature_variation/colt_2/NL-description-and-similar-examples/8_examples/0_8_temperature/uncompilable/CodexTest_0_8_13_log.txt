@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_8_13.java:30: error: cannot find symbol
+        int n = A.length;
+                ^
+  symbol:   variable A
+  location: class CodexTest_0_8_13
+CodexTest_0_8_13.java:31: error: cannot find symbol
+        double[][] C = A[0].getMatrix(t);
+                                      ^
+  symbol:   variable t
+  location: class CodexTest_0_8_13
+CodexTest_0_8_13.java:31: error: cannot find symbol
+        double[][] C = A[0].getMatrix(t);
+                       ^
+  symbol:   variable A
+  location: class CodexTest_0_8_13
+CodexTest_0_8_13.java:32: error: cannot find symbol
+        Assert.assertEquals(t[0], C.length);
+                            ^
+  symbol:   variable t
+  location: class CodexTest_0_8_13
+CodexTest_0_8_13.java:33: error: cannot find symbol
+        Assert.assertEquals(t[1], C[0].length);
+                            ^
+  symbol:   variable t
+  location: class CodexTest_0_8_13
+CodexTest_0_8_13.java:34: error: cannot find symbol
+        for (int i = 0; i < t[0]; i++) {
+                            ^
+  symbol:   variable t
+  location: class CodexTest_0_8_13
+CodexTest_0_8_13.java:35: error: cannot find symbol
+            for (int j = 0; j < t[1]; j++) {
+                                ^
+  symbol:   variable t
+  location: class CodexTest_0_8_13
+CodexTest_0_8_13.java:36: error: cannot find symbol
+                Assert.assertEquals(A[i].getEntry(j), C[i][j], 1.0e-10);
+                                    ^
+  symbol:   variable A
+  location: class CodexTest_0_8_13
+CodexTest_0_8_13.java:39: error: cannot find symbol
+        double[][] D = A[0].getMatrix();
+                       ^
+  symbol:   variable A
+  location: class CodexTest_0_8_13
+CodexTest_0_8_13.java:44: error: cannot find symbol
+                Assert.assertEquals(A[i].getEntry(j), D[i][j], 1.0e-10);
+                                    ^
+  symbol:   variable A
+  location: class CodexTest_0_8_13

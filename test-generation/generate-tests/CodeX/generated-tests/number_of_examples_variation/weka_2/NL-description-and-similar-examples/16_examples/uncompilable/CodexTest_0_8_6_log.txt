@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_6.java:21: error: cannot find symbol
+      nom = Utils.load("../data/ClassifierTest.arff");
+                 ^
+  symbol:   method load(java.lang.String)
+  location: class weka.core.Utils
+CodexTest_0_8_6.java:22: error: cannot find symbol
+      ord = Utils.load("../data/ClassifierTest2.arff");
+                 ^
+  symbol:   method load(java.lang.String)
+  location: class weka.core.Utils
+CodexTest_0_8_6.java:29: error: cannot find symbol
+      inst = nom.instance(0).getAsInstance(ord, rand);
+                            ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: interface weka.core.Instance

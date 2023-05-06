@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_4.java:66: error: cannot find symbol
+        indexRequest.source(singletonMap("field", "value"));
+                            ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:67: error: cannot find symbol
+        assertToXContentEquivalent(indexRequest, "{\"field\":\"value\"}", randomBoolean());
+                                                                          ^
+  symbol:   method randomBoolean()
+  location: class CodexTest_0_6_4

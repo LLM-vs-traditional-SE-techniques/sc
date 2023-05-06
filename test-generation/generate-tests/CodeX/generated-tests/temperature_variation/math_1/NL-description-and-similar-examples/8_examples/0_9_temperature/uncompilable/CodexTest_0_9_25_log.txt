@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_25.java:35: error: cannot find symbol
+        Assert.assertArrayEquals(tab, p1.toArray(), 1.0e-14);
+                                        ^
+  symbol:   method toArray()
+  location: variable p1 of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_25.java:38: error: cannot find symbol
+        Assert.assertEquals(v1.scalarMultiply(0).scalarProduct(v1), 0.0, 1.0e-15);
+                                                ^
+  symbol:   method scalarProduct(org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_25.java:39: error: cannot find symbol
+        Assert.assertEquals(v1.scalarMultiply(4).scalarProduct(v4.scalarMultiply(0.25)), 1, 1.0e-15);
+                                                ^
+  symbol:   method scalarProduct(org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D

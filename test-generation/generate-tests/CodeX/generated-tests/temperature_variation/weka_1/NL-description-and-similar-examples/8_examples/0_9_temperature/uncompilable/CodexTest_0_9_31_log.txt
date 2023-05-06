@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_31.java:19: error: invalid method declaration; return type required
+    assertEquals(hash1, hash2);
+    ^
+CodexTest_0_9_31.java:19: error: <identifier> expected
+    assertEquals(hash1, hash2);
+                      ^
+CodexTest_0_9_31.java:19: error: <identifier> expected
+    assertEquals(hash1, hash2);
+                             ^
+CodexTest_0_9_31.java:21: error: class, interface, or enum expected
+}
+^

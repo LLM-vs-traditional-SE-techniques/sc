@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_92.java:23: error: cannot find symbol
+    assertEquals("Wrong element value (1)", 6.0, result.getElement(0), EPSILON);
+                                                                       ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_7_92
+CodexTest_0_7_92.java:24: error: cannot find symbol
+    assertEquals("Wrong element value (2)", 6.0, result.getElement(1), EPSILON);
+                                                                       ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_7_92
+CodexTest_0_7_92.java:25: error: cannot find symbol
+    assertEquals("Wrong element value (3)", 6.0, result.getElement(2), EPSILON);
+                                                                       ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_7_92
+CodexTest_0_7_92.java:26: error: cannot find symbol
+    assertEquals("Wrong element value (4)", 6.0, result.getElement(3), EPSILON);
+                                                                       ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_7_92

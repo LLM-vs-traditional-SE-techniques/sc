@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_3.java:21: error: cannot find symbol
+        assertTrue(new BasicDoubleArrayList(new double[]{1, 2, 3}).contains(1));
+                       ^
+  symbol:   class BasicDoubleArrayList
+  location: class CodexTest_0_5_3
+CodexTest_0_5_3.java:22: error: cannot find symbol
+        assertFalse(new BasicDoubleArrayList(new double[]{1, 2, 3}).contains(4));
+                        ^
+  symbol:   class BasicDoubleArrayList
+  location: class CodexTest_0_5_3
+CodexTest_0_5_3.java:23: error: cannot find symbol
+        assertFalse(new BasicDoubleArrayList(new double[]{1, 2, 3}).contains(0));
+                        ^
+  symbol:   class BasicDoubleArrayList
+  location: class CodexTest_0_5_3
+CodexTest_0_5_3.java:24: error: cannot find symbol
+        assertFalse(new BasicDoubleArrayList(new double[]{1, 2, 3}).contains(null));
+                        ^
+  symbol:   class BasicDoubleArrayList
+  location: class CodexTest_0_5_3

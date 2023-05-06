@@ -1,0 +1,32 @@
+import weka.core.*;
+import java.io.Serializable;
+import java.util.Random;
+
+import weka.core.*;
+import java.util.Random;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_3_18 { 
+  @Test
+    public void testGetAsInstance() {
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                "A,B,C,D\n" + "0,0,0,0\n" + "1,1,1,1\n" + "2,2,2,2\n"
+                        + "3,3,3,3\n" + "4,4,4,4\n" + "5,5,5,5\n"
+                        + "6,6,6,6\n" + "7,7,7,7\n" + "8,8,8,8\n"
+                        + "9,9,9,9\n" + "10,10,10,10\n" + "11,11,11,11\n"
+                        + "12,12,12,12\n" + "13,13,13,13\n" + "14,14,14,14\n"
+                        + "15,15,15,15\n" + "16,16,16,16\n" + "17,17,17,17\n"
+                        + "18,18,18,18\n" + "19,19,19,19\n" + "20,20,20,20\n"
+                        + "21,21,21,21\n" + "22,22,22,22\n" + "23,23,23,23\n"
+                        + "24,24,24,24\n" + "25,25,25,25\n" + "26,26,26,26\n"
+                        + "27,27,27,27\n" + "28,28,28,28\n" + "29,29,29,29\n"
+                        + "30,30,30,30\n" + "31,31,31,31\n" + "32,32,32,32\n"
+                        + "33,33,33,33\n" + "34,34,34,34\n" + "35,35,35,35\n"
+                        + "36
+}

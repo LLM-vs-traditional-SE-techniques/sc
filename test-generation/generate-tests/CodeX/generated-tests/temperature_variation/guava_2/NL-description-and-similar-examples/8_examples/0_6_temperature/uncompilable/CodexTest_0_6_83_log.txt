@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_83.java:27: error: cannot find symbol
+        BitSet bits = BitSet.valueOf(new long[] {i});
+        ^
+  symbol:   class BitSet
+  location: class CodexTest_0_6_83
+CodexTest_0_6_83.java:27: error: cannot find symbol
+        BitSet bits = BitSet.valueOf(new long[] {i});
+                      ^
+  symbol:   variable BitSet
+  location: class CodexTest_0_6_83
+CodexTest_0_6_83.java:30: error: cannot find symbol
+        BitSet readBack = BitSet.valueOf(bytes);
+        ^
+  symbol:   class BitSet
+  location: class CodexTest_0_6_83
+CodexTest_0_6_83.java:30: error: cannot find symbol
+        BitSet readBack = BitSet.valueOf(bytes);
+                          ^
+  symbol:   variable BitSet
+  location: class CodexTest_0_6_83

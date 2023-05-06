@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_10.java:20: error: incompatible types: weka.core.DenseInstance cannot be converted to weka.core.Instances
+        Instances model = new DenseInstance(1);
+                          ^

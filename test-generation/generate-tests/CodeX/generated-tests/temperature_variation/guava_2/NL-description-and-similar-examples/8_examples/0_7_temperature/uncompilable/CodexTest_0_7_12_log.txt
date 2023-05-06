@@ -1,0 +1,49 @@
+isCompilable => false
+CodexTest_0_7_12.java:26: error: cannot find symbol
+    for (int numBytes = 0; numBytes < BYTES.length; numBytes++) {
+                                      ^
+  symbol:   variable BYTES
+  location: class CodexTest_0_7_12
+CodexTest_0_7_12.java:28: error: cannot find symbol
+      assertEquals(numBytes, BYTES.writeBytesTo(dest, 0, numBytes));
+                             ^
+  symbol:   variable BYTES
+  location: class CodexTest_0_7_12
+CodexTest_0_7_12.java:29: error: cannot find symbol
+      assertTrue(Arrays.equals(Arrays.copyOf(BYTES.bytes, numBytes), dest));
+                                             ^
+  symbol:   variable BYTES
+  location: class CodexTest_0_7_12
+CodexTest_0_7_12.java:33: error: package BYTES does not exist
+      BYTES.writeBytesTo(new byte[BYTES.bytes.length - 1], 0, BYTES.bytes.length);
+                                       ^
+CodexTest_0_7_12.java:33: error: package BYTES does not exist
+      BYTES.writeBytesTo(new byte[BYTES.bytes.length - 1], 0, BYTES.bytes.length);
+                                                                   ^
+CodexTest_0_7_12.java:33: error: cannot find symbol
+      BYTES.writeBytesTo(new byte[BYTES.bytes.length - 1], 0, BYTES.bytes.length);
+      ^
+  symbol:   variable BYTES
+  location: class CodexTest_0_7_12
+CodexTest_0_7_12.java:38: error: package BYTES does not exist
+      BYTES.writeBytesTo(new byte[BYTES.bytes.length], 1, BYTES.bytes.length);
+                                       ^
+CodexTest_0_7_12.java:38: error: package BYTES does not exist
+      BYTES.writeBytesTo(new byte[BYTES.bytes.length], 1, BYTES.bytes.length);
+                                                               ^
+CodexTest_0_7_12.java:38: error: cannot find symbol
+      BYTES.writeBytesTo(new byte[BYTES.bytes.length], 1, BYTES.bytes.length);
+      ^
+  symbol:   variable BYTES
+  location: class CodexTest_0_7_12
+CodexTest_0_7_12.java:43: error: package BYTES does not exist
+      BYTES.writeBytesTo(new byte[BYTES.bytes.length], -1, BYTES.bytes.length);
+                                       ^
+CodexTest_0_7_12.java:43: error: package BYTES does not exist
+      BYTES.writeBytesTo(new byte[BYTES.bytes.length], -1, BYTES.bytes.length);
+                                                                ^
+CodexTest_0_7_12.java:43: error: cannot find symbol
+      BYTES.writeBytesTo(new byte[BYTES.bytes.length], -1, BYTES.bytes.length);
+      ^
+  symbol:   variable BYTES
+  location: class CodexTest_0_7_12

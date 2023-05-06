@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_8_23.java:29: error: <identifier> expected
+Input: public static HashCode fromInt(int hash) {
+     ^
+CodexTest_0_8_23.java:32: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_23.java:38: error: <identifier> expected
+Input: public static HashCode fromString(String string) {
+     ^
+CodexTest_0_8_23.java:42: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_23.java:51: error: <identifier> expected
+Input: public static HashCode fromUnencodedChars(CharSequence chars) {
+     ^
+CodexTest_0_8_23.java:59: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_23.java:66: error: <identifier> expected
+Input: public boolean equals(Object object) {
+     ^
+CodexTest_0_8_23.java:68: error: reached end of file while parsing
+}
+ ^

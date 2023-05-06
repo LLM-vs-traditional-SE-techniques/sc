@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_2.java:15: error: cannot find symbol
+    UncaughtExceptionHandler handlerMock = Mockito.mock(UncaughtExceptionHandler.class);
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:15: error: cannot find symbol
+    UncaughtExceptionHandler handlerMock = Mockito.mock(UncaughtExceptionHandler.class);
+                                                        ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:15: error: cannot find symbol
+    UncaughtExceptionHandler handlerMock = Mockito.mock(UncaughtExceptionHandler.class);
+                                           ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_2

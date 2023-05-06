@@ -1,0 +1,53 @@
+isCompilable => false
+CodexTest_0_9_4.java:18: error: incompatible types: possible lossy conversion from double to float
+          AlgVector a = new AlgVector(new float[]{8.9, 1.2, 54.3});
+                                                  ^
+CodexTest_0_9_4.java:18: error: incompatible types: possible lossy conversion from double to float
+          AlgVector a = new AlgVector(new float[]{8.9, 1.2, 54.3});
+                                                       ^
+CodexTest_0_9_4.java:18: error: incompatible types: possible lossy conversion from double to float
+          AlgVector a = new AlgVector(new float[]{8.9, 1.2, 54.3});
+                                                            ^
+CodexTest_0_9_4.java:18: error: no suitable constructor found for AlgVector(float[])
+          AlgVector a = new AlgVector(new float[]{8.9, 1.2, 54.3});
+                        ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; float[] cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; float[] cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; float[] cannot be converted to weka.core.Instance)
+CodexTest_0_9_4.java:19: error: incompatible types: possible lossy conversion from double to float
+          AlgVector b = new AlgVector(new float[]{3.2, 4.2, 3.1});
+                                                  ^
+CodexTest_0_9_4.java:19: error: incompatible types: possible lossy conversion from double to float
+          AlgVector b = new AlgVector(new float[]{3.2, 4.2, 3.1});
+                                                       ^
+CodexTest_0_9_4.java:19: error: incompatible types: possible lossy conversion from double to float
+          AlgVector b = new AlgVector(new float[]{3.2, 4.2, 3.1});
+                                                            ^
+CodexTest_0_9_4.java:19: error: no suitable constructor found for AlgVector(float[])
+          AlgVector b = new AlgVector(new float[]{3.2, 4.2, 3.1});
+                        ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; float[] cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; float[] cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; float[] cannot be converted to weka.core.Instance)
+CodexTest_0_9_4.java:21: error: cannot find symbol
+          assertEquals(12.1, c.get(0), 0.001);
+                              ^
+  symbol:   method get(int)
+  location: variable c of type weka.core.AlgVector
+CodexTest_0_9_4.java:22: error: cannot find symbol
+          assertEquals(5.4, c.get(1), 0.001);
+                             ^
+  symbol:   method get(int)
+  location: variable c of type weka.core.AlgVector
+CodexTest_0_9_4.java:23: error: cannot find symbol
+          assertEquals(57.4, c.get(2), 0.001);
+                              ^
+  symbol:   method get(int)
+  location: variable c of type weka.core.AlgVector
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

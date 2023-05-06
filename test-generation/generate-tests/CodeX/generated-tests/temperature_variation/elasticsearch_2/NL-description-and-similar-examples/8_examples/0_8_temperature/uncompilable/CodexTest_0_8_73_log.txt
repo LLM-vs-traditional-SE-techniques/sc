@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_8_73.java:66: error: cannot find symbol
+        assertThat(request.source(), notNullValue());
+                                     ^
+  symbol:   method notNullValue()
+  location: class CodexTest_0_8_73
+CodexTest_0_8_73.java:67: error: cannot find symbol
+        assertThat(request.hasContent(), equalTo(true));
+                          ^
+  symbol:   method hasContent()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_8_73.java:67: error: cannot find symbol
+        assertThat(request.hasContent(), equalTo(true));
+                                         ^
+  symbol:   method equalTo(boolean)
+  location: class CodexTest_0_8_73
+CodexTest_0_8_73.java:68: error: cannot find symbol
+        assertThat(request.contentUnsafe(), equalTo(request.source()));
+                          ^
+  symbol:   method contentUnsafe()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_8_73.java:68: error: cannot find symbol
+        assertThat(request.contentUnsafe(), equalTo(request.source()));
+                                            ^
+  symbol:   method equalTo(org.elasticsearch.common.bytes.BytesReference)
+  location: class CodexTest_0_8_73
+CodexTest_0_8_73.java:69: error: cannot find symbol
+        assertThat(request.sourceAsBytes(), notNullValue());
+                          ^
+  symbol:   method sourceAsBytes()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_8_73.java:69: error: cannot find symbol
+        assertThat(request.sourceAsBytes(), notNullValue());
+                                            ^
+  symbol:   method notNullValue()
+  location: class CodexTest_0_8_73
+CodexTest_0_8_73.java:70: error: cannot find symbol
+        assertThat(request.sourceAsBytesUnsafe(), equalTo(request.sourceAsBytes()));
+                          ^
+  symbol:   method sourceAsBytesUnsafe()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_8_73.java:70: error: cannot find symbol
+        assertThat(request.sourceAsBytesUnsafe(), equalTo(request.sourceAsBytes()));
+                                                                 ^
+  symbol:   method sourceAsBytes()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest

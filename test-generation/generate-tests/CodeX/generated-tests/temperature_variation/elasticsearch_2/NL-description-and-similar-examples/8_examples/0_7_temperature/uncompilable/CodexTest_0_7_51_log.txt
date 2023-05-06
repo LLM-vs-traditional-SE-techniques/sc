@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_51.java:65: error: cannot find symbol
+        CreateIndexRequest request = Requests.createIndexRequest("test")
+        ^
+  symbol:   class CreateIndexRequest
+  location: class CodexTest_0_7_51
+CodexTest_0_7_51.java:66: error: no suitable method found for source(java.util.Map<java.lang.String,java.util.Map<java.lang.String,java.lang.String>>,org.elasticsearch.common.xcontent.XContentType)
+                .source(Collections.singletonMap("field",
+                ^
+    method org.elasticsearch.action.admin.indices.create.CreateIndexRequest.source(java.lang.String,org.elasticsearch.common.xcontent.XContentType) is not applicable
+      (argument mismatch; no instance(s) of type variable(s) K,V,K,V exist so that java.util.Map<K,V> conforms to java.lang.String)
+    method org.elasticsearch.action.admin.indices.create.CreateIndexRequest.source(byte[],org.elasticsearch.common.xcontent.XContentType) is not applicable
+      (argument mismatch; no instance(s) of type variable(s) K,V,K,V exist so that java.util.Map<K,V> conforms to byte[])
+    method org.elasticsearch.action.admin.indices.create.CreateIndexRequest.source(org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.xcontent.XContentType) is not applicable
+      (argument mismatch; no instance(s) of type variable(s) K,V,K,V exist so that java.util.Map<K,V> conforms to org.elasticsearch.common.bytes.BytesReference)
+CodexTest_0_7_51.java:68: error: cannot find symbol
+        String source = Streams.copyToStringFromClasspath("/org/elasticsearch/action/admin/indices/create/create-index-request.json");
+                        ^
+  symbol:   variable Streams
+  location: class CodexTest_0_7_51
+CodexTest_0_7_51.java:69: error: cannot find symbol
+        assertEquals(Strings.toString(XContentFactory.jsonBuilder().map(XContentHelper.convertToMap(JsonXContent.jsonXContent, source, false))),
+                                                                                                    ^
+  symbol:   variable JsonXContent
+  location: class CodexTest_0_7_51
+CodexTest_0_7_51.java:69: error: cannot find symbol
+        assertEquals(Strings.toString(XContentFactory.jsonBuilder().map(XContentHelper.convertToMap(JsonXContent.jsonXContent, source, false))),
+                     ^
+  symbol:   variable Strings
+  location: class CodexTest_0_7_51
+CodexTest_0_7_51.java:70: error: cannot find symbol
+                Strings.toString(request.source()));
+                ^
+  symbol:   variable Strings
+  location: class CodexTest_0_7_51
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

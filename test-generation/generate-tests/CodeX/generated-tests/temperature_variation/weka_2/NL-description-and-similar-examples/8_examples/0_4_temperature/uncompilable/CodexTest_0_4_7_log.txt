@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_7.java:18: error: cannot find symbol
+        Instances dataset = new Instances(new BufferedReader(new StringReader(InstancesTest.DATATEST_HEADER)));
+                                              ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_4_7
+CodexTest_0_4_7.java:18: error: cannot find symbol
+        Instances dataset = new Instances(new BufferedReader(new StringReader(InstancesTest.DATATEST_HEADER)));
+                                                                 ^
+  symbol:   class StringReader
+  location: class CodexTest_0_4_7
+CodexTest_0_4_7.java:18: error: cannot find symbol
+        Instances dataset = new Instances(new BufferedReader(new StringReader(InstancesTest.DATATEST_HEADER)));
+                                                                              ^
+  symbol:   variable InstancesTest
+  location: class CodexTest_0_4_7

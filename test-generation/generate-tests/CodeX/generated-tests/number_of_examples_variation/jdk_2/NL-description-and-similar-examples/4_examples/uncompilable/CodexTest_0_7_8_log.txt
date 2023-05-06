@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_8.java:23: error: cannot find symbol
+        StringList underTest = new StringList();
+        ^
+  symbol:   class StringList
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:23: error: cannot find symbol
+        StringList underTest = new StringList();
+                                   ^
+  symbol:   class StringList
+  location: class CodexTest_0_7_8

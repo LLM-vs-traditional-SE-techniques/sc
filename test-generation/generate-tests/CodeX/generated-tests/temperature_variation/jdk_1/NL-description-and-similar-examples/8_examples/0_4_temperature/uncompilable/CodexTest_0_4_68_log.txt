@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_4_68.java:68: error: ')' expected
+        assertEquals("j", list.remove(0
+                                       ^
+CodexTest_0_4_68.java:69: error: reached end of file while parsing
+}
+ ^

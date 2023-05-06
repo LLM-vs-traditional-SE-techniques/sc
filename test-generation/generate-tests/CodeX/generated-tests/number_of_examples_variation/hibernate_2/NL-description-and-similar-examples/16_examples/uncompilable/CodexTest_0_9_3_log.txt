@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_3.java:16: error: cannot find symbol
+      MyType myType = new MyType();
+      ^
+  symbol:   class MyType
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:16: error: cannot find symbol
+      MyType myType = new MyType();
+                          ^
+  symbol:   class MyType
+  location: class CodexTest_0_9_3

@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_10.java:71: error: cannot find symbol
+        UnsupportedOperationException e = expectThrows(UnsupportedOperationException.class,
+                                          ^
+  symbol:   method expectThrows(java.lang.Class<java.lang.UnsupportedOperationException>,()->new Se[...]t(""))
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:72: error: cannot find symbol
+                () -> new SearchRequest().parent(""));
+                          ^
+  symbol:   class SearchRequest
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:75: error: cannot find symbol
+	SearchRequest request = new SearchRequest();
+	^
+  symbol:   class SearchRequest
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:75: error: cannot find symbol
+	SearchRequest request = new SearchRequest();
+	                            ^
+  symbol:   class SearchRequest
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:76: error: cannot find symbol
+        request.source().query(QueryBuilders.matchAllQuery());
+                               ^
+  symbol:   variable QueryBuilders
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:77: error: cannot find symbol
+        request.source().aggregation(AggregationBuilders.terms("a").field("field"));
+                                     ^
+  symbol:   variable AggregationBuilders
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:78: error: cannot find symbol
+        SearchResponse response = client().search(request).actionGet();
+        ^
+  symbol:   class SearchResponse
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:78: error: cannot find symbol
+        SearchResponse response = client().search(request).actionGet();
+                                  ^
+  symbol:   method client()
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:79: error: cannot find symbol
+        assertHighlight(response, 0, "parent", 0, 1, equalTo("<em>foo</em>"));
+                                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_10

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_3.java:16: error: cannot find symbol
+    assertEquals(0, ShortTypeDescriptor.INSTANCE.toShort(null));
+                                                ^
+  symbol:   method toShort(<nulltype>)
+  location: variable INSTANCE of type org.hibernate.type.descriptor.java.ShortTypeDescriptor
+CodexTest_0_5_3.java:17: error: cannot find symbol
+    assertEquals(0, ShortTypeDescriptor.INSTANCE.toShort(Boolean.FALSE));
+                                                ^
+  symbol:   method toShort(java.lang.Boolean)
+  location: variable INSTANCE of type org.hibernate.type.descriptor.java.ShortTypeDescriptor
+CodexTest_0_5_3.java:18: error: cannot find symbol
+    assertEquals(1, ShortTypeDescriptor.INSTANCE.toShort(Boolean.TRUE));
+                                                ^
+  symbol:   method toShort(java.lang.Boolean)
+  location: variable INSTANCE of type org.hibernate.type.descriptor.java.ShortTypeDescriptor

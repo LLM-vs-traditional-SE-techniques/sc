@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_8_4.java:14: error: cannot find symbol
+  @GwtIncompatible
+   ^
+  symbol:   class GwtIncompatible
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:16: error: cannot find symbol
+    UncaughtExceptionHandler handler = new UncaughtExceptionHandler() {
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:16: error: cannot find symbol
+    UncaughtExceptionHandler handler = new UncaughtExceptionHandler() {
+                                           ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:22: error: cannot find symbol
+    UncaughtExceptionHandler oldHandler = GWT.setUncaughtExceptionHandler(handler);
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:32: error: 'void' type not allowed here
+    assertSame(oldHandler, GWT.setUncaughtExceptionHandler(null));
+                                                          ^

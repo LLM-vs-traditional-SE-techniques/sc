@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_10.java:15: error: cannot find symbol
+    UncaughtExceptionHandler originalHandler =
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:18: error: cannot find symbol
+        new UncaughtExceptionHandler() {
+            ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:30: error: cannot find symbol
+    assertNotNull(caughtException);
+                  ^
+  symbol:   variable caughtException
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:31: error: cannot find symbol
+    assertEquals("Boom!", caughtException.getMessage());
+                          ^
+  symbol:   variable caughtException
+  location: class CodexTest_0_7_10

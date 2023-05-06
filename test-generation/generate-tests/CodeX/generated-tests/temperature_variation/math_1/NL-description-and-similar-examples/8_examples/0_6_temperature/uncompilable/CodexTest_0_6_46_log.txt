@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_46.java:36: error: <identifier> expected
+Input: public final int getNumElements() {
+     ^
+CodexTest_0_6_46.java:39: error: <identifier> expected
+Output: public void testVectorConstructor() {
+      ^

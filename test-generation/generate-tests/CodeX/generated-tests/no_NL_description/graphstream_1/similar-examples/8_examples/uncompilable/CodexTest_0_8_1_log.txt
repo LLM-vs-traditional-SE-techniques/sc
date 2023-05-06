@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_1.java:20: error: cannot find symbol
+		Path path = createPath();
+		            ^
+  symbol:   method createPath()
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:21: error: cannot find symbol
+		assertContains(path, edgePath);
+		                     ^
+  symbol:   variable edgePath
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:22: error: cannot find symbol
+		assertContains(path, nodePath);
+		                     ^
+  symbol:   variable nodePath
+  location: class CodexTest_0_8_1

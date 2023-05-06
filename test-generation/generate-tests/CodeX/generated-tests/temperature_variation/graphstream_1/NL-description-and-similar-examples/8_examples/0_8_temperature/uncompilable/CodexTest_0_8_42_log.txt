@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_42.java:20: error: cannot find symbol
+		DefaultPath<Object, Edge> path = new DefaultPath<Object, Edge>("graph");
+		^
+  symbol:   class DefaultPath
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:20: error: cannot find symbol
+		DefaultPath<Object, Edge> path = new DefaultPath<Object, Edge>("graph");
+		                                     ^
+  symbol:   class DefaultPath
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:25: error: cannot find symbol
+		graph.addVertex(v1Id);
+		     ^
+  symbol:   method addVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_42.java:26: error: cannot find symbol
+		graph.addVertex(v2Id);
+		     ^
+  symbol:   method addVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_42.java:27: error: cannot find symbol
+		graph.addVertex(v3Id);
+		     ^
+  symbol:   method addVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_42.java:31: error: cannot find symbol
+		assertThat(path.contains(edge2), is(false));
+		                                 ^
+  symbol:   method is(boolean)
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:33: error: cannot find symbol
+		assertThat(path.contains(edge1), is(true));
+		                                 ^
+  symbol:   method is(boolean)
+  location: class CodexTest_0_8_42
+CodexTest_0_8_42.java:34: error: cannot find symbol
+		assertThat(path.contains(edge2), is(true));
+		                                 ^
+  symbol:   method is(boolean)
+  location: class CodexTest_0_8_42

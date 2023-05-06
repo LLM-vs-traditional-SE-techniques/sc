@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_10.java:33: error: cannot find symbol
+        assertEquals(6, m.getQuick(0), TOLERANCE);
+                                       ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_6_10
+CodexTest_0_6_10.java:34: error: cannot find symbol
+        assertEquals(7, m.getQuick(1), TOLERANCE);
+                                       ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_6_10
+CodexTest_0_6_10.java:35: error: cannot find symbol
+        assertEquals(8, m.getQuick(2), TOLERANCE);
+                                       ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_6_10

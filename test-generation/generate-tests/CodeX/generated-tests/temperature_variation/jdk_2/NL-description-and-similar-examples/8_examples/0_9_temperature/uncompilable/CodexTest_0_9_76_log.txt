@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_76.java:21: error: cannot find symbol
+		for (int i = 0; i < in.length; i++) {
+		                    ^
+  symbol:   variable in
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:22: error: cannot find symbol
+			String x = in[i];
+			           ^
+  symbol:   variable in
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:23: error: cannot find symbol
+			for (int j = 0; j < in.length; j++) {
+			                    ^
+  symbol:   variable in
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:24: error: cannot find symbol
+				String y = in[j];
+				           ^
+  symbol:   variable in
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:26: error: cannot find symbol
+				assertTrue(y.toString() + " not found at position " + j, list.contains(y));
+				                                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_9_76

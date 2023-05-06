@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_2.java:79: error: unclosed string literal
+              .put("http.
+                   ^
+CodexTest_0_8_2.java:79: error: ';' expected
+              .put("http.
+                         ^
+CodexTest_0_8_2.java:80: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_8_2.java:66: error: 'try' without 'catch', 'finally' or resource declarations
+      try {
+      ^

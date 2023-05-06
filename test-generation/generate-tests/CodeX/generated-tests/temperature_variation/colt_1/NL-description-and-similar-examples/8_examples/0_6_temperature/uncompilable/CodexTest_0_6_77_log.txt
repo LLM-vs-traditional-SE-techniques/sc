@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_77.java:33: error: cannot find symbol
+        m.assign(cern.jet.math.Functions.one);
+                                        ^
+  symbol:   variable one
+  location: class cern.jet.math.Functions
+CodexTest_0_6_77.java:35: error: cannot find symbol
+            assertEquals(expectedValues[i], m.getQuick(i), TOL);
+                                                           ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_77

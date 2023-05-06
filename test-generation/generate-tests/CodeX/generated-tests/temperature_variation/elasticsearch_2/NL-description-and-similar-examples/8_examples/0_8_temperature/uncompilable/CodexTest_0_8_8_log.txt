@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_8.java:67: error: cannot find symbol
+            indexRequest.source(Collections.singletonMap("field", "value"), XContentType.values()[random().nextInt(XContentType.values().length)]);
+                                                                                                  ^
+  symbol:   method random()
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:70: error: cannot find symbol
+            assertThat(e.getMessage(), startsWith("Failed to generate [{field=value}]"));
+                                       ^
+  symbol:   method startsWith(java.lang.String)
+  location: class CodexTest_0_8_8

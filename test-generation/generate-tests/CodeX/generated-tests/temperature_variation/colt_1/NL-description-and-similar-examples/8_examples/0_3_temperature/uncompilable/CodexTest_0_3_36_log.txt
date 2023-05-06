@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_36.java:66: error: ')' expected
+        for (int i = 0; i < SIZE; ++i
+                                     ^
+CodexTest_0_3_36.java:67: error: illegal start of statement
+}
+^
+CodexTest_0_3_36.java:67: error: reached end of file while parsing
+}
+ ^

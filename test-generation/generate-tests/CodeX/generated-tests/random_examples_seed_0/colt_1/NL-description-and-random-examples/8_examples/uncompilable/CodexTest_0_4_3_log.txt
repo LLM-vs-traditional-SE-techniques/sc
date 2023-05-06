@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_4_3.java:30: error: cannot find symbol
+        DoubleMatrix1D other = new DenseDoubleMatrix1D(SIZE);
+                                                       ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_3
+CodexTest_0_4_3.java:31: error: cannot find symbol
+        for (int i = 0; i < SIZE; ++i) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_3
+CodexTest_0_4_3.java:34: error: cannot find symbol
+        DoubleMatrix1D copy = matrix.copy();
+                              ^
+  symbol:   variable matrix
+  location: class CodexTest_0_4_3
+CodexTest_0_4_3.java:35: error: cannot find symbol
+        matrix.assign(other);
+        ^
+  symbol:   variable matrix
+  location: class CodexTest_0_4_3
+CodexTest_0_4_3.java:36: error: cannot find symbol
+        for (int r = 0; r < SIZE; r++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_3
+CodexTest_0_4_3.java:37: error: cannot find symbol
+            assertEquals(other.getQuick(r), matrix.getQuick(r), TOL);
+                                            ^
+  symbol:   variable matrix
+  location: class CodexTest_0_4_3
+CodexTest_0_4_3.java:37: error: cannot find symbol
+            assertEquals(other.getQuick(r), matrix.getQuick(r), TOL);
+                                                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_3
+CodexTest_0_4_3.java:38: error: cannot find symbol
+            assertEquals(copy.getQuick(r), matrix.getQuick(r), TOL);
+                                           ^
+  symbol:   variable matrix
+  location: class CodexTest_0_4_3
+CodexTest_0_4_3.java:38: error: cannot find symbol
+            assertEquals(copy.getQuick(r), matrix.getQuick(r), TOL);
+                                                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_3

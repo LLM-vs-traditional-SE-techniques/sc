@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_4_53.java:21: error: cannot find symbol
+        assertTrue(list.contains(null));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53
+CodexTest_0_4_53.java:22: error: cannot find symbol
+        assertTrue(list.contains(1));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53
+CodexTest_0_4_53.java:23: error: cannot find symbol
+        assertTrue(list.contains(2));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53
+CodexTest_0_4_53.java:24: error: cannot find symbol
+        assertTrue(list.contains(3));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53
+CodexTest_0_4_53.java:25: error: cannot find symbol
+        assertTrue(list.contains(4));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53
+CodexTest_0_4_53.java:26: error: cannot find symbol
+        assertTrue(list.contains(5));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53
+CodexTest_0_4_53.java:27: error: cannot find symbol
+        assertTrue(list.contains(6));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53
+CodexTest_0_4_53.java:28: error: cannot find symbol
+        assertTrue(list.contains(7));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53
+CodexTest_0_4_53.java:29: error: cannot find symbol
+        assertTrue(list.contains(8));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53
+CodexTest_0_4_53.java:30: error: cannot find symbol
+        assertTrue(list.contains(9));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53
+CodexTest_0_4_53.java:31: error: cannot find symbol
+        assertTrue(list.contains(10));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53
+CodexTest_0_4_53.java:32: error: cannot find symbol
+        assertFalse(list.contains(11));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53
+CodexTest_0_4_53.java:33: error: cannot find symbol
+        assertFalse(list.contains(0));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_4_53

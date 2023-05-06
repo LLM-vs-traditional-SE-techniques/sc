@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_39.java:22: error: illegal character: '#'
+        #BOOLEAN# res = fList.contains("42");
+        ^
+CodexTest_0_9_39.java:22: error: illegal character: '#'
+        #BOOLEAN# res = fList.contains("42");
+                ^
+CodexTest_0_9_39.java:22: error: not a statement
+        #BOOLEAN# res = fList.contains("42");
+         ^

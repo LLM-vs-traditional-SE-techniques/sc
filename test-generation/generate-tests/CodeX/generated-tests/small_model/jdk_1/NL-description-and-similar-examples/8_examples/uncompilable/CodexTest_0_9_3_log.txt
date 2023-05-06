@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_9_3.java:21: error: cannot find symbol
+        FastVector array =
+        ^
+  symbol:   class FastVector
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:22: error: cannot find symbol
+                new FastVector(new Comparable[] { new Integer(7), new Double(1.0), new Float(12.0) })
+                    ^
+  symbol:   class FastVector
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:27: error: incompatible types: double cannot be converted to java.lang.Float
+        assertTrue(array.contains((Float)12.0));
+                                         ^

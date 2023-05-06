@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_33.java:93: error: ')' expected
+            assertThat((String) sourceAndContentType.get("content_type"), equal
+                                                                               ^
+CodexTest_0_9_33.java:94: error: reached end of file while parsing
+}
+ ^

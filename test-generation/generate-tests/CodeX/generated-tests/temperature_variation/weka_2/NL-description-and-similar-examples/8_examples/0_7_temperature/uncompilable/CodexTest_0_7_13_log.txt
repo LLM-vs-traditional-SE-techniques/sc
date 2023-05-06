@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_7_13.java:43: error: <identifier> expected
+    assertEquals(1, m_Data.instance(25).class
+                                        ^
+CodexTest_0_7_13.java:43: error: ';' expected
+    assertEquals(1, m_Data.instance(25).class
+                                             ^
+CodexTest_0_7_13.java:44: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_6.java:51: error: <identifier> expected
+        Vector1D v20 = v.scalarMultiply(Double.
+                                               ^
+CodexTest_0_2_6.java:52: error: reached end of file while parsing
+}
+ ^

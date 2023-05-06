@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_2_48.java:22: error: cannot find symbol
+    Instances dataset = new Instances("Test", new ArrayList<Attribute>(), numInstances);
+                                                  ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_2_48
+Note: CodexTest_0_2_48.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_69.java:18: error: cannot find symbol
+        Instances data = getData();
+                         ^
+  symbol:   method getData()
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:21: error: cannot find symbol
+                double cov = m_AttributeStats[i].numericStats.cov;
+                             ^
+  symbol:   variable m_AttributeStats
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:22: error: cannot find symbol
+                double att1Mean = m_AttributeStats[i].numericStats.mean;
+                                  ^
+  symbol:   variable m_AttributeStats
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:23: error: cannot find symbol
+                double att2Mean = m_AttributeStats[j].numericStats.mean;
+                                  ^
+  symbol:   variable m_AttributeStats
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:23: error: cannot find symbol
+                double att2Mean = m_AttributeStats[j].numericStats.mean;
+                                                   ^
+  symbol:   variable j
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:28: error: cannot find symbol
+                    double att2Val = inst.value(j);
+                                                ^
+  symbol:   variable j
+  location: class CodexTest_0_8_69

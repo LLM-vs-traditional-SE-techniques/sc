@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_4.java:71: error: cannot find symbol
+        assertEquals("{\"user\":\"kimchy\",\"postDate\":\""+ ISODateTimeFormat.dateTime().print(0) +"\",\"message\":\"trying out Elasticsearch\"}", indexRequest.source().utf8ToString());
+                                                             ^
+  symbol:   variable ISODateTimeFormat
+  location: class CodexTest_0_5_4

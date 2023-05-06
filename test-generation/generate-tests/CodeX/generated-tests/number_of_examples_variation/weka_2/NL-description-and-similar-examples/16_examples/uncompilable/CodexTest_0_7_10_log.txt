@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_10.java:23: error: cannot find symbol
+        ClusRun cr = new ClusRun();
+        ^
+  symbol:   class ClusRun
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:23: error: cannot find symbol
+        ClusRun cr = new ClusRun();
+                         ^
+  symbol:   class ClusRun
+  location: class CodexTest_0_7_10

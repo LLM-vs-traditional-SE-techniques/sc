@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_7_5.java:23: error: cannot find symbol
+        path2.nodePath.add(new DefaultNode("Node"));
+                               ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:23: error: nodePath is not public in org.graphstream.graph.Path; cannot be accessed from outside package
+        path2.nodePath.add(new DefaultNode("Node"));
+             ^

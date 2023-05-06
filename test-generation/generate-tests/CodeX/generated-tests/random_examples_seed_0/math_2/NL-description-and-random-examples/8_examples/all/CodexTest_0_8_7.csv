@@ -1,0 +1,182 @@
+prompt,output
+"Suggest a test for a method with the double distanceSq(Vector1D p1, Vector1D p2) signature.
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnFalseWhenFStringGiven() {
+			// given
+			BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+			// when
+			Boolean result = underTest.wrap('N', null);
+			// then
+			assertFalse(result);
+		}
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnTrueWhenYStringGiven() {
+        // given
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+        // when
+        Boolean result = underTest.wrap(""Y"", null);
+        // then
+        assertTrue(result);
+    }
+
+Input: public DoubleMatrix1D like(int size) {
+			return new DenseDoubleMatrix1D(size);
+		}
+Output: public static void doubleTest28() {
+			double[] data={1,2,3,4,5,6};
+			double[][] arrMatrix = 
+			{ 
+				{ 1, 2, 3, 4, 5, 6},
+				{ 2, 3, 4, 5, 6, 7}
+			};
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			DoubleMatrix2D matrix = f.make(arrMatrix);
+			DoubleMatrix1D res = vector.like(matrix.rows());
+
+						matrix.zMult(vector,res);
+
+					System.out.println(res);
+		}
+
+Input: public ArrayList() {
+        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+    }
+Output: public void emptyArraysDifferBetweenDefaultAndExplicit() {
+			assertNotSame(elementData(new ArrayList<Object>()),
+						  elementData(new ArrayList<Object>(0)));
+		}
+
+Input: public DenseDoubleMatrix1D(double[] values) {
+			this(values.length);
+			assign(values);
+		}
+Output: public static void testMax() {
+  double[] temp = new double[2];
+
+   temp[0] = 8.9;
+  temp[1] = 1;
+
+   DenseDoubleMatrix1D d1Double = new DenseDoubleMatrix1D(temp);
+    hep.aida.bin.DynamicBin1D d1ynamicBin = cern.colt.matrix.doublealgo.Statistic.bin(d1Double);
+   double max = d1ynamicBin.max();
+   System.out.println(""max = ""+ max);
+}
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public void setRoot(Node root) {
+			if (this.root == null) {
+				this.root = root;
+				nodePath.push(root);
+			} else {
+				logger.warning('Root node is not null - first use the clear method.');
+			}
+		}
+Output: @Test(expected = IllegalArgumentException.class)
+		public void add_nodeHeadMustBeInEdge() {
+			Graph graph = createSimpleGraph();
+			Path path = new Path();
+				path.setRoot(graph.getNode('a'));
+				// this has to fail as there is no edge between nodes 'a' and 'c'
+			path.add(graph.getEdge('cd'));
+		}
+
+
+Input: public static double distanceSq(Vector1D p1, Vector1D p2) {
+        return p1.distanceSq(p2);
+    }
+Output:
+  ","import org.apache.commons.math3.geometry.euclidean.oned.*;
+import java.text.NumberFormat;
+import org.apache.commons.math3.exception.MathArithmeticException;
+import org.apache.commons.math3.exception.util.LocalizedFormats;
+import org.apache.commons.math3.geometry.Point;
+import org.apache.commons.math3.geometry.Space;
+import org.apache.commons.math3.geometry.Vector;
+import org.apache.commons.math3.util.FastMath;
+import org.apache.commons.math3.util.MathUtils;
+
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.text.NumberFormat;
+import java.util.Locale;
+import org.apache.commons.math3.exception.DimensionMismatchException;
+import org.apache.commons.math3.exception.MathArithmeticException;
+import org.apache.commons.math3.geometry.Space;
+import org.apache.commons.math3.util.FastMath;
+import org.apache.commons.math3.util.Precision;
+import org.junit.Assert;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_8_7 { 
+    @Test
+    public void doubleTest7() {
+        {
+            double[] data={0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0};
+            DoubleFactory1D f1 = DoubleFactory1D.dense;
+            DoubleMatrix1D d1 = f1.make(data);
+            DoubleMatrix1D d2 = f1.make(data.length);
+            DoubleMatrix1D d3;
+}"

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_80.java:25: error: cannot find symbol
+			TestBitArrayUtils.writeBytesTo(new byte[2], 1, 2);
+			^
+  symbol:   variable TestBitArrayUtils
+  location: class CodexTest_0_7_80

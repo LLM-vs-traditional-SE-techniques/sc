@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_3_53.java:26: error: cannot find symbol
+    int numBytes = bits() / 8;
+                   ^
+  symbol:   method bits()
+  location: class CodexTest_0_3_53
+CodexTest_0_3_53.java:27: error: cannot find symbol
+    int written = bs.writeBytesTo(dest, 0, numBytes);
+                  ^
+  symbol:   variable bs
+  location: class CodexTest_0_3_53
+CodexTest_0_3_53.java:29: error: cannot find symbol
+    assertEquals(bs, BitSet.valueOf(dest));
+                 ^
+  symbol:   variable bs
+  location: class CodexTest_0_3_53
+CodexTest_0_3_53.java:29: error: cannot find symbol
+    assertEquals(bs, BitSet.valueOf(dest));
+                     ^
+  symbol:   variable BitSet
+  location: class CodexTest_0_3_53

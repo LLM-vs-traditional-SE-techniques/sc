@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_94.java:25: error: cannot find symbol
+        MyObjectList list = new MyObjectList();
+        ^
+  symbol:   class MyObjectList
+  location: class CodexTest_0_8_94
+CodexTest_0_8_94.java:25: error: cannot find symbol
+        MyObjectList list = new MyObjectList();
+                                ^
+  symbol:   class MyObjectList
+  location: class CodexTest_0_8_94
+CodexTest_0_8_94.java:38: error: cannot find symbol
+        MyObjectList list = new MyObjectList();
+        ^
+  symbol:   class MyObjectList
+  location: class CodexTest_0_8_94
+CodexTest_0_8_94.java:38: error: cannot find symbol
+        MyObjectList list = new MyObjectList();
+                                ^
+  symbol:   class MyObjectList
+  location: class CodexTest_0_8_94

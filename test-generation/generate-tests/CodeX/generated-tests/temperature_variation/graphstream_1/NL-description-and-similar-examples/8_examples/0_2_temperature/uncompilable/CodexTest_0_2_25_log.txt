@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_2_25.java:21: error: cannot find symbol
+        path.add(edge1);
+                 ^
+  symbol:   variable edge1
+  location: class CodexTest_0_2_25
+CodexTest_0_2_25.java:22: error: cannot find symbol
+        path.add(edge2);
+                 ^
+  symbol:   variable edge2
+  location: class CodexTest_0_2_25
+CodexTest_0_2_25.java:23: error: cannot find symbol
+        path.add(edge3);
+                 ^
+  symbol:   variable edge3
+  location: class CodexTest_0_2_25
+CodexTest_0_2_25.java:24: error: cannot find symbol
+        assertTrue(path.contains(edge1));
+                                 ^
+  symbol:   variable edge1
+  location: class CodexTest_0_2_25
+CodexTest_0_2_25.java:25: error: cannot find symbol
+        assertTrue(path.contains(edge2));
+                                 ^
+  symbol:   variable edge2
+  location: class CodexTest_0_2_25
+CodexTest_0_2_25.java:26: error: cannot find symbol
+        assertTrue(path.contains(edge3));
+                                 ^
+  symbol:   variable edge3
+  location: class CodexTest_0_2_25
+CodexTest_0_2_25.java:27: error: cannot find symbol
+        assertFalse(path.contains(edge4));
+                                  ^
+  symbol:   variable edge4
+  location: class CodexTest_0_2_25

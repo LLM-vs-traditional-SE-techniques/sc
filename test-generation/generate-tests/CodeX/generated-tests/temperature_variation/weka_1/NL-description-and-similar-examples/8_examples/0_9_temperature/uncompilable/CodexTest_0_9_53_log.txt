@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_53.java:20: error: <identifier> expected
+Input: public int size() {
+     ^
+CodexTest_0_9_53.java:23: error: <identifier> expected
+Output: public void testSelect() {
+      ^
+CodexTest_0_9_53.java:31: error: reached end of file while parsing
+}
+ ^

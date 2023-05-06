@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_6_3.java:42: error: illegal character: '#'
+## License
+^
+CodexTest_0_6_3.java:42: error: illegal character: '#'
+## License
+ ^
+CodexTest_0_6_3.java:42: error: <identifier> expected
+## License
+          ^
+CodexTest_0_6_3.java:43: error: reached end of file while parsing
+}
+ ^

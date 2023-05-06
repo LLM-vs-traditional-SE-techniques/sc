@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_73.java:22: error: cannot find symbol
+        List<String> underTest = newArrayList();
+                                 ^
+  symbol:   method newArrayList()
+  location: class CodexTest_0_8_73

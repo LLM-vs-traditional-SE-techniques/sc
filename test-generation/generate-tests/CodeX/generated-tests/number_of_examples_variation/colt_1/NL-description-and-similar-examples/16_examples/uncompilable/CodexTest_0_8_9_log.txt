@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_9.java:52: error: ')' expected
+        assertEquals(C.getQuick(1,0),3,0
+                                        ^
+CodexTest_0_8_9.java:53: error: reached end of file while parsing
+}
+ ^

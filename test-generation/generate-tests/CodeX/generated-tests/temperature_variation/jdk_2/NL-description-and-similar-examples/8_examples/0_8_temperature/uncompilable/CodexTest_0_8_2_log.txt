@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_2.java:22: error: cannot find symbol
+        List<Boolean> list = asList(true, false);
+                             ^
+  symbol:   method asList(boolean,boolean)
+  location: class CodexTest_0_8_2

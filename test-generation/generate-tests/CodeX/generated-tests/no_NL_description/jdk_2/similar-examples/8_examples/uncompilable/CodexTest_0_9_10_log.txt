@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_10.java:21: error: cannot find symbol
+        check(list, ODD_DATA);
+              ^
+  symbol:   variable list
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:21: error: cannot find symbol
+        check(list, ODD_DATA);
+                    ^
+  symbol:   variable ODD_DATA
+  location: class CodexTest_0_9_10

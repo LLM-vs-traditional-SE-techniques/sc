@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_5_4.java:68: error: cannot find symbol
+        final DefaultNode<String> node = new DefaultNode<String>(parent);
+              ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:68: error: cannot find symbol
+        final DefaultNode<String> node = new DefaultNode<String>(parent);
+                                             ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:69: error: cannot find symbol
+        final DefaultNode<String> childNode = new DefaultNode<String>(child, node);
+              ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:69: error: cannot find symbol
+        final DefaultNode<String> childNode = new DefaultNode<String>(child, node);
+                                                  ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:70: error: cannot find symbol
+        final DefaultNode<String> grandChildNode = new DefaultNode<String>(grandChild,
+              ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:70: error: cannot find symbol
+        final DefaultNode<String> grandChildNode = new DefaultNode<String>(grandChild,
+                                                       ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_5_4

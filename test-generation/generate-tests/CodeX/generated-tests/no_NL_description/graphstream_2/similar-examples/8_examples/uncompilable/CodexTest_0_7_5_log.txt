@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_5.java:21: error: cannot find symbol
+        Path path = createPath(graph, "ab", "bc", "cd", "da");
+                               ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:22: error: cannot find symbol
+        Path path1 = createPath(graph, "ab", "bc", "cd", "da");
+                                ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:23: error: cannot find symbol
+        Path path2 = createPath(graph, "ab", "bc", "cd");
+                                ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_5

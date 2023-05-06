@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_5_2.java:15: error: cannot find symbol
+    GWTTestCase.setUncaughtExceptionHandler(null);
+               ^
+  symbol:   method setUncaughtExceptionHandler(<nulltype>)
+  location: class com.google.gwt.junit.client.GWTTestCase
+CodexTest_0_5_2.java:16: error: cannot find symbol
+    assertNull(GWTTestCase.getUncaughtExceptionHandler());
+                          ^
+  symbol:   method getUncaughtExceptionHandler()
+  location: class com.google.gwt.junit.client.GWTTestCase
+CodexTest_0_5_2.java:17: error: cannot find symbol
+    GWTTestCase.setUncaughtExceptionHandler(GWTTestCase.DEFAULT_UNCAUGHT_EXCEPTION_HANDLER);
+                                                       ^
+  symbol:   variable DEFAULT_UNCAUGHT_EXCEPTION_HANDLER
+  location: class com.google.gwt.junit.client.GWTTestCase
+CodexTest_0_5_2.java:18: error: cannot find symbol
+    assertSame(GWTTestCase.DEFAULT_UNCAUGHT_EXCEPTION_HANDLER,
+                          ^
+  symbol:   variable DEFAULT_UNCAUGHT_EXCEPTION_HANDLER
+  location: class com.google.gwt.junit.client.GWTTestCase
+CodexTest_0_5_2.java:19: error: cannot find symbol
+        GWTTestCase.getUncaughtExceptionHandler());
+                   ^
+  symbol:   method getUncaughtExceptionHandler()
+  location: class com.google.gwt.junit.client.GWTTestCase

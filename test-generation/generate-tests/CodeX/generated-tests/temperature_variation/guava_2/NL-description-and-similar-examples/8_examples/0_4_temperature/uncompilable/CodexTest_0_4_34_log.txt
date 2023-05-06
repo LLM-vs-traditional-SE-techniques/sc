@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_4_34.java:26: error: com.google.common.hash.HashCode is abstract; cannot be instantiated
+    int bytesWritten = new HashCode(new byte[5]).writeBytesTo(dest, 0, 100);
+                       ^
+CodexTest_0_4_34.java:28: error: com.google.common.hash.HashCode is abstract; cannot be instantiated
+    assertEquals(new HashCode(new byte[5]), HashCode.fromBytes(dest, 0, bytesWritten));
+                 ^
+CodexTest_0_4_34.java:28: error: method fromBytes in class com.google.common.hash.HashCode cannot be applied to given types;
+    assertEquals(new HashCode(new byte[5]), HashCode.fromBytes(dest, 0, bytesWritten));
+                                                    ^
+  required: byte[]
+  found: byte[],int,int
+  reason: actual and formal argument lists differ in length

@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_24.java:69: error: method toBytes in class org.elasticsearch.common.bytes.BytesReference cannot be applied to given types;
+            Assert.assertEquals(generateBytes.toBytes(), mapBytes.toBytes());
+                                             ^
+  required: org.elasticsearch.common.bytes.BytesReference
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+CodexTest_0_9_24.java:69: error: method toBytes in class org.elasticsearch.common.bytes.BytesReference cannot be applied to given types;
+            Assert.assertEquals(generateBytes.toBytes(), mapBytes.toBytes());
+                                                                 ^
+  required: org.elasticsearch.common.bytes.BytesReference
+  found: no arguments
+  reason: actual and formal argument lists differ in length

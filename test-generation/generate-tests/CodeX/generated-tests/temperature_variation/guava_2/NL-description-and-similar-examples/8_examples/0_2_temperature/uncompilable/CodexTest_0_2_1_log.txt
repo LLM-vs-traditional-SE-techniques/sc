@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_2_1.java:38: error: cannot find symbol
+    int actualLength = writeBytesTo(dest, offset, maxLength);
+                       ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_2_1
+CodexTest_0_2_1.java:42: error: cannot find symbol
+    assertEquals(expectedBits, bits());
+                               ^
+  symbol:   method bits()
+  location: class CodexTest_0_2_1
+CodexTest_0_2_1.java:43: error: cannot find symbol
+    assertEquals(expectedBytes, bytes());
+                                ^
+  symbol:   method bytes()
+  location: class CodexTest_0_2_1

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_59.java:26: error: cannot find symbol
+    assertEquals(5, Bits.fromLong(0x123456789L).writeBytesTo(dest, 0, 5));
+                    ^
+  symbol:   variable Bits
+  location: class CodexTest_0_5_59

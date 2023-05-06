@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_85.java:21: error: cannot find symbol
+    MockInstances model = new MockInstances();
+    ^
+  symbol:   class MockInstances
+  location: class CodexTest_0_7_85
+CodexTest_0_7_85.java:21: error: cannot find symbol
+    MockInstances model = new MockInstances();
+                              ^
+  symbol:   class MockInstances
+  location: class CodexTest_0_7_85
+CodexTest_0_7_85.java:32: error: cannot find symbol
+      assertTrue(inst.numMissing() == numAttributes - 2);
+                     ^
+  symbol:   method numMissing()
+  location: variable inst of type weka.core.Instance

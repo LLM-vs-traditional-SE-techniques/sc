@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_8.java:30: error: cannot find symbol
+        DenseDoubleMatrix2D a = new DenseDoubleMatrix2D(SparseRCDoubleMatrix2DTest.test3by3);
+                                                        ^
+  symbol:   variable SparseRCDoubleMatrix2DTest
+  location: class CodexTest_0_9_8

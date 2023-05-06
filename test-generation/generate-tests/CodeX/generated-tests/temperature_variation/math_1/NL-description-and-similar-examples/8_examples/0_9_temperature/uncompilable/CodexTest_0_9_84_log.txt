@@ -1,0 +1,15 @@
+isCompilable => false
+CodexTest_0_9_84.java:31: error: cannot find symbol
+    public SparseVector scale(double s) {
+           ^
+  symbol:   class SparseVector
+  location: class CodexTest_0_9_84
+CodexTest_0_9_84.java:32: error: cannot find symbol
+        return new SparseVector(s*this.scalarProduct(this));
+                   ^
+  symbol:   class SparseVector
+  location: class CodexTest_0_9_84
+CodexTest_0_9_84.java:32: error: cannot find symbol
+        return new SparseVector(s*this.scalarProduct(this));
+                                      ^
+  symbol: method scalarProduct(CodexTest_0_9_84)

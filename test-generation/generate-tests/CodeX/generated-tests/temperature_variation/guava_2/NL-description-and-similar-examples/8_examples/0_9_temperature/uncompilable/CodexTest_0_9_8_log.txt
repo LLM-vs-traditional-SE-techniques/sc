@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_8.java:25: error: cannot find symbol
+    LongPacker packer = new LongPacker(8, 4);
+    ^
+  symbol:   class LongPacker
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:25: error: cannot find symbol
+    LongPacker packer = new LongPacker(8, 4);
+                            ^
+  symbol:   class LongPacker
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:29: error: cannot find symbol
+    byte[] expected = {3, 5, n, 013};
+                             ^
+  symbol:   variable n
+  location: class CodexTest_0_9_8

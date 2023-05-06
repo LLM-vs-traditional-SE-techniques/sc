@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_5.java:33: error: cannot find symbol
+      EigenvalueDecomposition evd = new EigenvalueDecomposition(matrix);
+      ^
+  symbol:   class EigenvalueDecomposition
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:33: error: cannot find symbol
+      EigenvalueDecomposition evd = new EigenvalueDecomposition(matrix);
+                                        ^
+  symbol:   class EigenvalueDecomposition
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:39: error: cannot find symbol
+          double diff = FastMath.abs(matrix.getQuick(i, j) - A.getQuick(i, j));
+                        ^
+  symbol:   variable FastMath
+  location: class CodexTest_0_8_5

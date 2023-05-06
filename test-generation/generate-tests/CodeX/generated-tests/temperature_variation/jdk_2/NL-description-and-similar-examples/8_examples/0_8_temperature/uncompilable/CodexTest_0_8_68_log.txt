@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_68.java:21: error: cannot find symbol
+        List<Object> l = new ArrayList<>(Arrays.asList(one, two, three));
+                                                       ^
+  symbol:   variable one
+  location: class CodexTest_0_8_68
+CodexTest_0_8_68.java:21: error: cannot find symbol
+        List<Object> l = new ArrayList<>(Arrays.asList(one, two, three));
+                                                            ^
+  symbol:   variable two
+  location: class CodexTest_0_8_68
+CodexTest_0_8_68.java:21: error: cannot find symbol
+        List<Object> l = new ArrayList<>(Arrays.asList(one, two, three));
+                                                                 ^
+  symbol:   variable three
+  location: class CodexTest_0_8_68
+CodexTest_0_8_68.java:22: error: cannot find symbol
+        assertTrue(l.contains(two));
+                              ^
+  symbol:   variable two
+  location: class CodexTest_0_8_68
+CodexTest_0_8_68.java:23: error: cannot find symbol
+        assertTrue(l.contains(three));
+                              ^
+  symbol:   variable three
+  location: class CodexTest_0_8_68
+CodexTest_0_8_68.java:24: error: cannot find symbol
+        assertFalse(l.contains(four));
+                               ^
+  symbol:   variable four
+  location: class CodexTest_0_8_68

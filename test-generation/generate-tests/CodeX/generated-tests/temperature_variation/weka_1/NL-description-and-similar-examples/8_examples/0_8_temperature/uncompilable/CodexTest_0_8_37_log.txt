@@ -1,0 +1,43 @@
+isCompilable => false
+CodexTest_0_8_37.java:17: error: <identifier> expected
+  Annotation:
+            ^
+CodexTest_0_8_37.java:19: error: ';' expected
+  Num input points:
+     ^
+CodexTest_0_8_37.java:19: error: ';' expected
+  Num input points:
+                  ^
+CodexTest_0_8_37.java:21: error: ';' expected
+  Num Inputs
+            ^
+CodexTest_0_8_37.java:23: error: ';' expected
+  Input points:
+              ^
+CodexTest_0_8_37.java:29: error: ';' expected
+  Input points:
+              ^
+CodexTest_0_8_37.java:35: error: ';' expected
+  Input points:
+              ^
+CodexTest_0_8_37.java:41: error: ';' expected
+  Input points:
+              ^
+CodexTest_0_8_37.java:47: error: ';' expected
+  Input points:
+              ^
+CodexTest_0_8_37.java:53: error: ';' expected
+  Input points:
+              ^
+CodexTest_0_8_37.java:59: error: ';' expected
+  Input points:
+              ^
+CodexTest_0_8_37.java:65: error: ';' expected
+  Input points:
+              ^
+CodexTest_0_8_37.java:71: error: ';' expected
+  Input points:
+              ^
+CodexTest_0_8_37.java:77: error: ';' expected
+  Input points:
+              ^

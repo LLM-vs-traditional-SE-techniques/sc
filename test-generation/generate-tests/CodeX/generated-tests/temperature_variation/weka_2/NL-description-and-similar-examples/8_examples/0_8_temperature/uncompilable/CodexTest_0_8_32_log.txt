@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_32.java:20: error: cannot find symbol
+        new DenseInstances(new DenseInstance(len), 4));
+            ^
+  symbol:   class DenseInstances
+  location: class CodexTest_0_8_32
+CodexTest_0_8_32.java:19: error: cannot find symbol
+      Instance instance = RandomTestUtils.nextInstance(
+                          ^
+  symbol:   variable RandomTestUtils
+  location: class CodexTest_0_8_32

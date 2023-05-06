@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_77.java:32: error: cannot find symbol
+			v.assign(ce.mult(2));
+			         ^
+  symbol:   variable ce
+  location: class CodexTest_0_7_77

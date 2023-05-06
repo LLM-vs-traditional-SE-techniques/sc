@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_7.java:20: error: cannot find symbol
+    	assertTrue(edgePath.contains(edge));
+    	                             ^
+  symbol:   variable edge
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:20: error: cannot find symbol
+    	assertTrue(edgePath.contains(edge));
+    	           ^
+  symbol:   variable edgePath
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:21: error: cannot find symbol
+    	assertFalse(edgePath.contains(edge2));
+    	                              ^
+  symbol:   variable edge2
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:21: error: cannot find symbol
+    	assertFalse(edgePath.contains(edge2));
+    	            ^
+  symbol:   variable edgePath
+  location: class CodexTest_0_5_7

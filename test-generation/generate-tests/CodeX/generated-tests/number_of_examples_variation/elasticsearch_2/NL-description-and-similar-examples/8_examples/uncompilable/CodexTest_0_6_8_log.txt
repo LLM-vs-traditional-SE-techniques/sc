@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_8.java:65: error: cannot find symbol
+        IndexRequest indexRequest = Requests.indexRequest("index").type("type").id("1").source(singletonMap("field", "value"));
+                                                                                               ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_6_8

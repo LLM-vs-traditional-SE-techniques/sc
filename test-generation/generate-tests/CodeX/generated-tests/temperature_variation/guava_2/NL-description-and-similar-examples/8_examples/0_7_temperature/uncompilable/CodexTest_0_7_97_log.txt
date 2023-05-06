@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_97.java:25: error: cannot find symbol
+    byte[] bytes = new byte[bits() / 8];
+                            ^
+  symbol:   method bits()
+  location: class CodexTest_0_7_97
+CodexTest_0_7_97.java:26: error: cannot find symbol
+    writeBytesTo(bytes, 0, bytes.length);
+    ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_7_97
+CodexTest_0_7_97.java:27: error: cannot find symbol
+    assertFalse("The array must not be all zeros", bytesAreAllZeros(bytes));
+                                                   ^
+  symbol:   method bytesAreAllZeros(byte[])
+  location: class CodexTest_0_7_97

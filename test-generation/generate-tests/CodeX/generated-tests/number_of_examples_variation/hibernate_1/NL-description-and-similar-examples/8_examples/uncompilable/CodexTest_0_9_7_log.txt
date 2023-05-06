@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_7.java:17: error: cannot find symbol
+      BooleanJdbcTypeDescriptor underTest = new BooleanJdbcTypeDescriptor();
+      ^
+  symbol:   class BooleanJdbcTypeDescriptor
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:17: error: cannot find symbol
+      BooleanJdbcTypeDescriptor underTest = new BooleanJdbcTypeDescriptor();
+                                                ^
+  symbol:   class BooleanJdbcTypeDescriptor
+  location: class CodexTest_0_9_7

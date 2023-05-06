@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_47.java:66: error: cannot find symbol
+        SearchScrollRequest searchScrollRequest = new SearchScrollRequest("see-me-scroll");
+        ^
+  symbol:   class SearchScrollRequest
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:66: error: cannot find symbol
+        SearchScrollRequest searchScrollRequest = new SearchScrollRequest("see-me-scroll");
+                                                      ^
+  symbol:   class SearchScrollRequest
+  location: class CodexTest_0_8_47

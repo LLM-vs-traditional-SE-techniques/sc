@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_50.java:24: error: cannot find symbol
+      resInst = createTestAttributes(attribs);
+                ^
+  symbol:   method createTestAttributes(int[])
+  location: class CodexTest_0_9_50

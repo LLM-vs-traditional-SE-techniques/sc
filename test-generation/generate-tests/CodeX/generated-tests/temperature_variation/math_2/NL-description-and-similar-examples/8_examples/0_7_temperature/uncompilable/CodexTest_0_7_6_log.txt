@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_6.java:38: error: <identifier> expected
+Input: public double getNorm() {
+     ^
+CodexTest_0_7_6.java:41: error: <identifier> expected
+Output:
+      ^

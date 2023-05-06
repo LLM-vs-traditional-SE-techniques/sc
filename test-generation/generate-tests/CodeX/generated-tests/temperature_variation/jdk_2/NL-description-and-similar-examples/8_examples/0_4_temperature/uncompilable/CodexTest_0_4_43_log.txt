@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_4_43.java:21: error: cannot find symbol
+        SimpleTreeNode root = new SimpleTreeNode("root");
+        ^
+  symbol:   class SimpleTreeNode
+  location: class CodexTest_0_4_43
+CodexTest_0_4_43.java:21: error: cannot find symbol
+        SimpleTreeNode root = new SimpleTreeNode("root");
+                                  ^
+  symbol:   class SimpleTreeNode
+  location: class CodexTest_0_4_43
+CodexTest_0_4_43.java:22: error: cannot find symbol
+        SimpleTreeNode child1 = new SimpleTreeNode("child1");
+        ^
+  symbol:   class SimpleTreeNode
+  location: class CodexTest_0_4_43
+CodexTest_0_4_43.java:22: error: cannot find symbol
+        SimpleTreeNode child1 = new SimpleTreeNode("child1");
+                                    ^
+  symbol:   class SimpleTreeNode
+  location: class CodexTest_0_4_43
+CodexTest_0_4_43.java:23: error: cannot find symbol
+        SimpleTreeNode child2 = new SimpleTreeNode("child2");
+        ^
+  symbol:   class SimpleTreeNode
+  location: class CodexTest_0_4_43
+CodexTest_0_4_43.java:23: error: cannot find symbol
+        SimpleTreeNode child2 = new SimpleTreeNode("child2");
+                                    ^
+  symbol:   class SimpleTreeNode
+  location: class CodexTest_0_4_43
+CodexTest_0_4_43.java:28: error: cannot find symbol
+        assertFalse(root.contains(new SimpleTreeNode("child3")));
+                                      ^
+  symbol:   class SimpleTreeNode
+  location: class CodexTest_0_4_43

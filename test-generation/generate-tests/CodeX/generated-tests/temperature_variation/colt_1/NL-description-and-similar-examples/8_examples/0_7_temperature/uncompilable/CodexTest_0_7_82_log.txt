@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_82.java:30: error: cannot find symbol
+      DoubleMatrix2D a = new DenseDoubleMatrix2D(SIZE,SIZE);
+                                                 ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:30: error: cannot find symbol
+      DoubleMatrix2D a = new DenseDoubleMatrix2D(SIZE,SIZE);
+                                                      ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:31: error: cannot find symbol
+      DoubleMatrix2D b = new DenseDoubleMatrix2D(SIZE,SIZE);
+                                                 ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:31: error: cannot find symbol
+      DoubleMatrix2D b = new DenseDoubleMatrix2D(SIZE,SIZE);
+                                                      ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:32: error: cannot find symbol
+      for (int row=SIZE; --row >= 0;) {
+                   ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:33: error: cannot find symbol
+         for (int col=SIZE; --col >= 0;) {
+                      ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_82

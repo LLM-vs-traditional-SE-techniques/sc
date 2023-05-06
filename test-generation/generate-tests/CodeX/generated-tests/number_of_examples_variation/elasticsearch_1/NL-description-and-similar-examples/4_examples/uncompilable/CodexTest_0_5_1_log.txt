@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_1.java:65: error: cannot find symbol
+        TestClass tc = new TestClass();
+        ^
+  symbol:   class TestClass
+  location: class CodexTest_0_5_1
+CodexTest_0_5_1.java:65: error: cannot find symbol
+        TestClass tc = new TestClass();
+                           ^
+  symbol:   class TestClass
+  location: class CodexTest_0_5_1

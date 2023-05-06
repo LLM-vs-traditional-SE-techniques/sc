@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_2.java:16: error: cannot find symbol
+    assertEquals(DOMImpl.getDocument().getClass(), Document.class);
+                 ^
+  symbol:   variable DOMImpl
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:16: error: cannot find symbol
+    assertEquals(DOMImpl.getDocument().getClass(), Document.class);
+                                                   ^
+  symbol:   class Document
+  location: class CodexTest_0_9_2

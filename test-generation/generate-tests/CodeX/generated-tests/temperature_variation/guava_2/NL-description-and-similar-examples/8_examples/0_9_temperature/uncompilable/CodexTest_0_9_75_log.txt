@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_75.java:25: error: cannot find symbol
+    Method writeBytesTo = HashCode.class.getDeclaredMethod(
+    ^
+  symbol:   class Method
+  location: class CodexTest_0_9_75
+CodexTest_0_9_75.java:27: error: cannot find symbol
+    assertFalse(Modifier.isPublic(writeBytesTo.getModifiers()));
+                ^
+  symbol:   variable Modifier
+  location: class CodexTest_0_9_75
+CodexTest_0_9_75.java:28: error: cannot find symbol
+    assertFalse(Modifier.isProtected(writeBytesTo.getModifiers()));
+                ^
+  symbol:   variable Modifier
+  location: class CodexTest_0_9_75
+CodexTest_0_9_75.java:29: error: cannot find symbol
+    assertTrue(Modifier.isPrivate(writeBytesTo.getModifiers()));
+               ^
+  symbol:   variable Modifier
+  location: class CodexTest_0_9_75

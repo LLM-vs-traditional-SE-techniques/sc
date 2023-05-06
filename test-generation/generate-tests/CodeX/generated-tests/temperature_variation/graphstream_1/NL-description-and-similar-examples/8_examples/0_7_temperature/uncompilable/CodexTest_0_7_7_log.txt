@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_7_7.java:30: error: <identifier> expected
+Input: public String[] getTargetNames() {
+     ^
+CodexTest_0_7_7.java:33: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:41: error: <identifier> expected
+Input: public Collection<Pair<Double, Double>> getPairs() {
+     ^
+CodexTest_0_7_7.java:44: error: <identifier> expected
+Output:
+      ^

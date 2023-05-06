@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_5.java:23: error: cannot find symbol
+        XmlDocument<Object> underTest = new XmlDocument<Object>(created);
+        ^
+  symbol:   class XmlDocument
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:23: error: cannot find symbol
+        XmlDocument<Object> underTest = new XmlDocument<Object>(created);
+                                            ^
+  symbol:   class XmlDocument
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:23: error: cannot find symbol
+        XmlDocument<Object> underTest = new XmlDocument<Object>(created);
+                                                                ^
+  symbol:   variable created
+  location: class CodexTest_0_9_5

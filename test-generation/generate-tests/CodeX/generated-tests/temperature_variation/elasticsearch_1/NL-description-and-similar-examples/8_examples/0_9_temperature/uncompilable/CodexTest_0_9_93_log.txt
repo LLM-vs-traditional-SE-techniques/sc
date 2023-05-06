@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_93.java:65: error: cannot find symbol
+        PlainActionFuture<String> actionFuture = new PlainActionFuture<>();
+        ^
+  symbol:   class PlainActionFuture
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:65: error: cannot find symbol
+        PlainActionFuture<String> actionFuture = new PlainActionFuture<>();
+                                                     ^
+  symbol:   class PlainActionFuture
+  location: class CodexTest_0_9_93

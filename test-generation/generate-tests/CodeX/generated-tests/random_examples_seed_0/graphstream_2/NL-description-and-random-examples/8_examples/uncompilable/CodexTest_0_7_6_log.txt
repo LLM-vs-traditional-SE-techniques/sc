@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_7_6.java:20: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+		Path p=new Path(2);
+		       ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+CodexTest_0_7_6.java:21: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+		Path p1=new Path(2);
+		        ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+CodexTest_0_7_6.java:23: error: cannot find symbol
+		p1.add(new TreeNode(0,null,null));
+		           ^
+  symbol:   class TreeNode
+  location: class CodexTest_0_7_6

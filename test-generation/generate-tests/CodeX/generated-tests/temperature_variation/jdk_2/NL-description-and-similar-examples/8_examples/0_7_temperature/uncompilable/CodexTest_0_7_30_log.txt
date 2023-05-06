@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_30.java:22: error: cannot find symbol
+        CustomAssertion assertion = new CustomAssertion();
+        ^
+  symbol:   class CustomAssertion
+  location: class CodexTest_0_7_30
+CodexTest_0_7_30.java:22: error: cannot find symbol
+        CustomAssertion assertion = new CustomAssertion();
+                                        ^
+  symbol:   class CustomAssertion
+  location: class CodexTest_0_7_30
+CodexTest_0_7_30.java:24: error: cannot find symbol
+        assertThat(assertion).contains(one, two, three);
+                                       ^
+  symbol:   variable one
+  location: class CodexTest_0_7_30
+CodexTest_0_7_30.java:24: error: cannot find symbol
+        assertThat(assertion).contains(one, two, three);
+                                            ^
+  symbol:   variable two
+  location: class CodexTest_0_7_30
+CodexTest_0_7_30.java:24: error: cannot find symbol
+        assertThat(assertion).contains(one, two, three);
+                                                 ^
+  symbol:   variable three
+  location: class CodexTest_0_7_30

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_94.java:18: error: cannot find symbol
+        Instances model = new Instances(new StringReader("@relation test\n" + "@attribute x1 numeric\n" + "@attribute x2 {a,b}\n" + "@attribute x3 numeric\n" + "@data\n" + "0.1,b,2.3\n" + "2.2,a,4.5\n" + "1.1,a,3.7"));
+                                            ^
+  symbol:   class StringReader
+  location: class CodexTest_0_7_94
+CodexTest_0_7_94.java:20: error: no suitable constructor found for AlgVector(double,double,double)
+        AlgVector vec = new AlgVector(2.2, 1.1, 4.5);
+                        ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instances,java.util.Random) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_7_94.java:30: error: incompatible types: double cannot be converted to weka.core.Instances
+        vec = new AlgVector(1.1, 4.5);
+                            ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

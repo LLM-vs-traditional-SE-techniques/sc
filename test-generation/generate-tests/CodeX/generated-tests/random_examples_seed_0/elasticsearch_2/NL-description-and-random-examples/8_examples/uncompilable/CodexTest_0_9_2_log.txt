@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_2.java:74: error: <identifier> expected
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+     ^
+CodexTest_0_9_2.java:93: error: <identifier> expected
+Output: public void testWrapShouldReturnFalseWhenCharacterLowercaseNGiven() {
+      ^
+CodexTest_0_9_2.java:101: error: illegal character: '`'
+```
+^
+CodexTest_0_9_2.java:101: error: illegal character: '`'
+```
+ ^
+CodexTest_0_9_2.java:101: error: illegal character: '`'
+```
+  ^
+CodexTest_0_9_2.java:102: error: reached end of file while parsing
+}
+ ^

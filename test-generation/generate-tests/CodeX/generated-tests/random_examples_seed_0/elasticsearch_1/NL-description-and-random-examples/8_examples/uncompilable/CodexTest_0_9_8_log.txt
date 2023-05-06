@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_8.java:65: error: cannot find symbol
+        ParentBean pb = new ParentBean();
+        ^
+  symbol:   class ParentBean
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:65: error: cannot find symbol
+        ParentBean pb = new ParentBean();
+                            ^
+  symbol:   class ParentBean
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:67: error: cannot find symbol
+        ChildBean cb = new ChildBean();
+        ^
+  symbol:   class ChildBean
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:67: error: cannot find symbol
+        ChildBean cb = new ChildBean();
+                           ^
+  symbol:   class ChildBean
+  location: class CodexTest_0_9_8

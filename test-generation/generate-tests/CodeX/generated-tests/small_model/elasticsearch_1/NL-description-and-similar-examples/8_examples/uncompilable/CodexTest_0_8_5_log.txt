@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_5.java:65: error: cannot find symbol
+    assertEquals("something", new GenericFoo<String>() {
+                                  ^
+  symbol:   class GenericFoo
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:72: error: cannot find symbol
+    assertEquals("something", new GenericFoo<String>() {
+                                  ^
+  symbol:   class GenericFoo
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:83: error: cannot find symbol
+    assertEquals("something", new GenericFoo<String>() {
+                                  ^
+  symbol:   class GenericFoo
+  location: class CodexTest_0_8_5

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_1.java:32: error: cannot find symbol
+        Assert.assertEquals(6, v.scalarMultiply(2).scalarProduct(v), 1.0e-10);
+                                                  ^
+  symbol:   method scalarProduct(org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D

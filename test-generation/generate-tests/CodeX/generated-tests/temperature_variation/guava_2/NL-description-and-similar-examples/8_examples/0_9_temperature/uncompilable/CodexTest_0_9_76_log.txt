@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_76.java:26: error: cannot find symbol
+    ImmutableBitArray bigEndian = ImmutableBitArray.fromBytesBigEndian(bytes, 0, 8);
+    ^
+  symbol:   class ImmutableBitArray
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:26: error: cannot find symbol
+    ImmutableBitArray bigEndian = ImmutableBitArray.fromBytesBigEndian(bytes, 0, 8);
+                                  ^
+  symbol:   variable ImmutableBitArray
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:27: error: cannot find symbol
+    assertEquals(BitArray.fromInts(0x8000000000000000L), bigEndian);
+                 ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_9_76

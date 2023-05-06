@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_6_83.java:21: error: cannot find symbol
+        p.setRoot(graph.getNode(a));
+                                ^
+  symbol:   variable a
+  location: class CodexTest_0_6_83
+CodexTest_0_6_83.java:21: error: cannot find symbol
+        p.setRoot(graph.getNode(a));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_83
+CodexTest_0_6_83.java:22: error: cannot find symbol
+        p.add(graph.getEdge(ab));
+                            ^
+  symbol:   variable ab
+  location: class CodexTest_0_6_83
+CodexTest_0_6_83.java:22: error: cannot find symbol
+        p.add(graph.getEdge(ab));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_83
+CodexTest_0_6_83.java:23: error: cannot find symbol
+        p.add(graph.getEdge(bc));
+                            ^
+  symbol:   variable bc
+  location: class CodexTest_0_6_83
+CodexTest_0_6_83.java:23: error: cannot find symbol
+        p.add(graph.getEdge(bc));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_83
+CodexTest_0_6_83.java:24: error: cannot find symbol
+        assertTrue(p.equals(path));
+                            ^
+  symbol:   variable path
+  location: class CodexTest_0_6_83

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_21.java:66: error: cannot find symbol
+        AbstractNode node = new TestNode(parent);
+        ^
+  symbol:   class AbstractNode
+  location: class CodexTest_0_8_21
+CodexTest_0_8_21.java:66: error: cannot find symbol
+        AbstractNode node = new TestNode(parent);
+                                ^
+  symbol:   class TestNode
+  location: class CodexTest_0_8_21

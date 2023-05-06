@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_95.java:20: error: illegal start of type
+        [TestMethod()]
+        ^
+CodexTest_0_9_95.java:20: error: ';' expected
+        [TestMethod()]
+         ^
+CodexTest_0_9_95.java:20: error: illegal start of type
+        [TestMethod()]
+                   ^
+CodexTest_0_9_95.java:20: error: <identifier> expected
+        [TestMethod()]
+                    ^
+CodexTest_0_9_95.java:20: error: ';' expected
+        [TestMethod()]
+                     ^

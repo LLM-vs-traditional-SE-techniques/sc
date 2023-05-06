@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_71.java:65: error: ')' expected
+        IndexRequest request = Requests.indexRequest("index").source(Collections.singletonMap("nested", Collections.singletonMap("key", "value"));
+                                                                                                                                                 ^
+CodexTest_0_9_71.java:70: error: <identifier> expected
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+     ^
+CodexTest_0_9_71.java:89: error: <identifier> expected
+Output: public void testWrapWithValueNumberAndOptionsNullShouldReturnNull() {
+      ^
+CodexTest_0_9_71.java:100: error: illegal character: '\u2022'
+•	Dummy Candidate Generation
+^
+CodexTest_0_9_71.java:100: error: ';' expected
+•	Dummy Candidate Generation
+ 	                          ^
+CodexTest_0_9_71.java:110: error: reached end of file while parsing
+}
+ ^

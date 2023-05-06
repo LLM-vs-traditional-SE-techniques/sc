@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_91.java:22: error: incompatible types: cannot infer type arguments for java.util.ArrayList<>
+        ArrayList<String> arrayList = new ArrayList<>(Arrays.asList(array));
+                                                   ^
+    reason: inference variable E has incompatible bounds
+      equality constraints: java.lang.String
+      lower bounds: T,java.lang.Object

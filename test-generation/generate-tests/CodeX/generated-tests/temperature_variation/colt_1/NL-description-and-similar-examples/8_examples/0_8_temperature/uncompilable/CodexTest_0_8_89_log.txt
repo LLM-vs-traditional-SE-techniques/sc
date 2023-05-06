@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_89.java:30: error: cannot find symbol
+		DoubleProcedure procedure = new DoubleProcedure() {
+		^
+  symbol:   class DoubleProcedure
+  location: class CodexTest_0_8_89
+CodexTest_0_8_89.java:30: error: cannot find symbol
+		DoubleProcedure procedure = new DoubleProcedure() {
+		                                ^
+  symbol:   class DoubleProcedure
+  location: class CodexTest_0_8_89
+CodexTest_0_8_89.java:33: error: cannot find symbol
+		ce.assign(procedure);
+		^
+  symbol:   variable ce
+  location: class CodexTest_0_8_89
+CodexTest_0_8_89.java:35: error: cannot find symbol
+			ce.toString(),
+			^
+  symbol:   variable ce
+  location: class CodexTest_0_8_89
+CodexTest_0_8_89.java:37: error: cannot find symbol
+			ce.toString());
+			^
+  symbol:   variable ce
+  location: class CodexTest_0_8_89

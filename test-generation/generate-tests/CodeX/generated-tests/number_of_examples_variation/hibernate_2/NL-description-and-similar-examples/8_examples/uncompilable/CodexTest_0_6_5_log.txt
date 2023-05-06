@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_6_5.java:23: error: <identifier> expected
+Input:	public String getName() {
+     ^
+CodexTest_0_6_5.java:26: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_5.java:31: error: <identifier> expected
+Input: public String getName() {
+     ^
+CodexTest_0_6_5.java:34: error: <identifier> expected
+Output:
+      ^

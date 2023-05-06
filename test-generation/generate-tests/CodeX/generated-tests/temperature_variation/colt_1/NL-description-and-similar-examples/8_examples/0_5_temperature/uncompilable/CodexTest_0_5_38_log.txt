@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_38.java:31: error: cannot find symbol
+        assertTrue(Arrays.equals(expected, getTestMatrix().assign(expected).toArray()));
+                                           ^
+  symbol:   method getTestMatrix()
+  location: class CodexTest_0_5_38
+CodexTest_0_5_38.java:31: error: cannot find symbol
+        assertTrue(Arrays.equals(expected, getTestMatrix().assign(expected).toArray()));
+                   ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_5_38

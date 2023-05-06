@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_61.java:22: error: cannot find symbol
+		path1.add(node1);
+		          ^
+  symbol:   variable node1
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:23: error: cannot find symbol
+		path1.add(node2);
+		          ^
+  symbol:   variable node2
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:24: error: cannot find symbol
+		Assert.assertEquals(37 * (31 + node1.hashCode()) + 37 * (31 + node2.hashCode()), path1.hashCode());
+		                               ^
+  symbol:   variable node1
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:24: error: cannot find symbol
+		Assert.assertEquals(37 * (31 + node1.hashCode()) + 37 * (31 + node2.hashCode()), path1.hashCode());
+		                                                              ^
+  symbol:   variable node2
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:26: error: cannot find symbol
+		path2.add(node1);
+		          ^
+  symbol:   variable node1
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:27: error: cannot find symbol
+		path2.add(node2);
+		          ^
+  symbol:   variable node2
+  location: class CodexTest_0_9_61

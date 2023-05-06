@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_1.java:45: error: ')' expected
+        g1.add(f2
+                 ^
+CodexTest_0_9_1.java:46: error: reached end of file while parsing
+}
+ ^

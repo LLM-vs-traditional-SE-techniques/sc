@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_3.java:66: error: <identifier> expected
+Input: public static boolean isTrue(Character c) {
+     ^
+CodexTest_0_7_3.java:72: error: <identifier> expected
+Output: public void testIsTrueWhenNullCharGiven() {
+      ^

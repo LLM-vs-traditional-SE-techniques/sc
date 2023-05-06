@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_6_2.java:65: error: cannot find symbol
+        ParentJoinFieldMapper parentJoinFieldMapper = new ParentJoinFieldMapper.Builder("test").build(new ContentPath());
+        ^
+  symbol:   class ParentJoinFieldMapper
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:65: error: cannot find symbol
+        ParentJoinFieldMapper parentJoinFieldMapper = new ParentJoinFieldMapper.Builder("test").build(new ContentPath());
+                                                                                                          ^
+  symbol:   class ContentPath
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:65: error: package ParentJoinFieldMapper does not exist
+        ParentJoinFieldMapper parentJoinFieldMapper = new ParentJoinFieldMapper.Builder("test").build(new ContentPath());
+                                                                               ^

@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_74.java:20: error: cannot find symbol
+		Node node1 = new DefaultNode();
+		                 ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:21: error: cannot find symbol
+		Node node2 = new DefaultNode();
+		                 ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:22: error: cannot find symbol
+		Node node3 = new DefaultNode();
+		                 ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:23: error: cannot find symbol
+		Edge edge1 = new DefaultEdge();
+		                 ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:24: error: cannot find symbol
+		edge1.set(node1, node2);
+		     ^
+  symbol:   method set(org.graphstream.graph.Node,org.graphstream.graph.Node)
+  location: variable edge1 of type org.graphstream.graph.Edge
+CodexTest_0_9_74.java:25: error: cannot find symbol
+		Edge edge2 = new DefaultEdge();
+		                 ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:26: error: cannot find symbol
+		edge2.set(node2, node3);
+		     ^
+  symbol:   method set(org.graphstream.graph.Node,org.graphstream.graph.Node)
+  location: variable edge2 of type org.graphstream.graph.Edge
+CodexTest_0_9_74.java:27: error: cannot find symbol
+		node1.set(edge1);
+		     ^
+  symbol:   method set(org.graphstream.graph.Edge)
+  location: variable node1 of type org.graphstream.graph.Node
+CodexTest_0_9_74.java:28: error: cannot find symbol
+		node2.set(edge2);
+		     ^
+  symbol:   method set(org.graphstream.graph.Edge)
+  location: variable node2 of type org.graphstream.graph.Node

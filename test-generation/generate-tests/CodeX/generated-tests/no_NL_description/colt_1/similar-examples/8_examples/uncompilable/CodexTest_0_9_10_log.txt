@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_10.java:30: error: cannot find symbol
+        DoubleMatrix1D A = matrices[7];
+                           ^
+  symbol:   variable matrices
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:31: error: cannot find symbol
+        A.assign(matrices[0]);
+                 ^
+  symbol:   variable matrices
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:32: error: cannot find symbol
+        A.assign(DoubleFunctions.div(1.0));
+                 ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:33: error: cannot find symbol
+        Assembler a = new Assembler();
+        ^
+  symbol:   class Assembler
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:33: error: cannot find symbol
+        Assembler a = new Assembler();
+                          ^
+  symbol:   class Assembler
+  location: class CodexTest_0_9_10

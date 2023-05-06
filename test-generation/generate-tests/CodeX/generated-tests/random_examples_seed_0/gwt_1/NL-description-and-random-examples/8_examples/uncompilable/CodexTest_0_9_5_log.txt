@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_5.java:16: error: cannot find symbol
+  public void addChild(BaseWidget child) {
+                       ^
+  symbol:   class BaseWidget
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:15: error: cannot find symbol
+  @UiChild(tagname="child")
+   ^
+  symbol:   class UiChild
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:17: error: cannot find symbol
+    if (isClient()) {
+        ^
+  symbol:   method isClient()
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:18: error: cannot find symbol
+      children.add(child);
+      ^
+  symbol:   variable children
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:19: error: cannot find symbol
+      container.add(child);
+      ^
+  symbol:   variable container
+  location: class CodexTest_0_9_5

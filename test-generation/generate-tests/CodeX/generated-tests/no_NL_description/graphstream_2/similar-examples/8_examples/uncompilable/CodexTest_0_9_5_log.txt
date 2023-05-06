@@ -1,0 +1,94 @@
+isCompilable => false
+CodexTest_0_9_5.java:19: error: invalid method declaration; return type required
+    assertEquals("Number of edges differs: ", Arrays.asList(edges).size(), path.size());
+    ^
+CodexTest_0_9_5.java:19: error: illegal start of type
+    assertEquals("Number of edges differs: ", Arrays.asList(edges).size(), path.size());
+                 ^
+CodexTest_0_9_5.java:19: error: <identifier> expected
+    assertEquals("Number of edges differs: ", Arrays.asList(edges).size(), path.size());
+                                                           ^
+CodexTest_0_9_5.java:19: error: ';' expected
+    assertEquals("Number of edges differs: ", Arrays.asList(edges).size(), path.size());
+                                                            ^
+CodexTest_0_9_5.java:19: error: illegal start of type
+    assertEquals("Number of edges differs: ", Arrays.asList(edges).size(), path.size());
+                                                                 ^
+CodexTest_0_9_5.java:19: error: <identifier> expected
+    assertEquals("Number of edges differs: ", Arrays.asList(edges).size(), path.size());
+                                                                  ^
+CodexTest_0_9_5.java:19: error: ';' expected
+    assertEquals("Number of edges differs: ", Arrays.asList(edges).size(), path.size());
+                                                                   ^
+CodexTest_0_9_5.java:19: error: illegal start of type
+    assertEquals("Number of edges differs: ", Arrays.asList(edges).size(), path.size());
+                                                                       ^
+CodexTest_0_9_5.java:19: error: <identifier> expected
+    assertEquals("Number of edges differs: ", Arrays.asList(edges).size(), path.size());
+                                                                        ^
+CodexTest_0_9_5.java:19: error: ';' expected
+    assertEquals("Number of edges differs: ", Arrays.asList(edges).size(), path.size());
+                                                                               ^
+CodexTest_0_9_5.java:19: error: invalid method declaration; return type required
+    assertEquals("Number of edges differs: ", Arrays.asList(edges).size(), path.size());
+                                                                                ^
+CodexTest_0_9_5.java:19: error: ';' expected
+    assertEquals("Number of edges differs: ", Arrays.asList(edges).size(), path.size());
+                                                                                      ^
+CodexTest_0_9_5.java:20: error: illegal start of type
+        for (int i = 0; i < Arrays.asList(edges).size(); i++) {
+        ^
+CodexTest_0_9_5.java:20: error: ')' expected
+        for (int i = 0; i < Arrays.asList(edges).size(); i++) {
+                  ^
+CodexTest_0_9_5.java:20: error: illegal start of type
+        for (int i = 0; i < Arrays.asList(edges).size(); i++) {
+                     ^
+CodexTest_0_9_5.java:20: error: <identifier> expected
+        for (int i = 0; i < Arrays.asList(edges).size(); i++) {
+                      ^
+CodexTest_0_9_5.java:20: error: ';' expected
+        for (int i = 0; i < Arrays.asList(edges).size(); i++) {
+                       ^
+CodexTest_0_9_5.java:20: error: > expected
+        for (int i = 0; i < Arrays.asList(edges).size(); i++) {
+                                  ^
+CodexTest_0_9_5.java:20: error: <identifier> expected
+        for (int i = 0; i < Arrays.asList(edges).size(); i++) {
+                                               ^
+CodexTest_0_9_5.java:20: error: ';' expected
+        for (int i = 0; i < Arrays.asList(edges).size(); i++) {
+                                                ^
+CodexTest_0_9_5.java:20: error: <identifier> expected
+        for (int i = 0; i < Arrays.asList(edges).size(); i++) {
+                                                          ^
+CodexTest_0_9_5.java:20: error: illegal start of type
+        for (int i = 0; i < Arrays.asList(edges).size(); i++) {
+                                                            ^
+CodexTest_0_9_5.java:20: error: <identifier> expected
+        for (int i = 0; i < Arrays.asList(edges).size(); i++) {
+                                                             ^
+CodexTest_0_9_5.java:20: error: ';' expected
+        for (int i = 0; i < Arrays.asList(edges).size(); i++) {
+                                                               ^
+CodexTest_0_9_5.java:21: error: illegal start of type
+            assertEquals("Edges differ: ", Arrays.asList(edges).get(i), path.get(i));
+                        ^
+CodexTest_0_9_5.java:21: error: <identifier> expected
+            assertEquals("Edges differ: ", Arrays.asList(edges).get(i), path.get(i));
+                         ^
+CodexTest_0_9_5.java:21: error: ';' expected
+            assertEquals("Edges differ: ", Arrays.asList(edges).get(i), path.get(i));
+                                                 ^
+CodexTest_0_9_5.java:21: error: invalid method declaration; return type required
+            assertEquals("Edges differ: ", Arrays.asList(edges).get(i), path.get(i));
+                                                  ^
+CodexTest_0_9_5.java:21: error: <identifier> expected
+            assertEquals("Edges differ: ", Arrays.asList(edges).get(i), path.get(i));
+                                                              ^
+CodexTest_0_9_5.java:21: error: ';' expected
+            assertEquals("Edges differ: ", Arrays.asList(edges).get(i), path.get(i));
+                                                               ^
+CodexTest_0_9_5.java:23: error: class, interface, or enum expected
+}
+^

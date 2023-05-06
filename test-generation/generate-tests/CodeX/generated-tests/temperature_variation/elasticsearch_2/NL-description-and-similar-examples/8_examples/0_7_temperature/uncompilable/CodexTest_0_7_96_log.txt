@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_96.java:74: error: cannot find symbol
+        assertEquals(expectedSource, indexRequest.sourceAsString());
+                     ^
+  symbol:   variable expectedSource
+  location: class CodexTest_0_7_96
+CodexTest_0_7_96.java:74: error: cannot find symbol
+        assertEquals(expectedSource, indexRequest.sourceAsString());
+                                                 ^
+  symbol:   method sourceAsString()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest

@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_2.java:16: error: cannot find symbol
+			assertEquals(BooleanUtils.TRUE, BooleanUtils.toBooleanObject((short) 1));
+			             ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:16: error: cannot find symbol
+			assertEquals(BooleanUtils.TRUE, BooleanUtils.toBooleanObject((short) 1));
+			                                ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:17: error: cannot find symbol
+			assertEquals(BooleanUtils.TRUE, BooleanUtils.toBooleanObject((short) 2));
+			             ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:17: error: cannot find symbol
+			assertEquals(BooleanUtils.TRUE, BooleanUtils.toBooleanObject((short) 2));
+			                                ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:18: error: cannot find symbol
+			assertEquals(BooleanUtils.FALSE, BooleanUtils.toBooleanObject((short) 0));
+			             ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:18: error: cannot find symbol
+			assertEquals(BooleanUtils.FALSE, BooleanUtils.toBooleanObject((short) 0));
+			                                 ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:19: error: cannot find symbol
+			assertNull(BooleanUtils.toBooleanObject((short) -1));
+			           ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_7_2

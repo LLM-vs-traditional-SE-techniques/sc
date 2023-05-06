@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_10.java:34: error: cannot find symbol
+        assertTrue(factory.like2D(m.rows(), m.columns()) instanceof DenseDoubleMatrix2D);
+                          ^
+  symbol:   method like2D(int,int)
+  location: variable factory of type cern.colt.matrix.DoubleFactory2D

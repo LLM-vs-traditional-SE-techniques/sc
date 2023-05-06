@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_79.java:31: error: cannot find symbol
+        Assert.assertSame(removed, ArrayUtils.remove(es, size - 1));
+                                   ^
+  symbol:   variable ArrayUtils
+  location: class CodexTest_0_5_79

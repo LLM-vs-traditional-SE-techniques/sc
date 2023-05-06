@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_9_7.java:65: error: cannot find symbol
+        assertEquals("catalog", this.o().parent());
+                                    ^
+  symbol: method o()

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_31.java:33: error: cannot find symbol
+        DoubleMatrix1D vector = new DenseDoubleMatrix1D(0, 0, input);
+        ^
+  symbol:   class DoubleMatrix1D
+  location: class CodexTest_0_8_31
+CodexTest_0_8_31.java:33: error: cannot find symbol
+        DoubleMatrix1D vector = new DenseDoubleMatrix1D(0, 0, input);
+                                    ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_31
+CodexTest_0_8_31.java:34: error: cannot find symbol
+        DoubleMatrix1D result = vector.scalarMultiply(0);
+        ^
+  symbol:   class DoubleMatrix1D
+  location: class CodexTest_0_8_31

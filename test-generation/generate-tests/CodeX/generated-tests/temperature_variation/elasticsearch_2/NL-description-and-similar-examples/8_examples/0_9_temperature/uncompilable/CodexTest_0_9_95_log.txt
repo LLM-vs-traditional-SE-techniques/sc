@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_95.java:70: error: cannot find symbol
+            assertThat(e.getCause(), instanceOf(JsonParseException.class));
+                                                ^
+  symbol:   class JsonParseException
+  location: class CodexTest_0_9_95

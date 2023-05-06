@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_6_38.java:33: error: reference to assertEquals is ambiguous
+        Assert.assertEquals(1, list.remove(0));
+              ^
+  both method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert and method assertEquals(long,long) in org.junit.Assert match
+CodexTest_0_6_38.java:35: error: reference to assertEquals is ambiguous
+        Assert.assertEquals(10, list.remove(8));
+              ^
+  both method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert and method assertEquals(long,long) in org.junit.Assert match
+CodexTest_0_6_38.java:37: error: reference to assertEquals is ambiguous
+        Assert.assertEquals(2, list.remove(0));
+              ^
+  both method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert and method assertEquals(long,long) in org.junit.Assert match
+CodexTest_0_6_38.java:39: error: reference to assertEquals is ambiguous
+        Assert.assertEquals(9, list.remove(5));
+              ^
+  both method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert and method assertEquals(long,long) in org.junit.Assert match
+CodexTest_0_6_38.java:41: error: reference to assertEquals is ambiguous
+        Assert.assertEquals(3, list.remove(0));
+              ^
+  both method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert and method assertEquals(long,long) in org.junit.Assert match
+CodexTest_0_6_38.java:43: error: reference to assertEquals is ambiguous
+        Assert.assertEquals(8, list.remove(3));
+              ^
+  both method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert and method assertEquals(long,long) in org.junit.Assert match
+CodexTest_0_6_38.java:45: error: reference to assertEquals is ambiguous
+        Assert.assertEquals(4, list.remove(0));
+              ^
+  both method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert and method assertEquals(long,long) in org.junit.Assert match
+CodexTest_0_6_38.java:47: error: reference to assertEquals is ambiguous
+        Assert.assertEquals(6, list.remove(1));
+              ^
+  both method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert and method assertEquals(long,long) in org.junit.Assert match
+CodexTest_0_6_38.java:49: error: reference to assertEquals is ambiguous
+        Assert.assertEquals(7, list.remove(0));
+              ^
+  both method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert and method assertEquals(long,long) in org.junit.Assert match
+CodexTest_0_6_38.java:51: error: reference to assertEquals is ambiguous
+        Assert.assertEquals(5, list.remove(0));
+              ^
+  both method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert and method assertEquals(long,long) in org.junit.Assert match

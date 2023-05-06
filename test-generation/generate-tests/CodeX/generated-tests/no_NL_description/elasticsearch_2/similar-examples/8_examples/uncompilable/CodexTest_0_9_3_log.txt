@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_9_3.java:71: error: cannot find symbol
+        ParsedDocument doc = new ParsedDocument(new Document(), null, new Term("id", Uid.createUid("test", "1")), "1", 1, -1, ref, null);
+        ^
+  symbol:   class ParsedDocument
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:71: error: cannot find symbol
+        ParsedDocument doc = new ParsedDocument(new Document(), null, new Term("id", Uid.createUid("test", "1")), "1", 1, -1, ref, null);
+                                 ^
+  symbol:   class ParsedDocument
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:71: error: cannot find symbol
+        ParsedDocument doc = new ParsedDocument(new Document(), null, new Term("id", Uid.createUid("test", "1")), "1", 1, -1, ref, null);
+                                                    ^
+  symbol:   class Document
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:71: error: cannot find symbol
+        ParsedDocument doc = new ParsedDocument(new Document(), null, new Term("id", Uid.createUid("test", "1")), "1", 1, -1, ref, null);
+                                                                          ^
+  symbol:   class Term
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:71: error: cannot find symbol
+        ParsedDocument doc = new ParsedDocument(new Document(), null, new Term("id", Uid.createUid("test", "1")), "1", 1, -1, ref, null);
+                                                                                     ^
+  symbol:   variable Uid
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:79: error: cannot find symbol
+            assertThat(e.getMessage(), containsString("ADD operation expected no doc to be provided"));
+                                       ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:85: error: cannot find symbol
+            assertThat(e.getMessage(), containsString("ADD operation expected no doc to be provided"));
+                                       ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_9_3

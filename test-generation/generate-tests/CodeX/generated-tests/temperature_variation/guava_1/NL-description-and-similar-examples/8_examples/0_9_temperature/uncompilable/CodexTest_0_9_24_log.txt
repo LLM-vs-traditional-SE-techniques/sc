@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_24.java:25: error: cannot find symbol
+    byte[] bytes = {a, b, c};
+                    ^
+  symbol:   variable a
+  location: class CodexTest_0_9_24
+CodexTest_0_9_24.java:25: error: cannot find symbol
+    byte[] bytes = {a, b, c};
+                       ^
+  symbol:   variable b
+  location: class CodexTest_0_9_24
+CodexTest_0_9_24.java:25: error: cannot find symbol
+    byte[] bytes = {a, b, c};
+                          ^
+  symbol:   variable c
+  location: class CodexTest_0_9_24

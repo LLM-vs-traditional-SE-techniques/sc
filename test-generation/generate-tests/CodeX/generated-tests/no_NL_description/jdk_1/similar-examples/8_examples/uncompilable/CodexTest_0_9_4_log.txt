@@ -1,0 +1,259 @@
+isCompilable => false
+CodexTest_0_9_4.java:22: error: illegal start of type
+      for (int i = 0; i < b.length; i++) {
+      ^
+CodexTest_0_9_4.java:22: error: ')' expected
+      for (int i = 0; i < b.length; i++) {
+                ^
+CodexTest_0_9_4.java:22: error: illegal start of type
+      for (int i = 0; i < b.length; i++) {
+                   ^
+CodexTest_0_9_4.java:22: error: <identifier> expected
+      for (int i = 0; i < b.length; i++) {
+                    ^
+CodexTest_0_9_4.java:22: error: ';' expected
+      for (int i = 0; i < b.length; i++) {
+                     ^
+CodexTest_0_9_4.java:22: error: > expected
+      for (int i = 0; i < b.length; i++) {
+                           ^
+CodexTest_0_9_4.java:22: error: '(' expected
+      for (int i = 0; i < b.length; i++) {
+                                  ^
+CodexTest_0_9_4.java:22: error: <identifier> expected
+      for (int i = 0; i < b.length; i++) {
+                                     ^
+CodexTest_0_9_4.java:22: error: illegal start of type
+      for (int i = 0; i < b.length; i++) {
+                                       ^
+CodexTest_0_9_4.java:22: error: <identifier> expected
+      for (int i = 0; i < b.length; i++) {
+                                        ^
+CodexTest_0_9_4.java:22: error: ';' expected
+      for (int i = 0; i < b.length; i++) {
+                                          ^
+CodexTest_0_9_4.java:23: error: illegal start of type
+        a[i] = b[i];
+         ^
+CodexTest_0_9_4.java:23: error: ';' expected
+        a[i] = b[i];
+           ^
+CodexTest_0_9_4.java:23: error: ']' expected
+        a[i] = b[i];
+                 ^
+CodexTest_0_9_4.java:23: error: ';' expected
+        a[i] = b[i];
+                  ^
+CodexTest_0_9_4.java:25: error: class, interface, or enum expected
+      a[3] = "d";
+      ^
+CodexTest_0_9_4.java:26: error: class, interface, or enum expected
+      a[4] = "e";
+      ^
+CodexTest_0_9_4.java:27: error: class, interface, or enum expected
+      a[5] = "f";
+      ^
+CodexTest_0_9_4.java:28: error: class, interface, or enum expected
+      a[6] = "g";
+      ^
+CodexTest_0_9_4.java:29: error: class, interface, or enum expected
+      a[7] = "h";
+      ^
+CodexTest_0_9_4.java:30: error: class, interface, or enum expected
+      a[8] = "i";
+      ^
+CodexTest_0_9_4.java:31: error: class, interface, or enum expected
+      a[9] = "j";
+      ^
+CodexTest_0_9_4.java:32: error: class, interface, or enum expected
+      String[] list2 = new String[] { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j" };
+      ^
+CodexTest_0_9_4.java:33: error: class, interface, or enum expected
+      Arrays.fill(list2, 0);
+      ^
+CodexTest_0_9_4.java:34: error: class, interface, or enum expected
+      assertArrayEquals(list2, a);
+      ^
+CodexTest_0_9_4.java:35: error: class, interface, or enum expected
+      List<String> list = new ArrayList<>();
+      ^
+CodexTest_0_9_4.java:36: error: class, interface, or enum expected
+      Arrays.fill(a, list);
+      ^
+CodexTest_0_9_4.java:37: error: class, interface, or enum expected
+      assertEquals(10, list.size());
+      ^
+CodexTest_0_9_4.java:38: error: class, interface, or enum expected
+      assertEquals("", list.get(0));
+      ^
+CodexTest_0_9_4.java:39: error: class, interface, or enum expected
+      assertEquals("", list.get(1));
+      ^
+CodexTest_0_9_4.java:40: error: class, interface, or enum expected
+      assertEquals("", list.get(2));
+      ^
+CodexTest_0_9_4.java:41: error: class, interface, or enum expected
+      assertEquals("", list.get(3));
+      ^
+CodexTest_0_9_4.java:42: error: class, interface, or enum expected
+      assertEquals("", list.get(4));
+      ^
+CodexTest_0_9_4.java:43: error: class, interface, or enum expected
+      assertEquals("", list.get(5));
+      ^
+CodexTest_0_9_4.java:44: error: class, interface, or enum expected
+      assertEquals("", list.get(6));
+      ^
+CodexTest_0_9_4.java:45: error: class, interface, or enum expected
+      assertEquals("", list.get(7));
+      ^
+CodexTest_0_9_4.java:46: error: class, interface, or enum expected
+      assertEquals("", list.get(8));
+      ^
+CodexTest_0_9_4.java:47: error: class, interface, or enum expected
+      assertEquals("", list.get(9));
+      ^
+CodexTest_0_9_4.java:48: error: class, interface, or enum expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+      ^
+CodexTest_0_9_4.java:48: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                       ^
+CodexTest_0_9_4.java:48: error: illegal start of type
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                         ^
+CodexTest_0_9_4.java:48: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                          ^
+CodexTest_0_9_4.java:48: error: ';' expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                           ^
+CodexTest_0_9_4.java:48: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                                          ^
+CodexTest_0_9_4.java:48: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                                            ^
+CodexTest_0_9_4.java:48: error: illegal start of type
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                                              ^
+CodexTest_0_9_4.java:48: error: ')' expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                                               ^
+CodexTest_0_9_4.java:48: error: ';' expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                                                ^
+CodexTest_0_9_4.java:48: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                                                      ^
+CodexTest_0_9_4.java:48: error: illegal start of type
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                                                       ^
+CodexTest_0_9_4.java:48: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                                                        ^
+CodexTest_0_9_4.java:48: error: ';' expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, list));
+                                                                                         ^
+CodexTest_0_9_4.java:49: error: illegal start of type
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                  ^
+CodexTest_0_9_4.java:49: error: ';' expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                 ^
+CodexTest_0_9_4.java:49: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                       ^
+CodexTest_0_9_4.java:49: error: illegal start of type
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                         ^
+CodexTest_0_9_4.java:49: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                          ^
+CodexTest_0_9_4.java:49: error: ';' expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                           ^
+CodexTest_0_9_4.java:49: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                                          ^
+CodexTest_0_9_4.java:49: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                                            ^
+CodexTest_0_9_4.java:49: error: illegal start of type
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                                              ^
+CodexTest_0_9_4.java:49: error: illegal start of type
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                                                 ^
+CodexTest_0_9_4.java:49: error: ')' expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                                                  ^
+CodexTest_0_9_4.java:49: error: ';' expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                                                   ^
+CodexTest_0_9_4.java:49: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                                                         ^
+CodexTest_0_9_4.java:49: error: illegal start of type
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                                                          ^
+CodexTest_0_9_4.java:49: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                                                           ^
+CodexTest_0_9_4.java:49: error: ';' expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, 0, -1, list));
+                                                                                            ^
+CodexTest_0_9_4.java:50: error: illegal start of type
+      assertThrows(ArrayIndexOutOfBoundsException.class,
+                  ^
+CodexTest_0_9_4.java:50: error: ';' expected
+      assertThrows(ArrayIndexOutOfBoundsException.class,
+                                                 ^
+CodexTest_0_9_4.java:50: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class,
+                                                       ^
+CodexTest_0_9_4.java:51: error: illegal start of type
+              () -> Arrays.fill(a, 0, a.length + 1, list));
+              ^
+CodexTest_0_9_4.java:51: error: <identifier> expected
+              () -> Arrays.fill(a, 0, a.length + 1, list));
+               ^
+CodexTest_0_9_4.java:51: error: ';' expected
+              () -> Arrays.fill(a, 0, a.length + 1, list));
+                ^
+CodexTest_0_9_4.java:51: error: <identifier> expected
+              () -> Arrays.fill(a, 0, a.length + 1, list));
+                               ^
+CodexTest_0_9_4.java:51: error: <identifier> expected
+              () -> Arrays.fill(a, 0, a.length + 1, list));
+                                 ^
+CodexTest_0_9_4.java:51: error: illegal start of type
+              () -> Arrays.fill(a, 0, a.length + 1, list));
+                                   ^
+CodexTest_0_9_4.java:51: error: <identifier> expected
+              () -> Arrays.fill(a, 0, a.length + 1, list));
+                                              ^
+CodexTest_0_9_4.java:51: error: ';' expected
+              () -> Arrays.fill(a, 0, a.length + 1, list));
+                                                ^
+CodexTest_0_9_4.java:51: error: illegal start of type
+              () -> Arrays.fill(a, 0, a.length + 1, list));
+                                                  ^
+CodexTest_0_9_4.java:51: error: ';' expected
+              () -> Arrays.fill(a, 0, a.length + 1, list));
+                                                        ^
+CodexTest_0_9_4.java:52: error: invalid method declaration; return type required
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, a.length, list));
+      ^
+CodexTest_0_9_4.java:52: error: <identifier> expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, a.length, list));
+                                                  ^
+CodexTest_0_9_4.java:52: error: illegal start of type
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, a.length, list));
+                                                         ^
+CodexTest_0_9_4.java:52: error: ';' expected
+      assertThrows(ArrayIndexOutOfBoundsException.class, () -> Arrays.fill(a, -1, a.length, list));
+                                                           ^
+CodexTest_0_9_4.java:54: error: reached end of file while parsing
+}
+ ^

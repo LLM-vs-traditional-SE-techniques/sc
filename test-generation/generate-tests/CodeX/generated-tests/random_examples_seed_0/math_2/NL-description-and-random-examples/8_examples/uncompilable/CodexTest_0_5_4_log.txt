@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_5_4.java:31: error: org.apache.commons.math3.geometry.Point is abstract; cannot be instantiated
+        Point p1 = new Point(1, 1);
+                   ^
+CodexTest_0_5_4.java:32: error: org.apache.commons.math3.geometry.Point is abstract; cannot be instantiated
+        Point p2 = new Point(4, 5);
+                   ^
+CodexTest_0_5_4.java:33: error: cannot find symbol
+        assertEquals(25.0, Point.distanceSq(p1, p2), 0.0);
+                                ^
+  symbol:   method distanceSq(org.apache.commons.math3.geometry.Point,org.apache.commons.math3.geometry.Point)
+  location: interface org.apache.commons.math3.geometry.Point

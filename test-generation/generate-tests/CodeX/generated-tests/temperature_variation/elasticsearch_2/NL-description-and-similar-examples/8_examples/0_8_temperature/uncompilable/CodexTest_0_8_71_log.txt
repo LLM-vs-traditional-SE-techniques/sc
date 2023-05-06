@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_71.java:70: error: package ToXContent does not exist
+                request.toXContent(XContentType.JSON.xContent(), new ToXContent.MapParams(Collections.singletonMap("pretty", "true"))).string()
+                                                                               ^

@@ -1,0 +1,33 @@
+isCompilable => false
+CodexTest_0_9_17.java:20: error: cannot find symbol
+	Attribute classAtt = new Attribute("Class name", new ArrayList<String>());
+	                                                     ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_9_17
+CodexTest_0_9_17.java:22: error: cannot find symbol
+	List<Attribute> attrs = new ArrayList<Attribute>();
+	^
+  symbol:   class List
+  location: class CodexTest_0_9_17
+CodexTest_0_9_17.java:22: error: cannot find symbol
+	List<Attribute> attrs = new ArrayList<Attribute>();
+	                            ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_9_17
+CodexTest_0_9_17.java:24: error: cannot find symbol
+	InstancesHeader ih = new InstancesHeader(new MockDataset(), attrs, 2);
+	^
+  symbol:   class InstancesHeader
+  location: class CodexTest_0_9_17
+CodexTest_0_9_17.java:24: error: cannot find symbol
+	InstancesHeader ih = new InstancesHeader(new MockDataset(), attrs, 2);
+	                         ^
+  symbol:   class InstancesHeader
+  location: class CodexTest_0_9_17
+CodexTest_0_9_17.java:24: error: cannot find symbol
+	InstancesHeader ih = new InstancesHeader(new MockDataset(), attrs, 2);
+	                                             ^
+  symbol:   class MockDataset
+  location: class CodexTest_0_9_17
+Note: CodexTest_0_9_17.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

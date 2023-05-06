@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_6.java:18: error: cannot find symbol
+		final Short result = ShortTypeDescriptor.INSTANCE.toShort(value);
+		                                                 ^
+  symbol:   method toShort(java.lang.Boolean)
+  location: variable INSTANCE of type org.hibernate.type.descriptor.java.ShortTypeDescriptor

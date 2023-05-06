@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_3.java:16: error: non-static method toShort(java.lang.Boolean) cannot be referenced from a static context
+      short shortValue = BooleanTypeDescriptor.toShort(TRUE);
+                                              ^

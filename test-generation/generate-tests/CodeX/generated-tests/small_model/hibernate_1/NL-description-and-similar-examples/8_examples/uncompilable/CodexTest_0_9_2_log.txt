@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_9_2.java:16: error: cannot find symbol
+        assertEquals("toShort(true)",	Utils.to_s((short) 1), Utils.to_s(to_short(TRUE)));
+                                     	^
+  symbol:   variable Utils
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:16: error: cannot find symbol
+        assertEquals("toShort(true)",	Utils.to_s((short) 1), Utils.to_s(to_short(TRUE)));
+                                     	                                  ^
+  symbol:   method to_short(java.lang.Boolean)
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:16: error: cannot find symbol
+        assertEquals("toShort(true)",	Utils.to_s((short) 1), Utils.to_s(to_short(TRUE)));
+                                     	                       ^
+  symbol:   variable Utils
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:17: error: cannot find symbol
+        assertEquals("toShort(false)",	Utils.to_s((short) 0), Utils.to_s(to_short(FALSE)));
+                                      	^
+  symbol:   variable Utils
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:17: error: cannot find symbol
+        assertEquals("toShort(false)",	Utils.to_s((short) 0), Utils.to_s(to_short(FALSE)));
+                                      	                                  ^
+  symbol:   method to_short(java.lang.Boolean)
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:17: error: cannot find symbol
+        assertEquals("toShort(false)",	Utils.to_s((short) 0), Utils.to_s(to_short(FALSE)));
+                                      	                       ^
+  symbol:   variable Utils
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:18: error: cannot find symbol
+        assertEquals("toShort(null)",	Utils.to_s((short) 0), Utils.to_s(to_short((Boolean) NULL)));
+                                     	^
+  symbol:   variable Utils
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:18: error: cannot find symbol
+        assertEquals("toShort(null)",	Utils.to_s((short) 0), Utils.to_s(to_short((Boolean) NULL)));
+                                     	                                                     ^
+  symbol:   variable NULL
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:18: error: cannot find symbol
+        assertEquals("toShort(null)",	Utils.to_s((short) 0), Utils.to_s(to_short((Boolean) NULL)));
+                                     	                                  ^
+  symbol:   method to_short(java.lang.Boolean)
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:18: error: cannot find symbol
+        assertEquals("toShort(null)",	Utils.to_s((short) 0), Utils.to_s(to_short((Boolean) NULL)));
+                                     	                       ^
+  symbol:   variable Utils
+  location: class CodexTest_0_9_2

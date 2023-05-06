@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_17.java:30: error: cannot find symbol
+        DoubleMatrix2D a = factory.make(2, 3);
+                           ^
+  symbol:   variable factory
+  location: class CodexTest_0_3_17
+CodexTest_0_3_17.java:31: error: cannot find symbol
+        DoubleMatrix2D b = a.like2D(3, 2);
+                            ^
+  symbol:   method like2D(int,int)
+  location: variable a of type cern.colt.matrix.DoubleMatrix2D

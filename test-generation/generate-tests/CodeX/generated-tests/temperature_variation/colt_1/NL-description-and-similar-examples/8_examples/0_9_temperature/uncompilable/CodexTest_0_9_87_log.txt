@@ -1,0 +1,139 @@
+isCompilable => false
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+  ^
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+    ^
+CodexTest_0_9_87.java:40: error: <identifier> expected
+--------------------------------------------------------------------------
+      ^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+        ^
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+          ^
+CodexTest_0_9_87.java:40: error: <identifier> expected
+--------------------------------------------------------------------------
+            ^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+              ^
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+                ^
+CodexTest_0_9_87.java:40: error: <identifier> expected
+--------------------------------------------------------------------------
+                  ^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+                    ^
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+                      ^
+CodexTest_0_9_87.java:40: error: <identifier> expected
+--------------------------------------------------------------------------
+                        ^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+                          ^
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+                            ^
+CodexTest_0_9_87.java:40: error: <identifier> expected
+--------------------------------------------------------------------------
+                              ^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+                                ^
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+                                  ^
+CodexTest_0_9_87.java:40: error: <identifier> expected
+--------------------------------------------------------------------------
+                                    ^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+                                      ^
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+                                        ^
+CodexTest_0_9_87.java:40: error: <identifier> expected
+--------------------------------------------------------------------------
+                                          ^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+                                            ^
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+                                              ^
+CodexTest_0_9_87.java:40: error: <identifier> expected
+--------------------------------------------------------------------------
+                                                ^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+                                                  ^
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+                                                    ^
+CodexTest_0_9_87.java:40: error: <identifier> expected
+--------------------------------------------------------------------------
+                                                      ^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+                                                        ^
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+                                                          ^
+CodexTest_0_9_87.java:40: error: <identifier> expected
+--------------------------------------------------------------------------
+                                                            ^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+                                                              ^
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+                                                                ^
+CodexTest_0_9_87.java:40: error: <identifier> expected
+--------------------------------------------------------------------------
+                                                                  ^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+                                                                    ^
+CodexTest_0_9_87.java:40: error: illegal start of type
+--------------------------------------------------------------------------
+                                                                      ^
+CodexTest_0_9_87.java:40: error: <identifier> expected
+--------------------------------------------------------------------------
+                                                                        ^
+CodexTest_0_9_87.java:40: error: ';' expected
+--------------------------------------------------------------------------
+                                                                          ^
+CodexTest_0_9_87.java:41: error: illegal start of type
+Input: public DenseDoubleMatrix1D(double[] values) {
+     ^
+CodexTest_0_9_87.java:41: error: <identifier> expected
+Input: public DenseDoubleMatrix1D(double[] values) {
+      ^
+CodexTest_0_9_87.java:41: error: ';' expected
+Input: public DenseDoubleMatrix1D(double[] values) {
+             ^
+CodexTest_0_9_87.java:41: error: illegal start of type
+Input: public DenseDoubleMatrix1D(double[] values) {
+                                 ^
+CodexTest_0_9_87.java:41: error: <identifier> expected
+Input: public DenseDoubleMatrix1D(double[] values) {
+                                  ^
+CodexTest_0_9_87.java:41: error: ';' expected
+Input: public DenseDoubleMatrix1D(double[] values) {
+                                          ^
+CodexTest_0_9_87.java:41: error: <identifier> expected
+Input: public DenseDoubleMatrix1D(double[] values) {
+                                                 ^
+CodexTest_0_9_87.java:45: error: <identifier> expected
+Output: public static void testSingle() {
+      ^

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_5.java:26: error: ')' expected
+        assertTrue(path.equ
+                           ^
+CodexTest_0_7_5.java:27: error: reached end of file while parsing
+}
+ ^

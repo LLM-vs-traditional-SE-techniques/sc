@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_7_25.java:16: error: cannot find symbol
+		assertTrue(Boolean.TRUE.equals(BOOLEAN.fromString("true")));
+		                               ^
+  symbol:   variable BOOLEAN
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:17: error: cannot find symbol
+		assertTrue(Boolean.TRUE.equals(BOOLEAN.fromString("TRUE")));
+		                               ^
+  symbol:   variable BOOLEAN
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:18: error: cannot find symbol
+		assertTrue(Boolean.TRUE.equals(BOOLEAN.fromString("t")));
+		                               ^
+  symbol:   variable BOOLEAN
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:19: error: cannot find symbol
+		assertTrue(Boolean.TRUE.equals(BOOLEAN.fromString("T")));
+		                               ^
+  symbol:   variable BOOLEAN
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:20: error: cannot find symbol
+		assertTrue(Boolean.FALSE.equals(BOOLEAN.fromString("false")));
+		                                ^
+  symbol:   variable BOOLEAN
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:21: error: cannot find symbol
+		assertTrue(Boolean.FALSE.equals(BOOLEAN.fromString("FALSE")));
+		                                ^
+  symbol:   variable BOOLEAN
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:22: error: cannot find symbol
+		assertTrue(Boolean.FALSE.equals(BOOLEAN.fromString("f")));
+		                                ^
+  symbol:   variable BOOLEAN
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:23: error: cannot find symbol
+		assertTrue(Boolean.FALSE.equals(BOOLEAN.fromString("F")));
+		                                ^
+  symbol:   variable BOOLEAN
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:24: error: cannot find symbol
+		assertTrue(Boolean.FALSE.equals(BOOLEAN.fromString("")));
+		                                ^
+  symbol:   variable BOOLEAN
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:25: error: cannot find symbol
+		assertTrue(Boolean.FALSE.equals(BOOLEAN.fromString("wat")));
+		                                ^
+  symbol:   variable BOOLEAN
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:26: error: cannot find symbol
+		assertNull(BOOLEAN.fromString(null));
+		           ^
+  symbol:   variable BOOLEAN
+  location: class CodexTest_0_7_25

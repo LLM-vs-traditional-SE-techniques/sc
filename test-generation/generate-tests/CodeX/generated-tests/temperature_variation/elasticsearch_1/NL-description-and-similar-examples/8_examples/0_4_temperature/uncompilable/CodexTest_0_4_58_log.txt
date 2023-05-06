@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_4_58.java:66: error: cannot find symbol
+        ShardRouting shardRouting = new ShardRouting(new ShardId("index", 1), "node", true, ShardRoutingState.STARTED, parent);
+        ^
+  symbol:   class ShardRouting
+  location: class CodexTest_0_4_58
+CodexTest_0_4_58.java:66: error: cannot find symbol
+        ShardRouting shardRouting = new ShardRouting(new ShardId("index", 1), "node", true, ShardRoutingState.STARTED, parent);
+                                        ^
+  symbol:   class ShardRouting
+  location: class CodexTest_0_4_58
+CodexTest_0_4_58.java:66: error: incompatible types: java.lang.String cannot be converted to org.elasticsearch.index.Index
+        ShardRouting shardRouting = new ShardRouting(new ShardId("index", 1), "node", true, ShardRoutingState.STARTED, parent);
+                                                                 ^
+CodexTest_0_4_58.java:66: error: cannot find symbol
+        ShardRouting shardRouting = new ShardRouting(new ShardId("index", 1), "node", true, ShardRoutingState.STARTED, parent);
+                                                                                            ^
+  symbol:   variable ShardRoutingState
+  location: class CodexTest_0_4_58
+CodexTest_0_4_58.java:67: error: cannot find symbol
+        assertThat(shardRouting.parent(), equalTo(parent));
+                                          ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_4_58
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

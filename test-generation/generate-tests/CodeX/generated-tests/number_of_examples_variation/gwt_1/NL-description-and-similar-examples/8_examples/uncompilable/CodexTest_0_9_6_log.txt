@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_9_6.java:17: error: com.google.gwt.junit.client.GWTTestCase is abstract; cannot be instantiated
+        GWTTestCase underTest = new GWTTestCase();
+                                ^
+CodexTest_0_9_6.java:19: error: cannot find symbol
+        Boolean result = underTest.isClient();
+                                  ^
+  symbol:   method isClient()
+  location: variable underTest of type com.google.gwt.junit.client.GWTTestCase

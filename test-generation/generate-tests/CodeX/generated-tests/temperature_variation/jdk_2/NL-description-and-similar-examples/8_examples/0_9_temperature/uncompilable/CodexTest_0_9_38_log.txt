@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_9_38.java:21: error: cannot find symbol
+        Set s = new ArraySet();
+                    ^
+  symbol:   class ArraySet
+  location: class CodexTest_0_9_38
+Note: CodexTest_0_9_38.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

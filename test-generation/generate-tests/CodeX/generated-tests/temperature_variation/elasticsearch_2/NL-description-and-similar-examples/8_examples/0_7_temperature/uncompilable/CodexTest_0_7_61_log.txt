@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_61.java:66: error: cannot find symbol
+        indexRequest.source(Collections.singletonMap(field, value));
+                                                     ^
+  symbol:   variable field
+  location: class CodexTest_0_7_61
+CodexTest_0_7_61.java:66: error: cannot find symbol
+        indexRequest.source(Collections.singletonMap(field, value));
+                                                            ^
+  symbol:   variable value
+  location: class CodexTest_0_7_61
+CodexTest_0_7_61.java:67: error: cannot find symbol
+        assertEquals(indexRequest.sourceAsMap(), Collections.singletonMap(field, value));
+                                                                          ^
+  symbol:   variable field
+  location: class CodexTest_0_7_61
+CodexTest_0_7_61.java:67: error: cannot find symbol
+        assertEquals(indexRequest.sourceAsMap(), Collections.singletonMap(field, value));
+                                                                                 ^
+  symbol:   variable value
+  location: class CodexTest_0_7_61

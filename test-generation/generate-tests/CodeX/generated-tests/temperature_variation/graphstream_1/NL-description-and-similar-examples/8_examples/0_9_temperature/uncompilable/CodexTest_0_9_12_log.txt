@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_9_12.java:20: error: cannot find symbol
+        TestEdge e1 = new TestEdge(1, 2, 100);
+        ^
+  symbol:   class TestEdge
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:20: error: cannot find symbol
+        TestEdge e1 = new TestEdge(1, 2, 100);
+                          ^
+  symbol:   class TestEdge
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:21: error: cannot find symbol
+        TestEdge e2 = new TestEdge(2, 3, 101);
+        ^
+  symbol:   class TestEdge
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:21: error: cannot find symbol
+        TestEdge e2 = new TestEdge(2, 3, 101);
+                          ^
+  symbol:   class TestEdge
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:22: error: cannot find symbol
+        TestEdge e3 = new TestEdge(3, 4, 102);
+        ^
+  symbol:   class TestEdge
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:22: error: cannot find symbol
+        TestEdge e3 = new TestEdge(3, 4, 102);
+                          ^
+  symbol:   class TestEdge
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:23: error: cannot find symbol
+        TestEdge e4 = new TestEdge(4, 4, 103);
+        ^
+  symbol:   class TestEdge
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:23: error: cannot find symbol
+        TestEdge e4 = new TestEdge(4, 4, 103);
+                          ^
+  symbol:   class TestEdge
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:24: error: cannot find symbol
+        TestEdge e5 = new TestEdge(4, 4, 103);
+        ^
+  symbol:   class TestEdge
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:24: error: cannot find symbol
+        TestEdge e5 = new TestEdge(4, 4, 103);
+                          ^
+  symbol:   class TestEdge
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:31: error: cannot find symbol
+        assertFalse(edgePath.contains(new TestEdge(2, 3, 101)));
+                                          ^
+  symbol:   class TestEdge
+  location: class CodexTest_0_9_12

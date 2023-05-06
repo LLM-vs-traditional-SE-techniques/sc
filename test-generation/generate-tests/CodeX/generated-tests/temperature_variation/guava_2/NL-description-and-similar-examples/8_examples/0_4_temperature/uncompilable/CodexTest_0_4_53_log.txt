@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_53.java:26: error: cannot find symbol
+    assertEquals(6, bitArray.writeBytesTo(dest, 0, 6));
+                    ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_4_53

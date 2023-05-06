@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_58.java:34: error: cannot find symbol
+        checkVector(0, v2);
+        ^
+  symbol:   method checkVector(int,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_8_58

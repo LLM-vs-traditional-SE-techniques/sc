@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_4_2.java:45: error: ')' expected
+			assertTrue(path.contains
+			                        ^
+CodexTest_0_4_2.java:46: error: reached end of file while parsing
+}
+ ^

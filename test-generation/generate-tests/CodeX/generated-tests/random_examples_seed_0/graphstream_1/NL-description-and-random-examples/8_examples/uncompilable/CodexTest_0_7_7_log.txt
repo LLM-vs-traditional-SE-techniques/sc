@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_7.java:20: error: cannot find symbol
+        assertFalse(e.contains(null));
+                    ^
+  symbol:   variable e
+  location: class CodexTest_0_7_7

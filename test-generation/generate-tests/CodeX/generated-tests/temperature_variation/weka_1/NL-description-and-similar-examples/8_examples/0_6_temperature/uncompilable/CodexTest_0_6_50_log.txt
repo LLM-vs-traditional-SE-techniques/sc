@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_50.java:19: error: cannot find symbol
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			^
+  symbol:   class DoubleMatrix1D
+  location: class CodexTest_0_6_50
+CodexTest_0_6_50.java:19: error: cannot find symbol
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			                            ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_6_50
+CodexTest_0_6_50.java:20: error: cannot find symbol
+			DoubleMatrix1D vector2 = new DenseDoubleMatrix1D(data);
+			^
+  symbol:   class DoubleMatrix1D
+  location: class CodexTest_0_6_50
+CodexTest_0_6_50.java:20: error: cannot find symbol
+			DoubleMatrix1D vector2 = new DenseDoubleMatrix1D(data);
+			                             ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_6_50

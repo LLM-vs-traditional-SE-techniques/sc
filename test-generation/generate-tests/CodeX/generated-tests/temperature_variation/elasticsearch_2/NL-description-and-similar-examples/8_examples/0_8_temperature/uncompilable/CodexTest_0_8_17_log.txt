@@ -1,0 +1,33 @@
+isCompilable => false
+CodexTest_0_8_17.java:66: error: cannot find symbol
+        json.put(field1, value1);
+                 ^
+  symbol:   variable field1
+  location: class CodexTest_0_8_17
+CodexTest_0_8_17.java:66: error: cannot find symbol
+        json.put(field1, value1);
+                         ^
+  symbol:   variable value1
+  location: class CodexTest_0_8_17
+CodexTest_0_8_17.java:67: error: cannot find symbol
+        json.put(field2, value2);
+                 ^
+  symbol:   variable field2
+  location: class CodexTest_0_8_17
+CodexTest_0_8_17.java:67: error: cannot find symbol
+        json.put(field2, value2);
+                         ^
+  symbol:   variable value2
+  location: class CodexTest_0_8_17
+CodexTest_0_8_17.java:68: error: cannot find symbol
+        IndexRequest indexRequest = new IndexRequest(index, type).source(json);
+                                                     ^
+  symbol:   variable index
+  location: class CodexTest_0_8_17
+CodexTest_0_8_17.java:68: error: cannot find symbol
+        IndexRequest indexRequest = new IndexRequest(index, type).source(json);
+                                                            ^
+  symbol:   variable type
+  location: class CodexTest_0_8_17
+Note: CodexTest_0_8_17.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

@@ -1,0 +1,289 @@
+isCompilable => false
+CodexTest_0_8_71.java:34: error: <identifier> expected
+        Assert.assertTrue("Diagonal: ",A.diagonal().equals(B));
+                         ^
+CodexTest_0_8_71.java:34: error: illegal start of type
+        Assert.assertTrue("Diagonal: ",A.diagonal().equals(B));
+                          ^
+CodexTest_0_8_71.java:34: error: <identifier> expected
+        Assert.assertTrue("Diagonal: ",A.diagonal().equals(B));
+                                                 ^
+CodexTest_0_8_71.java:34: error: ';' expected
+        Assert.assertTrue("Diagonal: ",A.diagonal().equals(B));
+                                                  ^
+CodexTest_0_8_71.java:34: error: illegal start of type
+        Assert.assertTrue("Diagonal: ",A.diagonal().equals(B));
+                                                   ^
+CodexTest_0_8_71.java:34: error: <identifier> expected
+        Assert.assertTrue("Diagonal: ",A.diagonal().equals(B));
+                                                            ^
+CodexTest_0_8_71.java:34: error: ';' expected
+        Assert.assertTrue("Diagonal: ",A.diagonal().equals(B));
+                                                             ^
+CodexTest_0_8_71.java:35: error: <identifier> expected
+        Assert.assertTrue("Assign: ",A.assign(B).equals(B));
+                         ^
+CodexTest_0_8_71.java:35: error: illegal start of type
+        Assert.assertTrue("Assign: ",A.assign(B).equals(B));
+                          ^
+CodexTest_0_8_71.java:35: error: <identifier> expected
+        Assert.assertTrue("Assign: ",A.assign(B).equals(B));
+                                             ^
+CodexTest_0_8_71.java:35: error: ';' expected
+        Assert.assertTrue("Assign: ",A.assign(B).equals(B));
+                                              ^
+CodexTest_0_8_71.java:35: error: illegal start of type
+        Assert.assertTrue("Assign: ",A.assign(B).equals(B));
+                                               ^
+CodexTest_0_8_71.java:35: error: <identifier> expected
+        Assert.assertTrue("Assign: ",A.assign(B).equals(B));
+                                                ^
+CodexTest_0_8_71.java:35: error: ';' expected
+        Assert.assertTrue("Assign: ",A.assign(B).equals(B));
+                                                 ^
+CodexTest_0_8_71.java:35: error: illegal start of type
+        Assert.assertTrue("Assign: ",A.assign(B).equals(B));
+                                                       ^
+CodexTest_0_8_71.java:35: error: ';' expected
+        Assert.assertTrue("Assign: ",A.assign(B).equals(B));
+                                                         ^
+CodexTest_0_8_71.java:36: error: <identifier> expected
+        Assert.assertTrue("ForEachNonZero: ",A.forEachNonZero(new cern.colt.function.DoubleIntDoubleFunction() {
+                         ^
+CodexTest_0_8_71.java:36: error: illegal start of type
+        Assert.assertTrue("ForEachNonZero: ",A.forEachNonZero(new cern.colt.function.DoubleIntDoubleFunction() {
+                          ^
+CodexTest_0_8_71.java:36: error: <identifier> expected
+        Assert.assertTrue("ForEachNonZero: ",A.forEachNonZero(new cern.colt.function.DoubleIntDoubleFunction() {
+                                                             ^
+CodexTest_0_8_71.java:36: error: ';' expected
+        Assert.assertTrue("ForEachNonZero: ",A.forEachNonZero(new cern.colt.function.DoubleIntDoubleFunction() {
+                                                              ^
+CodexTest_0_8_71.java:36: error: <identifier> expected
+        Assert.assertTrue("ForEachNonZero: ",A.forEachNonZero(new cern.colt.function.DoubleIntDoubleFunction() {
+                                                                                                            ^
+CodexTest_0_8_71.java:37: error: illegal start of expression
+            public double apply(double first, int second, double third) {
+            ^
+CodexTest_0_8_71.java:37: error: ';' expected
+            public double apply(double first, int second, double third) {
+                               ^
+CodexTest_0_8_71.java:37: error: <identifier> expected
+            public double apply(double first, int second, double third) {
+                                             ^
+CodexTest_0_8_71.java:37: error: not a statement
+            public double apply(double first, int second, double third) {
+                                                  ^
+CodexTest_0_8_71.java:37: error: ';' expected
+            public double apply(double first, int second, double third) {
+                                                        ^
+CodexTest_0_8_71.java:37: error: ';' expected
+            public double apply(double first, int second, double third) {
+                                                                      ^
+CodexTest_0_8_71.java:40: error: illegal start of type
+        })!=null);
+         ^
+CodexTest_0_8_71.java:40: error: ';' expected
+        })!=null);
+          ^
+CodexTest_0_8_71.java:40: error: illegal start of type
+        })!=null);
+            ^
+CodexTest_0_8_71.java:40: error: <identifier> expected
+        })!=null);
+                ^
+CodexTest_0_8_71.java:41: error: <identifier> expected
+        Assert.assertTrue("ForEachPair: ",A.forEachPair(new cern.colt.function.DoubleDoubleProcedure() {
+                         ^
+CodexTest_0_8_71.java:41: error: illegal start of type
+        Assert.assertTrue("ForEachPair: ",A.forEachPair(new cern.colt.function.DoubleDoubleProcedure() {
+                          ^
+CodexTest_0_8_71.java:41: error: <identifier> expected
+        Assert.assertTrue("ForEachPair: ",A.forEachPair(new cern.colt.function.DoubleDoubleProcedure() {
+                                                       ^
+CodexTest_0_8_71.java:41: error: ';' expected
+        Assert.assertTrue("ForEachPair: ",A.forEachPair(new cern.colt.function.DoubleDoubleProcedure() {
+                                                        ^
+CodexTest_0_8_71.java:41: error: <identifier> expected
+        Assert.assertTrue("ForEachPair: ",A.forEachPair(new cern.colt.function.DoubleDoubleProcedure() {
+                                                                                                    ^
+CodexTest_0_8_71.java:42: error: illegal start of expression
+            public boolean apply(double first, double second) {
+            ^
+CodexTest_0_8_71.java:42: error: ';' expected
+            public boolean apply(double first, double second) {
+                                ^
+CodexTest_0_8_71.java:42: error: <identifier> expected
+            public boolean apply(double first, double second) {
+                                              ^
+CodexTest_0_8_71.java:42: error: not a statement
+            public boolean apply(double first, double second) {
+                                                      ^
+CodexTest_0_8_71.java:42: error: ';' expected
+            public boolean apply(double first, double second) {
+                                                            ^
+CodexTest_0_8_71.java:45: error: illegal start of type
+        }));
+         ^
+CodexTest_0_8_71.java:45: error: ';' expected
+        }));
+          ^
+CodexTest_0_8_71.java:46: error: <identifier> expected
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, new cern.colt.function.DoubleDoubleFunction() {
+                         ^
+CodexTest_0_8_71.java:46: error: illegal start of type
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, new cern.colt.function.DoubleDoubleFunction() {
+                          ^
+CodexTest_0_8_71.java:46: error: <identifier> expected
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, new cern.colt.function.DoubleDoubleFunction() {
+                                                   ^
+CodexTest_0_8_71.java:46: error: ';' expected
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, new cern.colt.function.DoubleDoubleFunction() {
+                                                    ^
+CodexTest_0_8_71.java:46: error: illegal start of type
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, new cern.colt.function.DoubleDoubleFunction() {
+                                                     ^
+CodexTest_0_8_71.java:46: error: <identifier> expected
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, new cern.colt.function.DoubleDoubleFunction() {
+                                                      ^
+CodexTest_0_8_71.java:46: error: ';' expected
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, new cern.colt.function.DoubleDoubleFunction() {
+                                                          ^
+CodexTest_0_8_71.java:46: error: illegal start of type
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, new cern.colt.function.DoubleDoubleFunction() {
+                                                               ^
+CodexTest_0_8_71.java:46: error: ';' expected
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, new cern.colt.function.DoubleDoubleFunction() {
+                                                                    ^
+CodexTest_0_8_71.java:46: error: <identifier> expected
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, new cern.colt.function.DoubleDoubleFunction() {
+                                                                                                  ^
+CodexTest_0_8_71.java:47: error: illegal start of expression
+            public double apply(double first, double second) {
+            ^
+CodexTest_0_8_71.java:47: error: ';' expected
+            public double apply(double first, double second) {
+                               ^
+CodexTest_0_8_71.java:47: error: <identifier> expected
+            public double apply(double first, double second) {
+                                             ^
+CodexTest_0_8_71.java:47: error: not a statement
+            public double apply(double first, double second) {
+                                                     ^
+CodexTest_0_8_71.java:47: error: ';' expected
+            public double apply(double first, double second) {
+                                                           ^
+CodexTest_0_8_71.java:50: error: illegal start of type
+        }));
+         ^
+CodexTest_0_8_71.java:50: error: ';' expected
+        }));
+          ^
+CodexTest_0_8_71.java:51: error: <identifier> expected
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, C, new cern.colt.function.DoubleDoubleDoubleFunction() {
+                         ^
+CodexTest_0_8_71.java:51: error: illegal start of type
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, C, new cern.colt.function.DoubleDoubleDoubleFunction() {
+                          ^
+CodexTest_0_8_71.java:51: error: <identifier> expected
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, C, new cern.colt.function.DoubleDoubleDoubleFunction() {
+                                                   ^
+CodexTest_0_8_71.java:51: error: ';' expected
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, C, new cern.colt.function.DoubleDoubleDoubleFunction() {
+                                                    ^
+CodexTest_0_8_71.java:51: error: illegal start of type
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, C, new cern.colt.function.DoubleDoubleDoubleFunction() {
+                                                     ^
+CodexTest_0_8_71.java:51: error: <identifier> expected
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, C, new cern.colt.function.DoubleDoubleDoubleFunction() {
+                                                         ^
+CodexTest_0_8_71.java:51: error: <identifier> expected
+        Assert.assertTrue("Aggregate: ",A.aggregate(B, C, new cern.colt.function.DoubleDoubleDoubleFunction() {
+                                                                                                           ^
+CodexTest_0_8_71.java:52: error: illegal start of expression
+            public double apply(double first, double second, double third) {
+            ^
+CodexTest_0_8_71.java:52: error: ';' expected
+            public double apply(double first, double second, double third) {
+                               ^
+CodexTest_0_8_71.java:52: error: <identifier> expected
+            public double apply(double first, double second, double third) {
+                                             ^
+CodexTest_0_8_71.java:52: error: not a statement
+            public double apply(double first, double second, double third) {
+                                                     ^
+CodexTest_0_8_71.java:52: error: ';' expected
+            public double apply(double first, double second, double third) {
+                                                           ^
+CodexTest_0_8_71.java:52: error: ';' expected
+            public double apply(double first, double second, double third) {
+                                                                         ^
+CodexTest_0_8_71.java:55: error: illegal start of type
+        })!=null);
+         ^
+CodexTest_0_8_71.java:55: error: ';' expected
+        })!=null);
+          ^
+CodexTest_0_8_71.java:55: error: illegal start of type
+        })!=null);
+            ^
+CodexTest_0_8_71.java:55: error: <identifier> expected
+        })!=null);
+                ^
+CodexTest_0_8_71.java:56: error: <identifier> expected
+        Assert.assertTrue("Assign: ",A.assign(new cern.colt.function.DoubleFunction() {
+                         ^
+CodexTest_0_8_71.java:56: error: illegal start of type
+        Assert.assertTrue("Assign: ",A.assign(new cern.colt.function.DoubleFunction() {
+                          ^
+CodexTest_0_8_71.java:56: error: <identifier> expected
+        Assert.assertTrue("Assign: ",A.assign(new cern.colt.function.DoubleFunction() {
+                                             ^
+CodexTest_0_8_71.java:56: error: ';' expected
+        Assert.assertTrue("Assign: ",A.assign(new cern.colt.function.DoubleFunction() {
+                                              ^
+CodexTest_0_8_71.java:56: error: <identifier> expected
+        Assert.assertTrue("Assign: ",A.assign(new cern.colt.function.DoubleFunction() {
+                                                                                   ^
+CodexTest_0_8_71.java:57: error: illegal start of expression
+            public double apply(double value) {
+            ^
+CodexTest_0_8_71.java:57: error: ';' expected
+            public double apply(double value) {
+                               ^
+CodexTest_0_8_71.java:57: error: ';' expected
+            public double apply(double value) {
+                                            ^
+CodexTest_0_8_71.java:60: error: illegal start of type
+        }).getQuick(1)==A.getQuick(1)+1);
+         ^
+CodexTest_0_8_71.java:60: error: ';' expected
+        }).getQuick(1)==A.getQuick(1)+1);
+          ^
+CodexTest_0_8_71.java:60: error: invalid method declaration; return type required
+        }).getQuick(1)==A.getQuick(1)+1);
+           ^
+CodexTest_0_8_71.java:60: error: illegal start of type
+        }).getQuick(1)==A.getQuick(1)+1);
+                    ^
+CodexTest_0_8_71.java:60: error: ';' expected
+        }).getQuick(1)==A.getQuick(1)+1);
+                      ^
+CodexTest_0_8_71.java:61: error: <identifier> expected
+        Assert.assertTrue("Assign: ",B.assign(new cern.colt.
+                         ^
+CodexTest_0_8_71.java:61: error: illegal start of type
+        Assert.assertTrue("Assign: ",B.assign(new cern.colt.
+                          ^
+CodexTest_0_8_71.java:61: error: <identifier> expected
+        Assert.assertTrue("Assign: ",B.assign(new cern.colt.
+                                             ^
+CodexTest_0_8_71.java:61: error: ';' expected
+        Assert.assertTrue("Assign: ",B.assign(new cern.colt.
+                                              ^
+CodexTest_0_8_71.java:61: error: <identifier> expected
+        Assert.assertTrue("Assign: ",B.assign(new cern.colt.
+                                                            ^
+CodexTest_0_8_71.java:62: error: reached end of file while parsing
+}
+ ^

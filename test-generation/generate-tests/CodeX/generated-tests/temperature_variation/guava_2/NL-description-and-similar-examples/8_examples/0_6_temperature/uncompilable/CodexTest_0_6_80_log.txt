@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_6_80.java:27: error: cannot find symbol
+    ImmutableBitArray b = new ImmutableBitArray(new byte[] {0x12, 0x34, 0x56, 0x78, (byte) 0x9A,
+    ^
+  symbol:   class ImmutableBitArray
+  location: class CodexTest_0_6_80
+CodexTest_0_6_80.java:27: error: cannot find symbol
+    ImmutableBitArray b = new ImmutableBitArray(new byte[] {0x12, 0x34, 0x56, 0x78, (byte) 0x9A,
+                              ^
+  symbol:   class ImmutableBitArray
+  location: class CodexTest_0_6_80
+CodexTest_0_6_80.java:28: error: incompatible types: possible lossy conversion from int to byte
+        0xBC, 0xDE, (byte) 0xF0, 0x01, 0x23, 0x45, 0x67});
+        ^
+CodexTest_0_6_80.java:28: error: incompatible types: possible lossy conversion from int to byte
+        0xBC, 0xDE, (byte) 0xF0, 0x01, 0x23, 0x45, 0x67});
+              ^

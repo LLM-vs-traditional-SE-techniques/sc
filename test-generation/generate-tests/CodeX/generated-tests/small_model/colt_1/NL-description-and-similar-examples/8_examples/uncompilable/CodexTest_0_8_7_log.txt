@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_7.java:31: error: no suitable constructor found for DenseDoubleMatrix1D(int[])
+        DoubleMatrix1D mat = new DenseDoubleMatrix1D(indices);
+                             ^
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix1D.DenseDoubleMatrix1D(double[]) is not applicable
+      (argument mismatch; int[] cannot be converted to double[])
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix1D.DenseDoubleMatrix1D(int) is not applicable
+      (argument mismatch; int[] cannot be converted to int)
+Note: CodexTest_0_8_7.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

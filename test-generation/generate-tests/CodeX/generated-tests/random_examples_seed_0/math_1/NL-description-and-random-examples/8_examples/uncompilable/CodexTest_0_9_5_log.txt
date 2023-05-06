@@ -1,0 +1,79 @@
+isCompilable => false
+CodexTest_0_9_5.java:31: error: no suitable constructor found for Vector1D(int,int,int)
+    		    Vector1D u = new Vector1D(1, 2, 3);
+    		                 ^
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_9_5.java:32: error: no suitable constructor found for Vector1D(int,int,int)
+    		    Vector1D v = new Vector1D(2, 3, 4);
+    		                 ^
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_9_5.java:33: error: no suitable constructor found for Vector1D(int,int,int)
+    		    assertEquals(new Vector1D(0,0,0), u.scalarMultiply(0));
+    		                 ^
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_9_5.java:34: error: no suitable constructor found for Vector1D(int,int,int)
+    		    assertEquals(new Vector1D(0,0,0), v.scalarMultiply(0));
+    		                 ^
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_9_5.java:37: error: no suitable constructor found for Vector1D(int,int,int)
+    		    assertEquals(new Vector1D(2, 4, 6), u.scalarMultiply(2));
+    		                 ^
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_9_5.java:38: error: no suitable constructor found for Vector1D(int,int,int)
+    		    assertEquals(new Vector1D(4, 6, 8), v.scalarMultiply(2));
+    		                 ^
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)

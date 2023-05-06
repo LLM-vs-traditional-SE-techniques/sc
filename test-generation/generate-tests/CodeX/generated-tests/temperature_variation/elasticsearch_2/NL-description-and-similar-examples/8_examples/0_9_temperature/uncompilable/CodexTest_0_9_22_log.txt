@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_22.java:75: error: cannot find symbol
+        assertThat(source.utf8ToString(), equalTo("{\"field1\":\"value1\",\"attachment\":{\"_content\""
+                                          ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_22

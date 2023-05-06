@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_6.java:37: error: <identifier> expected
+input: Vector1D minus(Vector1D v) {
+     ^
+CodexTest_0_9_6.java:40: error: <identifier> expected
+output:
+      ^
+CodexTest_0_9_6.java:46: error: ')' expected
+			Assert.assertEquals(new Vector1D(-1), v.minus(new Vector1D(2
+			                                                            ^
+CodexTest_0_9_6.java:47: error: reached end of file while parsing
+}
+ ^

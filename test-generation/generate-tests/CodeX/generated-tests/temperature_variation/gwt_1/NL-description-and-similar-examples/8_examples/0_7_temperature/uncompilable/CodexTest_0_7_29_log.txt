@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_29.java:18: error: cannot find symbol
+      RootPanel rootPanel = RootPanel.get();
+      ^
+  symbol:   class RootPanel
+  location: class CodexTest_0_7_29
+CodexTest_0_7_29.java:18: error: cannot find symbol
+      RootPanel rootPanel = RootPanel.get();
+                            ^
+  symbol:   variable RootPanel
+  location: class CodexTest_0_7_29
+CodexTest_0_7_29.java:20: error: cannot find symbol
+      SimplePanel testArea = new SimplePanel();
+      ^
+  symbol:   class SimplePanel
+  location: class CodexTest_0_7_29
+CodexTest_0_7_29.java:20: error: cannot find symbol
+      SimplePanel testArea = new SimplePanel();
+                                 ^
+  symbol:   class SimplePanel
+  location: class CodexTest_0_7_29
+CodexTest_0_7_29.java:22: error: cannot find symbol
+      testArea.getElement().setId(gwt-debug-testIsClient);
+                                  ^
+  symbol:   variable gwt
+  location: class CodexTest_0_7_29
+CodexTest_0_7_29.java:22: error: cannot find symbol
+      testArea.getElement().setId(gwt-debug-testIsClient);
+                                      ^
+  symbol:   variable debug
+  location: class CodexTest_0_7_29
+CodexTest_0_7_29.java:22: error: cannot find symbol
+      testArea.getElement().setId(gwt-debug-testIsClient);
+                                            ^
+  symbol:   variable testIsClient
+  location: class CodexTest_0_7_29

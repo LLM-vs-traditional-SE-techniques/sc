@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_3.java:31: error: com.google.common.hash.HashCode is abstract; cannot be instantiated
+    assertEquals(new HashCode(bytes), HashCode.fromBytes(dest));
+                 ^

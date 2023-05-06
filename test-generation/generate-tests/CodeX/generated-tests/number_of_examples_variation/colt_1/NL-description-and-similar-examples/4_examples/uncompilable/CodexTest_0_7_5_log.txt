@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_5.java:33: error: cannot find symbol
+        int size = elements.length;
+                   ^
+  symbol:   variable elements
+  location: class CodexTest_0_7_5

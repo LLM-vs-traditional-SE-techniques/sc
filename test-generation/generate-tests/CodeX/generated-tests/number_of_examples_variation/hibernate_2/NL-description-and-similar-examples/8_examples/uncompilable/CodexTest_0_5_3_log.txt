@@ -1,0 +1,100 @@
+isCompilable => false
+CodexTest_0_5_3.java:16: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:19: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:21: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:24: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:26: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:29: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:31: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:34: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:36: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:39: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:41: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:44: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:46: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:49: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:51: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:54: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:56: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:59: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:61: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:64: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:66: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:69: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:71: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:74: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:76: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:79: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:81: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:84: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:86: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:89: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:91: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_5_3.java:94: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_3.java:96: error: <identifier> expected
+Input:
+     ^

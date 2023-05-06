@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_5.java:26: error: cannot find symbol
+      BitArray bits = new BitArray(ByteOrder.BIG_ENDIAN, new byte[] {(byte) 0xF0, (byte) 0x0F}, 0, 12);
+      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:26: error: cannot find symbol
+      BitArray bits = new BitArray(ByteOrder.BIG_ENDIAN, new byte[] {(byte) 0xF0, (byte) 0x0F}, 0, 12);
+                          ^
+  symbol:   class BitArray
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:26: error: cannot find symbol
+      BitArray bits = new BitArray(ByteOrder.BIG_ENDIAN, new byte[] {(byte) 0xF0, (byte) 0x0F}, 0, 12);
+                                   ^
+  symbol:   variable ByteOrder
+  location: class CodexTest_0_6_5

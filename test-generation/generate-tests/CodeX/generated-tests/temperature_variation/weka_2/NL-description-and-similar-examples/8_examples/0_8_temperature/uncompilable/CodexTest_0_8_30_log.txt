@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_8_30.java:18: error: cannot find symbol
+		Random random = mock(Random.class);
+		                ^
+  symbol:   method mock(java.lang.Class<java.util.Random>)
+  location: class CodexTest_0_8_30
+CodexTest_0_8_30.java:19: error: cannot find symbol
+		Instances model = mock(Instances.class);
+		                  ^
+  symbol:   method mock(java.lang.Class<weka.core.Instances>)
+  location: class CodexTest_0_8_30
+CodexTest_0_8_30.java:20: error: cannot find symbol
+		when(model.numAttributes()).thenReturn(5);
+		^
+  symbol:   method when(int)
+  location: class CodexTest_0_8_30
+CodexTest_0_8_30.java:21: error: cannot find symbol
+		when(model.attribute(0)).thenReturn(new Attribute("NominalAttribute"));
+		^
+  symbol:   method when(weka.core.Attribute)
+  location: class CodexTest_0_8_30
+CodexTest_0_8_30.java:22: error: cannot find symbol
+		when(model.attribute(1)).thenReturn(new Attribute("NominalAttribute"));
+		^
+  symbol:   method when(weka.core.Attribute)
+  location: class CodexTest_0_8_30
+CodexTest_0_8_30.java:23: error: cannot find symbol
+		when(model.attribute(2)).thenReturn(new Attribute("NominalAttribute"));
+		^
+  symbol:   method when(weka.core.Attribute)
+  location: class CodexTest_0_8_30
+CodexTest_0_8_30.java:24: error: cannot find symbol
+		when(model.attribute(3)).thenReturn(new Attribute("NominalAttribute"));
+		^
+  symbol:   method when(weka.core.Attribute)
+  location: class CodexTest_0_8_30
+CodexTest_0_8_30.java:25: error: cannot find symbol
+		when(model.attribute(4)).thenReturn(new Attribute("NominalAttribute"));
+		^
+  symbol:   method when(weka.core.Attribute)
+  location: class CodexTest_0_8_30
+CodexTest_0_8_30.java:29: error: cannot find symbol
+		when(random.nextDouble()).thenReturn(0.5);
+		^
+  symbol:   method when(double)
+  location: class CodexTest_0_8_30

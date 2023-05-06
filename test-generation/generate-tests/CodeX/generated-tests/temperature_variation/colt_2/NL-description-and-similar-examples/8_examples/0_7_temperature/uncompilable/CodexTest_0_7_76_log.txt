@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_7_76.java:30: error: cannot find symbol
+        DoubleMatrix2D a = factory.like2D(3, 3);
+                           ^
+  symbol:   variable factory
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:31: error: cannot find symbol
+        assertTrue(factory == a.getFactory());
+                   ^
+  symbol:   variable factory
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:31: error: cannot find symbol
+        assertTrue(factory == a.getFactory());
+                               ^
+  symbol:   method getFactory()
+  location: variable a of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_7_76.java:32: error: cannot find symbol
+        DoubleMatrix2D b = factory.like2D(5, 3);
+                           ^
+  symbol:   variable factory
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:33: error: cannot find symbol
+        assertTrue(factory == b.getFactory());
+                   ^
+  symbol:   variable factory
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:33: error: cannot find symbol
+        assertTrue(factory == b.getFactory());
+                               ^
+  symbol:   method getFactory()
+  location: variable b of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_7_76.java:34: error: cannot find symbol
+        DoubleMatrix2D c = factory.like2D(3, 5);
+                           ^
+  symbol:   variable factory
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:35: error: cannot find symbol
+        assertTrue(factory == c.getFactory());
+                   ^
+  symbol:   variable factory
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:35: error: cannot find symbol
+        assertTrue(factory == c.getFactory());
+                               ^
+  symbol:   method getFactory()
+  location: variable c of type cern.colt.matrix.DoubleMatrix2D

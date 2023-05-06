@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_21.java:67: error: cannot find symbol
+        QueryStringQueryBuilder query = new QueryStringQueryBuilder(name).parent(parent);
+        ^
+  symbol:   class QueryStringQueryBuilder
+  location: class CodexTest_0_5_21
+CodexTest_0_5_21.java:67: error: cannot find symbol
+        QueryStringQueryBuilder query = new QueryStringQueryBuilder(name).parent(parent);
+                                            ^
+  symbol:   class QueryStringQueryBuilder
+  location: class CodexTest_0_5_21

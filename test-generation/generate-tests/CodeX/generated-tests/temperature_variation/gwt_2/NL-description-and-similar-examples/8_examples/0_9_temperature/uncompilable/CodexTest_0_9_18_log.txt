@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_9_18.java:29: error: illegal start of type
+ * */
+ ^
+CodexTest_0_9_18.java:29: error: ';' expected
+ * */
+  ^
+CodexTest_0_9_18.java:29: error: illegal start of type
+ * */
+    ^
+CodexTest_0_9_18.java:29: error: <identifier> expected
+ * */
+     ^
+CodexTest_0_9_18.java:30: error: ';' expected
+public class TestCaseSourceCodeGenerator {
+      ^
+CodexTest_0_9_18.java:30: error: <identifier> expected
+public class TestCaseSourceCodeGenerator {
+                                        ^
+CodexTest_0_9_18.java:45: error: ';' expected
+  private static final String ASSERT_
+                                     ^

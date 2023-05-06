@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_77.java:25: error: cannot find symbol
+    CharBuffer chars = CharBuffer.wrap("A");
+    ^
+  symbol:   class CharBuffer
+  location: class CodexTest_0_7_77
+CodexTest_0_7_77.java:25: error: cannot find symbol
+    CharBuffer chars = CharBuffer.wrap("A");
+                       ^
+  symbol:   variable CharBuffer
+  location: class CodexTest_0_7_77
+CodexTest_0_7_77.java:26: error: cannot find symbol
+    ByteBuffer bytes = Charsets.UTF_8.encode(chars);
+    ^
+  symbol:   class ByteBuffer
+  location: class CodexTest_0_7_77
+CodexTest_0_7_77.java:28: error: cannot find symbol
+    Charsets.UTF_8.newDecoder().decode(bytes, CharBuffer.wrap(output), true);
+                                              ^
+  symbol:   variable CharBuffer
+  location: class CodexTest_0_7_77
+CodexTest_0_7_77.java:29: error: cannot find symbol
+    assertEquals(A, output[0]);
+                 ^
+  symbol:   variable A
+  location: class CodexTest_0_7_77

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_0_1.java:28: error: '(' or '[' expected
+}
+^
+CodexTest_0_0_1.java:28: error: reached end of file while parsing
+}
+ ^

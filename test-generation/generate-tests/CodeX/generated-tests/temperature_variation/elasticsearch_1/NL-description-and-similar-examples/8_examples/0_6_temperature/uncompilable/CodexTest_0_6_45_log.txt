@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_45.java:66: error: cannot find symbol
+			DocumentCreateRequest request = new DocumentCreateRequest(expected, "id", "type", new HashMap<>());
+			^
+  symbol:   class DocumentCreateRequest
+  location: class CodexTest_0_6_45
+CodexTest_0_6_45.java:66: error: cannot find symbol
+			DocumentCreateRequest request = new DocumentCreateRequest(expected, "id", "type", new HashMap<>());
+			                                    ^
+  symbol:   class DocumentCreateRequest
+  location: class CodexTest_0_6_45

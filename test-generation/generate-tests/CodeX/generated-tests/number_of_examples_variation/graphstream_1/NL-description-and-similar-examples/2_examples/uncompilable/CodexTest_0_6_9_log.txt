@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_6_9.java:19: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_6_9.java:22: error: <identifier> expected
+Output: @Test
+      ^
+CodexTest_0_6_9.java:28: error: reached end of file while parsing
+}
+ ^

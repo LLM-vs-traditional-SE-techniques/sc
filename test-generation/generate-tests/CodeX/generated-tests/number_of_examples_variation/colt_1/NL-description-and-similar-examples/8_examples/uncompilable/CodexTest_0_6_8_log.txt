@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_8.java:30: error: cannot find symbol
+		DoubleMatrix2D A = new DenseDoubleMatrix2D(NROWS, NCOLUMNS);
+		                                           ^
+  symbol:   variable NROWS
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:30: error: cannot find symbol
+		DoubleMatrix2D A = new DenseDoubleMatrix2D(NROWS, NCOLUMNS);
+		                                                  ^
+  symbol:   variable NCOLUMNS
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:38: error: cannot find symbol
+		assertEquals(value, A.getQuick(A.rows()/2,A.columns()/2), TOL);
+		                                                          ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_8

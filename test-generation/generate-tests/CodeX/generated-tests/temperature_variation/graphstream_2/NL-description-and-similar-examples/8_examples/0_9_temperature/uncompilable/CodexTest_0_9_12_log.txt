@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_12.java:22: error: cannot find symbol
+        final LaplaceDistribution l = new LaplaceDistribution(0, 1);
+              ^
+  symbol:   class LaplaceDistribution
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:22: error: cannot find symbol
+        final LaplaceDistribution l = new LaplaceDistribution(0, 1);
+                                          ^
+  symbol:   class LaplaceDistribution
+  location: class CodexTest_0_9_12

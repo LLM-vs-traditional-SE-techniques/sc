@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_5_78.java:65: error: cannot find symbol
+        String index = randomAsciiOfLengthBetween(3, 10);
+                       ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_5_78
+CodexTest_0_5_78.java:66: error: cannot find symbol
+        String type = randomAsciiOfLengthBetween(3, 10);
+                      ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_5_78
+CodexTest_0_5_78.java:67: error: cannot find symbol
+        String id = randomAsciiOfLengthBetween(3, 10);
+                    ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_5_78
+CodexTest_0_5_78.java:73: error: cannot find symbol
+        } catch (ElasticsearchIllegalArgumentException e) {
+                 ^
+  symbol:   class ElasticsearchIllegalArgumentException
+  location: class CodexTest_0_5_78
+CodexTest_0_5_78.java:74: error: cannot find symbol
+            assertThat(e.getMessage(), containsString("contentType is null"));
+                                       ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_5_78

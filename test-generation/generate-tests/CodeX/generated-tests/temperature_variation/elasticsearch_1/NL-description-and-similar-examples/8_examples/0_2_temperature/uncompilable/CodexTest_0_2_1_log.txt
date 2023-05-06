@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_2_1.java:85: error: cannot find symbol
+        IndexRequest indexRequest = new IndexRequest(index, type, id);
+                                                     ^
+  symbol:   variable index
+  location: class CodexTest_0_2_1

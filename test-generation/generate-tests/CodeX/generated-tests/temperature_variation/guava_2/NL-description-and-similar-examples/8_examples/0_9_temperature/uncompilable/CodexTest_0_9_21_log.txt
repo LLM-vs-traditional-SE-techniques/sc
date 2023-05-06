@@ -1,0 +1,76 @@
+isCompilable => false
+CodexTest_0_9_21.java:25: error: cannot find symbol
+    final DatabaseInfo db1 = new DatabaseInfo(
+          ^
+  symbol:   class DatabaseInfo
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:25: error: cannot find symbol
+    final DatabaseInfo db1 = new DatabaseInfo(
+                                 ^
+  symbol:   class DatabaseInfo
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:26: error: cannot find symbol
+      SqlIdentifier.createIdentifier("databse3"),
+      ^
+  symbol:   variable SqlIdentifier
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:27: error: cannot find symbol
+      DatabaseKind.UNKNOWN,
+      ^
+  symbol:   variable DatabaseKind
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:30: error: cannot find symbol
+    final DatabaseInfo db2 = new DatabaseInfo(
+          ^
+  symbol:   class DatabaseInfo
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:30: error: cannot find symbol
+    final DatabaseInfo db2 = new DatabaseInfo(
+                                 ^
+  symbol:   class DatabaseInfo
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:31: error: cannot find symbol
+      SqlIdentifier.createIdentifier("databse2"),
+      ^
+  symbol:   variable SqlIdentifier
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:32: error: cannot find symbol
+      DatabaseKind.UNKNOWN,
+      ^
+  symbol:   variable DatabaseKind
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:35: error: cannot find symbol
+    final DatabaseInfo db3 = new DatabaseInfo(
+          ^
+  symbol:   class DatabaseInfo
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:35: error: cannot find symbol
+    final DatabaseInfo db3 = new DatabaseInfo(
+                                 ^
+  symbol:   class DatabaseInfo
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:36: error: cannot find symbol
+      SqlIdentifier.createIdentifier("databse1"),
+      ^
+  symbol:   variable SqlIdentifier
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:37: error: cannot find symbol
+      DatabaseKind.UNKNOWN,
+      ^
+  symbol:   variable DatabaseKind
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:40: error: cannot find symbol
+    final List<DatabaseInfo> list = Arrays.asList(db1, db2, db3);
+          ^
+  symbol:   class List
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:40: error: cannot find symbol
+    final List<DatabaseInfo> list = Arrays.asList(db1, db2, db3);
+               ^
+  symbol:   class DatabaseInfo
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:41: error: cannot find symbol
+    DatabaseInfo.sortAlphabetically(list);
+    ^
+  symbol:   variable DatabaseInfo
+  location: class CodexTest_0_9_21

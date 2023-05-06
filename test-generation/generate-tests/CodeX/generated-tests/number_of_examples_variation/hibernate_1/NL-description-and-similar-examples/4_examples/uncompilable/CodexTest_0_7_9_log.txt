@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_9.java:16: error: <identifier> expected
+Input: public void setAge(int age) {
+     ^
+CodexTest_0_7_9.java:19: error: <identifier> expected
+Output: public void testAge() {
+      ^

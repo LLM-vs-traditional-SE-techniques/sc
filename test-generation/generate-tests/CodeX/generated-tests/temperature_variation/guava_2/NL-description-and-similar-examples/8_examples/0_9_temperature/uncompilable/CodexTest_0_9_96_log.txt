@@ -1,0 +1,15 @@
+isCompilable => false
+CodexTest_0_9_96.java:24: error: cannot find symbol
+  public void writeBytesTo(ByteBuffer buffer) {
+                           ^
+  symbol:   class ByteBuffer
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:25: error: cannot find symbol
+      Preconditions.checkState(!isEmpty());
+                                ^
+  symbol:   method isEmpty()
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:26: error: cannot find symbol
+      this.bitsStore.copyTo(buffer);
+          ^
+  symbol: variable bitsStore

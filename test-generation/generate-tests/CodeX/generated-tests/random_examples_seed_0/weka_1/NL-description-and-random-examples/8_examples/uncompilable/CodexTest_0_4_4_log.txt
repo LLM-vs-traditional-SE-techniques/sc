@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_4_4.java:20: error: m_Elements has protected access in weka.core.AlgVector
+    v1.m_Elements[0] = 1;
+      ^
+CodexTest_0_4_4.java:21: error: m_Elements has protected access in weka.core.AlgVector
+    v2.m_Elements[0] = 2;
+      ^
+CodexTest_0_4_4.java:23: error: m_Elements has protected access in weka.core.AlgVector
+    Assert.assertEquals(3, v3.m_Elements[0], 1.0e-12);
+                             ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_1.java:26: error: cannot find symbol
+    int numBytes = hash.writeBytesTo(dest, 4, 3);
+                   ^
+  symbol:   variable hash
+  location: class CodexTest_0_4_1

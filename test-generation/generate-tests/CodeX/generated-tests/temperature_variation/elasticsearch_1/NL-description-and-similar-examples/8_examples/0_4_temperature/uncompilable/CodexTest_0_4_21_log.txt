@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_4_21.java:122: error: unclosed string literal
+        String source = "source
+                        ^
+CodexTest_0_4_21.java:123: error: reached end of file while parsing
+}
+ ^

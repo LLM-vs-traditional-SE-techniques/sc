@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_2.java:22: error: cannot infer type arguments for java.util.ArrayList<>
+        final ArrayList<Integer> list = new ArrayList<>(1, zeroMaxArraySize);
+                                        ^

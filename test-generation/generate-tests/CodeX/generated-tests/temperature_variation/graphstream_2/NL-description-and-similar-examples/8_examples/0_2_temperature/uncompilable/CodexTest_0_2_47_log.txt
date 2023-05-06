@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_2_47.java:23: error: cannot find symbol
+        p1.add(graph.getNode(a));
+                             ^
+  symbol:   variable a
+  location: class CodexTest_0_2_47
+CodexTest_0_2_47.java:23: error: cannot find symbol
+        p1.add(graph.getNode(a));
+               ^
+  symbol:   variable graph
+  location: class CodexTest_0_2_47
+CodexTest_0_2_47.java:25: error: cannot find symbol
+        p2.add(graph.getNode(a));
+                             ^
+  symbol:   variable a
+  location: class CodexTest_0_2_47
+CodexTest_0_2_47.java:25: error: cannot find symbol
+        p2.add(graph.getNode(a));
+               ^
+  symbol:   variable graph
+  location: class CodexTest_0_2_47
+CodexTest_0_2_47.java:27: error: cannot find symbol
+        p1.add(graph.getNode(b));
+                             ^
+  symbol:   variable b
+  location: class CodexTest_0_2_47
+CodexTest_0_2_47.java:27: error: cannot find symbol
+        p1.add(graph.getNode(b));
+               ^
+  symbol:   variable graph
+  location: class CodexTest_0_2_47
+CodexTest_0_2_47.java:29: error: cannot find symbol
+        p2.add(graph.getNode(b));
+                             ^
+  symbol:   variable b
+  location: class CodexTest_0_2_47
+CodexTest_0_2_47.java:29: error: cannot find symbol
+        p2.add(graph.getNode(b));
+               ^
+  symbol:   variable graph
+  location: class CodexTest_0_2_47
+CodexTest_0_2_47.java:31: error: cannot find symbol
+        p1.add(graph.getNode(c));
+                             ^
+  symbol:   variable c
+  location: class CodexTest_0_2_47
+CodexTest_0_2_47.java:31: error: cannot find symbol
+        p1.add(graph.getNode(c));
+               ^
+  symbol:   variable graph
+  location: class CodexTest_0_2_47
+CodexTest_0_2_47.java:33: error: cannot find symbol
+        p2.add(graph.getNode(c));
+                             ^
+  symbol:   variable c
+  location: class CodexTest_0_2_47
+CodexTest_0_2_47.java:33: error: cannot find symbol
+        p2.add(graph.getNode(c));
+               ^
+  symbol:   variable graph
+  location: class CodexTest_0_2_47

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_7.java:22: error: cannot find symbol
+        final Object[] es = elementData;
+                            ^
+  symbol:   variable elementData
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:25: error: cannot find symbol
+            assertEquals(es[i], list.remove(0));
+                                ^
+  symbol:   variable list
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:27: error: cannot find symbol
+        assertEquals(0, list.size());
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_7

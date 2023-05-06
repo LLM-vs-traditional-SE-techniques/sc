@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_7_2.java:17: error: cannot find symbol
+    @Transactional
+     ^
+  symbol:   class Transactional
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:20: error: cannot find symbol
+        EntityManager em = entityManagerFactory.createEntityManager();
+        ^
+  symbol:   class EntityManager
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:20: error: cannot find symbol
+        EntityManager em = entityManagerFactory.createEntityManager();
+                           ^
+  symbol:   variable entityManagerFactory
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:21: error: cannot find symbol
+        Item item1 = new Item("name1");
+        ^
+  symbol:   class Item
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:21: error: cannot find symbol
+        Item item1 = new Item("name1");
+                         ^
+  symbol:   class Item
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:22: error: cannot find symbol
+        Item item2 = new Item("name2");
+        ^
+  symbol:   class Item
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:22: error: cannot find symbol
+        Item item2 = new Item("name2");
+                         ^
+  symbol:   class Item
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:23: error: cannot find symbol
+        Item item3 = new Item("name3");
+        ^
+  symbol:   class Item
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:23: error: cannot find symbol
+        Item item3 = new Item("name3");
+                         ^
+  symbol:   class Item
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:24: error: cannot find symbol
+        Item item4 = new Item("name4");
+        ^
+  symbol:   class Item
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:24: error: cannot find symbol
+        Item item4 = new Item("name4");
+                         ^
+  symbol:   class Item
+  location: class CodexTest_0_7_2

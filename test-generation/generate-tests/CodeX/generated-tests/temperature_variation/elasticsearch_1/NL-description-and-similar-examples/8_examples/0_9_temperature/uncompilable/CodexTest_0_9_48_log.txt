@@ -1,0 +1,104 @@
+isCompilable => false
+CodexTest_0_9_48.java:65: error: cannot find symbol
+        try ( XContentParser parser = createParser(JsonXContent.jsonXContent, "{parent: null}")) {
+              ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:65: error: cannot find symbol
+        try ( XContentParser parser = createParser(JsonXContent.jsonXContent, "{parent: null}")) {
+                                                   ^
+  symbol:   variable JsonXContent
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:66: error: cannot find symbol
+            MockDeprecatedHandler deprecationHandler = new MockDeprecatedHandler();
+            ^
+  symbol:   class MockDeprecatedHandler
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:66: error: cannot find symbol
+            MockDeprecatedHandler deprecationHandler = new MockDeprecatedHandler();
+                                                           ^
+  symbol:   class MockDeprecatedHandler
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:67: error: cannot find symbol
+            QueryShardContext context = new QueryShardContext(0,
+            ^
+  symbol:   class QueryShardContext
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:67: error: cannot find symbol
+            QueryShardContext context = new QueryShardContext(0,
+                                            ^
+  symbol:   class QueryShardContext
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:68: error: cannot find symbol
+                new IndexSettings(new IndexMetaData.Builder("index").settings(Settings.builder().build()).build(),
+                                                                              ^
+  symbol:   variable Settings
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:68: error: package IndexMetaData does not exist
+                new IndexSettings(new IndexMetaData.Builder("index").settings(Settings.builder().build()).build(),
+                                                   ^
+CodexTest_0_9_48.java:69: error: cannot find symbol
+                    Settings.builder().build()), BigArrays.NON_RECYCLING_INSTANCE, null, null, null, null, null,
+                    ^
+  symbol:   variable Settings
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:69: error: cannot find symbol
+                    Settings.builder().build()), BigArrays.NON_RECYCLING_INSTANCE, null, null, null, null, null,
+                                                 ^
+  symbol:   variable BigArrays
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:70: error: cannot find symbol
+                xContentRegistry(), writableRegistry(), null, null, () -> null, emptyMap(), deprecationHandler);
+                ^
+  symbol:   method xContentRegistry()
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:70: error: cannot find symbol
+                xContentRegistry(), writableRegistry(), null, null, () -> null, emptyMap(), deprecationHandler);
+                                    ^
+  symbol:   method writableRegistry()
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:70: error: cannot find symbol
+                xContentRegistry(), writableRegistry(), null, null, () -> null, emptyMap(), deprecationHandler);
+                                                                                ^
+  symbol:   method emptyMap()
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:71: error: cannot find symbol
+            PercolatorQueryBuilder builder = (PercolatorQueryBuilder) context.parseInnerQueryBuilder().get();
+            ^
+  symbol:   class PercolatorQueryBuilder
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:71: error: cannot find symbol
+            PercolatorQueryBuilder builder = (PercolatorQueryBuilder) context.parseInnerQueryBuilder().get();
+                                              ^
+  symbol:   class PercolatorQueryBuilder
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:72: error: cannot find symbol
+            assertThat(deprecationHandler.used.get(), is(true));
+                                                      ^
+  symbol:   method is(boolean)
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:73: error: cannot find symbol
+            assertThat(builder.getField(), equalTo("_name"));
+                                           ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:74: error: cannot find symbol
+            assertThat(builder.getDocumentType(), equalTo("_doc"));
+                                                  ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:75: error: cannot find symbol
+            assertThat(builder.getName(), equalTo("null"));
+                                          ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:76: error: cannot find symbol
+            assertThat(builder.getQuery().toString(), equalTo("{\"match_all\": {}}"));
+                                                      ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:77: error: cannot find symbol
+            assertThat(builder.getMinScore(), equalTo(PercolatorQueryBuilder.DEFAULT_MINIMUM_SHOULD_MATCH));
+                                                      ^
+  symbol:   variable PercolatorQueryBuilder
+  location: class CodexTest_0_9_48

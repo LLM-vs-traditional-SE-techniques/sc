@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_1.java:32: error: cannot find symbol
+        double actual = Vector1D.distanceSq(pt1, pt2);
+                                            ^
+  symbol:   variable pt1
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:32: error: cannot find symbol
+        double actual = Vector1D.distanceSq(pt1, pt2);
+                                                 ^
+  symbol:   variable pt2
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:33: error: cannot find symbol
+        assertEquals(expected, actual, delta);
+                                       ^
+  symbol:   variable delta
+  location: class CodexTest_0_9_1

@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_6_2.java:18: error: illegal start of type
+ *
+ ^
+CodexTest_0_6_2.java:18: error: ';' expected
+ *
+  ^
+CodexTest_0_6_2.java:19: error: <identifier> expected
+ * @author Rajeev
+                 ^
+CodexTest_0_6_2.java:20: error: illegal start of type
+ */
+  ^
+CodexTest_0_6_2.java:20: error: <identifier> expected
+ */
+   ^
+CodexTest_0_6_2.java:21: error: ';' expected
+public class MethodSignature extends TestSuggestion {
+      ^
+CodexTest_0_6_2.java:21: error: <identifier> expected
+public class MethodSignature extends TestSuggestion {
+                            ^
+CodexTest_0_6_2.java:21: error: <identifier> expected
+public class MethodSignature extends TestSuggestion {
+                                                   ^

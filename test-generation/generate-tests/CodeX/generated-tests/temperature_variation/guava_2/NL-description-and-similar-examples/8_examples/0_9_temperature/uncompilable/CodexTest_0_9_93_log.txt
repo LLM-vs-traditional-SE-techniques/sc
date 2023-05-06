@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_93.java:33: error: incompatible types: possible lossy conversion from int to byte
+          0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x80
+                                                          ^

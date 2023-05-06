@@ -1,0 +1,33 @@
+isCompilable => false
+CodexTest_0_9_3.java:20: error: incompatible types: int[] cannot be converted to int
+    FastVector nominal = new FastVector(new int[]{0,1,precision});
+                                        ^
+CodexTest_0_9_3.java:24: error: no suitable constructor found for Attribute(java.lang.String,int[],int)
+    Attribute attr1 = new Attribute("numeric", 
+                      ^
+    constructor weka.core.Attribute.Attribute(java.lang.String,java.lang.String,weka.core.ProtectedProperties) is not applicable
+      (argument mismatch; int[] cannot be converted to java.lang.String)
+    constructor weka.core.Attribute.Attribute(java.lang.String,java.util.List<java.lang.String>,weka.core.ProtectedProperties) is not applicable
+      (argument mismatch; int[] cannot be converted to java.util.List<java.lang.String>)
+    constructor weka.core.Attribute.Attribute(java.lang.String,weka.core.Instances,weka.core.ProtectedProperties) is not applicable
+      (argument mismatch; int[] cannot be converted to weka.core.Instances)
+    constructor weka.core.Attribute.Attribute(java.lang.String,java.lang.String,int) is not applicable
+      (argument mismatch; int[] cannot be converted to java.lang.String)
+    constructor weka.core.Attribute.Attribute(java.lang.String,java.util.List<java.lang.String>,int) is not applicable
+      (argument mismatch; int[] cannot be converted to java.util.List<java.lang.String>)
+    constructor weka.core.Attribute.Attribute(java.lang.String,weka.core.Instances,int) is not applicable
+      (argument mismatch; int[] cannot be converted to weka.core.Instances)
+CodexTest_0_9_3.java:31: error: weka.core.Instance is abstract; cannot be instantiated
+    insts.add(new Instance(2));
+              ^
+CodexTest_0_9_3.java:34: error: method getAsInstance in class weka.core.AlgVector cannot be applied to given types;
+    Instance inst = algVec.getAsInstance(insts);
+                          ^
+  required: weka.core.Instances,java.util.Random
+  found: weka.core.Instances
+  reason: actual and formal argument lists differ in length
+Note: CodexTest_0_9_3.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: CodexTest_0_9_3.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

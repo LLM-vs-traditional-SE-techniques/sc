@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_18.java:30: error: cannot find symbol
+		double[] values = new double[SIZE];
+		                             ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:31: error: cannot find symbol
+		for (int i = 0; i < SIZE; i++)
+		                    ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:33: error: cannot find symbol
+		A.assign(values);
+		^
+  symbol:   variable A
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:34: error: cannot find symbol
+		for (int r = 0; r < ROWS; r++)
+		                    ^
+  symbol:   variable ROWS
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:35: error: cannot find symbol
+			for (int c = 0; c < COLUMNS; c++)
+			                    ^
+  symbol:   variable COLUMNS
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:36: error: cannot find symbol
+				assertEquals(values[r*COLUMNS + c], A.getQuick(r, c), TOL);
+				                      ^
+  symbol:   variable COLUMNS
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:36: error: cannot find symbol
+				assertEquals(values[r*COLUMNS + c], A.getQuick(r, c), TOL);
+				                                    ^
+  symbol:   variable A
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:36: error: cannot find symbol
+				assertEquals(values[r*COLUMNS + c], A.getQuick(r, c), TOL);
+				                                                      ^
+  symbol:   variable TOL
+  location: class CodexTest_0_8_18

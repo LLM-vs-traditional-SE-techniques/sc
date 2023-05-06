@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_44.java:31: error: cannot find symbol
+        LittleEndianByteArrayOutputStream out = new LittleEndianByteArrayOutputStream(numBytes);
+        ^
+  symbol:   class LittleEndianByteArrayOutputStream
+  location: class CodexTest_0_7_44
+CodexTest_0_7_44.java:31: error: cannot find symbol
+        LittleEndianByteArrayOutputStream out = new LittleEndianByteArrayOutputStream(numBytes);
+                                                    ^
+  symbol:   class LittleEndianByteArrayOutputStream
+  location: class CodexTest_0_7_44
+CodexTest_0_7_44.java:34: error: cannot find symbol
+        } catch (IOException e) {
+                 ^
+  symbol:   class IOException
+  location: class CodexTest_0_7_44

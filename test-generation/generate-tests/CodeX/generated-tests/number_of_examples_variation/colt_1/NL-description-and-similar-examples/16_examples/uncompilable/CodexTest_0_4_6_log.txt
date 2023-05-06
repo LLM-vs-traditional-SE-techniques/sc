@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_4_6.java:31: error: cannot find symbol
+        DoubleMatrix1D A = new DenseDoubleMatrix1D(SIZE);
+                                                   ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:32: error: cannot find symbol
+        DoubleMatrix1D B = new DenseDoubleMatrix1D(SIZE);
+                                                   ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:33: error: cannot find symbol
+        for (int i = 0; i < SIZE; ++i) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:38: error: cannot find symbol
+        for (int i = 0; i < SIZE; ++i) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:39: error: cannot find symbol
+            assertEquals(B.getQuick(i), A.getQuick(i), TOL);
+                                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_6

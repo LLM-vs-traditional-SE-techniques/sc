@@ -1,0 +1,40 @@
+isCompilable => false
+CodexTest_0_7_55.java:24: error: cannot find symbol
+	values1[n] = m_Random.nextDouble() * 100;
+	             ^
+  symbol:   variable m_Random
+  location: class CodexTest_0_7_55
+CodexTest_0_7_55.java:25: error: cannot find symbol
+	values2[n] = m_Random.nextDouble() * 100;
+	             ^
+  symbol:   variable m_Random
+  location: class CodexTest_0_7_55
+CodexTest_0_7_55.java:36: error: no suitable method found for setValue(int,weka.core.Instance)
+      inst.setValue(0, inst1);
+          ^
+    method weka.core.Instance.setValue(int,double) is not applicable
+      (argument mismatch; weka.core.Instance cannot be converted to double)
+    method weka.core.Instance.setValue(int,java.lang.String) is not applicable
+      (argument mismatch; weka.core.Instance cannot be converted to java.lang.String)
+    method weka.core.Instance.setValue(weka.core.Attribute,double) is not applicable
+      (argument mismatch; int cannot be converted to weka.core.Attribute)
+    method weka.core.Instance.setValue(weka.core.Attribute,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to weka.core.Attribute)
+CodexTest_0_7_55.java:37: error: no suitable method found for setValue(int,weka.core.Instance)
+      inst.setValue(1, inst2);
+          ^
+    method weka.core.Instance.setValue(int,double) is not applicable
+      (argument mismatch; weka.core.Instance cannot be converted to double)
+    method weka.core.Instance.setValue(int,java.lang.String) is not applicable
+      (argument mismatch; weka.core.Instance cannot be converted to java.lang.String)
+    method weka.core.Instance.setValue(weka.core.Attribute,double) is not applicable
+      (argument mismatch; int cannot be converted to weka.core.Attribute)
+    method weka.core.Instance.setValue(weka.core.Attribute,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to weka.core.Attribute)
+CodexTest_0_7_55.java:38: error: cannot find symbol
+      Instance newInst = inst.getAsInstance(dataset, m_Random);
+                                                     ^
+  symbol:   variable m_Random
+  location: class CodexTest_0_7_55
+Note: CodexTest_0_7_55.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

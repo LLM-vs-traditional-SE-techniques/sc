@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_44.java:26: error: cannot find symbol
+    ByteArrayDataInput in = ByteStreams.newDataInput(bytes);
+    ^
+  symbol:   class ByteArrayDataInput
+  location: class CodexTest_0_8_44
+CodexTest_0_8_44.java:26: error: cannot find symbol
+    ByteArrayDataInput in = ByteStreams.newDataInput(bytes);
+                            ^
+  symbol:   variable ByteStreams
+  location: class CodexTest_0_8_44
+CodexTest_0_8_44.java:28: error: cannot find symbol
+    ByteStreams.readFully(in, result);
+    ^
+  symbol:   variable ByteStreams
+  location: class CodexTest_0_8_44
+CodexTest_0_8_44.java:32: error: cannot find symbol
+    ByteStreams.readFully(in, remainder);
+    ^
+  symbol:   variable ByteStreams
+  location: class CodexTest_0_8_44

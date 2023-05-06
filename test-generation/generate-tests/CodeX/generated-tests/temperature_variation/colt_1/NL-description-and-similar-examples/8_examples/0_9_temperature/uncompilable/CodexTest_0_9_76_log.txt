@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_9_76.java:31: error: incompatible types: int cannot be converted to cern.colt.matrix.DoubleMatrix2D
+            DoubleMatrix2D m = factory2D.sample(5,5,5.0);
+                                                ^
+CodexTest_0_9_76.java:39: error: incompatible types: int cannot be converted to cern.colt.matrix.DoubleMatrix2D
+            DoubleMatrix2D m = factory2D.sample(5,5,5.0);
+                                                ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

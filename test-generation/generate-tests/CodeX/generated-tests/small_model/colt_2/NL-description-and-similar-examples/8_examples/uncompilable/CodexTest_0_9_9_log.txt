@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_9.java:29: error: <identifier> expected
+  Input: public DoubleMatrix1D like(int size) {
+       ^
+CodexTest_0_9_9.java:32: error: <identifier> expected
+  Output:
+        ^
+CodexTest_0_9_9.java:33: error: <identifier> expected
+    Input : public <R extends WritableRow> MatrixWriter<R> writer(R rowCreator) {
+         ^

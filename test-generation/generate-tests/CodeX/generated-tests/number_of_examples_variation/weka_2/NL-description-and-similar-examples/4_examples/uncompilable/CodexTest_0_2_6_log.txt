@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_6.java:45: error: ')' expected
+      fail("Exception occurred: " + e.getMessage
+                                                ^
+CodexTest_0_2_6.java:46: error: reached end of file while parsing
+}
+ ^

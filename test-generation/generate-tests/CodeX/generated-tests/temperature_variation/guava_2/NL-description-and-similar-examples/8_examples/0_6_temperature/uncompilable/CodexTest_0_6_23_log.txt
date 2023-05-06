@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_23.java:36: error: <identifier> expected
+Input: public static HashCode fromInt(int hash) {
+     ^
+CodexTest_0_6_23.java:39: error: <identifier> expected
+Output: public void testObjectHashCode() {
+      ^

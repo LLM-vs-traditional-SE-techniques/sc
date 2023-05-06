@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_65.java:21: error: cannot find symbol
+        IntList list = new IntArrayList();
+        ^
+  symbol:   class IntList
+  location: class CodexTest_0_7_65
+CodexTest_0_7_65.java:21: error: cannot find symbol
+        IntList list = new IntArrayList();
+                           ^
+  symbol:   class IntArrayList
+  location: class CodexTest_0_7_65
+CodexTest_0_7_65.java:26: error: cannot find symbol
+        assertThat(list, contains(2, 3));
+                         ^
+  symbol:   method contains(int,int)
+  location: class CodexTest_0_7_65

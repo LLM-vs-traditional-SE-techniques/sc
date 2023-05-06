@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_15.java:68: error: cannot find symbol
+        assertThat(indexRequest.parent(), equalTo(parent));
+                                          ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_3_15

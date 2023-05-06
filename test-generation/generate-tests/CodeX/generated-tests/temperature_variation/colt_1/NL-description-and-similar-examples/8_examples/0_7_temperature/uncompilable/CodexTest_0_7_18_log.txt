@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_18.java:31: error: cannot find symbol
+        test.assign(expected);
+        ^
+  symbol:   variable test
+  location: class CodexTest_0_7_18
+CodexTest_0_7_18.java:32: error: cannot find symbol
+        for (int r=0; r<test.rows(); r++) {
+                        ^
+  symbol:   variable test
+  location: class CodexTest_0_7_18
+CodexTest_0_7_18.java:33: error: cannot find symbol
+            for (int c=0; c<test.columns(); c++) {
+                            ^
+  symbol:   variable test
+  location: class CodexTest_0_7_18
+CodexTest_0_7_18.java:34: error: cannot find symbol
+                assertEquals(expected[r+c*test.rows()], test.get(r,c), TOL);
+                                          ^
+  symbol:   variable test
+  location: class CodexTest_0_7_18
+CodexTest_0_7_18.java:34: error: cannot find symbol
+                assertEquals(expected[r+c*test.rows()], test.get(r,c), TOL);
+                                                        ^
+  symbol:   variable test
+  location: class CodexTest_0_7_18
+CodexTest_0_7_18.java:34: error: cannot find symbol
+                assertEquals(expected[r+c*test.rows()], test.get(r,c), TOL);
+                                                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_18

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_47.java:70: error: cannot find symbol
+        Link actual = new Link(actualParent, actualChild, actualLink, actualSource, actualText);
+        ^
+  symbol:   class Link
+  location: class CodexTest_0_7_47
+CodexTest_0_7_47.java:70: error: cannot find symbol
+        Link actual = new Link(actualParent, actualChild, actualLink, actualSource, actualText);
+                          ^
+  symbol:   class Link
+  location: class CodexTest_0_7_47

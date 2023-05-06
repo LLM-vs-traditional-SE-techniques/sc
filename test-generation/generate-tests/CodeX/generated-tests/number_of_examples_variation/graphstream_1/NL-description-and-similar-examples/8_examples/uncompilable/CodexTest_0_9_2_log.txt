@@ -1,0 +1,29 @@
+isCompilable => false
+CodexTest_0_9_2.java:21: error: cannot find symbol
+		path.addNode(new DefaultNode("a"));
+		                 ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:22: error: cannot find symbol
+		path.addNode(new DefaultNode("b"));
+		                 ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:23: error: cannot find symbol
+		Edge nonMatchingEdge = new Edge(path.getA(), path.getB(), "nonMatchingEdge",
+		                                    ^
+  symbol:   method getA()
+  location: variable path of type org.graphstream.graph.Path
+CodexTest_0_9_2.java:23: error: cannot find symbol
+		Edge nonMatchingEdge = new Edge(path.getA(), path.getB(), "nonMatchingEdge",
+		                                                 ^
+  symbol:   method getB()
+  location: variable path of type org.graphstream.graph.Path
+CodexTest_0_9_2.java:24: error: cannot find symbol
+				Relationship.OTHER);
+				^
+  symbol:   variable Relationship
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:23: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		Edge nonMatchingEdge = new Edge(path.getA(), path.getB(), "nonMatchingEdge",
+		                       ^

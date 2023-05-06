@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_11.java:39: error: <identifier> expected
+Input: public HashCode fromLong(long hash) {
+     ^
+CodexTest_0_8_11.java:42: error: <identifier> expected
+Output: public void testLongHashCode() {
+      ^
+CodexTest_0_8_11.java:47: error: <identifier> expected
+Input: public void setX(double d) {
+     ^
+CodexTest_0_8_11.java:50: error: <identifier> expected
+Output: public void testNegate() {
+      ^

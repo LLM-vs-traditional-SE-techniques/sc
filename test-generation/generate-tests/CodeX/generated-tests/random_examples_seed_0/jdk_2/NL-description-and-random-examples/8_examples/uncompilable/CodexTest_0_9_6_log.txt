@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_6.java:22: error: cannot find symbol
+        final LongList list = new LongArrayList();
+              ^
+  symbol:   class LongList
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:22: error: cannot find symbol
+        final LongList list = new LongArrayList();
+                                  ^
+  symbol:   class LongArrayList
+  location: class CodexTest_0_9_6

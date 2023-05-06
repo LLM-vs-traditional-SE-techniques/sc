@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_2.java:25: error: <identifier> expected
+Input: public LongMatrix1D like(int size) {
+     ^
+CodexTest_0_8_2.java:28: error: <identifier> expected
+Output: public static void testTranspose(){
+      ^
+CodexTest_0_8_2.java:35: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_5.java:30: error: <identifier> expected
+    Test 1:
+        ^
+CodexTest_0_6_5.java:30: error: illegal start of type
+    Test 1:
+          ^
+CodexTest_0_6_5.java:30: error: <identifier> expected
+    Test 1:
+           ^
+CodexTest_0_6_5.java:31: error: ';' expected
+    public void testScalarMultiply() {
+          ^
+CodexTest_0_6_5.java:31: error: invalid method declaration; return type required
+    public void testScalarMultiply() {
+                ^

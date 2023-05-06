@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_76.java:30: error: cannot find symbol
+		                                                             Array2DRowRealMatrix m = new Array2DRowRealMatrix();
+		                                                             ^
+  symbol:   class Array2DRowRealMatrix
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:30: error: cannot find symbol
+		                                                             Array2DRowRealMatrix m = new Array2DRowRealMatrix();
+		                                                                                          ^
+  symbol:   class Array2DRowRealMatrix
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:37: error: cannot find symbol
+									     m = new Array2DRowRealMatrix(d);
+									             ^
+  symbol:   class Array2DRowRealMatrix
+  location: class CodexTest_0_9_76

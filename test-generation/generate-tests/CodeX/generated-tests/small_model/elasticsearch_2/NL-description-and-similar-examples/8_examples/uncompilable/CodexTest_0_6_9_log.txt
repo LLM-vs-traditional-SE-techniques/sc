@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_9.java:72: error: cannot find symbol
+            request.source(source, XContentType.CSV);
+                                               ^
+  symbol:   variable CSV
+  location: class org.elasticsearch.common.xcontent.XContentType
+CodexTest_0_6_9.java:73: error: cannot find symbol
+            request.source(source, XContentType.XML);
+                                               ^
+  symbol:   variable XML
+  location: class org.elasticsearch.common.xcontent.XContentType
+CodexTest_0_6_9.java:76: error: cannot find symbol
+            assertThat(expected.getCause().getMessage(), containsString("Invalid XContentType"));
+                                                         ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_6_9

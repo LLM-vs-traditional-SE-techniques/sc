@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_6_7.java:19: error: no suitable constructor found for AlgVector(double)
+    AlgVector v = new AlgVector(1.2);
+                  ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; possible lossy conversion from double to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; double cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; double cannot be converted to weka.core.Instance)
+CodexTest_0_6_7.java:20: error: no suitable constructor found for Instances(java.lang.String,weka.core.Attribute,int)
+    Instances model = new Instances("test", new Attribute("attr", "string"), 2);
+                      ^
+    constructor weka.core.Instances.Instances(weka.core.Instances,int,int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to weka.core.Instances)
+    constructor weka.core.Instances.Instances(java.lang.String,java.util.ArrayList<weka.core.Attribute>,int) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to java.util.ArrayList<weka.core.Attribute>)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

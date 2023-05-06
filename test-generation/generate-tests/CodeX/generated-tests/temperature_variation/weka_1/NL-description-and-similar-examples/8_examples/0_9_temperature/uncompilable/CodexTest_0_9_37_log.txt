@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_37.java:37: error: <identifier> expected
+Input:  public void recordResults(CompositeType comp) {
+     ^
+CodexTest_0_9_37.java:49: error: not a statement
+					testInfo3.numN
+					         ^
+CodexTest_0_9_37.java:49: error: ';' expected
+					testInfo3.numN
+					              ^
+CodexTest_0_9_37.java:50: error: reached end of file while parsing
+}
+ ^

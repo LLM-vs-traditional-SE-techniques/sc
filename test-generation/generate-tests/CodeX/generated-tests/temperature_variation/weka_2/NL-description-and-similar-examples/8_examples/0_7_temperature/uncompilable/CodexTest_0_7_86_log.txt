@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_86.java:18: error: cannot find symbol
+    Instances i = new Instances(new BufferedReader(new StringReader(InstancesTest.IRIS_DATASET)));
+                                    ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:18: error: cannot find symbol
+    Instances i = new Instances(new BufferedReader(new StringReader(InstancesTest.IRIS_DATASET)));
+                                                       ^
+  symbol:   class StringReader
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:18: error: cannot find symbol
+    Instances i = new Instances(new BufferedReader(new StringReader(InstancesTest.IRIS_DATASET)));
+                                                                    ^
+  symbol:   variable InstancesTest
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:25: error: cannot find symbol
+    AlgVector v = AlgVector.getAsVector(in);
+                           ^
+  symbol:   method getAsVector(weka.core.Instance)
+  location: class weka.core.AlgVector

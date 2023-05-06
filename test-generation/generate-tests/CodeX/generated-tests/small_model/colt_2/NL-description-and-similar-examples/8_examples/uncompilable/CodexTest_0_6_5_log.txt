@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_5.java:30: error: cannot find symbol
+        Vector1D v = new Vector1D(1);
+        ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:30: error: cannot find symbol
+        Vector1D v = new Vector1D(1);
+                         ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_5

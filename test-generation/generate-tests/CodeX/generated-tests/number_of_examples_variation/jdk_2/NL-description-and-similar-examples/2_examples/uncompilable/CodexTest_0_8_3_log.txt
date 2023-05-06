@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_3.java:22: error: package ImmutableSet does not exist
+        ImmutableSet.Builder<String> underTest = ImmutableSet.builder();
+                    ^
+CodexTest_0_8_3.java:22: error: cannot find symbol
+        ImmutableSet.Builder<String> underTest = ImmutableSet.builder();
+                                                 ^
+  symbol:   variable ImmutableSet
+  location: class CodexTest_0_8_3

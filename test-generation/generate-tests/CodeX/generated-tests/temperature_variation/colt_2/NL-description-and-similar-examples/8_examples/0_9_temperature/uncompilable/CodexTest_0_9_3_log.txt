@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_9_3.java:44: error: cannot find symbol
+        DoubleMatrix2D res = m2.like2D(m2.rows(),m1.size());
+                               ^
+  symbol:   method like2D(int,int)
+  location: variable m2 of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_9_3.java:45: error: no suitable method found for zMult(cern.colt.matrix.DoubleMatrix1D,cern.colt.matrix.DoubleMatrix2D)
+        m2.zMult(m1,res);
+          ^
+    method cern.colt.matrix.DoubleMatrix2D.zMult(cern.colt.matrix.DoubleMatrix1D,cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.matrix.DoubleMatrix1D)
+    method cern.colt.matrix.DoubleMatrix2D.zMult(cern.colt.matrix.DoubleMatrix2D,cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix1D cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

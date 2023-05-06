@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_51.java:26: error: cannot find symbol
+    int numBytesWritten = new BigInteger("123456789").toByteArray().length;
+                              ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_5_51
+CodexTest_0_5_51.java:27: error: cannot find symbol
+    assertEquals(numBytesWritten, new BigInteger("123456789").writeBytesTo(dest, 1, dest.length - 1));
+                                      ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_5_51

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_74.java:78: error: ')' expected
+    bs.set(51
+             ^
+CodexTest_0_3_74.java:79: error: reached end of file while parsing
+}
+ ^

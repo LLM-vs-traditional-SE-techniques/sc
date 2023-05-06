@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_99.java:66: error: cannot find symbol
+        request.parent(parent);
+        ^
+  symbol:   variable request
+  location: class CodexTest_0_8_99
+CodexTest_0_8_99.java:67: error: cannot find symbol
+        assertEquals(request.parent(), parent);
+                     ^
+  symbol:   variable request
+  location: class CodexTest_0_8_99

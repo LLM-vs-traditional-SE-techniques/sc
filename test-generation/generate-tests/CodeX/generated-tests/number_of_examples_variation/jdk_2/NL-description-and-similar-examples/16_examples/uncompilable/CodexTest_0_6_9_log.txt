@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_6_9.java:21: error: cannot find symbol
+        assertTrue("ArrayList should contain foo", al.contains("foo"));
+                                                   ^
+  symbol:   variable al
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:22: error: cannot find symbol
+        assertTrue("ArrayList should contain bar", al.contains("bar"));
+                                                   ^
+  symbol:   variable al
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:23: error: cannot find symbol
+        assertTrue("ArrayList should contain baz", al.contains("baz"));
+                                                   ^
+  symbol:   variable al
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:24: error: cannot find symbol
+        assertTrue("ArrayList should contain qux", al.contains("qux"));
+                                                   ^
+  symbol:   variable al
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:25: error: cannot find symbol
+        assertFalse("ArrayList should not contain foobar", al.contains("foobar"));
+                                                           ^
+  symbol:   variable al
+  location: class CodexTest_0_6_9

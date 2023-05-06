@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_14.java:65: error: cannot find symbol
+        MyChild myChild = new MyChild();
+        ^
+  symbol:   class MyChild
+  location: class CodexTest_0_6_14
+CodexTest_0_6_14.java:65: error: cannot find symbol
+        MyChild myChild = new MyChild();
+                              ^
+  symbol:   class MyChild
+  location: class CodexTest_0_6_14

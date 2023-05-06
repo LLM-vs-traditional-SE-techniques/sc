@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_5.java:66: error: cannot find symbol
+		DocumentBuilder docBuilder = new DocumentBuilder();
+		^
+  symbol:   class DocumentBuilder
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:66: error: cannot find symbol
+		DocumentBuilder docBuilder = new DocumentBuilder();
+		                                 ^
+  symbol:   class DocumentBuilder
+  location: class CodexTest_0_7_5

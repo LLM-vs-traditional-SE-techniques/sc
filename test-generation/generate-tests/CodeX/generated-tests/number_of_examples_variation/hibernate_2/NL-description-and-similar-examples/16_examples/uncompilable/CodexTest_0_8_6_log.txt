@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_6.java:20: error: <identifier> expected
+Input: public String toString(Boolean value, WrapperOptions options) {
+     ^
+CodexTest_0_8_6.java:26: error: <identifier> expected
+Output: public void testToString() {
+      ^

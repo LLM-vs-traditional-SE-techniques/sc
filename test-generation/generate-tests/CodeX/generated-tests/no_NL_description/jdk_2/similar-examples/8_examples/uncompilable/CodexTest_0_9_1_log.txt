@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_1.java:21: error: cannot find symbol
+        SimpleHolder[] objects = new SimpleHolder[] {
+        ^
+  symbol:   class SimpleHolder
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:21: error: cannot find symbol
+        SimpleHolder[] objects = new SimpleHolder[] {
+                                     ^
+  symbol:   class SimpleHolder
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:22: error: cannot find symbol
+                new SimpleHolder("AaAa"), 
+                    ^
+  symbol:   class SimpleHolder
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:23: error: cannot find symbol
+                new SimpleHolder("aAaA"), 
+                    ^
+  symbol:   class SimpleHolder
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:24: error: cannot find symbol
+                new SimpleHolder("AAaa")};
+                    ^
+  symbol:   class SimpleHolder
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:25: error: cannot find symbol
+        List<SimpleHolder> list = Arrays.asList(objects);
+             ^
+  symbol:   class SimpleHolder
+  location: class CodexTest_0_9_1

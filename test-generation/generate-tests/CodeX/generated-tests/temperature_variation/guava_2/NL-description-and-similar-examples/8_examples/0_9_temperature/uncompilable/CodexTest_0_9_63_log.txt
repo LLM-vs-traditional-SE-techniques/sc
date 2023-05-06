@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_63.java:31: error: <identifier> expected
+Input: public int size() {
+     ^
+CodexTest_0_9_63.java:34: error: <identifier> expected
+Output: public void testLengthConstructor() {
+      ^

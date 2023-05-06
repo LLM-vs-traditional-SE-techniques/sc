@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_90.java:69: error: cannot find symbol
+        String index = randomAsciiOfLength(5);
+                       ^
+  symbol:   method randomAsciiOfLength(int)
+  location: class CodexTest_0_7_90
+CodexTest_0_7_90.java:73: error: cannot find symbol
+        assertThat(indexRequest.source(), equalTo(jsonMap));
+                                          ^
+  symbol:   method equalTo(java.util.Map<java.lang.String,java.lang.Object>)
+  location: class CodexTest_0_7_90

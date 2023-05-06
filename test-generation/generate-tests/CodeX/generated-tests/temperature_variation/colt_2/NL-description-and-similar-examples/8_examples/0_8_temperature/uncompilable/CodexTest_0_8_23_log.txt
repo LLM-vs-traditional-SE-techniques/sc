@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_23.java:30: error: cannot find symbol
+        DoubleMatrix2DFactory factory = DoubleMatrix2D.factory;
+        ^
+  symbol:   class DoubleMatrix2DFactory
+  location: class CodexTest_0_8_23
+CodexTest_0_8_23.java:30: error: cannot find symbol
+        DoubleMatrix2DFactory factory = DoubleMatrix2D.factory;
+                                                      ^
+  symbol:   variable factory
+  location: class cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_23.java:33: error: cannot find symbol
+        DoubleMatrix2D actual = matrix.like2D(2, 3);
+                                      ^
+  symbol:   method like2D(int,int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_23.java:34: error: cannot find symbol
+        DoubleMatrix2DFactoryTest.checkMatrices(expected, actual);
+        ^
+  symbol:   variable DoubleMatrix2DFactoryTest
+  location: class CodexTest_0_8_23

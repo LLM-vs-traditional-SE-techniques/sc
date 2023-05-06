@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_1.java:25: error: <identifier> expected
+Input: public Object getPropertyValue(GraphElement element) {
+     ^
+CodexTest_0_9_1.java:28: error: <identifier> expected
+Output:  public void testGetPropertyValue() {
+      ^
+CodexTest_0_9_1.java:34: error: reached end of file while parsing
+}
+ ^

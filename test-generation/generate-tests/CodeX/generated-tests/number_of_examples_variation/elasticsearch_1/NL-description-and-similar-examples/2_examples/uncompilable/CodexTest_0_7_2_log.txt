@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_7_2.java:65: error: cannot find symbol
+        String parent = this.parent();
+                            ^
+  symbol: method parent()

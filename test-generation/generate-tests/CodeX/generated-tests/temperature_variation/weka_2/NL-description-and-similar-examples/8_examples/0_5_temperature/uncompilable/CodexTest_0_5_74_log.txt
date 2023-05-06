@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_5_74.java:18: error: cannot find symbol
+    Instances data = new Instances(m_Instances, 0);
+                                   ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_5_74
+CodexTest_0_5_74.java:19: error: cannot find symbol
+    AlgVector v1 = new AlgVector(m_Instances.numAttributes());
+                                 ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_5_74
+CodexTest_0_5_74.java:20: error: cannot find symbol
+    AlgVector v2 = new AlgVector(m_Instances.numAttributes());
+                                 ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_5_74
+CodexTest_0_5_74.java:21: error: cannot find symbol
+    for (int i = 0; i < m_Instances.numInstances(); i++) {
+                        ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_5_74
+CodexTest_0_5_74.java:22: error: cannot find symbol
+      v1.setTo(m_Instances.instance(i));
+               ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_5_74
+CodexTest_0_5_74.java:23: error: cannot find symbol
+      v2.setTo(v1.getAsInstance(data, new Random(1)));
+        ^
+  symbol:   method setTo(weka.core.Instance)
+  location: variable v2 of type weka.core.AlgVector
+CodexTest_0_5_74.java:25: error: cannot find symbol
+		   v1.getAsString(), v2.getAsString());
+		     ^
+  symbol:   method getAsString()
+  location: variable v1 of type weka.core.AlgVector
+CodexTest_0_5_74.java:25: error: cannot find symbol
+		   v1.getAsString(), v2.getAsString());
+		                       ^
+  symbol:   method getAsString()
+  location: variable v2 of type weka.core.AlgVector

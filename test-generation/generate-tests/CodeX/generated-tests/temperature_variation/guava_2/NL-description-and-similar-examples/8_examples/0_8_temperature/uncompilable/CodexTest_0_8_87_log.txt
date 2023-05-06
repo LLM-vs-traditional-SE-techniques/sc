@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_87.java:26: error: cannot find symbol
+    ImmutableHashCode hashCode = ImmutableHashCode.fromBytes(hashCodeBytes);
+    ^
+  symbol:   class ImmutableHashCode
+  location: class CodexTest_0_8_87
+CodexTest_0_8_87.java:26: error: cannot find symbol
+    ImmutableHashCode hashCode = ImmutableHashCode.fromBytes(hashCodeBytes);
+                                 ^
+  symbol:   variable ImmutableHashCode
+  location: class CodexTest_0_8_87

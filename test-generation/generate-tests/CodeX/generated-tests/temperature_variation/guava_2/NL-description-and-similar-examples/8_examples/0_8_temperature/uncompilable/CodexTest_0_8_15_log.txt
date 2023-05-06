@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_15.java:29: error: cannot find symbol
+    int bytesWritten = writeBytesTo(dest, offset, numBytesToWrite);
+                       ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_8_15

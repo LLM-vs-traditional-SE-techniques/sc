@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_29.java:19: error: method testFromStringTrue() is already defined in class CodexTest_0_9_29
+        public void testFromStringTrue() {
+                    ^

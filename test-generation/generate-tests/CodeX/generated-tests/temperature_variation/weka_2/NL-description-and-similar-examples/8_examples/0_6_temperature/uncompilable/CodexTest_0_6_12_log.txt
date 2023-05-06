@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_6_12.java:20: error: cannot find symbol
+		Instances model = new Instances("test", new ArrayList(numAttributes),
+		                                            ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_6_12
+Note: CodexTest_0_6_12.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

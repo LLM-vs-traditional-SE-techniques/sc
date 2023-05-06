@@ -1,0 +1,40 @@
+isCompilable => false
+CodexTest_0_6_7.java:25: error: <identifier> expected
+Input: public int writeBytesTo(byte[] dest, int offset, int maxLength) {
+     ^
+CodexTest_0_6_7.java:31: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_7.java:33: error: <identifier> expected
+Input: public int writeBytesTo(byte[] dest, int offset, int maxLength) {
+     ^
+CodexTest_0_6_7.java:39: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_7.java:41: error: <identifier> expected
+Input: public int writeBytesTo(byte[] dest, int offset, int maxLength) {
+     ^
+CodexTest_0_6_7.java:47: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_7.java:49: error: <identifier> expected
+Input: public int writeBytesTo(byte[] dest, int offset, int maxLength) {
+     ^
+CodexTest_0_6_7.java:55: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_7.java:57: error: <identifier> expected
+Input: public int writeBytesTo(byte[] dest, int offset, int maxLength) {
+     ^
+CodexTest_0_6_7.java:63: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_7.java:65: error: <identifier> expected
+Input: public int writeBytesTo(byte[] dest, int offset, int maxLength) {
+     ^
+CodexTest_0_6_7.java:68: error: illegal start of expression
+}
+^
+CodexTest_0_6_7.java:68: error: reached end of file while parsing
+}
+ ^

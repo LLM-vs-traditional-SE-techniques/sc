@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_7.java:21: error: cannot find symbol
+			Instances model = createInstancesWithNominalAttribute();
+			                  ^
+  symbol:   method createInstancesWithNominalAttribute()
+  location: class CodexTest_0_7_7

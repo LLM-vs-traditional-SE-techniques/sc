@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_4.java:21: error: cannot find symbol
+	        Vector1D v = new Vector1D(1);
+	        ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:21: error: cannot find symbol
+	        Vector1D v = new Vector1D(1);
+	                         ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:22: error: cannot find symbol
+	        Assert.assertTrue(FastMath.abs(v.getX() - 1) < 1.0e-12);
+	                          ^
+  symbol:   variable FastMath
+  location: class CodexTest_0_8_4

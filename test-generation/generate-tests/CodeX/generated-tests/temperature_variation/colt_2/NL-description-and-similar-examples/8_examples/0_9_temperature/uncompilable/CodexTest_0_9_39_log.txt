@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_39.java:35: error: ';' expected
+      Get set tests (among others)
+             ^
+CodexTest_0_9_39.java:35: error: ')' expected
+      Get set tests (among others)
+                          ^
+CodexTest_0_9_39.java:35: error: illegal start of expression
+      Get set tests (among others)
+                                 ^
+CodexTest_0_9_39.java:36: error: ';' expected
+      m.set(0, 1, 3);
+       ^

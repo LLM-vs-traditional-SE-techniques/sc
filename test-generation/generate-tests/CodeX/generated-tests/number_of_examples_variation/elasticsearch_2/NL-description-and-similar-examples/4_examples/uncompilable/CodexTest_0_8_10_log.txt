@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_8_10.java:65: error: cannot find symbol
+        BulkRequest bulkRequest = new BulkRequest();
+        ^
+  symbol:   class BulkRequest
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:65: error: cannot find symbol
+        BulkRequest bulkRequest = new BulkRequest();
+                                      ^
+  symbol:   class BulkRequest
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:66: error: cannot find symbol
+        bulkRequest.add(new DeleteRequest("index2", "type2", "2"));
+                            ^
+  symbol:   class DeleteRequest
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:67: error: cannot find symbol
+        bulkRequest.add(new IndexRequest("index1", "type1", "1").source(singletonMap("field", "value")));
+                                                                        ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:68: error: cannot find symbol
+        bulkRequest.add(new DeleteRequest("index1", "type1", "does_not_exist"));
+                            ^
+  symbol:   class DeleteRequest
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:69: error: cannot find symbol
+        bulkRequest.add(new UpdateRequest("index1", "type1", "1").doc(singletonMap("other", "test")));
+                                                                      ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:69: error: cannot find symbol
+        bulkRequest.add(new UpdateRequest("index1", "type1", "1").doc(singletonMap("other", "test")));
+                            ^
+  symbol:   class UpdateRequest
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:70: error: cannot find symbol
+        bulkRequest.add(new IndexRequest("index1", "type1", "2").source(singletonMap("field", "value")));
+                                                                        ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:71: error: cannot find symbol
+        bulkRequest.add(new DeleteRequest("index1", "type1", "2"));
+                            ^
+  symbol:   class DeleteRequest
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:72: error: cannot find symbol
+        bulkRequest.add(new DeleteRequest("index1", "type1", "2"));
+                            ^
+  symbol:   class DeleteRequest
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:73: error: cannot find symbol
+        BulkResponse bulkResponse = highLevelClient().bulk(bulkRequest, RequestOptions.DEFAULT);
+        ^
+  symbol:   class BulkResponse
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:73: error: cannot find symbol
+        BulkResponse bulkResponse = highLevelClient().bulk(bulkRequest, RequestOptions.DEFAULT);
+                                                                        ^
+  symbol:   variable RequestOptions
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:73: error: cannot find symbol
+        BulkResponse bulkResponse = highLevelClient().bulk(bulkRequest, RequestOptions.DEFAULT);
+                                    ^
+  symbol:   method highLevelClient()
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:74: error: cannot find symbol
+        assertEquals(restStatus.OK, bulkResponse.status());
+                     ^
+  symbol:   variable restStatus
+  location: class CodexTest_0_8_10

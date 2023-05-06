@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_89.java:78: error: illegal character: '\'
+\end{lstlisting}
+^
+CodexTest_0_9_89.java:78: error: not a statement
+\end{lstlisting}
+     ^
+CodexTest_0_9_89.java:78: error: ';' expected
+\end{lstlisting}
+               ^

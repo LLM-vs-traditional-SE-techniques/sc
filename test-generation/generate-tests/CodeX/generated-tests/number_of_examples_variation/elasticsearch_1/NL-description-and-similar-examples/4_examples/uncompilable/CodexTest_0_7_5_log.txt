@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_5.java:65: error: cannot find symbol
+        MockParent parent = new MockParent();
+        ^
+  symbol:   class MockParent
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:65: error: cannot find symbol
+        MockParent parent = new MockParent();
+                                ^
+  symbol:   class MockParent
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:66: error: cannot find symbol
+        MockChild child = new MockChild(parent);
+        ^
+  symbol:   class MockChild
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:66: error: cannot find symbol
+        MockChild child = new MockChild(parent);
+                              ^
+  symbol:   class MockChild
+  location: class CodexTest_0_7_5

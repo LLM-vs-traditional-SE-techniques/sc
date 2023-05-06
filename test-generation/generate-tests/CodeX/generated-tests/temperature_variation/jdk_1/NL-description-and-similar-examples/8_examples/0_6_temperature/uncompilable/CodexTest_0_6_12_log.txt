@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_6_12.java:21: error: cannot find symbol
+        final DoubleArrayList list = new DoubleArrayList();
+              ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_6_12
+CodexTest_0_6_12.java:21: error: cannot find symbol
+        final DoubleArrayList list = new DoubleArrayList();
+                                         ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_6_12
+CodexTest_0_6_12.java:32: error: cannot find symbol
+        assertEquals(new DoubleArrayList(new double[] {1.0, 2.0, 3.0, 4.0, 6.0, 7.0, 8.0, 9.0}), list);
+                         ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_6_12
+CodexTest_0_6_12.java:34: error: cannot find symbol
+        assertEquals(new DoubleArrayList(new double[] {1.0, 2.0, 3.0, 4.0, 6.0, 7.0, 8.0}), list);
+                         ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_6_12
+CodexTest_0_6_12.java:36: error: cannot find symbol
+        assertEquals(new DoubleArrayList(new double[] {2.0, 3.0, 4.0, 6.0, 7.0, 8.0}), list);
+                         ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_6_12

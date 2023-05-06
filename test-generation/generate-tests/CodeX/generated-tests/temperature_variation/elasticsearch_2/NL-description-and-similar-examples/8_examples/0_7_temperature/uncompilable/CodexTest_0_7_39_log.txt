@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_39.java:68: error: cannot find symbol
+        assertThat(indexRequest.source(), equalTo(builder.bytes()));
+                                          ^
+  symbol:   method equalTo(org.elasticsearch.common.bytes.BytesReference)
+  location: class CodexTest_0_7_39

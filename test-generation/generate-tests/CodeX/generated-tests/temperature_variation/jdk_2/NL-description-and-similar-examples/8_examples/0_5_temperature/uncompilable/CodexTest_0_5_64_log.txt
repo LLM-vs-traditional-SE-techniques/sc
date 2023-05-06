@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_64.java:21: error: cannot find symbol
+        assertFalse(list.contains("one"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_5_64
+CodexTest_0_5_64.java:22: error: cannot find symbol
+        list.add("one");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_64
+CodexTest_0_5_64.java:23: error: cannot find symbol
+        assertTrue(list.contains("one"));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_5_64
+CodexTest_0_5_64.java:24: error: cannot find symbol
+        assertFalse(list.contains("two"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_5_64

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_54.java:37: error: no suitable method found for zMult(cern.colt.matrix.impl.DenseDoubleMatrix1D,double[])
+        C.zMult(m, columnwiseB);
+         ^
+    method cern.colt.matrix.DoubleMatrix2D.zMult(cern.colt.matrix.DoubleMatrix1D,cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.matrix.DoubleMatrix1D)
+    method cern.colt.matrix.DoubleMatrix2D.zMult(cern.colt.matrix.DoubleMatrix2D,cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; cern.colt.matrix.impl.DenseDoubleMatrix1D cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+CodexTest_0_8_54.java:42: error: no suitable method found for zMult(cern.colt.matrix.impl.DenseDoubleMatrix1D,double[])
+        A.zMult(m, rowwiseB);
+         ^
+    method cern.colt.matrix.DoubleMatrix2D.zMult(cern.colt.matrix.DoubleMatrix1D,cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.matrix.DoubleMatrix1D)
+    method cern.colt.matrix.DoubleMatrix2D.zMult(cern.colt.matrix.DoubleMatrix2D,cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; cern.colt.matrix.impl.DenseDoubleMatrix1D cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,82 @@
+isCompilable => false
+CodexTest_0_7_7.java:16: error: <identifier> expected
+Input: public static boolean isScript() {
+     ^
+CodexTest_0_7_7.java:19: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:21: error: <identifier> expected
+Input: public static void log(String message, Throwable e) {
+     ^
+CodexTest_0_7_7.java:24: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:26: error: <identifier> expected
+Input: public static String getModuleName() {
+     ^
+CodexTest_0_7_7.java:29: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:31: error: <identifier> expected
+Input: public static String getPermutationStrongName() {
+     ^
+CodexTest_0_7_7.java:34: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:36: error: <identifier> expected
+Input: public static Throwable caught() {
+     ^
+CodexTest_0_7_7.java:39: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:41: error: <identifier> expected
+Input: public static Throwable create(Class<?> caught) {
+     ^
+CodexTest_0_7_7.java:44: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:46: error: <identifier> expected
+Input: public static UiBinderUtil getUiBinderUtil() {
+     ^
+CodexTest_0_7_7.java:49: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:51: error: <identifier> expected
+Input: public static void log(String message) {
+     ^
+CodexTest_0_7_7.java:54: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:56: error: <identifier> expected
+Input: public static void setUncaughtExceptionHandler(UncaughtExceptionHandler handler) {
+     ^
+CodexTest_0_7_7.java:59: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:61: error: <identifier> expected
+Input: public static boolean isProdMode() {
+     ^
+CodexTest_0_7_7.java:64: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:66: error: <identifier> expected
+Input: public static boolean isWebMode() {
+     ^
+CodexTest_0_7_7.java:69: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:71: error: <identifier> expected
+Input: public static boolean isDebugMode() {
+     ^
+CodexTest_0_7_7.java:74: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_7.java:76: error: <identifier> expected
+Input: public static String getHostPageBaseURL() {
+     ^
+CodexTest_0_7_7.java:78: error: illegal start of expression
+}
+^
+CodexTest_0_7_7.java:78: error: reached end of file while parsing
+}
+ ^

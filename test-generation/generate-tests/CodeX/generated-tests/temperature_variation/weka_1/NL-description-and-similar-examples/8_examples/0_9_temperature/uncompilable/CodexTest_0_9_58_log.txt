@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_58.java:16: error: cannot find symbol
+  @Test(expected = MatrixAlgException.class)
+                   ^
+  symbol:   class MatrixAlgException
+  location: class CodexTest_0_9_58

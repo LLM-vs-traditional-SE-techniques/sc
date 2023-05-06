@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_8.java:25: error: cannot find symbol
+        for (long value : VALUES) {
+                          ^
+  symbol:   variable VALUES
+  location: class CodexTest_0_5_8

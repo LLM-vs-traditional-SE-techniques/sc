@@ -1,0 +1,58 @@
+isCompilable => false
+CodexTest_0_9_23.java:21: error: cannot find symbol
+        Counter counter = new Counter();
+        ^
+  symbol:   class Counter
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:21: error: cannot find symbol
+        Counter counter = new Counter();
+                              ^
+  symbol:   class Counter
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:22: error: cannot find symbol
+        CounterItem item = new CounterItem(counter, "A");
+        ^
+  symbol:   class CounterItem
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:22: error: cannot find symbol
+        CounterItem item = new CounterItem(counter, "A");
+                               ^
+  symbol:   class CounterItem
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:23: error: package CounterItem does not exist
+        CounterItem.values.add(item);
+                   ^
+CodexTest_0_9_23.java:24: error: cannot find symbol
+        assertTrue(CounterItem.contains(item));
+                   ^
+  symbol:   variable CounterItem
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:25: error: cannot find symbol
+        assertTrue(CounterItem.contains("A"));
+                   ^
+  symbol:   variable CounterItem
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:26: error: cannot find symbol
+        assertTrue(CounterItem.contains(Boolean.TRUE));
+                   ^
+  symbol:   variable CounterItem
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:27: error: cannot find symbol
+        assertFalse(CounterItem.contains(false));
+                    ^
+  symbol:   variable CounterItem
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:28: error: cannot find symbol
+        assertFalse(CounterItem.contains(null));
+                    ^
+  symbol:   variable CounterItem
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:29: error: package CounterItem does not exist
+        assertEquals(0, CounterItem.values.indexOf(item));
+                                   ^
+CodexTest_0_9_23.java:30: error: package CounterItem does not exist
+        assertEquals(-1, CounterItem.values.indexOf(false));
+                                    ^
+CodexTest_0_9_23.java:31: error: package CounterItem does not exist
+        assertEquals(-1, CounterItem.values.indexOf(null));
+                                    ^

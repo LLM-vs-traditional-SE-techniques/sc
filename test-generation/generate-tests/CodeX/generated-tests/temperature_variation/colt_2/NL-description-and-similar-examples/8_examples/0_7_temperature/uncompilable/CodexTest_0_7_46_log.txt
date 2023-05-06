@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_7_46.java:40: error: no suitable method found for zMult(cern.colt.matrix.DoubleMatrix1D,cern.colt.matrix.DoubleMatrix2D)
+			matrix.zMult(vector,res);
+			      ^
+    method cern.colt.matrix.DoubleMatrix2D.zMult(cern.colt.matrix.DoubleMatrix1D,cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.matrix.DoubleMatrix1D)
+    method cern.colt.matrix.DoubleMatrix2D.zMult(cern.colt.matrix.DoubleMatrix2D,cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix1D cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

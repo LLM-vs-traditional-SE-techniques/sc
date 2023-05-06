@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_9.java:21: error: cannot find symbol
+		 new AlgVector(new double[] {-1, 5, 7, -1}), a.subtract(b));
+		                                              ^
+  symbol:   method subtract(weka.core.AlgVector)
+  location: variable a of type weka.core.AlgVector

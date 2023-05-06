@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_7.java:26: error: cannot find symbol
+    assertEquals(20, instance.writeBytesTo(dest, 20, 20));
+                     ^
+  symbol:   variable instance
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:28: error: cannot find symbol
+    System.arraycopy(BYTES, 0, expecteds, 20, 20);
+                     ^
+  symbol:   variable BYTES
+  location: class CodexTest_0_8_7

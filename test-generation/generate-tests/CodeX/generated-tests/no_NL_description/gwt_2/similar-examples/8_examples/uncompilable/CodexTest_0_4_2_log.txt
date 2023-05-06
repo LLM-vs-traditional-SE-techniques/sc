@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_4_2.java:15: error: cannot find symbol
+    final AtomicInteger count = new AtomicInteger();
+          ^
+  symbol:   class AtomicInteger
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:15: error: cannot find symbol
+    final AtomicInteger count = new AtomicInteger();
+                                    ^
+  symbol:   class AtomicInteger
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:16: error: cannot find symbol
+    UncaughtExceptionHandler handler = new UncaughtExceptionHandler() {
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:16: error: cannot find symbol
+    UncaughtExceptionHandler handler = new UncaughtExceptionHandler() {
+                                           ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:22: error: cannot find symbol
+    UncaughtExceptionHandler oldHandler = Thread.getDefaultUncaughtExceptionHandler();
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_2

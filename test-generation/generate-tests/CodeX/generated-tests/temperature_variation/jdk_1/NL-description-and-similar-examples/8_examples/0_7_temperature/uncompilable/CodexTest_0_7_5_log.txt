@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_7_5.java:21: error: cannot find symbol
+        a1.add("0");
+        ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:22: error: cannot find symbol
+        a1.add("1");
+        ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:23: error: cannot find symbol
+        a1.add("2");
+        ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:24: error: cannot find symbol
+        a1.add("3");
+        ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:25: error: cannot find symbol
+        a1.add("4");
+        ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:26: error: cannot find symbol
+        a1.add("5");
+        ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:27: error: cannot find symbol
+        a1.add("6");
+        ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:28: error: cannot find symbol
+        a1.add("7");
+        ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:29: error: cannot find symbol
+        a1.add("8");
+        ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:30: error: cannot find symbol
+        a1.add("9");
+        ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:31: error: cannot find symbol
+        a1.remove(0);
+        ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:32: error: cannot find symbol
+        assertEquals("Should only have 9 elements", 9, a1.size());
+                                                       ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:33: error: cannot find symbol
+        assertEquals("Removed incorrect element", "1", (String) a1.get(0));
+                                                                ^
+  symbol:   variable a1
+  location: class CodexTest_0_7_5

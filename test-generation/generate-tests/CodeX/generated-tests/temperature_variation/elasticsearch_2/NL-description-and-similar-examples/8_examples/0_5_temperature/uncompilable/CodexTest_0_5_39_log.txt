@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_39.java:68: error: cannot find symbol
+        assertNull(indexRequest.getParsedSource());
+                               ^
+  symbol:   method getParsedSource()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_5_39.java:69: error: cannot find symbol
+        assertNull(indexRequest.getParsedQuery());
+                               ^
+  symbol:   method getParsedQuery()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest

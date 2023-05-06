@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_33.java:15: error: cannot find symbol
+    final AtomicBoolean called = new AtomicBoolean(false);
+          ^
+  symbol:   class AtomicBoolean
+  location: class CodexTest_0_6_33
+CodexTest_0_6_33.java:15: error: cannot find symbol
+    final AtomicBoolean called = new AtomicBoolean(false);
+                                     ^
+  symbol:   class AtomicBoolean
+  location: class CodexTest_0_6_33

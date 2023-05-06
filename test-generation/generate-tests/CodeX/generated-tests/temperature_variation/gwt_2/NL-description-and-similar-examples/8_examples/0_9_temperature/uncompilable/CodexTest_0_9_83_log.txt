@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_9_83.java:15: error: incompatible types: java.lang.Class<capture#1 of ? extends java.lang.Throwable> cannot be converted to com.google.gwt.core.client.GWT.UncaughtExceptionHandler
+    GWT.setUncaughtExceptionHandler(new Throwable().getClass());
+                                                            ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,115 @@
+isCompilable => false
+CodexTest_0_6_19.java:30: error: package cern.colt.matrix.tdouble.impl does not exist
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D v = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D(NROWS, NCOLUMNS);
+                                     ^
+CodexTest_0_6_19.java:30: error: package cern.colt.matrix.tdouble.impl does not exist
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D v = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D(NROWS, NCOLUMNS);
+                                                                                               ^
+CodexTest_0_6_19.java:30: error: cannot find symbol
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D v = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D(NROWS, NCOLUMNS);
+                                                                                                                    ^
+  symbol:   variable NROWS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:30: error: cannot find symbol
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D v = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D(NROWS, NCOLUMNS);
+                                                                                                                           ^
+  symbol:   variable NCOLUMNS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:31: error: package cern.colt.matrix.tdouble.impl does not exist
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D w = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D(NROWS, NCOLUMNS);
+                                     ^
+CodexTest_0_6_19.java:31: error: package cern.colt.matrix.tdouble.impl does not exist
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D w = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D(NROWS, NCOLUMNS);
+                                                                                               ^
+CodexTest_0_6_19.java:31: error: cannot find symbol
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D w = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D(NROWS, NCOLUMNS);
+                                                                                                                    ^
+  symbol:   variable NROWS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:31: error: cannot find symbol
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D w = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix2D(NROWS, NCOLUMNS);
+                                                                                                                           ^
+  symbol:   variable NCOLUMNS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:32: error: cannot find symbol
+        for (int r = 0; r < NROWS; r++) {
+                            ^
+  symbol:   variable NROWS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:33: error: cannot find symbol
+            for (int c = 0; c < NCOLUMNS; c++) {
+                                ^
+  symbol:   variable NCOLUMNS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:39: error: package cern.colt.matrix.tdouble.impl does not exist
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D x = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D(NROWS * NCOLUMNS);
+                                     ^
+CodexTest_0_6_19.java:39: error: package cern.colt.matrix.tdouble.impl does not exist
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D x = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D(NROWS * NCOLUMNS);
+                                                                                               ^
+CodexTest_0_6_19.java:39: error: cannot find symbol
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D x = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D(NROWS * NCOLUMNS);
+                                                                                                                    ^
+  symbol:   variable NROWS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:39: error: cannot find symbol
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D x = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D(NROWS * NCOLUMNS);
+                                                                                                                            ^
+  symbol:   variable NCOLUMNS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:41: error: cannot find symbol
+        for (int r = 0; r < NROWS; r++) {
+                            ^
+  symbol:   variable NROWS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:42: error: cannot find symbol
+            for (int c = 0; c < NCOLUMNS; c++) {
+                                ^
+  symbol:   variable NCOLUMNS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:43: error: cannot find symbol
+                assertEquals(x.getQuick(r * NCOLUMNS + c), v.getQuick(r, c), TOL);
+                                            ^
+  symbol:   variable NCOLUMNS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:43: error: cannot find symbol
+                assertEquals(x.getQuick(r * NCOLUMNS + c), v.getQuick(r, c), TOL);
+                                                                             ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:46: error: package cern.colt.matrix.tdouble.impl does not exist
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D y = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D(NROWS * NCOLUMNS);
+                                     ^
+CodexTest_0_6_19.java:46: error: package cern.colt.matrix.tdouble.impl does not exist
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D y = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D(NROWS * NCOLUMNS);
+                                                                                               ^
+CodexTest_0_6_19.java:46: error: cannot find symbol
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D y = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D(NROWS * NCOLUMNS);
+                                                                                                                    ^
+  symbol:   variable NROWS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:46: error: cannot find symbol
+        cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D y = new cern.colt.matrix.tdouble.impl.DenseDoubleMatrix1D(NROWS * NCOLUMNS);
+                                                                                                                            ^
+  symbol:   variable NCOLUMNS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:48: error: cannot find symbol
+        for (int r = 0; r < NROWS; r++) {
+                            ^
+  symbol:   variable NROWS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:49: error: cannot find symbol
+            for (int c = 0; c < NCOLUMNS; c++) {
+                                ^
+  symbol:   variable NCOLUMNS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:50: error: cannot find symbol
+                assertEquals(y.getQuick(r * NCOLUMNS + c), w.getQuick(r, c), TOL);
+                                            ^
+  symbol:   variable NCOLUMNS
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:50: error: cannot find symbol
+                assertEquals(y.getQuick(r * NCOLUMNS + c), w.getQuick(r, c), TOL);
+                                                                             ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_19

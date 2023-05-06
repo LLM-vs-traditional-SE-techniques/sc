@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_64.java:65: error: cannot find symbol
+        final Result result = parse(
+              ^
+  symbol:   class Result
+  location: class CodexTest_0_8_64
+CodexTest_0_8_64.java:65: error: cannot find symbol
+        final Result result = parse(
+                              ^
+  symbol:   method parse(java.lang.String)
+  location: class CodexTest_0_8_64
+CodexTest_0_8_64.java:76: error: cannot find symbol
+        assertThat(result.parent(), is(nullValue()));
+                                       ^
+  symbol:   method nullValue()
+  location: class CodexTest_0_8_64

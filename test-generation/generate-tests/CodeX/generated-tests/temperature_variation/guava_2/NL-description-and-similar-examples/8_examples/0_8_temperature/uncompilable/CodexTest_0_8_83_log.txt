@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_83.java:26: error: cannot find symbol
+      BigInteger value = BigInteger.valueOf(i);
+      ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_8_83
+CodexTest_0_8_83.java:26: error: cannot find symbol
+      BigInteger value = BigInteger.valueOf(i);
+                         ^
+  symbol:   variable BigInteger
+  location: class CodexTest_0_8_83
+CodexTest_0_8_83.java:28: error: cannot find symbol
+      byte[] actual = BigInteger.valueOf(i).toByteArray();
+                      ^
+  symbol:   variable BigInteger
+  location: class CodexTest_0_8_83

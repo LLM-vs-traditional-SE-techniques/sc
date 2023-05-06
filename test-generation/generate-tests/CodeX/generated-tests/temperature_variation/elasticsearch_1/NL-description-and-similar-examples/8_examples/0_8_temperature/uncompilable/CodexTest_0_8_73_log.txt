@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_73.java:65: error: <identifier> expected
+Input: public ArrayList() {
+     ^
+CodexTest_0_8_73.java:65: error: invalid method declaration; return type required
+Input: public ArrayList() {
+              ^
+CodexTest_0_8_73.java:68: error: <identifier> expected
+Output: public void testListUptoThree() {
+      ^

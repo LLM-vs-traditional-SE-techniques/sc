@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_9_19.java:19: error: cannot find symbol
+      for (int i = 0; i < ITERATIONS; i++) {
+                          ^
+  symbol:   variable ITERATIONS
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:24: error: cannot find symbol
+        DoubleVector dv = DoubleVector.fromArray(d);
+        ^
+  symbol:   class DoubleVector
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:24: error: cannot find symbol
+        DoubleVector dv = DoubleVector.fromArray(d);
+                          ^
+  symbol:   variable DoubleVector
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:25: error: cannot find symbol
+        DoubleVector ev = DoubleVector.fromArray(e);
+        ^
+  symbol:   class DoubleVector
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:25: error: cannot find symbol
+        DoubleVector ev = DoubleVector.fromArray(e);
+                          ^
+  symbol:   variable DoubleVector
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:26: error: cannot find symbol
+        DoubleVector dvRes = dv.divide(ev);
+        ^
+  symbol:   class DoubleVector
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:29: error: cannot find symbol
+        assertArrayEquals("Single item", expectedArr, dvRes.toArray(), PRECISION);
+                                                                       ^
+  symbol:   variable PRECISION
+  location: class CodexTest_0_9_19

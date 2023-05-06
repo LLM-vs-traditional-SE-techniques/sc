@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_2_10.java:31: error: cannot find symbol
+    assertEquals(length, new BitArray(bits).writeBytesTo(dest, offset, maxLength));
+                             ^
+  symbol:   class BitArray
+  location: class CodexTest_0_2_10
+CodexTest_0_2_10.java:32: error: cannot find symbol
+    assertEquals(length, new BitArray(bits).writeBytesTo(dest, offset, maxLength));
+                             ^
+  symbol:   class BitArray
+  location: class CodexTest_0_2_10

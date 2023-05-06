@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_5_80.java:30: error: cannot find symbol
+        int s = m.size();
+                ^
+  symbol:   variable m
+  location: class CodexTest_0_5_80
+CodexTest_0_5_80.java:31: error: cannot find symbol
+        m.assign(new double[s]);
+        ^
+  symbol:   variable m
+  location: class CodexTest_0_5_80
+CodexTest_0_5_80.java:32: error: cannot find symbol
+        for (int row=0; row<m.rows(); row++) {
+                            ^
+  symbol:   variable m
+  location: class CodexTest_0_5_80
+CodexTest_0_5_80.java:33: error: cannot find symbol
+            for (int column=0; column<m.columns(); column++) {
+                                      ^
+  symbol:   variable m
+  location: class CodexTest_0_5_80
+CodexTest_0_5_80.java:34: error: cannot find symbol
+                assertEquals(0, m.getQuick(row,column), TOL);
+                                ^
+  symbol:   variable m
+  location: class CodexTest_0_5_80
+CodexTest_0_5_80.java:34: error: cannot find symbol
+                assertEquals(0, m.getQuick(row,column), TOL);
+                                                        ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_80

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_5.java:15: error: cannot find symbol
+    assertEquals(UncaughtExceptionHandlerProxy.get(), GWT.getUncaughtExceptionHandler());
+                 ^
+  symbol:   variable UncaughtExceptionHandlerProxy
+  location: class CodexTest_0_5_5

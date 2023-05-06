@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_4.java:33: error: incompatible types: inference variable T has incompatible bounds
+    BloomFilter<String> filter = BloomFilter.create(Funnels.byteArrayFunnel(), bits, 0.01);
+                                                   ^
+    equality constraints: java.lang.String
+    upper bounds: byte[],java.lang.Object
+CodexTest_0_3_4.java:34: error: cannot find symbol
+    assertEquals(bits / 8, filter.writeBytesTo(dest, offset, maxLength));
+                                 ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.String>

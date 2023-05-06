@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_10.java:16: error: cannot find symbol
+        MyClass myClass = new MyClass();
+        ^
+  symbol:   class MyClass
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:16: error: cannot find symbol
+        MyClass myClass = new MyClass();
+                              ^
+  symbol:   class MyClass
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:17: error: cannot find symbol
+        assertEquals(new MyClass(true), myClass.fromString("true"));
+                         ^
+  symbol:   class MyClass
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:18: error: cannot find symbol
+        assertEquals(new MyClass(false), myClass.fromString("false"));
+                         ^
+  symbol:   class MyClass
+  location: class CodexTest_0_7_10

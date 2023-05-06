@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_3.java:67: error: cannot find symbol
+        String doc1 = StringUtils.toString(map1, Version.LATEST);
+                                                        ^
+  symbol:   variable LATEST
+  location: class org.elasticsearch.Version
+CodexTest_0_9_3.java:67: error: cannot find symbol
+        String doc1 = StringUtils.toString(map1, Version.LATEST);
+                      ^
+  symbol:   variable StringUtils
+  location: class CodexTest_0_9_3

@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_100.java:23: error: ')' expected
+		assertTrue(p1.equals(p2.nodePath);
+		                                 ^

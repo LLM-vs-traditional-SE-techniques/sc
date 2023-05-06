@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_5_53.java:20: error: cannot find symbol
+			Instances dataset = new Instances(new BufferedReader(
+			                                      ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_5_53
+CodexTest_0_5_53.java:21: error: cannot find symbol
+					new StringReader(AlgVectorTest.DATASET)));
+					    ^
+  symbol:   class StringReader
+  location: class CodexTest_0_5_53
+CodexTest_0_5_53.java:21: error: cannot find symbol
+					new StringReader(AlgVectorTest.DATASET)));
+					                 ^
+  symbol:   variable AlgVectorTest
+  location: class CodexTest_0_5_53
+Note: CodexTest_0_5_53.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

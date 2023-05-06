@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_6_79.java:31: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D p = new Vector1D(1, 2);
+                                     ^
+CodexTest_0_6_79.java:32: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(new Vector1D(2, 4), p.scalarMultiply(2));
+                                            ^
+CodexTest_0_6_79.java:33: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(new Vector1D(0, 0), p.scalarMultiply(0));
+                                            ^
+CodexTest_0_6_79.java:34: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(new Vector1D(-1, -2), p.scalarMultiply(-1));
+                                             ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

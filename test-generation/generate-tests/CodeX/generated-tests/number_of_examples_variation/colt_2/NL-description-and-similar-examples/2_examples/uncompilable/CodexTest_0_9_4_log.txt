@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_4.java:39: error: <identifier> expected
+Input: public DoubleMatrix2D like2D(int rows, int columns) {
+     ^
+CodexTest_0_9_4.java:42: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_4.java:52: error: reached end of file while parsing
+}
+ ^

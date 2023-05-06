@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_6_27.java:22: error: cannot find symbol
+        p.add(new DefaultNode("a"));
+                  ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_27
+CodexTest_0_6_27.java:23: error: cannot find symbol
+        p.add(new DefaultNode("b"));
+                  ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_27
+CodexTest_0_6_27.java:25: error: cannot find symbol
+        q.add(new DefaultNode("a"));
+                  ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_27
+CodexTest_0_6_27.java:26: error: cannot find symbol
+        q.add(new DefaultNode("b"));
+                  ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_27
+CodexTest_0_6_27.java:34: error: cannot find symbol
+        p.add(new DefaultNode("c"));
+                  ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_27

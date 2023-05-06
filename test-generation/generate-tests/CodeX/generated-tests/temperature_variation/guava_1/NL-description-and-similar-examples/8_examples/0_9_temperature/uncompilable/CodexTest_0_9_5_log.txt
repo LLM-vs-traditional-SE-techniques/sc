@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_5.java:29: error: <identifier> expected
+Input: public static void addValue(int value) {
+     ^
+CodexTest_0_9_5.java:33: error: <identifier> expected
+Output: public void testAddValue() {
+      ^
+CodexTest_0_9_5.java:39: error: <identifier> expected
+Input: public static void addValue(int value) {
+     ^
+CodexTest_0_9_5.java:43: error: <identifier> expected
+Output: public void testAddValue() {
+      ^

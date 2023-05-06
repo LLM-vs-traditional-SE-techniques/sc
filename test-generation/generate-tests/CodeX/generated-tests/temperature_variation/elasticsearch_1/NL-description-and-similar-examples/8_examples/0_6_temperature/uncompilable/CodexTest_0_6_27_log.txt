@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_27.java:65: error: cannot find symbol
+        assertEquals("foobar", new SearchSourceBuilder().parent("foobar").parent());
+                                   ^
+  symbol:   class SearchSourceBuilder
+  location: class CodexTest_0_6_27

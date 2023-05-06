@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_89.java:30: error: cannot find symbol
+        DoubleMatrix2D v = DenseDoubleMatrix2D.make(2, 2);
+                                              ^
+  symbol:   method make(int,int)
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix2D
+CodexTest_0_9_89.java:31: error: cannot find symbol
+        DoubleMatrix2D w = DenseDoubleMatrix2D.make(2, 2);
+                                              ^
+  symbol:   method make(int,int)
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix2D

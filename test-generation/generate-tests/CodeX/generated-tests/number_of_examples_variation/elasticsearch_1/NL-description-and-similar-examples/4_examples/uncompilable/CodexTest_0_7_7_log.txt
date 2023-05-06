@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_7_7.java:65: error: cannot find symbol
+        String a = String.valueOf(this.parent);
+                                      ^
+  symbol: variable parent
+CodexTest_0_7_7.java:66: error: cannot find symbol
+        String b = String.valueOf(this.parent);
+                                      ^
+  symbol: variable parent
+CodexTest_0_7_7.java:67: error: cannot find symbol
+        Assert.assertEquals(a == null ? b == null : a.equals(b), this.parent());
+                                                                     ^
+  symbol: method parent()

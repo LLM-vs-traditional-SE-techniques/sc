@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_88.java:65: error: cannot find symbol
+        SearchResponse searchResponse = client().prepareSearch()
+        ^
+  symbol:   class SearchResponse
+  location: class CodexTest_0_7_88
+CodexTest_0_7_88.java:66: error: cannot find symbol
+            .setQuery(QueryBuilders.matchAllQuery())
+                      ^
+  symbol:   variable QueryBuilders
+  location: class CodexTest_0_7_88
+CodexTest_0_7_88.java:65: error: cannot find symbol
+        SearchResponse searchResponse = client().prepareSearch()
+                                        ^
+  symbol:   method client()
+  location: class CodexTest_0_7_88

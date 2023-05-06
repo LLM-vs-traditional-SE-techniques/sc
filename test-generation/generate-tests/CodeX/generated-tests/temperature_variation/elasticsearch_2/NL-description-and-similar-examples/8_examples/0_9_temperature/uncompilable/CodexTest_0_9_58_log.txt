@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_58.java:65: error: cannot find symbol
+        SearchRequest searchRequest = Requests.searchRequest("test").source("{}", XContentType.JSON);
+        ^
+  symbol:   class SearchRequest
+  location: class CodexTest_0_9_58
+CodexTest_0_9_58.java:65: error: no suitable method found for source(java.lang.String,org.elasticsearch.common.xcontent.XContentType)
+        SearchRequest searchRequest = Requests.searchRequest("test").source("{}", XContentType.JSON);
+                                                                    ^
+    method org.elasticsearch.action.search.SearchRequest.source(org.elasticsearch.search.builder.SearchSourceBuilder) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.elasticsearch.action.search.SearchRequest.source() is not applicable
+      (actual and formal argument lists differ in length)

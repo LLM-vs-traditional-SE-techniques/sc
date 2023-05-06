@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_29.java:72: error: illegal start of expression
+                sb.append(/);
+                          ^
+CodexTest_0_7_29.java:72: error: illegal start of expression
+                sb.append(/);
+                           ^

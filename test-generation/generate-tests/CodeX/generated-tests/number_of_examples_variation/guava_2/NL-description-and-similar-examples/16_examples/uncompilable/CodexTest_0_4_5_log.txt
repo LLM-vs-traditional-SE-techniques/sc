@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_4_5.java:57: error: ']' expected
+    assertEquals(0x34, dest[2
+                             ^
+CodexTest_0_4_5.java:58: error: reached end of file while parsing
+}
+ ^

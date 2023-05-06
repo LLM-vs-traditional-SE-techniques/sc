@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_1.java:31: error: package org.apache.commons.math.linear.ArrayRealVectorTest does not exist
+		org.apache.commons.math.linear.ArrayRealVectorTest.RealVectorTestImpl t =
+		                                                  ^
+CodexTest_0_8_1.java:32: error: package org.apache.commons.math.linear.ArrayRealVectorTest does not exist
+			new org.apache.commons.math.linear.ArrayRealVectorTest.RealVectorTestImpl();
+			                                                      ^

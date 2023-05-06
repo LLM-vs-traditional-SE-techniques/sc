@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_4.java:21: error: cannot find symbol
+        final Object[] es = elementData;
+                            ^
+  symbol:   variable elementData
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:23: error: cannot find symbol
+        fastRemove(es, 0);
+        ^
+  symbol:   method fastRemove(java.lang.Object[],int)
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:24: error: cannot find symbol
+        assertSame(obj, remove(0));
+                        ^
+  symbol:   method remove(int)
+  location: class CodexTest_0_9_4

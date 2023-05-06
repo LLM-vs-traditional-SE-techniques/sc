@@ -1,0 +1,43 @@
+isCompilable => false
+CodexTest_0_9_68.java:31: error: cannot find symbol
+      Matrix A = new DenseDoubleMatrix2D(matrix);
+                     ^
+  symbol:   class DenseDoubleMatrix2D
+  location: class CodexTest_0_9_68
+CodexTest_0_9_68.java:32: error: cannot find symbol
+      Vector b = new DenseDoubleMatrix1D(vector);
+      ^
+  symbol:   class Vector
+  location: class CodexTest_0_9_68
+CodexTest_0_9_68.java:32: error: cannot find symbol
+      Vector b = new DenseDoubleMatrix1D(vector);
+                     ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_9_68
+CodexTest_0_9_68.java:33: error: cannot find symbol
+      Vector x = new DenseDoubleMatrix1D(n);
+      ^
+  symbol:   class Vector
+  location: class CodexTest_0_9_68
+CodexTest_0_9_68.java:33: error: cannot find symbol
+      Vector x = new DenseDoubleMatrix1D(n);
+                     ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_9_68
+CodexTest_0_9_68.java:34: error: cannot find symbol
+      AbstractLinearRegression.solve(A, b, x);
+      ^
+  symbol:   variable AbstractLinearRegression
+  location: class CodexTest_0_9_68
+CodexTest_0_9_68.java:35: error: cannot find symbol
+     Instance inst = x.toInstance(new Instances(new StringReader(
+                                                    ^
+  symbol:   class StringReader
+  location: class CodexTest_0_9_68
+CodexTest_0_9_68.java:36: error: cannot find symbol
+								  weather.arff())));
+								  ^
+  symbol:   variable weather
+  location: class CodexTest_0_9_68
+Note: CodexTest_0_9_68.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

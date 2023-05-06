@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_97.java:25: error: cannot find symbol
+        StringSink sink = new StringSink();
+        ^
+  symbol:   class StringSink
+  location: class CodexTest_0_9_97
+CodexTest_0_9_97.java:25: error: cannot find symbol
+        StringSink sink = new StringSink();
+                              ^
+  symbol:   class StringSink
+  location: class CodexTest_0_9_97
+CodexTest_0_9_97.java:26: error: cannot find symbol
+        sink.put().put(Bytes.of((byte) 1, (byte) 2, (byte) 3));
+                       ^
+  symbol:   variable Bytes
+  location: class CodexTest_0_9_97

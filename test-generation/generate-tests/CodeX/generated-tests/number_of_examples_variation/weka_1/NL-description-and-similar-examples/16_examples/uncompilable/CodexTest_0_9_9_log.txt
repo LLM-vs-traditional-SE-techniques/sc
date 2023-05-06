@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_9.java:20: error: cannot find symbol
+    double[] m1 = v1.getDataArray();
+                    ^
+  symbol:   method getDataArray()
+  location: variable v1 of type weka.core.AlgVector
+CodexTest_0_9_9.java:25: error: cannot find symbol
+    double[] m2 = v2.getDataArray();
+                    ^
+  symbol:   method getDataArray()
+  location: variable v2 of type weka.core.AlgVector
+CodexTest_0_9_9.java:31: error: cannot find symbol
+      Assert.assertEquals(i + 2 * i, v.get(i), 1e-12);
+                                      ^
+  symbol:   method get(int)
+  location: variable v of type weka.core.AlgVector

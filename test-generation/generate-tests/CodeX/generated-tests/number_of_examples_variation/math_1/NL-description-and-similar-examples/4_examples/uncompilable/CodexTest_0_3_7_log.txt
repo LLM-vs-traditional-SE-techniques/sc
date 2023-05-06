@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_7.java:45: error: malformed floating point literal
+        Assert.assertEquals(13.0, v.scalarMultiply(13).getX(), 1.0e-
+                                                               ^
+CodexTest_0_3_7.java:45: error: ')' expected
+        Assert.assertEquals(13.0, v.scalarMultiply(13).getX(), 1.0e-
+                                                                    ^
+CodexTest_0_3_7.java:46: error: reached end of file while parsing
+}
+ ^

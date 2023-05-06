@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_3.java:65: error: cannot find symbol
+        assertEquals("com.google.gwt.core.client.impl.Impl", GWT.getModuleName());
+                                                             ^
+  symbol:   variable GWT
+  location: class CodexTest_0_3_3

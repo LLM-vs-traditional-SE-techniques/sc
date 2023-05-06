@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_49.java:26: error: cannot find symbol
+    assertEquals(3, bs10.writeBytesTo(actual, 0, actual.length));
+                    ^
+  symbol:   variable bs10
+  location: class CodexTest_0_9_49

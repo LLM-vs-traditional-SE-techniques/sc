@@ -1,0 +1,55 @@
+isCompilable => false
+CodexTest_0_9_66.java:21: error: cannot find symbol
+        Employee ceo = new Employee(1, 1);
+        ^
+  symbol:   class Employee
+  location: class CodexTest_0_9_66
+CodexTest_0_9_66.java:21: error: cannot find symbol
+        Employee ceo = new Employee(1, 1);
+                           ^
+  symbol:   class Employee
+  location: class CodexTest_0_9_66
+CodexTest_0_9_66.java:22: error: cannot find symbol
+        Employee director = new Employee(2, 1);
+        ^
+  symbol:   class Employee
+  location: class CodexTest_0_9_66
+CodexTest_0_9_66.java:22: error: cannot find symbol
+        Employee director = new Employee(2, 1);
+                                ^
+  symbol:   class Employee
+  location: class CodexTest_0_9_66
+CodexTest_0_9_66.java:24: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        Edge e = new Edge(ceo, director);
+                 ^
+CodexTest_0_9_66.java:26: error: no suitable method found for addEdge(org.graphstream.graph.Edge)
+        graph.addEdge(e);
+             ^
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,java.lang.String,java.lang.String) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,java.lang.String,java.lang.String,boolean) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,int,int) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,int,int,boolean) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,org.graphstream.graph.Node,org.graphstream.graph.Node) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,org.graphstream.graph.Node,org.graphstream.graph.Node,boolean) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+CodexTest_0_9_66.java:28: error: cannot find symbol
+        assertFalse(path.isEmpty());
+                        ^
+  symbol:   method isEmpty()
+  location: variable path of type org.graphstream.graph.Path
+CodexTest_0_9_66.java:31: error: cannot find symbol
+        path.addEdge(e);
+            ^
+  symbol:   method addEdge(org.graphstream.graph.Edge)
+  location: variable path of type org.graphstream.graph.Path

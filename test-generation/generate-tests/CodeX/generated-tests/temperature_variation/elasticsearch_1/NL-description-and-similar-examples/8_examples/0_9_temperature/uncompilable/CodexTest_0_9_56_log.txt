@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_56.java:65: error: cannot find symbol
+        assertEquals("{\"term\" : {\"user\" : \"kimchy\"}}", new TermQueryBuilder("user", "kimchy").toString());
+                                                                 ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_9_56
+CodexTest_0_9_56.java:66: error: cannot find symbol
+        assertEquals("{\"wildcard\" : {\"user\" : {\"wildcard\" : \"k?mchy\"}}}", new WildcardQueryBuilder("user", "k?mchy").toString());
+                                                                                      ^
+  symbol:   class WildcardQueryBuilder
+  location: class CodexTest_0_9_56
+CodexTest_0_9_56.java:68: error: cannot find symbol
+                new RangeQueryBuilder("age").from("10").to("20").includeLower(true).includeUpper(true).toString());
+                    ^
+  symbol:   class RangeQueryBuilder
+  location: class CodexTest_0_9_56

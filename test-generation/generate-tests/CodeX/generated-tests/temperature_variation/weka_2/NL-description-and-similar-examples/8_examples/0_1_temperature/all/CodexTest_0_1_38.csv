@@ -1,0 +1,214 @@
+prompt,output
+"Suggest a test for a method with the Instance getAsInstance(Instances model, Random random) signature.
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnFalseWhenFStringGiven() {
+			// given
+			BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+			// when
+			Boolean result = underTest.wrap('N', null);
+			// then
+			assertFalse(result);
+		}
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnTrueWhenYStringGiven() {
+        // given
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+        // when
+        Boolean result = underTest.wrap(""Y"", null);
+        // then
+        assertTrue(result);
+    }
+
+Input: public DoubleMatrix1D like(int size) {
+			return new DenseDoubleMatrix1D(size);
+		}
+Output: public static void doubleTest28() {
+			double[] data={1,2,3,4,5,6};
+			double[][] arrMatrix = 
+			{ 
+				{ 1, 2, 3, 4, 5, 6},
+				{ 2, 3, 4, 5, 6, 7}
+			};
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			DoubleMatrix2D matrix = f.make(arrMatrix);
+			DoubleMatrix1D res = vector.like(matrix.rows());
+
+						matrix.zMult(vector,res);
+
+					System.out.println(res);
+		}
+
+Input: public static HashCode fromInt(int hash) {
+			return new IntHashCode(hash);
+		  }
+Output: public void testObjectHashCode() {
+			HashCode hashCode42 = HashCode.fromInt(42);
+			assertEquals(42, hashCode42.hashCode());
+		  }
+
+Input: public void setRoot(Node root) {
+			if (this.root == null) {
+				this.root = root;
+				nodePath.push(root);
+			} else {
+				logger.warning('Root node is not null - first use the clear method.');
+			}
+		}
+Output: @Test(expected = IllegalArgumentException.class)
+		public void add_nodeHeadMustBeInEdge() {
+			Graph graph = createSimpleGraph();
+			Path path = new Path();
+				path.setRoot(graph.getNode('a'));
+				// this has to fail as there is no edge between nodes 'a' and 'c'
+			path.add(graph.getEdge('cd'));
+		}
+
+
+Input: public void add(Edge edge) {
+		if (nodePath.isEmpty()) {
+			add(null, edge);
+		} else {
+			add(nodePath.peek(), edge);
+		}	}
+Output: @Test(expected = IllegalArgumentException.class)
+	public void add_whenAddingEdgeRootMustBeSet() {
+		Graph graph = new DefaultGraph(""test"");
+		graph.setStrict(false);
+		graph.setAutoCreate(true);
+
+		graph.addEdge(""ab"", ""a"", ""b"");
+		graph.addEdge(""bc"", ""b"", ""c"");
+		graph.addEdge(""cd"", ""c"", ""d"");
+		Path path = new Path();
+
+		// this has to fail as root of the path is not set
+		path.add(graph.getEdge(""ab""));
+	}
+
+Input: public Instance getAsInstance(Instances model, Random random) 
+    throws Exception {
+    Instance newInst = null;
+    if (m_Elements != null) {
+      newInst = new DenseInstance(model.numAttributes());
+      newInst.setDataset(model);
+            for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+	if (model.attribute(i).isNumeric()) {
+	  if (j >= m_Elements.length)
+	    throw new Exception(""Datatypes are not compatible.""); 
+	  newInst.setValue(i, m_Elements[j++]);
+	}
+	if (model.attribute(i).isNominal()) {
+	  int newVal = (int) 
+	    (random.nextDouble() * (double) (model.attribute(i).numValues()));
+	  if (newVal == (int) model.attribute(i).numValues())
+	    newVal -= 1;
+	  newInst.setValue(i, newVal);
+	}
+      }
+    }
+    return newInst;
+  }
+Output:
+  ","import weka.core.*;
+import java.io.Serializable;
+import java.util.Random;
+
+import weka.core.*;
+import java.util.Random;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_1_38 { 
+  @Test
+  public void testGetAsInstance() {
+    Instances model = new Instances(new BufferedReader(new StringReader(
+									""@relation 'Test'\n"" +
+									""@attribute a numeric\n"" +
+									""@attribute b numeric\n"" +
+									""@attribute c numeric\n"" +
+									""@attribute d numeric\n"" +
+									""@attribute e numeric\n"" +
+									""@attribute f numeric\n"" +
+									""@attribute g numeric\n"" +
+									""@attribute h numeric\n"" +
+									""@attribute i numeric\n"" +
+									""@attribute j numeric\n"" +
+									""@attribute k numeric\n"" +
+									""@attribute l numeric\n"" +
+									""@attribute m numeric\n"" +
+									""@attribute n numeric\n"" +
+									""@attribute o numeric\n"" +
+									""@attribute p numeric\n"" +
+									""@attribute q numeric\n"" +
+									""@attribute r numeric\n"" +
+									""@attribute s numeric\n"" +
+									""@attribute t numeric\n"" +
+									""@attribute u numeric\n"" +
+									""@attribute v numeric\n"" +
+									""@attribute w numeric\n"" +
+									""@attribute x numeric
+}"

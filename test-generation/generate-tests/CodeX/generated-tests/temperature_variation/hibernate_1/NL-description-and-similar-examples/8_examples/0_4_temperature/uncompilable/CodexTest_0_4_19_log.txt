@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_4_19.java:21: error: no suitable method found for valueOf(int)
+        assertEquals(Short.valueOf(0), result);
+                          ^
+    method java.lang.Short.valueOf(java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+    method java.lang.Short.valueOf(short) is not applicable
+      (argument mismatch; possible lossy conversion from int to short)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

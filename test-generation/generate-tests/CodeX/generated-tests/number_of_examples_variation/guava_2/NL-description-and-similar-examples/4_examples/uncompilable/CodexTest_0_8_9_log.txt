@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_9.java:25: error: cannot find symbol
+    SortedSet<String> set = Sets.newTreeSet();
+    ^
+  symbol:   class SortedSet
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:25: error: cannot find symbol
+    SortedSet<String> set = Sets.newTreeSet();
+                            ^
+  symbol:   variable Sets
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:36: error: cannot find symbol
+    } catch (NoSuchElementException expected) {
+             ^
+  symbol:   class NoSuchElementException
+  location: class CodexTest_0_8_9

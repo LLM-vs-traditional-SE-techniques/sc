@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_3.java:29: error: invalid method declaration; return type required
+    public Matrix1DTest(String arg0) {
+           ^
+CodexTest_0_8_3.java:37: error: reached end of file while parsing
+}
+ ^

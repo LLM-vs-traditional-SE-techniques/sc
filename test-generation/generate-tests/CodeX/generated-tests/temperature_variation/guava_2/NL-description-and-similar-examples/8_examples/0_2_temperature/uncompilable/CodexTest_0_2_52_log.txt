@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_2_52.java:28: error: cannot find symbol
+    int bits = bits();
+               ^
+  symbol:   method bits()
+  location: class CodexTest_0_2_52
+CodexTest_0_2_52.java:34: error: cannot find symbol
+    long expectedValue = value >>> (expectedRemaining * 8);
+                         ^
+  symbol:   variable value
+  location: class CodexTest_0_2_52
+CodexTest_0_2_52.java:36: error: cannot find symbol
+    int actualReturn = bitArray.writeBytesTo(dest, offset, maxLength);
+                       ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_2_52
+CodexTest_0_2_52.java:39: error: cannot find symbol
+    assertEquals(expectedValue, ByteBuffer.wrap(dest, offset, expectedWritten).getLong());
+                                ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_2_52
+CodexTest_0_2_52.java:40: error: cannot find symbol
+    assertEquals(0, ByteBuffer.wrap(dest, expectedDestOffset, dest.length - expectedDestOffset).getLong());
+                    ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_2_52

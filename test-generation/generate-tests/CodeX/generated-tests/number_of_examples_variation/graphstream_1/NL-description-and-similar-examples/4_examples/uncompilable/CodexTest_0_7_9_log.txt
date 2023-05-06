@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_9.java:21: error: cannot find symbol
+		EdgePath edgePath = new EdgePath();
+		^
+  symbol:   class EdgePath
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:21: error: cannot find symbol
+		EdgePath edgePath = new EdgePath();
+		                        ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:22: error: cannot find symbol
+		Edge edge = mock(Edge.class);
+		            ^
+  symbol:   method mock(java.lang.Class<org.graphstream.graph.Edge>)
+  location: class CodexTest_0_7_9

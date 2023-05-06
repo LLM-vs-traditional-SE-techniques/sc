@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_4.java:18: error: cannot find symbol
+    AlgVector w = a.add(b);
+                        ^
+  symbol:   variable b
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:18: error: cannot find symbol
+    AlgVector w = a.add(b);
+                  ^
+  symbol:   variable a
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:19: error: cannot find symbol
+    AlgVector v = b.add(a);
+                        ^
+  symbol:   variable a
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:19: error: cannot find symbol
+    AlgVector v = b.add(a);
+                  ^
+  symbol:   variable b
+  location: class CodexTest_0_9_4

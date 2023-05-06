@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_7_9.java:30: error: cannot find symbol
+        DenseDoubleMatrix1D m = DenseDoubleMatrix1D.random(5);
+                                                   ^
+  symbol:   method random(int)
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix1D
+CodexTest_0_7_9.java:31: error: cannot find symbol
+        DenseDoubleMatrix1D l = DenseDoubleMatrix1D.random(5);
+                                                   ^
+  symbol:   method random(int)
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix1D
+CodexTest_0_7_9.java:38: error: cannot find symbol
+        DenseDoubleMatrix1D m = DenseDoubleMatrix1D.random(5);
+                                                   ^
+  symbol:   method random(int)
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix1D
+CodexTest_0_7_9.java:39: error: cannot find symbol
+        DenseDoubleMatrix1D l = DenseDoubleMatrix1D.random(5);
+                                                   ^
+  symbol:   method random(int)
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix1D
+CodexTest_0_7_9.java:46: error: cannot find symbol
+        DenseDoubleMatrix1D m = DenseDoubleMatrix1D.random(5);
+                                                   ^
+  symbol:   method random(int)
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix1D
+CodexTest_0_7_9.java:47: error: cannot find symbol
+        DenseDoubleMatrix1D l = DenseDoubleMatrix1D.random(5);
+                                                   ^
+  symbol:   method random(int)
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix1D
+CodexTest_0_7_9.java:49: error: cannot find symbol
+        l.assign(m, Functions.plus);
+                    ^
+  symbol:   variable Functions
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:54: error: cannot find symbol
+        DenseDoubleMatrix1D m = DenseDoubleMatrix1D.random(5);
+                                                   ^
+  symbol:   method random(int)
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix1D
+CodexTest_0_7_9.java:55: error: cannot find symbol
+        DenseDoubleMatrix1D l = DenseDoubleMatrix1D.random(5);
+                                                   ^
+  symbol:   method random(int)
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix1D
+CodexTest_0_7_9.java:57: error: cannot find symbol
+        l.assign(m, Functions.plus, Functions.minus);
+                    ^
+  symbol:   variable Functions
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:57: error: cannot find symbol
+        l.assign(m, Functions.plus, Functions.minus);
+                                    ^
+  symbol:   variable Functions
+  location: class CodexTest_0_7_9

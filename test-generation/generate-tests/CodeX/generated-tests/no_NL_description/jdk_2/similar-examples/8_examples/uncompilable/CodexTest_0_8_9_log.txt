@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        assertEquals(false, empty.contains(0));
+                            ^
+  symbol:   variable empty
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:22: error: cannot find symbol
+        assertEquals(true, small.contains(0));
+                           ^
+  symbol:   variable small
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:23: error: cannot find symbol
+        assertEquals(true, small.contains(1));
+                           ^
+  symbol:   variable small
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:24: error: cannot find symbol
+        assertEquals(false, small.contains(2));
+                            ^
+  symbol:   variable small
+  location: class CodexTest_0_8_9

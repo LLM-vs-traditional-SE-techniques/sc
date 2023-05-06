@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_5_35.java:21: error: incompatible types: weka.core.Instance cannot be converted to weka.core.Instances
+      model = v.getAsInstance(null, null);
+                             ^

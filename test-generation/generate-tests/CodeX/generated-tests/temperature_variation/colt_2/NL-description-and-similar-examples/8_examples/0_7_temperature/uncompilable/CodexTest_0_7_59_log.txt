@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_59.java:30: error: cannot find symbol
+        DenseDoubleAlgebra algebra = new DenseDoubleAlgebra();
+        ^
+  symbol:   class DenseDoubleAlgebra
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:30: error: cannot find symbol
+        DenseDoubleAlgebra algebra = new DenseDoubleAlgebra();
+                                         ^
+  symbol:   class DenseDoubleAlgebra
+  location: class CodexTest_0_7_59

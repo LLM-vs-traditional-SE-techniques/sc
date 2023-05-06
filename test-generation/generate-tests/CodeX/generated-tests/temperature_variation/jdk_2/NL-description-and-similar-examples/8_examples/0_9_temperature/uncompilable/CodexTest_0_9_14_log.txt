@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_14.java:22: error: cannot find symbol
+        MajataloImpl underTest = new MajataloImpl();
+        ^
+  symbol:   class MajataloImpl
+  location: class CodexTest_0_9_14
+CodexTest_0_9_14.java:22: error: cannot find symbol
+        MajataloImpl underTest = new MajataloImpl();
+                                     ^
+  symbol:   class MajataloImpl
+  location: class CodexTest_0_9_14
+CodexTest_0_9_14.java:23: error: cannot find symbol
+        Soybean soybean = new Soybean(test);
+        ^
+  symbol:   class Soybean
+  location: class CodexTest_0_9_14
+CodexTest_0_9_14.java:23: error: cannot find symbol
+        Soybean soybean = new Soybean(test);
+                              ^
+  symbol:   class Soybean
+  location: class CodexTest_0_9_14
+CodexTest_0_9_14.java:23: error: cannot find symbol
+        Soybean soybean = new Soybean(test);
+                                      ^
+  symbol:   variable test
+  location: class CodexTest_0_9_14
+CodexTest_0_9_14.java:24: error: cannot find symbol
+        Cow cow = new Cow(test);
+        ^
+  symbol:   class Cow
+  location: class CodexTest_0_9_14
+CodexTest_0_9_14.java:24: error: cannot find symbol
+        Cow cow = new Cow(test);
+                      ^
+  symbol:   class Cow
+  location: class CodexTest_0_9_14
+CodexTest_0_9_14.java:24: error: cannot find symbol
+        Cow cow = new Cow(test);
+                          ^
+  symbol:   variable test
+  location: class CodexTest_0_9_14

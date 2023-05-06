@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_3.java:24: error: ';' expected
+  def writeBytesTo(byte[] dest, int offset, int maxLength) = {
+                                                          ^
+CodexTest_0_9_3.java:28: error: not a statement
+    maxLength
+    ^
+CodexTest_0_9_3.java:28: error: ';' expected
+    maxLength
+             ^

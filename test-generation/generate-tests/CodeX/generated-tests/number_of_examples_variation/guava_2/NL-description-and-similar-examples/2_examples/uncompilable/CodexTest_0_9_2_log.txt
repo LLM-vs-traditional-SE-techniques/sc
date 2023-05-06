@@ -1,0 +1,58 @@
+isCompilable => false
+CodexTest_0_9_2.java:25: error: illegal character: '`'
+```
+^
+CodexTest_0_9_2.java:25: error: illegal character: '`'
+```
+ ^
+CodexTest_0_9_2.java:25: error: illegal character: '`'
+```
+  ^
+CodexTest_0_9_2.java:27: error: illegal start of type
+-----
+^
+CodexTest_0_9_2.java:27: error: ';' expected
+-----
+  ^
+CodexTest_0_9_2.java:27: error: illegal start of type
+-----
+    ^
+CodexTest_0_9_2.java:28: error: illegal character: '#'
+# Running:
+^
+CodexTest_0_9_2.java:28: error: ';' expected
+# Running:
+ ^
+CodexTest_0_9_2.java:28: error: illegal start of type
+# Running:
+         ^
+CodexTest_0_9_2.java:29: error: illegal character: '`'
+```
+^
+CodexTest_0_9_2.java:29: error: illegal character: '`'
+```
+ ^
+CodexTest_0_9_2.java:29: error: illegal character: '`'
+```
+  ^
+CodexTest_0_9_2.java:30: error: ';' expected
+git clone https://github.com/condati/DeepLearningJUnitGen
+               ^
+CodexTest_0_9_2.java:31: error: ';' expected
+sh run.sh
+      ^
+CodexTest_0_9_2.java:32: error: illegal character: '`'
+```
+^
+CodexTest_0_9_2.java:32: error: illegal character: '`'
+```
+ ^
+CodexTest_0_9_2.java:32: error: illegal character: '`'
+```
+  ^
+CodexTest_0_9_2.java:33: error: illegal start of type
+}
+^
+CodexTest_0_9_2.java:33: error: reached end of file while parsing
+}
+ ^

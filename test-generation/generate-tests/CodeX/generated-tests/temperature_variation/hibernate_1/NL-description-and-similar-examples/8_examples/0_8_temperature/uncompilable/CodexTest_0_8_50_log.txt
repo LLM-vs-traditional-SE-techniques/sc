@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_50.java:23: error: <identifier> expected
+Input: public final ByteArrayOutputStream getStream() throws IOException {
+     ^
+CodexTest_0_8_50.java:32: error: <identifier> expected
+Output: public void testGetStreamWhenStreamIsNotNull() throws IOException {
+      ^

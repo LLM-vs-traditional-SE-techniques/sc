@@ -1,0 +1,81 @@
+isCompilable => false
+CodexTest_0_9_28.java:21: error: cannot find symbol
+        Vector3D v1 = new Vector3D(0, 1, 0);
+        ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:21: error: cannot find symbol
+        Vector3D v1 = new Vector3D(0, 1, 0);
+                          ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:22: error: cannot find symbol
+        Vector3D v2 = new Vector3D(1, 0, 0);
+        ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:22: error: cannot find symbol
+        Vector3D v2 = new Vector3D(1, 0, 0);
+                          ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:23: error: cannot find symbol
+        Vector3D v12 = new Vector3D(1, 1, 0);
+        ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:23: error: cannot find symbol
+        Vector3D v12 = new Vector3D(1, 1, 0);
+                           ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:24: error: cannot find symbol
+        Rotation r1 = new Rotation(v1, 1);
+        ^
+  symbol:   class Rotation
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:24: error: cannot find symbol
+        Rotation r1 = new Rotation(v1, 1);
+                          ^
+  symbol:   class Rotation
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:25: error: cannot find symbol
+        Rotation r2 = new Rotation(v2, 2);
+        ^
+  symbol:   class Rotation
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:25: error: cannot find symbol
+        Rotation r2 = new Rotation(v2, 2);
+                          ^
+  symbol:   class Rotation
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:26: error: cannot find symbol
+        Rotation r12 = new Rotation(v12, 1);
+        ^
+  symbol:   class Rotation
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:26: error: cannot find symbol
+        Rotation r12 = new Rotation(v12, 1);
+                           ^
+  symbol:   class Rotation
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:27: error: cannot find symbol
+        Rotation r21 = new Rotation(v2, 1);
+        ^
+  symbol:   class Rotation
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:27: error: cannot find symbol
+        Rotation r21 = new Rotation(v2, 1);
+                           ^
+  symbol:   class Rotation
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:28: error: cannot find symbol
+        Rotation r22 = new Rotation(v2, 2);
+        ^
+  symbol:   class Rotation
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:28: error: cannot find symbol
+        Rotation r22 = new Rotation(v2, 2);
+                           ^
+  symbol:   class Rotation
+  location: class CodexTest_0_9_28

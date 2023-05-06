@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_6.java:25: error: ';' expected
+    Hash Codes sha224HashCodes = HashCodes.sha224();
+              ^
+CodexTest_0_9_6.java:34: error: illegal start of type
+ */
+ ^
+CodexTest_0_9_6.java:34: error: ';' expected
+ */
+  ^
+CodexTest_0_9_6.java:35: error: illegal start of type
+package edu.columbia.cs.ref.model.re.impl.tests;
+^
+CodexTest_0_9_6.java:35: error: ';' expected
+package edu.columbia.cs.ref.model.re.impl.tests;
+           ^
+CodexTest_0_9_6.java:35: error: <identifier> expected
+package edu.columbia.cs.ref.model.re.impl.tests;
+                                               ^

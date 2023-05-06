@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_2.java:16: error: cannot find symbol
+    assertTrue(Application.isClient());
+               ^
+  symbol:   variable Application
+  location: class CodexTest_0_4_2

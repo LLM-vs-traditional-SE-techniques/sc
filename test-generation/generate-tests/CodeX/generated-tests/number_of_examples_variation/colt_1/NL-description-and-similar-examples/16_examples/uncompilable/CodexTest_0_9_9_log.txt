@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_9_9.java:31: error: incompatible types: int cannot be converted to cern.jet.random.engine.RandomEngine
+            m.assign( new cern.jet.random.Uniform(m.size()) );
+                                                        ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,128 @@
+prompt,output
+"Suggest a test for a method with the DoubleMatrix1D assign(DoubleMatrix1D source) signature.
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public DoubleMatrix1D like(int size) {
+			return new DenseDoubleMatrix1D(size);
+		}
+Output: public static void doubleTest28() {
+			double[] data={1,2,3,4,5,6};
+			double[][] arrMatrix = 
+			{ 
+				{ 1, 2, 3, 4, 5, 6},
+				{ 2, 3, 4, 5, 6, 7}
+			};
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			DoubleMatrix2D matrix = f.make(arrMatrix);
+			DoubleMatrix1D res = vector.like(matrix.rows());
+
+						matrix.zMult(vector,res);
+
+					System.out.println(res);
+		}
+
+Input: public DenseDoubleMatrix1D(double[] values) {
+			this(values.length);
+			assign(values);
+		}
+Output: public static void testMax() {
+  double[] temp = new double[2];
+
+   temp[0] = 8.9;
+  temp[1] = 1;
+
+   DenseDoubleMatrix1D d1Double = new DenseDoubleMatrix1D(temp);
+    hep.aida.bin.DynamicBin1D d1ynamicBin = cern.colt.matrix.doublealgo.Statistic.bin(d1Double);
+   double max = d1ynamicBin.max();
+   System.out.println(""max = ""+ max);
+}
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public DoubleMatrix1D assign(DoubleMatrix1D source) {
+		// overriden for performance only
+		if (! (source instanceof DenseDoubleMatrix1D)) {
+			return super.assign(source);
+		}
+		DenseDoubleMatrix1D other = (DenseDoubleMatrix1D) source;
+		if (other==this) return this;
+		checkSize(other);
+		if (isNoView && other.isNoView) { // quickest
+			System.arraycopy(other.elements, 0, this.elements, 0, this.elements.length);
+			return this;
+		}
+		if (haveSharedCells(other)) {
+			DoubleMatrix1D c = other.copy();
+			if (! (c instanceof DenseDoubleMatrix1D)) { // should not happen
+				return super.assign(source);
+			}
+			other = (DenseDoubleMatrix1D) c;
+		}
+
+			final double[] elems = this.elements;
+		final double[] otherElems = other.elements;
+		if (elements==null || otherElems==null) throw new InternalError();
+		int s = this.stride;
+		int ys = other.stride;
+
+			int index = index(0);
+		int otherIndex = other.index(0);
+		for (int k=size; --k >= 0; ) {
+			elems[index] = otherElems[otherIndex];
+			index += s;
+			otherIndex += ys;
+		}
+		return this;
+	}
+Output:
+  ","import cern.colt.matrix.*;
+import cern.colt.list.DoubleArrayList;
+import cern.colt.list.IntArrayList;
+import cern.colt.matrix.impl.AbstractMatrix1D;
+
+import hep.aida.bin.*;
+import cern.colt.matrix.impl.*;
+import cern.colt.function.DoubleDoubleFunction;
+import cern.colt.function.DoubleFunction;
+import cern.colt.list.IntArrayList;
+import cern.colt.map.AbstractIntDoubleMap;
+import cern.colt.map.OpenIntDoubleHashMap;
+import cern.colt.matrix.DoubleFactory2D;
+import cern.colt.matrix.DoubleMatrix1D;
+import cern.colt.matrix.DoubleMatrix2D;
+import cern.colt.matrix.DoubleMatrix3D;
+import cern.colt.matrix.doublealgo.DoubleMatrix2DComparator;
+import cern.colt.matrix.linalg.Algebra;
+import cern.colt.matrix.linalg.LUDecompositionQuick;
+import cern.colt.matrix.linalg.SeqBlas;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_5_4 { 
+  @Test
+    public static void doubleTest8() {
+        double[] data = {1,2,3,4,5,6};
+        DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+        DoubleMatrix1D vector1 = vector.viewFlip();
+}"

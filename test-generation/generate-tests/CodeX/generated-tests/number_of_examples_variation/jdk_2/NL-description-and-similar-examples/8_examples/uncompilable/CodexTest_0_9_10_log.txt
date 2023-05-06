@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_10.java:21: error: cannot find symbol
+        Multiset<Object> ms = HashMultiset.create();
+        ^
+  symbol:   class Multiset
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:21: error: cannot find symbol
+        Multiset<Object> ms = HashMultiset.create();
+                              ^
+  symbol:   variable HashMultiset
+  location: class CodexTest_0_9_10

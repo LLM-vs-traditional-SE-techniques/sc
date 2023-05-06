@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_24.java:21: error: cannot find symbol
+        List<String> list = ListArray.newImmutableList(new String[] { "X" });
+                            ^
+  symbol:   variable ListArray
+  location: class CodexTest_0_9_24

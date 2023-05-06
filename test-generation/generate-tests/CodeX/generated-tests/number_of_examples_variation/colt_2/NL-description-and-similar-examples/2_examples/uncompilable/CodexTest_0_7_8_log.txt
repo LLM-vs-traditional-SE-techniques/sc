@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_7_8.java:36: error: <identifier> expected
+Input: public int hashCode() {
+     ^
+CodexTest_0_7_8.java:39: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:45: error: <identifier> expected
+Input: public DoubleMatrix1D like1D(int size) {
+     ^
+CodexTest_0_7_8.java:48: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:55: error: <identifier> expected
+Input: public void setQuick(int index, double value) {
+     ^
+CodexTest_0_7_8.java:58: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:60: error: '(' expected
+}
+^

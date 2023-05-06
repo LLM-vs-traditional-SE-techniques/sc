@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_6_5.java:21: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:22: error: cannot find symbol
+            assertTrue(list1.contains(new Integer(i)));
+                       ^
+  symbol:   variable list1
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:24: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:25: error: cannot find symbol
+            assertTrue(list2.contains(new Integer(i)));
+                       ^
+  symbol:   variable list2
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:27: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:28: error: cannot find symbol
+            assertTrue(list3.contains(new Integer(i)));
+                       ^
+  symbol:   variable list3
+  location: class CodexTest_0_6_5

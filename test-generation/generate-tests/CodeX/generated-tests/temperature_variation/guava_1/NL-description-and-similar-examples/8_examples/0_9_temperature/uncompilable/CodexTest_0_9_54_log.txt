@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_54.java:33: error: <identifier> expected
+Input: public boolean isUnit() {
+     ^
+CodexTest_0_9_54.java:36: error: <identifier> expected
+Output: public void testIsUnit() {
+      ^

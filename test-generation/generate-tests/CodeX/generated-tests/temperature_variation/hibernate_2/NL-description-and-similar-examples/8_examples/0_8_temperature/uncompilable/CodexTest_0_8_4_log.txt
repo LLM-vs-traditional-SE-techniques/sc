@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_4.java:18: error: cannot find symbol
+        assertEquals(b, new BooleanType().fromString("true"));
+                            ^
+  symbol:   class BooleanType
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:19: error: cannot find symbol
+        assertEquals(Boolean.FALSE, new BooleanType().fromString("false"));
+                                        ^
+  symbol:   class BooleanType
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:21: error: cannot find symbol
+            new BooleanType().fromString("yada");
+                ^
+  symbol:   class BooleanType
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:24: error: cannot find symbol
+        catch (SerializationException se) {
+               ^
+  symbol:   class SerializationException
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:27: error: cannot find symbol
+        assertEquals(Boolean.FALSE, new BooleanType().fromString(""));
+                                        ^
+  symbol:   class BooleanType
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:28: error: cannot find symbol
+        assertEquals(Boolean.FALSE, new BooleanType().fromString(null));
+                                        ^
+  symbol:   class BooleanType
+  location: class CodexTest_0_8_4

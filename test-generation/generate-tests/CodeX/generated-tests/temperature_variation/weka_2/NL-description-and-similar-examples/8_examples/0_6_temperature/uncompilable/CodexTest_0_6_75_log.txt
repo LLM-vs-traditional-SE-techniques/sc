@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_6_75.java:20: error: cannot find symbol
+        DenseDoubleMatrix1D test = new DenseDoubleMatrix1D(testArray);
+        ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_6_75
+CodexTest_0_6_75.java:20: error: cannot find symbol
+        DenseDoubleMatrix1D test = new DenseDoubleMatrix1D(testArray);
+                                       ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_6_75
+CodexTest_0_6_75.java:21: error: cannot find symbol
+        DenseDoubleMatrix1D result = new DenseDoubleMatrix1D(resultArray);
+        ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_6_75
+CodexTest_0_6_75.java:21: error: cannot find symbol
+        DenseDoubleMatrix1D result = new DenseDoubleMatrix1D(resultArray);
+                                         ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_6_75
+CodexTest_0_6_75.java:22: error: cannot find symbol
+        test.assign(Functions.random);
+                    ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_75

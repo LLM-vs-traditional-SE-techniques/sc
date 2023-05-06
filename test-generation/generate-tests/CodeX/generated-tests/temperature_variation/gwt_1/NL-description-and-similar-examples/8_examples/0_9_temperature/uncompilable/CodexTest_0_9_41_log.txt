@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_41.java:16: error: cannot find symbol
+    Assert.assertTrue(com.google.gwt.core.client.GWT.getScriptBaseURL().length() <= 5);
+                                                    ^
+  symbol:   method getScriptBaseURL()
+  location: class com.google.gwt.core.client.GWT

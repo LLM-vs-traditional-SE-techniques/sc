@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_6_67.java:31: error: cannot find symbol
+        x.assign(DoubleFunctions.mult(3));
+                 ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_6_67
+CodexTest_0_6_67.java:32: error: cannot find symbol
+        assertEquals(x.getQuick(0), 3, TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_67
+CodexTest_0_6_67.java:33: error: cannot find symbol
+        assertEquals(x.getQuick(1), 6, TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_67
+CodexTest_0_6_67.java:34: error: cannot find symbol
+        assertEquals(x.getQuick(2), 9, TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_67
+CodexTest_0_6_67.java:35: error: cannot find symbol
+        assertEquals(x.getQuick(3), 12, TOL);
+                                        ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_67
+CodexTest_0_6_67.java:36: error: cannot find symbol
+        assertEquals(x.getQuick(4), 15, TOL);
+                                        ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_67
+CodexTest_0_6_67.java:37: error: cannot find symbol
+        assertEquals(x.getQuick(5), 18, TOL);
+                                        ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_67

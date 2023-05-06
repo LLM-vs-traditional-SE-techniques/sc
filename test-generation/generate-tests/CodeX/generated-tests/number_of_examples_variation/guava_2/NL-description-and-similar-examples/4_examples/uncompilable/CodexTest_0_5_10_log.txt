@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_10.java:26: error: cannot find symbol
+    int maxLength = writeBytesTo(dest, 1, 5);
+                    ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_5_10

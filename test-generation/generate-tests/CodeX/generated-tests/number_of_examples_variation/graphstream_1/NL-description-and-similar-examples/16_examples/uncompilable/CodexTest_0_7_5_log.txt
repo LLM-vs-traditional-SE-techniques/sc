@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_5.java:21: error: cannot find symbol
+        FastVector v = new FastVector();
+        ^
+  symbol:   class FastVector
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:21: error: cannot find symbol
+        FastVector v = new FastVector();
+                           ^
+  symbol:   class FastVector
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:25: error: cannot find symbol
+        ArrayList<String> al = new ArrayList<String>();
+        ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:25: error: cannot find symbol
+        ArrayList<String> al = new ArrayList<String>();
+                                   ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_7_5

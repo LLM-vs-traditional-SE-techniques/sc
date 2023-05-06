@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_22.java:14: error: illegal start of type
+  ...............
+  ^
+CodexTest_0_9_22.java:14: error: ';' expected
+  ...............
+     ^
+CodexTest_0_9_22.java:14: error: illegal start of type
+  ...............
+        ^
+CodexTest_0_9_22.java:14: error: <identifier> expected
+  ...............
+           ^
+CodexTest_0_9_22.java:14: error: ';' expected
+  ...............
+              ^

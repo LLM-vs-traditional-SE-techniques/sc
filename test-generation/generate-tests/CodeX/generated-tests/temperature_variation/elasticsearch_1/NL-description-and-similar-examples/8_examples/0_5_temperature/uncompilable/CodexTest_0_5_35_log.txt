@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_35.java:66: error: cannot find symbol
+        final ParentJoinQueryBuilder parentJoinQueryBuilder = new ParentJoinQueryBuilder(parent, new TermQueryBuilder("field", "value"));
+              ^
+  symbol:   class ParentJoinQueryBuilder
+  location: class CodexTest_0_5_35
+CodexTest_0_5_35.java:66: error: cannot find symbol
+        final ParentJoinQueryBuilder parentJoinQueryBuilder = new ParentJoinQueryBuilder(parent, new TermQueryBuilder("field", "value"));
+                                                                  ^
+  symbol:   class ParentJoinQueryBuilder
+  location: class CodexTest_0_5_35
+CodexTest_0_5_35.java:66: error: cannot find symbol
+        final ParentJoinQueryBuilder parentJoinQueryBuilder = new ParentJoinQueryBuilder(parent, new TermQueryBuilder("field", "value"));
+                                                                                                     ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_5_35

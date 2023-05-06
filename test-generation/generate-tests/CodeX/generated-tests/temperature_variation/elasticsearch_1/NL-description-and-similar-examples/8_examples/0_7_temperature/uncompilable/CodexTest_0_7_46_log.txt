@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_46.java:66: error: cannot find symbol
+        DocAsUpsertRequest docAsUpsertRequest = new DocAsUpsertRequest(new IndexRequest(), new UpdateRequest());
+        ^
+  symbol:   class DocAsUpsertRequest
+  location: class CodexTest_0_7_46
+CodexTest_0_7_46.java:66: error: cannot find symbol
+        DocAsUpsertRequest docAsUpsertRequest = new DocAsUpsertRequest(new IndexRequest(), new UpdateRequest());
+                                                    ^
+  symbol:   class DocAsUpsertRequest
+  location: class CodexTest_0_7_46
+CodexTest_0_7_46.java:66: error: cannot find symbol
+        DocAsUpsertRequest docAsUpsertRequest = new DocAsUpsertRequest(new IndexRequest(), new UpdateRequest());
+                                                                                               ^
+  symbol:   class UpdateRequest
+  location: class CodexTest_0_7_46

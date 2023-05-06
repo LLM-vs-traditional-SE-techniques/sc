@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_8_3.java:65: error: cannot find symbol
+        Supplier<String> s = () -> "HelloWorld";
+        ^
+  symbol:   class Supplier
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:65: error: lambda expression not expected here
+        Supplier<String> s = () -> "HelloWorld";
+                             ^
+CodexTest_0_8_3.java:66: error: cannot find symbol
+        assertThat(StreamSupport.stream(s.get().spliterator(), false).filter(c -> c == o).count(), is(1L));
+                   ^
+  symbol:   variable StreamSupport
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:66: error: cannot find symbol
+        assertThat(StreamSupport.stream(s.get().spliterator(), false).filter(c -> c == o).count(), is(1L));
+                                                                                       ^
+  symbol:   variable o
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:66: error: cannot find symbol
+        assertThat(StreamSupport.stream(s.get().spliterator(), false).filter(c -> c == o).count(), is(1L));
+                                                                                                   ^
+  symbol:   method is(long)
+  location: class CodexTest_0_8_3

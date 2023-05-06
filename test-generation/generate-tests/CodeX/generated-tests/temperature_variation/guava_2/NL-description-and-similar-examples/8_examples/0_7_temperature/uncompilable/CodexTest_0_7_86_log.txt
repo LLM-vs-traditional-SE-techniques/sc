@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_86.java:26: error: cannot find symbol
+    expectedException.expect(ArrayIndexOutOfBoundsException.class);
+    ^
+  symbol:   variable expectedException
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:27: error: cannot find symbol
+    hashCode.writeBytesTo(bytes, 0, 0);
+    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_7_86

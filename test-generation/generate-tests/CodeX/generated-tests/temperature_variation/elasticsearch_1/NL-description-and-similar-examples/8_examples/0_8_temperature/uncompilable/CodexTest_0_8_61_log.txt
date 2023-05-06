@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_61.java:66: error: cannot find symbol
+        Script script = Script.parse(parent, ScriptType.INLINE, Script.DEFAULT_TEMPLATE_LANG, null);
+        ^
+  symbol:   class Script
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:66: error: cannot find symbol
+        Script script = Script.parse(parent, ScriptType.INLINE, Script.DEFAULT_TEMPLATE_LANG, null);
+                                             ^
+  symbol:   variable ScriptType
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:66: error: cannot find symbol
+        Script script = Script.parse(parent, ScriptType.INLINE, Script.DEFAULT_TEMPLATE_LANG, null);
+                                                                ^
+  symbol:   variable Script
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:66: error: cannot find symbol
+        Script script = Script.parse(parent, ScriptType.INLINE, Script.DEFAULT_TEMPLATE_LANG, null);
+                        ^
+  symbol:   variable Script
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:68: error: cannot find symbol
+        assertEquals(ScriptType.INLINE, script.scriptType());
+                     ^
+  symbol:   variable ScriptType
+  location: class CodexTest_0_8_61

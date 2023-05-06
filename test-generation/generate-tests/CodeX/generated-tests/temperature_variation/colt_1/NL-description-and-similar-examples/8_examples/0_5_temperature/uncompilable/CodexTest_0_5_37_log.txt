@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_37.java:34: error: cannot find symbol
+            assertEquals("value differs at " + i, values[i] * values[i], m.getQuick(i), TOL);
+                                                                                        ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_37

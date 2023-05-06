@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_8_5.java:17: warning: '_' used as an identifier
+    Assert.assertEquals(msg, 5, _.getNumberOfFragment(5));
+                                ^
+  (use of '_' as an identifier might not be supported in releases after Java SE 8)
+CodexTest_0_8_5.java:18: warning: '_' used as an identifier
+    Assert.assertEquals(msg, 10, _.getNumberOfFragment(10));
+                                 ^
+  (use of '_' as an identifier might not be supported in releases after Java SE 8)
+CodexTest_0_8_5.java:19: warning: '_' used as an identifier
+    Assert.assertEquals(msg, 20, _.getNumberOfFragment(20));
+                                 ^
+  (use of '_' as an identifier might not be supported in releases after Java SE 8)
+CodexTest_0_8_5.java:17: error: cannot find symbol
+    Assert.assertEquals(msg, 5, _.getNumberOfFragment(5));
+                                ^
+  symbol:   variable _
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:18: error: cannot find symbol
+    Assert.assertEquals(msg, 10, _.getNumberOfFragment(10));
+                                 ^
+  symbol:   variable _
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:19: error: cannot find symbol
+    Assert.assertEquals(msg, 20, _.getNumberOfFragment(20));
+                                 ^
+  symbol:   variable _
+  location: class CodexTest_0_8_5

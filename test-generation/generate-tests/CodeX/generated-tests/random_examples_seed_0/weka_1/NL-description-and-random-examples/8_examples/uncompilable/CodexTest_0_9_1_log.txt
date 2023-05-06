@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_1.java:19: error: m_Elements has protected access in weka.core.AlgVector
+		a.m_Elements[0] = 0.0;
+		 ^
+CodexTest_0_9_1.java:20: error: m_Elements has protected access in weka.core.AlgVector
+		a.m_Elements[1] = 0.0;
+		 ^
+CodexTest_0_9_1.java:21: error: m_Elements has protected access in weka.core.AlgVector
+		a.m_Elements[2] = 0.0;
+		 ^
+CodexTest_0_9_1.java:23: error: m_Elements has protected access in weka.core.AlgVector
+		b.m_Elements[0] = 4.0;
+		 ^
+CodexTest_0_9_1.java:24: error: m_Elements has protected access in weka.core.AlgVector
+		b.m_Elements[1] = 7.0;
+		 ^
+CodexTest_0_9_1.java:25: error: m_Elements has protected access in weka.core.AlgVector
+		b.m_Elements[2] = 9.0;
+		 ^
+CodexTest_0_9_1.java:28: error: m_Elements has protected access in weka.core.AlgVector
+		a.equals(result.m_Elements, expected);
+		               ^
+CodexTest_0_9_1.java:28: error: method equals in class java.lang.Object cannot be applied to given types;
+		a.equals(result.m_Elements, expected);
+		 ^
+  required: java.lang.Object
+  found: double[],double[]
+  reason: actual and formal argument lists differ in length

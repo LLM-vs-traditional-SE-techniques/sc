@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_7.java:22: error: cannot find symbol
+        BooleanArrayList underTest = new BooleanArrayList();
+        ^
+  symbol:   class BooleanArrayList
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:22: error: cannot find symbol
+        BooleanArrayList underTest = new BooleanArrayList();
+                                         ^
+  symbol:   class BooleanArrayList
+  location: class CodexTest_0_8_7

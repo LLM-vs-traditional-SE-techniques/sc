@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_36.java:30: error: cannot find symbol
+		int size = matrix.rows();
+		           ^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_36
+CodexTest_0_7_36.java:32: error: cannot find symbol
+			assertEquals(i, matrix.get(i, i), TOL);
+			                ^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_36
+CodexTest_0_7_36.java:32: error: cannot find symbol
+			assertEquals(i, matrix.get(i, i), TOL);
+			                                  ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_36

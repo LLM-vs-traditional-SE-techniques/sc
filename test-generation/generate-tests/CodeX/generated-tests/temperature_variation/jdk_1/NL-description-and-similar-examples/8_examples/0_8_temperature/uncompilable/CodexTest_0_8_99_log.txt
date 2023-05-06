@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_99.java:22: error: cannot find symbol
+        assertThat(list.remove(0), is(nullValue()));
+                                      ^
+  symbol:   method nullValue()
+  location: class CodexTest_0_8_99
+CodexTest_0_8_99.java:24: error: cannot find symbol
+        assertThat(list.remove(0), is(1));
+                                   ^
+  symbol:   method is(int)
+  location: class CodexTest_0_8_99
+CodexTest_0_8_99.java:25: error: cannot find symbol
+        assertThat(list.remove(0), is(nullValue()));
+                                      ^
+  symbol:   method nullValue()
+  location: class CodexTest_0_8_99

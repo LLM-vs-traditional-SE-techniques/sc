@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_6.java:30: error: <identifier> expected
+Input: public boolean contains(Object key) {
+     ^
+CodexTest_0_9_6.java:33: error: <identifier> expected
+Output: public void testContains(){
+      ^

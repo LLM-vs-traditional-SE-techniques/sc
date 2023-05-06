@@ -1,0 +1,23 @@
+isCompilable => false
+CodexTest_0_6_6.java:18: error: cannot find symbol
+	Instances model = InstancesTestHelper.makeTestInstances();
+	                  ^
+  symbol:   variable InstancesTestHelper
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:25: error: cannot find symbol
+	    Instance newInstance = instance.getAsInstance(model, random);
+	                                   ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable instance of type weka.core.Instance
+CodexTest_0_6_6.java:26: error: cannot find symbol
+	    newInstance = newInstance.resample(random, newInstance.weight());
+	                             ^
+  symbol:   method resample(java.util.Random,double)
+  location: variable newInstance of type weka.core.Instance
+CodexTest_0_6_6.java:31: error: incompatible types: weka.core.Instances cannot be converted to weka.core.Instance
+	    assertTrue(instances.instance(i).equalHeaders(model));
+	                                                  ^
+CodexTest_0_6_6.java:32: error: incompatible types: weka.core.Instances cannot be converted to weka.core.Instance
+	    assertTrue(instances.instance(i).equalHeaders(model));
+	                                                  ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

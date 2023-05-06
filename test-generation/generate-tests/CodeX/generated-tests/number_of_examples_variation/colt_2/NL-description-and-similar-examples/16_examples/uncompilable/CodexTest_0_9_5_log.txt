@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_5.java:40: error: cannot find symbol
+			vector.zMult(matrix,res);
+			      ^
+  symbol:   method zMult(cern.colt.matrix.DoubleMatrix2D,cern.colt.matrix.DoubleMatrix2D)
+  location: variable vector of type cern.colt.matrix.DoubleMatrix1D

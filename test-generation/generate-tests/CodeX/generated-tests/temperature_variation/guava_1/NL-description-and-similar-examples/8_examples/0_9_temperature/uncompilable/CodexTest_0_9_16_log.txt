@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_16.java:25: error: incompatible types: int cannot be converted to com.google.common.hash.HashCode
+    HashCode hc = Hashing.consistentHash(16, seed);
+                                        ^

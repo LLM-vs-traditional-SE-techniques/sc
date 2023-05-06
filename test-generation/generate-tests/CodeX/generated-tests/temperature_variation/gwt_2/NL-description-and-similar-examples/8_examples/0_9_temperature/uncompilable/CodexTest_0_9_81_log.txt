@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_81.java:15: error: ')' expected
+    assertSame(Dr
+                 ^
+CodexTest_0_9_81.java:16: error: reached end of file while parsing
+}
+ ^

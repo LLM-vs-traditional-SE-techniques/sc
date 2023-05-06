@@ -1,0 +1,35 @@
+isCompilable => false
+CodexTest_0_5_39.java:66: error: package DocumentMapperParser does not exist
+        DocumentMapperParser.BuilderContext context = new DocumentMapperParser.BuilderContext(
+                            ^
+CodexTest_0_5_39.java:66: error: package DocumentMapperParser does not exist
+        DocumentMapperParser.BuilderContext context = new DocumentMapperParser.BuilderContext(
+                                                                              ^
+CodexTest_0_5_39.java:67: error: cannot find symbol
+                Settings.builder().put(IndexMetaData.SETTING_VERSION_CREATED, Version.CURRENT).build(),
+                                       ^
+  symbol:   variable IndexMetaData
+  location: class CodexTest_0_5_39
+CodexTest_0_5_39.java:67: error: cannot find symbol
+                Settings.builder().put(IndexMetaData.SETTING_VERSION_CREATED, Version.CURRENT).build(),
+                ^
+  symbol:   variable Settings
+  location: class CodexTest_0_5_39
+CodexTest_0_5_39.java:68: error: cannot find symbol
+                new ContentPath(0));
+                    ^
+  symbol:   class ContentPath
+  location: class CodexTest_0_5_39
+CodexTest_0_5_39.java:69: error: package DocumentMapperParser.TypeParser does not exist
+        DocumentMapperParser.TypeParser.ParserContext parserContext = context.parserContext(parent);
+                                       ^
+CodexTest_0_5_39.java:70: error: cannot find symbol
+        assertThat(parserContext.path().pathAsText(parent), equalTo(parent));
+                                                            ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_5_39
+CodexTest_0_5_39.java:71: error: cannot find symbol
+        assertThat(parserContext.path().pathAsText(), equalTo(parent));
+                                                      ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_5_39

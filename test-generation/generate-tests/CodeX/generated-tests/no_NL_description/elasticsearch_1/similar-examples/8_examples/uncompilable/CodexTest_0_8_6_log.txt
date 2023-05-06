@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_6.java:65: error: cannot find symbol
+        RewriteQueryBuilder rewrite = new RewriteQueryBuilder("foo");
+        ^
+  symbol:   class RewriteQueryBuilder
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:65: error: cannot find symbol
+        RewriteQueryBuilder rewrite = new RewriteQueryBuilder("foo");
+                                          ^
+  symbol:   class RewriteQueryBuilder
+  location: class CodexTest_0_8_6

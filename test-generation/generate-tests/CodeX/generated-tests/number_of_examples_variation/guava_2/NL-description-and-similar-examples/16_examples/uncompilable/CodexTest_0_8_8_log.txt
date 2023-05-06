@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_8.java:26: error: cannot find symbol
+		int written = ints.writeBytesTo(b, 0, 1);
+		              ^
+  symbol:   variable ints
+  location: class CodexTest_0_8_8

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_15.java:67: error: cannot find symbol
+                exception.setParent(parent);
+                         ^
+  symbol:   method setParent(java.lang.String)
+  location: variable exception of type java.lang.Exception
+CodexTest_0_8_15.java:68: error: cannot find symbol
+                Assert.AssertEquals(exception.parent(), parent);
+                                             ^
+  symbol:   method parent()
+  location: variable exception of type java.lang.Exception

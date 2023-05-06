@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_7_1.java:18: error: cannot find symbol
+        Instances model = new Instances(new StringReader("@relation test\n@attribute a numeric\n@attribute b numeric\n"));
+                                            ^
+  symbol:   class StringReader
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:19: error: weka.core.Instance is abstract; cannot be instantiated
+        Instance i = new Instance(2);
+                     ^
+CodexTest_0_7_1.java:22: error: cannot find symbol
+        Instance result = i.getAsInstance(model, new Random());
+                           ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable i of type weka.core.Instance

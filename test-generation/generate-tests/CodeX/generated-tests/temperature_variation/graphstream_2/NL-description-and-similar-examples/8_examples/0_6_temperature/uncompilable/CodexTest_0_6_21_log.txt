@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_21.java:22: error: cannot find symbol
+        path1.setRoot(graph.getNode("a"));
+                      ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_21
+CodexTest_0_6_21.java:23: error: cannot find symbol
+        path1.add(graph.getEdge("ab"));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_21
+CodexTest_0_6_21.java:25: error: cannot find symbol
+        path2.setRoot(graph.getNode("a"));
+                      ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_21
+CodexTest_0_6_21.java:26: error: cannot find symbol
+        path2.add(graph.getEdge("ab"));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_21

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_1.java:27: error: cannot find symbol
+        new byte[] {(byte) f, (byte) o, (byte) o});
+                           ^
+  symbol:   variable f
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:27: error: cannot find symbol
+        new byte[] {(byte) f, (byte) o, (byte) o});
+                                     ^
+  symbol:   variable o
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:27: error: cannot find symbol
+        new byte[] {(byte) f, (byte) o, (byte) o});
+                                               ^
+  symbol:   variable o
+  location: class CodexTest_0_6_1

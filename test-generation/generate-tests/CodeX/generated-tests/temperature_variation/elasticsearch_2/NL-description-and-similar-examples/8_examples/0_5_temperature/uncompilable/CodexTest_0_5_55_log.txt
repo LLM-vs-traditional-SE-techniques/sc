@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_55.java:64: error: cannot find symbol
+    public void testIndexRequestWithMap() throws ElasticsearchException {
+                                                 ^
+  symbol:   class ElasticsearchException
+  location: class CodexTest_0_5_55

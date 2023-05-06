@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_79.java:22: error: cannot find symbol
+        final List<Integer> list = makePopulatedList(source);
+                                   ^
+  symbol:   method makePopulatedList(int[])
+  location: class CodexTest_0_9_79

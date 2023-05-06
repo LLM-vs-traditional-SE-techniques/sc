@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_93.java:17: error: cannot find symbol
+    expectedException.expect(ParseException.class);
+                             ^
+  symbol:   class ParseException
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:17: error: cannot find symbol
+    expectedException.expect(ParseException.class);
+    ^
+  symbol:   variable expectedException
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:18: error: cannot find symbol
+    typeDescriptor.fromString(a);
+                              ^
+  symbol:   variable a
+  location: class CodexTest_0_9_93

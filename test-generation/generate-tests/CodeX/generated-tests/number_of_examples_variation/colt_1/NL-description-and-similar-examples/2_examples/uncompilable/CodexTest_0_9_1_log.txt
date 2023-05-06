@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_1.java:29: error: illegal start of type
+    [Test public void testRelax() {
+    ^
+CodexTest_0_9_1.java:29: error: ';' expected
+    [Test public void testRelax() {
+     ^
+CodexTest_0_9_1.java:44: error: reached end of file while parsing
+}
+ ^

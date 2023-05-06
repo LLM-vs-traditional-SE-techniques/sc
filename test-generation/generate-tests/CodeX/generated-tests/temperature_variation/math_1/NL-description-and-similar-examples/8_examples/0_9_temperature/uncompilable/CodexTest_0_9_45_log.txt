@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_45.java:29: error: cannot find symbol
+   @Test(expected = MathIllegalArgumentException.class)
+                    ^
+  symbol:   class MathIllegalArgumentException
+  location: class CodexTest_0_9_45
+CodexTest_0_9_45.java:32: error: cannot find symbol
+        Vector1D w = new Vector1D.scalarMultiply(v, 1.0);
+                                 ^
+  symbol:   class scalarMultiply
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D

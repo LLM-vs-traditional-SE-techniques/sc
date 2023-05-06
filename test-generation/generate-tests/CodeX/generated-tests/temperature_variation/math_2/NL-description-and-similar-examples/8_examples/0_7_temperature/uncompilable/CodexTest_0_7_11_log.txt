@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_7_11.java:31: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        double dx = p.x - this.x;
+                     ^
+CodexTest_0_7_11.java:31: error: cannot find symbol
+        double dx = p.x - this.x;
+                              ^
+  symbol: variable x

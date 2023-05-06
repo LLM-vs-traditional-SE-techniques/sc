@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_2_5.java:19: error: reference to AlgVector is ambiguous
+        AlgVector vector = new AlgVector(null);
+                           ^
+  both constructor AlgVector(double[]) in weka.core.AlgVector and constructor AlgVector(weka.core.Instance) in weka.core.AlgVector match
+CodexTest_0_2_5.java:21: error: method getAsInstance in class weka.core.AlgVector cannot be applied to given types;
+        Instance result = vector.getAsInstance(new DenseInstance(0));
+                                ^
+  required: weka.core.Instances,java.util.Random
+  found: weka.core.DenseInstance
+  reason: actual and formal argument lists differ in length

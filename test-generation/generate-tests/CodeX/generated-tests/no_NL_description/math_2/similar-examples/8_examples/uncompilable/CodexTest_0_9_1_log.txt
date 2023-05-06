@@ -1,0 +1,118 @@
+isCompilable => false
+CodexTest_0_9_1.java:32: error: <identifier> expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                           ^
+CodexTest_0_9_1.java:32: error: illegal start of type
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                            ^
+CodexTest_0_9_1.java:32: error: <identifier> expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                    ^
+CodexTest_0_9_1.java:32: error: ';' expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                     ^
+CodexTest_0_9_1.java:32: error: invalid method declaration; return type required
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                         ^
+CodexTest_0_9_1.java:32: error: illegal start of type
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                  ^
+CodexTest_0_9_1.java:32: error: ')' expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                   ^
+CodexTest_0_9_1.java:32: error: ';' expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                    ^
+CodexTest_0_9_1.java:32: error: illegal start of type
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                     ^
+CodexTest_0_9_1.java:32: error: <identifier> expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                      ^
+CodexTest_0_9_1.java:32: error: ';' expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                          ^
+CodexTest_0_9_1.java:32: error: illegal start of type
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                                   ^
+CodexTest_0_9_1.java:32: error: <identifier> expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                                    ^
+CodexTest_0_9_1.java:32: error: ';' expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                                     ^
+CodexTest_0_9_1.java:32: error: illegal start of type
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                                      ^
+CodexTest_0_9_1.java:32: error: <identifier> expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                                       ^
+CodexTest_0_9_1.java:32: error: <identifier> expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                                         ^
+CodexTest_0_9_1.java:32: error: illegal start of type
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                                           ^
+CodexTest_0_9_1.java:32: error: <identifier> expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                                            ^
+CodexTest_0_9_1.java:32: error: ';' expected
+        Assert.assertEquals(0.0, Vector1D.distanceSq(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                                             ^
+CodexTest_0_9_1.java:33: error: illegal start of type
+        Assert.assertEquals(25.0, Vector1D.distanceSq(v1, v2), 0);
+              ^
+CodexTest_0_9_1.java:33: error: illegal start of type
+        Assert.assertEquals(25.0, Vector1D.distanceSq(v1, v2), 0);
+                            ^
+CodexTest_0_9_1.java:33: error: <identifier> expected
+        Assert.assertEquals(25.0, Vector1D.distanceSq(v1, v2), 0);
+                                                     ^
+CodexTest_0_9_1.java:33: error: ';' expected
+        Assert.assertEquals(25.0, Vector1D.distanceSq(v1, v2), 0);
+                                                      ^
+CodexTest_0_9_1.java:33: error: illegal start of type
+        Assert.assertEquals(25.0, Vector1D.distanceSq(v1, v2), 0);
+                                                        ^
+CodexTest_0_9_1.java:33: error: ';' expected
+        Assert.assertEquals(25.0, Vector1D.distanceSq(v1, v2), 0);
+                                                            ^
+CodexTest_0_9_1.java:34: error: <identifier> expected
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                           ^
+CodexTest_0_9_1.java:34: error: <identifier> expected
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                                       ^
+CodexTest_0_9_1.java:34: error: ';' expected
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                                        ^
+CodexTest_0_9_1.java:34: error: illegal start of type
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                                          ^
+CodexTest_0_9_1.java:34: error: <identifier> expected
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                                           ^
+CodexTest_0_9_1.java:34: error: ';' expected
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                                            ^
+CodexTest_0_9_1.java:34: error: illegal start of type
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                                                     ^
+CodexTest_0_9_1.java:34: error: <identifier> expected
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                                                      ^
+CodexTest_0_9_1.java:34: error: ';' expected
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                                                                 ^
+CodexTest_0_9_1.java:34: error: invalid method declaration; return type required
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                                                                  ^
+CodexTest_0_9_1.java:34: error: <identifier> expected
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                                                                               ^
+CodexTest_0_9_1.java:34: error: <identifier> expected
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                                                                                   ^
+CodexTest_0_9_1.java:34: error: ';' expected
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distanceSq(v1, v2), 0);
+                                                                                    ^

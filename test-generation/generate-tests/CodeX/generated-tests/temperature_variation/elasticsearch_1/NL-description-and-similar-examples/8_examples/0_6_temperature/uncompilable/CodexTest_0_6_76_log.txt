@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_6_76.java:65: error: cannot find symbol
+            assertEquals("/", new Path("/").parent());
+                                  ^
+  symbol:   class Path
+  location: class CodexTest_0_6_76
+CodexTest_0_6_76.java:66: error: cannot find symbol
+            assertEquals("/", new Path("/foo").parent());
+                                  ^
+  symbol:   class Path
+  location: class CodexTest_0_6_76
+CodexTest_0_6_76.java:67: error: cannot find symbol
+            assertEquals("/foo", new Path("/foo/bar").parent());
+                                     ^
+  symbol:   class Path
+  location: class CodexTest_0_6_76
+CodexTest_0_6_76.java:68: error: cannot find symbol
+            assertEquals("/foo/bar", new Path("/foo/bar/baz").parent());
+                                         ^
+  symbol:   class Path
+  location: class CodexTest_0_6_76
+CodexTest_0_6_76.java:69: error: cannot find symbol
+            assertEquals(null, new Path("").parent());
+                                   ^
+  symbol:   class Path
+  location: class CodexTest_0_6_76
+CodexTest_0_6_76.java:70: error: cannot find symbol
+            assertEquals(null, new Path("foo").parent());
+                                   ^
+  symbol:   class Path
+  location: class CodexTest_0_6_76

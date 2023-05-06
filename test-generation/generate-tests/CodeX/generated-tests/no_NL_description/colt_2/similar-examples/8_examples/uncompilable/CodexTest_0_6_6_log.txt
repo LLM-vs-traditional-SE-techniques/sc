@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_6.java:30: error: cannot find symbol
+        DoubleMatrix2D m = matrix2D(2, 3);
+                           ^
+  symbol:   method matrix2D(int,int)
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:31: error: cannot find symbol
+        DoubleMatrix2D m2 = matrix2D(2, 3);
+                            ^
+  symbol:   method matrix2D(int,int)
+  location: class CodexTest_0_6_6

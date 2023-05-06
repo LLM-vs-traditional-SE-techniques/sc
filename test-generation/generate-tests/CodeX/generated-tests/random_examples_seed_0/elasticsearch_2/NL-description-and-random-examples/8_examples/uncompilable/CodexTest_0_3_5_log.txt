@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_5.java:69: error: cannot find symbol
+        String jsonString = jsonBuilder().map(jsonMap).string();
+                            ^
+  symbol:   method jsonBuilder()
+  location: class CodexTest_0_3_5

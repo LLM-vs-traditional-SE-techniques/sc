@@ -1,0 +1,23 @@
+isCompilable => false
+CodexTest_0_9_12.java:19: error: cannot find symbol
+    AlgMatrix matrix = new AlgMatrix(1, 2);
+    ^
+  symbol:   class AlgMatrix
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:19: error: cannot find symbol
+    AlgMatrix matrix = new AlgMatrix(1, 2);
+                           ^
+  symbol:   class AlgMatrix
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:25: error: cannot find symbol
+    List<Attribute> attrs = new ArrayList<Attribute>();
+    ^
+  symbol:   class List
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:25: error: cannot find symbol
+    List<Attribute> attrs = new ArrayList<Attribute>();
+                                ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_9_12
+Note: CodexTest_0_9_12.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

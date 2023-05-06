@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_7.java:30: error: cannot find symbol
+        DoubleMatrix2D m = factory.make(4,4);
+                           ^
+  symbol:   variable factory
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:31: error: cannot find symbol
+        DoubleMatrix2D m2 = factory.like2D(m);
+                            ^
+  symbol:   variable factory
+  location: class CodexTest_0_5_7

@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_94.java:29: error: cannot find symbol
+    DoubleHashFactory factory= new DoubleHashFactory(numBuckets,MAX_FILL_RATIO);
+    ^
+  symbol:   class DoubleHashFactory
+  location: class CodexTest_0_9_94
+CodexTest_0_9_94.java:29: error: cannot find symbol
+    DoubleHashFactory factory= new DoubleHashFactory(numBuckets,MAX_FILL_RATIO);
+                                   ^
+  symbol:   class DoubleHashFactory
+  location: class CodexTest_0_9_94
+CodexTest_0_9_94.java:30: error: cannot find symbol
+    DoubleHashFunction h = factory.generate(size);
+    ^
+  symbol:   class DoubleHashFunction
+  location: class CodexTest_0_9_94
+CodexTest_0_9_94.java:33: error: cannot find symbol
+    Random r = new Random(); // careful, these all fall into the same bucket
+    ^
+  symbol:   class Random
+  location: class CodexTest_0_9_94
+CodexTest_0_9_94.java:33: error: cannot find symbol
+    Random r = new Random(); // careful, these all fall into the same bucket
+                   ^
+  symbol:   class Random
+  location: class CodexTest_0_9_94

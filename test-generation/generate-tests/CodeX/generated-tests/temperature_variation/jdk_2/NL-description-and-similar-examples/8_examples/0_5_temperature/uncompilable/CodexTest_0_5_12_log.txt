@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_12.java:22: error: cannot find symbol
+        assertFalse(set.contains(o));
+                    ^
+  symbol:   variable set
+  location: class CodexTest_0_5_12
+CodexTest_0_5_12.java:23: error: cannot find symbol
+        set.add(o);
+        ^
+  symbol:   variable set
+  location: class CodexTest_0_5_12
+CodexTest_0_5_12.java:24: error: cannot find symbol
+        assertTrue(set.contains(o));
+                   ^
+  symbol:   variable set
+  location: class CodexTest_0_5_12

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_1.java:19: error: cannot find symbol
+        Short result = underTest.toShort(Boolean.TRUE);
+                                ^
+  symbol:   method toShort(java.lang.Boolean)
+  location: variable underTest of type org.hibernate.type.descriptor.java.ShortTypeDescriptor

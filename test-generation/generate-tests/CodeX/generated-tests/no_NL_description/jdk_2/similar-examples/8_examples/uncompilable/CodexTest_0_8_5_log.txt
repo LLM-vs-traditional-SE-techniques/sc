@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_5.java:22: error: cannot find symbol
+        ShortList list = new ShortArrayList(shortArray);
+        ^
+  symbol:   class ShortList
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:22: error: cannot find symbol
+        ShortList list = new ShortArrayList(shortArray);
+                             ^
+  symbol:   class ShortArrayList
+  location: class CodexTest_0_8_5

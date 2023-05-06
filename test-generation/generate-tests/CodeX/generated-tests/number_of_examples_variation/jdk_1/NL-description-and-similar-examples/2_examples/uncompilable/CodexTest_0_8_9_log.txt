@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_9.java:22: error: cannot find symbol
+            l.remove(100);
+            ^
+  symbol:   variable l
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:24: error: cannot find symbol
+            throw new IndexOutOfBoundsException("Index: " + 100 + ", Size: " + l.getSize());
+                                                                               ^
+  symbol:   variable l
+  location: class CodexTest_0_8_9

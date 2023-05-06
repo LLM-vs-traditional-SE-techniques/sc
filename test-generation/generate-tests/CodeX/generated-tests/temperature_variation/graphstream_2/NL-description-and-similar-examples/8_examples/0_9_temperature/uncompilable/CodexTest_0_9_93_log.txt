@@ -1,0 +1,43 @@
+isCompilable => false
+CodexTest_0_9_93.java:21: error: cannot find symbol
+        Path path = new Path(new Node[]{node1, node2, node3});
+                                        ^
+  symbol:   variable node1
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:21: error: cannot find symbol
+        Path path = new Path(new Node[]{node1, node2, node3});
+                                               ^
+  symbol:   variable node2
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:21: error: cannot find symbol
+        Path path = new Path(new Node[]{node1, node2, node3});
+                                                      ^
+  symbol:   variable node3
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:21: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+        Path path = new Path(new Node[]{node1, node2, node3});
+                    ^
+  required: no arguments
+  found: org.graphstream.graph.Node[]
+  reason: actual and formal argument lists differ in length
+CodexTest_0_9_93.java:22: error: cannot find symbol
+        Path p = new Path(new Node[]{node1, node2, node3});
+                                     ^
+  symbol:   variable node1
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:22: error: cannot find symbol
+        Path p = new Path(new Node[]{node1, node2, node3});
+                                            ^
+  symbol:   variable node2
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:22: error: cannot find symbol
+        Path p = new Path(new Node[]{node1, node2, node3});
+                                                   ^
+  symbol:   variable node3
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:22: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+        Path p = new Path(new Node[]{node1, node2, node3});
+                 ^
+  required: no arguments
+  found: org.graphstream.graph.Node[]
+  reason: actual and formal argument lists differ in length

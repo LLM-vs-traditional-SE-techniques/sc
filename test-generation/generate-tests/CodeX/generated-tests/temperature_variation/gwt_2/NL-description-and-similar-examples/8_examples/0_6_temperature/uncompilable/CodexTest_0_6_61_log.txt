@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_61.java:15: error: cannot find symbol
+    final AtomicReference<Throwable> uncaught = new AtomicReference<Throwable>();
+          ^
+  symbol:   class AtomicReference
+  location: class CodexTest_0_6_61
+CodexTest_0_6_61.java:15: error: cannot find symbol
+    final AtomicReference<Throwable> uncaught = new AtomicReference<Throwable>();
+                                                    ^
+  symbol:   class AtomicReference
+  location: class CodexTest_0_6_61
+CodexTest_0_6_61.java:22: error: cannot find symbol
+    GWT.getUncaughtExceptionHandler().onUncaughtException(new RuntimeException(test));
+                                                                               ^
+  symbol:   variable test
+  location: class CodexTest_0_6_61
+CodexTest_0_6_61.java:23: error: cannot find symbol
+    assertEquals(test, uncaught.get().getMessage());
+                 ^
+  symbol:   variable test
+  location: class CodexTest_0_6_61

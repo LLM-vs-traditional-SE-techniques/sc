@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_8.java:18: error: org.hibernate.type.descriptor.WrapperOptions is abstract; cannot be instantiated
+			WrapperOptions options = new WrapperOptions();
+			                         ^
+CodexTest_0_8_8.java:20: error: cannot find symbol
+			int result = new BooleanTypeDescriptor().wrap(FALSE, options).intValue();
+			                                                             ^
+  symbol:   method intValue()
+  location: class java.lang.Boolean

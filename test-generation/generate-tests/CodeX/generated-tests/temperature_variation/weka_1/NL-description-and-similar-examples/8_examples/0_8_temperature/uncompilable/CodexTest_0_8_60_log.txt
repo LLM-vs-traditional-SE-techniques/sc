@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_60.java:32: error: <identifier> expected
+Input: public static<T> T[] concat(T[] first, T[] second) {
+     ^
+CodexTest_0_8_60.java:37: error: <identifier> expected
+Output:
+      ^

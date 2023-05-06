@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_8.java:29: error: cannot find symbol
+        int size = properties.size();
+                   ^
+  symbol:   variable properties
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:31: error: cannot find symbol
+            double observed = matrix.getQuick((columnIndex+1), columnIndex);
+                              ^
+  symbol:   variable matrix
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:33: error: cannot find symbol
+            assertEquals(expected,observed,TOL);
+                                           ^
+  symbol:   variable TOL
+  location: class CodexTest_0_8_8

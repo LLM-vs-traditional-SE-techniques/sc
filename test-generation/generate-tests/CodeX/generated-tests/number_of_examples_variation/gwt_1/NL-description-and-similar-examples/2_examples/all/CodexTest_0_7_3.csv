@@ -1,0 +1,49 @@
+prompt,output
+"Suggest a test for a method with the boolean isClient() signature.
+
+Input: public static boolean isScript() {
+			return com.google.gwt.core.shared.GWT.isScript();
+		  }
+Output: public void testIsScript() {
+			try {
+			  double d = seven / zero;
+			  if (!GWT.isScript()) {
+				fail('Expected ArithmeticException');
+			  }
+			} catch (ArithmeticException expected) {
+			  assertFalse(GWT.isScript());
+			}
+	  }
+
+Input: public static String getModuleName() {
+    return Impl.getModuleName();
+  }
+Output: public void testGetModuleName() {
+    assertEquals(""com.google.gwt.core.Core.JUnit"", GWT.getModuleName());
+  }
+
+Input: public static boolean isClient() {
+    return com.google.gwt.core.shared.GWT.isClient();
+  }
+Output:
+  ","import com.google.gwt.core.client.*;
+import com.google.gwt.core.client.impl.Impl;
+import com.google.gwt.core.client.GWT.UncaughtExceptionHandler;
+
+import com.google.gwt.core.client.*;
+import com.google.gwt.junit.client.GWTTestCase;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_7_3 { 
+  @Test
+  public void testIsClient() {
+    if (!GWT.isClient()) {
+      fail('Expected GWT.isClient() to return true');
+    }
+  }
+```
+}"

@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_6_14.java:15: error: cannot find symbol
+    UncaughtExceptionHandler handler = GWT.getUncaughtExceptionHandler();
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_14
+CodexTest_0_6_14.java:19: error: com.google.gwt.core.client.GWT.DefaultUncaughtExceptionHandler has private access in com.google.gwt.core.client.GWT
+      assertTrue(handler instanceof GWT.DefaultUncaughtExceptionHandler);
+                                       ^

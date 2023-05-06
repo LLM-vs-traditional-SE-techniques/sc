@@ -1,0 +1,94 @@
+isCompilable => false
+CodexTest_0_8_4.java:21: error: cannot find symbol
+        Vertex v1 = new DefaultVertex();
+        ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:21: error: cannot find symbol
+        Vertex v1 = new DefaultVertex();
+                        ^
+  symbol:   class DefaultVertex
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:22: error: cannot find symbol
+        Vertex v2 = new DefaultVertex();
+        ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:22: error: cannot find symbol
+        Vertex v2 = new DefaultVertex();
+                        ^
+  symbol:   class DefaultVertex
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:23: error: cannot find symbol
+        Vertex v3 = new DefaultVertex();
+        ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:23: error: cannot find symbol
+        Vertex v3 = new DefaultVertex();
+                        ^
+  symbol:   class DefaultVertex
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:24: error: cannot find symbol
+        Edge e1 = new DefaultEdge(v1, v2);
+                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:25: error: cannot find symbol
+        Edge e2 = new DefaultEdge(v2, v3);
+                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:26: error: cannot find symbol
+        Edge e3 = new DefaultEdge(v1, v3);
+                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:30: error: no suitable method found for addEdge(org.graphstream.graph.Edge)
+        graph.addEdge(e1);
+             ^
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,java.lang.String,java.lang.String) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,java.lang.String,java.lang.String,boolean) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,int,int) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,int,int,boolean) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,org.graphstream.graph.Node,org.graphstream.graph.Node) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,org.graphstream.graph.Node,org.graphstream.graph.Node,boolean) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+CodexTest_0_8_4.java:31: error: no suitable method found for addEdge(org.graphstream.graph.Edge)
+        graph.addEdge(e2);
+             ^
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,java.lang.String,java.lang.String) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,java.lang.String,java.lang.String,boolean) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,int,int) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,int,int,boolean) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,org.graphstream.graph.Node,org.graphstream.graph.Node) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>addEdge(java.lang.String,org.graphstream.graph.Node,org.graphstream.graph.Node,boolean) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+CodexTest_0_8_4.java:32: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+        Path path = new Path(graph);
+                    ^
+  required: no arguments
+  found: org.graphstream.graph.Graph
+  reason: actual and formal argument lists differ in length

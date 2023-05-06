@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_68.java:22: error: cannot find symbol
+    Instances insts = new Instances(new BufferedReader(new StringReader(
+                                        ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:22: error: cannot find symbol
+    Instances insts = new Instances(new BufferedReader(new StringReader(
+                                                           ^
+  symbol:   class StringReader
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:31: error: cannot find symbol
+    assertEquals("#inst", numInst, inst.numInstances());
+                                       ^
+  symbol:   method numInstances()
+  location: variable inst of type weka.core.Instance

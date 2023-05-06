@@ -1,0 +1,101 @@
+isCompilable => false
+CodexTest_0_6_6.java:25: error: cannot find symbol
+        byte[] dest = new byte[LENGTH];
+                               ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:26: error: cannot find symbol
+        int written = new BitArray(LENGTH).writeBytesTo(dest, 0, LENGTH);
+                                                                 ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:26: error: cannot find symbol
+        int written = new BitArray(LENGTH).writeBytesTo(dest, 0, LENGTH);
+                          ^
+  symbol:   class BitArray
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:26: error: cannot find symbol
+        int written = new BitArray(LENGTH).writeBytesTo(dest, 0, LENGTH);
+                                   ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:27: error: cannot find symbol
+        assertEquals(LENGTH, written);
+                     ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:28: error: cannot find symbol
+        for (int i = 0; i < LENGTH; i++) {
+                            ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:31: error: cannot find symbol
+        written = new BitArray(LENGTH).writeBytesTo(dest, LENGTH / 2, LENGTH / 2);
+                                                          ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:31: error: cannot find symbol
+        written = new BitArray(LENGTH).writeBytesTo(dest, LENGTH / 2, LENGTH / 2);
+                                                                      ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:31: error: cannot find symbol
+        written = new BitArray(LENGTH).writeBytesTo(dest, LENGTH / 2, LENGTH / 2);
+                      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:31: error: cannot find symbol
+        written = new BitArray(LENGTH).writeBytesTo(dest, LENGTH / 2, LENGTH / 2);
+                               ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:32: error: cannot find symbol
+        assertEquals(LENGTH / 2, written);
+                     ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:33: error: cannot find symbol
+        for (int i = 0; i < LENGTH / 2; i++) {
+                            ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:34: error: cannot find symbol
+            assertEquals(0, dest[i + LENGTH / 2]);
+                                     ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:36: error: cannot find symbol
+        written = new BitArray(LENGTH).writeBytesTo(dest, LENGTH / 2, LENGTH);
+                                                          ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:36: error: cannot find symbol
+        written = new BitArray(LENGTH).writeBytesTo(dest, LENGTH / 2, LENGTH);
+                                                                      ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:36: error: cannot find symbol
+        written = new BitArray(LENGTH).writeBytesTo(dest, LENGTH / 2, LENGTH);
+                      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:36: error: cannot find symbol
+        written = new BitArray(LENGTH).writeBytesTo(dest, LENGTH / 2, LENGTH);
+                               ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:37: error: cannot find symbol
+        assertEquals(LENGTH / 2, written);
+                     ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:38: error: cannot find symbol
+        for (int i = 0; i < LENGTH / 2; i++) {
+                            ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:39: error: cannot find symbol
+            assertEquals(0, dest[i + LENGTH / 2]);
+                                     ^
+  symbol:   variable LENGTH
+  location: class CodexTest_0_6_6

@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_7.java:25: error: incompatible types: java.lang.Object cannot be converted to weka.core.AlgVector
+            vectors2[i] = vectors[i].clone();
+                                          ^

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_90.java:32: error: <identifier> expected
+Input: public static int base64ToBase16(byte base64) {
+     ^
+CodexTest_0_9_90.java:39: error: reached end of file while parsing
+}
+ ^

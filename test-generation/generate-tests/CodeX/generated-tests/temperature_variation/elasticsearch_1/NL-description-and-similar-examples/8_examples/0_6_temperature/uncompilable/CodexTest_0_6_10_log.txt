@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_10.java:65: error: cannot find symbol
+        assertEquals(new Document().parent(), null);
+                         ^
+  symbol:   class Document
+  location: class CodexTest_0_6_10

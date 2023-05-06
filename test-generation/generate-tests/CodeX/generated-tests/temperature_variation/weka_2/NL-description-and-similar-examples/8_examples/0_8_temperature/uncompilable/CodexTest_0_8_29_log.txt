@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_29.java:24: error: cannot find symbol
+		  Instances data = makeTestDataset(1, n);
+		                   ^
+  symbol:   method makeTestDataset(int,int)
+  location: class CodexTest_0_8_29
+CodexTest_0_8_29.java:27: error: incompatible types: weka.core.AlgVector cannot be converted to weka.core.Instance
+		  double result = distF.distance(v, data.instance(0), blendFactor, Double.POSITIVE_INFINITY);
+		                                 ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_44.java:66: error: cannot find symbol
+        NamespaceContext namespaceContext = new NamespaceContext();
+        ^
+  symbol:   class NamespaceContext
+  location: class CodexTest_0_7_44
+CodexTest_0_7_44.java:66: error: cannot find symbol
+        NamespaceContext namespaceContext = new NamespaceContext();
+                                                ^
+  symbol:   class NamespaceContext
+  location: class CodexTest_0_7_44

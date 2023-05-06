@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_10.java:21: error: cannot find symbol
+        ArrayList<Integer> list = setUpArrayList();
+                                  ^
+  symbol:   method setUpArrayList()
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:22: error: cannot find symbol
+        for (int i = 0; i <= SIZE/2; i++) {
+                             ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:23: error: cannot find symbol
+            testRemoveElementBoundary(list, i);
+            ^
+  symbol:   method testRemoveElementBoundary(java.util.ArrayList<java.lang.Integer>,int)
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:25: error: cannot find symbol
+            list.addAll(setUpArrayList());
+                        ^
+  symbol:   method setUpArrayList()
+  location: class CodexTest_0_9_10

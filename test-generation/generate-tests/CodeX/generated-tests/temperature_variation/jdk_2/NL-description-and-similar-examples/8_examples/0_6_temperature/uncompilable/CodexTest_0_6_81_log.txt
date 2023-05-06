@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_6_81.java:21: error: cannot find symbol
+        assertFalse(q.contains(null));
+                    ^
+  symbol:   variable q
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:22: error: cannot find symbol
+        assertFalse(q.contains(new Object()));
+                    ^
+  symbol:   variable q
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:23: error: cannot find symbol
+        assertFalse(q.contains("Hello"));
+                    ^
+  symbol:   variable q
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:24: error: cannot find symbol
+        assertFalse(q.contains(5));
+                    ^
+  symbol:   variable q
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:25: error: cannot find symbol
+        assertFalse(q.contains(5.0));
+                    ^
+  symbol:   variable q
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:26: error: cannot find symbol
+        assertFalse(q.contains(5.0f));
+                    ^
+  symbol:   variable q
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:27: error: cannot find symbol
+        assertFalse(q.contains(this));
+                    ^
+  symbol:   variable q
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:28: error: cannot find symbol
+        assertFalse(q.contains(new Integer(5)));
+                    ^
+  symbol:   variable q
+  location: class CodexTest_0_6_81

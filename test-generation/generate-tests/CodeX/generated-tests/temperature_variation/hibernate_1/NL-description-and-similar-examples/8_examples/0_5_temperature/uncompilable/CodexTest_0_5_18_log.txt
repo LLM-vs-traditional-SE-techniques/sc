@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_18.java:16: error: cannot find symbol
+        assertEquals(Short.valueOf((short) 0), underTest.toShort(Boolean.FALSE));
+                                               ^
+  symbol:   variable underTest
+  location: class CodexTest_0_5_18

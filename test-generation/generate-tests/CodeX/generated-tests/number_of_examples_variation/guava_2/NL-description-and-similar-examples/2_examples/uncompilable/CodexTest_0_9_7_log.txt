@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_7.java:26: error: cannot find symbol
+    BitArray ba = new BitArray(BitArray.fromBinaryString("01001011000001"));
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:26: error: cannot find symbol
+    BitArray ba = new BitArray(BitArray.fromBinaryString("01001011000001"));
+                      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:26: error: cannot find symbol
+    BitArray ba = new BitArray(BitArray.fromBinaryString("01001011000001"));
+                               ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_9_7

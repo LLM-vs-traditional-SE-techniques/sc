@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_4_48.java:15: error: cannot find symbol
+    UncaughtExceptionHandler handler = GWT.getUncaughtExceptionHandler();
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_48
+CodexTest_0_4_48.java:16: error: cannot find symbol
+    GWT.setUncaughtExceptionHandler(new UncaughtExceptionHandler() {
+                                        ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_48
+CodexTest_0_4_48.java:24: error: cannot find symbol
+      double d = seven / zero;
+                 ^
+  symbol:   variable seven
+  location: class CodexTest_0_4_48
+CodexTest_0_4_48.java:24: error: cannot find symbol
+      double d = seven / zero;
+                         ^
+  symbol:   variable zero
+  location: class CodexTest_0_4_48

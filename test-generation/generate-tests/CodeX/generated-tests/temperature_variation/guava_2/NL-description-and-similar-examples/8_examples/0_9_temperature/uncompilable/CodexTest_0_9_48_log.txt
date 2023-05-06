@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_48.java:26: error: cannot find symbol
+    BitVector bv = new BitVector(13);
+    ^
+  symbol:   class BitVector
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:26: error: cannot find symbol
+    BitVector bv = new BitVector(13);
+                       ^
+  symbol:   class BitVector
+  location: class CodexTest_0_9_48

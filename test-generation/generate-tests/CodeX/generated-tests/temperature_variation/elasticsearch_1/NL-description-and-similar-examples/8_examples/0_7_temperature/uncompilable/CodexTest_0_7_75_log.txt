@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_75.java:65: error: cannot find symbol
+        assertNull(new UpdateRequest().parent());
+                       ^
+  symbol:   class UpdateRequest
+  location: class CodexTest_0_7_75

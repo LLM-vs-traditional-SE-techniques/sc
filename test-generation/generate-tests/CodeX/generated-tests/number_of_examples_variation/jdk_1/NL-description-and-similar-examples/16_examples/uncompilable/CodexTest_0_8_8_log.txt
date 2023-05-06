@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_8.java:21: error: cannot find symbol
+        assertEquals(4, list.size());
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:22: error: cannot find symbol
+        assertEquals(2, list.remove(1));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:23: error: cannot find symbol
+        assertEquals(Arrays.asList(1, 3, 4), list);
+                                             ^
+  symbol:   variable list
+  location: class CodexTest_0_8_8

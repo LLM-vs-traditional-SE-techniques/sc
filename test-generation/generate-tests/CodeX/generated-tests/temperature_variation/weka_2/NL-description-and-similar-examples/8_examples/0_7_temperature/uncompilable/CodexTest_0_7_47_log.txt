@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_47.java:21: error: cannot find symbol
+    Instances model = new Instances(randData, 0);
+                                    ^
+  symbol:   variable randData
+  location: class CodexTest_0_7_47
+CodexTest_0_7_47.java:22: error: cannot find symbol
+    model.setClassIndex(randData.numAttributes()-1);
+                        ^
+  symbol:   variable randData
+  location: class CodexTest_0_7_47
+CodexTest_0_7_47.java:29: error: cannot find symbol
+      data = v.getArrayRef();
+              ^
+  symbol:   method getArrayRef()
+  location: variable v of type weka.core.AlgVector

@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_7_2.java:36: error: illegal character: '#'
+##### Suggest a test for a method with the double distance(Vector2D p1, Vector2D p2) signature.
+^
+CodexTest_0_7_2.java:36: error: illegal character: '#'
+##### Suggest a test for a method with the double distance(Vector2D p1, Vector2D p2) signature.
+ ^
+CodexTest_0_7_2.java:36: error: illegal character: '#'
+##### Suggest a test for a method with the double distance(Vector2D p1, Vector2D p2) signature.
+  ^
+CodexTest_0_7_2.java:36: error: illegal character: '#'
+##### Suggest a test for a method with the double distance(Vector2D p1, Vector2D p2) signature.
+   ^
+CodexTest_0_7_2.java:36: error: illegal character: '#'
+##### Suggest a test for a method with the double distance(Vector2D p1, Vector2D p2) signature.
+    ^
+CodexTest_0_7_2.java:36: error: ';' expected
+##### Suggest a test for a method with the double distance(Vector2D p1, Vector2D p2) signature.
+                    ^
+CodexTest_0_7_2.java:36: error: ';' expected
+##### Suggest a test for a method with the double distance(Vector2D p1, Vector2D p2) signature.
+                                 ^
+CodexTest_0_7_2.java:36: error: ';' expected
+##### Suggest a test for a method with the double distance(Vector2D p1, Vector2D p2) signature.
+                                          ^
+CodexTest_0_7_2.java:36: error: ';' expected
+##### Suggest a test for a method with the double distance(Vector2D p1, Vector2D p2) signature.
+                                                                                    ^

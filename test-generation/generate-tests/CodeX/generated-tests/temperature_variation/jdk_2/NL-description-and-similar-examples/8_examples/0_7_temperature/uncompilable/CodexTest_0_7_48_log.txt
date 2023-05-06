@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_48.java:21: error: cannot find symbol
+		List<String> list = Lists.newArrayList();
+		                    ^
+  symbol:   variable Lists
+  location: class CodexTest_0_7_48

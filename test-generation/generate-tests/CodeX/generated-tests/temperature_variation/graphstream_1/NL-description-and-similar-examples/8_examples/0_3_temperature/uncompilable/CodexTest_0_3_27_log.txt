@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_27.java:22: error: cannot find symbol
+        underTest.add(edge);
+                      ^
+  symbol:   variable edge
+  location: class CodexTest_0_3_27
+CodexTest_0_3_27.java:24: error: cannot find symbol
+        boolean result = underTest.contains(edge);
+                                            ^
+  symbol:   variable edge
+  location: class CodexTest_0_3_27

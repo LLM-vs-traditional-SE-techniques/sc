@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_19.java:25: error: <identifier> expected
+Input: public static int getSeed() {
+     ^
+CodexTest_0_7_19.java:28: error: <identifier> expected
+Output: public void testParseStaticSeed() {
+      ^

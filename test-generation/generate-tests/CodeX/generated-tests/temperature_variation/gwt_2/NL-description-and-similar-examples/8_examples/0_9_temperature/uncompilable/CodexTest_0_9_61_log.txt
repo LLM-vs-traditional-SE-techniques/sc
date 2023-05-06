@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_9_61.java:15: error: cannot find symbol
+      implements UncaughtExceptionHandler {
+                 ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:13: error: annotation type not applicable to this kind of declaration
+  @Test
+  ^
+CodexTest_0_9_61.java:17: error: cannot find symbol
+      exception = e;
+      ^
+  symbol:   variable exception
+  location: class CodexTest_0_9_61.TestUncaughtExceptionHandler

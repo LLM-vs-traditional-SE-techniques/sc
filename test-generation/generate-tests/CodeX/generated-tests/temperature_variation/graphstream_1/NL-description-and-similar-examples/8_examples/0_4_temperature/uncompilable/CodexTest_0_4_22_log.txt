@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_4_22.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		path.edgePath.add(new Edge("A", "B", 1));
+		                  ^
+CodexTest_0_4_22.java:22: error: edgePath is not public in org.graphstream.graph.Path; cannot be accessed from outside package
+		path.edgePath.add(new Edge("A", "B", 1));
+		    ^
+CodexTest_0_4_22.java:24: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		boolean result = path.contains(new Edge("A", "B", 1));
+		                               ^

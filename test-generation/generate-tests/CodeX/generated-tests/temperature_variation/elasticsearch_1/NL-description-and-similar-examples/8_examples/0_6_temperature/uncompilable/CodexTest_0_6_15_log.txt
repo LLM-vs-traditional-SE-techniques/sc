@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_15.java:66: error: cannot find symbol
+        MyClass c = new MyClass(new MyClass("John"));
+        ^
+  symbol:   class MyClass
+  location: class CodexTest_0_6_15
+CodexTest_0_6_15.java:66: error: cannot find symbol
+        MyClass c = new MyClass(new MyClass("John"));
+                        ^
+  symbol:   class MyClass
+  location: class CodexTest_0_6_15
+CodexTest_0_6_15.java:66: error: cannot find symbol
+        MyClass c = new MyClass(new MyClass("John"));
+                                    ^
+  symbol:   class MyClass
+  location: class CodexTest_0_6_15

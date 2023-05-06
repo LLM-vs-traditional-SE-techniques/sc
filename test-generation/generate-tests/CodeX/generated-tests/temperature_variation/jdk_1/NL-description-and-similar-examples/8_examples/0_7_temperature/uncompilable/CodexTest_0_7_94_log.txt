@@ -1,0 +1,48 @@
+isCompilable => false
+CodexTest_0_7_94.java:21: error: cannot find symbol
+        Object[] a = new Object[SIZE];
+                                ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_94
+CodexTest_0_7_94.java:22: error: cannot find symbol
+        for(int i = 0; i < SIZE; i++) {
+                           ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_94
+CodexTest_0_7_94.java:25: error: cannot find symbol
+        ArrayList al = new ArrayList(SIZE);
+                                     ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_94
+CodexTest_0_7_94.java:26: error: cannot find symbol
+        for(int i = 0; i < SIZE; i++) {
+                           ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_94
+CodexTest_0_7_94.java:29: error: cannot find symbol
+        al.subList(0, SIZE/2).clear();
+                      ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_94
+CodexTest_0_7_94.java:31: error: cannot find symbol
+                     SIZE/2, al.size());
+                     ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_94
+CodexTest_0_7_94.java:32: error: cannot find symbol
+        for(int i = SIZE/2; i < SIZE; i++) {
+                    ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_94
+CodexTest_0_7_94.java:32: error: cannot find symbol
+        for(int i = SIZE/2; i < SIZE; i++) {
+                                ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_94
+CodexTest_0_7_94.java:34: error: cannot find symbol
+                         "a" + i, al.get(i-SIZE/2));
+                                           ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_94
+Note: CodexTest_0_7_94.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_5_4.java:65: error: cannot find symbol
+        String parent = randomAsciiOfLengthBetween(5, 10);
+                        ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:66: error: cannot find symbol
+        ShardRouting shardRouting = new ShardRouting(new ShardId("test", 1), null, null, false, ShardRoutingState.STARTED, parent);
+        ^
+  symbol:   class ShardRouting
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:66: error: cannot find symbol
+        ShardRouting shardRouting = new ShardRouting(new ShardId("test", 1), null, null, false, ShardRoutingState.STARTED, parent);
+                                        ^
+  symbol:   class ShardRouting
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:66: error: incompatible types: java.lang.String cannot be converted to org.elasticsearch.index.Index
+        ShardRouting shardRouting = new ShardRouting(new ShardId("test", 1), null, null, false, ShardRoutingState.STARTED, parent);
+                                                                 ^
+CodexTest_0_5_4.java:66: error: cannot find symbol
+        ShardRouting shardRouting = new ShardRouting(new ShardId("test", 1), null, null, false, ShardRoutingState.STARTED, parent);
+                                                                                                ^
+  symbol:   variable ShardRoutingState
+  location: class CodexTest_0_5_4
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

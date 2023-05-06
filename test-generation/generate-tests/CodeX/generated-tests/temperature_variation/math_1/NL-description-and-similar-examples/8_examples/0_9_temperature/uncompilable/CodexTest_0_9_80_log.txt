@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_9_80.java:32: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+		Vector1D a = new Vector1D(1,1);
+		                            ^
+CodexTest_0_9_80.java:33: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+		Vector1D b = new Vector1D(1,-1);
+		                            ^
+CodexTest_0_9_80.java:34: error: cannot find symbol
+		System.out.println(dotProduct(a, b));
+		                   ^
+  symbol:   method dotProduct(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:36: error: cannot find symbol
+		System.out.println(distance(a, b));
+		                   ^
+  symbol:   method distance(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_9_80
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

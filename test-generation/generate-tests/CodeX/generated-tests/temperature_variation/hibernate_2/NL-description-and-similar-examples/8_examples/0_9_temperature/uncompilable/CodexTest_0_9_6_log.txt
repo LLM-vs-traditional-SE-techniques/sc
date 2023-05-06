@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_6.java:16: error: cannot find symbol
+          for (Boolean bool : Arrays.asList(true, false)) {
+                              ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:17: error: cannot find symbol
+              assertEquals(bool, new PrimitiveBooleanTypeDescriptor().fromString(bool.toString()));
+                                     ^
+  symbol:   class PrimitiveBooleanTypeDescriptor
+  location: class CodexTest_0_9_6

@@ -1,0 +1,54 @@
+isCompilable => false
+CodexTest_0_7_89.java:25: error: cannot find symbol
+			byte[] bytes = {a, b, c, d, e, f, g, h, i, j};
+			                ^
+  symbol:   variable a
+  location: class CodexTest_0_7_89
+CodexTest_0_7_89.java:25: error: cannot find symbol
+			byte[] bytes = {a, b, c, d, e, f, g, h, i, j};
+			                   ^
+  symbol:   variable b
+  location: class CodexTest_0_7_89
+CodexTest_0_7_89.java:25: error: cannot find symbol
+			byte[] bytes = {a, b, c, d, e, f, g, h, i, j};
+			                      ^
+  symbol:   variable c
+  location: class CodexTest_0_7_89
+CodexTest_0_7_89.java:25: error: cannot find symbol
+			byte[] bytes = {a, b, c, d, e, f, g, h, i, j};
+			                         ^
+  symbol:   variable d
+  location: class CodexTest_0_7_89
+CodexTest_0_7_89.java:25: error: cannot find symbol
+			byte[] bytes = {a, b, c, d, e, f, g, h, i, j};
+			                            ^
+  symbol:   variable e
+  location: class CodexTest_0_7_89
+CodexTest_0_7_89.java:25: error: cannot find symbol
+			byte[] bytes = {a, b, c, d, e, f, g, h, i, j};
+			                               ^
+  symbol:   variable f
+  location: class CodexTest_0_7_89
+CodexTest_0_7_89.java:25: error: cannot find symbol
+			byte[] bytes = {a, b, c, d, e, f, g, h, i, j};
+			                                  ^
+  symbol:   variable g
+  location: class CodexTest_0_7_89
+CodexTest_0_7_89.java:25: error: cannot find symbol
+			byte[] bytes = {a, b, c, d, e, f, g, h, i, j};
+			                                     ^
+  symbol:   variable h
+  location: class CodexTest_0_7_89
+CodexTest_0_7_89.java:25: error: cannot find symbol
+			byte[] bytes = {a, b, c, d, e, f, g, h, i, j};
+			                                        ^
+  symbol:   variable i
+  location: class CodexTest_0_7_89
+CodexTest_0_7_89.java:25: error: cannot find symbol
+			byte[] bytes = {a, b, c, d, e, f, g, h, i, j};
+			                                           ^
+  symbol:   variable j
+  location: class CodexTest_0_7_89
+CodexTest_0_7_89.java:26: error: fromBytesNoCopy(byte[]) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+			HashCode hash = HashCode.fromBytesNoCopy(bytes);
+			                        ^

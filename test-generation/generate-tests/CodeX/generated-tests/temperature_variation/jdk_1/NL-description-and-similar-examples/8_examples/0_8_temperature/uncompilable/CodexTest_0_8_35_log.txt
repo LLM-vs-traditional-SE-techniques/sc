@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_35.java:22: error: cannot find symbol
+        assertEquals("Should return object that is being removed.", one, a.remove(0));
+                                                                    ^
+  symbol:   variable one
+  location: class CodexTest_0_8_35
+CodexTest_0_8_35.java:23: error: cannot find symbol
+        assertEquals("Should return object that is being removed.", two, a.remove(0));
+                                                                    ^
+  symbol:   variable two
+  location: class CodexTest_0_8_35
+CodexTest_0_8_35.java:24: error: cannot find symbol
+        assertEquals("Should return object that is being removed.", three, a.remove(0));
+                                                                    ^
+  symbol:   variable three
+  location: class CodexTest_0_8_35

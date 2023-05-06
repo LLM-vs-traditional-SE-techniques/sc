@@ -1,0 +1,160 @@
+prompt,output
+"Suggest a test for a method with the HashCode fromLong(long hash) signature.
+
+Input: public DenseDoubleMatrix1D(double[] values) {
+			this(values.length);
+			assign(values);
+		}
+Output: public static void testMax() {
+  double[] temp = new double[2];
+
+   temp[0] = 8.9;
+  temp[1] = 1;
+
+   DenseDoubleMatrix1D d1Double = new DenseDoubleMatrix1D(temp);
+    hep.aida.bin.DynamicBin1D d1ynamicBin = cern.colt.matrix.doublealgo.Statistic.bin(d1Double);
+   double max = d1ynamicBin.max();
+   System.out.println(""max = ""+ max);
+}
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnTrueWhenYStringGiven() {
+        // given
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+        // when
+        Boolean result = underTest.wrap(""Y"", null);
+        // then
+        assertTrue(result);
+    }
+
+Input: public ArrayList() {
+        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+    }
+Output: public void emptyArraysAreShared() {        assertSame(new ArrayList<Object>(), new ArrayList<Object>());
+    }
+
+Input: public ArrayList() {
+        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+    }
+Output: public void emptyArraysDifferBetweenDefaultAndExplicit() {
+			assertNotSame(elementData(new ArrayList<Object>()),
+						  elementData(new ArrayList<Object>(0)));
+		}
+
+Input: public IndexRequest opType(String opType) {
+        String op = opType.toLowerCase(Locale.ROOT);
+        if (op.equals(""create"")) {
+            opType(OpType.CREATE);
+        } else if (op.equals(""index"")) {
+            opType(OpType.INDEX);
+        } else {
+            throw new IllegalArgumentException(""opType must be 'create' or 'index', found: ["" + opType + ""]"");
+        }
+        return this;
+    }
+Output: public void testReadBogusString() {
+        try {
+            IndexRequest indexRequest = new IndexRequest("""");
+            indexRequest.opType(""foobar"");
+            fail(""Expected IllegalArgumentException"");
+        } catch (IllegalArgumentException e) {
+            assertThat(e.getMessage(), equalTo(""opType must be 'create' or 'index', found: [foobar]""));
+        }    }
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public double getX() {
+			return x;
+		}
+Output: public void testCoordinates() {
+			Vector1D v = new Vector1D(1);
+			Assert.assertTrue(FastMath.abs(v.getX() - 1) < 1.0e-12);
+		}
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnFalseWhenFStringGiven() {
+			// given
+			BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+			// when
+			Boolean result = underTest.wrap('N', null);
+			// then
+			assertFalse(result);
+		}
+
+Input: public static HashCode fromLong(long hash) {
+    return new LongHashCode(hash);
+  }
+Output:
+  ","import com.google.common.hash.*;
+import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.common.base.Preconditions.checkState;
+import com.google.common.annotations.Beta;
+import com.google.common.base.Preconditions;
+import com.google.common.primitives.Ints;
+import com.google.common.primitives.UnsignedInts;
+import java.io.Serializable;
+
+import static com.google.common.io.BaseEncoding.base16;
+import com.google.common.base.Charsets;
+import com.google.common.collect.ImmutableList;
+import com.google.common.io.BaseEncoding;
+import java.util.Arrays;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_3_4 { 
+  @Test
+    public static void testFromLong() {
+        HashCode hashCode = HashCode.fromLong(0x123456789abcdef0L);
+        assertEquals(0x123456789abcdef0L, hashCode.asLong());
+    }
+}"

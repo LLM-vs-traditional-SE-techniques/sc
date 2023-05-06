@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_5.java:26: error: cannot find symbol
+    int written = new SortableBytes(0xabcd).writeBytesTo(dest, 1, 4);
+                      ^
+  symbol:   class SortableBytes
+  location: class CodexTest_0_9_5

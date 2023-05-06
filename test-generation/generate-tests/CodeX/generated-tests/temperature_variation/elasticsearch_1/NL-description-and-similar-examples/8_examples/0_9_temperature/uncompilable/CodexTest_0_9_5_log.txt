@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_5.java:65: error: cannot find symbol
+        DeleteMappingRequest request = new DeleteMappingRequest("child");
+        ^
+  symbol:   class DeleteMappingRequest
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:65: error: cannot find symbol
+        DeleteMappingRequest request = new DeleteMappingRequest("child");
+                                           ^
+  symbol:   class DeleteMappingRequest
+  location: class CodexTest_0_9_5

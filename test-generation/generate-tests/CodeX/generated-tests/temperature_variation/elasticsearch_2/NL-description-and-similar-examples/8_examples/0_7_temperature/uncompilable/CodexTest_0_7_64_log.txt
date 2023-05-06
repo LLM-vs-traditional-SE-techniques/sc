@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_64.java:65: error: cannot find symbol
+        IndexRequest indexRequest = Requests.indexRequest("index").source(singletonMap("field", "value"), XContentType.JSON);
+                                                                          ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:66: error: cannot find symbol
+        assertToXContentEquivalent(
+        ^
+  symbol:   method assertToXContentEquivalent(java.lang.String,org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.xcontent.XContentType)
+  location: class CodexTest_0_7_64

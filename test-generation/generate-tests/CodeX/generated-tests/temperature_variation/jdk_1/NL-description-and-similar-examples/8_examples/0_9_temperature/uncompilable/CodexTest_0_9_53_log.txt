@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_53.java:20: error: cannot find symbol
+    @GwtIncompatible // SerializableTester
+     ^
+  symbol:   class GwtIncompatible
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:22: error: cannot find symbol
+        List<String> list = createEmpty();
+                            ^
+  symbol:   method createEmpty()
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:23: error: cannot find symbol
+        SerializableTester.reserializeAndAssert(list);
+        ^
+  symbol:   variable SerializableTester
+  location: class CodexTest_0_9_53

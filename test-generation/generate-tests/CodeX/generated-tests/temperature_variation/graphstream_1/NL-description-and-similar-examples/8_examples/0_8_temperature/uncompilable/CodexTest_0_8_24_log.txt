@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_8_24.java:25: error: nodePath is not public in org.graphstream.graph.Path; cannot be accessed from outside package
+		path.nodePath.add(graph.getNode("b"));
+		    ^
+CodexTest_0_8_24.java:26: error: edgePath is not public in org.graphstream.graph.Path; cannot be accessed from outside package
+		path.edgePath.add(graph.getEdge("ab"));
+		    ^
+CodexTest_0_8_24.java:27: error: reference to contains is ambiguous
+		assertTrue("Must contain edge ab", path.contains(graph.getEdge("ab")));
+		                                       ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match
+CodexTest_0_8_24.java:28: error: reference to contains is ambiguous
+		assertFalse("Must not contain edge bc", path.contains(graph.getEdge("bc")));
+		                                            ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match
+CodexTest_0_8_24.java:29: error: reference to contains is ambiguous
+		assertFalse("Must not contain edge bd", path.contains(graph.getEdge("bd")));
+		                                            ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match

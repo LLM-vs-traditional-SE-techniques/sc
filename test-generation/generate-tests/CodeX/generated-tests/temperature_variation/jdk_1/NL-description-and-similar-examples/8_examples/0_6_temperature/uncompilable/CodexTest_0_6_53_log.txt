@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_53.java:22: error: cannot find symbol
+        final List<Integer> list = IntArrayList.wrap(array);
+                                   ^
+  symbol:   variable IntArrayList
+  location: class CodexTest_0_6_53

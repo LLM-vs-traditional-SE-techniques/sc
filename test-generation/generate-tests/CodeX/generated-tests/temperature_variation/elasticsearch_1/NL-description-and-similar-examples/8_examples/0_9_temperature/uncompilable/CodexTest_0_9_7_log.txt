@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_7.java:66: error: cannot find symbol
+            new ExpiredKey(null);
+                ^
+  symbol:   class ExpiredKey
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:68: error: cannot find symbol
+        } catch (NullArgumentException e) {
+                 ^
+  symbol:   class NullArgumentException
+  location: class CodexTest_0_9_7

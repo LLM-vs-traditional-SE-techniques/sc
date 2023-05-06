@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_2.java:22: error: ';' expected
+	vec.init(arr[0], arr[2], arr[3])
+	                                ^
+CodexTest_0_9_2.java:23: error: ';' expected
+	vec2.init(arr[1], arr[2], arr[3])
+	                                 ^

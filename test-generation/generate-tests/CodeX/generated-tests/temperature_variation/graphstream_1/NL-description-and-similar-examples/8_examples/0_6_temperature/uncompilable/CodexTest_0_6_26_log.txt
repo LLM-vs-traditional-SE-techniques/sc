@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_6_26.java:27: error: cannot find symbol
+    path.setGraph(graph);
+        ^
+  symbol:   method setGraph(org.graphstream.graph.Graph)
+  location: variable path of type org.graphstream.graph.Path
+CodexTest_0_6_26.java:31: error: reference to contains is ambiguous
+    assertTrue(path.contains(graph.getEdge("ab")));
+                   ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match
+CodexTest_0_6_26.java:32: error: reference to contains is ambiguous
+    assertTrue(path.contains(graph.getEdge("bc")));
+                   ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match
+CodexTest_0_6_26.java:33: error: reference to contains is ambiguous
+    assertTrue(path.contains(graph.getEdge("cd")));
+                   ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match
+CodexTest_0_6_26.java:34: error: reference to contains is ambiguous
+    assertFalse(path.contains(graph.getEdge("ac")));
+                    ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match

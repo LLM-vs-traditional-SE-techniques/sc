@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_3.java:16: error: cannot find symbol
+	assertEquals("toShort should return 1", TRUE.shortValue(), testNumberInstance.toShort(TRUE));
+	                                            ^
+  symbol:   method shortValue()
+  location: variable TRUE of type java.lang.Boolean
+CodexTest_0_8_3.java:16: error: cannot find symbol
+	assertEquals("toShort should return 1", TRUE.shortValue(), testNumberInstance.toShort(TRUE));
+	                                                           ^
+  symbol:   variable testNumberInstance
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:17: error: cannot find symbol
+	assertEquals("toShort should return 0", FALSE.shortValue(), testNumberInstance.toShort(FALSE));
+	                                             ^
+  symbol:   method shortValue()
+  location: variable FALSE of type java.lang.Boolean
+CodexTest_0_8_3.java:17: error: cannot find symbol
+	assertEquals("toShort should return 0", FALSE.shortValue(), testNumberInstance.toShort(FALSE));
+	                                                            ^
+  symbol:   variable testNumberInstance
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:18: error: cannot find symbol
+	assertEquals("toShort should return 0", 0, testNumberInstance.toShort(null));
+	                                           ^
+  symbol:   variable testNumberInstance
+  location: class CodexTest_0_8_3

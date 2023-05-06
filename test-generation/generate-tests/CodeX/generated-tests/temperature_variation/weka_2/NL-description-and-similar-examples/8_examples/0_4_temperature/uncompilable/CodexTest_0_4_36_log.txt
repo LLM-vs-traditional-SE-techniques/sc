@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_36.java:22: error: cannot find symbol
+      insts = makeTestDataset(numAtts, numInstances);
+              ^
+  symbol:   method makeTestDataset(int,int)
+  location: class CodexTest_0_4_36

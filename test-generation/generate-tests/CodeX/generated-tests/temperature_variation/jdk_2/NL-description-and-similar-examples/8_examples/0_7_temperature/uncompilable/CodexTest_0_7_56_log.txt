@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_56.java:21: error: cannot find symbol
+      assertTrue(set.contains(element));
+                              ^
+  symbol:   variable element
+  location: class CodexTest_0_7_56
+CodexTest_0_7_56.java:21: error: cannot find symbol
+      assertTrue(set.contains(element));
+                 ^
+  symbol:   variable set
+  location: class CodexTest_0_7_56
+CodexTest_0_7_56.java:22: error: cannot find symbol
+      assertTrue(set.contains(delta));
+                              ^
+  symbol:   variable delta
+  location: class CodexTest_0_7_56
+CodexTest_0_7_56.java:22: error: cannot find symbol
+      assertTrue(set.contains(delta));
+                 ^
+  symbol:   variable set
+  location: class CodexTest_0_7_56
+CodexTest_0_7_56.java:23: error: cannot find symbol
+      assertFalse(set.contains(foo));
+                               ^
+  symbol:   variable foo
+  location: class CodexTest_0_7_56
+CodexTest_0_7_56.java:23: error: cannot find symbol
+      assertFalse(set.contains(foo));
+                  ^
+  symbol:   variable set
+  location: class CodexTest_0_7_56

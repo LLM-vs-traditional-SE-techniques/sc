@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_7_8.java:19: error: array required, but java.lang.Throwable found
+        throwable[0] = throwable;
+                 ^
+CodexTest_0_7_8.java:22: error: cannot find symbol
+    Log.w(TAG, "Message", new RuntimeException("RuntimeException"));
+          ^
+  symbol:   variable TAG
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:22: error: cannot find symbol
+    Log.w(TAG, "Message", new RuntimeException("RuntimeException"));
+    ^
+  symbol:   variable Log
+  location: class CodexTest_0_7_8

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_54.java:69: error: cannot find symbol
+                BytesReference.bytes(request),
+                              ^
+  symbol:   method bytes(org.elasticsearch.action.index.IndexRequest)
+  location: class org.elasticsearch.common.bytes.BytesReference

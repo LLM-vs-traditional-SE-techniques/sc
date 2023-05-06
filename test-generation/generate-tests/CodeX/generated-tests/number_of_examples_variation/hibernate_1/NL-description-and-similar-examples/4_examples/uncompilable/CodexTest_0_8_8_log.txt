@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_8_8.java:24: error: <identifier> expected
+Input: public Short toShort(Boolean value) {
+     ^
+CodexTest_0_8_8.java:27: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_8.java:37: error: <identifier> expected
+Input: public String toString(Boolean value) {
+     ^
+CodexTest_0_8_8.java:40: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_8.java:50: error: <identifier> expected
+Input: public String toString(Boolean value) {
+     ^
+CodexTest_0_8_8.java:53: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_8.java:63: error: <identifier> expected
+Input: public <X> X unwrap(Boolean value, Class<X> type, WrapperOptions options) {
+     ^
+CodexTest_0_8_8.java:71: error: ')' expected
+			return (X
+			         ^
+CodexTest_0_8_8.java:72: error: reached end of file while parsing
+}
+ ^

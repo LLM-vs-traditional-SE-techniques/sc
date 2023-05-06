@@ -1,0 +1,214 @@
+isCompilable => false
+CodexTest_0_9_22.java:29: error: ']' expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                 ^
+CodexTest_0_9_22.java:29: error: ';' expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                  ^
+CodexTest_0_9_22.java:29: error: illegal start of type
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                    ^
+CodexTest_0_9_22.java:29: error: <identifier> expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                     ^
+CodexTest_0_9_22.java:29: error: ';' expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                         ^
+CodexTest_0_9_22.java:29: error: illegal start of type
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                             ^
+CodexTest_0_9_22.java:29: error: <identifier> expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                              ^
+CodexTest_0_9_22.java:29: error: ';' expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                 ^
+CodexTest_0_9_22.java:29: error: illegal start of type
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                        ^
+CodexTest_0_9_22.java:29: error: <identifier> expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                         ^
+CodexTest_0_9_22.java:29: error: ';' expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                          ^
+CodexTest_0_9_22.java:29: error: illegal start of type
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                             ^
+CodexTest_0_9_22.java:29: error: <identifier> expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                              ^
+CodexTest_0_9_22.java:29: error: ';' expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                               ^
+CodexTest_0_9_22.java:29: error: illegal start of type
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                                 ^
+CodexTest_0_9_22.java:29: error: <identifier> expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                                  ^
+CodexTest_0_9_22.java:29: error: ';' expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                                    ^
+CodexTest_0_9_22.java:29: error: illegal start of type
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                                      ^
+CodexTest_0_9_22.java:29: error: <identifier> expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                                       ^
+CodexTest_0_9_22.java:29: error: ';' expected
+        wtmatrix[0] = new DenseDoubleMatrix1D(new double[] { 0, 2, 1 });
+                                                                        ^
+CodexTest_0_9_22.java:30: error: illegal start of type
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                ^
+CodexTest_0_9_22.java:30: error: <identifier> expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                 ^
+CodexTest_0_9_22.java:30: error: ';' expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                  ^
+CodexTest_0_9_22.java:30: error: illegal start of type
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                    ^
+CodexTest_0_9_22.java:30: error: <identifier> expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                     ^
+CodexTest_0_9_22.java:30: error: ';' expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                         ^
+CodexTest_0_9_22.java:30: error: illegal start of type
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                             ^
+CodexTest_0_9_22.java:30: error: <identifier> expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                              ^
+CodexTest_0_9_22.java:30: error: ';' expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                 ^
+CodexTest_0_9_22.java:30: error: illegal start of type
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                        ^
+CodexTest_0_9_22.java:30: error: <identifier> expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                         ^
+CodexTest_0_9_22.java:30: error: ';' expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                          ^
+CodexTest_0_9_22.java:30: error: illegal start of type
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                             ^
+CodexTest_0_9_22.java:30: error: <identifier> expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                              ^
+CodexTest_0_9_22.java:30: error: ';' expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                               ^
+CodexTest_0_9_22.java:30: error: illegal start of type
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                                 ^
+CodexTest_0_9_22.java:30: error: <identifier> expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                                  ^
+CodexTest_0_9_22.java:30: error: ';' expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                                    ^
+CodexTest_0_9_22.java:30: error: illegal start of type
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                                      ^
+CodexTest_0_9_22.java:30: error: <identifier> expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                                       ^
+CodexTest_0_9_22.java:30: error: ';' expected
+        wtmatrix[1] = new DenseDoubleMatrix1D(new double[] { 2, 0, 2 });
+                                                                        ^
+CodexTest_0_9_22.java:31: error: illegal start of type
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                ^
+CodexTest_0_9_22.java:31: error: <identifier> expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                 ^
+CodexTest_0_9_22.java:31: error: ';' expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                  ^
+CodexTest_0_9_22.java:31: error: illegal start of type
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                    ^
+CodexTest_0_9_22.java:31: error: <identifier> expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                     ^
+CodexTest_0_9_22.java:31: error: ';' expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                         ^
+CodexTest_0_9_22.java:31: error: illegal start of type
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                             ^
+CodexTest_0_9_22.java:31: error: <identifier> expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                              ^
+CodexTest_0_9_22.java:31: error: ';' expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                 ^
+CodexTest_0_9_22.java:31: error: illegal start of type
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                        ^
+CodexTest_0_9_22.java:31: error: <identifier> expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                         ^
+CodexTest_0_9_22.java:31: error: ';' expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                          ^
+CodexTest_0_9_22.java:31: error: illegal start of type
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                             ^
+CodexTest_0_9_22.java:31: error: <identifier> expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                              ^
+CodexTest_0_9_22.java:31: error: ';' expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                               ^
+CodexTest_0_9_22.java:31: error: illegal start of type
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                                 ^
+CodexTest_0_9_22.java:31: error: <identifier> expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                                  ^
+CodexTest_0_9_22.java:31: error: ';' expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                                    ^
+CodexTest_0_9_22.java:31: error: illegal start of type
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                                      ^
+CodexTest_0_9_22.java:31: error: <identifier> expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                                       ^
+CodexTest_0_9_22.java:31: error: ';' expected
+        wtmatrix[2] = new DenseDoubleMatrix1D(new double[] { 1, 2, 0 });
+                                                                        ^
+CodexTest_0_9_22.java:32: error: illegal start of type
+        DoubleMatrix1D[] yrowmatrix = new DoubleMatrix1D[3];
+                      ^
+CodexTest_0_9_22.java:32: error: <identifier> expected
+        DoubleMatrix1D[] yrowmatrix = new DoubleMatrix1D[3];
+                       ^
+CodexTest_0_9_22.java:32: error: ';' expected
+        DoubleMatrix1D[] yrowmatrix = new DoubleMatrix1D[3];
+                        ^
+CodexTest_0_9_22.java:32: error: illegal start of type
+        DoubleMatrix1D[] yrowmatrix = new DoubleMatrix1D[3];
+                                    ^
+CodexTest_0_9_22.java:32: error: <identifier> expected
+        DoubleMatrix1D[] yrowmatrix = new DoubleMatrix1D[3];
+                                     ^
+CodexTest_0_9_22.java:32: error: ';' expected
+        DoubleMatrix1D[] yrowmatrix = new DoubleMatrix1D[3];
+                                         ^
+CodexTest_0_9_22.java:32: error: illegal start of type
+        DoubleMatrix1D[] yrowmatrix = new DoubleMatrix1D[3];
+                                                        ^
+CodexTest_0_9_22.java:32: error: <identifier> expected
+        DoubleMatrix1D[] yrowmatrix = new DoubleMatrix1D[3];
+                                                         ^
+CodexTest_0_9_22.java:32: error: ';' expected
+        DoubleMatrix1D[] yrowmatrix = new DoubleMatrix1D[3];
+                                                          ^

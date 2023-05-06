@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_36.java:77: error: cannot find symbol
+        assertThat(deserializedRequest.source(), not(equalTo(null)));
+                                                     ^
+  symbol:   method equalTo(<nulltype>)
+  location: class CodexTest_0_7_36
+CodexTest_0_7_36.java:78: error: cannot find symbol
+        assertThat(deserializedRequest.sourceAsMap().size(), is(2));
+                                                             ^
+  symbol:   method is(int)
+  location: class CodexTest_0_7_36
+CodexTest_0_7_36.java:79: error: cannot find symbol
+        assertThat(deserializedRequest.sourceAsMap().get("foo").toString(), equalTo("bar"));
+                                                                            ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_7_36
+CodexTest_0_7_36.java:80: error: cannot find symbol
+        assertThat(deserializedRequest.sourceAsMap().get("foo1").toString(), equalTo("bar1"));
+                                                                             ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_7_36
+CodexTest_0_7_36.java:81: error: cannot find symbol
+        assertThat(deserializedRequest.opType(), equalTo(DocWriteRequest.OpType.INDEX));
+                                                 ^
+  symbol:   method equalTo(org.elasticsearch.action.DocWriteRequest.OpType)
+  location: class CodexTest_0_7_36

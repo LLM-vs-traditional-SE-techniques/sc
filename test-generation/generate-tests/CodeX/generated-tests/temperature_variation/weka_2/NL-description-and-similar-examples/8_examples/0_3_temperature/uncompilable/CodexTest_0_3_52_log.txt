@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_52.java:42: error: ')' expected
+    insts.insertAttributeAt(new Attribute("Att" + (numAtts
+                                                          ^
+CodexTest_0_3_52.java:43: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,73 @@
+isCompilable => false
+CodexTest_0_8_3.java:26: error: ']' expected
+            bytes1[1] = (byte) 0xff;
+                   ^
+CodexTest_0_8_3.java:26: error: ';' expected
+            bytes1[1] = (byte) 0xff;
+                    ^
+CodexTest_0_8_3.java:26: error: illegal start of type
+            bytes1[1] = (byte) 0xff;
+                      ^
+CodexTest_0_8_3.java:26: error: <identifier> expected
+            bytes1[1] = (byte) 0xff;
+                       ^
+CodexTest_0_8_3.java:26: error: ';' expected
+            bytes1[1] = (byte) 0xff;
+                         ^
+CodexTest_0_8_3.java:26: error: illegal start of type
+            bytes1[1] = (byte) 0xff;
+                             ^
+CodexTest_0_8_3.java:26: error: <identifier> expected
+            bytes1[1] = (byte) 0xff;
+                              ^
+CodexTest_0_8_3.java:28: error: invalid method declaration; return type required
+            assertEquals(length, blob.getBytes().length);
+            ^
+CodexTest_0_8_3.java:28: error: <identifier> expected
+            assertEquals(length, blob.getBytes().length);
+                               ^
+CodexTest_0_8_3.java:28: error: <identifier> expected
+            assertEquals(length, blob.getBytes().length);
+                                              ^
+CodexTest_0_8_3.java:28: error: ';' expected
+            assertEquals(length, blob.getBytes().length);
+                                               ^
+CodexTest_0_8_3.java:28: error: illegal start of type
+            assertEquals(length, blob.getBytes().length);
+                                                ^
+CodexTest_0_8_3.java:28: error: ';' expected
+            assertEquals(length, blob.getBytes().length);
+                                                       ^
+CodexTest_0_8_3.java:29: error: invalid method declaration; return type required
+            assertEquals(length, blob2.getBytes().length);
+            ^
+CodexTest_0_8_3.java:29: error: <identifier> expected
+            assertEquals(length, blob2.getBytes().length);
+                               ^
+CodexTest_0_8_3.java:29: error: <identifier> expected
+            assertEquals(length, blob2.getBytes().length);
+                                               ^
+CodexTest_0_8_3.java:29: error: ';' expected
+            assertEquals(length, blob2.getBytes().length);
+                                                ^
+CodexTest_0_8_3.java:29: error: illegal start of type
+            assertEquals(length, blob2.getBytes().length);
+                                                 ^
+CodexTest_0_8_3.java:29: error: ';' expected
+            assertEquals(length, blob2.getBytes().length);
+                                                        ^
+CodexTest_0_8_3.java:30: error: invalid method declaration; return type required
+            assertEquals(blob, blob2);
+            ^
+CodexTest_0_8_3.java:30: error: <identifier> expected
+            assertEquals(blob, blob2);
+                             ^
+CodexTest_0_8_3.java:30: error: <identifier> expected
+            assertEquals(blob, blob2);
+                                    ^
+CodexTest_0_8_3.java:32: error: <identifier> expected
+Input: public static boolean equal(Object a, Object b) {
+     ^
+CodexTest_0_8_3.java:35: error: <identifier> expected
+Output: public static void main(String[] args) {
+      ^

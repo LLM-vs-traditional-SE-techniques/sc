@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_15.java:20: error: cannot find symbol
+		Graph graph = createSimpleGraph();
+		              ^
+  symbol:   method createSimpleGraph()
+  location: class CodexTest_0_8_15
+CodexTest_0_8_15.java:23: error: cannot find symbol
+		path1.setRoot(graph.getNode(a));
+		                            ^
+  symbol:   variable a
+  location: class CodexTest_0_8_15
+CodexTest_0_8_15.java:24: error: cannot find symbol
+		path2.setRoot(graph.getNode(b));
+		                            ^
+  symbol:   variable b
+  location: class CodexTest_0_8_15

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_40.java:70: error: cannot find symbol
+        assertEquals("{\"foo\":\"bar\"}", indexRequest.getSource().utf8ToString());
+                                                      ^
+  symbol:   method getSource()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest

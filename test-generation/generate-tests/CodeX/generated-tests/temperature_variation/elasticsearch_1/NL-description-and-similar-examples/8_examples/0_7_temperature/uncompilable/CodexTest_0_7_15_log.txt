@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_7_15.java:65: error: cannot find symbol
+        String[] result = this.parent.split("/");
+                              ^
+  symbol: variable parent

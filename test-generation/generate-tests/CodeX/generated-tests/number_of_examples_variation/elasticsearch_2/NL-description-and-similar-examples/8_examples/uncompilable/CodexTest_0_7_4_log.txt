@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_4.java:71: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("Failed to generate [{key=value}]"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_7_4

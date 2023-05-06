@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_5_4.java:23: error: incompatible types: int cannot be converted to org.graphstream.graph.Edge
+        p1.add(0);
+               ^
+CodexTest_0_5_4.java:25: error: incompatible types: int cannot be converted to org.graphstream.graph.Edge
+        p2.add(0);
+               ^
+CodexTest_0_5_4.java:27: error: incompatible types: int cannot be converted to org.graphstream.graph.Edge
+        p1.add(0);
+               ^
+CodexTest_0_5_4.java:29: error: incompatible types: int cannot be converted to org.graphstream.graph.Edge
+        p2.add(1);
+               ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

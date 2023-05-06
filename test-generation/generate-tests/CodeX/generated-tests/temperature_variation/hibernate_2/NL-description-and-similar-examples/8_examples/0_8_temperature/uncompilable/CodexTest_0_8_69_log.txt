@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_69.java:24: error: cannot find symbol
+            assertThat(npe.getMessage(), equalTo("The string must not be null"));
+                                         ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_69

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_94.java:27: error: incomparable types: java.lang.Object and boolean
+        Assert.assertTrue(v.remove(1) == true);
+                                      ^
+Note: CodexTest_0_9_94.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

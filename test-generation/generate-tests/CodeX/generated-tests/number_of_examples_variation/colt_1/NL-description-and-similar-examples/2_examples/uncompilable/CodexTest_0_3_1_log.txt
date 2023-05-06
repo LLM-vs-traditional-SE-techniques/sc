@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_1.java:34: error: cannot find symbol
+		  assertEquals((i+1) + ". value differs", values[i], vector.getElement(i));
+		                                                           ^
+  symbol:   method getElement(int)
+  location: variable vector of type cern.colt.matrix.DoubleMatrix1D

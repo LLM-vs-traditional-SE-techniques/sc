@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_43.java:65: error: cannot find symbol
+        IndicesAliasesRequestBuilder builder = new IndicesAliasesRequestBuilder(client, IndicesAliasesAction.INSTANCE);
+        ^
+  symbol:   class IndicesAliasesRequestBuilder
+  location: class CodexTest_0_9_43
+CodexTest_0_9_43.java:65: error: cannot find symbol
+        IndicesAliasesRequestBuilder builder = new IndicesAliasesRequestBuilder(client, IndicesAliasesAction.INSTANCE);
+                                                   ^
+  symbol:   class IndicesAliasesRequestBuilder
+  location: class CodexTest_0_9_43
+CodexTest_0_9_43.java:65: error: cannot find symbol
+        IndicesAliasesRequestBuilder builder = new IndicesAliasesRequestBuilder(client, IndicesAliasesAction.INSTANCE);
+                                                                                ^
+  symbol:   variable client
+  location: class CodexTest_0_9_43
+CodexTest_0_9_43.java:65: error: cannot find symbol
+        IndicesAliasesRequestBuilder builder = new IndicesAliasesRequestBuilder(client, IndicesAliasesAction.INSTANCE);
+                                                                                        ^
+  symbol:   variable IndicesAliasesAction
+  location: class CodexTest_0_9_43
+CodexTest_0_9_43.java:66: error: cannot find symbol
+        IndicesAliasesRequest request = builder.request();
+        ^
+  symbol:   class IndicesAliasesRequest
+  location: class CodexTest_0_9_43

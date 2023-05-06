@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_7.java:38: error: package com.cern.jet.math.Functions does not exist
+        matrix.assign(new com.cern.jet.math.Functions.DoubleFunction() {
+                                                     ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_51.java:21: error: cannot find symbol
+        boolean b = list.contains(1);
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_7_51

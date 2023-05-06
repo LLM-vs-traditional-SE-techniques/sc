@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_60.java:66: error: cannot find symbol
+        Alias alias = Alias.newAlias(parent);
+        ^
+  symbol:   class Alias
+  location: class CodexTest_0_6_60
+CodexTest_0_6_60.java:66: error: cannot find symbol
+        Alias alias = Alias.newAlias(parent);
+                      ^
+  symbol:   variable Alias
+  location: class CodexTest_0_6_60

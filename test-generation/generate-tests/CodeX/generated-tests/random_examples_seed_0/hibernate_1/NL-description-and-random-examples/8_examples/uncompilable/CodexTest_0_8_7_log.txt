@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_7.java:16: error: cannot find symbol
+		assertFalse( "should be false", toInt( true ) > Short.MAX_VALUE );
+		                                ^
+  symbol:   method toInt(boolean)
+  location: class CodexTest_0_8_7

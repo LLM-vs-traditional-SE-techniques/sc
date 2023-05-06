@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_10.java:20: error: cannot find symbol
+      Instances insts = makeTestInstances();
+                        ^
+  symbol:   method makeTestInstances()
+  location: class CodexTest_0_9_10

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_55.java:48: error: ')' expected
+        assertFalse(list.contains(Integer.valueOf(25
+                                                    ^
+CodexTest_0_3_55.java:49: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_2_21.java:21: error: cannot find symbol
+        assertTrue(list.contains(new Integer(1)));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_2_21
+CodexTest_0_2_21.java:22: error: cannot find symbol
+        assertTrue(list.contains(new Integer(2)));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_2_21
+CodexTest_0_2_21.java:23: error: cannot find symbol
+        assertTrue(list.contains(new Integer(3)));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_2_21
+CodexTest_0_2_21.java:24: error: cannot find symbol
+        assertTrue(list.contains(new Integer(4)));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_2_21
+CodexTest_0_2_21.java:25: error: cannot find symbol
+        assertTrue(list.contains(new Integer(5)));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_2_21
+CodexTest_0_2_21.java:26: error: cannot find symbol
+        assertTrue(list.contains(new Integer(6)));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_2_21
+CodexTest_0_2_21.java:27: error: cannot find symbol
+        assertTrue(list.contains(new Integer(7)));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_2_21
+CodexTest_0_2_21.java:28: error: cannot find symbol
+        assertTrue(list.contains(new Integer(8)));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_2_21
+CodexTest_0_2_21.java:29: error: cannot find symbol
+        assertTrue(list.contains(new Integer(9)));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_2_21
+CodexTest_0_2_21.java:30: error: cannot find symbol
+        assertTrue(list.contains(new Integer(10)));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_2_21
+CodexTest_0_2_21.java:31: error: cannot find symbol
+        assertFalse(list.contains(new Integer(11)));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_2_21

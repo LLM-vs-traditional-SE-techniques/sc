@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_58.java:65: error: cannot find symbol
+        Path path = new Path("/projects/R");
+        ^
+  symbol:   class Path
+  location: class CodexTest_0_7_58
+CodexTest_0_7_58.java:65: error: cannot find symbol
+        Path path = new Path("/projects/R");
+                        ^
+  symbol:   class Path
+  location: class CodexTest_0_7_58

@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_5_68.java:25: error: cannot find symbol
+        p1.add(g.getNode(a));
+                         ^
+  symbol:   variable a
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:25: error: cannot find symbol
+        p1.add(g.getNode(a));
+               ^
+  symbol:   variable g
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:26: error: cannot find symbol
+        p2.add(g.getNode(a));
+                         ^
+  symbol:   variable a
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:26: error: cannot find symbol
+        p2.add(g.getNode(a));
+               ^
+  symbol:   variable g
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:30: error: cannot find symbol
+        p1.add(g.getNode(b));
+                         ^
+  symbol:   variable b
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:30: error: cannot find symbol
+        p1.add(g.getNode(b));
+               ^
+  symbol:   variable g
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:31: error: cannot find symbol
+        p2.add(g.getNode(b));
+                         ^
+  symbol:   variable b
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:31: error: cannot find symbol
+        p2.add(g.getNode(b));
+               ^
+  symbol:   variable g
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:35: error: cannot find symbol
+        p1.add(g.getNode(c));
+                         ^
+  symbol:   variable c
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:35: error: cannot find symbol
+        p1.add(g.getNode(c));
+               ^
+  symbol:   variable g
+  location: class CodexTest_0_5_68

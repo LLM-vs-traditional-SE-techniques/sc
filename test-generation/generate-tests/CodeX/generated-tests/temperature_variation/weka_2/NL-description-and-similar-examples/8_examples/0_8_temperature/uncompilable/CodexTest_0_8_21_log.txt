@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_21.java:20: error: cannot find symbol
+        Instances model = createModel(1);
+                          ^
+  symbol:   method createModel(int)
+  location: class CodexTest_0_8_21
+CodexTest_0_8_21.java:21: error: cannot find symbol
+        Instance instance = featureVector.getAsInstance(model, random);
+                                                               ^
+  symbol:   variable random
+  location: class CodexTest_0_8_21
+Note: CodexTest_0_8_21.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

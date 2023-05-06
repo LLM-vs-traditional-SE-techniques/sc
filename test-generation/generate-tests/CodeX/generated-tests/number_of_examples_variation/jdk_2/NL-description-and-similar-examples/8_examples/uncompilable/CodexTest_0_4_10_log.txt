@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_4_10.java:21: error: cannot find symbol
+        assertTrue(this.list.contains(this.a));
+                                          ^
+  symbol: variable a
+CodexTest_0_4_10.java:21: error: cannot find symbol
+        assertTrue(this.list.contains(this.a));
+                       ^
+  symbol: variable list
+CodexTest_0_4_10.java:22: error: cannot find symbol
+        assertTrue(this.list.contains(this.b));
+                                          ^
+  symbol: variable b
+CodexTest_0_4_10.java:22: error: cannot find symbol
+        assertTrue(this.list.contains(this.b));
+                       ^
+  symbol: variable list
+CodexTest_0_4_10.java:23: error: cannot find symbol
+        assertFalse(this.list.contains(this.c));
+                                           ^
+  symbol: variable c
+CodexTest_0_4_10.java:23: error: cannot find symbol
+        assertFalse(this.list.contains(this.c));
+                        ^
+  symbol: variable list

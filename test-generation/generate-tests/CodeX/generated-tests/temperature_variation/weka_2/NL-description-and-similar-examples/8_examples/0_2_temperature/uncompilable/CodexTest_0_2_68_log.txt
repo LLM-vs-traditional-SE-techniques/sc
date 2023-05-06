@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_2_68.java:59: error: illegal start of expression
+}
+^
+CodexTest_0_2_68.java:59: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_2_68.java:46: error: 'try' without 'catch', 'finally' or resource declarations
+    try {
+    ^

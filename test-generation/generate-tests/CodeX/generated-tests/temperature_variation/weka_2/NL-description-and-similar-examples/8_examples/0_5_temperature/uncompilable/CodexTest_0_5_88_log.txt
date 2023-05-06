@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_88.java:18: error: cannot find symbol
+        Instances inst = TestInstances.makeTestInstances();
+                                      ^
+  symbol:   method makeTestInstances()
+  location: class weka.core.TestInstances

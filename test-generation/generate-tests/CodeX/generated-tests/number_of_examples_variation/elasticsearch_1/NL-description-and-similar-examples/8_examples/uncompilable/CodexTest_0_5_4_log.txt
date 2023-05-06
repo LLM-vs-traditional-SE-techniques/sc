@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_4.java:66: error: cannot find symbol
+        GetAliasesRequest getAliasesRequest = new GetAliasesRequest(parent);
+        ^
+  symbol:   class GetAliasesRequest
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:66: error: cannot find symbol
+        GetAliasesRequest getAliasesRequest = new GetAliasesRequest(parent);
+                                                  ^
+  symbol:   class GetAliasesRequest
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:67: error: cannot find symbol
+        assertThat(getAliasesRequest.parent(), equalTo(parent));
+                                               ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_5_4

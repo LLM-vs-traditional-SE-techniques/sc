@@ -1,0 +1,43 @@
+isCompilable => false
+CodexTest_0_9_3.java:64: error: illegal start of type
+     * Test for {@link IndexRequest#source(Map, XContentType)}
+     ^
+CodexTest_0_9_3.java:64: error: ';' expected
+     * Test for {@link IndexRequest#source(Map, XContentType)}
+      ^
+CodexTest_0_9_3.java:64: error: illegal start of type
+     * Test for {@link IndexRequest#source(Map, XContentType)}
+            ^
+CodexTest_0_9_3.java:64: error: <identifier> expected
+     * Test for {@link IndexRequest#source(Map, XContentType)}
+               ^
+CodexTest_0_9_3.java:64: error: illegal start of type
+     * Test for {@link IndexRequest#source(Map, XContentType)}
+                 ^
+CodexTest_0_9_3.java:64: error: ';' expected
+     * Test for {@link IndexRequest#source(Map, XContentType)}
+                      ^
+CodexTest_0_9_3.java:64: error: illegal character: '#'
+     * Test for {@link IndexRequest#source(Map, XContentType)}
+                                   ^
+CodexTest_0_9_3.java:64: error: illegal start of type
+     * Test for {@link IndexRequest#source(Map, XContentType)}
+                                          ^
+CodexTest_0_9_3.java:64: error: ';' expected
+     * Test for {@link IndexRequest#source(Map, XContentType)}
+                                           ^
+CodexTest_0_9_3.java:64: error: illegal start of type
+     * Test for {@link IndexRequest#source(Map, XContentType)}
+                                              ^
+CodexTest_0_9_3.java:64: error: ';' expected
+     * Test for {@link IndexRequest#source(Map, XContentType)}
+                                                            ^
+CodexTest_0_9_3.java:65: error: class, interface, or enum expected
+     */
+     ^
+CodexTest_0_9_3.java:66: error: class, interface, or enum expected
+    public void testSourceMapXContentType2() throws IOException {
+           ^
+CodexTest_0_9_3.java:69: error: class, interface, or enum expected
+}
+^

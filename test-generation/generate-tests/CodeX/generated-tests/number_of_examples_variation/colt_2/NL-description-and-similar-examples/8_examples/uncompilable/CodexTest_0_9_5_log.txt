@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_5.java:30: error: cannot find symbol
+		AbstractDoubleMatrix2D matrix = (AbstractDoubleMatrix2D)
+		^
+  symbol:   class AbstractDoubleMatrix2D
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:30: error: cannot find symbol
+		AbstractDoubleMatrix2D matrix = (AbstractDoubleMatrix2D)
+		                                 ^
+  symbol:   class AbstractDoubleMatrix2D
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:31: error: cannot find symbol
+			new DenseDoubleMatrix2D(5,5).assign(MathFunctions.chain(MathFunctions.minus,
+			                                                        ^
+  symbol:   variable MathFunctions
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:32: error: cannot find symbol
+												   MathFunctions.square,
+												   ^
+  symbol:   variable MathFunctions
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:33: error: cannot find symbol
+												   MathFunctions.plus(3)));
+												   ^
+  symbol:   variable MathFunctions
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:31: error: cannot find symbol
+			new DenseDoubleMatrix2D(5,5).assign(MathFunctions.chain(MathFunctions.minus,
+			                                    ^
+  symbol:   variable MathFunctions
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:34: error: cannot find symbol
+		AbstractDoubleMatrix2D matrix2 = (AbstractDoubleMatrix2D)
+		^
+  symbol:   class AbstractDoubleMatrix2D
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:34: error: cannot find symbol
+		AbstractDoubleMatrix2D matrix2 = (AbstractDoubleMatrix2D)
+		                                  ^
+  symbol:   class AbstractDoubleMatrix2D
+  location: class CodexTest_0_9_5

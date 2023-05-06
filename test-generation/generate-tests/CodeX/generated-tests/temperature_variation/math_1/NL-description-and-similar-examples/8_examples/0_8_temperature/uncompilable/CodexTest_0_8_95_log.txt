@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_95.java:32: error: cannot find symbol
+        SparseDoubleMatrix1D vector = new SparseDoubleMatrix1D(data);
+        ^
+  symbol:   class SparseDoubleMatrix1D
+  location: class CodexTest_0_8_95
+CodexTest_0_8_95.java:32: error: cannot find symbol
+        SparseDoubleMatrix1D vector = new SparseDoubleMatrix1D(data);
+                                          ^
+  symbol:   class SparseDoubleMatrix1D
+  location: class CodexTest_0_8_95

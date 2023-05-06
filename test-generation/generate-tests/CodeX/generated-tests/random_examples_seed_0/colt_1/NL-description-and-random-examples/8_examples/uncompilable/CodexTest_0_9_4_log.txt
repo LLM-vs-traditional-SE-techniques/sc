@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_4.java:38: error: illegal start of expression
+        assertEquals(Employee[ + empId + ,Joe,11], emp.toString());
+                                         ^
+CodexTest_0_9_4.java:38: error: ')' expected
+        assertEquals(Employee[ + empId + ,Joe,11], emp.toString());
+                                          ^
+CodexTest_0_9_4.java:38: error: ';' expected
+        assertEquals(Employee[ + empId + ,Joe,11], emp.toString());
+                                             ^
+CodexTest_0_9_4.java:38: error: not a statement
+        assertEquals(Employee[ + empId + ,Joe,11], emp.toString());
+                                              ^
+CodexTest_0_9_4.java:38: error: ';' expected
+        assertEquals(Employee[ + empId + ,Joe,11], emp.toString());
+                                                ^
+CodexTest_0_9_4.java:38: error: ';' expected
+        assertEquals(Employee[ + empId + ,Joe,11], emp.toString());
+                                                                 ^

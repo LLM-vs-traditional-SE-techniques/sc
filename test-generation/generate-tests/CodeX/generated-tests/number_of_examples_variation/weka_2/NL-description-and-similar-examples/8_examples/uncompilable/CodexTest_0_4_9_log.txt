@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_4_9.java:23: error: cannot find symbol
+        Instances dataset = new Instances("test", getAttributes(numAttributes, numValues), numInstances);
+                                                  ^
+  symbol:   method getAttributes(int,int)
+  location: class CodexTest_0_4_9
+Note: CodexTest_0_4_9.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

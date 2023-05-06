@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_37.java:22: error: incompatible types: weka.core.Instance cannot be converted to weka.core.Instances
+      model = v.getAsInstance(model, null);
+                             ^
+Note: CodexTest_0_4_37.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

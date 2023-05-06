@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_7_5.java:20: error: cannot find symbol
+  public void testRemoveVsSet(int index, T value) {
+                                         ^
+  symbol:   class T
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:21: error: cannot find symbol
+    final T[] es = elementData();
+          ^
+  symbol:   class T
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:21: error: cannot find symbol
+    final T[] es = elementData();
+                   ^
+  symbol:   method elementData()
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:22: error: cannot find symbol
+    final T oldValue;
+          ^
+  symbol:   class T
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:29: error: incompatible types: unexpected return value
+    return oldValue;
+           ^

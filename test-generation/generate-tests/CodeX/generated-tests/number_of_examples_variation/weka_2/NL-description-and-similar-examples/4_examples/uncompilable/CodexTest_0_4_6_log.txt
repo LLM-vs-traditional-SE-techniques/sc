@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_4_6.java:21: error: cannot find symbol
+    Instances model = new Instances("Test", new ArrayList<Attribute>(), numAttributes);
+                                                ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:26: error: cannot find symbol
+      model.insertAttributeAt(new Attribute("Test" + i, new ArrayList<String>(numValues)), i);
+                                                            ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_4_6
+Note: CodexTest_0_4_6.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

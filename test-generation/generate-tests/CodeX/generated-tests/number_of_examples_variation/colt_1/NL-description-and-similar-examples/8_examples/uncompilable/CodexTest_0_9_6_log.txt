@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_9_6.java:30: error: cannot find symbol
+        double[][] data = new double[COUNT][COUNT];
+                                     ^
+  symbol:   variable COUNT
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:30: error: cannot find symbol
+        double[][] data = new double[COUNT][COUNT];
+                                            ^
+  symbol:   variable COUNT
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:31: error: cannot find symbol
+        for (int n = 0; n < COUNT; n++) {
+                            ^
+  symbol:   variable COUNT
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:32: error: cannot find symbol
+            for (int m = 0; m < COUNT; m++) {
+                                ^
+  symbol:   variable COUNT
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:41: error: cannot find symbol
+        double[] start = new double[COUNT];
+                                    ^
+  symbol:   variable COUNT
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:42: error: cannot find symbol
+        for (int i = 0; i < COUNT; i++) {
+                            ^
+  symbol:   variable COUNT
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:45: error: cannot find symbol
+        DenseDoubleMatrix1D vec1 = new DenseDoubleMatrix1D(COUNT);
+                                                           ^
+  symbol:   variable COUNT
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:47: error: cannot find symbol
+        DenseDoubleMatrix2D mat1 = new DenseDoubleMatrix2D(COUNT,COUNT);
+                                                           ^
+  symbol:   variable COUNT
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:47: error: cannot find symbol
+        DenseDoubleMatrix2D mat1 = new DenseDoubleMatrix2D(COUNT,COUNT);
+                                                                 ^
+  symbol:   variable COUNT
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:49: error: cannot find symbol
+        DoubleMatrix1D result = mat1.zMult(vec1, null, COUNT / 2, null);
+                                                       ^
+  symbol:   variable COUNT
+  location: class CodexTest_0_9_6

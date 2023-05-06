@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_84.java:20: error: cannot find symbol
+    Vector1D v1 = new Vector1D(1);
+    ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_84
+CodexTest_0_8_84.java:20: error: cannot find symbol
+    Vector1D v1 = new Vector1D(1);
+                      ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_84
+CodexTest_0_8_84.java:21: error: cannot find symbol
+    Vector1D v2 = new Vector1D(1);
+    ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_84
+CodexTest_0_8_84.java:21: error: cannot find symbol
+    Vector1D v2 = new Vector1D(1);
+                      ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_84
+CodexTest_0_8_84.java:22: error: cannot find symbol
+    Vector1D v3 = new Vector1D(2);
+    ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_84
+CodexTest_0_8_84.java:22: error: cannot find symbol
+    Vector1D v3 = new Vector1D(2);
+                      ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_84

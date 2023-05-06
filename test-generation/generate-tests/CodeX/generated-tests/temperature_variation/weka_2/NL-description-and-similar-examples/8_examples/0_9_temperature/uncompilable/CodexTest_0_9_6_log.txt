@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_6.java:17: error: cannot find symbol
+  public <T> void forEach(T[] array, Consumer<? super T> action) {
+                                     ^
+  symbol:   class Consumer
+  location: class CodexTest_0_9_6

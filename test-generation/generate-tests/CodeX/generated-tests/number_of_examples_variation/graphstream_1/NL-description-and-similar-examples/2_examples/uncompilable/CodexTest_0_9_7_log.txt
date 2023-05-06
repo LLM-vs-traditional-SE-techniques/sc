@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_7.java:19: error: <identifier> expected
+Input: public void initValue(Value value, Node currentNode) {
+     ^
+CodexTest_0_9_7.java:23: error: <identifier> expected
+Output: @Test(expected = IllegalArgumentException.class)
+      ^
+CodexTest_0_9_7.java:26: error: reached end of file while parsing
+}
+ ^

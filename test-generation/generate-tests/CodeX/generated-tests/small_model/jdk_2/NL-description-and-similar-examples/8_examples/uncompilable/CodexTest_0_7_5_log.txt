@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_5.java:21: error: cannot find symbol
+    Assert.assertTrue("IndexOf returned invalid value", arr1.contains(1));
+                                                        ^
+  symbol:   variable arr1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:22: error: cannot find symbol
+    Assert.assertFalse("IndexOf returned invalid value", arr1.contains(5));
+                                                         ^
+  symbol:   variable arr1
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:23: error: cannot find symbol
+    Assert.assertTrue("IndexOf returned invalid value", arr2.contains("x"));
+                                                        ^
+  symbol:   variable arr2
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:24: error: cannot find symbol
+    Assert.assertFalse("IndexOf returned invalid value", arr2.contains("y"));
+                                                         ^
+  symbol:   variable arr2
+  location: class CodexTest_0_7_5

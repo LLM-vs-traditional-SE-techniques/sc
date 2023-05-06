@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_12.java:65: error: cannot find symbol
+        IndexMetaData indexMetaData = IndexMetaData.builder("test").settings(settings(Version.CURRENT))
+        ^
+  symbol:   class IndexMetaData
+  location: class CodexTest_0_6_12
+CodexTest_0_6_12.java:65: error: cannot find symbol
+        IndexMetaData indexMetaData = IndexMetaData.builder("test").settings(settings(Version.CURRENT))
+                                                                             ^
+  symbol:   method settings(org.elasticsearch.Version)
+  location: class CodexTest_0_6_12
+CodexTest_0_6_12.java:65: error: cannot find symbol
+        IndexMetaData indexMetaData = IndexMetaData.builder("test").settings(settings(Version.CURRENT))
+                                      ^
+  symbol:   variable IndexMetaData
+  location: class CodexTest_0_6_12

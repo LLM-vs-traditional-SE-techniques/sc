@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_8.java:21: error: cannot find symbol
+				List<Attribute> l_labattv = new ArrayList<Attribute>();
+				^
+  symbol:   class List
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:21: error: cannot find symbol
+				List<Attribute> l_labattv = new ArrayList<Attribute>();
+				                                ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:24: error: cannot find symbol
+				model = new Instances(new BufferedReader(new FileReader(l_labelFile)));
+				^
+  symbol:   variable model
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:24: error: cannot find symbol
+				model = new Instances(new BufferedReader(new FileReader(l_labelFile)));
+				                          ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:24: error: cannot find symbol
+				model = new Instances(new BufferedReader(new FileReader(l_labelFile)));
+				                                             ^
+  symbol:   class FileReader
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:24: error: cannot find symbol
+				model = new Instances(new BufferedReader(new FileReader(l_labelFile)));
+				                                                        ^
+  symbol:   variable l_labelFile
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:25: error: cannot find symbol
+				labInsts = new Instances(model,0);
+				^
+  symbol:   variable labInsts
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:25: error: cannot find symbol
+				labInsts = new Instances(model,0);
+				                         ^
+  symbol:   variable model
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:26: error: cannot find symbol
+				generateRandomLabels(l_labattv, model, num,random); 
+				                                ^
+  symbol:   variable model
+  location: class CodexTest_0_9_8

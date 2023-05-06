@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_2.java:24: error: cannot find symbol
+        assertEquals("subtract scalar",new AlgVector(new double[] {-1, -1, -1, -1, -1}), v.subtract(-2));
+                                                                                          ^
+  symbol:   method subtract(int)
+  location: variable v of type weka.core.AlgVector

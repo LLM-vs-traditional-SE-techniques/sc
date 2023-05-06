@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_63.java:20: error: cannot find symbol
+        Path p1 = createSimplePath();
+                  ^
+  symbol:   method createSimplePath()
+  location: class CodexTest_0_7_63
+CodexTest_0_7_63.java:21: error: cannot find symbol
+        Path p2 = createSimplePath();
+                  ^
+  symbol:   method createSimplePath()
+  location: class CodexTest_0_7_63

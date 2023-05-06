@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_7.java:66: error: no suitable constructor found for String(org.elasticsearch.common.bytes.BytesReference,java.nio.charset.Charset)
+      assertEquals("{\"field\":\"value\"}", new String(indexRequest.source(), StandardCharsets.UTF_8));
+                                            ^
+    constructor java.lang.String.String(byte[],int) is not applicable
+      (argument mismatch; org.elasticsearch.common.bytes.BytesReference cannot be converted to byte[])
+    constructor java.lang.String.String(byte[],java.lang.String) is not applicable
+      (argument mismatch; org.elasticsearch.common.bytes.BytesReference cannot be converted to byte[])
+    constructor java.lang.String.String(byte[],java.nio.charset.Charset) is not applicable
+      (argument mismatch; org.elasticsearch.common.bytes.BytesReference cannot be converted to byte[])
+    constructor java.lang.String.String(char[],boolean) is not applicable
+      (argument mismatch; org.elasticsearch.common.bytes.BytesReference cannot be converted to char[])
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

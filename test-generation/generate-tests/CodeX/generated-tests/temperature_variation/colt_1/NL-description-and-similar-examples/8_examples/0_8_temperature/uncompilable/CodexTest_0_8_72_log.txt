@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_72.java:32: error: incompatible types: cern.colt.matrix.DoubleMatrix1D cannot be converted to cern.colt.matrix.impl.DenseDoubleMatrix1D
+         DenseDoubleMatrix1D res = d.assign(d);
+                                           ^

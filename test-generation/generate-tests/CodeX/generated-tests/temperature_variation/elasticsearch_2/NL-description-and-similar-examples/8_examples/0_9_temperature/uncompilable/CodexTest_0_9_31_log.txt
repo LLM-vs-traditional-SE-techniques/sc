@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_9_31.java:68: error: cannot find symbol
+            hasFeature(IndexRequest::source, hasFeature(Map::size, equalTo(1))));
+                                                                   ^
+  symbol:   method equalTo(int)
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:68: error: invalid method reference
+            hasFeature(IndexRequest::source, hasFeature(Map::size, equalTo(1))));
+                                                        ^
+  non-static method size() cannot be referenced from a static context
+CodexTest_0_9_31.java:68: error: invalid method reference
+            hasFeature(IndexRequest::source, hasFeature(Map::size, equalTo(1))));
+                       ^
+  non-static method source() cannot be referenced from a static context

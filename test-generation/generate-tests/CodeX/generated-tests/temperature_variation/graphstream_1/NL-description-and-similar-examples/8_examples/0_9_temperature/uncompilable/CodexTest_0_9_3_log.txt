@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_9_3.java:20: error: cannot find symbol
+      Set<String> edgeSet = new HashSet<Edge>();
+      ^
+  symbol:   class Set
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:20: error: cannot find symbol
+      Set<String> edgeSet = new HashSet<Edge>();
+                                ^
+  symbol:   class HashSet
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:29: error: no suitable method found for contains(java.lang.String)
+      assertTrue("expected true but got false", p.contains("E1"));
+                                                 ^
+    method org.graphstream.graph.Path.contains(org.graphstream.graph.Node) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to org.graphstream.graph.Node)
+    method org.graphstream.graph.Path.contains(org.graphstream.graph.Edge) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to org.graphstream.graph.Edge)
+CodexTest_0_9_3.java:30: error: no suitable method found for contains(java.lang.String)
+      assertFalse("expected false but got true", p.contains("E2"));
+                                                  ^
+    method org.graphstream.graph.Path.contains(org.graphstream.graph.Node) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to org.graphstream.graph.Node)
+    method org.graphstream.graph.Path.contains(org.graphstream.graph.Edge) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to org.graphstream.graph.Edge)

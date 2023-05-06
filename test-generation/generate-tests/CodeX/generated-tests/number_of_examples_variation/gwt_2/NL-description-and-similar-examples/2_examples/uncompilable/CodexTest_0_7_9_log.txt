@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_7_9.java:19: error: <identifier> expected
+Input: public static String getPermutationStrongName() {
+     ^
+CodexTest_0_7_9.java:22: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_7_9.java:28: error: <identifier> expected
+Input: public static String getVersion() {
+     ^
+CodexTest_0_7_9.java:31: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_9.java:37: error: <identifier> expected
+Input: public static boolean isProdMode() {
+     ^
+CodexTest_0_7_9.java:40: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_9.java:50: error: reached end of file while parsing
+}
+ ^

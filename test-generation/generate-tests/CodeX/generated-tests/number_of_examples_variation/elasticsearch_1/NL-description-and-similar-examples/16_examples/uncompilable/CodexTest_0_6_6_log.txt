@@ -1,0 +1,27 @@
+isCompilable => false
+CodexTest_0_6_6.java:65: error: cannot find symbol
+        ParentChildJoinFieldMapper joinFieldMapper = new ParentChildJoinFieldMapper(new Mapper.BuilderContext(Settings.EMPTY, new ContentPath(1)), "join_field", "parent_type", "child_type", "parent", new StringFieldMapper.Builder("join_field"));
+        ^
+  symbol:   class ParentChildJoinFieldMapper
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:65: error: cannot find symbol
+        ParentChildJoinFieldMapper joinFieldMapper = new ParentChildJoinFieldMapper(new Mapper.BuilderContext(Settings.EMPTY, new ContentPath(1)), "join_field", "parent_type", "child_type", "parent", new StringFieldMapper.Builder("join_field"));
+                                                         ^
+  symbol:   class ParentChildJoinFieldMapper
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:65: error: package Mapper does not exist
+        ParentChildJoinFieldMapper joinFieldMapper = new ParentChildJoinFieldMapper(new Mapper.BuilderContext(Settings.EMPTY, new ContentPath(1)), "join_field", "parent_type", "child_type", "parent", new StringFieldMapper.Builder("join_field"));
+                                                                                              ^
+CodexTest_0_6_6.java:65: error: cannot find symbol
+        ParentChildJoinFieldMapper joinFieldMapper = new ParentChildJoinFieldMapper(new Mapper.BuilderContext(Settings.EMPTY, new ContentPath(1)), "join_field", "parent_type", "child_type", "parent", new StringFieldMapper.Builder("join_field"));
+                                                                                                              ^
+  symbol:   variable Settings
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:65: error: cannot find symbol
+        ParentChildJoinFieldMapper joinFieldMapper = new ParentChildJoinFieldMapper(new Mapper.BuilderContext(Settings.EMPTY, new ContentPath(1)), "join_field", "parent_type", "child_type", "parent", new StringFieldMapper.Builder("join_field"));
+                                                                                                                                  ^
+  symbol:   class ContentPath
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:65: error: package StringFieldMapper does not exist
+        ParentChildJoinFieldMapper joinFieldMapper = new ParentChildJoinFieldMapper(new Mapper.BuilderContext(Settings.EMPTY, new ContentPath(1)), "join_field", "parent_type", "child_type", "parent", new StringFieldMapper.Builder("join_field"));
+                                                                                                                                                                                                                             ^

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_6.java:27: error: cannot find symbol
+            SerializationUtils.clone(hc);
+            ^
+  symbol:   variable SerializationUtils
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:29: error: cannot find symbol
+        } catch (SerializationException ex) {
+                 ^
+  symbol:   class SerializationException
+  location: class CodexTest_0_9_6

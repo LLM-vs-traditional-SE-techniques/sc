@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_5_88.java:21: error: cannot find symbol
+        for (int i = 0; i < list.size(); i++) {
+                            ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88
+CodexTest_0_5_88.java:22: error: cannot find symbol
+            assertEquals(i, list.get(i).intValue());
+                            ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88
+CodexTest_0_5_88.java:24: error: cannot find symbol
+        assertEquals(new Integer(0), list.remove(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88
+CodexTest_0_5_88.java:25: error: cannot find symbol
+        assertEquals(new Integer(1), list.remove(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88
+CodexTest_0_5_88.java:26: error: cannot find symbol
+        assertEquals(new Integer(2), list.remove(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88
+CodexTest_0_5_88.java:27: error: cannot find symbol
+        assertEquals(new Integer(3), list.remove(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88
+CodexTest_0_5_88.java:28: error: cannot find symbol
+        assertEquals(new Integer(4), list.remove(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88
+CodexTest_0_5_88.java:29: error: cannot find symbol
+        assertEquals(new Integer(5), list.remove(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88
+CodexTest_0_5_88.java:30: error: cannot find symbol
+        assertEquals(new Integer(6), list.remove(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88
+CodexTest_0_5_88.java:31: error: cannot find symbol
+        assertEquals(new Integer(7), list.remove(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88
+CodexTest_0_5_88.java:32: error: cannot find symbol
+        assertEquals(new Integer(8), list.remove(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88
+CodexTest_0_5_88.java:33: error: cannot find symbol
+        assertEquals(new Integer(9), list.remove(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88
+CodexTest_0_5_88.java:35: error: cannot find symbol
+            list.remove(0);
+            ^
+  symbol:   variable list
+  location: class CodexTest_0_5_88

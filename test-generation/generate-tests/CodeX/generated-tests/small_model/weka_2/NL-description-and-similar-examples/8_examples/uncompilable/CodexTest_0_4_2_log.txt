@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_4_2.java:19: error: cannot find symbol
+    if (m_Elements != null) {
+        ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:21: error: cannot find symbol
+      newInst.setDataset(model);
+                         ^
+  symbol:   variable model
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:22: error: cannot find symbol
+      newInst.setValue(0, m_Elements[0]);
+                          ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:23: error: cannot find symbol
+      newInst.setValue(1, m_Elements[1]);
+                          ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:25: error: cannot find symbol
+    assertEquals(newInst, instance);
+                          ^
+  symbol:   variable instance
+  location: class CodexTest_0_4_2

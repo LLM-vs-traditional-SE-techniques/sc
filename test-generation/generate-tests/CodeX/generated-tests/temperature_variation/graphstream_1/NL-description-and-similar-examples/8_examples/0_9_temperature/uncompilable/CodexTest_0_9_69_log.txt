@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_69.java:23: error: <identifier> expected
+Input: public final boolean isBetween(int lower, int upper) {
+     ^
+CodexTest_0_9_69.java:26: error: <identifier> expected
+Output: public void testIsBetween() {
+      ^
+CodexTest_0_9_69.java:30: error: reached end of file while parsing
+}
+ ^

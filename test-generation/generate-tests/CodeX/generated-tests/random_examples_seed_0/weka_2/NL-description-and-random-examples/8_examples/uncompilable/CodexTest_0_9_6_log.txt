@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_9_6.java:19: error: cannot find symbol
+        Instances instances = mock(Instances.class);
+                              ^
+  symbol:   method mock(java.lang.Class<weka.core.Instances>)
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:20: error: cannot find symbol
+        when(instances.numAttributes()).thenReturn(3);
+        ^
+  symbol:   method when(int)
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:22: error: cannot find symbol
+            when(instances.attribute(i)).thenReturn(mock(Attribute.class));
+                                                    ^
+  symbol:   method mock(java.lang.Class<weka.core.Attribute>)
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:22: error: cannot find symbol
+            when(instances.attribute(i)).thenReturn(mock(Attribute.class));
+            ^
+  symbol:   method when(weka.core.Attribute)
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:23: error: cannot find symbol
+            when(instances.attribute(i).isNumeric()).thenReturn(true);
+            ^
+  symbol:   method when(boolean)
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:24: error: cannot find symbol
+            when(instances.attribute(i).isNominal()).thenReturn(false);
+            ^
+  symbol:   method when(boolean)
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:26: error: cannot find symbol
+        Instance instance1 = d.getAsInstance(instances, new Random());
+                              ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable d of type weka.core.DenseInstance
+CodexTest_0_9_6.java:27: error: cannot find symbol
+        Random mockRandom = mock(Random.class);
+                            ^
+  symbol:   method mock(java.lang.Class<java.util.Random>)
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:28: error: cannot find symbol
+        when(mockRandom.nextDouble()).thenReturn(5.5);
+        ^
+  symbol:   method when(double)
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:29: error: cannot find symbol
+        when(mockRandom.nextInt(anyInt())).thenReturn(5);
+                                ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:30: error: cannot find symbol
+        when(instances.attribute(anyInt())).thenReturn(mock(Attribute.class));
+                                                       ^
+  symbol:   method mock(java.lang.Class<weka.core.Attribute>)
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:30: error: cannot find symbol
+        when(instances.attribute(anyInt())).thenReturn(mock(Attribute.class));
+                                 ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:31: error: cannot find symbol
+        when(instances.attribute(anyInt()).numValues()).thenReturn(10);
+                                 ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:32: error: cannot find symbol
+        Instance instance2 = d.getAsInstance(instances, mockRandom);
+                              ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable d of type weka.core.DenseInstance

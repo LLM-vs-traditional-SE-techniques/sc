@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_7_7.java:23: error: unclosed string literal
+        + "@ATTRIBUTE nominal {0
+          ^
+CodexTest_0_7_7.java:23: error: ')' expected
+        + "@ATTRIBUTE nominal {0
+                                ^
+CodexTest_0_7_7.java:24: error: reached end of file while parsing
+}
+ ^

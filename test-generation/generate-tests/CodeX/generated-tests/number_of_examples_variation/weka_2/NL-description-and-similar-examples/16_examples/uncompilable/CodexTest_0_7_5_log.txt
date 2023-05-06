@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_5.java:20: error: cannot find symbol
+      iris = DataSource.read("test/iris.arff");
+             ^
+  symbol:   variable DataSource
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:30: error: cannot find symbol
+    Instance dense = sparse.getAsInstance(iris, random);
+                           ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable sparse of type weka.core.SparseInstance

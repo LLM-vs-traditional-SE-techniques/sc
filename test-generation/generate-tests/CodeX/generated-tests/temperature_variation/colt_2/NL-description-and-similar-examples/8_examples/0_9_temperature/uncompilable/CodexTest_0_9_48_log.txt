@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_48.java:39: error: cannot find symbol
+        double[] res = (new DenseDoubleMatrix1D(data)).like1D(matrix.columns()) ;
+                                                      ^
+  symbol:   method like1D(int)
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix1D

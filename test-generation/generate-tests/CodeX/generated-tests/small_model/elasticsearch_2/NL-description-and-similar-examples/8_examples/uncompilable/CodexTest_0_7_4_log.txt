@@ -1,0 +1,15 @@
+isCompilable => false
+CodexTest_0_7_4.java:66: error: cannot find symbol
+        IndexRequest request = new IndexRequest(index, type);
+                                                ^
+  symbol:   variable index
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:66: error: cannot find symbol
+        IndexRequest request = new IndexRequest(index, type);
+                                                       ^
+  symbol:   variable type
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:71: error: incompatible types: java.lang.String cannot be converted to int
+            String field = request.source().get("field").utf8ToString();
+                                                ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

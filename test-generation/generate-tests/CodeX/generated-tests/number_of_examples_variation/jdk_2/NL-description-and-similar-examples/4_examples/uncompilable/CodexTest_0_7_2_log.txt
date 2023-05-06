@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_2.java:21: error: cannot find symbol
+        assertFalse(list.contains(element));
+                                  ^
+  symbol:   variable element
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:21: error: cannot find symbol
+        assertFalse(list.contains(element));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_7_2

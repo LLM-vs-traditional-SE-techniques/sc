@@ -1,0 +1,34 @@
+isCompilable => false
+CodexTest_0_9_3.java:18: error: illegal character: '`'
+```
+^
+CodexTest_0_9_3.java:18: error: illegal character: '`'
+```
+ ^
+CodexTest_0_9_3.java:18: error: illegal character: '`'
+```
+  ^
+CodexTest_0_9_3.java:19: error: illegal start of type
+Also if any input contain new keywords e.g "new ClassName()" and if class contains constructor with no arg then we will test this constructor. Then Fuzzer will generate test case for this constructor.
+     ^
+CodexTest_0_9_3.java:19: error: ';' expected
+Also if any input contain new keywords e.g "new ClassName()" and if class contains constructor with no arg then we will test this constructor. Then Fuzzer will generate test case for this constructor.
+       ^
+CodexTest_0_9_3.java:19: error: ';' expected
+Also if any input contain new keywords e.g "new ClassName()" and if class contains constructor with no arg then we will test this constructor. Then Fuzzer will generate test case for this constructor.
+                         ^
+CodexTest_0_9_3.java:19: error: ';' expected
+Also if any input contain new keywords e.g "new ClassName()" and if class contains constructor with no arg then we will test this constructor. Then Fuzzer will generate test case for this constructor.
+                                        ^
+CodexTest_0_9_3.java:19: error: <identifier> expected
+Also if any input contain new keywords e.g "new ClassName()" and if class contains constructor with no arg then we will test this constructor. Then Fuzzer will generate test case for this constructor.
+                                          ^
+CodexTest_0_9_3.java:19: error: <identifier> expected
+Also if any input contain new keywords e.g "new ClassName()" and if class contains constructor with no arg then we will test this constructor. Then Fuzzer will generate test case for this constructor.
+                                                                ^
+CodexTest_0_9_3.java:19: error: '{' expected
+Also if any input contain new keywords e.g "new ClassName()" and if class contains constructor with no arg then we will test this constructor. Then Fuzzer will generate test case for this constructor.
+                                                                                  ^
+CodexTest_0_9_3.java:20: error: reached end of file while parsing
+}
+ ^

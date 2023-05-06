@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_45.java:30: error: <identifier> expected
+Input: public static void doubleTest28() {
+     ^
+CodexTest_0_6_45.java:41: error: reached end of file while parsing
+}
+ ^

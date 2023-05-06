@@ -1,0 +1,29 @@
+isCompilable => false
+CodexTest_0_6_90.java:21: error: cannot find symbol
+    Instances data = new Instances(m_Instances, 0);
+                                   ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_90
+CodexTest_0_6_90.java:23: error: weka.core.Instance is abstract; cannot be instantiated
+    Instance instance = new Instance(1.0, data.numAttributes());
+                        ^
+CodexTest_0_6_90.java:26: error: cannot find symbol
+    instance.setDataset(m_Instances);
+                        ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_90
+CodexTest_0_6_90.java:30: error: cannot find symbol
+    data = new Instances(m_Instances, 0);
+                         ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_90
+CodexTest_0_6_90.java:34: error: cannot find symbol
+    instance.setDataset(m_Instances);
+                        ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_90
+CodexTest_0_6_90.java:36: error: cannot find symbol
+    data = new Instances(m_Instances, 0);
+                         ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_90

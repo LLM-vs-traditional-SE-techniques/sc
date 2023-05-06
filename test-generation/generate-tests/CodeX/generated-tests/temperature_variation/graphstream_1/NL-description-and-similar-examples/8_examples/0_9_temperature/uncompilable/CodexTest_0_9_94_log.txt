@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_94.java:20: error: cannot find symbol
+        assertFalse(compilationUnit.contains(null));
+                    ^
+  symbol:   variable compilationUnit
+  location: class CodexTest_0_9_94
+CodexTest_0_9_94.java:21: error: cannot find symbol
+        assertFalse(compilationUnit.contains(ast.newMethodDeclaration()));
+                                             ^
+  symbol:   variable ast
+  location: class CodexTest_0_9_94
+CodexTest_0_9_94.java:21: error: cannot find symbol
+        assertFalse(compilationUnit.contains(ast.newMethodDeclaration()));
+                    ^
+  symbol:   variable compilationUnit
+  location: class CodexTest_0_9_94

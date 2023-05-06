@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_4.java:66: error: package FieldStats.FieldStatsResponse does not exist
+        FieldStats.FieldStatsResponse.DocValueStats docValueStats =
+                                     ^
+CodexTest_0_7_4.java:67: error: package FieldStats.FieldStatsResponse does not exist
+            new FieldStats.FieldStatsResponse.DocValueStats(parent);
+                                             ^

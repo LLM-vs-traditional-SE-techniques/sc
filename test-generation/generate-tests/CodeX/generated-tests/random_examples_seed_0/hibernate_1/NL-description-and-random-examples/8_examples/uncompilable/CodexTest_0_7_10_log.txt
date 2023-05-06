@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_10.java:18: error: cannot find symbol
+            assertEquals((short) i, (short) NumberUtils.toShort(s));
+                                            ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:19: error: cannot find symbol
+            assertEquals((short) i, (short) NumberUtils.toShort(String.valueOf(i)));
+                                            ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:22: error: cannot find symbol
+            NumberUtils.toShort("9.0");
+            ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:28: error: cannot find symbol
+            NumberUtils.toShort(null);
+            ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_7_10

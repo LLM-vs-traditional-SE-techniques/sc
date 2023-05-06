@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_84.java:67: error: cannot find symbol
+        assertThat(request.sourceAsMap(), notNullValue());
+                                          ^
+  symbol:   method notNullValue()
+  location: class CodexTest_0_7_84
+CodexTest_0_7_84.java:68: error: cannot find symbol
+        assertThat(request.sourceAsMap().isEmpty(), is(true));
+                                                    ^
+  symbol:   method is(boolean)
+  location: class CodexTest_0_7_84

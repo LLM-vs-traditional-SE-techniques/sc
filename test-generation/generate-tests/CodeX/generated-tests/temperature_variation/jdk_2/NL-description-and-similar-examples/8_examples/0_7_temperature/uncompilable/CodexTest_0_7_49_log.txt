@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_49.java:22: error: cannot find symbol
+        ToStringSerializer underTest = new ToStringSerializer();
+        ^
+  symbol:   class ToStringSerializer
+  location: class CodexTest_0_7_49
+CodexTest_0_7_49.java:22: error: cannot find symbol
+        ToStringSerializer underTest = new ToStringSerializer();
+                                           ^
+  symbol:   class ToStringSerializer
+  location: class CodexTest_0_7_49

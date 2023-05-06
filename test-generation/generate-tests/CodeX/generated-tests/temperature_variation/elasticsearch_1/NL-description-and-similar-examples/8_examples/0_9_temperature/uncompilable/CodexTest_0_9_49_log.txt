@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_49.java:65: error: cannot find symbol
+		new QueryBuilders().constantScoreQuery(new DummyBuilder());
+		                                           ^
+  symbol:   class DummyBuilder
+  location: class CodexTest_0_9_49
+CodexTest_0_9_49.java:65: error: cannot find symbol
+		new QueryBuilders().constantScoreQuery(new DummyBuilder());
+		    ^
+  symbol:   class QueryBuilders
+  location: class CodexTest_0_9_49

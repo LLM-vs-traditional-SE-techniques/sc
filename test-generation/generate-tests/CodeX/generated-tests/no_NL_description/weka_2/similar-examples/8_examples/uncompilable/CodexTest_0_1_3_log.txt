@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_1_3.java:44: error: ')' expected
+									+ "@attribute y numeric\n"
+									                          ^
+CodexTest_0_1_3.java:46: error: reached end of file while parsing
+}
+ ^

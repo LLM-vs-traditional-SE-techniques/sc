@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_9.java:72: error: no suitable method found for createParser(java.lang.String)
+            assertEquals(XContentFactory.xContent(XContentType.JSON).createParser(prettyJson).map(), indexRequest.source());
+                                                                    ^
+    method org.elasticsearch.common.xcontent.XContent.createParser(org.elasticsearch.common.xcontent.NamedXContentRegistry,java.lang.String) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.elasticsearch.common.xcontent.XContent.createParser(org.elasticsearch.common.xcontent.NamedXContentRegistry,java.io.InputStream) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.elasticsearch.common.xcontent.XContent.createParser(org.elasticsearch.common.xcontent.NamedXContentRegistry,byte[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.elasticsearch.common.xcontent.XContent.createParser(org.elasticsearch.common.xcontent.NamedXContentRegistry,byte[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.elasticsearch.common.xcontent.XContent.createParser(org.elasticsearch.common.xcontent.NamedXContentRegistry,org.elasticsearch.common.bytes.BytesReference) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.elasticsearch.common.xcontent.XContent.createParser(org.elasticsearch.common.xcontent.NamedXContentRegistry,java.io.Reader) is not applicable
+      (actual and formal argument lists differ in length)

@@ -1,0 +1,73 @@
+isCompilable => false
+CodexTest_0_8_34.java:65: error: illegal start of type
+        try {
+        ^
+CodexTest_0_8_34.java:65: error: ';' expected
+        try {
+           ^
+CodexTest_0_8_34.java:66: error: <identifier> expected
+            indexRequest.source(Collections.<String, Object>singletonMap(field, value), XContentType.JSON);
+                               ^
+CodexTest_0_8_34.java:66: error: illegal start of type
+            indexRequest.source(Collections.<String, Object>singletonMap(field, value), XContentType.JSON);
+                                            ^
+CodexTest_0_8_34.java:66: error: illegal start of type
+            indexRequest.source(Collections.<String, Object>singletonMap(field, value), XContentType.JSON);
+                                                                        ^
+CodexTest_0_8_34.java:66: error: <identifier> expected
+            indexRequest.source(Collections.<String, Object>singletonMap(field, value), XContentType.JSON);
+                                                                                     ^
+CodexTest_0_8_34.java:66: error: ';' expected
+            indexRequest.source(Collections.<String, Object>singletonMap(field, value), XContentType.JSON);
+                                                                                      ^
+CodexTest_0_8_34.java:67: error: invalid method declaration; return type required
+            fail();
+            ^
+CodexTest_0_8_34.java:68: error: class, interface, or enum expected
+        } catch (ElasticsearchGenerationException e) {
+          ^
+CodexTest_0_8_34.java:69: error: <identifier> expected
+            assertThat(e.getCause(), instanceOf(IOException.class));
+                                                                 ^
+CodexTest_0_8_34.java:69: error: illegal start of type
+            assertThat(e.getCause(), instanceOf(IOException.class));
+                                                                  ^
+CodexTest_0_8_34.java:69: error: <identifier> expected
+            assertThat(e.getCause(), instanceOf(IOException.class));
+                                                                   ^
+CodexTest_0_8_34.java:69: error: ';' expected
+            assertThat(e.getCause(), instanceOf(IOException.class));
+                                                                    ^
+CodexTest_0_8_34.java:70: error: illegal start of type
+            assertThat(e.getMessage(), containsString(field));
+                      ^
+CodexTest_0_8_34.java:70: error: ';' expected
+            assertThat(e.getMessage(), containsString(field));
+                        ^
+CodexTest_0_8_34.java:70: error: invalid method declaration; return type required
+            assertThat(e.getMessage(), containsString(field));
+                         ^
+CodexTest_0_8_34.java:70: error: ';' expected
+            assertThat(e.getMessage(), containsString(field));
+                                     ^
+CodexTest_0_8_34.java:71: error: invalid method declaration; return type required
+            assertThat(e.getMessage(), containsString(value));
+            ^
+CodexTest_0_8_34.java:71: error: <identifier> expected
+            assertThat(e.getMessage(), containsString(value));
+                                   ^
+CodexTest_0_8_34.java:71: error: ';' expected
+            assertThat(e.getMessage(), containsString(value));
+                                    ^
+CodexTest_0_8_34.java:71: error: illegal start of type
+            assertThat(e.getMessage(), containsString(value));
+                                     ^
+CodexTest_0_8_34.java:71: error: <identifier> expected
+            assertThat(e.getMessage(), containsString(value));
+                                                           ^
+CodexTest_0_8_34.java:71: error: ';' expected
+            assertThat(e.getMessage(), containsString(value));
+                                                            ^
+CodexTest_0_8_34.java:74: error: class, interface, or enum expected
+}
+^

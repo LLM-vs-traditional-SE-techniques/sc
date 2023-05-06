@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_10.java:26: error: cannot find symbol
+        assertThat(list, hasSize(2));
+                         ^
+  symbol:   method hasSize(int)
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:27: error: cannot find symbol
+        assertThat(list, contains(1, 3));
+                         ^
+  symbol:   method contains(int,int)
+  location: class CodexTest_0_9_10

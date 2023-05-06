@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_4.java:20: error: cannot find symbol
+        DenseInstance result = fixture.getAsInstance(model, random);
+                               ^
+  symbol:   variable fixture
+  location: class CodexTest_0_3_4

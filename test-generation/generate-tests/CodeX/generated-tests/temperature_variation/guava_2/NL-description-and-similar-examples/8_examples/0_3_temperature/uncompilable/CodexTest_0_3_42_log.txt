@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_42.java:30: error: cannot find symbol
+        bitArray.writeBytesTo(dest, offset, maxLength));
+        ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_3_42

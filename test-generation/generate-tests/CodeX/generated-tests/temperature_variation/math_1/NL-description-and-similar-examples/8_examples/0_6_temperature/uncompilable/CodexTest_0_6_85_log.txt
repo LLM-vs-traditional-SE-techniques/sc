@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_85.java:34: error: cannot find symbol
+        Assert.assertTrue(v1.scalarMultiply(0).isZero());
+                                              ^
+  symbol:   method isZero()
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D

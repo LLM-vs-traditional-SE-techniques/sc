@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_39.java:26: error: cannot find symbol
+    int numBytes = bitVector.writeBytesTo(dest, 0, 8);
+                   ^
+  symbol:   variable bitVector
+  location: class CodexTest_0_6_39

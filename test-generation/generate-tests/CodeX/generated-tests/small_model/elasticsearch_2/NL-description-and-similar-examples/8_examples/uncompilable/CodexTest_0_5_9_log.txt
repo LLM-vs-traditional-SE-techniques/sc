@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_5_9.java:67: error: reference to source is ambiguous
+            request.source(null);
+                   ^
+  both method source(org.elasticsearch.common.xcontent.XContentBuilder) in org.elasticsearch.action.index.IndexRequest and method source(java.lang.Object...) in org.elasticsearch.action.index.IndexRequest match

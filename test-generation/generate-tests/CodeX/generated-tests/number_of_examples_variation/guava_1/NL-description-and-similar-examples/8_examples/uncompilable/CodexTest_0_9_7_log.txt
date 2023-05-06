@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_7.java:25: error: cannot find symbol
+    HashCode hash1 = Hashing.sha1().hashString(string1, Charsets.UTF_8);
+                                               ^
+  symbol:   variable string1
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:26: error: cannot find symbol
+    HashCode hash2 = Hashing.sha1().hashString(string2, Charsets.US_ASCII);
+                                               ^
+  symbol:   variable string2
+  location: class CodexTest_0_9_7

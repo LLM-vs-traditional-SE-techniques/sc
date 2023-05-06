@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_5_5.java:32: error: reference to contains is ambiguous
+        boolean result = path.contains(graph.getEdge("cd"));
+                             ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match

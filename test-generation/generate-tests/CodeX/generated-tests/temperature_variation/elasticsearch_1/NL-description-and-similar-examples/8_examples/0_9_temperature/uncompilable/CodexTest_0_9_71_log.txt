@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_71.java:65: error: cannot find symbol
+        SingleLevelAlgorithmProcessBuilder builder = new SingleLevelAlgorithmProcessBuilder("a");
+        ^
+  symbol:   class SingleLevelAlgorithmProcessBuilder
+  location: class CodexTest_0_9_71
+CodexTest_0_9_71.java:65: error: cannot find symbol
+        SingleLevelAlgorithmProcessBuilder builder = new SingleLevelAlgorithmProcessBuilder("a");
+                                                         ^
+  symbol:   class SingleLevelAlgorithmProcessBuilder
+  location: class CodexTest_0_9_71

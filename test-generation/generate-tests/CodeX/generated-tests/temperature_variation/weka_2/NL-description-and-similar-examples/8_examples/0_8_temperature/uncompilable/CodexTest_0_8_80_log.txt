@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_80.java:24: error: cannot find symbol
+					createAttributes(NUMBER_ATTRIBUTES, 3),
+					^
+  symbol:   method createAttributes(int,int)
+  location: class CodexTest_0_8_80
+CodexTest_0_8_80.java:33: error: cannot find symbol
+	if (instance.isNominal(counter) || instance.isString(counter)) {
+	            ^
+  symbol:   method isNominal(int)
+  location: variable instance of type weka.core.Instance
+CodexTest_0_8_80.java:33: error: cannot find symbol
+	if (instance.isNominal(counter) || instance.isString(counter)) {
+	                                           ^
+  symbol:   method isString(int)
+  location: variable instance of type weka.core.Instance

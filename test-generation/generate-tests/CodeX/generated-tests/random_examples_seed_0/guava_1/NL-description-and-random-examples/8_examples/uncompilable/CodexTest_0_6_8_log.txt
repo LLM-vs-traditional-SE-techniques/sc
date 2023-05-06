@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_6_8.java:27: error: incompatible types: possible lossy conversion from long to int
+        Ints.toByteArray(hash);
+                         ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

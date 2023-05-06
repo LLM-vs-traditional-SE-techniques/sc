@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_30.java:65: error: cannot find symbol
+        LeafReaderContext leaf = mock(LeafReaderContext.class);
+        ^
+  symbol:   class LeafReaderContext
+  location: class CodexTest_0_7_30
+CodexTest_0_7_30.java:65: error: cannot find symbol
+        LeafReaderContext leaf = mock(LeafReaderContext.class);
+                                      ^
+  symbol:   class LeafReaderContext
+  location: class CodexTest_0_7_30
+CodexTest_0_7_30.java:66: error: cannot find symbol
+        when(leaf.reader()).thenReturn(reader);
+                                       ^
+  symbol:   variable reader
+  location: class CodexTest_0_7_30
+CodexTest_0_7_30.java:67: error: cannot find symbol
+        FieldMaskingReader fieldMaskingReader = new FieldMaskingReader(leaf, "_parent");
+        ^
+  symbol:   class FieldMaskingReader
+  location: class CodexTest_0_7_30
+CodexTest_0_7_30.java:67: error: cannot find symbol
+        FieldMaskingReader fieldMaskingReader = new FieldMaskingReader(leaf, "_parent");
+                                                    ^
+  symbol:   class FieldMaskingReader
+  location: class CodexTest_0_7_30
+CodexTest_0_7_30.java:68: error: cannot find symbol
+        assertNotEquals(reader, fieldMaskingReader);
+                        ^
+  symbol:   variable reader
+  location: class CodexTest_0_7_30

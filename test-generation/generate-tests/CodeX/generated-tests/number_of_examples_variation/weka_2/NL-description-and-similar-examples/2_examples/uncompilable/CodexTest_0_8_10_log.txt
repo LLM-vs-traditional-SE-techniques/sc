@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_10.java:33: error: ')' expected
+    				if (newVal == (int) data.attribute
+    				                                  ^
+CodexTest_0_8_10.java:34: error: illegal start of statement
+}
+^
+CodexTest_0_8_10.java:34: error: reached end of file while parsing
+}
+ ^

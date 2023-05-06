@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_6_4.java:65: error: cannot find symbol
+			String parent = this.directory.parent();
+			                    ^
+  symbol: variable directory
+CodexTest_0_6_4.java:67: error: cannot find symbol
+			assertEquals(this.base, parent);
+			                 ^
+  symbol: variable base

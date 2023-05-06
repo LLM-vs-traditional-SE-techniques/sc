@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_8.java:20: error: cannot find symbol
+			Path path = createPath();
+			            ^
+  symbol:   method createPath()
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:21: error: cannot find symbol
+			path.addEdge(createEdge("ab"));
+			             ^
+  symbol:   method createEdge(java.lang.String)
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:23: error: cannot find symbol
+			Edge edge = createEdge("ab");
+			            ^
+  symbol:   method createEdge(java.lang.String)
+  location: class CodexTest_0_9_8

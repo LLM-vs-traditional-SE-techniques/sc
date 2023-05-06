@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_3.java:65: error: cannot find symbol
+        ParentMethod pm = new ParentMethod(new File("dummy.txt"), null, "parent", "String", null);
+        ^
+  symbol:   class ParentMethod
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:65: error: cannot find symbol
+        ParentMethod pm = new ParentMethod(new File("dummy.txt"), null, "parent", "String", null);
+                              ^
+  symbol:   class ParentMethod
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:65: error: cannot find symbol
+        ParentMethod pm = new ParentMethod(new File("dummy.txt"), null, "parent", "String", null);
+                                               ^
+  symbol:   class File
+  location: class CodexTest_0_8_3

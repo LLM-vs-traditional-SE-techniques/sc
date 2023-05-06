@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_82.java:53: error: ']' expected
+                new double[]{a[1][0
+                                   ^
+CodexTest_0_8_82.java:54: error: reached end of file while parsing
+}
+ ^

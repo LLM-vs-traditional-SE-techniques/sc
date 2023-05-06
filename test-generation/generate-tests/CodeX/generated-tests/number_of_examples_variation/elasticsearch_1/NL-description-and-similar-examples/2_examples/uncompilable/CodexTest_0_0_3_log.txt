@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_0_3.java:65: error: cannot find symbol
+        assertNull(new Person().parent());
+                       ^
+  symbol:   class Person
+  location: class CodexTest_0_0_3

@@ -1,0 +1,67 @@
+isCompilable => false
+CodexTest_0_8_85.java:31: error: no suitable constructor found for Vector1D(int,int,int)
+        Vector1D v = new Vector1D(1, 2, 3);
+                     ^
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_8_85.java:34: error: cannot find symbol
+        Assert.assertEquals(0, v.getY(), 1.0e-10);
+                                ^
+  symbol:   method getY()
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_85.java:35: error: cannot find symbol
+        Assert.assertEquals(0, v.getZ(), 1.0e-10);
+                                ^
+  symbol:   method getZ()
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_85.java:38: error: cannot find symbol
+        Assert.assertEquals(0, v.getY(), 1.0e-10);
+                                ^
+  symbol:   method getY()
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_85.java:39: error: cannot find symbol
+        Assert.assertEquals(0, v.getZ(), 1.0e-10);
+                                ^
+  symbol:   method getZ()
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_85.java:40: error: no suitable constructor found for Vector1D(int,int,int)
+        v = new Vector1D(1, 2, 3);
+            ^
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_8_85.java:43: error: cannot find symbol
+        Assert.assertEquals(-4, v.getY(), 1.0e-10);
+                                 ^
+  symbol:   method getY()
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_85.java:44: error: cannot find symbol
+        Assert.assertEquals(-6, v.getZ(), 1.0e-10);
+                                 ^
+  symbol:   method getZ()
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_85.java:47: error: cannot find symbol
+        Assert.assertEquals(-2, v.getY(), 1.0e-10);
+                                 ^
+  symbol:   method getY()
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_85.java:48: error: cannot find symbol
+        Assert.assertEquals(-3, v.getZ(), 1.0e-10);
+                                 ^
+  symbol:   method getZ()
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_8.java:65: error: cannot find symbol
+        QueryBuilder query = QueryBuilders.termQuery("user", "kimchy");
+        ^
+  symbol:   class QueryBuilder
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:65: error: cannot find symbol
+        QueryBuilder query = QueryBuilders.termQuery("user", "kimchy");
+                             ^
+  symbol:   variable QueryBuilders
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:69: error: cannot find symbol
+        client().index(request).actionGet();
+        ^
+  symbol:   method client()
+  location: class CodexTest_0_8_8

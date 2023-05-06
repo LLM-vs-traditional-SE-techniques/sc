@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_54.java:19: error: cannot find symbol
+    for (int i = 0; i < m_Elements.length; i++) {
+                        ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_7_54
+CodexTest_0_7_54.java:20: error: cannot find symbol
+      if (m_Elements[i] != instance.value(i)) {
+          ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_7_54

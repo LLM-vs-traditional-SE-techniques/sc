@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_23.java:66: error: cannot find symbol
+        query.parent(parent);
+        ^
+  symbol:   variable query
+  location: class CodexTest_0_5_23
+CodexTest_0_5_23.java:67: error: cannot find symbol
+        assertEquals(query.parent(), parent);
+                     ^
+  symbol:   variable query
+  location: class CodexTest_0_5_23

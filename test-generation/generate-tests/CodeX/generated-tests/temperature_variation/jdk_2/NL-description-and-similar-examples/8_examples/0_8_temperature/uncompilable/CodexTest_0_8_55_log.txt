@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_55.java:22: error: cannot find symbol
+        Doubles doubles = new Doubles(1.0, 2.0);
+        ^
+  symbol:   class Doubles
+  location: class CodexTest_0_8_55
+CodexTest_0_8_55.java:22: error: cannot find symbol
+        Doubles doubles = new Doubles(1.0, 2.0);
+                              ^
+  symbol:   class Doubles
+  location: class CodexTest_0_8_55

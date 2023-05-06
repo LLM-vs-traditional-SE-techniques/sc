@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_10.java:29: error: illegal start of type
+    -- Test for the method DoubleMatrix2D cern.colt.matrix.doublealgo.Sorting.sort(DoubleMatrix2D, IntComparator) 
+    ^
+CodexTest_0_9_10.java:29: error: ';' expected
+    -- Test for the method DoubleMatrix2D cern.colt.matrix.doublealgo.Sorting.sort(DoubleMatrix2D, IntComparator) 
+      ^
+CodexTest_0_9_10.java:29: error: illegal start of type
+    -- Test for the method DoubleMatrix2D cern.colt.matrix.doublealgo.Sorting.sort(DoubleMatrix2D, IntComparator) 
+            ^
+CodexTest_0_9_10.java:29: error: ';' expected
+    -- Test for the method DoubleMatrix2D cern.colt.matrix.doublealgo.Sorting.sort(DoubleMatrix2D, IntComparator) 
+                   ^
+CodexTest_0_9_10.java:29: error: ';' expected
+    -- Test for the method DoubleMatrix2D cern.colt.matrix.doublealgo.Sorting.sort(DoubleMatrix2D, IntComparator) 
+                                         ^
+CodexTest_0_9_10.java:29: error: <identifier> expected
+    -- Test for the method DoubleMatrix2D cern.colt.matrix.doublealgo.Sorting.sort(DoubleMatrix2D, IntComparator) 
+                                                                                  ^
+CodexTest_0_9_10.java:29: error: <identifier> expected
+    -- Test for the method DoubleMatrix2D cern.colt.matrix.doublealgo.Sorting.sort(DoubleMatrix2D, IntComparator) 
+                                                                                                 ^
+CodexTest_0_9_10.java:29: error: <identifier> expected
+    -- Test for the method DoubleMatrix2D cern.colt.matrix.doublealgo.Sorting.sort(DoubleMatrix2D, IntComparator) 
+                                                                                                                ^
+CodexTest_0_9_10.java:29: error: ';' expected
+    -- Test for the method DoubleMatrix2D cern.colt.matrix.doublealgo.Sorting.sort(DoubleMatrix2D, IntComparator) 
+                                                                                                                 ^

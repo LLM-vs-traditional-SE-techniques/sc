@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_2.java:68: error: <identifier> expected
+Input: private static double[] elementData(Collection<? extends Number> c) {
+     ^
+CodexTest_0_8_2.java:78: error: illegal start of expression
+}
+^
+CodexTest_0_8_2.java:78: error: reached end of file while parsing
+}
+ ^

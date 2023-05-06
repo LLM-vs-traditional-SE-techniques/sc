@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_5.java:67: error: cannot find symbol
+      indexRequest.source("foobar", ContentType.JSON);
+                                    ^
+  symbol:   variable ContentType
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:69: error: cannot find symbol
+    } catch (ElasticsearchParseException e) {
+             ^
+  symbol:   class ElasticsearchParseException
+  location: class CodexTest_0_9_5

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_83.java:20: error: no suitable constructor found for Instances(weka.core.FastVector,weka.core.FastVector)
+    Instances data = new Instances(new FastVector(), new FastVector());
+                     ^
+    constructor weka.core.Instances.Instances(java.io.Reader,int) is not applicable
+      (argument mismatch; weka.core.FastVector cannot be converted to java.io.Reader)
+    constructor weka.core.Instances.Instances(weka.core.Instances,int) is not applicable
+      (argument mismatch; weka.core.FastVector cannot be converted to weka.core.Instances)
+Note: CodexTest_0_4_83.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

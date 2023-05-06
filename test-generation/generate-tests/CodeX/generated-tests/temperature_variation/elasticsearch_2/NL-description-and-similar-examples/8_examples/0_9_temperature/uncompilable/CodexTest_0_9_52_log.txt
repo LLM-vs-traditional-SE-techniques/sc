@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_52.java:68: error: cannot find symbol
+        XContentType xContentType = randomFrom(XContentType.values());
+                                    ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:71: error: cannot find symbol
+        request.source(singletonMap(fieldName, fieldValue), xContentType);
+                       ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_9_52
+Note: CodexTest_0_9_52.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

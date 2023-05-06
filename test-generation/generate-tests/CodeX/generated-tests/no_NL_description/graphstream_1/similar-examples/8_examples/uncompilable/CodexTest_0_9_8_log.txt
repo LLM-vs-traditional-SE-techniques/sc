@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_8.java:20: error: cannot find symbol
+    assertTrue(path1.contains(hoge));
+                              ^
+  symbol:   variable hoge
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:20: error: cannot find symbol
+    assertTrue(path1.contains(hoge));
+               ^
+  symbol:   variable path1
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:21: error: cannot find symbol
+    assertFalse(path2.contains(piyo));
+                               ^
+  symbol:   variable piyo
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:21: error: cannot find symbol
+    assertFalse(path2.contains(piyo));
+                ^
+  symbol:   variable path2
+  location: class CodexTest_0_9_8

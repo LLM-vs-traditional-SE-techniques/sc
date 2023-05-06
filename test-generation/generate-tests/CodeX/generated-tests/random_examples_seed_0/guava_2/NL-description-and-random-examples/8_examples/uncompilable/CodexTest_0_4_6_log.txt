@@ -1,0 +1,20 @@
+isCompilable => false
+CodexTest_0_4_6.java:25: error: cannot find symbol
+    BitArray array = new BitArray(new boolean[] {true, false, true, false, true, false});
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:25: error: cannot find symbol
+    BitArray array = new BitArray(new boolean[] {true, false, true, false, true, false});
+                         ^
+  symbol:   class BitArray
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:29: error: no suitable method found for assertThat(byte[])
+    assertThat(dest).isEqualTo(expected);
+    ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_40.java:22: error: cannot find symbol
+        } catch (HibernateException e) {
+                 ^
+  symbol:   class HibernateException
+  location: class CodexTest_0_5_40

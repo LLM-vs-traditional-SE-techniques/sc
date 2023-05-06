@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_2.java:27: error: cannot find symbol
+          MutableBitArray array = new MutableBitArray(numBytes * 8);
+          ^
+  symbol:   class MutableBitArray
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:27: error: cannot find symbol
+          MutableBitArray array = new MutableBitArray(numBytes * 8);
+                                      ^
+  symbol:   class MutableBitArray
+  location: class CodexTest_0_6_2

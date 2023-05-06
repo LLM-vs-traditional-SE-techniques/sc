@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_56.java:66: error: cannot find symbol
+        SettingsRequestBuilder settingsRequestBuilder = new SettingsRequestBuilder(client);
+        ^
+  symbol:   class SettingsRequestBuilder
+  location: class CodexTest_0_5_56
+CodexTest_0_5_56.java:66: error: cannot find symbol
+        SettingsRequestBuilder settingsRequestBuilder = new SettingsRequestBuilder(client);
+                                                            ^
+  symbol:   class SettingsRequestBuilder
+  location: class CodexTest_0_5_56
+CodexTest_0_5_56.java:66: error: cannot find symbol
+        SettingsRequestBuilder settingsRequestBuilder = new SettingsRequestBuilder(client);
+                                                                                   ^
+  symbol:   variable client
+  location: class CodexTest_0_5_56

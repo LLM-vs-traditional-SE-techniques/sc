@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_4_7.java:36: error: cannot find symbol
+        Assert.assertEquals(0.0, v1.scalarMultiply(0).dotProduct(Vector1D.MINUS_I), 1.0e-12);
+                                                                         ^
+  symbol:   variable MINUS_I
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_4_7.java:37: error: cannot find symbol
+        Assert.assertEquals(0.0, v1.scalarMultiply(0).dotProduct(Vector1D.PLUS_I), 1.0e-12);
+                                                                         ^
+  symbol:   variable PLUS_I
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_4_7.java:38: error: cannot find symbol
+        Assert.assertEquals(2.0, v1.scalarMultiply(2).dotProduct(Vector1D.PLUS_I), 1.0e-12);
+                                                                         ^
+  symbol:   variable PLUS_I
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_4_7.java:39: error: cannot find symbol
+        Assert.assertEquals(-2.0, v2.scalarMultiply(-2).dotProduct(Vector1D.PLUS_I), 1.0e-12);
+                                                                           ^
+  symbol:   variable PLUS_I
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D

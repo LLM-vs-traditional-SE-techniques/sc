@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_5_18.java:26: error: removeRange(int,int) has protected access in java.util.ArrayList
+        list.removeRange(1, 2);
+            ^

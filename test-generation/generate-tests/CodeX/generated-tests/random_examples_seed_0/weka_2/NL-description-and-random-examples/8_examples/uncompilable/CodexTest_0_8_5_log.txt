@@ -1,0 +1,34 @@
+isCompilable => false
+CodexTest_0_8_5.java:19: error: cannot find symbol
+            Random random = Randomizable.makeRandomGenerator(5);
+                                        ^
+  symbol:   method makeRandomGenerator(int)
+  location: interface weka.core.Randomizable
+CodexTest_0_8_5.java:21: error: cannot find symbol
+            numericToNominal converter = new numericToNominal();
+            ^
+  symbol:   class numericToNominal
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:21: error: cannot find symbol
+            numericToNominal converter = new numericToNominal();
+                                             ^
+  symbol:   class numericToNominal
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:24: error: cannot find symbol
+                converter.setInputFormat(new Instances(new BufferedReader(new StringReader(instances))));
+                                                           ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:24: error: cannot find symbol
+                converter.setInputFormat(new Instances(new BufferedReader(new StringReader(instances))));
+                                                                              ^
+  symbol:   class StringReader
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:24: error: cannot find symbol
+                converter.setInputFormat(new Instances(new BufferedReader(new StringReader(instances))));
+                                                                                           ^
+  symbol:   variable instances
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:27: error: weka.core.Instance is abstract; cannot be instantiated
+                converter.input(new Instance(1.0, new double[1]));
+                                ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_11.java:26: error: cannot find symbol
+    assertEquals(0, hash.writeBytesTo(dest, 0, 0));
+                    ^
+  symbol:   variable hash
+  location: class CodexTest_0_7_11

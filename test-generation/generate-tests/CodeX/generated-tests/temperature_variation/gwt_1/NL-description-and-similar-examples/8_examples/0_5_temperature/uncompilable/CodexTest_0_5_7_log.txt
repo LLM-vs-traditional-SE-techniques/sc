@@ -1,0 +1,34 @@
+isCompilable => false
+CodexTest_0_5_7.java:18: error: <identifier> expected
+Input: public static boolean isScript() {
+     ^
+CodexTest_0_5_7.java:21: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_7.java:25: error: <identifier> expected
+Input: public static String getModuleName() {
+     ^
+CodexTest_0_5_7.java:28: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_7.java:32: error: <identifier> expected
+Input: public static HashCode fromInt(int hash) {
+     ^
+CodexTest_0_5_7.java:35: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_7.java:40: error: <identifier> expected
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+     ^
+CodexTest_0_5_7.java:59: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_7.java:68: error: <identifier> expected
+Input: public <X> Boolean wrap(X value, Wrapper
+     ^
+CodexTest_0_5_7.java:68: error: <identifier> expected
+Input: public <X> Boolean wrap(X value, Wrapper
+                                               ^
+CodexTest_0_5_7.java:69: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_8.java:19: error: cannot find symbol
+    Boolean result = underTest.fromString(Impl.TRUE_STRING);
+                                          ^
+  symbol:   variable Impl
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:27: error: cannot find symbol
+    Boolean result = underTest.fromString(Impl.FALSE_STRING);
+                                          ^
+  symbol:   variable Impl
+  location: class CodexTest_0_8_8

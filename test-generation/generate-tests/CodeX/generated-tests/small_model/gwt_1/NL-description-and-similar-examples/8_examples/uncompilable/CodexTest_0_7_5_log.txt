@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_5.java:17: error: cannot find symbol
+    Core.isClient();
+    ^
+  symbol:   variable Core
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:19: error: cannot find symbol
+    assertTrue(Core.isClient());
+               ^
+  symbol:   variable Core
+  location: class CodexTest_0_7_5

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_1.java:65: error: cannot find symbol
+        assertNull(new BusinessObject().parent());
+                       ^
+  symbol:   class BusinessObject
+  location: class CodexTest_0_4_1

@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_1_5.java:28: error: cannot find symbol
+    int bits = Ints.min(maxLength, bits() / 8);
+                                   ^
+  symbol:   method bits()
+  location: class CodexTest_0_1_5
+CodexTest_0_1_5.java:30: error: cannot find symbol
+    writeBytesToImpl(dest, offset, maxLength);
+    ^
+  symbol:   method writeBytesToImpl(byte[],int,int)
+  location: class CodexTest_0_1_5
+CodexTest_0_1_5.java:31: error: incompatible types: unexpected return value
+    return maxLength;
+           ^

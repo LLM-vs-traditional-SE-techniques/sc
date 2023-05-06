@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_6.java:66: error: cannot find symbol
+        IllegalArgumentException e = expectThrows(IllegalArgumentException.class, () -> new IndexRequest().source(builder));
+                                     ^
+  symbol:   method expectThrows(java.lang.Class<java.lang.IllegalArgumentException>,()->new In[...]lder))
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:67: error: cannot find symbol
+        assertThat(e.getMessage(), containsString("query malformed, must start with start_object"));
+                                   ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_7_6

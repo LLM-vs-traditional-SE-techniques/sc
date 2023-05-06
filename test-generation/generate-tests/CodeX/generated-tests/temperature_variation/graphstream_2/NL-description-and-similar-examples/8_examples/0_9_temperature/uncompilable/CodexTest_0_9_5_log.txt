@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_5.java:20: error: cannot find symbol
+            Assert.assertTrue(Precision.equals(-0.0, 0.0, Precision.EPSILON));
+                                                          ^
+  symbol:   variable Precision
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:20: error: cannot find symbol
+            Assert.assertTrue(Precision.equals(-0.0, 0.0, Precision.EPSILON));
+                              ^
+  symbol:   variable Precision
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:21: error: cannot find symbol
+            Assert.assertTrue(Precision.equals(0.0, -0.0, Precision.EPSILON));
+                                                          ^
+  symbol:   variable Precision
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:21: error: cannot find symbol
+            Assert.assertTrue(Precision.equals(0.0, -0.0, Precision.EPSILON));
+                              ^
+  symbol:   variable Precision
+  location: class CodexTest_0_9_5

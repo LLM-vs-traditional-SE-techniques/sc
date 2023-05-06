@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_2_10.java:36: error: cannot find symbol
+        BitSet bs = new BitSet(64);
+        ^
+  symbol:   class BitSet
+  location: class CodexTest_0_2_10
+CodexTest_0_2_10.java:36: error: cannot find symbol
+        BitSet bs = new BitSet(64);
+                        ^
+  symbol:   class BitSet
+  location: class CodexTest_0_2_10

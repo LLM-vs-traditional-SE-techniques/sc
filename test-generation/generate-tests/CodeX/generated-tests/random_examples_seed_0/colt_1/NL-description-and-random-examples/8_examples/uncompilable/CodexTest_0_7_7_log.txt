@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_7.java:32: error: cannot find symbol
+                wrapped.assign(other);
+                ^
+  symbol:   variable wrapped
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:33: error: cannot find symbol
+                assertArrayEquals(values, wrapped.getData(), 0.0);
+                                          ^
+  symbol:   variable wrapped
+  location: class CodexTest_0_7_7

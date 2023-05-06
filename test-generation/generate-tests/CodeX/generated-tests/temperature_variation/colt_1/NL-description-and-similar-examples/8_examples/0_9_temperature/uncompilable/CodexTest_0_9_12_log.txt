@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_9_12.java:31: error: cannot find symbol
+      cern.colt.matrix.DoubleFactory1D.dense.make(d).assign(DoubleFunctions.mult(5));
+                                                            ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:31: error: no suitable method found for make(double[][])
+      cern.colt.matrix.DoubleFactory1D.dense.make(d).assign(DoubleFunctions.mult(5));
+                                            ^
+    method cern.colt.matrix.DoubleFactory1D.make(double[]) is not applicable
+      (argument mismatch; double[][] cannot be converted to double[])
+    method cern.colt.matrix.DoubleFactory1D.make(cern.colt.matrix.DoubleMatrix1D[]) is not applicable
+      (argument mismatch; double[][] cannot be converted to cern.colt.matrix.DoubleMatrix1D[])
+    method cern.colt.matrix.DoubleFactory1D.make(int) is not applicable
+      (argument mismatch; double[][] cannot be converted to int)
+    method cern.colt.matrix.DoubleFactory1D.make(cern.colt.list.AbstractDoubleList) is not applicable
+      (argument mismatch; double[][] cannot be converted to cern.colt.list.AbstractDoubleList)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

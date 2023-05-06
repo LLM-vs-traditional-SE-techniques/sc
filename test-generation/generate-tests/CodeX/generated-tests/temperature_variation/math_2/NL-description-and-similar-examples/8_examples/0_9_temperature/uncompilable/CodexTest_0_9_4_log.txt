@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_4.java:37: error: <identifier> expected
+Input: protected void setUp() throws Exception {
+     ^
+CodexTest_0_9_4.java:39: error: <identifier> expected
+Output: protected void setUp() {
+      ^

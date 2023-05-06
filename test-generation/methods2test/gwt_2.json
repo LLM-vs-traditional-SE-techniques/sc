@@ -1,0 +1,21 @@
+{
+	"project": "GWT",
+	"package": "com.google.gwt.core.client",
+	"class": "GWT",
+	"method_signature": "UncaughtExceptionHandler getUncaughtExceptionHandler()",
+	"method": "public static UncaughtExceptionHandler getUncaughtExceptionHandler() {\n    return sUncaughtExceptionHandler;\n  }",
+	"helpers": ["java.lang.Class create(java.lang.Class)"],
+	"example_same_class": {
+		"method_signature": "String getModuleName()",
+		"method": "public static String getModuleName() {\n    return Impl.getModuleName();\n  }",
+		"test": "public void testGetModuleName() {\n    assertEquals(\"com.google.gwt.core.Core.JUnit\", GWT.getModuleName());\n  }"
+	},
+	"example_different_project" : {
+		"id": "hibernate_2",
+		"method_signature": "",
+		"method": "public <X> Boolean wrap(X value, WrapperOptions options) {\n		if ( value == null ) {\n			return null;\n		}\n		if ( Boolean.class.isInstance( value ) ) {\n			return (Boolean) value;\n		}\n		if ( Number.class.isInstance( value ) ) {\n			final int intValue = ( (Number) value ).intValue();\n			return intValue == 0 ? FALSE : TRUE;\n		}\n		if ( Character.class.isInstance( value ) ) {\n			return isTrue( (Character) value ) ? TRUE : FALSE;\n		}\n		if ( String.class.isInstance( value ) ) {\n			return isTrue((String) value) ? TRUE : FALSE;\n		}\n		throw unknownWrap( value.getClass() );\n	}",
+		"test": "public void testWrapShouldReturnTrueWhenYStringGiven() {\n        // given\n        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();\n        // when\n        Boolean result = underTest.wrap(\"Y\", null);\n        // then\n        assertTrue(result);\n    }"
+	},
+	"method_class_imports": "import com.google.gwt.core.client.*;\nimport com.google.gwt.core.client.impl.Impl;",
+	"test_class_imports": "import com.google.gwt.core.client.*;\nimport com.google.gwt.junit.client.GWTTestCase;"
+}

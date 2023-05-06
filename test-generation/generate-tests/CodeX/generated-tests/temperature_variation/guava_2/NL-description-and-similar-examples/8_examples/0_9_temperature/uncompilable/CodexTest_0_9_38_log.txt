@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_9_38.java:33: error: illegal character: '`'
+  ````
+  ^
+CodexTest_0_9_38.java:33: error: illegal character: '`'
+  ````
+   ^
+CodexTest_0_9_38.java:33: error: illegal character: '`'
+  ````
+    ^
+CodexTest_0_9_38.java:33: error: illegal character: '`'
+  ````
+     ^
+CodexTest_0_9_38.java:34: error: ';' expected
+    IntBuffer sliceAsIntBuffer = slice.asIntBuffer();
+             ^
+CodexTest_0_9_38.java:39: error: illegal character: '`'
+}`;
+ ^
+CodexTest_0_9_38.java:40: error: illegal start of type
+}
+^
+CodexTest_0_9_38.java:40: error: reached end of file while parsing
+}
+ ^

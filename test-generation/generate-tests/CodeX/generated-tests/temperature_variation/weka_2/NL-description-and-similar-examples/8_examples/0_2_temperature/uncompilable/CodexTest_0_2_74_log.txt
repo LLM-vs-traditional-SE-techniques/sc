@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_74.java:63: error: ';' expected
+    int numInstancesRelational
+                              ^
+CodexTest_0_2_74.java:64: error: reached end of file while parsing
+}
+ ^

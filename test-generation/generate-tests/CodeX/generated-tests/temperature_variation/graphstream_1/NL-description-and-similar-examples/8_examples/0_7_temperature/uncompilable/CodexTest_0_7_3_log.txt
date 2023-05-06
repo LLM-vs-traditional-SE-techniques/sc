@@ -1,0 +1,15 @@
+isCompilable => false
+CodexTest_0_7_3.java:28: error: cannot find symbol
+        path.setGraph(graph);
+            ^
+  symbol:   method setGraph(org.graphstream.graph.Graph)
+  location: variable path of type org.graphstream.graph.Path
+CodexTest_0_7_3.java:29: error: cannot find symbol
+        path.extend("ab", "bc", "cd");
+            ^
+  symbol:   method extend(java.lang.String,java.lang.String,java.lang.String)
+  location: variable path of type org.graphstream.graph.Path
+CodexTest_0_7_3.java:31: error: reference to contains is ambiguous
+        boolean result = path.contains(graph.getEdge("bc"));
+                             ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match

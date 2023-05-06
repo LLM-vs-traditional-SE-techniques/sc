@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_8.java:16: error: cannot find symbol
+            for (Boolean value : VALUES) {
+                                 ^
+  symbol:   variable VALUES
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:18: error: cannot find symbol
+                    assertThrows(NullPointerException.class, () -> toShort(value));
+                                                                   ^
+  symbol:   method toShort(java.lang.Boolean)
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:20: error: cannot find symbol
+                    assertEquals(value.booleanValue() ? (short) 1 : (short) 0, toShort(value));
+                                                                               ^
+  symbol:   method toShort(java.lang.Boolean)
+  location: class CodexTest_0_6_8

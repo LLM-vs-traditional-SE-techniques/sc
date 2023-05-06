@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_45.java:18: error: cannot find symbol
+    Instances model = InstancesTestHelper.createInstance();
+                      ^
+  symbol:   variable InstancesTestHelper
+  location: class CodexTest_0_9_45

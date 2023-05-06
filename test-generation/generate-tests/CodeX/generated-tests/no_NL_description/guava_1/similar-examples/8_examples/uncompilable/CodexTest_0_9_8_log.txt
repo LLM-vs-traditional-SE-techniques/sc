@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_8.java:30: error: cannot find symbol
+        assertEquals(hashCode, HashCode.fromBytes(LittleEndian.longToBytes(i + (j & 0xff))));
+                                                  ^
+  symbol:   variable LittleEndian
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:32: error: cannot find symbol
+            HashCode.fromLong(i + (j & 0xff), MoreObjects.hashCode(1, 2, 3)));
+                                              ^
+  symbol:   variable MoreObjects
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:34: error: cannot find symbol
+            HashCode.fromLong(i + (j & 0xff), Funnels.integerFunnel().hashInt(1)));
+                                                                     ^
+  symbol:   method hashInt(int)
+  location: interface com.google.common.hash.Funnel<java.lang.Integer>

@@ -1,0 +1,109 @@
+isCompilable => false
+CodexTest_0_9_3.java:24: error: illegal start of type
+    {
+    ^
+CodexTest_0_9_3.java:24: error: ';' expected
+    {
+     ^
+CodexTest_0_9_3.java:25: error: illegal start of type
+      "name": "testObjectHashCode(long)",
+            ^
+CodexTest_0_9_3.java:25: error: <identifier> expected
+      "name": "testObjectHashCode(long)",
+             ^
+CodexTest_0_9_3.java:25: error: <identifier> expected
+      "name": "testObjectHashCode(long)",
+                                         ^
+CodexTest_0_9_3.java:26: error: illegal start of type
+      "codeparts": [
+                 ^
+CodexTest_0_9_3.java:26: error: <identifier> expected
+      "codeparts": [
+                  ^
+CodexTest_0_9_3.java:26: error: ';' expected
+      "codeparts": [
+                    ^
+CodexTest_0_9_3.java:28: error: illegal start of type
+          "position": {
+          ^
+CodexTest_0_9_3.java:28: error: <identifier> expected
+          "position": {
+                    ^
+CodexTest_0_9_3.java:28: error: ';' expected
+          "position": {
+                     ^
+CodexTest_0_9_3.java:29: error: illegal start of type
+            "start": {
+            ^
+CodexTest_0_9_3.java:29: error: <identifier> expected
+            "start": {
+                   ^
+CodexTest_0_9_3.java:29: error: ';' expected
+            "start": {
+                    ^
+CodexTest_0_9_3.java:30: error: illegal start of type
+              "line": "151",
+              ^
+CodexTest_0_9_3.java:30: error: <identifier> expected
+              "line": "151",
+                    ^
+CodexTest_0_9_3.java:30: error: ';' expected
+              "line": "151",
+                     ^
+CodexTest_0_9_3.java:30: error: illegal start of type
+              "line": "151",
+                           ^
+CodexTest_0_9_3.java:30: error: <identifier> expected
+              "line": "151",
+                            ^
+CodexTest_0_9_3.java:31: error: ';' expected
+              "column": "9"
+                      ^
+CodexTest_0_9_3.java:31: error: illegal start of type
+              "column": "9"
+                        ^
+CodexTest_0_9_3.java:31: error: <identifier> expected
+              "column": "9"
+                           ^
+CodexTest_0_9_3.java:32: error: ';' expected
+            }
+             ^
+CodexTest_0_9_3.java:33: error: illegal start of type
+          },
+           ^
+CodexTest_0_9_3.java:33: error: <identifier> expected
+          },
+            ^
+CodexTest_0_9_3.java:34: error: ';' expected
+          "code": "assertEquals(42, HashCode.fromLong(42).hashCode());"
+                ^
+CodexTest_0_9_3.java:34: error: illegal start of type
+          "code": "assertEquals(42, HashCode.fromLong(42).hashCode());"
+                  ^
+CodexTest_0_9_3.java:34: error: <identifier> expected
+          "code": "assertEquals(42, HashCode.fromLong(42).hashCode());"
+                                                                       ^
+CodexTest_0_9_3.java:35: error: ';' expected
+        }
+         ^
+CodexTest_0_9_3.java:36: error: illegal start of type
+      ],
+       ^
+CodexTest_0_9_3.java:36: error: <identifier> expected
+      ],
+        ^
+CodexTest_0_9_3.java:37: error: ';' expected
+      "code": "public void testObjectHashCode(long) {\n\tassertEquals(42, HashCode.fromLong(42).hashCode());\n}"
+            ^
+CodexTest_0_9_3.java:37: error: illegal start of type
+      "code": "public void testObjectHashCode(long) {\n\tassertEquals(42, HashCode.fromLong(42).hashCode());\n}"
+              ^
+CodexTest_0_9_3.java:37: error: <identifier> expected
+      "code": "public void testObjectHashCode(long) {\n\tassertEquals(42, HashCode.fromLong(42).hashCode());\n}"
+                                                                                                                ^
+CodexTest_0_9_3.java:38: error: ';' expected
+    }
+     ^
+CodexTest_0_9_3.java:39: error: reached end of file while parsing
+}
+ ^

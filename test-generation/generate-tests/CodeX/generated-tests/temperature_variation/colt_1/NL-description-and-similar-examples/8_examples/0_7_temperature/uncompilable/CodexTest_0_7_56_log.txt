@@ -1,0 +1,35 @@
+isCompilable => false
+CodexTest_0_7_56.java:30: error: cannot find symbol
+    DoubleMatrix1D a = new DenseDoubleMatrix1D(SIZE);
+                                               ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_56
+CodexTest_0_7_56.java:31: error: cannot find symbol
+    for (int i = 0; i < SIZE; i++) {
+                        ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_56
+CodexTest_0_7_56.java:34: error: cannot find symbol
+    DoubleMatrix1D b = new DenseDoubleMatrix1D(SIZE);
+                                               ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_56
+CodexTest_0_7_56.java:35: error: package com.cern.jet.math does not exist
+    b.assign(a,com.cern.jet.math.Functions.chain(com.cern.jet.math.Functions.tan, com.cern.jet.math.Functions.sqrt));
+                                                                  ^
+CodexTest_0_7_56.java:35: error: package com.cern.jet.math does not exist
+    b.assign(a,com.cern.jet.math.Functions.chain(com.cern.jet.math.Functions.tan, com.cern.jet.math.Functions.sqrt));
+                                                                                                   ^
+CodexTest_0_7_56.java:35: error: package com.cern.jet.math does not exist
+    b.assign(a,com.cern.jet.math.Functions.chain(com.cern.jet.math.Functions.tan, com.cern.jet.math.Functions.sqrt));
+                                ^
+CodexTest_0_7_56.java:36: error: cannot find symbol
+    for (int i = 0; i < SIZE; i++) {
+                        ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_56
+CodexTest_0_7_56.java:37: error: cannot find symbol
+      assertEquals(Math.sqrt(Math.tan(a.get(i))), b.get(i), TOL);
+                                                            ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_56

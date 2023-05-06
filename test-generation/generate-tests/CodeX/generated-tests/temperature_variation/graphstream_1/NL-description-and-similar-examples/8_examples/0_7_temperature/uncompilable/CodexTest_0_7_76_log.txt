@@ -1,0 +1,67 @@
+isCompilable => false
+CodexTest_0_7_76.java:20: error: cannot find symbol
+        Graph<Integer, DefaultEdge> g = new SimpleGraph<>(DefaultEdge.class);
+                       ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:20: error: type org.graphstream.graph.Graph does not take parameters
+        Graph<Integer, DefaultEdge> g = new SimpleGraph<>(DefaultEdge.class);
+             ^
+CodexTest_0_7_76.java:20: error: cannot find symbol
+        Graph<Integer, DefaultEdge> g = new SimpleGraph<>(DefaultEdge.class);
+                                            ^
+  symbol:   class SimpleGraph
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:20: error: cannot find symbol
+        Graph<Integer, DefaultEdge> g = new SimpleGraph<>(DefaultEdge.class);
+                                                          ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:21: error: cannot find symbol
+        Graphs.addAllVertices(g, Arrays.asList(1, 2, 3));
+                                 ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:21: error: cannot find symbol
+        Graphs.addAllVertices(g, Arrays.asList(1, 2, 3));
+        ^
+  symbol:   variable Graphs
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:22: error: cannot find symbol
+        DefaultEdge e1 = Graphs.addEdge(g, 1, 2);
+        ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:22: error: cannot find symbol
+        DefaultEdge e1 = Graphs.addEdge(g, 1, 2);
+                         ^
+  symbol:   variable Graphs
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:23: error: cannot find symbol
+        DefaultEdge e2 = Graphs.addEdge(g, 2, 3);
+        ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:23: error: cannot find symbol
+        DefaultEdge e2 = Graphs.addEdge(g, 2, 3);
+                         ^
+  symbol:   variable Graphs
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:24: error: cannot find symbol
+        Path<Integer, DefaultEdge> path = GraphWalk.singletonWalk(g, 1, e1, e2);
+                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:24: error: type org.graphstream.graph.Path does not take parameters
+        Path<Integer, DefaultEdge> path = GraphWalk.singletonWalk(g, 1, e1, e2);
+            ^
+CodexTest_0_7_76.java:24: error: cannot find symbol
+        Path<Integer, DefaultEdge> path = GraphWalk.singletonWalk(g, 1, e1, e2);
+                                          ^
+  symbol:   variable GraphWalk
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:27: error: cannot find symbol
+        assertFalse(path.contains(Graphs.addEdge(g, 3, 1)));
+                                  ^
+  symbol:   variable Graphs
+  location: class CodexTest_0_7_76

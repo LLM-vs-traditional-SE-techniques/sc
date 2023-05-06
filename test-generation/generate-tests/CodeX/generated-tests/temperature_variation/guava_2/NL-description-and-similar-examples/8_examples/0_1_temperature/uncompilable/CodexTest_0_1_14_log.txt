@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_1_14.java:28: error: cannot find symbol
+    int bits = bits();
+               ^
+  symbol:   method bits()
+  location: class CodexTest_0_1_14
+CodexTest_0_1_14.java:32: error: int cannot be dereferenced
+    assertEquals(length, bits.writeBytesTo(dest, offset, maxLength));
+                             ^

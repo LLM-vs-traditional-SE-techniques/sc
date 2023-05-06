@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_4.java:67: error: cannot find symbol
+        XContentType xContentType = randomFrom(XContentType.values());
+                                    ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:72: error: cannot find symbol
+        try (XContentParser parser = createParser(xContentType.xContent(), bytes)) {
+             ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:72: error: cannot find symbol
+        try (XContentParser parser = createParser(xContentType.xContent(), bytes)) {
+                                     ^
+  symbol:   method createParser(org.elasticsearch.common.xcontent.XContent,org.elasticsearch.common.bytes.BytesReference)
+  location: class CodexTest_0_4_4

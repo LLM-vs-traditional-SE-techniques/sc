@@ -1,0 +1,65 @@
+isCompilable => false
+CodexTest_0_7_5.java:18: error: cannot find symbol
+     Instances inst = new Instances(new BufferedReader(new StringReader(
+                                        ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:18: error: cannot find symbol
+     Instances inst = new Instances(new BufferedReader(new StringReader(
+                                                           ^
+  symbol:   class StringReader
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:19: error: cannot find symbol
+									 m_Instances.toString())));
+									 ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:22: error: cannot find symbol
+       instCopy = getAsInstance(inst, new Random(1));
+                  ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:28: error: cannot find symbol
+     assertTrue(instCopy.equalHeaders(m_Instances));
+                                      ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:29: error: incompatible types: weka.core.Instances cannot be converted to weka.core.Instance
+     assertTrue(instCopy.equalHeaders(inst));
+                                      ^
+CodexTest_0_7_5.java:31: error: cannot find symbol
+     double[][] values = new double[NUM_INSTANCES][NUM_ATTRIBUTES];
+                                    ^
+  symbol:   variable NUM_INSTANCES
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:31: error: cannot find symbol
+     double[][] values = new double[NUM_INSTANCES][NUM_ATTRIBUTES];
+                                                   ^
+  symbol:   variable NUM_ATTRIBUTES
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:32: error: cannot find symbol
+     for (int i = 0; i < NUM_INSTANCES; i++) {
+                         ^
+  symbol:   variable NUM_INSTANCES
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:33: error: cannot find symbol
+       for (int n = 0; n < NUM_ATTRIBUTES; n++) {
+                           ^
+  symbol:   variable NUM_ATTRIBUTES
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:34: error: cannot find symbol
+	 values[i][n] = m_Instances.get(i).value(n);
+	                ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:38: error: cannot find symbol
+     for (int i = 0; i < NUM_INSTANCES; i++) {
+                         ^
+  symbol:   variable NUM_INSTANCES
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:39: error: cannot find symbol
+       for (int n = 0; n < NUM_ATTRIBUTES; n++) {
+                           ^
+  symbol:   variable NUM_ATTRIBUTES
+  location: class CodexTest_0_7_5
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

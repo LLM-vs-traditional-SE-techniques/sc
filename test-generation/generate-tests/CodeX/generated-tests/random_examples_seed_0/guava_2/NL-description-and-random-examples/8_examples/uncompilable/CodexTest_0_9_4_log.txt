@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_4.java:26: error: cannot find symbol
+        OpenByteBuffer openByteBuffer = new OpenByteBuffer(byteArray);
+        ^
+  symbol:   class OpenByteBuffer
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:26: error: cannot find symbol
+        OpenByteBuffer openByteBuffer = new OpenByteBuffer(byteArray);
+                                            ^
+  symbol:   class OpenByteBuffer
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:30: error: cannot find symbol
+        } catch (BufferUnderflowException ex) {
+                 ^
+  symbol:   class BufferUnderflowException
+  location: class CodexTest_0_9_4

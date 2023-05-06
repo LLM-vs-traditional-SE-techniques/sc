@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_4.java:65: error: cannot find symbol
+        ClusterHealthAction action = new ClusterHealthAction(client());
+        ^
+  symbol:   class ClusterHealthAction
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:65: error: cannot find symbol
+        ClusterHealthAction action = new ClusterHealthAction(client());
+                                         ^
+  symbol:   class ClusterHealthAction
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:65: error: cannot find symbol
+        ClusterHealthAction action = new ClusterHealthAction(client());
+                                                             ^
+  symbol:   method client()
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:66: error: cannot find symbol
+        ClusterHealthRequestBuilder builder = new ClusterHealthRequestBuilder(client(), action, null);
+        ^
+  symbol:   class ClusterHealthRequestBuilder
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:66: error: cannot find symbol
+        ClusterHealthRequestBuilder builder = new ClusterHealthRequestBuilder(client(), action, null);
+                                                  ^
+  symbol:   class ClusterHealthRequestBuilder
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:66: error: cannot find symbol
+        ClusterHealthRequestBuilder builder = new ClusterHealthRequestBuilder(client(), action, null);
+                                                                              ^
+  symbol:   method client()
+  location: class CodexTest_0_8_4

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_37.java:66: error: cannot find symbol
+			FilterHolder filterHolder = new FilterHolder(parent);
+			^
+  symbol:   class FilterHolder
+  location: class CodexTest_0_7_37
+CodexTest_0_7_37.java:66: error: cannot find symbol
+			FilterHolder filterHolder = new FilterHolder(parent);
+			                                ^
+  symbol:   class FilterHolder
+  location: class CodexTest_0_7_37
+CodexTest_0_7_37.java:67: error: cannot find symbol
+			XmlFilter xmlFilter = new XmlFilter("name");
+			^
+  symbol:   class XmlFilter
+  location: class CodexTest_0_7_37
+CodexTest_0_7_37.java:67: error: cannot find symbol
+			XmlFilter xmlFilter = new XmlFilter("name");
+			                          ^
+  symbol:   class XmlFilter
+  location: class CodexTest_0_7_37

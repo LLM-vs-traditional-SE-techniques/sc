@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_89.java:65: error: cannot find symbol
+        Map<String, Object> map = ImmutableMap.of(
+                                  ^
+  symbol:   variable ImmutableMap
+  location: class CodexTest_0_8_89
+CodexTest_0_8_89.java:70: error: cannot find symbol
+                .sourceAsBytes()
+                ^
+  symbol:   method sourceAsBytes()
+  location: class org.elasticsearch.action.index.IndexRequest

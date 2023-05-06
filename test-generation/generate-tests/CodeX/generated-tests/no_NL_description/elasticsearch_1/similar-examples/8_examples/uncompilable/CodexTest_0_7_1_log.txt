@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_1.java:65: error: cannot find symbol
+        TermQueryBuilder termQueryBuilder = new TermQueryBuilder("user", "kimchy");
+        ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:65: error: cannot find symbol
+        TermQueryBuilder termQueryBuilder = new TermQueryBuilder("user", "kimchy");
+                                                ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:67: error: cannot find symbol
+        termQueryBuilder.doXContent(builder, ToXContent.EMPTY_PARAMS);
+                                             ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_7_1

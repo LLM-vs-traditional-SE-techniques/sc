@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_9_1.java:66: error: cannot find symbol
+        map.put(XContentFieldNames.ROUTING, 12);
+                ^
+  symbol:   variable XContentFieldNames
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:67: error: cannot find symbol
+        map.put(XContentFieldNames.PARENT, 456);
+                ^
+  symbol:   variable XContentFieldNames
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:68: error: cannot find symbol
+        map.put(XContentFieldNames.TIMESTAMP, 123);
+                ^
+  symbol:   variable XContentFieldNames
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:69: error: cannot find symbol
+        map.put(XContentFieldNames.TTL, 34);
+                ^
+  symbol:   variable XContentFieldNames
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:70: error: cannot find symbol
+        map.put(XContentFieldNames.PRIORITY, 54);
+                ^
+  symbol:   variable XContentFieldNames
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:71: error: cannot find symbol
+        map.put(XContentFieldNames.VERSION, 67);
+                ^
+  symbol:   variable XContentFieldNames
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:73: error: cannot find symbol
+        assertThat(request.toString(), request.routing(), equalTo(12));
+                                                          ^
+  symbol:   method equalTo(int)
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:74: error: cannot find symbol
+        assertThat(request.toString(), request.parent(), equalTo(456));
+                                                         ^
+  symbol:   method equalTo(int)
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:75: error: cannot find symbol
+        assertThat(request.toString(), request.timestamp(), equalTo(123));
+                                              ^
+  symbol:   method timestamp()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_9_1.java:75: error: cannot find symbol
+        assertThat(request.toString(), request.timestamp(), equalTo(123));
+                                                            ^
+  symbol:   method equalTo(int)
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:76: error: cannot find symbol
+        assertThat(request.toString(), request.ttl(), equalTo(34l));
+                                              ^
+  symbol:   method ttl()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_9_1.java:76: error: cannot find symbol
+        assertThat(request.toString(), request.ttl(), equalTo(34l));
+                                                      ^
+  symbol:   method equalTo(long)
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:78: error: cannot find symbol
+        assertThat(request.toString(), request.version(), equalTo(67));
+                                                          ^
+  symbol:   method equalTo(int)
+  location: class CodexTest_0_9_1

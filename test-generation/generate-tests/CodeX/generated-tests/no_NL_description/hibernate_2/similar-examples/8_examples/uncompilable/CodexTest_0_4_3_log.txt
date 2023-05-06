@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_4_3.java:16: error: package BooleanType does not exist
+    assertTrue(BooleanType.INSTANCE.fromString("true"));
+                          ^
+CodexTest_0_4_3.java:17: error: package BooleanType does not exist
+    assertFalse(BooleanType.INSTANCE.fromString("false"));
+                           ^
+CodexTest_0_4_3.java:18: error: package BooleanType does not exist
+    assertNull(BooleanType.INSTANCE.fromString(null));
+                          ^

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_4.java:18: error: cannot find symbol
+    AlgVector v1 = createAlgVector(new double[] {2, 3, 5});
+                   ^
+  symbol:   method createAlgVector(double[])
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:19: error: cannot find symbol
+    AlgVector v2 = createAlgVector(new double[] {1, -5, 1});
+                   ^
+  symbol:   method createAlgVector(double[])
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:21: error: cannot find symbol
+    compareVectors(new double[] {3, -2, 6}, v3);
+    ^
+  symbol:   method compareVectors(double[],weka.core.AlgVector)
+  location: class CodexTest_0_9_4

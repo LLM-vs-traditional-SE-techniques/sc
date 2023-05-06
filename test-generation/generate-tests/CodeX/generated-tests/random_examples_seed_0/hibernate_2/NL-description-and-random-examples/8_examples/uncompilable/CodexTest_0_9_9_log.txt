@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_9.java:16: error: cannot find symbol
+            HashCode hashCode42 = HashCode.fromInt(42);
+            ^
+  symbol:   class HashCode
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:16: error: cannot find symbol
+            HashCode hashCode42 = HashCode.fromInt(42);
+                                  ^
+  symbol:   variable HashCode
+  location: class CodexTest_0_9_9

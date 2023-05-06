@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_5.java:19: error: cannot find symbol
+        List list = Arrays.asList(objects);
+        ^
+  symbol:   class List
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:19: error: cannot find symbol
+        List list = Arrays.asList(objects);
+                    ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_5

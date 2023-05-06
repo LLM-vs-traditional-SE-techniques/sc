@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_8_9.java:32: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+            assertEquals(1.0, Vector1D.distanceSq(new Vector1D(1,1), new Vector1D(0,0)), 1e-5);
+                                                                 ^
+CodexTest_0_8_9.java:32: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+            assertEquals(1.0, Vector1D.distanceSq(new Vector1D(1,1), new Vector1D(0,0)), 1e-5);
+                                                                                    ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

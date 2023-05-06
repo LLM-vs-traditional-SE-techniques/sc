@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_2.java:20: error: m_Elements has protected access in weka.core.AlgVector
+            v1.m_Elements[0] = 1;
+              ^
+CodexTest_0_8_2.java:21: error: incompatible types: java.lang.Object cannot be converted to weka.core.AlgVector
+            AlgVector v2 = v1.clone();
+                                   ^
+CodexTest_0_8_2.java:22: error: m_Elements has protected access in weka.core.AlgVector
+            v2.m_Elements[0] = 2;
+              ^
+CodexTest_0_8_2.java:23: error: m_Elements has protected access in weka.core.AlgVector
+            assertEquals(1, v1.m_Elements[0], 0.0);
+                              ^
+CodexTest_0_8_2.java:24: error: m_Elements has protected access in weka.core.AlgVector
+            assertEquals(2, v2.m_Elements[0], 0.0);
+                              ^

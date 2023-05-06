@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_65.java:66: error: cannot find symbol
+        String actualParent = instance.parent();
+                              ^
+  symbol:   variable instance
+  location: class CodexTest_0_9_65

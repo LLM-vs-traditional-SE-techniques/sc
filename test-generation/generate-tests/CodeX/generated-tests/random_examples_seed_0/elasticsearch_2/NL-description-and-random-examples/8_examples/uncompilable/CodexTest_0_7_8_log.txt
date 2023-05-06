@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_8.java:65: error: cannot find symbol
+			DirectoryScanner ds = new DirectoryScanner();
+			^
+  symbol:   class DirectoryScanner
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:65: error: cannot find symbol
+			DirectoryScanner ds = new DirectoryScanner();
+			                          ^
+  symbol:   class DirectoryScanner
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:70: error: cannot find symbol
+			ds.setBasedir(new File(getProject().getBaseDir(), "tmp"));
+			                  ^
+  symbol:   class File
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:70: error: cannot find symbol
+			ds.setBasedir(new File(getProject().getBaseDir(), "tmp"));
+			                       ^
+  symbol:   method getProject()
+  location: class CodexTest_0_7_8

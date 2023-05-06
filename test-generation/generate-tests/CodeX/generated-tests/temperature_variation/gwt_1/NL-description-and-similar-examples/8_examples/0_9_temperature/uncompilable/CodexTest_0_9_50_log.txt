@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_50.java:16: error: cannot find symbol
+    assertEquals("com.google.gwt.core.client.JavaScriptObject$", JsonObject.class.getName());
+                                                                 ^
+  symbol:   class JsonObject
+  location: class CodexTest_0_9_50

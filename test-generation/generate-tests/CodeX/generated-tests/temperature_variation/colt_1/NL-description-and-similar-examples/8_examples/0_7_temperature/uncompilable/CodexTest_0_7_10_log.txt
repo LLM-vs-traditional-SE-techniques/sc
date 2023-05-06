@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_10.java:30: error: cannot find symbol
+    x = 0.0;
+    ^
+  symbol:   variable x
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:31: error: cannot find symbol
+    a = new DenseDoubleMatrix1D(0);
+    ^
+  symbol:   variable a
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:32: error: cannot find symbol
+    a.set(0, x);
+             ^
+  symbol:   variable x
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:32: error: cannot find symbol
+    a.set(0, x);
+    ^
+  symbol:   variable a
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:33: error: cannot find symbol
+    assertEquals(x, a.get(0), TOL);
+                 ^
+  symbol:   variable x
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:33: error: cannot find symbol
+    assertEquals(x, a.get(0), TOL);
+                    ^
+  symbol:   variable a
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:33: error: cannot find symbol
+    assertEquals(x, a.get(0), TOL);
+                              ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_10

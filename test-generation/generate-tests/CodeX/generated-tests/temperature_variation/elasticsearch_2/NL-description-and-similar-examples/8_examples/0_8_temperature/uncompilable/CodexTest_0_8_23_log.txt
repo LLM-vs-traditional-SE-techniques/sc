@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_23.java:65: error: <identifier> expected
+Input: public <T> List<T> getList(String key, Class<T> clazz) {
+     ^
+CodexTest_0_8_23.java:68: error: <identifier> expected
+Output: public void testGenerics() {
+      ^

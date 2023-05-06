@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_6.java:26: error: cannot find symbol
+    int writtenBytes = Ints.decode("1234567890").writeBytesTo(dest, 0, dest.length);
+                           ^
+  symbol:   method decode(java.lang.String)
+  location: class com.google.common.primitives.Ints

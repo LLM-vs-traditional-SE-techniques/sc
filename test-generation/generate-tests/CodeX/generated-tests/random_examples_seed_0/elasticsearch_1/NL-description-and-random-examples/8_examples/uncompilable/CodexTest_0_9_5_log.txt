@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_5.java:67: error: <identifier> expected
+Input: public String serialize(Object obj) {
+     ^
+CodexTest_0_9_5.java:71: error: reached end of file while parsing
+}
+ ^

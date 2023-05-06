@@ -1,0 +1,91 @@
+isCompilable => false
+CodexTest_0_9_3.java:23: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 3.0, v3.getElement(0), 1e-10);
+                                           ^
+  symbol:   method toArray()
+  location: variable v1 of type weka.core.AlgVector
+CodexTest_0_9_3.java:23: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 3.0, v3.getElement(0), 1e-10);
+                         ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:23: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 3.0, v3.getElement(0), 1e-10);
+                                                                                      ^
+  symbol:   method toArray()
+  location: variable v2 of type weka.core.AlgVector
+CodexTest_0_9_3.java:23: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 3.0, v3.getElement(0), 1e-10);
+                                                                    ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:23: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 3.0, v3.getElement(0), 1e-10);
+                                                                                                                                 ^
+  symbol:   method toArray()
+  location: variable v3 of type weka.core.AlgVector
+CodexTest_0_9_3.java:23: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 3.0, v3.getElement(0), 1e-10);
+                                                                                                               ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:24: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 5.0, v3.getElement(1), 1e-10);
+                                           ^
+  symbol:   method toArray()
+  location: variable v1 of type weka.core.AlgVector
+CodexTest_0_9_3.java:24: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 5.0, v3.getElement(1), 1e-10);
+                         ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:24: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 5.0, v3.getElement(1), 1e-10);
+                                                                                      ^
+  symbol:   method toArray()
+  location: variable v2 of type weka.core.AlgVector
+CodexTest_0_9_3.java:24: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 5.0, v3.getElement(1), 1e-10);
+                                                                    ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:24: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 5.0, v3.getElement(1), 1e-10);
+                                                                                                                                 ^
+  symbol:   method toArray()
+  location: variable v3 of type weka.core.AlgVector
+CodexTest_0_9_3.java:24: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 5.0, v3.getElement(1), 1e-10);
+                                                                                                               ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:25: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 7.0, v3.getElement(2), 1e-10);
+                                           ^
+  symbol:   method toArray()
+  location: variable v1 of type weka.core.AlgVector
+CodexTest_0_9_3.java:25: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 7.0, v3.getElement(2), 1e-10);
+                         ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:25: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 7.0, v3.getElement(2), 1e-10);
+                                                                                      ^
+  symbol:   method toArray()
+  location: variable v2 of type weka.core.AlgVector
+CodexTest_0_9_3.java:25: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 7.0, v3.getElement(2), 1e-10);
+                                                                    ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:25: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 7.0, v3.getElement(2), 1e-10);
+                                                                                                                                 ^
+  symbol:   method toArray()
+  location: variable v3 of type weka.core.AlgVector
+CodexTest_0_9_3.java:25: error: cannot find symbol
+    assertEquals("V1 " + Arrays.toString(v1.toArray()) + " + V2 " + Arrays.toString(v2.toArray()) + " = V3 " + Arrays.toString(v3.toArray()), 7.0, v3.getElement(2), 1e-10);
+                                                                                                               ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_3

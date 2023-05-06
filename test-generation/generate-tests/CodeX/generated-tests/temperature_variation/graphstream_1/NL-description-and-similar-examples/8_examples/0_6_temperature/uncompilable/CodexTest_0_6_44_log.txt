@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_44.java:21: error: cannot find symbol
+        Path path = Path.path("a", "b", "c");
+                        ^
+  symbol:   method path(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.graphstream.graph.Path

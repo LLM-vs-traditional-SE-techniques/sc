@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_8_52.java:30: error: no suitable constructor found for DenseDoubleMatrix2D(int,int,double[])
+		DoubleMatrix2D b = new DenseDoubleMatrix2D(2,2,new double [] {1,2,3,4});
+		                   ^
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix2D.DenseDoubleMatrix2D(double[][]) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix2D.DenseDoubleMatrix2D(int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix2D.DenseDoubleMatrix2D(int,int,double[],int,int,int,int) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_8_52.java:33: error: no suitable method found for assign(cern.colt.matrix.DoubleMatrix2D)
+		a.assign(b);
+		 ^
+    method cern.colt.matrix.DoubleMatrix1D.assign(double[]) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to double[])
+    method cern.colt.matrix.DoubleMatrix1D.assign(double) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to double)
+    method cern.colt.matrix.DoubleMatrix1D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.DoubleMatrix1D.assign(cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.matrix.DoubleMatrix1D)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_3_8.java:21: error: cannot find symbol
+        p.add(nodeA);
+              ^
+  symbol:   variable nodeA
+  location: class CodexTest_0_3_8
+CodexTest_0_3_8.java:22: error: cannot find symbol
+        p.add(nodeB);
+              ^
+  symbol:   variable nodeB
+  location: class CodexTest_0_3_8
+CodexTest_0_3_8.java:23: error: cannot find symbol
+        p.add(nodeC);
+              ^
+  symbol:   variable nodeC
+  location: class CodexTest_0_3_8
+CodexTest_0_3_8.java:25: error: cannot find symbol
+        p2.add(nodeA);
+               ^
+  symbol:   variable nodeA
+  location: class CodexTest_0_3_8
+CodexTest_0_3_8.java:26: error: cannot find symbol
+        p2.add(nodeB);
+               ^
+  symbol:   variable nodeB
+  location: class CodexTest_0_3_8
+CodexTest_0_3_8.java:27: error: cannot find symbol
+        p2.add(nodeC);
+               ^
+  symbol:   variable nodeC
+  location: class CodexTest_0_3_8

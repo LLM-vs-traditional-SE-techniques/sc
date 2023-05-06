@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_4.java:65: error: cannot find symbol
+        String type = randomFrom("_doc", "_doc", randomAlphaOfLengthBetween(1, 10));
+                                                 ^
+  symbol:   method randomAlphaOfLengthBetween(int,int)
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:66: error: cannot find symbol
+        String id = randomAlphaOfLengthBetween(1, 10);
+                    ^
+  symbol:   method randomAlphaOfLengthBetween(int,int)
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:67: error: cannot find symbol
+        int version = randomIntBetween(1, Integer.MAX_VALUE);
+                      ^
+  symbol:   method randomIntBetween(int,int)
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:68: error: cannot find symbol
+        String parent = randomAlphaOfLengthBetween(1, 10);
+                        ^
+  symbol:   method randomAlphaOfLengthBetween(int,int)
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:69: error: cannot find symbol
+        String routing = randomAlphaOfLengthBetween(1, 10);
+                         ^
+  symbol:   method randomAlphaOfLengthBetween(int,int)
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:71: error: cannot find symbol
+            PutResponse putResponse = createTestItem(type, id, version, parent, routing, true, true);
+            ^
+  symbol:   class PutResponse
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:71: error: cannot find symbol
+            PutResponse putResponse = createTestItem(type, id, version, parent, routing, true, true);
+                                      ^
+  symbol:   method createTestItem(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,boolean,boolean)
+  location: class CodexTest_0_8_4

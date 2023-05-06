@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_2.java:67: error: incompatible types: java.util.Map<java.lang.String,java.lang.Object> cannot be converted to java.util.Map<java.lang.String,java.lang.String>
+        Map<String, String> source = XContentHelper.convertToMap(new BytesArray(json), false).v2();
+                                                                                                ^
+CodexTest_0_7_2.java:69: error: cannot find symbol
+        XContentParser parser = createParser(XContentFactory.jsonBuilder().map(source).bytes());
+        ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:69: error: cannot find symbol
+        XContentParser parser = createParser(XContentFactory.jsonBuilder().map(source).bytes());
+                                ^
+  symbol:   method createParser(org.elasticsearch.common.bytes.BytesReference)
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:72: error: cannot find symbol
+        assertThat(parsedRequest.sourceAsMap(), equalTo(testRequest.sourceAsMap()));
+                                                ^
+  symbol:   method equalTo(java.util.Map<java.lang.String,java.lang.Object>)
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:73: error: cannot find symbol
+        assertToXContentEquivalent(json, testRequest.source(), XContentType.JSON);
+        ^
+  symbol:   method assertToXContentEquivalent(java.lang.String,org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.xcontent.XContentType)
+  location: class CodexTest_0_7_2
+Note: CodexTest_0_7_2.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

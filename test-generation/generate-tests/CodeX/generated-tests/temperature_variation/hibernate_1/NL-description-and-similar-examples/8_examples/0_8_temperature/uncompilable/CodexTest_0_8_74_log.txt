@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_8_74.java:39: error: illegal start of type
+*
+^
+CodexTest_0_8_74.java:39: error: ';' expected
+*
+ ^
+CodexTest_0_8_74.java:41: error: illegal start of type
+*
+^
+CodexTest_0_8_74.java:41: error: <identifier> expected
+*
+ ^
+CodexTest_0_8_74.java:42: error: ';' expected
+*
+ ^
+CodexTest_0_8_74.java:43: error: illegal start of type
+* */
+  ^
+CodexTest_0_8_74.java:43: error: <identifier> expected
+* */
+   ^
+CodexTest_0_8_74.java:43: error: ';' expected
+* */
+    ^
+CodexTest_0_8_74.java:44: error: reached end of file while parsing
+}
+ ^

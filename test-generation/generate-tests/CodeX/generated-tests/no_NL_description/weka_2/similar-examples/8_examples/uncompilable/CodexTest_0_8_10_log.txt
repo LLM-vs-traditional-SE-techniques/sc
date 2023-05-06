@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_8_10.java:19: error: cannot find symbol
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			^
+  symbol:   class DoubleMatrix1D
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:19: error: cannot find symbol
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			                            ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:20: error: cannot find symbol
+			double min_value = vector.aggregate(DoubleFunctions.min,DoubleFunctions.identity);
+			                                    ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:20: error: cannot find symbol
+			double min_value = vector.aggregate(DoubleFunctions.min,DoubleFunctions.identity);
+			                                                        ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:21: error: cannot find symbol
+			double max_value = vector.aggregate(DoubleFunctions.max,DoubleFunctions.identity);
+			                                    ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:21: error: cannot find symbol
+			double max_value = vector.aggregate(DoubleFunctions.max,DoubleFunctions.identity);
+			                                                        ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:22: error: cannot find symbol
+			double len = vector.aggregate(DoubleFunctions.plus,DoubleFunctions.square);
+			                              ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:22: error: cannot find symbol
+			double len = vector.aggregate(DoubleFunctions.plus,DoubleFunctions.square);
+			                                                   ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:23: error: cannot find symbol
+			double avg = vector.aggregate(DoubleFunctions.plus,DoubleFunctions.identity)/vector.size();
+			                              ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:23: error: cannot find symbol
+			double avg = vector.aggregate(DoubleFunctions.plus,DoubleFunctions.identity)/vector.size();
+			                                                   ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:25: error: cannot find symbol
+			vector = vector.assign(DoubleFunctions.minus(avg));
+			                       ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:26: error: cannot find symbol
+			vector = vector.assign(DoubleFunctions.div(Math.sqrt(len)));
+			                       ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_10

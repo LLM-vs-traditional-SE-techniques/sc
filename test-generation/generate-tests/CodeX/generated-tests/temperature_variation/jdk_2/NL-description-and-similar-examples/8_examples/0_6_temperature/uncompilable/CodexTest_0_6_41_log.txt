@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_41.java:23: error: cannot find symbol
+        underTest.add(a);
+                      ^
+  symbol:   variable a
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:24: error: cannot find symbol
+        underTest.add(b);
+                      ^
+  symbol:   variable b
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:25: error: cannot find symbol
+        underTest.add(c);
+                      ^
+  symbol:   variable c
+  location: class CodexTest_0_6_41

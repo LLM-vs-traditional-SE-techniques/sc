@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_67.java:18: error: cannot find symbol
+    assertEquals("[1.0, 2.0, 3.0]", m_TestVector.toString());
+                                    ^
+  symbol:   variable m_TestVector
+  location: class CodexTest_0_8_67

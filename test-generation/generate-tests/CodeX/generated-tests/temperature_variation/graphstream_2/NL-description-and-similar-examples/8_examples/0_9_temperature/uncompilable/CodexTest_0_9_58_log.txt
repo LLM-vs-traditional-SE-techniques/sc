@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_9_58.java:23: error: cannot find symbol
+            List list = Arrays.asList(tokens);
+                        ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_58
+CodexTest_0_9_58.java:24: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+            Path path1 = new Path(tokens);
+                         ^
+  required: no arguments
+  found: java.lang.String[]
+  reason: actual and formal argument lists differ in length
+CodexTest_0_9_58.java:25: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+            Path path2 = new Path(list);
+                         ^
+  required: no arguments
+  found: java.util.List
+  reason: actual and formal argument lists differ in length

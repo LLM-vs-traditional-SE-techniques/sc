@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_5_83.java:43: error: ')' expected
+        Assert.assertEquals(v2.scalarMultiply(-2).getNorm(), v2.subt
+                                                                    ^
+CodexTest_0_5_83.java:44: error: reached end of file while parsing
+}
+ ^

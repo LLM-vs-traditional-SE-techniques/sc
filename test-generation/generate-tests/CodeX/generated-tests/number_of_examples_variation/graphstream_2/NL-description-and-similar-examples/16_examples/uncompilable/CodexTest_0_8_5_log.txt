@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_5.java:20: error: cannot find symbol
+        HashMap<Integer, Integer> map2 = new HashMap<Integer, Integer>(map);
+        ^
+  symbol:   class HashMap
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:20: error: cannot find symbol
+        HashMap<Integer, Integer> map2 = new HashMap<Integer, Integer>(map);
+                                             ^
+  symbol:   class HashMap
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:20: error: cannot find symbol
+        HashMap<Integer, Integer> map2 = new HashMap<Integer, Integer>(map);
+                                                                       ^
+  symbol:   variable map
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:21: error: cannot find symbol
+        assertEquals(map, map2);
+                     ^
+  symbol:   variable map
+  location: class CodexTest_0_8_5

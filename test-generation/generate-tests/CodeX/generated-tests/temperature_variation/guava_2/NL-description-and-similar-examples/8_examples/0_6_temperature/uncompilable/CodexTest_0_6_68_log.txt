@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_68.java:25: error: cannot find symbol
+    Map<String, String> map = new HashMap<>();
+    ^
+  symbol:   class Map
+  location: class CodexTest_0_6_68
+CodexTest_0_6_68.java:25: error: cannot find symbol
+    Map<String, String> map = new HashMap<>();
+                                  ^
+  symbol:   class HashMap
+  location: class CodexTest_0_6_68
+CodexTest_0_6_68.java:29: error: cannot find symbol
+    ObjectMapper mapper = new ObjectMapper();
+    ^
+  symbol:   class ObjectMapper
+  location: class CodexTest_0_6_68
+CodexTest_0_6_68.java:29: error: cannot find symbol
+    ObjectMapper mapper = new ObjectMapper();
+                              ^
+  symbol:   class ObjectMapper
+  location: class CodexTest_0_6_68

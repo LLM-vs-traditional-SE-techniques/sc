@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_10.java:40: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_10.java:55: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_10.java:70: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_10.java:77: error: ')' expected
+        final DynamicBitVector vector = new DynamicBitVector(buffer, numElements
+                                                                                ^
+CodexTest_0_8_10.java:78: error: reached end of file while parsing
+}
+ ^

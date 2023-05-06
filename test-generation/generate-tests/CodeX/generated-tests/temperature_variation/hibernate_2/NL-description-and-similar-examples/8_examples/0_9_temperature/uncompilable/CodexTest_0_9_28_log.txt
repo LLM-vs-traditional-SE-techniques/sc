@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_28.java:23: error: <identifier> expected
+Input: public ArrayList<Bucket> getBuckets() {
+     ^
+CodexTest_0_9_28.java:26: error: <identifier> expected
+Output: public void testFromXContent() throws IOException {
+      ^
+CodexTest_0_9_28.java:51: error: illegal start of expression
+}
+^
+CodexTest_0_9_28.java:51: error: reached end of file while parsing
+}
+ ^

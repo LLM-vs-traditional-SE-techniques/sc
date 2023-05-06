@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_69.java:65: error: package org.hibernate.search.query.engine.spi does not exist
+            org.junit.Assert.assertEquals(new org.hibernate.search.query.engine.spi.DocumentExtractorImpl().parent(), "");
+                                                                                   ^

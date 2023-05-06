@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_1.java:31: error: <identifier> expected
+Input: public void clear() {
+     ^
+CodexTest_0_9_1.java:38: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_9_1.java:44: error: reached end of file while parsing
+}
+ ^

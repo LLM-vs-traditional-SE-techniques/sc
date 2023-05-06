@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_1.java:18: error: cannot find symbol
+    m_Tester.testGetAsInstance();
+    ^
+  symbol:   variable m_Tester
+  location: class CodexTest_0_5_1

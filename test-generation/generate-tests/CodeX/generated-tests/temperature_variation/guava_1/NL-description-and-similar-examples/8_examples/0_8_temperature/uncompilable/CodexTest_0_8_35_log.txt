@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_35.java:37: error: cannot find symbol
+      HashCode hash = Hashing.sha1().hashLong(0).putString(testString);
+                                                ^
+  symbol:   method putString(java.lang.String)
+  location: class com.google.common.hash.HashCode

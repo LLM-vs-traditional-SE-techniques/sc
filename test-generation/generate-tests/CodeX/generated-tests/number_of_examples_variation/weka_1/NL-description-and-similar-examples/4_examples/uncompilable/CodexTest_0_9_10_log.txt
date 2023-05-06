@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_10.java:62: error: ')' expected
+  		assertEquals(first.add(second).getElement(1), 0.0
+  		                                                 ^
+CodexTest_0_9_10.java:63: error: reached end of file while parsing
+}
+ ^

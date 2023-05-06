@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_13.java:21: error: cannot find symbol
+        List<String> list = newArrayList("foo", "bar");
+                            ^
+  symbol:   method newArrayList(java.lang.String,java.lang.String)
+  location: class CodexTest_0_5_13
+CodexTest_0_5_13.java:23: error: cannot find symbol
+        assertEquals(asList("foo"), list);
+                     ^
+  symbol:   method asList(java.lang.String)
+  location: class CodexTest_0_5_13

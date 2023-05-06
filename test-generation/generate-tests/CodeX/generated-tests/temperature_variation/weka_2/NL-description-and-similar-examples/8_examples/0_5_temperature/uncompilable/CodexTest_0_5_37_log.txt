@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_37.java:19: error: cannot find symbol
+            Instances inst = new Instances(new StringReader(
+                                               ^
+  symbol:   class StringReader
+  location: class CodexTest_0_5_37
+CodexTest_0_5_37.java:32: error: cannot find symbol
+            assertEquals("Number of values differs", inst.numValues(), result.numValues());
+                                                         ^
+  symbol:   method numValues()
+  location: variable inst of type weka.core.Instances
+CodexTest_0_5_37.java:33: error: cannot find symbol
+            assertEquals("Number of missing values differs", inst.numMissingValues(), result.numMissingValues());
+                                                                 ^
+  symbol:   method numMissingValues()
+  location: variable inst of type weka.core.Instances
+CodexTest_0_5_37.java:33: error: cannot find symbol
+            assertEquals("Number of missing values differs", inst.numMissingValues(), result.numMissingValues());
+                                                                                            ^
+  symbol:   method numMissingValues()
+  location: variable result of type weka.core.Instance

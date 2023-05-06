@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_7_4.java:20: error: cannot find symbol
+    Path path = new Path().extend(nodeA, nodeB).extend(nodeB, nodeC);
+                                                       ^
+  symbol:   variable nodeB
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:20: error: cannot find symbol
+    Path path = new Path().extend(nodeA, nodeB).extend(nodeB, nodeC);
+                                                              ^
+  symbol:   variable nodeC
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:20: error: cannot find symbol
+    Path path = new Path().extend(nodeA, nodeB).extend(nodeB, nodeC);
+                                  ^
+  symbol:   variable nodeA
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:20: error: cannot find symbol
+    Path path = new Path().extend(nodeA, nodeB).extend(nodeB, nodeC);
+                                         ^
+  symbol:   variable nodeB
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:21: error: cannot find symbol
+    assertTrue(path.contains(nodeA));
+                             ^
+  symbol:   variable nodeA
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:22: error: cannot find symbol
+    assertTrue(path.contains(nodeB));
+                             ^
+  symbol:   variable nodeB
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:23: error: cannot find symbol
+    assertTrue(path.contains(nodeC));
+                             ^
+  symbol:   variable nodeC
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:24: error: cannot find symbol
+    assertFalse(path.contains(nodeD));
+                              ^
+  symbol:   variable nodeD
+  location: class CodexTest_0_7_4

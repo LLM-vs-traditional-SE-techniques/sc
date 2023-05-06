@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_8_1.java:28: error: incompatible types: possible lossy conversion from int to byte
+        0x12, 0x34, 0x56, 0x78, 0x90, (byte) 0xAB, (byte) 0xCD, (byte) 0xEF};
+                                ^
+CodexTest_0_8_1.java:29: error: cannot find symbol
+    assertEquals(NUM_BITS, numBits);
+                 ^
+  symbol:   variable NUM_BITS
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:30: error: cannot find symbol
+    byte[] dest = new byte[NUM_BITS / 8];
+                           ^
+  symbol:   variable NUM_BITS
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:32: error: cannot find symbol
+    assertEquals(8, writeBytesTo(dest, 0, numBits / 8));
+                    ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_8_1

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_8.java:21: error: cannot find symbol
+        ShortCollection collection = makeCollection();
+        ^
+  symbol:   class ShortCollection
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:21: error: cannot find symbol
+        ShortCollection collection = makeCollection();
+                                     ^
+  symbol:   method makeCollection()
+  location: class CodexTest_0_8_8

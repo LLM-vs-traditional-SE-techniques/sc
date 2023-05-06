@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_9_85.java:68: error: incompatible types: java.util.Map<java.lang.String,java.lang.String> cannot be converted to org.elasticsearch.common.bytes.BytesReference
+        byte[] data = XContentHelper.convertToJson(source, false);
+                                                   ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

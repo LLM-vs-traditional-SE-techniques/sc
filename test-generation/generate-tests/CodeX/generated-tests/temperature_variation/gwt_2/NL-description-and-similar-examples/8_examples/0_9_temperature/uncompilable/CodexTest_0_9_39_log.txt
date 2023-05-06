@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_39.java:15: error: cannot find symbol
+    class MyExceptionHandler implements UncaughtExceptionHandler {
+                                        ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_9_39
+CodexTest_0_9_39.java:17: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+CodexTest_0_9_39.java:23: error: cannot find symbol
+    UncaughtExceptionHandler oldHandler = GWT.getUncaughtExceptionHandler();
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_9_39
+CodexTest_0_9_39.java:25: error: incompatible types: MyExceptionHandler cannot be converted to com.google.gwt.core.client.GWT.UncaughtExceptionHandler
+      GWT.setUncaughtExceptionHandler(myHandler);
+                                      ^
+CodexTest_0_9_39.java:26: error: incompatible types: java.lang.Exception cannot be converted to java.lang.String
+      GWT.log(new Exception());
+              ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

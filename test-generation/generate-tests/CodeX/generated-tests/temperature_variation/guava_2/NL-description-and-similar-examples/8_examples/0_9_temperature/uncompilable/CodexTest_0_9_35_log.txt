@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_9_35.java:24: error: cannot find symbol
+  public void testByteArraySink() throws IOException {
+                                         ^
+  symbol:   class IOException
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:25: error: cannot find symbol
+    ByteArraySink sink = ByteStreams.asByteSink(ByteSink.toByteSink(new byte[21]));
+    ^
+  symbol:   class ByteArraySink
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:25: error: cannot find symbol
+    ByteArraySink sink = ByteStreams.asByteSink(ByteSink.toByteSink(new byte[21]));
+                                                ^
+  symbol:   variable ByteSink
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:25: error: cannot find symbol
+    ByteArraySink sink = ByteStreams.asByteSink(ByteSink.toByteSink(new byte[21]));
+                         ^
+  symbol:   variable ByteStreams
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:26: error: cannot find symbol
+    for (int i = a; i < z; i++) {
+                 ^
+  symbol:   variable a
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:26: error: cannot find symbol
+    for (int i = a; i < z; i++) {
+                        ^
+  symbol:   variable z
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:29: error: cannot find symbol
+    byte[] expected = new byte[z - a];
+                               ^
+  symbol:   variable z
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:29: error: cannot find symbol
+    byte[] expected = new byte[z - a];
+                                   ^
+  symbol:   variable a
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:30: error: cannot find symbol
+    for (int i = a; i < z; i++) {
+                 ^
+  symbol:   variable a
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:30: error: cannot find symbol
+    for (int i = a; i < z; i++) {
+                        ^
+  symbol:   variable z
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:31: error: cannot find symbol
+      expected[i - a] = (byte) i;
+                   ^
+  symbol:   variable a
+  location: class CodexTest_0_9_35

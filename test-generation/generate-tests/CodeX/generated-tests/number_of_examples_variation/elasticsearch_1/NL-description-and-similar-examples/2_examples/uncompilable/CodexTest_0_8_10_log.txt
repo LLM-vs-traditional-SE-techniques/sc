@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_10.java:65: error: cannot find symbol
+    	assertNotNull(parent());
+    	              ^
+  symbol:   method parent()
+  location: class CodexTest_0_8_10

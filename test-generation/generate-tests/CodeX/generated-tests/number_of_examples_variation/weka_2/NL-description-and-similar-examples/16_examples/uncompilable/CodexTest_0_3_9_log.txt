@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_3_9.java:22: error: cannot find symbol
+    Instances insts = new Instances(new BufferedReader(new StringReader(
+                                        ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:22: error: cannot find symbol
+    Instances insts = new Instances(new BufferedReader(new StringReader(
+                                                           ^
+  symbol:   class StringReader
+  location: class CodexTest_0_3_9
+Note: CodexTest_0_3_9.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

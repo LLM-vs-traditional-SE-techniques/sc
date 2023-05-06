@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_50.java:64: error: cannot find symbol
+    public void testSourceMap() throws ElasticsearchException {
+                                       ^
+  symbol:   class ElasticsearchException
+  location: class CodexTest_0_6_50
+CodexTest_0_6_50.java:71: error: cannot find symbol
+        assertToXContentEquivalent(jsonMap, indexRequest.source(), XContentType.JSON);
+        ^
+  symbol:   method assertToXContentEquivalent(java.util.Map<java.lang.String,java.lang.Object>,org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.xcontent.XContentType)
+  location: class CodexTest_0_6_50

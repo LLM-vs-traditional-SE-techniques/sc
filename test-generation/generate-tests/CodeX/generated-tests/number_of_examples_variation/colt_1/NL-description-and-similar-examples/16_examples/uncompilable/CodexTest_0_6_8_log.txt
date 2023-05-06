@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_6_8.java:32: error: cannot find symbol
+        m.assign(new DoubleProcedure() {
+                     ^
+  symbol:   class DoubleProcedure
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:37: error: cannot find symbol
+        assertEquals(values[0], m.get(0), TOLERANCE);
+                                          ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:38: error: cannot find symbol
+        assertEquals(values[1], m.get(1), TOLERANCE);
+                                          ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:39: error: cannot find symbol
+        assertEquals(values[2], m.get(2), TOLERANCE);
+                                          ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:40: error: cannot find symbol
+        assertEquals(0, m.get(3), TOLERANCE);
+                                  ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:41: error: cannot find symbol
+        assertEquals(0, m.get(4), TOLERANCE);
+                                  ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:42: error: cannot find symbol
+        assertEquals(values[5], m.get(5), TOLERANCE);
+                                          ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_6_8

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_9.java:71: error: cannot find symbol
+            assertThat(e.getCause(), instanceOf(IllegalStateException.class));
+                                     ^
+  symbol:   method instanceOf(java.lang.Class<java.lang.IllegalStateException>)
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:72: error: cannot find symbol
+            assertThat(e.getCause().getMessage(), equalTo("No field found for [foo] in mapping with types [mapping]"));
+                                                  ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_9

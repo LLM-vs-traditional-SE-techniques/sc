@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_1.java:27: error: cannot find symbol
+      assertEquals(HashingTest.sha256(new byte[] {0x12, 0x34, 0x56, 0x78,
+                   ^
+  symbol:   variable HashingTest
+  location: class CodexTest_0_7_1

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_3.java:19: error: cannot find symbol
+		Instances dataset = InstancesTest.createRandomDataset(1, 0, 1, -1);
+		                    ^
+  symbol:   variable InstancesTest
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:30: error: cannot find symbol
+		Vector vector = new Vector(values);
+		^
+  symbol:   class Vector
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:30: error: cannot find symbol
+		Vector vector = new Vector(values);
+		                    ^
+  symbol:   class Vector
+  location: class CodexTest_0_7_3

@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_6_59.java:21: error: cannot find symbol
+        for (int i = 0; i < v.size(); i++) {
+                            ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:22: error: cannot find symbol
+            v.remove(i);
+            ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:23: error: cannot find symbol
+            assertEquals(v.toString(), v.size(), v.capacity());
+                         ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:23: error: cannot find symbol
+            assertEquals(v.toString(), v.size(), v.capacity());
+                                       ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:23: error: cannot find symbol
+            assertEquals(v.toString(), v.size(), v.capacity());
+                                                 ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:24: error: cannot find symbol
+            assertEquals(v.toString(), v.size(), v.cardinality());
+                         ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:24: error: cannot find symbol
+            assertEquals(v.toString(), v.size(), v.cardinality());
+                                       ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:24: error: cannot find symbol
+            assertEquals(v.toString(), v.size(), v.cardinality());
+                                                 ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:25: error: cannot find symbol
+            assertEquals(v.toString(), v.size(), v.getSizeInBytes());
+                         ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:25: error: cannot find symbol
+            assertEquals(v.toString(), v.size(), v.getSizeInBytes());
+                                       ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:25: error: cannot find symbol
+            assertEquals(v.toString(), v.size(), v.getSizeInBytes());
+                                                 ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:26: error: cannot find symbol
+            if (i < v.size()) {
+                    ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:27: error: cannot find symbol
+                assertTrue(v.toString(), v.contains(i));
+                           ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:27: error: cannot find symbol
+                assertTrue(v.toString(), v.contains(i));
+                                         ^
+  symbol:   variable v
+  location: class CodexTest_0_6_59

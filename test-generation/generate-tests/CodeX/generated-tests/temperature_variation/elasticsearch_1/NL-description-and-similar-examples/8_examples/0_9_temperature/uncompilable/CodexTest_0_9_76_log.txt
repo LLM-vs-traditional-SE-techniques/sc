@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_9_76.java:66: error: cannot find symbol
+		Struct child= new Struct();
+		^
+  symbol:   class Struct
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:66: error: cannot find symbol
+		Struct child= new Struct();
+		                  ^
+  symbol:   class Struct
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:68: error: cannot find symbol
+		child.setId("node-"+random);
+		                    ^
+  symbol:   variable random
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:70: error: cannot find symbol
+		Struct parent = new Struct("node-"+(random++));
+		^
+  symbol:   class Struct
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:70: error: cannot find symbol
+		Struct parent = new Struct("node-"+(random++));
+		                    ^
+  symbol:   class Struct
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:70: error: cannot find symbol
+		Struct parent = new Struct("node-"+(random++));
+		                                    ^
+  symbol:   variable random
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:71: error: cannot find symbol
+		parent.setLatitude(data);
+		                   ^
+  symbol:   variable data
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:72: error: cannot find symbol
+		parent.setId("node-"+random);
+		                     ^
+  symbol:   variable random
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:75: error: cannot find symbol
+		Node<IStruct> parentNode = new Node(parent);
+		^
+  symbol:   class Node
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:75: error: cannot find symbol
+		Node<IStruct> parentNode = new Node(parent);
+		     ^
+  symbol:   class IStruct
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:75: error: cannot find symbol
+		Node<IStruct> parentNode = new Node(parent);
+		                               ^
+  symbol:   class Node
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:81: error: cannot find symbol
+		for(Node<IStruct> n : child.getParents()) {
+		    ^
+  symbol:   class Node
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:81: error: cannot find symbol
+		for(Node<IStruct> n : child.getParents()) {
+		         ^
+  symbol:   class IStruct
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:84: error: cannot find symbol
+		assertEquals("node-"+random, child.parent());
+		                     ^
+  symbol:   variable random
+  location: class CodexTest_0_9_76

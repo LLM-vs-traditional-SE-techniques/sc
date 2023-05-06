@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_5.java:26: error: <identifier> expected
+Input: public Boolean wrap(X value) {
+     ^
+CodexTest_0_8_5.java:41: error: <identifier> expected
+Output:
+      ^

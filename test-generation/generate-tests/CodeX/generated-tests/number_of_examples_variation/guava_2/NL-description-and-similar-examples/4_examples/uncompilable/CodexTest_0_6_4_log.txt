@@ -1,0 +1,301 @@
+isCompilable => false
+CodexTest_0_6_4.java:26: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:27: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:30: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:31: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:34: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:35: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:38: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:39: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:42: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:43: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:46: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:47: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:50: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:51: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:54: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:55: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:58: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:59: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:62: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:63: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:66: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:67: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:70: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:71: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:74: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:75: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:78: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:79: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:82: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:83: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:86: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:87: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:90: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:91: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:94: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:95: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:98: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:99: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:102: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:103: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:106: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:107: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:110: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:111: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:114: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:115: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:118: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:119: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:122: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:123: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:126: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:127: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:130: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:131: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:134: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:135: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:138: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:139: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:142: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:143: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:146: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:147: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:150: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:151: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:154: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:155: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:158: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:159: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:162: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:163: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:166: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:167: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:170: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:171: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:174: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:175: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:178: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:179: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:182: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:183: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:186: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:187: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:190: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:191: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:194: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:195: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:198: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:199: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:202: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:203: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:206: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:207: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:210: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:211: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:214: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:215: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:218: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:219: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_4.java:222: error: <identifier> expected
+Input:
+     ^
+CodexTest_0_6_4.java:223: error: <identifier> expected
+Output:
+      ^

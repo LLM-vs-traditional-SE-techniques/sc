@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_8_4.java:35: error: cannot find symbol
+        DenseDoubleAlgebra a = new DenseDoubleAlgebra();
+        ^
+  symbol:   class DenseDoubleAlgebra
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:35: error: cannot find symbol
+        DenseDoubleAlgebra a = new DenseDoubleAlgebra();
+                                   ^
+  symbol:   class DenseDoubleAlgebra
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:36: error: package org.ujmp.core does not exist
+        org.ujmp.core.DenseDoubleMatrix2D E = a.inverse(D);
+                     ^

@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_7_55.java:66: error: cannot find symbol
+        String actualParent = this.indexRequest.parent(expectedParent).parent();
+                                  ^
+  symbol: variable indexRequest
+CodexTest_0_7_55.java:67: error: cannot find symbol
+        Assert.assertThat(actualParent, Matchers.is(expectedParent));
+                                        ^
+  symbol:   variable Matchers
+  location: class CodexTest_0_7_55

@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_6_38.java:66: error: cannot find symbol
+        String mapping = jsonBuilder().startObject().startObject("type")
+                         ^
+  symbol:   method jsonBuilder()
+  location: class CodexTest_0_6_38
+CodexTest_0_6_38.java:69: error: cannot find symbol
+        indexRequest.source(singletonMap("field1", "value1"), XContentType.JSON);
+                            ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_6_38
+CodexTest_0_6_38.java:70: error: cannot find symbol
+        XContentParser parser = createParser(XContentType.JSON.xContent(), new BytesArray(indexRequest.source().toBytes()));
+        ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_6_38
+CodexTest_0_6_38.java:70: error: method toBytes in class org.elasticsearch.common.bytes.BytesReference cannot be applied to given types;
+        XContentParser parser = createParser(XContentType.JSON.xContent(), new BytesArray(indexRequest.source().toBytes()));
+                                                                                                               ^
+  required: org.elasticsearch.common.bytes.BytesReference
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+CodexTest_0_6_38.java:70: error: cannot find symbol
+        XContentParser parser = createParser(XContentType.JSON.xContent(), new BytesArray(indexRequest.source().toBytes()));
+                                ^
+  symbol:   method createParser(org.elasticsearch.common.xcontent.XContent,org.elasticsearch.common.bytes.BytesArray)
+  location: class CodexTest_0_6_38
+CodexTest_0_6_38.java:71: error: cannot find symbol
+        assertThat(parser.map(), hasEntry("field1", (Object) "value1"));
+                                 ^
+  symbol:   method hasEntry(java.lang.String,java.lang.Object)
+  location: class CodexTest_0_6_38
+CodexTest_0_6_38.java:72: error: cannot find symbol
+        assertWarnings("Deprecated field [_type] used, replaced by [type]");
+        ^
+  symbol:   method assertWarnings(java.lang.String)
+  location: class CodexTest_0_6_38

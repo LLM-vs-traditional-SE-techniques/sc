@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_79.java:65: error: cannot find symbol
+        assertEquals(new QueryStringQueryBuilder("test"), new QueryStringQueryBuilder("test").parent("test"));
+                         ^
+  symbol:   class QueryStringQueryBuilder
+  location: class CodexTest_0_9_79
+CodexTest_0_9_79.java:65: error: cannot find symbol
+        assertEquals(new QueryStringQueryBuilder("test"), new QueryStringQueryBuilder("test").parent("test"));
+                                                              ^
+  symbol:   class QueryStringQueryBuilder
+  location: class CodexTest_0_9_79

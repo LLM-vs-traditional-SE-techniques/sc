@@ -1,0 +1,21 @@
+{
+	"project": "Colt",
+	"package": "cern.colt.matrix.impl",
+	"class": "DenseDoubleMatrix1D",
+	"method_signature": "DoubleMatrix2D like2D(int rows, int columns)",
+	"method": "public DoubleMatrix2D like2D(int rows, int columns) {\n		return new DenseDoubleMatrix2D(rows,columns);\n	}",
+	"helpers": [],
+	"example_same_class": {
+		"method_signature": "DoubleMatrix1D like(int size)",
+		"method": "public DoubleMatrix1D like(int size) {\n			return new DenseDoubleMatrix1D(size);\n		}",
+		"test": "public static void doubleTest28() {\n			double[] data={1,2,3,4,5,6};\n			double[][] arrMatrix = \n			{ \n				{ 1, 2, 3, 4, 5, 6},\n				{ 2, 3, 4, 5, 6, 7}\n			};\n			DoubleFactory2D f = DoubleFactory2D.dense;\n			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);\n			DoubleMatrix2D matrix = f.make(arrMatrix);\n			DoubleMatrix1D res = vector.like(matrix.rows());\n\n						matrix.zMult(vector,res);\n\n					System.out.println(res);\n		}"
+	},
+	"example_different_project" : {
+		"id": "hibernate_2",
+		"method_signature": "",
+		"method": "public <X> Boolean wrap(X value, WrapperOptions options) {\n		if ( value == null ) {\n			return null;\n		}\n		if ( Boolean.class.isInstance( value ) ) {\n			return (Boolean) value;\n		}\n		if ( Number.class.isInstance( value ) ) {\n			final int intValue = ( (Number) value ).intValue();\n			return intValue == 0 ? FALSE : TRUE;\n		}\n		if ( Character.class.isInstance( value ) ) {\n			return isTrue( (Character) value ) ? TRUE : FALSE;\n		}\n		if ( String.class.isInstance( value ) ) {\n			return isTrue((String) value) ? TRUE : FALSE;\n		}\n		throw unknownWrap( value.getClass() );\n	}",
+		"test": "public void testWrapShouldReturnTrueWhenYStringGiven() {\n        // given\n        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();\n        // when\n        Boolean result = underTest.wrap(\"Y\", null);\n        // then\n        assertTrue(result);\n    }"
+	},
+	"method_class_imports": "import cern.colt.matrix.impl.*;\nimport cern.colt.matrix.DoubleMatrix1D;\nimport cern.colt.matrix.DoubleMatrix2D;",
+	"test_class_imports": "import hep.aida.bin.*;\nimport cern.colt.matrix.impl.*;\nimport cern.colt.function.DoubleDoubleFunction;\nimport cern.colt.function.DoubleFunction;\nimport cern.colt.list.IntArrayList;\nimport cern.colt.map.AbstractIntDoubleMap;\nimport cern.colt.map.OpenIntDoubleHashMap;\nimport cern.colt.matrix.DoubleFactory2D;\nimport cern.colt.matrix.DoubleMatrix1D;\nimport cern.colt.matrix.DoubleMatrix2D;\nimport cern.colt.matrix.DoubleMatrix3D;\nimport cern.colt.matrix.doublealgo.DoubleMatrix2DComparator;\nimport cern.colt.matrix.linalg.Algebra;\nimport cern.colt.matrix.linalg.LUDecompositionQuick;\nimport cern.colt.matrix.linalg.SeqBlas;"
+}

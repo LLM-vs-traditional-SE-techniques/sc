@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_8.java:21: error: cannot find symbol
+        assertTrue(new IntegerSet().contains(new Integer(1)));
+                       ^
+  symbol:   class IntegerSet
+  location: class CodexTest_0_7_8

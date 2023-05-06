@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_3.java:19: error: cannot find symbol
+    Instances inst = new Instances(m_Instances, 0);
+                                   ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:31: error: cannot find symbol
+      assertEquals("Number of values is not the same", inst.numValues(),
+                                                           ^
+  symbol:   method numValues()
+  location: variable inst of type weka.core.Instances
+CodexTest_0_7_3.java:33: error: cannot find symbol
+      assertEquals("Number of weights is not the same", inst.numWeightAttributes(),
+                                                            ^
+  symbol:   method numWeightAttributes()
+  location: variable inst of type weka.core.Instances
+CodexTest_0_7_3.java:34: error: cannot find symbol
+		   inst2.numWeightAttributes());
+		        ^
+  symbol:   method numWeightAttributes()
+  location: variable inst2 of type weka.core.Instance
+CodexTest_0_7_3.java:35: error: cannot find symbol
+      assertEquals("Number of missing values is not the same", inst.numMissing(),
+                                                                   ^
+  symbol:   method numMissing()
+  location: variable inst of type weka.core.Instances
+CodexTest_0_7_3.java:36: error: cannot find symbol
+		   inst2.numMissing());
+		        ^
+  symbol:   method numMissing()
+  location: variable inst2 of type weka.core.Instance
+CodexTest_0_7_3.java:38: error: cannot find symbol
+		   inst2.sumOfWeights());
+		        ^
+  symbol:   method sumOfWeights()
+  location: variable inst2 of type weka.core.Instance

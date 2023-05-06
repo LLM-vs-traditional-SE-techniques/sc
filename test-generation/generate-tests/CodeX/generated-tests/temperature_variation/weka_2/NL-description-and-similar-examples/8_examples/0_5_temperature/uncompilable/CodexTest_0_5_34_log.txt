@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_5_34.java:20: error: cannot find symbol
+    Remove remove = new Remove();
+    ^
+  symbol:   class Remove
+  location: class CodexTest_0_5_34
+CodexTest_0_5_34.java:20: error: cannot find symbol
+    Remove remove = new Remove();
+                        ^
+  symbol:   class Remove
+  location: class CodexTest_0_5_34
+CodexTest_0_5_34.java:22: error: cannot find symbol
+    Instances insts = remove.process(m_Instances);
+                                     ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_5_34
+CodexTest_0_5_34.java:23: error: no suitable constructor found for AlgVector(weka.core.Instances)
+    AlgVector vector = new AlgVector(insts);
+                       ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; weka.core.Instances cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; weka.core.Instances cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Instances cannot be converted to weka.core.Instance)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

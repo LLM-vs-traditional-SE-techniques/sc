@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_6.java:17: error: cannot find symbol
+    Short result = descriptor.toObject(true);
+                             ^
+  symbol:   method toObject(boolean)
+  location: variable descriptor of type org.hibernate.type.descriptor.java.BooleanTypeDescriptor
+CodexTest_0_9_6.java:19: error: cannot find symbol
+    result = descriptor.toObject(Boolean.FALSE);
+                       ^
+  symbol:   method toObject(java.lang.Boolean)
+  location: variable descriptor of type org.hibernate.type.descriptor.java.BooleanTypeDescriptor

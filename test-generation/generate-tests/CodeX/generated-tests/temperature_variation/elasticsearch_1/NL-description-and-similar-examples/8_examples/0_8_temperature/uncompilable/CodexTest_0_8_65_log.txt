@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_8_65.java:65: error: package InternalIdReader does not exist
+        final InternalIdReader.IdAndRouting parent = new InternalIdReader.IdAndRouting("1234", "routing4567");
+                              ^
+CodexTest_0_8_65.java:65: error: package InternalIdReader does not exist
+        final InternalIdReader.IdAndRouting parent = new InternalIdReader.IdAndRouting("1234", "routing4567");
+                                                                         ^
+CodexTest_0_8_65.java:66: error: cannot find symbol
+        final InternalIdReader reader = new InternalIdReader(parent, "search", Arrays.asList("456", "789"));
+              ^
+  symbol:   class InternalIdReader
+  location: class CodexTest_0_8_65
+CodexTest_0_8_65.java:66: error: cannot find symbol
+        final InternalIdReader reader = new InternalIdReader(parent, "search", Arrays.asList("456", "789"));
+                                            ^
+  symbol:   class InternalIdReader
+  location: class CodexTest_0_8_65

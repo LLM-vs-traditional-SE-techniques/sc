@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_8_62.java:38: error: <identifier> expected
+Input: public final double getElement(int index) {
+     ^
+CodexTest_0_8_62.java:41: error: <identifier> expected
+Output: public void testArrayConstructor() {
+      ^
+CodexTest_0_8_62.java:48: error: illegal character: '`'
+```
+^
+CodexTest_0_8_62.java:48: error: illegal character: '`'
+```
+ ^
+CodexTest_0_8_62.java:48: error: illegal character: '`'
+```
+  ^
+CodexTest_0_8_62.java:49: error: reached end of file while parsing
+}
+ ^

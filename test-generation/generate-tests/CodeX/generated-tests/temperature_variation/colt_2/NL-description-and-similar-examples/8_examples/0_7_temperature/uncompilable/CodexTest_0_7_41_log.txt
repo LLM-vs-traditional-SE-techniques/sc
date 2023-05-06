@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_7_41.java:31: error: cannot find symbol
+        Assert.assertEquals(A.getClass(), DoubleFactory2D.dense.like2D(2, 2).getClass());
+                                                               ^
+  symbol:   method like2D(int,int)
+  location: variable dense of type cern.colt.matrix.DoubleFactory2D
+CodexTest_0_7_41.java:32: error: isView() has protected access in cern.colt.matrix.impl.AbstractMatrix
+        Assert.assertEquals(false, A.isView());
+                                    ^

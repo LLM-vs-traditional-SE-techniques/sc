@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_9_2.java:65: error: cannot find symbol
+                client().admin().indices().prepareCreate("test").execute().actionGet();
+                ^
+  symbol:   method client()
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:66: error: cannot find symbol
+                client().admin().cluster().prepareHealth().setWaitForEvents(Priority.LANGUID).setWaitForGreenStatus().execute().actionGet();
+                                                                            ^
+  symbol:   variable Priority
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:66: error: cannot find symbol
+                client().admin().cluster().prepareHealth().setWaitForEvents(Priority.LANGUID).setWaitForGreenStatus().execute().actionGet();
+                ^
+  symbol:   method client()
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:67: error: cannot find symbol
+                index("a", Ids.OPEN_ACL_UNSAFE, "parent" , "p1", "type", "foo", "i", 0);
+                           ^
+  symbol:   variable Ids
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:68: error: cannot find symbol
+                index("b", Ids.OPEN_ACL_UNSAFE, "parent" , "p1", "type", "foo", "i", 1);
+                           ^
+  symbol:   variable Ids
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:69: error: cannot find symbol
+                flush();
+                ^
+  symbol:   method flush()
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:70: error: cannot find symbol
+                search(new HasChildQueryBuilder("foo",
+                           ^
+  symbol:   class HasChildQueryBuilder
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:71: error: cannot find symbol
+                                                QueryBuilders.termQuery("i", 1)));
+                                                ^
+  symbol:   variable QueryBuilders
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:72: error: cannot find symbol
+                search(new HasChildQueryBuilder("foo",
+                           ^
+  symbol:   class HasChildQueryBuilder
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:73: error: cannot find symbol
+                                                QueryBuilders.termQuery("i", 0)));
+                                                ^
+  symbol:   variable QueryBuilders
+  location: class CodexTest_0_9_2

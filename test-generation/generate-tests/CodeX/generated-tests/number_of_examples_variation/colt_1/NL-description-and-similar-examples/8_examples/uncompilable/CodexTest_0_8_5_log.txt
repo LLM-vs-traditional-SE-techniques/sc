@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_5.java:38: error: cannot find symbol
+        for (int i = 0; i < dataLength; i += blockLength) {
+                            ^
+  symbol:   variable dataLength
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:38: error: cannot find symbol
+        for (int i = 0; i < dataLength; i += blockLength) {
+                                             ^
+  symbol:   variable blockLength
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:39: error: cannot find symbol
+            for (int j = 0; j < blockLength; j++) {
+                                ^
+  symbol:   variable blockLength
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:40: error: cannot find symbol
+                data[i + j] = j == i ? 1 : 0;
+                ^
+  symbol:   variable data
+  location: class CodexTest_0_8_5

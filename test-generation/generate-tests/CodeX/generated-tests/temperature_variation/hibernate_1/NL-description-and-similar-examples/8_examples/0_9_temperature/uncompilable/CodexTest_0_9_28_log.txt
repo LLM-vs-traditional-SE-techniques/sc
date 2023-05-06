@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_28.java:16: error: cannot find symbol
+      Assert.assertNull(converter.toShort(null));
+                        ^
+  symbol:   variable converter
+  location: class CodexTest_0_9_28

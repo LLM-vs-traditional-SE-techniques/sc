@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_7_6.java:20: error: cannot find symbol
+				assertEquals(graph.getEdge("ab"), path.get(0));
+				             ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:20: error: cannot find symbol
+				assertEquals(graph.getEdge("ab"), path.get(0));
+				                                  ^
+  symbol:   variable path
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:21: error: cannot find symbol
+				assertEquals(graph.getEdge("bc"), path.get(1));
+				             ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:21: error: cannot find symbol
+				assertEquals(graph.getEdge("bc"), path.get(1));
+				                                  ^
+  symbol:   variable path
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:22: error: cannot find symbol
+				assertEquals(graph.getEdge("cd"), path.get(2));
+				             ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:22: error: cannot find symbol
+				assertEquals(graph.getEdge("cd"), path.get(2));
+				                                  ^
+  symbol:   variable path
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:23: error: cannot find symbol
+				assertEquals(graph.getEdge("de"), path.get(3));
+				             ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:23: error: cannot find symbol
+				assertEquals(graph.getEdge("de"), path.get(3));
+				                                  ^
+  symbol:   variable path
+  location: class CodexTest_0_7_6

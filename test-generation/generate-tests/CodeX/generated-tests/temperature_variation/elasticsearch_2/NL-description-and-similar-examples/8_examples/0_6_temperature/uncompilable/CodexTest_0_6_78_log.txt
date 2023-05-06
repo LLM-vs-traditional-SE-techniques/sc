@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_6_78.java:65: error: cannot find symbol
+        XContentType xContentType = randomFrom(XContentType.values());
+                                    ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_6_78
+CodexTest_0_6_78.java:68: error: incompatible types: java.util.Map<java.lang.String,java.lang.Object> cannot be converted to org.elasticsearch.common.xcontent.ToXContent
+        BytesReference originalSource = XContentHelper.toXContent(source, xContentType, false);
+                                                                  ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

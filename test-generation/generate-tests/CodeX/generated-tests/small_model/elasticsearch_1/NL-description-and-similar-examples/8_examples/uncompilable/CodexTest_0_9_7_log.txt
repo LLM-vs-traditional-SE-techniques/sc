@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_9_7.java:65: error: cannot find symbol
+        abstract class Base extends AbstractObjectGwt<String, Base> {
+                                    ^
+  symbol:   class AbstractObjectGwt
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:69: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+CodexTest_0_9_7.java:74: error: Base is abstract; cannot be instantiated
+        Base base = new Base("key");
+                    ^
+CodexTest_0_9_7.java:76: error: cannot find symbol
+        Object key = base.getKey();
+                         ^
+  symbol:   method getKey()
+  location: variable base of type Base

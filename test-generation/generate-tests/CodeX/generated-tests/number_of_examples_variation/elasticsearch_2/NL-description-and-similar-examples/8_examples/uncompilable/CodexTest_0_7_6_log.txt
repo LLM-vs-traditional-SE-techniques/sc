@@ -1,0 +1,43 @@
+isCompilable => false
+CodexTest_0_7_6.java:65: error: <identifier> expected
+Input: public <T> Predicate<T> not(Predicate<T> p) {
+     ^
+CodexTest_0_7_6.java:68: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_7_6.java:70: error: <identifier> expected
+Input: public IndexRequest source(Map source, XContentType contentType) throws ElasticsearchGenerationException {
+     ^
+CodexTest_0_7_6.java:79: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_7_6.java:81: error: <identifier> expected
+Input: public IndexRequest source(Map source, XContentType contentType) throws ElasticsearchGenerationException {
+     ^
+CodexTest_0_7_6.java:90: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_7_6.java:92: error: <identifier> expected
+Input: public IndexRequest source(Map source, XContentType contentType) throws ElasticsearchGenerationException {
+     ^
+CodexTest_0_7_6.java:101: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_7_6.java:103: error: <identifier> expected
+Input: public IndexRequest source(Map source, XContentType contentType) throws ElasticsearchGenerationException {
+     ^
+CodexTest_0_7_6.java:112: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_7_6.java:114: error: <identifier> expected
+Input: public IndexRequest source(Map source, XContentType contentType) throws ElasticsearchGenerationException {
+     ^
+CodexTest_0_7_6.java:117: error: illegal start of expression
+}
+^
+CodexTest_0_7_6.java:117: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_7_6.java:115: error: 'try' without 'catch', 'finally' or resource declarations
+        try {
+        ^

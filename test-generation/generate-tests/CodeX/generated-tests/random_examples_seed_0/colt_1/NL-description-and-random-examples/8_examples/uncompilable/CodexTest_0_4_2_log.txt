@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_2.java:36: error: cannot find symbol
+		instance.assign(source);
+		^
+  symbol:   variable instance
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:37: error: cannot find symbol
+		assertEquals(new DenseDoubleMatrix1D(expected), instance);
+		                                                ^
+  symbol:   variable instance
+  location: class CodexTest_0_4_2

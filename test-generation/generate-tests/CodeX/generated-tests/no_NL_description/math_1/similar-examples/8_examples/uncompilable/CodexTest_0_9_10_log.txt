@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_10.java:43: error: <identifier> expected
+ Input: @Override
+      ^
+CodexTest_0_9_10.java:47: error: <identifier> expected
+ Output: public void testShouldCreateCorrectChargeItem() {
+       ^
+CodexTest_0_9_10.java:53: error: <identifier> expected
+ Input: public static Trade of(final SecurityId securityId, final BuySell buySell, final double notional, final LocalDate tradeDate, final LocalDate valueDate, final LocalDate maturityDate, final int formatYear) {
+      ^
+CodexTest_0_9_10.java:56: error: <identifier> expected
+ Output: public void testOfBuy() {
+       ^
+CodexTest_0_9_10.java:61: error: <identifier> expected
+ Input: public boolean equals(Object o) {
+      ^
+CodexTest_0_9_10.java:72: error: <identifier> expected
+ Output:  public void testEquals() {
+       ^
+CodexTest_0_9_10.java:73: error: not a statement
+    SecurityId
+    ^
+CodexTest_0_9_10.java:73: error: ';' expected
+    SecurityId
+              ^
+CodexTest_0_9_10.java:74: error: reached end of file while parsing
+}
+ ^

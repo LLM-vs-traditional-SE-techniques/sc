@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_7.java:22: error: cannot find symbol
+        ArrayList<String> underTest = createArrayListWithValues("a", "b", "c");
+                                      ^
+  symbol:   method createArrayListWithValues(java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:26: error: cannot find symbol
+        Assertions.assertThat(result).isEqualTo("b");
+        ^
+  symbol:   variable Assertions
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:27: error: cannot find symbol
+        Assertions.assertThat(underTest).containsExactly("a", "c");
+        ^
+  symbol:   variable Assertions
+  location: class CodexTest_0_7_7

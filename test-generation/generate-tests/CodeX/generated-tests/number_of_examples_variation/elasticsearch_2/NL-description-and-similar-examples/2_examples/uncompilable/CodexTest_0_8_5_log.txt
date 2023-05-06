@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_5.java:67: error: cannot find symbol
+            IndexRequest request=jsonBuilder()
+                                 ^
+  symbol:   method jsonBuilder()
+  location: class CodexTest_0_8_5

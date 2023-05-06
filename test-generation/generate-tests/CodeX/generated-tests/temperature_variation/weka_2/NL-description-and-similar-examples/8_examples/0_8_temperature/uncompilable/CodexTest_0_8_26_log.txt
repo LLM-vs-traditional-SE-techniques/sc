@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_26.java:18: error: cannot find symbol
+    int newVal = (int) (random.nextDouble() * (double) (model.attribute(i).numValues()));
+                        ^
+  symbol:   variable random
+  location: class CodexTest_0_8_26
+CodexTest_0_8_26.java:18: error: cannot find symbol
+    int newVal = (int) (random.nextDouble() * (double) (model.attribute(i).numValues()));
+                                                                        ^
+  symbol:   variable i
+  location: class CodexTest_0_8_26
+CodexTest_0_8_26.java:18: error: cannot find symbol
+    int newVal = (int) (random.nextDouble() * (double) (model.attribute(i).numValues()));
+                                                        ^
+  symbol:   variable model
+  location: class CodexTest_0_8_26
+CodexTest_0_8_26.java:19: error: cannot find symbol
+    assertEquals(true, newVal == (int) model.attribute(i).numValues());
+                                                       ^
+  symbol:   variable i
+  location: class CodexTest_0_8_26
+CodexTest_0_8_26.java:19: error: cannot find symbol
+    assertEquals(true, newVal == (int) model.attribute(i).numValues());
+                                       ^
+  symbol:   variable model
+  location: class CodexTest_0_8_26

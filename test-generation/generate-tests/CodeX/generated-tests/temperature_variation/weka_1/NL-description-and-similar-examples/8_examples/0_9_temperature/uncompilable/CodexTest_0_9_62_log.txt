@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_62.java:20: error: cannot find symbol
+    AlgVector v2 = v1.newInstance(data.length + 1);
+                     ^
+  symbol:   method newInstance(int)
+  location: variable v1 of type weka.core.AlgVector

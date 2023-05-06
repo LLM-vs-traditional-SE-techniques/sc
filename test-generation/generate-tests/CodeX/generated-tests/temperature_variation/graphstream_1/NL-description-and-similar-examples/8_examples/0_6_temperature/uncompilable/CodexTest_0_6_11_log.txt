@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_11.java:34: error: <identifier> expected
+Input: public boolean isEmpty() {
+     ^
+CodexTest_0_6_11.java:37: error: <identifier> expected
+Output: public void testIsEmpty() {
+      ^

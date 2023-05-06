@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_3.java:19: error: cannot find symbol
+    @Test(expectedExceptions = IndexOutOfBoundsException.class)
+                                                        ^
+  symbol:   method expectedExceptions()
+  location: @interface org.junit.Test

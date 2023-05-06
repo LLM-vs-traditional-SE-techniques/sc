@@ -1,0 +1,29 @@
+isCompilable => false
+CodexTest_0_7_91.java:20: error: cannot find symbol
+			List<Node> l1 = new ArrayList<Node>();
+			                    ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_7_91
+CodexTest_0_7_91.java:21: error: cannot find symbol
+			List<Node> l2 = new ArrayList<Node>();
+			                    ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_7_91
+CodexTest_0_7_91.java:30: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+			Path p1 = new Path(g.getNode("a"));
+			          ^
+  required: no arguments
+  found: org.graphstream.graph.Node
+  reason: actual and formal argument lists differ in length
+CodexTest_0_7_91.java:36: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+			Path p2 = new Path(l1);
+			          ^
+  required: no arguments
+  found: java.util.List<org.graphstream.graph.Node>
+  reason: actual and formal argument lists differ in length
+CodexTest_0_7_91.java:37: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+			Path p3 = new Path(l2);
+			          ^
+  required: no arguments
+  found: java.util.List<org.graphstream.graph.Node>
+  reason: actual and formal argument lists differ in length

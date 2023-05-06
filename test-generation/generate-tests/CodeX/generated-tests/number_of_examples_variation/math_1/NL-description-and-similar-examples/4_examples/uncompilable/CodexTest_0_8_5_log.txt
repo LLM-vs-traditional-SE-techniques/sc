@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_5.java:31: error: cannot find symbol
+        Assert.assertEquals(0.0, v.scalarMultiply(0).getX(), 1.0e-12);
+                                 ^
+  symbol:   variable v
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:32: error: cannot find symbol
+        Assert.assertEquals(1.0, v.scalarMultiply(1.0 / v.getX()).getX(), 1.0e-12);
+                                                        ^
+  symbol:   variable v
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:32: error: cannot find symbol
+        Assert.assertEquals(1.0, v.scalarMultiply(1.0 / v.getX()).getX(), 1.0e-12);
+                                 ^
+  symbol:   variable v
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:33: error: cannot find symbol
+        Assert.assertEquals(v.getX() * (-1), v.scalarMultiply(-1).getX(), 1.0e-12);
+                            ^
+  symbol:   variable v
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:33: error: cannot find symbol
+        Assert.assertEquals(v.getX() * (-1), v.scalarMultiply(-1).getX(), 1.0e-12);
+                                             ^
+  symbol:   variable v
+  location: class CodexTest_0_8_5

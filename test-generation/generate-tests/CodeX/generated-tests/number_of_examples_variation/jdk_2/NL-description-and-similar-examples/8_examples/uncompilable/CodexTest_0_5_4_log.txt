@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_4.java:23: error: cannot find symbol
+        list.add(first);
+                 ^
+  symbol:   variable first
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:24: error: cannot find symbol
+        list.add(second);
+                 ^
+  symbol:   variable second
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:26: error: cannot find symbol
+        boolean result = list.contains(third);
+                                       ^
+  symbol:   variable third
+  location: class CodexTest_0_5_4

@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_51.java:30: error: cern.colt.matrix.DoubleMatrix2D is abstract; cannot be instantiated
+		DoubleMatrix2D matrix = new DoubleMatrix2D(2, 3);
+		                        ^
+CodexTest_0_8_51.java:31: error: cannot find symbol
+		DoubleMatrix2D res = matrix.like2D(matrix.rows(), matrix.columns());
+		                           ^
+  symbol:   method like2D(int,int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D

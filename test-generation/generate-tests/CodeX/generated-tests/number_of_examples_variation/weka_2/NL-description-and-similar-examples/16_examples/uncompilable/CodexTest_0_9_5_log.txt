@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_5.java:24: error: cannot find symbol
+                java.io.BufferedReader(new java.io.StringReader(this.sparseInstances)));
+                                                                    ^
+  symbol: variable sparseInstances
+CodexTest_0_9_5.java:28: error: cannot find symbol
+            newInst = instances.get(0).getAsInstance(instances, rand);
+                                      ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: interface weka.core.Instance

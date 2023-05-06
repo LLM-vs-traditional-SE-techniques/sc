@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_34.java:66: error: cannot find symbol
+            Map<String, Object> map = JsonXContent.contentBuilder()
+                                      ^
+  symbol:   variable JsonXContent
+  location: class CodexTest_0_9_34

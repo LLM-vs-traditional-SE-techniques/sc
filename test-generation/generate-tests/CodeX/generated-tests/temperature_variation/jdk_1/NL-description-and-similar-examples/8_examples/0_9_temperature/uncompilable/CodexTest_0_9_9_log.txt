@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_9.java:26: error: <identifier> expected
+Input: public static double toRadians(double angdeg) {
+     ^
+CodexTest_0_9_9.java:29: error: <identifier> expected
+Output: public void testToRadians() {
+      ^
+CodexTest_0_9_9.java:39: error: <identifier> expected
+Input: public static Map<Integer, String> getSortedList(Map<Integer, String> map) {
+     ^
+CodexTest_0_9_9.java:61: error: <identifier> expected
+Output:
+      ^

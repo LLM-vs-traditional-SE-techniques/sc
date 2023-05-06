@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_2_4.java:26: error: cannot find symbol
+    BitArray bits = new BitArray(new long[] {0x1234567890abcdefL}, 64);
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_2_4
+CodexTest_0_2_4.java:26: error: cannot find symbol
+    BitArray bits = new BitArray(new long[] {0x1234567890abcdefL}, 64);
+                        ^
+  symbol:   class BitArray
+  location: class CodexTest_0_2_4

@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_4.java:29: error: cannot find symbol
+        BigInteger intValue = new BigInteger(bytes);
+        ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:29: error: cannot find symbol
+        BigInteger intValue = new BigInteger(bytes);
+                                  ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:30: error: cannot find symbol
+        MutableBitArray bitArray = MutableBitArray.createFromBigEndianByteArray(bytes);
+        ^
+  symbol:   class MutableBitArray
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:30: error: cannot find symbol
+        MutableBitArray bitArray = MutableBitArray.createFromBigEndianByteArray(bytes);
+                                   ^
+  symbol:   variable MutableBitArray
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:31: error: cannot find symbol
+        MutableBitArray big = MutableBitArray.create(bitArray.bits());
+        ^
+  symbol:   class MutableBitArray
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:31: error: cannot find symbol
+        MutableBitArray big = MutableBitArray.create(bitArray.bits());
+                              ^
+  symbol:   variable MutableBitArray
+  location: class CodexTest_0_8_4

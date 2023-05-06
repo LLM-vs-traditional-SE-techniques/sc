@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_7.java:16: error: cannot find symbol
+		assertEquals((long) 127, (long) PrimitiveConversions.toLong((byte) 127));
+		                                ^
+  symbol:   variable PrimitiveConversions
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:17: error: cannot find symbol
+		assertEquals((long) 32767, (long) PrimitiveConversions.toLong((short) 32767));
+		                                  ^
+  symbol:   variable PrimitiveConversions
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:18: error: cannot find symbol
+		assertEquals((long) 2147483647, (long) PrimitiveConversions.toLong(Integer.MAX_VALUE));
+		                                       ^
+  symbol:   variable PrimitiveConversions
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:19: error: cannot find symbol
+		assertEquals((long) Long.MAX_VALUE, (long) PrimitiveConversions.toLong(Long.MAX_VALUE));
+		                                           ^
+  symbol:   variable PrimitiveConversions
+  location: class CodexTest_0_9_7

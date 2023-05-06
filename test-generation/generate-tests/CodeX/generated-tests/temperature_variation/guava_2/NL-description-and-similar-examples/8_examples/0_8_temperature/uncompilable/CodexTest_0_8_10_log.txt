@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_10.java:26: error: cannot find symbol
+        List<String> input = new ArrayList<String>();
+        ^
+  symbol:   class List
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:26: error: cannot find symbol
+        List<String> input = new ArrayList<String>();
+                                 ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:30: error: cannot find symbol
+        assertThat(Collections.min(input), nullValue());
+                   ^
+  symbol:   variable Collections
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:30: error: cannot find symbol
+        assertThat(Collections.min(input), nullValue());
+                                           ^
+  symbol:   method nullValue()
+  location: class CodexTest_0_8_10

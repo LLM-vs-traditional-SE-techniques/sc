@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_6.java:69: error: unclosed string literal
+											"{\"name\" : \"Test Name\", \"message\" : \"
+											^
+CodexTest_0_8_6.java:69: error: ')' expected
+											"{\"name\" : \"Test Name\", \"message\" : \"
+											                                            ^
+CodexTest_0_8_6.java:70: error: reached end of file while parsing
+}
+ ^

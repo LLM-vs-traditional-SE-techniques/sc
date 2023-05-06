@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_4.java:70: error: cannot find symbol
+        assertEquals("{\"field1\":\"value1\",\"field2\":\"value2\"}", request.sourceAsString());
+                                                                             ^
+  symbol:   method sourceAsString()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest

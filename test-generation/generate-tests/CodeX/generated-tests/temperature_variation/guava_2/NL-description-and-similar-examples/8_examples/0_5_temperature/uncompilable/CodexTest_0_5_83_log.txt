@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_83.java:26: error: cannot find symbol
+    BitArray ba = new BitArray(4);
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_5_83
+CodexTest_0_5_83.java:26: error: cannot find symbol
+    BitArray ba = new BitArray(4);
+                      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_5_83

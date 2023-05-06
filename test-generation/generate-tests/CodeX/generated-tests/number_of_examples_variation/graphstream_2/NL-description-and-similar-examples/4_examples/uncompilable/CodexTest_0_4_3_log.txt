@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_4_3.java:27: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+        Path path1 = new Path(graph.getEdge("ab"), graph.getEdge("bc"));
+                     ^
+  required: no arguments
+  found: org.graphstream.graph.Edge,org.graphstream.graph.Edge
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_3.java:28: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+        Path path2 = new Path(graph.getEdge("ab"), graph.getEdge("bc"));
+                     ^
+  required: no arguments
+  found: org.graphstream.graph.Edge,org.graphstream.graph.Edge
+  reason: actual and formal argument lists differ in length

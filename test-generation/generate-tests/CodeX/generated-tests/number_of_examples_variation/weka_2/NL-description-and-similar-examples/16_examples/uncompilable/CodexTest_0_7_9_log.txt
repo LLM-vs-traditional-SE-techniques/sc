@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_7_9.java:19: error: cannot find symbol
+        Instances model = makeModel(numAttributes);
+                          ^
+  symbol:   method makeModel(int)
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:24: error: cannot find symbol
+        instance.getAsInstance(model, new Random(1));
+                ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable instance of type weka.core.SparseInstance
+Note: CodexTest_0_7_9.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

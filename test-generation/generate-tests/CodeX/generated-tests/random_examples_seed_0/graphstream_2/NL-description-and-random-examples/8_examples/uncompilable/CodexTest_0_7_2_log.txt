@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_7_2.java:21: error: nodePath is not public in org.graphstream.graph.Path; cannot be accessed from outside package
+        p.nodePath = nodePath;
+         ^
+CodexTest_0_7_2.java:21: error: cannot find symbol
+        p.nodePath = nodePath;
+                     ^
+  symbol:   variable nodePath
+  location: class CodexTest_0_7_2

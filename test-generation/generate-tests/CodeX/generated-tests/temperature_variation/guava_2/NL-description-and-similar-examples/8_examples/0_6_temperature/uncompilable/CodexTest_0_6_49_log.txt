@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_6_49.java:25: error: cannot find symbol
+    byte[] dest = new byte[Longs.BYTES];
+                           ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_49
+CodexTest_0_6_49.java:27: error: cannot find symbol
+    int numBytes = Longs.BYTES - 1;
+                   ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_49
+CodexTest_0_6_49.java:28: error: cannot find symbol
+    Longs.writeBytes(val, dest, 1, numBytes);
+    ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_49
+CodexTest_0_6_49.java:29: error: cannot find symbol
+    byte[] expected = new byte[Longs.BYTES];
+                               ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_49
+CodexTest_0_6_49.java:32: error: cannot find symbol
+      expected[i + 1] = (byte) (val >> ((Longs.BYTES - i - 1) * 8));
+                                         ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_49

@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_4.java:30: error: <identifier> expected
+    matrix2d.forEachNonZero(new ObjectIntIntFunction() {
+                           ^
+CodexTest_0_9_4.java:30: error: illegal start of type
+    matrix2d.forEachNonZero(new ObjectIntIntFunction() {
+                            ^
+CodexTest_0_9_4.java:30: error: ')' expected
+    matrix2d.forEachNonZero(new ObjectIntIntFunction() {
+                               ^
+CodexTest_0_9_4.java:30: error: ';' expected
+    matrix2d.forEachNonZero(new ObjectIntIntFunction() {
+                                                    ^
+CodexTest_0_9_4.java:30: error: illegal start of type
+    matrix2d.forEachNonZero(new ObjectIntIntFunction() {
+                                                     ^
+CodexTest_0_9_4.java:30: error: <identifier> expected
+    matrix2d.forEachNonZero(new ObjectIntIntFunction() {
+                                                      ^
+CodexTest_0_9_4.java:30: error: ';' expected
+    matrix2d.forEachNonZero(new ObjectIntIntFunction() {
+                                                        ^
+CodexTest_0_9_4.java:35: error: class, interface, or enum expected
+        });
+         ^
+CodexTest_0_9_4.java:36: error: class, interface, or enum expected
+}
+^

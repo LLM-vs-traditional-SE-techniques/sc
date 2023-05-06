@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_1.java:32: error: cannot find symbol
+    B.viewColumnFlip().assign(A);
+     ^
+  symbol:   method viewColumnFlip()
+  location: variable B of type cern.colt.matrix.DoubleMatrix1D

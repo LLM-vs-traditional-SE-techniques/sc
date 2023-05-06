@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_19.java:30: error: cannot find symbol
+    final MultidimDoubleArray m = MultidimDoubleArray.createDoubleArray(
+          ^
+  symbol:   class MultidimDoubleArray
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:31: error: cannot find symbol
+            MultidimDoubleArrayTest.RAW_DATA_3D);
+            ^
+  symbol:   variable MultidimDoubleArrayTest
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:30: error: cannot find symbol
+    final MultidimDoubleArray m = MultidimDoubleArray.createDoubleArray(
+                                  ^
+  symbol:   variable MultidimDoubleArray
+  location: class CodexTest_0_9_19

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_9.java:65: error: cannot find symbol
+        GetIndexResponse getIndexResponse = new GetIndexResponse(new String[]{"test"}, new ShardsSegmentResponse());
+        ^
+  symbol:   class GetIndexResponse
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:65: error: cannot find symbol
+        GetIndexResponse getIndexResponse = new GetIndexResponse(new String[]{"test"}, new ShardsSegmentResponse());
+                                                ^
+  symbol:   class GetIndexResponse
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:65: error: cannot find symbol
+        GetIndexResponse getIndexResponse = new GetIndexResponse(new String[]{"test"}, new ShardsSegmentResponse());
+                                                                                           ^
+  symbol:   class ShardsSegmentResponse
+  location: class CodexTest_0_7_9

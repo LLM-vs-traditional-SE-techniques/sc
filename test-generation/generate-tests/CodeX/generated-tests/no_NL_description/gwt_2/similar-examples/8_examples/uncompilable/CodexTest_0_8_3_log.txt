@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_3.java:15: error: cannot find symbol
+    UncaughtExceptionHandler originalExceptionHandler = Thread.getDefaultUncaughtExceptionHandler();
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:17: error: cannot find symbol
+      Thread.setDefaultUncaughtExceptionHandler(new UncaughtExceptionHandler() {
+                                                    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:23: error: cannot find symbol
+      lifecycle.transitionTo(Stage.FAILED);
+                             ^
+  symbol:   variable Stage
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:23: error: cannot find symbol
+      lifecycle.transitionTo(Stage.FAILED);
+      ^
+  symbol:   variable lifecycle
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:24: error: cannot find symbol
+      assertTrue(exceptionHandlerGotCalled);
+                 ^
+  symbol:   variable exceptionHandlerGotCalled
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:27: error: cannot find symbol
+      exceptionHandlerGotCalled = false;
+      ^
+  symbol:   variable exceptionHandlerGotCalled
+  location: class CodexTest_0_8_3

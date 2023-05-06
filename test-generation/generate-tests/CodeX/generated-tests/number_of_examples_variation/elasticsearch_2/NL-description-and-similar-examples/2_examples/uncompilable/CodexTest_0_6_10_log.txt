@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_10.java:76: error: <identifier> expected
+Input: public static HashCode fromString(CharSequence value) {
+     ^
+CodexTest_0_6_10.java:79: error: <identifier> expected
+Output: public void testStringHashCode() {
+      ^

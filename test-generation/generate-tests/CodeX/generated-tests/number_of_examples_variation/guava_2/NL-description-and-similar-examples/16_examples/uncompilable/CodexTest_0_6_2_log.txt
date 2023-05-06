@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_2.java:26: error: cannot find symbol
+    assertEquals(0, create(0).writeBytesTo(dest, 0, -1));
+                    ^
+  symbol:   method create(int)
+  location: class CodexTest_0_6_2

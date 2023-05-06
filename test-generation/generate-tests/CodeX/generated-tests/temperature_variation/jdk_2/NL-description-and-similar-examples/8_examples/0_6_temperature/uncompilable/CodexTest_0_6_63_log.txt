@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_63.java:21: error: cannot find symbol
+        ImmutableSet<Integer> set = createTestSet();
+        ^
+  symbol:   class ImmutableSet
+  location: class CodexTest_0_6_63
+CodexTest_0_6_63.java:21: error: cannot find symbol
+        ImmutableSet<Integer> set = createTestSet();
+                                    ^
+  symbol:   method createTestSet()
+  location: class CodexTest_0_6_63

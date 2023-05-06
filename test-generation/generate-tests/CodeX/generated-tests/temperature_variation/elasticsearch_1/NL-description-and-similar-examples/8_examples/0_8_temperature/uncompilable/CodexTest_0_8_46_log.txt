@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_46.java:66: error: cannot find symbol
+        assertThat(info.getFailures(), emptyIterable());
+                                       ^
+  symbol:   method emptyIterable()
+  location: class CodexTest_0_8_46
+CodexTest_0_8_46.java:67: error: cannot find symbol
+        assertThat(info.getSuccessful(), emptyIterable());
+                                         ^
+  symbol:   method emptyIterable()
+  location: class CodexTest_0_8_46
+CodexTest_0_8_46.java:68: error: cannot find symbol
+        assertThat(info, equalTo(new ReplicationResponse.UnassignedShardInfo(0, 2, false)));
+                                                        ^
+  symbol:   class UnassignedShardInfo
+  location: class org.elasticsearch.action.support.replication.ReplicationResponse

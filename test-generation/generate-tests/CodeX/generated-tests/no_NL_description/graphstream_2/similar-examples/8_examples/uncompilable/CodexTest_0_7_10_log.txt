@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_10.java:21: error: cannot find symbol
+        path1.add(n1);
+                  ^
+  symbol:   variable n1
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:22: error: cannot find symbol
+        path1.add(n2);
+                  ^
+  symbol:   variable n2
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:23: error: cannot find symbol
+        path1.add(n3);
+                  ^
+  symbol:   variable n3
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:25: error: cannot find symbol
+        path2.add(n1);
+                  ^
+  symbol:   variable n1
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:26: error: cannot find symbol
+        path2.add(n2);
+                  ^
+  symbol:   variable n2
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:27: error: cannot find symbol
+        path2.add(n3);
+                  ^
+  symbol:   variable n3
+  location: class CodexTest_0_7_10

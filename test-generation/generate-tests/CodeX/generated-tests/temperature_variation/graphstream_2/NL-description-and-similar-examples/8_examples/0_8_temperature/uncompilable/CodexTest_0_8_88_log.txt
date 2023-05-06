@@ -1,0 +1,27 @@
+isCompilable => false
+CodexTest_0_8_88.java:20: error: cannot find symbol
+		Path path = new Path(createSimpleGraph().getNode(a));
+		                                                 ^
+  symbol:   variable a
+  location: class CodexTest_0_8_88
+CodexTest_0_8_88.java:20: error: cannot find symbol
+		Path path = new Path(createSimpleGraph().getNode(a));
+		                     ^
+  symbol:   method createSimpleGraph()
+  location: class CodexTest_0_8_88
+CodexTest_0_8_88.java:21: error: cannot find symbol
+        path.add(createSimpleGraph().getEdge(ab));
+                                             ^
+  symbol:   variable ab
+  location: class CodexTest_0_8_88
+CodexTest_0_8_88.java:21: error: cannot find symbol
+        path.add(createSimpleGraph().getEdge(ab));
+                 ^
+  symbol:   method createSimpleGraph()
+  location: class CodexTest_0_8_88
+CodexTest_0_8_88.java:23: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+        assertEquals(path, new Path(path));
+                           ^
+  required: no arguments
+  found: org.graphstream.graph.Path
+  reason: actual and formal argument lists differ in length

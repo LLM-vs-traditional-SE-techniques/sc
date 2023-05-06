@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_9_66.java:65: error: cannot find symbol
+        IndexRequest read = IndexRequest.readFrom(jsonBuilder()
+                                                  ^
+  symbol:   method jsonBuilder()
+  location: class CodexTest_0_9_66
+CodexTest_0_9_66.java:65: error: non-static method readFrom(org.elasticsearch.common.io.stream.StreamInput) cannot be referenced from a static context
+        IndexRequest read = IndexRequest.readFrom(jsonBuilder()
+                                        ^
+CodexTest_0_9_66.java:69: error: cannot find symbol
+        assertThat(read.source(), equalTo(singletonMap("foo", "bar")));
+                                          ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_9_66

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_74.java:45: error: cannot find symbol
+        A.assign(B, DoubleFunctions.mult);
+                    ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_4_74
+CodexTest_0_4_74.java:46: error: cannot find symbol
+        C.assign(DoubleFunctions.mult);
+                 ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_4_74

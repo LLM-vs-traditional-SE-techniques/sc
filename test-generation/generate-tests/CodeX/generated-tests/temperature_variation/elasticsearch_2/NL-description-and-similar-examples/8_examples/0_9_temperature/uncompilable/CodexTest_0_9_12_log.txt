@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_12.java:71: error: cannot find symbol
+        } catch (final ElasticsearchParseException e) {
+                       ^
+  symbol:   class ElasticsearchParseException
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:72: error: cannot find symbol
+            assertThat(e.getMessage(), containsString("Illegal value for content type"));
+                                       ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_9_12

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_4.java:31: error: <identifier> expected
+Input: public <T> T getClassForNameOrNull(String className, Class<T> expectedType)
+     ^
+CodexTest_0_9_4.java:34: error: reached end of file while parsing
+}
+ ^

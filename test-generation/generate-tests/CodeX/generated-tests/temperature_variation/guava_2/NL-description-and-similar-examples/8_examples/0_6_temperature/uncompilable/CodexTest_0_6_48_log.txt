@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_48.java:36: error: <identifier> expected
+Input: public String toString() {
+     ^
+CodexTest_0_6_48.java:49: error: <identifier> expected
+Output:
+      ^

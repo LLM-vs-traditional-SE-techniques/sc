@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_1.java:18: error: cannot find symbol
+    Instances newInst = new Instances(m_Instances, 0);
+                                      ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:19: error: cannot find symbol
+    newInst.setClassIndex(m_Instances.numAttributes()-1);
+                          ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_8_1

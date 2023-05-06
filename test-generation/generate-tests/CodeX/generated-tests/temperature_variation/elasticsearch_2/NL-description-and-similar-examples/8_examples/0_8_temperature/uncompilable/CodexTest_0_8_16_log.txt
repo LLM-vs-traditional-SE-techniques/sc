@@ -1,0 +1,73 @@
+isCompilable => false
+CodexTest_0_8_16.java:70: error: illegal start of type
+*/
+^
+CodexTest_0_8_16.java:70: error: ';' expected
+*/
+ ^
+CodexTest_0_8_16.java:71: error: illegal character: '#'
+#include<sparsehash/sparse_hash_map>
+^
+CodexTest_0_8_16.java:71: error: > expected
+#include<sparsehash/sparse_hash_map>
+                   ^
+CodexTest_0_8_16.java:71: error: '(' expected
+#include<sparsehash/sparse_hash_map>
+                                   ^
+CodexTest_0_8_16.java:72: error: illegal character: '#'
+#include<iostream>
+^
+CodexTest_0_8_16.java:73: error: illegal character: '#'
+#include<cmath>
+^
+CodexTest_0_8_16.java:74: error: illegal character: '#'
+#include<unordered_set>
+^
+CodexTest_0_8_16.java:75: error: illegal character: '#'
+#include<unordered_map>
+^
+CodexTest_0_8_16.java:76: error: illegal character: '#'
+#include<math.h>
+^
+CodexTest_0_8_16.java:77: error: illegal character: '#'
+#include<vector>
+^
+CodexTest_0_8_16.java:78: error: illegal character: '#'
+#include<algorithm>
+^
+CodexTest_0_8_16.java:79: error: illegal character: '#'
+#include<map>
+^
+CodexTest_0_8_16.java:80: error: illegal character: '#'
+#include<string>
+^
+CodexTest_0_8_16.java:81: error: illegal character: '#'
+#include<set>
+^
+CodexTest_0_8_16.java:82: error: illegal character: '#'
+#include<iostream>
+^
+CodexTest_0_8_16.java:83: error: illegal character: '#'
+#include<fstream>
+^
+CodexTest_0_8_16.java:84: error: illegal character: '#'
+#include<stack>
+^
+CodexTest_0_8_16.java:85: error: illegal character: '#'
+#include<queue>
+^
+CodexTest_0_8_16.java:86: error: illegal character: '#'
+#include<bitset>
+^
+CodexTest_0_8_16.java:87: error: illegal character: '#'
+#include <numeric>
+^
+CodexTest_0_8_16.java:88: error: illegal character: '#'
+#include<unistd.h>
+^
+CodexTest_0_8_16.java:88: error: <identifier> expected
+#include<unistd.h>
+                  ^
+CodexTest_0_8_16.java:89: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_6_18.java:19: error: cannot find symbol
+    Instances insts = new Instances("test", new ArrayList<Attribute>(), numAtt);
+                                                ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_6_18
+CodexTest_0_6_18.java:26: error: cannot find symbol
+	att = new Attribute("class", new ArrayList<String>());
+	                                 ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_6_18
+Note: CodexTest_0_6_18.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_25.java:65: error: cannot find symbol
+        String index = randomAlphaOfLengthBetween(3, 10);
+                       ^
+  symbol:   method randomAlphaOfLengthBetween(int,int)
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:66: error: cannot find symbol
+        String type = randomAlphaOfLengthBetween(3, 10);
+                      ^
+  symbol:   method randomAlphaOfLengthBetween(int,int)
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:67: error: cannot find symbol
+        String id = randomAlphaOfLengthBetween(3, 10);
+                    ^
+  symbol:   method randomAlphaOfLengthBetween(int,int)
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:68: error: cannot find symbol
+        String parent = randomAlphaOfLengthBetween(3, 10);
+                        ^
+  symbol:   method randomAlphaOfLengthBetween(int,int)
+  location: class CodexTest_0_7_25

@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_82.java:30: error: no suitable constructor found for DenseDoubleMatrix1D(double,double,double,double,double)
+        final DoubleMatrix1D x = new DenseDoubleMatrix1D(2.93, 5.58999, 7.09, 8.321, 7.9);
+                                 ^
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix1D.DenseDoubleMatrix1D(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix1D.DenseDoubleMatrix1D(int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix1D.DenseDoubleMatrix1D(int,double[],int,int) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_9_82.java:32: error: package DoubleProperty does not exist
+            DoubleProperty.DEFAULT.assignSign(posneg);
+                          ^

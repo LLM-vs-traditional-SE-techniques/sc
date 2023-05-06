@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_7.java:22: error: cannot find symbol
+        Exception result = underTest.contains(null);
+                           ^
+  symbol:   variable underTest
+  location: class CodexTest_0_9_7

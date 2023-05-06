@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_3.java:21: error: cannot find symbol
+        final AtomicInteger count = new AtomicInteger();
+              ^
+  symbol:   class AtomicInteger
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:21: error: cannot find symbol
+        final AtomicInteger count = new AtomicInteger();
+                                        ^
+  symbol:   class AtomicInteger
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:22: error: cannot find symbol
+        DynamicList<Integer> list = DynamicList.of(1, 2, 3);
+        ^
+  symbol:   class DynamicList
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:22: error: cannot find symbol
+        DynamicList<Integer> list = DynamicList.of(1, 2, 3);
+                                    ^
+  symbol:   variable DynamicList
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:23: error: cannot find symbol
+        list.addListener(new ListEventListener<Integer>() {
+                             ^
+  symbol:   class ListEventListener
+  location: class CodexTest_0_7_3

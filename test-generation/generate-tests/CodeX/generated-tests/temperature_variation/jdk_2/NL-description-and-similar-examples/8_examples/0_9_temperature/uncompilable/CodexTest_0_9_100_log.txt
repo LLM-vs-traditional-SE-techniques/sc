@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_100.java:21: error: cannot find symbol
+        Vector vector = populatedVector(SIZE);
+                                        ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:22: error: cannot find symbol
+        for (int i=0; i<SIZE; i++) {
+                        ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_9_100

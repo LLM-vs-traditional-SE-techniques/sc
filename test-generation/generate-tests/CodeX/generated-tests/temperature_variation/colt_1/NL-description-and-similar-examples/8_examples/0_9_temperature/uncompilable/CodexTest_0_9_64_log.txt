@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_64.java:30: error: cannot find symbol
+			DenseDoubleMatrix1D v = new DenseDoubleMatrix1D(SIZE);
+			                                                ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_9_64
+CodexTest_0_9_64.java:33: error: cannot find symbol
+				assertEquals(v.getQuick(i), 0, TOL);
+				                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_9_64

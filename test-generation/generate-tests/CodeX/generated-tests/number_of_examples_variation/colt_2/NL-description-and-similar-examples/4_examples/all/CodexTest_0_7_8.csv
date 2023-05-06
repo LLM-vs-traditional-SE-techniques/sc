@@ -1,0 +1,95 @@
+prompt,output
+"Suggest a test for a method with the DoubleMatrix2D like2D(int rows, int columns) signature.
+
+Input: public DoubleMatrix1D like(int size) {
+			return new DenseDoubleMatrix1D(size);
+		}
+Output: public static void doubleTest28() {
+			double[] data={1,2,3,4,5,6};
+			double[][] arrMatrix = 
+			{ 
+				{ 1, 2, 3, 4, 5, 6},
+				{ 2, 3, 4, 5, 6, 7}
+			};
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			DoubleMatrix2D matrix = f.make(arrMatrix);
+			DoubleMatrix1D res = vector.like(matrix.rows());
+
+						matrix.zMult(vector,res);
+
+					System.out.println(res);
+		}
+
+Input: public static HashCode fromInt(int hash) {
+			return new IntHashCode(hash);
+		  }
+Output: public void testObjectHashCode() {
+			HashCode hashCode42 = HashCode.fromInt(42);
+			assertEquals(42, hashCode42.hashCode());
+		  }
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public DoubleMatrix2D like2D(int rows, int columns) {
+		return new DenseDoubleMatrix2D(rows,columns);
+	}
+Output:
+  ","import cern.colt.matrix.*;
+import cern.colt.list.DoubleArrayList;
+import cern.colt.list.IntArrayList;
+import cern.colt.matrix.impl.AbstractMatrix1D;
+
+import hep.aida.bin.*;
+import cern.colt.matrix.impl.*;
+import cern.colt.function.DoubleDoubleFunction;
+import cern.colt.function.DoubleFunction;
+import cern.colt.list.IntArrayList;
+import cern.colt.map.AbstractIntDoubleMap;
+import cern.colt.map.OpenIntDoubleHashMap;
+import cern.colt.matrix.DoubleFactory2D;
+import cern.colt.matrix.DoubleMatrix1D;
+import cern.colt.matrix.DoubleMatrix2D;
+import cern.colt.matrix.DoubleMatrix3D;
+import cern.colt.matrix.doublealgo.DoubleMatrix2DComparator;
+import cern.colt.matrix.linalg.Algebra;
+import cern.colt.matrix.linalg.LUDecompositionQuick;
+import cern.colt.matrix.linalg.SeqBlas;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_7_8 { 
+  @Test
+  public static void doubleTest30() {
+		double[] data={1,2,3,4,5,6};
+		double[][] arrMatrix = 
+		{ 
+			{ 1, 2, 3, 4, 5, 6},
+			{ 2, 3, 4, 5, 6, 7}
+		};
+		DoubleFactory2D f = DoubleFactory2D.dense;
+		DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+		DoubleMatrix2D matrix = f.make(arrMatrix);
+		DoubleMatrix2D res = matrix.like2D(matrix.rows(),vector.size());
+}"

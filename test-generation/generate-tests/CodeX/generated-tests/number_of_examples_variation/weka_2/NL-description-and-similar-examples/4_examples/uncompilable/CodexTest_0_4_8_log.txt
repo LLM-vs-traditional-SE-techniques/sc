@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_8.java:18: error: <identifier> expected
+Input: public Instance getAsInstance(Instances model, Random random) 
+     ^
+CodexTest_0_4_8.java:41: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_4_8.java:43: error: <identifier> expected
+Input: public Instance getAsInstance(Instances model, Random random) 
+     ^
+CodexTest_0_4_8.java:59: error: '.class' expected
+}
+^
+CodexTest_0_4_8.java:59: error: reached end of file while parsing
+}
+ ^

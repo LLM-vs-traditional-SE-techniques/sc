@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_7_14.java:32: error: incompatible types: double[] cannot be converted to double[][]
+		DoubleMatrix2D matrix = new DenseDoubleMatrix2D(vector.toArray());
+		                                                              ^
+CodexTest_0_7_14.java:34: error: no suitable constructor found for DenseDoubleMatrix1D(double[][])
+		DoubleMatrix1D vector2 = new DenseDoubleMatrix1D(matrix.toArray());
+		                         ^
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix1D.DenseDoubleMatrix1D(double[]) is not applicable
+      (argument mismatch; double[][] cannot be converted to double[])
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix1D.DenseDoubleMatrix1D(int) is not applicable
+      (argument mismatch; double[][] cannot be converted to int)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

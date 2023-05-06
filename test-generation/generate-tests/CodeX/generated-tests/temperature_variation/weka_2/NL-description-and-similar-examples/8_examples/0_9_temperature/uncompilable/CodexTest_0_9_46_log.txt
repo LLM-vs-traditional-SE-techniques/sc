@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_46.java:17: error: <identifier> expected
+    Utils.setSeed(1)
+                 ^
+CodexTest_0_9_46.java:17: error: illegal start of type
+    Utils.setSeed(1)
+                  ^
+CodexTest_0_9_46.java:17: error: ';' expected
+    Utils.setSeed(1)
+                    ^
+CodexTest_0_9_46.java:45: error: <identifier> expected
+Output:
+      ^

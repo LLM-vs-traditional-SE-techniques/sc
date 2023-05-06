@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_9_2.java:37: error: illegal character: '`'
+    ```
+    ^
+CodexTest_0_9_2.java:37: error: illegal character: '`'
+    ```
+     ^
+CodexTest_0_9_2.java:37: error: illegal character: '`'
+    ```
+      ^
+CodexTest_0_9_2.java:38: error: ';' expected
+* Assertions can be derived from existing code.
+                ^
+CodexTest_0_9_2.java:38: error: ';' expected
+* Assertions can be derived from existing code.
+                           ^
+CodexTest_0_9_2.java:38: error: ';' expected
+* Assertions can be derived from existing code.
+                                         ^
+CodexTest_0_9_2.java:38: error: <identifier> expected
+* Assertions can be derived from existing code.
+                                               ^
+CodexTest_0_9_2.java:39: error: reached end of file while parsing
+}
+ ^

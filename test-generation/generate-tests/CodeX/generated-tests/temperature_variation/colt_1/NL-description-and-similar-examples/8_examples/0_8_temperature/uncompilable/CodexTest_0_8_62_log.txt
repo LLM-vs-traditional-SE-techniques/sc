@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_62.java:33: error: cannot find symbol
+        Random rng = new Random(0);
+        ^
+  symbol:   class Random
+  location: class CodexTest_0_8_62
+CodexTest_0_8_62.java:33: error: cannot find symbol
+        Random rng = new Random(0);
+                         ^
+  symbol:   class Random
+  location: class CodexTest_0_8_62
+CodexTest_0_8_62.java:42: error: cannot find symbol
+            Arrays.sort(sorted);
+            ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_8_62
+CodexTest_0_8_62.java:44: error: cannot find symbol
+            d1Double.sort();
+                    ^
+  symbol:   method sort()
+  location: variable d1Double of type cern.colt.matrix.impl.DenseDoubleMatrix1D

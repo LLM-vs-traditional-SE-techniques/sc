@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_6_4.java:30: error: cannot find symbol
+        DoubleMatrix1D d = new DenseDoubleMatrix1D(testData.length);
+                                                   ^
+  symbol:   variable testData
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:31: error: cannot find symbol
+        d.assign(testData);
+                 ^
+  symbol:   variable testData
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:32: error: cannot find symbol
+        for (int i = 0; i < testData.length; i++) {
+                            ^
+  symbol:   variable testData
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:33: error: cannot find symbol
+            assertEquals(testData[i], d.get(i), TOL);
+                         ^
+  symbol:   variable testData
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:33: error: cannot find symbol
+            assertEquals(testData[i], d.get(i), TOL);
+                                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:35: error: cannot find symbol
+        d = new DenseDoubleMatrix1D(testData.length);
+                                    ^
+  symbol:   variable testData
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:36: error: cannot find symbol
+        DoubleMatrix1D d2 = new DenseDoubleMatrix1D(testData2.length);
+                                                    ^
+  symbol:   variable testData2
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:38: error: cannot find symbol
+        assertEquals(testData.length, d.size());
+                     ^
+  symbol:   variable testData
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:39: error: cannot find symbol
+        for (int i = 0; i < testData.length; i++) {
+                            ^
+  symbol:   variable testData
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:40: error: cannot find symbol
+            assertEquals(0, d.get(i), TOL);
+                                      ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_4

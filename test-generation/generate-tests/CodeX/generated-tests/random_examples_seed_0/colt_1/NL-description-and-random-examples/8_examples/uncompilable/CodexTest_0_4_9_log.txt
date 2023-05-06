@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_4_9.java:38: error: incompatible types: double[] cannot be converted to int
+        m = new DenseDoubleMatrix1D(values, 5, 2, 2);
+                                    ^
+CodexTest_0_4_9.java:44: error: incompatible types: double[] cannot be converted to int
+        m = new DenseDoubleMatrix1D(values, 5, 2, 2);
+                                    ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_23.java:21: error: cannot find symbol
+        HashSet<Integer> s = populatedSet(3);
+                             ^
+  symbol:   method populatedSet(int)
+  location: class CodexTest_0_7_23
+CodexTest_0_7_23.java:25: error: cannot find symbol
+        assertFalse(s.contains(INVALID));
+                               ^
+  symbol:   variable INVALID
+  location: class CodexTest_0_7_23

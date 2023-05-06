@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_3_24.java:21: error: cannot find symbol
+        assertFalse(list.contains(null));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:22: error: cannot find symbol
+        assertFalse(list.contains("foo"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:23: error: cannot find symbol
+        assertFalse(list.contains("bar"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:24: error: cannot find symbol
+        assertFalse(list.contains("baz"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:25: error: cannot find symbol
+        assertFalse(list.contains("qux"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:26: error: cannot find symbol
+        assertFalse(list.contains("quux"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:27: error: cannot find symbol
+        assertFalse(list.contains("corge"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:28: error: cannot find symbol
+        assertFalse(list.contains("grault"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:29: error: cannot find symbol
+        assertFalse(list.contains("garply"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:30: error: cannot find symbol
+        assertFalse(list.contains("waldo"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:31: error: cannot find symbol
+        assertFalse(list.contains("fred"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:32: error: cannot find symbol
+        assertFalse(list.contains("plugh"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:33: error: cannot find symbol
+        assertFalse(list.contains("xyzzy"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24
+CodexTest_0_3_24.java:34: error: cannot find symbol
+        assertFalse(list.contains("thud"));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_24

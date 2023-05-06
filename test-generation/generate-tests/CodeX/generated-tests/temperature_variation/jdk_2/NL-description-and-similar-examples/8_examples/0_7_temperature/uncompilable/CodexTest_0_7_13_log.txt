@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_13.java:22: error: cannot find symbol
+        ArrayBasedJsonNode underTest = new ArrayBasedJsonNode(new ArrayNode(JsonNodeFactory.instance, 0));
+        ^
+  symbol:   class ArrayBasedJsonNode
+  location: class CodexTest_0_7_13
+CodexTest_0_7_13.java:22: error: cannot find symbol
+        ArrayBasedJsonNode underTest = new ArrayBasedJsonNode(new ArrayNode(JsonNodeFactory.instance, 0));
+                                           ^
+  symbol:   class ArrayBasedJsonNode
+  location: class CodexTest_0_7_13
+CodexTest_0_7_13.java:22: error: cannot find symbol
+        ArrayBasedJsonNode underTest = new ArrayBasedJsonNode(new ArrayNode(JsonNodeFactory.instance, 0));
+                                                                  ^
+  symbol:   class ArrayNode
+  location: class CodexTest_0_7_13
+CodexTest_0_7_13.java:22: error: cannot find symbol
+        ArrayBasedJsonNode underTest = new ArrayBasedJsonNode(new ArrayNode(JsonNodeFactory.instance, 0));
+                                                                            ^
+  symbol:   variable JsonNodeFactory
+  location: class CodexTest_0_7_13
+CodexTest_0_7_13.java:24: error: cannot find symbol
+        boolean result = underTest.contains(x);
+                                            ^
+  symbol:   variable x
+  location: class CodexTest_0_7_13

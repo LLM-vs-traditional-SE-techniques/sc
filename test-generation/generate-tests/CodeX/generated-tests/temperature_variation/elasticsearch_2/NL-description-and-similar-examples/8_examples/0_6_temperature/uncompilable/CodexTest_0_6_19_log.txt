@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_19.java:68: error: cannot find symbol
+        IndexRequest deserializedRequest = copyWriteable(indexRequest, new NamedXContentRegistry(Collections.emptyList()), IndexRequest::new);
+                                                                           ^
+  symbol:   class NamedXContentRegistry
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:69: error: cannot find symbol
+        assertEquals(XContentHelper.convertToJson(new BytesArray(indexRequest.source().uncompressed()), false, XContentType.JSON),
+                                                                                      ^
+  symbol:   method uncompressed()
+  location: class org.elasticsearch.common.bytes.BytesReference
+CodexTest_0_6_19.java:70: error: cannot find symbol
+            XContentHelper.convertToJson(new BytesArray(deserializedRequest.source().uncompressed()), false, XContentType.JSON));
+                                                                                    ^
+  symbol:   method uncompressed()
+  location: class org.elasticsearch.common.bytes.BytesReference

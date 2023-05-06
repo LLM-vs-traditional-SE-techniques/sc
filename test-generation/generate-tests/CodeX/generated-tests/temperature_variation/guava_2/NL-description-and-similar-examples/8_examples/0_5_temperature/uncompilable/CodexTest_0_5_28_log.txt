@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_5_28.java:29: error: cannot find symbol
+        int actualLength = this.hashCode.writeBytesTo(dest, offset, maxLength);
+                               ^
+  symbol: variable hashCode

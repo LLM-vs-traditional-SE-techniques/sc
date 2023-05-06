@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_7_66.java:66: error: package BulkProcessor does not exist
+        BulkProcessor.Builder builder = BulkProcessor.builder(null, null);
+                     ^
+CodexTest_0_7_66.java:66: error: cannot find symbol
+        BulkProcessor.Builder builder = BulkProcessor.builder(null, null);
+                                        ^
+  symbol:   variable BulkProcessor
+  location: class CodexTest_0_7_66

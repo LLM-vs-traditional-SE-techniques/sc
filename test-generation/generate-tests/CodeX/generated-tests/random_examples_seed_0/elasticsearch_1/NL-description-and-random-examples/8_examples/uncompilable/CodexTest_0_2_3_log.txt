@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_2_3.java:65: error: cannot find symbol
+        assertEquals("", new DenseDoubleMatrix1D(new double[]{}).parent());
+                             ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_2_3

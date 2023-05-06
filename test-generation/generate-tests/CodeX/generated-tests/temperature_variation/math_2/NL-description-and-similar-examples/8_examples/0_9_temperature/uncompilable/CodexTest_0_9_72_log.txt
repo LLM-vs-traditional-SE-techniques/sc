@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_72.java:37: error: <identifier> expected
+Input: public static PolynomialFunction plus (PolynomialFunction f, PolynomialFunction g)
+     ^
+CodexTest_0_9_72.java:41: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_72.java:50: error: reached end of file while parsing
+}
+ ^

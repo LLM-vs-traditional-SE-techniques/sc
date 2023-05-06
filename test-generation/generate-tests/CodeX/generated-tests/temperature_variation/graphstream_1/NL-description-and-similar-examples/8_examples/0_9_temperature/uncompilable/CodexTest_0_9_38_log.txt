@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_38.java:29: error: cannot find symbol
+		path.addEdge(e1);
+		    ^
+  symbol:   method addEdge(org.graphstream.graph.Edge)
+  location: variable path of type org.graphstream.graph.Path
+CodexTest_0_9_38.java:30: error: cannot find symbol
+		path.addEdge(e2);
+		    ^
+  symbol:   method addEdge(org.graphstream.graph.Edge)
+  location: variable path of type org.graphstream.graph.Path
+CodexTest_0_9_38.java:47: error: cannot find symbol
+		path.addEdge(e1);
+		    ^
+  symbol:   method addEdge(org.graphstream.graph.Edge)
+  location: variable path of type org.graphstream.graph.Path
+CodexTest_0_9_38.java:48: error: cannot find symbol
+		path.addEdge(e2);
+		    ^
+  symbol:   method addEdge(org.graphstream.graph.Edge)
+  location: variable path of type org.graphstream.graph.Path

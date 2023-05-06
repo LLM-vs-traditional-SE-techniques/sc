@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_2.java:25: error: cannot find symbol
+        final HashCode hc = HashCode.fromInt(INT_VALUE);
+                                             ^
+  symbol:   variable INT_VALUE
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:26: error: cannot find symbol
+        assertEquals(INT_VALUE, hc.asInt());
+                     ^
+  symbol:   variable INT_VALUE
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:27: error: cannot find symbol
+        assertEquals(Integer.toUnsignedLong(INT_VALUE), hc.asLong());
+                                            ^
+  symbol:   variable INT_VALUE
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:28: error: cannot find symbol
+        assertEquals(hashStringByteLength(INT_VALUE), hc.bits());
+                                          ^
+  symbol:   variable INT_VALUE
+  location: class CodexTest_0_9_2

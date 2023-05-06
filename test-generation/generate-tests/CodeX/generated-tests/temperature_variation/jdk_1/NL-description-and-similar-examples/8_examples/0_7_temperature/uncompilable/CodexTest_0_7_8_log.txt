@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_7_8.java:21: error: cannot find symbol
+    assertEquals(new Integer(9), l.remove(8));
+                                 ^
+  symbol:   variable l
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:22: error: cannot find symbol
+    assertEquals(new Integer(8), l.remove(7));
+                                 ^
+  symbol:   variable l
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:23: error: cannot find symbol
+    assertEquals(new Integer(7), l.remove(6));
+                                 ^
+  symbol:   variable l
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:24: error: cannot find symbol
+    assertEquals(new Integer(6), l.remove(5));
+                                 ^
+  symbol:   variable l
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:25: error: cannot find symbol
+    assertEquals(new Integer(5), l.remove(4));
+                                 ^
+  symbol:   variable l
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:26: error: cannot find symbol
+    assertEquals(new Integer(4), l.remove(3));
+                                 ^
+  symbol:   variable l
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:27: error: cannot find symbol
+    assertEquals(new Integer(3), l.remove(2));
+                                 ^
+  symbol:   variable l
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:28: error: cannot find symbol
+    assertEquals(new Integer(2), l.remove(1));
+                                 ^
+  symbol:   variable l
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:29: error: cannot find symbol
+    assertEquals(new Integer(1), l.remove(0));
+                                 ^
+  symbol:   variable l
+  location: class CodexTest_0_7_8

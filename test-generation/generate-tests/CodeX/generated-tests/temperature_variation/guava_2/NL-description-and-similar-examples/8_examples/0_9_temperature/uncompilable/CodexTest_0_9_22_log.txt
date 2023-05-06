@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_22.java:25: error: cannot find symbol
+    for (HashFunction hf : hashFunctions) {
+                           ^
+  symbol:   variable hashFunctions
+  location: class CodexTest_0_9_22
+CodexTest_0_9_22.java:27: error: cannot find symbol
+      HashCode hash = hf.hashBytes(s.getBytes(US_ASCII));
+                                              ^
+  symbol:   variable US_ASCII
+  location: class CodexTest_0_9_22

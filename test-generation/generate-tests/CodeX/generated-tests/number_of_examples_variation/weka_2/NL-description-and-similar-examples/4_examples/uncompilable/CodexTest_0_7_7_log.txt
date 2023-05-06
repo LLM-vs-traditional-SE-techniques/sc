@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_7.java:21: error: cannot find symbol
+    Random random = RandomUtils.getRandom();
+                    ^
+  symbol:   variable RandomUtils
+  location: class CodexTest_0_7_7

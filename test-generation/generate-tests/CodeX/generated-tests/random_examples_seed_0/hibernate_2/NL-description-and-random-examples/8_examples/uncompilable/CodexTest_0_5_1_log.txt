@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_1.java:16: error: cannot find symbol
+        for (Boolean value : VALUES) {
+                             ^
+  symbol:   variable VALUES
+  location: class CodexTest_0_5_1
+CodexTest_0_5_1.java:17: error: cannot find symbol
+            assertEquals(value, Boolean.fromString(value.toString()));
+                                       ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean

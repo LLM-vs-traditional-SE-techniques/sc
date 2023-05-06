@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_9_5.java:20: error: method does not override or implement a method from a supertype
+   @Override
+   ^
+CodexTest_0_9_5.java:22: error: cannot find symbol
+        final int size = m_Elements.length;
+                         ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:24: error: cannot find symbol
+            if ( isEqual(m_Elements[i], o) ) {
+                         ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_9_5

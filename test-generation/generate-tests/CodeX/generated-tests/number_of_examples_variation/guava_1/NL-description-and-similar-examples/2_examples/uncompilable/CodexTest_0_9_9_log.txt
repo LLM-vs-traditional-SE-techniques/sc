@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_9.java:25: error: cannot find symbol
+  			IllegalArgumentException iae = expectThrows(IllegalArgumentException.class, () -> getBulkIndexRequest(false, null));
+  			                               ^
+  symbol:   method expectThrows(java.lang.Class<java.lang.IllegalArgumentException>,()->getBul[...]null))
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:25: error: cannot find symbol
+  			IllegalArgumentException iae = expectThrows(IllegalArgumentException.class, () -> getBulkIndexRequest(false, null));
+  			                                                                                  ^
+  symbol:   method getBulkIndexRequest(boolean,<nulltype>)
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:30: error: cannot find symbol
+			IllegalArgumentException iae = expectThrows(IllegalArgumentException.class, () -> getBulkIndexRequest(true, null));
+			                               ^
+  symbol:   method expectThrows(java.lang.Class<java.lang.IllegalArgumentException>,()->getBul[...]null))
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:30: error: cannot find symbol
+			IllegalArgumentException iae = expectThrows(IllegalArgumentException.class, () -> getBulkIndexRequest(true, null));
+			                                                                                  ^
+  symbol:   method getBulkIndexRequest(boolean,<nulltype>)
+  location: class CodexTest_0_9_9

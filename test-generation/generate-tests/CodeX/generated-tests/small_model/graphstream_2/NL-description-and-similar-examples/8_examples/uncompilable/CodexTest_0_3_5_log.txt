@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_5.java:27: error: ')' expected
+        p2.add(new Node(c)
+                          ^
+CodexTest_0_3_5.java:28: error: reached end of file while parsing
+}
+ ^

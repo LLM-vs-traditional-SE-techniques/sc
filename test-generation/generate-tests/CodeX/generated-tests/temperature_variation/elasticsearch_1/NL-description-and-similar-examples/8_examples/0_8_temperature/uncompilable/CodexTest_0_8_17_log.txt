@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_17.java:65: error: cannot find symbol
+        assertEquals(null, new UInt64(0).parent());
+                               ^
+  symbol:   class UInt64
+  location: class CodexTest_0_8_17

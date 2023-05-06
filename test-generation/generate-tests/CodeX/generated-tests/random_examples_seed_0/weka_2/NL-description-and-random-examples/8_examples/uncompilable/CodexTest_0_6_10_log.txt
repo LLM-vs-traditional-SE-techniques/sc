@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_10.java:19: error: cannot find symbol
+          Data data = new Data(new double[]{1, 2, 3, 4, 5, 6});
+          ^
+  symbol:   class Data
+  location: class CodexTest_0_6_10
+CodexTest_0_6_10.java:19: error: cannot find symbol
+          Data data = new Data(new double[]{1, 2, 3, 4, 5, 6});
+                          ^
+  symbol:   class Data
+  location: class CodexTest_0_6_10

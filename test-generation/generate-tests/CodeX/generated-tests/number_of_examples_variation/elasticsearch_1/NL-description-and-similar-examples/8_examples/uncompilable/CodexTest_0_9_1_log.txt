@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_9_1.java:65: error: cannot find symbol
+		Node<K, V> node = new Node<K, V>(RANDOM_KEY);
+		^
+  symbol:   class Node
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:65: error: cannot find symbol
+		Node<K, V> node = new Node<K, V>(RANDOM_KEY);
+		     ^
+  symbol:   class K
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:65: error: cannot find symbol
+		Node<K, V> node = new Node<K, V>(RANDOM_KEY);
+		        ^
+  symbol:   class V
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:65: error: cannot find symbol
+		Node<K, V> node = new Node<K, V>(RANDOM_KEY);
+		                      ^
+  symbol:   class Node
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:65: error: cannot find symbol
+		Node<K, V> node = new Node<K, V>(RANDOM_KEY);
+		                           ^
+  symbol:   class K
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:65: error: cannot find symbol
+		Node<K, V> node = new Node<K, V>(RANDOM_KEY);
+		                              ^
+  symbol:   class V
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:65: error: cannot find symbol
+		Node<K, V> node = new Node<K, V>(RANDOM_KEY);
+		                                 ^
+  symbol:   variable RANDOM_KEY
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:66: error: cannot find symbol
+		Node<K, V> child = new Node<K, V>(RANDOM_KEY);
+		^
+  symbol:   class Node
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:66: error: cannot find symbol
+		Node<K, V> child = new Node<K, V>(RANDOM_KEY);
+		     ^
+  symbol:   class K
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:66: error: cannot find symbol
+		Node<K, V> child = new Node<K, V>(RANDOM_KEY);
+		        ^
+  symbol:   class V
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:66: error: cannot find symbol
+		Node<K, V> child = new Node<K, V>(RANDOM_KEY);
+		                       ^
+  symbol:   class Node
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:66: error: cannot find symbol
+		Node<K, V> child = new Node<K, V>(RANDOM_KEY);
+		                            ^
+  symbol:   class K
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:66: error: cannot find symbol
+		Node<K, V> child = new Node<K, V>(RANDOM_KEY);
+		                               ^
+  symbol:   class V
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:66: error: cannot find symbol
+		Node<K, V> child = new Node<K, V>(RANDOM_KEY);
+		                                  ^
+  symbol:   variable RANDOM_KEY
+  location: class CodexTest_0_9_1

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_87.java:65: error: cannot find symbol
+        final Document doc = new Document().field( "name", "george" );
+              ^
+  symbol:   class Document
+  location: class CodexTest_0_8_87
+CodexTest_0_8_87.java:65: error: cannot find symbol
+        final Document doc = new Document().field( "name", "george" );
+                                 ^
+  symbol:   class Document
+  location: class CodexTest_0_8_87
+CodexTest_0_8_87.java:68: error: cannot find symbol
+        assertThat( indexRequest.parent(), equalTo( null ) );
+                                           ^
+  symbol:   method equalTo(<nulltype>)
+  location: class CodexTest_0_8_87
+CodexTest_0_8_87.java:70: error: cannot find symbol
+        assertThat( indexRequest.source().toString(), equalTo( "{\"name\":\"george\"}" ) );
+                                                      ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_87

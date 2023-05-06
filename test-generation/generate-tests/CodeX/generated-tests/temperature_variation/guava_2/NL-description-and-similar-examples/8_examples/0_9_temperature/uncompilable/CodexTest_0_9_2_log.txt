@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_2.java:57: error: ')' expected
+          table = PagedHashTable.open(channel
+                                             ^
+CodexTest_0_9_2.java:58: error: reached end of file while parsing
+}
+ ^

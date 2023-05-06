@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_1_2.java:24: error: ')' expected
+    Instance actual = new AlgVector(new double[] {1.0, 2.0}).getAsInstance(new Instance(2
+                                                                                         ^
+CodexTest_0_1_2.java:25: error: reached end of file while parsing
+}
+ ^

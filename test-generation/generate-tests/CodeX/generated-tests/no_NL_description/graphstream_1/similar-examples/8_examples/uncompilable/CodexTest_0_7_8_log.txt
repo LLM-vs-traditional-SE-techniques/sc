@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_8.java:20: error: invalid method declaration; return type required
+    assertFalse(path.contains(edge));
+    ^
+CodexTest_0_7_8.java:20: error: <identifier> expected
+    assertFalse(path.contains(edge));
+                             ^
+CodexTest_0_7_8.java:20: error: ';' expected
+    assertFalse(path.contains(edge));
+                              ^
+CodexTest_0_7_8.java:20: error: illegal start of type
+    assertFalse(path.contains(edge));
+                                  ^
+CodexTest_0_7_8.java:20: error: <identifier> expected
+    assertFalse(path.contains(edge));
+                                   ^

@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_7_3.java:20: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+CodexTest_0_7_3.java:23: error: cannot find symbol
+        for (int i = 0; i < m_Elements.length; i++) {
+                            ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:24: error: cannot find symbol
+          if (m_Elements[i] == null) {
+              ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:29: error: cannot find symbol
+        for (int i = 0; i < m_Elements.length; i++) {
+                            ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:30: error: cannot find symbol
+          if (o.equals(m_Elements[i])) {
+                       ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_7_3

@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_6_7.java:15: error: cannot find symbol
+    UncaughtExceptionHandler defaultHandler = Thread.getDefaultUncaughtExceptionHandler();
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:16: error: cannot find symbol
+    Thread.setDefaultUncaughtExceptionHandler(new UncaughtExceptionHandler() {
+                                                  ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:23: error: non-static method getUncaughtExceptionHandler() cannot be referenced from a static context
+    assertNull(Thread.getUncaughtExceptionHandler());
+                     ^
+CodexTest_0_6_7.java:24: error: cannot find symbol
+    Thread.setUncaughtExceptionHandler(new UncaughtExceptionHandler() {
+                                           ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:24: error: non-static method setUncaughtExceptionHandler(java.lang.Thread.UncaughtExceptionHandler) cannot be referenced from a static context
+    Thread.setUncaughtExceptionHandler(new UncaughtExceptionHandler() {
+          ^
+CodexTest_0_6_7.java:30: error: non-static method getUncaughtExceptionHandler() cannot be referenced from a static context
+    assertNotNull(Thread.getUncaughtExceptionHandler());
+                        ^
+CodexTest_0_6_7.java:32: error: non-static method setUncaughtExceptionHandler(java.lang.Thread.UncaughtExceptionHandler) cannot be referenced from a static context
+    Thread.setUncaughtExceptionHandler(null);
+          ^

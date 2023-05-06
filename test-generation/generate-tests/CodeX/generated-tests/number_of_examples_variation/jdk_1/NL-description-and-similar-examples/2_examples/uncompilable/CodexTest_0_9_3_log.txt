@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_9_3.java:21: error: cannot find symbol
+        E element = list.get(0);
+        ^
+  symbol:   class E
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:21: error: cannot find symbol
+        E element = list.get(0);
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:22: error: cannot find symbol
+        E removed = list.remove(0);
+        ^
+  symbol:   class E
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:22: error: cannot find symbol
+        E removed = list.remove(0);
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:23: error: cannot find symbol
+        evidence.assertEquals("Wrong element removed", element, removed);
+        ^
+  symbol:   variable evidence
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:24: error: cannot find symbol
+        evidence.assertEquals("List should be empty", 0, list.size());
+                                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:24: error: cannot find symbol
+        evidence.assertEquals("List should be empty", 0, list.size());
+        ^
+  symbol:   variable evidence
+  location: class CodexTest_0_9_3

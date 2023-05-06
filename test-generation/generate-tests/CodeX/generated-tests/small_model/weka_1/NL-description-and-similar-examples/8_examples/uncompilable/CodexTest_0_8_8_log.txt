@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_8_8.java:24: error: cannot find symbol
+    if (m_Elements != null) {
+        ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:25: error: cannot find symbol
+      int n = m_Elements.length;
+              ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:32: error: m_Elements has protected access in weka.core.AlgVector
+	b.m_Elements[i] = m_Elements[i] + other.m_Elements[i];
+	 ^
+CodexTest_0_8_8.java:32: error: cannot find symbol
+	b.m_Elements[i] = m_Elements[i] + other.m_Elements[i];
+	                  ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:32: error: m_Elements has protected access in weka.core.AlgVector
+	b.m_Elements[i] = m_Elements[i] + other.m_Elements[i];
+	                                       ^

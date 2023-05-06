@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_7_1.java:29: error: unclosed string literal
+        assertEquals("/root/
+                     ^
+CodexTest_0_7_1.java:29: error: ';' expected
+        assertEquals("/root/
+                            ^
+CodexTest_0_7_1.java:30: error: reached end of file while parsing
+}
+ ^

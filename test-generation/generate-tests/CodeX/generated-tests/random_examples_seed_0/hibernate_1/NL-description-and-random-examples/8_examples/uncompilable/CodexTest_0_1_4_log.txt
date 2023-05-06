@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_1_4.java:42: error: <identifier> expected
+        assertEquals(0, NumberUtils.
+                                    ^
+CodexTest_0_1_4.java:43: error: reached end of file while parsing
+}
+ ^

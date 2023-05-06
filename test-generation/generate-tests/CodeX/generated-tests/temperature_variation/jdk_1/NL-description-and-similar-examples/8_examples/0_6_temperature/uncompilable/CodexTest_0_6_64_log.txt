@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_64.java:22: error: cannot find symbol
+        final FastArrayList<Object> list = new FastArrayList<>(data);
+              ^
+  symbol:   class FastArrayList
+  location: class CodexTest_0_6_64
+CodexTest_0_6_64.java:22: error: cannot find symbol
+        final FastArrayList<Object> list = new FastArrayList<>(data);
+                                               ^
+  symbol:   class FastArrayList
+  location: class CodexTest_0_6_64

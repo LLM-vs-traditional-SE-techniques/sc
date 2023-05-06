@@ -1,0 +1,49 @@
+isCompilable => false
+CodexTest_0_9_1.java:19: error: illegal start of type
+    import org.junit.Assert;
+    ^
+CodexTest_0_9_1.java:19: error: ';' expected
+    import org.junit.Assert;
+          ^
+CodexTest_0_9_1.java:19: error: illegal start of type
+    import org.junit.Assert;
+              ^
+CodexTest_0_9_1.java:19: error: ';' expected
+    import org.junit.Assert;
+                    ^
+CodexTest_0_9_1.java:19: error: <identifier> expected
+    import org.junit.Assert;
+                           ^
+CodexTest_0_9_1.java:20: error: illegal start of type
+    import org.junit.Test;
+    ^
+CodexTest_0_9_1.java:20: error: ';' expected
+    import org.junit.Test;
+          ^
+CodexTest_0_9_1.java:20: error: illegal start of type
+    import org.junit.Test;
+              ^
+CodexTest_0_9_1.java:20: error: ';' expected
+    import org.junit.Test;
+                    ^
+CodexTest_0_9_1.java:20: error: <identifier> expected
+    import org.junit.Test;
+                         ^
+CodexTest_0_9_1.java:21: error: illegal start of type
+    import static org.junit.Assert.assertFalse;
+    ^
+CodexTest_0_9_1.java:21: error: ';' expected
+    import static org.junit.Assert.assertFalse;
+          ^
+CodexTest_0_9_1.java:21: error: <identifier> expected
+    import static org.junit.Assert.assertFalse;
+                                              ^
+CodexTest_0_9_1.java:22: error: illegal start of type
+    import static org.junit.Assert.assertTrue;
+    ^
+CodexTest_0_9_1.java:22: error: ';' expected
+    import static org.junit.Assert.assertTrue;
+          ^
+CodexTest_0_9_1.java:22: error: <identifier> expected
+    import static org.junit.Assert.assertTrue;
+                                             ^

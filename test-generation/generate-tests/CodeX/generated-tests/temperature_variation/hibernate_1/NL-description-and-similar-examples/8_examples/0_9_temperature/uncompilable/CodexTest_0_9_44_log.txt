@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_44.java:19: error: incompatible types: boolean cannot be converted to short
+    private final Short aRandomLessThanMaxValue = (short) (Math.random() <= (Math.abs(Short.MAX_VALUE) + 1)) ? Math.round((short)(Math.random() * (Math.abs(Short.MAX_VALUE)))) : Short.MAX_VALUE;
+                                                          ^
+CodexTest_0_9_44.java:19: error: incompatible types: int cannot be converted to java.lang.Short
+    private final Short aRandomLessThanMaxValue = (short) (Math.random() <= (Math.abs(Short.MAX_VALUE) + 1)) ? Math.round((short)(Math.random() * (Math.abs(Short.MAX_VALUE)))) : Short.MAX_VALUE;
+                                                                                                             ^
+CodexTest_0_9_44.java:20: error: incompatible types: boolean cannot be converted to short
+		private final Short aRandomLargerThanMinValue = (short) (Math.random() >= Math.abs(Short.MIN_VALUE)) ? -1 * (short) Math.round((short) (Math.random() * Math.abs(Short.MIN_VALUE))) : Short.MIN_VALUE;
+		                                                        ^
+CodexTest_0_9_44.java:20: error: incompatible types: int cannot be converted to java.lang.Short
+		private final Short aRandomLargerThanMinValue = (short) (Math.random() >= Math.abs(Short.MIN_VALUE)) ? -1 * (short) Math.round((short) (Math.random() * Math.abs(Short.MIN_VALUE))) : Short.MIN_VALUE;
+		                                                                                                     ^

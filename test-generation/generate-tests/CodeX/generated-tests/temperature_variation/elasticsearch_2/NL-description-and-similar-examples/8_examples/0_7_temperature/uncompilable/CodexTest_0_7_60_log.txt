@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_60.java:65: error: <identifier> expected
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+     ^
+CodexTest_0_7_60.java:84: error: <identifier> expected
+Output: public void testWrapShouldReturnFalseWhenFStringGiven() {
+      ^

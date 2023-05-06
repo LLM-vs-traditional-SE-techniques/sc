@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_5.java:17: error: cannot find symbol
+        final UncaughtExceptionHandler handler = 
+              ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:18: error: cannot find symbol
+            new UncaughtExceptionHandler() {
+                ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:23: error: cannot find symbol
+        UncaughtExceptionHandler.setDefault(handler);
+        ^
+  symbol:   variable UncaughtExceptionHandler
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:25: error: cannot find symbol
+                   UncaughtExceptionHandler.getUncaughtExceptionHandler());
+                   ^
+  symbol:   variable UncaughtExceptionHandler
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:26: error: cannot find symbol
+        UncaughtExceptionHandler.setDefault(defaultHandler);
+        ^
+  symbol:   variable UncaughtExceptionHandler
+  location: class CodexTest_0_8_5

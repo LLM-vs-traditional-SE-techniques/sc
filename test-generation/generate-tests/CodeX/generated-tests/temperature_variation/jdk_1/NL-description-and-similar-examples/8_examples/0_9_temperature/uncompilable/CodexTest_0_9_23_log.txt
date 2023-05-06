@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_23.java:21: error: cannot find symbol
+        Vector3D p1 = new Vector3D(1, 0, 0);
+        ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:21: error: cannot find symbol
+        Vector3D p1 = new Vector3D(1, 0, 0);
+                          ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:22: error: cannot find symbol
+        Vector3D p2 = new Vector3D(0, 1, 0);
+        ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:22: error: cannot find symbol
+        Vector3D p2 = new Vector3D(0, 1, 0);
+                          ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:23: error: cannot find symbol
+        Vector3D p3 = new Vector3D(0, 0, 1);
+        ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:23: error: cannot find symbol
+        Vector3D p3 = new Vector3D(0, 0, 1);
+                          ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:24: error: cannot find symbol
+        List<Vector3D> l = new ArrayList<Vector3D>();
+             ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:24: error: cannot find symbol
+        List<Vector3D> l = new ArrayList<Vector3D>();
+                                         ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_23

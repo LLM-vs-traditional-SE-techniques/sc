@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_9_3.java:24: error: cannot find symbol
+        TestCase.assertEquals(0, list.size());
+        ^
+  symbol:   variable TestCase
+  location: class CodexTest_0_9_3
+Note: CodexTest_0_9_3.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

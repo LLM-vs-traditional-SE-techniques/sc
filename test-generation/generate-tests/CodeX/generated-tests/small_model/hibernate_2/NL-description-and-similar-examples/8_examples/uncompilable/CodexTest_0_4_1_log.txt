@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_4_1.java:28: error: ')' expected
+    assertEquals(BooleanTypeDescriptor.INSTANCE.wrap("true", null), BooleanTypeDescriptor
+                                                                                         ^
+CodexTest_0_4_1.java:29: error: reached end of file while parsing
+}
+ ^

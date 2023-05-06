@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_2.java:22: error: cannot find symbol
+        BooleanVector v = new BooleanVector(data);
+        ^
+  symbol:   class BooleanVector
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:22: error: cannot find symbol
+        BooleanVector v = new BooleanVector(data);
+                              ^
+  symbol:   class BooleanVector
+  location: class CodexTest_0_6_2

@@ -1,0 +1,21 @@
+{
+	"project": "GWT",
+	"package": "com.google.gwt.core.client",
+	"class": "GWT",
+	"method_signature": "boolean isClient()",
+	"method": "public static boolean isClient() {\n    return com.google.gwt.core.shared.GWT.isClient();\n  }",
+	"helpers": ["java.lang.Class create(java.lang.Class)"],
+	"example_same_class": {
+		"method_signature": "String getModuleName()",
+		"method": "public static String getModuleName() {\n    return Impl.getModuleName();\n  }",
+		"test": "public void testGetModuleName() {\n    assertEquals(\"com.google.gwt.core.Core.JUnit\", GWT.getModuleName());\n  }"
+	},
+	"example_different_project" : {
+		"id": "guava_1",
+		"method_signature": "HashCode fromBytes(byte[] bytes)",
+		"method": "public static HashCode fromBytes(byte[] bytes) {\n    checkArgument(bytes.length >= 1, \"A HashCode must contain at least 1 byte.\");\n    return fromBytesNoCopy(bytes.clone());\n  }",
+		"test": "public void testRoundTripHashCodeUsingBaseEncoding() {\n    HashCode hash1 = Hashing.sha1().hashString(\"foo\", Charsets.US_ASCII);\n    HashCode hash2 = HashCode.fromBytes(BaseEncoding.base16().lowerCase().decode(hash1.toString()));\n    assertEquals(hash1, hash2);\n  }"
+	},
+	"method_class_imports": "import com.google.gwt.core.client.*;\nimport com.google.gwt.core.client.impl.Impl;\nimport com.google.gwt.core.client.GWT.UncaughtExceptionHandler;",
+	"test_class_imports": "import com.google.gwt.core.client.*;\nimport com.google.gwt.junit.client.GWTTestCase;"
+}

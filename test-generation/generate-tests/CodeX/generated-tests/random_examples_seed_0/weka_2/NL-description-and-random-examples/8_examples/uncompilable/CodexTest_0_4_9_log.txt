@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_4_9.java:18: error: weka.core.Instance is abstract; cannot be instantiated
+        Instance instance = new Instance(2);
+                            ^
+CodexTest_0_4_9.java:21: error: cannot find symbol
+        Instances dataset = new Instances("Test", new ArrayList<Attribute>(2), 1);
+                                                      ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:26: error: cannot find symbol
+        Instance result = Instance.getAsInstance(dataset, random);
+                                  ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: interface weka.core.Instance

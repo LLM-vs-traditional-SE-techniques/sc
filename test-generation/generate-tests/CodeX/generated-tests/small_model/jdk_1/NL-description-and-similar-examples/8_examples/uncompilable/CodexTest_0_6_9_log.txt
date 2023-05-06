@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_6_9.java:20: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+CodexTest_0_6_9.java:23: error: cannot find symbol
+        final int size = this.size;
+                             ^
+  symbol: variable size
+CodexTest_0_6_9.java:24: error: cannot find symbol
+        if (size == elementData.length) {
+                    ^
+  symbol:   variable elementData
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:25: error: cannot find symbol
+            grow(size + 1);
+            ^
+  symbol:   method grow(int)
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:27: error: cannot find symbol
+        int index = this.size;
+                        ^
+  symbol: variable size
+CodexTest_0_6_9.java:28: error: cannot find symbol
+        elementData[index] = o;
+        ^
+  symbol:   variable elementData
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:29: error: cannot find symbol
+        this.size = index + 1;
+            ^
+  symbol: variable size

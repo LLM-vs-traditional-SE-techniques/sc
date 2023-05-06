@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_2.java:25: error: cannot find symbol
+            ReferenceCountedTestByteString test1 = new ReferenceCountedTestByteString("foo".getBytes(
+            ^
+  symbol:   class ReferenceCountedTestByteString
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:25: error: cannot find symbol
+            ReferenceCountedTestByteString test1 = new ReferenceCountedTestByteString("foo".getBytes(
+                                                       ^
+  symbol:   class ReferenceCountedTestByteString
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:27: error: cannot find symbol
+            ReferenceCountedTestByteString test2 = test1.slice(1, 2);
+            ^
+  symbol:   class ReferenceCountedTestByteString
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:28: error: cannot find symbol
+            assertEquals("o", new String(test2.data, US_ASCII));
+                                                     ^
+  symbol:   variable US_ASCII
+  location: class CodexTest_0_9_2

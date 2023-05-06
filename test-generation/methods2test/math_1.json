@@ -1,0 +1,21 @@
+{
+	"project": "Math",
+	"package": "org.apache.commons.math3.geometry.euclidean.oned",
+	"class": "Vector1D",
+	"method_signature": "Vector1D scalarMultiply(double a)",
+	"method": "public Vector1D scalarMultiply(double a) {\n        return new Vector1D(a * x);\n    }",
+	"helpers": ["Vector1D(double x)", "double getX()"],
+	"example_same_class": {
+		"method_signature": "double distance(Vector1D p1, Vector1D p2)",
+		"method": "public static double distance(Vector1D p1, Vector1D p2) {\n        return p1.distance(p2);\n    }",
+		"test": "public void testDistance() {\n        Vector1D v1 = new Vector1D(1);\n        Vector1D v2 = new Vector1D(-4);\n        Assert.assertEquals(0.0, Vector1D.distance(new Vector1D(-1), new Vector1D(-1)), 0);\n        Assert.assertEquals(5.0, Vector1D.distance(v1, v2), 1.0e-12);\n        Assert.assertEquals(v1.subtract(v2).getNorm(), Vector1D.distance(v1, v2), 1.0e-12);\n    }"
+	},
+	"example_different_project": {
+		"id": "colt_2",
+		"method_signature": "double max()",
+		"method": "public synchronized double max() {\n	if (! isIncrementalStatValid) updateIncrementalStats();\n	return this.max;\n}",
+		"test": "public static void testMax() {\n  double[] temp = new double[2];\n\n   temp[0] = 8.9;\n  temp[1] = 1;\n\n   DenseDoubleMatrix1D d1Double = new DenseDoubleMatrix1D(temp);\n    hep.aida.bin.DynamicBin1D d1ynamicBin = cern.colt.matrix.doublealgo.Statistic.bin(d1Double);\n   double max = d1ynamicBin.max();\n   System.out.println(\"max = \"+ max);\n}"
+	},
+	"method_class_imports": "import org.apache.commons.math3.geometry.euclidean.oned.*;\nimport java.text.NumberFormat;\nimport org.apache.commons.math3.exception.MathArithmeticException;\nimport org.apache.commons.math3.exception.util.LocalizedFormats;\nimport org.apache.commons.math3.geometry.Point;\nimport org.apache.commons.math3.geometry.Space;\nimport org.apache.commons.math3.geometry.Vector;\nimport org.apache.commons.math3.util.FastMath;\nimport org.apache.commons.math3.util.MathUtils;",
+	"test_class_imports": "import java.text.DecimalFormat;\nimport java.text.DecimalFormatSymbols;\nimport java.text.NumberFormat;\nimport java.util.Locale;\nimport org.apache.commons.math3.exception.DimensionMismatchException;\nimport org.apache.commons.math3.exception.MathArithmeticException;\nimport org.apache.commons.math3.geometry.Space;\nimport org.apache.commons.math3.util.FastMath;\nimport org.apache.commons.math3.util.Precision;\nimport org.junit.Assert;\nimport org.junit.Test;"
+}

@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_10.java:65: error: cannot find symbol
+            String mapping = RandomDocumentPicks.randomSource(random());
+                                                              ^
+  symbol:   method random()
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:65: error: cannot find symbol
+            String mapping = RandomDocumentPicks.randomSource(random());
+                             ^
+  symbol:   variable RandomDocumentPicks
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:66: error: cannot find symbol
+            DocumentMapper mapper = mapperService.parse("type", new CompressedXContent(mapping), null);
+            ^
+  symbol:   class DocumentMapper
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:66: error: cannot find symbol
+            DocumentMapper mapper = mapperService.parse("type", new CompressedXContent(mapping), null);
+                                                                    ^
+  symbol:   class CompressedXContent
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:66: error: cannot find symbol
+            DocumentMapper mapper = mapperService.parse("type", new CompressedXContent(mapping), null);
+                                    ^
+  symbol:   variable mapperService
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:67: error: cannot find symbol
+            Document doc = mapper.parse(new SourceToParse("test", "1", BytesReference.bytes(XContentFactory.jsonBuilder().startObject().field("field", "value").endObject()), XContentType.JSON)).rootDoc();
+            ^
+  symbol:   class Document
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:67: error: cannot find symbol
+            Document doc = mapper.parse(new SourceToParse("test", "1", BytesReference.bytes(XContentFactory.jsonBuilder().startObject().field("field", "value").endObject()), XContentType.JSON)).rootDoc();
+                                            ^
+  symbol:   class SourceToParse
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:67: error: cannot find symbol
+            Document doc = mapper.parse(new SourceToParse("test", "1", BytesReference.bytes(XContentFactory.jsonBuilder().startObject().field("field", "value").endObject()), XContentType.JSON)).rootDoc();
+                                                                                     ^
+  symbol:   method bytes(org.elasticsearch.common.xcontent.XContentBuilder)
+  location: class org.elasticsearch.common.bytes.BytesReference

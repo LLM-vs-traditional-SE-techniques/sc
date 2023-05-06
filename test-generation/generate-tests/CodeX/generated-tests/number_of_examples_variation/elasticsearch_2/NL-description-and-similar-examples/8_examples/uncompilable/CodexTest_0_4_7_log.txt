@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_7.java:69: error: cannot find symbol
+        assertThat(request.source(), equalTo(new BytesArray("{\"field\":\"value\"}")));
+                                     ^
+  symbol:   method equalTo(org.elasticsearch.common.bytes.BytesArray)
+  location: class CodexTest_0_4_7

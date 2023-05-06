@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_10.java:65: error: cannot find symbol
+			assertNotSame(elementData(new ArrayList<Object>()),
+			              ^
+  symbol:   method elementData(java.util.ArrayList<java.lang.Object>)
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:66: error: cannot find symbol
+						  elementData(new ArrayList<Object>(0)));
+						  ^
+  symbol:   method elementData(java.util.ArrayList<java.lang.Object>)
+  location: class CodexTest_0_9_10

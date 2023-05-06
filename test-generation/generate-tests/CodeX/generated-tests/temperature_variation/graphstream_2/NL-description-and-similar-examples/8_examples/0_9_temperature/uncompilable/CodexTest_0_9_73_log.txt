@@ -1,0 +1,151 @@
+isCompilable => false
+CodexTest_0_9_73.java:23: error: cannot find symbol
+		assertFalse(path.contains(graph.getNode(a)));
+		                                        ^
+  symbol:   variable a
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:23: error: cannot find symbol
+		assertFalse(path.contains(graph.getNode(a)));
+		                          ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:23: error: cannot find symbol
+		assertFalse(path.contains(graph.getNode(a)));
+		            ^
+  symbol:   variable path
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:25: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(a)));
+		                                       ^
+  symbol:   variable a
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:25: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(a)));
+		                         ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:25: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(a)));
+		           ^
+  symbol:   variable path
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:26: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(b)));
+		                                       ^
+  symbol:   variable b
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:26: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(b)));
+		                         ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:26: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(b)));
+		           ^
+  symbol:   variable path
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:27: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(c)));
+		                                       ^
+  symbol:   variable c
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:27: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(c)));
+		                         ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:27: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(c)));
+		           ^
+  symbol:   variable path
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:28: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(d)));
+		                                       ^
+  symbol:   variable d
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:28: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(d)));
+		                         ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:28: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(d)));
+		           ^
+  symbol:   variable path
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:30: error: cannot find symbol
+		path.addNode(graph.getNode(c));
+		                           ^
+  symbol:   variable c
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:30: error: cannot find symbol
+		path.addNode(graph.getNode(c));
+		             ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:30: error: cannot find symbol
+		path.addNode(graph.getNode(c));
+		^
+  symbol:   variable path
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:31: error: cannot find symbol
+		assertFalse(path.contains(graph.getNode(a)));
+		                                        ^
+  symbol:   variable a
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:31: error: cannot find symbol
+		assertFalse(path.contains(graph.getNode(a)));
+		                          ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:31: error: cannot find symbol
+		assertFalse(path.contains(graph.getNode(a)));
+		            ^
+  symbol:   variable path
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:32: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(b)));
+		                                       ^
+  symbol:   variable b
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:32: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(b)));
+		                         ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:32: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(b)));
+		           ^
+  symbol:   variable path
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:33: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(c)));
+		                                       ^
+  symbol:   variable c
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:33: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(c)));
+		                         ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:33: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(c)));
+		           ^
+  symbol:   variable path
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:34: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(d)));
+		                                       ^
+  symbol:   variable d
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:34: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(d)));
+		                         ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:34: error: cannot find symbol
+		assertTrue(path.contains(graph.getNode(d)));
+		           ^
+  symbol:   variable path
+  location: class CodexTest_0_9_73

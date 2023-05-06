@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_4_32.java:43: error: unclosed string literal
+            assertEquals("Ninth value
+                         ^
+CodexTest_0_4_32.java:43: error: ';' expected
+            assertEquals("Ninth value
+                                     ^
+CodexTest_0_4_32.java:44: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_4_32.java:33: error: 'try' without 'catch', 'finally' or resource declarations
+        try {
+        ^

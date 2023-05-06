@@ -1,0 +1,21 @@
+{
+	"project": "Hibernate",
+	"package": "org.hibernate.type.descriptor.java",
+	"class": "BooleanTypeDescriptor",
+	"method_signature": "Short toShort(Boolean value)",
+	"method": "public Short toShort(Boolean value) {\n		return (short) toInt( value );\n	}",
+	"helpers": ["BooleanTypeDescriptor()", "java.lang.Boolean(boolean value)"],
+	"example_same_class": {
+		"method_signature": "",
+		"method": "public <X> Boolean wrap(X value, WrapperOptions options) {\n		if ( value == null ) {\n			return null;\n		}\n		if ( Boolean.class.isInstance( value ) ) {\n			return (Boolean) value;\n		}\n		if ( Number.class.isInstance( value ) ) {\n			final int intValue = ( (Number) value ).intValue();\n			return intValue == 0 ? FALSE : TRUE;\n		}\n		if ( Character.class.isInstance( value ) ) {\n			return isTrue( (Character) value ) ? TRUE : FALSE;\n		}\n		if ( String.class.isInstance( value ) ) {\n			return isTrue((String) value) ? TRUE : FALSE;\n		}\n		throw unknownWrap( value.getClass() );\n	}",
+		"test": "public void testWrapShouldReturnTrueWhenYStringGiven() {\n        // given\n        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();\n        // when\n        Boolean result = underTest.wrap(\"Y\", null);\n        // then\n        assertTrue(result);\n    }"
+	},
+	"example_different_project": {
+		"id": "elasticsearch_2",
+		"method_signature": "IndexRequest opType(String opType)",
+		"method": "public IndexRequest opType(String opType) {\n        String op = opType.toLowerCase(Locale.ROOT);\n        if (op.equals(\"create\")) {\n            opType(OpType.CREATE);\n        } else if (op.equals(\"index\")) {\n            opType(OpType.INDEX);\n        } else {\n            throw new IllegalArgumentException(\"opType must be 'create' or 'index', found: [\" + opType + \"]\");\n        }\n        return this;\n    }",
+		"test": "public void testReadBogusString() {\n        try {\n            IndexRequest indexRequest = new IndexRequest(\"\");\n            indexRequest.opType(\"foobar\");\n            fail(\"Expected IllegalArgumentException\");\n        } catch (IllegalArgumentException e) {\n            assertThat(e.getMessage(), equalTo(\"opType must be 'create' or 'index', found: [foobar]\"));\n        }    }"
+	},
+	"method_class_imports": "import org.hibernate.type.descriptor.java.*;\nimport org.hibernate.type.descriptor.WrapperOptions;\nimport static java.lang.Boolean.FALSE;\nimport static java.lang.Boolean.TRUE;",
+	"test_class_imports": ""
+}

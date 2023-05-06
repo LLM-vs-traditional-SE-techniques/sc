@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_63.java:49: error: <identifier> expected
+        Assert.assertEquals(0.0, Vector1D.
+                                          ^
+CodexTest_0_9_63.java:50: error: reached end of file while parsing
+}
+ ^

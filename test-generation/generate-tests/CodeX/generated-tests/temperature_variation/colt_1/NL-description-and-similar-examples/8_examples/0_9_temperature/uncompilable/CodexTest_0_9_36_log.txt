@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_9_36.java:32: error: cannot find symbol
+			final double[][] matSubspace1 = subspace1.getMatrix();
+			                                ^
+  symbol:   variable subspace1
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:33: error: cannot find symbol
+			final double[][] matSubspace2 = subspace2.getMatrix();
+			                                ^
+  symbol:   variable subspace2
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:36: error: cannot find symbol
+			final Tensor<Integer> tirouette1 = subspace1.getTenseurSuivant(3);
+			      ^
+  symbol:   class Tensor
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:36: error: cannot find symbol
+			final Tensor<Integer> tirouette1 = subspace1.getTenseurSuivant(3);
+			                                   ^
+  symbol:   variable subspace1
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:37: error: cannot find symbol
+			final Tensor<Integer> tirouette2 = subspace2.getTenseurSuivant(0);
+			      ^
+  symbol:   class Tensor
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:37: error: cannot find symbol
+			final Tensor<Integer> tirouette2 = subspace2.getTenseurSuivant(0);
+			                                   ^
+  symbol:   variable subspace2
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:42: error: cannot find symbol
+			final double[][] matPirouette1 = pirouette(matSubspace1, pirouettes1);
+			                                 ^
+  symbol:   method pirouette(double[][],java.lang.Integer[])
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:43: error: cannot find symbol
+			final double[][] matPirouette2 = pirouette(matSubspace2, pirouettes2);
+			                                 ^
+  symbol:   method pirouette(double[][],java.lang.Integer[])
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:46: error: cannot find symbol
+			double[][] temp = multiply(matPirouette1, matPirouette2);
+			                  ^
+  symbol:   method multiply(double[][],double[][])
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:47: error: cannot find symbol
+			double[][] permutation = multiply(temp, matPirouette1);
+			                         ^
+  symbol:   method multiply(double[][],double[][])
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:48: error: cannot find symbol
+			boolean isIdentity = isIdentity(permutation);
+			                     ^
+  symbol:   method isIdentity(double[][])
+  location: class CodexTest_0_9_36

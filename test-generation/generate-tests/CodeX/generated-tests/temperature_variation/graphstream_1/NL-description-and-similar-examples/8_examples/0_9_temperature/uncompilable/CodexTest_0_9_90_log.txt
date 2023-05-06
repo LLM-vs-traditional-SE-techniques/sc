@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_90.java:21: error: cannot find symbol
+    path.add(new Path.Edge("e1", "v1", "v2"));
+                     ^
+  symbol:   class Edge
+  location: class org.graphstream.graph.Path
+CodexTest_0_9_90.java:22: error: cannot find symbol
+    assertTrue(path.contains(new Path.Edge("e1", "v1", "v2")));
+                                     ^
+  symbol:   class Edge
+  location: class org.graphstream.graph.Path

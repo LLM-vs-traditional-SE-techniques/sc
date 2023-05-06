@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_4_5.java:65: error: cannot find symbol
+        ParentJoinFieldMapper parentJoinFieldMapper = new ParentJoinFieldMapper("parent",
+        ^
+  symbol:   class ParentJoinFieldMapper
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:65: error: cannot find symbol
+        ParentJoinFieldMapper parentJoinFieldMapper = new ParentJoinFieldMapper("parent",
+                                                          ^
+  symbol:   class ParentJoinFieldMapper
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:66: error: package KeywordFieldMapper does not exist
+            new KeywordFieldMapper.KeywordFieldType("parent"),
+                                  ^
+CodexTest_0_4_5.java:67: error: cannot find symbol
+            new ParentIdFieldMapper("parent_id", new KeywordFieldMapper.KeywordFieldType("parent_id")),
+                ^
+  symbol:   class ParentIdFieldMapper
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:67: error: package KeywordFieldMapper does not exist
+            new ParentIdFieldMapper("parent_id", new KeywordFieldMapper.KeywordFieldType("parent_id")),
+                                                                       ^
+CodexTest_0_4_5.java:68: error: package ParentJoinFieldMapper does not exist
+            new ParentJoinFieldMapper.TypeParser("parent", Collections.emptyMap()));
+                                     ^

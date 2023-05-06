@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_45.java:14: error: cannot find symbol
+  public UncaughtExceptionHandler testGetUncaughtExceptionHandler() {
+         ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_7_45

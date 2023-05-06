@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_58.java:27: error: cannot find symbol
+    assertEquals(hc, HashCodes.fromLong(0L));
+                     ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_58

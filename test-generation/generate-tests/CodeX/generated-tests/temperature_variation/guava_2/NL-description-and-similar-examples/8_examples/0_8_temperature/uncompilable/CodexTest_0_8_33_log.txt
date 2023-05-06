@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_33.java:26: error: cannot find symbol
+    hasher.putBytes(TEST_SEQUENCE);
+                    ^
+  symbol:   variable TEST_SEQUENCE
+  location: class CodexTest_0_8_33
+CodexTest_0_8_33.java:34: error: com.google.common.hash.HashCode is abstract; cannot be instantiated
+    assertEquals(new HashCode(bytesCopy, 0, 16), hash);
+                 ^

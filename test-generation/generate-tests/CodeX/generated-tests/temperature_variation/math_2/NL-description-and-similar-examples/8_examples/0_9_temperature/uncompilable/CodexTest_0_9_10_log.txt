@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_10.java:38: error: <identifier> expected
+Input: public Set<Class<?>> getEventTypes() {
+     ^
+CodexTest_0_9_10.java:41: error: <identifier> expected
+Output: public void testGetEventTypes() {
+      ^

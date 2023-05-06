@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_2.java:16: error: cannot find symbol
+        final UncaughtExceptionHandler handler = new UncaughtExceptionHandler() {
+              ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:16: error: cannot find symbol
+        final UncaughtExceptionHandler handler = new UncaughtExceptionHandler() {
+                                                     ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:21: error: cannot find symbol
+        UncaughtExceptionHandler oldHandler =
+        ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_2

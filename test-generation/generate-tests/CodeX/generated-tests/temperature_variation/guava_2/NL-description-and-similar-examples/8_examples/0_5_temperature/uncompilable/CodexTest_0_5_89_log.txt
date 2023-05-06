@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_5_89.java:26: error: incompatible types: possible lossy conversion from int to byte
+    byte[] expectedBytes = {0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC, (byte) 0xDE, (byte) 0xF0};
+                                                    ^
+CodexTest_0_5_89.java:26: error: incompatible types: possible lossy conversion from int to byte
+    byte[] expectedBytes = {0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC, (byte) 0xDE, (byte) 0xF0};
+                                                          ^
+CodexTest_0_5_89.java:28: error: cannot find symbol
+    BitArray ba = BitArray.fromLong(value);
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_5_89
+CodexTest_0_5_89.java:28: error: cannot find symbol
+    BitArray ba = BitArray.fromLong(value);
+                  ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_5_89

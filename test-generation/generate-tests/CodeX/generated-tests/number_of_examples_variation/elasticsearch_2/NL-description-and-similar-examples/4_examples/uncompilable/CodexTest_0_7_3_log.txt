@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_3.java:66: error: cannot find symbol
+        assertThat(indexRequest.getContentType(), equalTo(XContentType.JSON));
+                                                  ^
+  symbol:   method equalTo(org.elasticsearch.common.xcontent.XContentType)
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:67: error: cannot find symbol
+        assertThat(indexRequest.sourceAsBytes().length, greaterThan(0));
+                               ^
+  symbol:   method sourceAsBytes()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_7_3.java:67: error: cannot find symbol
+        assertThat(indexRequest.sourceAsBytes().length, greaterThan(0));
+                                                        ^
+  symbol:   method greaterThan(int)
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:69: error: cannot find symbol
+        assertThat(indexRequest.getContentType(), equalTo(XContentType.SMILE));
+                                                  ^
+  symbol:   method equalTo(org.elasticsearch.common.xcontent.XContentType)
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:70: error: cannot find symbol
+        assertThat(indexRequest.sourceAsBytes().length, greaterThan(0));
+                               ^
+  symbol:   method sourceAsBytes()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_7_3.java:70: error: cannot find symbol
+        assertThat(indexRequest.sourceAsBytes().length, greaterThan(0));
+                                                        ^
+  symbol:   method greaterThan(int)
+  location: class CodexTest_0_7_3

@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_1_2.java:81: error: not a statement
+        list.add
+            ^
+CodexTest_0_1_2.java:81: error: ';' expected
+        list.add
+                ^
+CodexTest_0_1_2.java:82: error: reached end of file while parsing
+}
+ ^

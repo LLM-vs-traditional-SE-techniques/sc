@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_9.java:65: error: cannot find symbol
+        final MoreLikeThisQueryBuilder moreLikeThisQueryBuilder = new MoreLikeThisQueryBuilder(new String[]{"_all"}, new String[]{"test"}, null);
+              ^
+  symbol:   class MoreLikeThisQueryBuilder
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:65: error: cannot find symbol
+        final MoreLikeThisQueryBuilder moreLikeThisQueryBuilder = new MoreLikeThisQueryBuilder(new String[]{"_all"}, new String[]{"test"}, null);
+                                                                      ^
+  symbol:   class MoreLikeThisQueryBuilder
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:67: error: cannot find symbol
+        moreLikeThisQueryBuilder.parent(PARENT);
+                                        ^
+  symbol:   variable PARENT
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:68: error: cannot find symbol
+        Assert.assertEquals(PARENT, moreLikeThisQueryBuilder.parent());
+                            ^
+  symbol:   variable PARENT
+  location: class CodexTest_0_9_9

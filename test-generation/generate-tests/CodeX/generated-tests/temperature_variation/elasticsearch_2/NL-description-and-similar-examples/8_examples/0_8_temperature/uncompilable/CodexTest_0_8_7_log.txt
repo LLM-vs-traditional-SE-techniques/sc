@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_8_7.java:74: error: cannot find symbol
+        try (XContentParser parser = createParser(JsonXContent.jsonXContent, indexRequest.source().toBytes())) {
+             ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:74: error: cannot find symbol
+        try (XContentParser parser = createParser(JsonXContent.jsonXContent, indexRequest.source().toBytes())) {
+                                                  ^
+  symbol:   variable JsonXContent
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:74: error: method toBytes in class org.elasticsearch.common.bytes.BytesReference cannot be applied to given types;
+        try (XContentParser parser = createParser(JsonXContent.jsonXContent, indexRequest.source().toBytes())) {
+                                                                                                  ^
+  required: org.elasticsearch.common.bytes.BytesReference
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+CodexTest_0_8_7.java:75: error: cannot find symbol
+            assertThat(parser.map(), equalTo(source));
+                                     ^
+  symbol:   method equalTo(java.util.Map<java.lang.String,java.lang.Object>)
+  location: class CodexTest_0_8_7

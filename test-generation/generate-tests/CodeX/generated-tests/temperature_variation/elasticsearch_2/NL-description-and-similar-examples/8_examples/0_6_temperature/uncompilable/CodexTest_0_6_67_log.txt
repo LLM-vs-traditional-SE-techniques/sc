@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_67.java:68: error: cannot find symbol
+        assertToXContentEquivalent(XContentFactory.jsonBuilder().map(map), indexRequest.source(), XContentType.JSON);
+        ^
+  symbol:   method assertToXContentEquivalent(org.elasticsearch.common.xcontent.XContentBuilder,org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.xcontent.XContentType)
+  location: class CodexTest_0_6_67

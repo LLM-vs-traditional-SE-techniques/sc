@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_5.java:17: error: cannot find symbol
+        BooleanWrapperUnderTest underTest = new BooleanWrapperUnderTest();
+        ^
+  symbol:   class BooleanWrapperUnderTest
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:17: error: cannot find symbol
+        BooleanWrapperUnderTest underTest = new BooleanWrapperUnderTest();
+                                                ^
+  symbol:   class BooleanWrapperUnderTest
+  location: class CodexTest_0_7_5

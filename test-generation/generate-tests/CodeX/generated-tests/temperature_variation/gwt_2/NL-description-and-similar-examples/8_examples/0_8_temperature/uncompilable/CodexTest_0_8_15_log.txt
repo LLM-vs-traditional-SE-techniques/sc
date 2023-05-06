@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_15.java:19: error: <identifier> expected
+Input: public static double getDouble(String name) {
+     ^
+CodexTest_0_8_15.java:22: error: <identifier> expected
+Output: public void testGetDouble() {
+      ^

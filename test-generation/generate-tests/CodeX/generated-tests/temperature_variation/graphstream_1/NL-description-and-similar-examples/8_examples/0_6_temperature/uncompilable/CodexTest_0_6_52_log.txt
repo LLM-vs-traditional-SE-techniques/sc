@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_6_52.java:27: error: no suitable method found for add(org.graphstream.graph.Graph,java.lang.String,java.lang.String)
+		path.add(graph, "a", "b");
+		    ^
+    method org.graphstream.graph.Path.add(org.graphstream.graph.Node,org.graphstream.graph.Edge) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.graphstream.graph.Path.add(org.graphstream.graph.Edge) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_6_52.java:29: error: reference to contains is ambiguous
+		boolean result = path.contains(graph.getEdge("ab"));
+		                     ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match

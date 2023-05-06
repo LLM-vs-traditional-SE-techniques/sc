@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_2.java:68: error: cannot find symbol
+		 Test4 test4 = new Test4();
+		 ^
+  symbol:   class Test4
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:68: error: cannot find symbol
+		 Test4 test4 = new Test4();
+		                   ^
+  symbol:   class Test4
+  location: class CodexTest_0_9_2

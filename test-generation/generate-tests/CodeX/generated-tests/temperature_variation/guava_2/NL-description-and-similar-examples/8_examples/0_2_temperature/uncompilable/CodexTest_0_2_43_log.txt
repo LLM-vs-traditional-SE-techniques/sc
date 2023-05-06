@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_43.java:77: error: ';' expected
+    int expectedOffset
+                      ^
+CodexTest_0_2_43.java:78: error: reached end of file while parsing
+}
+ ^

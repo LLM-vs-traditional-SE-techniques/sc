@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_1.java:65: error: <identifier> expected
+        assertEquals("", "", new().parent());
+                                ^

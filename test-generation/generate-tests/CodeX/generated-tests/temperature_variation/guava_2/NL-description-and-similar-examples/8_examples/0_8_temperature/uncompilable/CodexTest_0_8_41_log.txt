@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_41.java:26: error: cannot find symbol
+    HashCode hashCode = valueOf(new int[] {0x12345678, 0x90abcdef});
+                        ^
+  symbol:   method valueOf(int[])
+  location: class CodexTest_0_8_41

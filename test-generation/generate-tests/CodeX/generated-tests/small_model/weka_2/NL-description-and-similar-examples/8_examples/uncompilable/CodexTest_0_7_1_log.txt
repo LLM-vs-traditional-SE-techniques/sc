@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_7_1.java:27: error: not a statement
+            Alg
+            ^
+CodexTest_0_7_1.java:27: error: ';' expected
+            Alg
+               ^
+CodexTest_0_7_1.java:28: error: reached end of file while parsing
+}
+ ^

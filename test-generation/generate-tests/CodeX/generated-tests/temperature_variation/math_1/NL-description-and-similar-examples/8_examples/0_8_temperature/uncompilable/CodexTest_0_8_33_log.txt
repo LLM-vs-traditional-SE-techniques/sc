@@ -1,0 +1,27 @@
+isCompilable => false
+CodexTest_0_8_33.java:34: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+                Assert.assertEquals(i * v.x, u.x, 0);
+                                         ^
+CodexTest_0_8_33.java:34: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+                Assert.assertEquals(i * v.x, u.x, 0);
+                                              ^
+CodexTest_0_8_33.java:35: error: cannot find symbol
+                Assert.assertEquals(i * v.y, u.y, 0);
+                                         ^
+  symbol:   variable y
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_33.java:35: error: cannot find symbol
+                Assert.assertEquals(i * v.y, u.y, 0);
+                                              ^
+  symbol:   variable y
+  location: variable u of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_33.java:36: error: cannot find symbol
+                Assert.assertEquals(i * v.z, u.z, 0);
+                                         ^
+  symbol:   variable z
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_33.java:36: error: cannot find symbol
+                Assert.assertEquals(i * v.z, u.z, 0);
+                                              ^
+  symbol:   variable z
+  location: variable u of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D

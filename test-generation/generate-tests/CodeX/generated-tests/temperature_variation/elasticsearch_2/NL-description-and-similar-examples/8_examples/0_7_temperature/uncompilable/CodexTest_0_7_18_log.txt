@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_7_18.java:73: error: package WriteRequest does not exist
+        indexRequest.setRefreshPolicy(WriteRequest.RefreshPolicy.WAIT_UNTIL);
+                                                  ^
+CodexTest_0_7_18.java:78: error: cannot find symbol
+        indexRequest.setIfSeqNo(1L);
+                    ^
+  symbol:   method setIfSeqNo(long)
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_7_18.java:79: error: cannot find symbol
+        indexRequest.setIfPrimaryTerm(1L);
+                    ^
+  symbol:   method setIfPrimaryTerm(long)
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest

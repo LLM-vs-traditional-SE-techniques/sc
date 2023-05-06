@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_8_18.java:16: error: annotation type not applicable to this kind of declaration
+  @Test
+  ^
+CodexTest_0_8_18.java:45: error: cannot find symbol
+    attributes.addElement(new Attribute(a));
+                                        ^
+  symbol:   variable a
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:46: error: cannot find symbol
+    attributes.addElement(new Attribute(b, (FastVector) null));
+                                        ^
+  symbol:   variable b
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:47: error: cannot find symbol
+    attributes.addElement(new Attribute(c));
+                                        ^
+  symbol:   variable c
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:48: error: cannot find symbol
+    result = new Instances(test, attributes, 0);
+                           ^
+  symbol:   variable test
+  location: class CodexTest_0_8_18
+Note: CodexTest_0_8_18.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: CodexTest_0_8_18.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_1.java:65: error: cannot find symbol
+        final Topic t = new Topic();
+              ^
+  symbol:   class Topic
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:65: error: cannot find symbol
+        final Topic t = new Topic();
+                            ^
+  symbol:   class Topic
+  location: class CodexTest_0_8_1

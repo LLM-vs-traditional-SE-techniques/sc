@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_4.java:16: error: cannot find symbol
+    assertFalse(JUnitUtil.setupUncaughtExceptionHandler());
+                ^
+  symbol:   variable JUnitUtil
+  location: class CodexTest_0_9_4

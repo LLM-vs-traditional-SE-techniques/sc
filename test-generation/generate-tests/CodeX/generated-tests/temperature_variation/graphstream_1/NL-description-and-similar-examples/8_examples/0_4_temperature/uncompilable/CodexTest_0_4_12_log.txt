@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_12.java:20: error: cannot find symbol
+        Edge edge = new DefaultEdge();
+                        ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_12

@@ -1,0 +1,43 @@
+isCompilable => false
+CodexTest_0_9_32.java:50: error: illegal start of expression
+			Path outputDir = new Path(., test);
+			                          ^
+CodexTest_0_9_32.java:50: error: ';' expected
+			Path outputDir = new Path(., test);
+			                                 ^
+CodexTest_0_9_32.java:57: error: ')' expected
+ 			assertEquals(0, outList.indexOf(1t11));
+ 			                                 ^
+CodexTest_0_9_32.java:57: error: ';' expected
+ 			assertEquals(0, outList.indexOf(1t11));
+ 			                                    ^
+CodexTest_0_9_32.java:57: error: illegal start of expression
+ 			assertEquals(0, outList.indexOf(1t11));
+ 			                                     ^
+CodexTest_0_9_32.java:58: error: ')' expected
+			assertEquals(1, outList.indexOf(2t22));
+			                                 ^
+CodexTest_0_9_32.java:58: error: ';' expected
+			assertEquals(1, outList.indexOf(2t22));
+			                                    ^
+CodexTest_0_9_32.java:58: error: illegal start of expression
+			assertEquals(1, outList.indexOf(2t22));
+			                                     ^
+CodexTest_0_9_32.java:59: error: ')' expected
+			assertEquals(2, outList.indexOf(3t33));
+			                                 ^
+CodexTest_0_9_32.java:59: error: ';' expected
+			assertEquals(2, outList.indexOf(3t33));
+			                                    ^
+CodexTest_0_9_32.java:59: error: illegal start of expression
+			assertEquals(2, outList.indexOf(3t33));
+			                                     ^
+CodexTest_0_9_32.java:60: error: ')' expected
+			assertEquals(3, outList.indexOf(4t44));
+			                                 ^
+CodexTest_0_9_32.java:60: error: ';' expected
+			assertEquals(3, outList.indexOf(4t44));
+			                                    ^
+CodexTest_0_9_32.java:60: error: illegal start of expression
+			assertEquals(3, outList.indexOf(4t44));
+			                                     ^

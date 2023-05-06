@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_6.java:21: error: cannot find symbol
+        DoubleMatrix2D matrix = doubleFactory2D.diagonal(5);
+        ^
+  symbol:   class DoubleMatrix2D
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:21: error: cannot find symbol
+        DoubleMatrix2D matrix = doubleFactory2D.diagonal(5);
+                                ^
+  symbol:   variable doubleFactory2D
+  location: class CodexTest_0_8_6

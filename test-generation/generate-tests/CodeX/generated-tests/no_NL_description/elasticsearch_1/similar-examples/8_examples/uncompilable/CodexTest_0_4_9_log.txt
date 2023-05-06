@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_9.java:65: error: cannot find symbol
+        ParentJoinQueryBuilder query = new ParentJoinQueryBuilder("blog", "tag", false);
+        ^
+  symbol:   class ParentJoinQueryBuilder
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:65: error: cannot find symbol
+        ParentJoinQueryBuilder query = new ParentJoinQueryBuilder("blog", "tag", false);
+                                           ^
+  symbol:   class ParentJoinQueryBuilder
+  location: class CodexTest_0_4_9

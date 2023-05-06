@@ -1,0 +1,288 @@
+prompt,output
+"Suggest a test for a method with the boolean equals(Path p) signature.
+
+Input: public DoubleMatrix1D like(int size) {
+			return new DenseDoubleMatrix1D(size);
+		}
+Output: public static void doubleTest28() {
+			double[] data={1,2,3,4,5,6};
+			double[][] arrMatrix = 
+			{ 
+				{ 1, 2, 3, 4, 5, 6},
+				{ 2, 3, 4, 5, 6, 7}
+			};
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			DoubleMatrix2D matrix = f.make(arrMatrix);
+			DoubleMatrix1D res = vector.like(matrix.rows());
+
+						matrix.zMult(vector,res);
+
+					System.out.println(res);
+		}
+
+Input: public void add(Edge edge) {
+		if (nodePath.isEmpty()) {
+			add(null, edge);
+		} else {
+			add(nodePath.peek(), edge);
+		}	}
+Output: @Test(expected = IllegalArgumentException.class)
+	public void add_whenAddingEdgeRootMustBeSet() {
+		Graph graph = new DefaultGraph(""test"");
+		graph.setStrict(false);
+		graph.setAutoCreate(true);
+
+		graph.addEdge(""ab"", ""a"", ""b"");
+		graph.addEdge(""bc"", ""b"", ""c"");
+		graph.addEdge(""cd"", ""c"", ""d"");
+		Path path = new Path();
+
+		// this has to fail as root of the path is not set
+		path.add(graph.getEdge(""ab""));
+	}
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnFalseWhenFStringGiven() {
+			// given
+			BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+			// when
+			Boolean result = underTest.wrap('N', null);
+			// then
+			assertFalse(result);
+		}
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnTrueWhenYStringGiven() {
+        // given
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+        // when
+        Boolean result = underTest.wrap(""Y"", null);
+        // then
+        assertTrue(result);
+    }
+
+Input: public void setRoot(Node root) {
+			if (this.root == null) {
+				this.root = root;
+				nodePath.push(root);
+			} else {
+				logger.warning('Root node is not null - first use the clear method.');
+			}
+		}
+Output: @Test(expected = IllegalArgumentException.class)
+		public void add_nodeHeadMustBeInEdge() {
+			Graph graph = createSimpleGraph();
+			Path path = new Path();
+				path.setRoot(graph.getNode('a'));
+				// this has to fail as there is no edge between nodes 'a' and 'c'
+			path.add(graph.getEdge('cd'));
+		}
+
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public IndexRequest opType(String opType) {
+        String op = opType.toLowerCase(Locale.ROOT);
+        if (op.equals(""create"")) {
+            opType(OpType.CREATE);
+        } else if (op.equals(""index"")) {
+            opType(OpType.INDEX);
+        } else {
+            throw new IllegalArgumentException(""opType must be 'create' or 'index', found: ["" + opType + ""]"");
+        }
+        return this;
+    }
+Output: public void testReadBogusString() {
+        try {
+            IndexRequest indexRequest = new IndexRequest("""");
+            indexRequest.opType(""foobar"");
+            fail(""Expected IllegalArgumentException"");
+        } catch (IllegalArgumentException e) {
+            assertThat(e.getMessage(), equalTo(""opType must be 'create' or 'index', found: [foobar]""));
+        }    }
+
+Input: public double getX() {
+			return x;
+		}
+Output: public void testCoordinates() {
+			Vector1D v = new Vector1D(1);
+			Assert.assertTrue(FastMath.abs(v.getX() - 1) < 1.0e-12);
+		}
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public static HashCode fromInt(int hash) {
+			return new IntHashCode(hash);
+		  }
+Output: public void testObjectHashCode() {
+			HashCode hashCode42 = HashCode.fromInt(42);
+			assertEquals(42, hashCode42.hashCode());
+		  }
+
+Input: public static boolean isScript() {
+			return com.google.gwt.core.shared.GWT.isScript();
+		  }
+Output: public void testIsScript() {
+			try {
+			  double d = seven / zero;
+			  if (!GWT.isScript()) {
+				fail('Expected ArithmeticException');
+			  }
+			} catch (ArithmeticException expected) {
+			  assertFalse(GWT.isScript());
+			}
+	  }
+
+Input: public long getAutoGeneratedTimestamp() {
+			return autoGeneratedTimestamp;
+		}
+Output: public void testAutoGenIdTimestampIsSet() {
+			IndexRequest request = new IndexRequest('index', 'type');
+			request.process(Version.CURRENT, null, 'index');
+			assertTrue('expected > 0 but got: ' + request.getAutoGeneratedTimestamp(), request.getAutoGeneratedTimestamp() > 0);
+			request = new IndexRequest('index', 'type', '1');
+			request.process(Version.CURRENT, null, 'index');
+			assertEquals(IndexRequest.UNSET_AUTO_GENERATED_TIMESTAMP, request.getAutoGeneratedTimestamp());
+		}
+
+
+Input: public static String getModuleName() {
+    return Impl.getModuleName();
+  }
+Output: public void testGetModuleName() {
+    assertEquals(""com.google.gwt.core.Core.JUnit"", GWT.getModuleName());
+  }
+
+Input: public static double distance(Vector1D p1, Vector1D p2) {
+        return p1.distance(p2);
+    }
+Output: public void testDistance() {
+        Vector1D v1 = new Vector1D(1);
+        Vector1D v2 = new Vector1D(-4);
+        Assert.assertEquals(0.0, Vector1D.distance(new Vector1D(-1), new Vector1D(-1)), 0);
+        Assert.assertEquals(5.0, Vector1D.distance(v1, v2), 1.0e-12);
+        Assert.assertEquals(v1.subtract(v2).getNorm(), Vector1D.distance(v1, v2), 1.0e-12);
+    }
+
+Input: public static HashCode fromBytes(byte[] bytes) {
+    checkArgument(bytes.length >= 1, ""A HashCode must contain at least 1 byte."");
+    return fromBytesNoCopy(bytes.clone());
+  }
+Output: public void testRoundTripHashCodeUsingBaseEncoding() {
+    HashCode hash1 = Hashing.sha1().hashString(""foo"", Charsets.US_ASCII);
+    HashCode hash2 = HashCode.fromBytes(BaseEncoding.base16().lowerCase().decode(hash1.toString()));
+    assertEquals(hash1, hash2);
+  }
+
+Input: public ArrayList() {
+        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+    }
+Output: public void emptyArraysAreShared() {        assertSame(new ArrayList<Object>(), new ArrayList<Object>());
+    }
+
+Input: public boolean equals(Path p) {
+		if (nodePath.size() != p.nodePath.size()) {
+			return false;
+		} else {
+			for (int i = 0; i < nodePath.size(); i++) {
+				if (nodePath.get(i) != p.nodePath.get(i)) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+Output:
+  ","import org.graphstream.graph.*;
+import java.util.Collection;
+import java.util.List;
+import java.util.Stack;
+import java.util.logging.Logger;
+import java.util.stream.Stream;
+
+import org.graphstream.graph.Graph;
+import org.graphstream.graph.Path;
+import org.graphstream.graph.implementations.DefaultGraph;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_3_2 { 
+  @Test
+    public void testEquals() {
+        Path path1 = new Path();
+        Path path2 = new Path();
+        assertEquals(path1, path2);
+        path1.setRoot(graph.getNode('a'));
+        assertNotEquals(path1, path2);
+        path2.setRoot(graph.getNode('a'));
+        assertEquals(path1, path2);
+        path1.add(graph.getEdge('ab'));
+        assertNotEquals(path1, path2);
+        path2.add(graph.getEdge('ab'));
+        assertEquals(path1, path2);
+        path1.add(graph.getEdge('bc'));
+        assertNotEquals(path1, path2);
+        path2.add(graph.getEdge('bc'));
+        assertEquals(path1, path2);
+        path1.add(graph.getEdge('cd'));
+        assertNotEquals(path1, path2);
+        path2.add(graph.getEdge('cd'));
+        assertEquals(path1, path2);
+    }
+}"

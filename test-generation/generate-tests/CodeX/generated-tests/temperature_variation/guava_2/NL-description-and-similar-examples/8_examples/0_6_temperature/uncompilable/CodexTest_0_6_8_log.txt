@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_8.java:26: error: cannot find symbol
+    ByteBuffer buffer = ByteBuffer.wrap(dest);
+    ^
+  symbol:   class ByteBuffer
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:26: error: cannot find symbol
+    ByteBuffer buffer = ByteBuffer.wrap(dest);
+                        ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:27: error: cannot find symbol
+    buffer.order(ByteOrder.LITTLE_ENDIAN);
+                 ^
+  symbol:   variable ByteOrder
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:32: error: cannot find symbol
+    int result = hash.writeBytesTo(actual, 0, 2);
+                 ^
+  symbol:   variable hash
+  location: class CodexTest_0_6_8

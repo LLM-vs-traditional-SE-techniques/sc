@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_8_5.java:25: error: constructor Ints in class com.google.common.primitives.Ints cannot be applied to given types;
+    int[] r = new Ints(1).rng.nextInts(32, 64);
+              ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+CodexTest_0_8_5.java:26: error: incompatible types: int[] cannot be converted to int
+    byte[] bs = new byte[r];
+                         ^
+CodexTest_0_8_5.java:27: error: cannot find symbol
+    MutableBitArray mba = new MutableBitArray(r * 8);
+    ^
+  symbol:   class MutableBitArray
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:27: error: cannot find symbol
+    MutableBitArray mba = new MutableBitArray(r * 8);
+                              ^
+  symbol:   class MutableBitArray
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:27: error: bad operand types for binary operator '*'
+    MutableBitArray mba = new MutableBitArray(r * 8);
+                                                ^
+  first type:  int[]
+  second type: int

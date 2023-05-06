@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_23.java:19: error: cannot find symbol
+      SimpleKMeans simpleKMeans = new SimpleKMeans();
+      ^
+  symbol:   class SimpleKMeans
+  location: class CodexTest_0_8_23
+CodexTest_0_8_23.java:19: error: cannot find symbol
+      SimpleKMeans simpleKMeans = new SimpleKMeans();
+                                      ^
+  symbol:   class SimpleKMeans
+  location: class CodexTest_0_8_23
+CodexTest_0_8_23.java:25: error: cannot find symbol
+        m_Tee.println(instI);
+        ^
+  symbol:   variable m_Tee
+  location: class CodexTest_0_8_23

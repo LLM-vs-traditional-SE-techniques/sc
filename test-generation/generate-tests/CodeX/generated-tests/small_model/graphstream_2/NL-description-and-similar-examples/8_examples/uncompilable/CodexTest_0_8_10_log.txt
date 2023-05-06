@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_8_10.java:21: error: cannot find symbol
+      factory = new SpatialCriteriaFactory();
+      ^
+  symbol:   variable factory
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:21: error: cannot find symbol
+      factory = new SpatialCriteriaFactory();
+                    ^
+  symbol:   class SpatialCriteriaFactory
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:22: error: cannot find symbol
+      factory.setDistanceExpression( new DistanceExpressionFactory().create( distanceExpression ) );
+                                                                             ^
+  symbol:   variable distanceExpression
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:22: error: cannot find symbol
+      factory.setDistanceExpression( new DistanceExpressionFactory().create( distanceExpression ) );
+                                         ^
+  symbol:   class DistanceExpressionFactory
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:22: error: cannot find symbol
+      factory.setDistanceExpression( new DistanceExpressionFactory().create( distanceExpression ) );
+      ^
+  symbol:   variable factory
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:23: error: cannot find symbol
+      factory.setSearchMode( searchMode );
+                             ^
+  symbol:   variable searchMode
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:23: error: cannot find symbol
+      factory.setSearchMode( searchMode );
+      ^
+  symbol:   variable factory
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:24: error: cannot find symbol
+      factory.setIncludeUnmapped( includeUnmapped );
+                                  ^
+  symbol:   variable includeUnmapped
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:24: error: cannot find symbol
+      factory.setIncludeUnmapped( includeUnmapped );
+      ^
+  symbol:   variable factory
+  location: class CodexTest_0_8_10

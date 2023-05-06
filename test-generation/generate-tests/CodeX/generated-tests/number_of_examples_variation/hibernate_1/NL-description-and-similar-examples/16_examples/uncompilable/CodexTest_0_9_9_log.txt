@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_9.java:20: error: cannot find symbol
+        Boolean result = underTest.toBoolean((Boolean) x);
+                                  ^
+  symbol:   method toBoolean(java.lang.Boolean)
+  location: variable underTest of type org.hibernate.type.descriptor.java.BooleanTypeDescriptor
+CodexTest_0_9_9.java:30: error: cannot find symbol
+        Boolean result = underTest.toBoolean((Boolean) x);
+                                  ^
+  symbol:   method toBoolean(java.lang.Boolean)
+  location: variable underTest of type org.hibernate.type.descriptor.java.BooleanTypeDescriptor

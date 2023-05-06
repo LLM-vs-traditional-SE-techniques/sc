@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_5.java:28: error: cannot find symbol
+      byte[] expectedBytes = getSetBitsByteArray(length);
+                             ^
+  symbol:   method getSetBitsByteArray(int)
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:30: error: cannot find symbol
+      BitArray bits = getSetBitsBitArray(length);
+      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:30: error: cannot find symbol
+      BitArray bits = getSetBitsBitArray(length);
+                      ^
+  symbol:   method getSetBitsBitArray(int)
+  location: class CodexTest_0_8_5

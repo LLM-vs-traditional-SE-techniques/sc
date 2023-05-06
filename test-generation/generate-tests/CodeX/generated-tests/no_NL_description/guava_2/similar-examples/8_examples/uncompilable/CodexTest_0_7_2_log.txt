@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_7_2.java:25: error: <identifier> expected
+Input: public int andNot(LongIterator iterator) {
+     ^
+CodexTest_0_7_2.java:31: error: <identifier> expected
+Output: public void testOperations() {
+      ^
+CodexTest_0_7_2.java:46: error: reached end of file while parsing
+}
+ ^

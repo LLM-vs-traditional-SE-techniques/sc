@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_1_1.java:20: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        Edge edge = new Edge(1, 2);
+                    ^
+CodexTest_0_1_1.java:21: error: cannot find symbol
+        EdgePath edgePath = new EdgePath(edge);
+        ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_1_1
+CodexTest_0_1_1.java:21: error: cannot find symbol
+        EdgePath edgePath = new EdgePath(edge);
+                                ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_1_1

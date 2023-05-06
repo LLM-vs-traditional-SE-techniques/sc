@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_27.java:68: error: ')' expected
+                .field("message", """#lines {a:b}""")
+                                    ^
+CodexTest_0_9_27.java:68: error: ';' expected
+                .field("message", """#lines {a:b}""")
+                                                  ^
+CodexTest_0_9_27.java:68: error: illegal start of expression
+                .field("message", """#lines {a:b}""")
+                                                    ^
+CodexTest_0_9_27.java:68: error: ';' expected
+                .field("message", """#lines {a:b}""")
+                                                     ^
+CodexTest_0_9_27.java:69: error: ';' expected
+                .endObject());
+                            ^
+CodexTest_0_9_27.java:77: error: reached end of file while parsing
+}
+ ^

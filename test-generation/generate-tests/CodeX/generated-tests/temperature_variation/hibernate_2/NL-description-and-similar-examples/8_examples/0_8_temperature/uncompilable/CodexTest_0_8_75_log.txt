@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_75.java:23: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_8_75.java:26: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_75.java:35: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_8_75.java:38: error: <identifier> expected
+Output:
+      ^

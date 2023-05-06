@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_21.java:26: error: cannot find symbol
+      		HashCode hash1 = Hashing.murmur3_128().hashBytes(foo30.getBytes(Charsets.UTF_8));
+      		                                                 ^
+  symbol:   variable foo30
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:27: error: cannot find symbol
+      		HashCode hash2 = Hashing.murmur3_128().hashBytes(bar30.getBytes(Charsets.UTF_8));
+      		                                                 ^
+  symbol:   variable bar30
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:28: error: cannot find symbol
+      		HashCode hash3 = Hashing.murmur3_128().hashBytes(baz30.getBytes(Charsets.UTF_8));
+      		                                                 ^
+  symbol:   variable baz30
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:29: error: cannot find symbol
+      		assertEquals(hash2, hash1.putLong(i).putString(bar30, Charsets.UTF_8).putLong(i));
+      		                                               ^
+  symbol:   variable bar30
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:29: error: cannot find symbol
+      		assertEquals(hash2, hash1.putLong(i).putString(bar30, Charsets.UTF_8).putLong(i));
+      		                         ^
+  symbol:   method putLong(int)
+  location: variable hash1 of type com.google.common.hash.HashCode
+CodexTest_0_9_21.java:30: error: cannot find symbol
+      		assertEquals(hash3, hash1.putLong(i).putString(baz30, Charsets.UTF_8).putLong(i));
+      		                                               ^
+  symbol:   variable baz30
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:30: error: cannot find symbol
+      		assertEquals(hash3, hash1.putLong(i).putString(baz30, Charsets.UTF_8).putLong(i));
+      		                         ^
+  symbol:   method putLong(int)
+  location: variable hash1 of type com.google.common.hash.HashCode
+CodexTest_0_9_21.java:32: error: cannot find symbol
+      		assertTrue(hash1.putLong(i).putString(bar30, Charsets.UTF_8).putLong(i).hashCode() > 0);
+      		                                      ^
+  symbol:   variable bar30
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:32: error: cannot find symbol
+      		assertTrue(hash1.putLong(i).putString(bar30, Charsets.UTF_8).putLong(i).hashCode() > 0);
+      		                ^
+  symbol:   method putLong(int)
+  location: variable hash1 of type com.google.common.hash.HashCode

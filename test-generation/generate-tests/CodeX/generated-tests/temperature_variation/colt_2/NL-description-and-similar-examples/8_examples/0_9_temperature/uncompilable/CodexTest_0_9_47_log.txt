@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_47.java:32: error: incompatible types: double[] cannot be converted to int
+		DoubleMatrix2D m = f.make(data, 6, 1);
+		                          ^
+CodexTest_0_9_47.java:33: error: cannot find symbol
+		DoubleMatrix2D mResult = m.like2D(6, 2);
+		                          ^
+  symbol:   method like2D(int,int)
+  location: variable m of type cern.colt.matrix.DoubleMatrix2D
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

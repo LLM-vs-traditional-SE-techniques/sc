@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_9.java:31: error: cannot find symbol
+        String s1 = generateString(1000);
+                    ^
+  symbol:   method generateString(int)
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:32: error: cannot find symbol
+        String s2 = generateString(1000);
+                    ^
+  symbol:   method generateString(int)
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:33: error: cannot find symbol
+        PlainTextInputData d1 = new PlainTextInputData(s1);
+        ^
+  symbol:   class PlainTextInputData
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:33: error: cannot find symbol
+        PlainTextInputData d1 = new PlainTextInputData(s1);
+                                    ^
+  symbol:   class PlainTextInputData
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:34: error: cannot find symbol
+        PlainTextInputData d2 = new PlainTextInputData(s2);
+        ^
+  symbol:   class PlainTextInputData
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:34: error: cannot find symbol
+        PlainTextInputData d2 = new PlainTextInputData(s2);
+                                    ^
+  symbol:   class PlainTextInputData
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:35: error: cannot find symbol
+        assertTrue(Double.compare(EuclideanDistance.distanceSq(d1, d2),
+                                  ^
+  symbol:   variable EuclideanDistance
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:36: error: cannot find symbol
+                EuclideanDistance.distanceSq(d2, d1)) == 0);
+                ^
+  symbol:   variable EuclideanDistance
+  location: class CodexTest_0_9_9

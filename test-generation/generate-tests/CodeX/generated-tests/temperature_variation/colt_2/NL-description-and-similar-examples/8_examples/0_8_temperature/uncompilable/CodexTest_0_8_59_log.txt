@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_59.java:37: error: cannot find symbol
+        DoubleMatrix2D result = instance.like2D(rows, columns);
+                                        ^
+  symbol:   method like2D(int,int)
+  location: variable instance of type cern.colt.matrix.DoubleFactory2D

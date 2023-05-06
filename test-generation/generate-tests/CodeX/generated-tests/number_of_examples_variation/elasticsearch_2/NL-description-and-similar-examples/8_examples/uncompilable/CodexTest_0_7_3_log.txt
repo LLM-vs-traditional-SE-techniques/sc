@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_3.java:81: error: cannot find symbol
+        String actualValue = Strings.toString(indexRequest);
+                             ^
+  symbol:   variable Strings
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:83: error: cannot find symbol
+        assertThat(actualValue, equalTo("{\"_index\":\"_all\",\"_type\":\"_doc\",\"_source\":{\"user\":\"kimchy\",\"postDate\":\"2013-01-30\",\"message\":\"trying out Elasticsearch\"},\"pipeline\":\"pipeline\"}"));
+                                ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_7_3

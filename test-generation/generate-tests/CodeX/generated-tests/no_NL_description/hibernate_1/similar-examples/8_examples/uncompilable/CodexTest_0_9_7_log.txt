@@ -1,0 +1,64 @@
+isCompilable => false
+CodexTest_0_9_7.java:15: error: invalid method declaration; return type required
+      assertNull(d.toShort(null));
+      ^
+CodexTest_0_9_7.java:15: error: <identifier> expected
+      assertNull(d.toShort(null));
+                          ^
+CodexTest_0_9_7.java:15: error: ';' expected
+      assertNull(d.toShort(null));
+                           ^
+CodexTest_0_9_7.java:15: error: illegal start of type
+      assertNull(d.toShort(null));
+                               ^
+CodexTest_0_9_7.java:15: error: <identifier> expected
+      assertNull(d.toShort(null));
+                                ^
+CodexTest_0_9_7.java:16: error: invalid method declaration; return type required
+      assertEquals(d.toShort(Boolean.FALSE), (short) 0);
+      ^
+CodexTest_0_9_7.java:16: error: <identifier> expected
+      assertEquals(d.toShort(Boolean.FALSE), (short) 0);
+                            ^
+CodexTest_0_9_7.java:16: error: ';' expected
+      assertEquals(d.toShort(Boolean.FALSE), (short) 0);
+                             ^
+CodexTest_0_9_7.java:16: error: illegal start of type
+      assertEquals(d.toShort(Boolean.FALSE), (short) 0);
+                                    ^
+CodexTest_0_9_7.java:16: error: ';' expected
+      assertEquals(d.toShort(Boolean.FALSE), (short) 0);
+                                          ^
+CodexTest_0_9_7.java:16: error: <identifier> expected
+      assertEquals(d.toShort(Boolean.FALSE), (short) 0);
+                                                   ^
+CodexTest_0_9_7.java:16: error: illegal start of type
+      assertEquals(d.toShort(Boolean.FALSE), (short) 0);
+                                                     ^
+CodexTest_0_9_7.java:16: error: <identifier> expected
+      assertEquals(d.toShort(Boolean.FALSE), (short) 0);
+                                                      ^
+CodexTest_0_9_7.java:17: error: invalid method declaration; return type required
+      assertEquals(d.toShort(Boolean.TRUE), (short) 1);
+      ^
+CodexTest_0_9_7.java:17: error: <identifier> expected
+      assertEquals(d.toShort(Boolean.TRUE), (short) 1);
+                            ^
+CodexTest_0_9_7.java:17: error: ';' expected
+      assertEquals(d.toShort(Boolean.TRUE), (short) 1);
+                             ^
+CodexTest_0_9_7.java:17: error: illegal start of type
+      assertEquals(d.toShort(Boolean.TRUE), (short) 1);
+                                    ^
+CodexTest_0_9_7.java:17: error: ';' expected
+      assertEquals(d.toShort(Boolean.TRUE), (short) 1);
+                                         ^
+CodexTest_0_9_7.java:17: error: <identifier> expected
+      assertEquals(d.toShort(Boolean.TRUE), (short) 1);
+                                                  ^
+CodexTest_0_9_7.java:17: error: illegal start of type
+      assertEquals(d.toShort(Boolean.TRUE), (short) 1);
+                                                    ^
+CodexTest_0_9_7.java:17: error: <identifier> expected
+      assertEquals(d.toShort(Boolean.TRUE), (short) 1);
+                                                     ^

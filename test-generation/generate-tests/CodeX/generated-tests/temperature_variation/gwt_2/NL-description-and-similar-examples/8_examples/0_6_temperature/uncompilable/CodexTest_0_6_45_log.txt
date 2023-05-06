@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_45.java:15: error: cannot find symbol
+    UncaughtExceptionHandler expectedExceptionHandler = null;
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_45

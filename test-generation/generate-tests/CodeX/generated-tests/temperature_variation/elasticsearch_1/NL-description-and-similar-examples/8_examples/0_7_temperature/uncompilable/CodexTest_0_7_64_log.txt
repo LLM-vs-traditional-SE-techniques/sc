@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_64.java:66: error: cannot find symbol
+        CreateIndexRequest request = new CreateIndexRequest("foo");
+        ^
+  symbol:   class CreateIndexRequest
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:66: error: cannot find symbol
+        CreateIndexRequest request = new CreateIndexRequest("foo");
+                                         ^
+  symbol:   class CreateIndexRequest
+  location: class CodexTest_0_7_64

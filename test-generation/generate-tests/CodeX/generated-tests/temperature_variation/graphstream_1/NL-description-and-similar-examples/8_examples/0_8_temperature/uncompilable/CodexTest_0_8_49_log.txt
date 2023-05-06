@@ -1,0 +1,48 @@
+isCompilable => false
+CodexTest_0_8_49.java:20: error: cannot find symbol
+    DefaultDirectedGraph<String, DefaultEdge> g = new DefaultDirectedGraph<>(DefaultEdge.class);
+    ^
+  symbol:   class DefaultDirectedGraph
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:20: error: cannot find symbol
+    DefaultDirectedGraph<String, DefaultEdge> g = new DefaultDirectedGraph<>(DefaultEdge.class);
+                                 ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:20: error: cannot find symbol
+    DefaultDirectedGraph<String, DefaultEdge> g = new DefaultDirectedGraph<>(DefaultEdge.class);
+                                                      ^
+  symbol:   class DefaultDirectedGraph
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:20: error: cannot find symbol
+    DefaultDirectedGraph<String, DefaultEdge> g = new DefaultDirectedGraph<>(DefaultEdge.class);
+                                                                             ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:24: error: cannot find symbol
+    DefaultEdge e1 = g.addEdge(v1, v2);
+    ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:25: error: cannot find symbol
+    DefaultEdge e2 = g.addEdge(v2, v3);
+    ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:26: error: cannot find symbol
+    DefaultEdge e3 = g.addEdge(v3, v1);
+    ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:27: error: cannot find symbol
+    Path<String, DefaultEdge> p1 = new Path<>(g, v1, v3);
+                 ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:27: error: type org.graphstream.graph.Path does not take parameters
+    Path<String, DefaultEdge> p1 = new Path<>(g, v1, v3);
+        ^
+CodexTest_0_8_49.java:27: error: cannot infer type arguments for org.graphstream.graph.Path
+    Path<String, DefaultEdge> p1 = new Path<>(g, v1, v3);
+                                           ^
+  reason: cannot use '<>' with non-generic class org.graphstream.graph.Path

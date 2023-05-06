@@ -1,0 +1,271 @@
+isCompilable => false
+CodexTest_0_3_11.java:21: error: cannot find symbol
+        p.setRoot(graph.getNode(a));
+                                ^
+  symbol:   variable a
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:21: error: cannot find symbol
+        p.setRoot(graph.getNode(a));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:22: error: cannot find symbol
+        p.add(graph.getEdge(ab));
+                            ^
+  symbol:   variable ab
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:22: error: cannot find symbol
+        p.add(graph.getEdge(ab));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:23: error: cannot find symbol
+        p.add(graph.getEdge(bc));
+                            ^
+  symbol:   variable bc
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:23: error: cannot find symbol
+        p.add(graph.getEdge(bc));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:24: error: cannot find symbol
+        p.add(graph.getEdge(cd));
+                            ^
+  symbol:   variable cd
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:24: error: cannot find symbol
+        p.add(graph.getEdge(cd));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:25: error: cannot find symbol
+        p.add(graph.getEdge(de));
+                            ^
+  symbol:   variable de
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:25: error: cannot find symbol
+        p.add(graph.getEdge(de));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:26: error: cannot find symbol
+        p.add(graph.getEdge(ef));
+                            ^
+  symbol:   variable ef
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:26: error: cannot find symbol
+        p.add(graph.getEdge(ef));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:27: error: cannot find symbol
+        p.add(graph.getEdge(fg));
+                            ^
+  symbol:   variable fg
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:27: error: cannot find symbol
+        p.add(graph.getEdge(fg));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:28: error: cannot find symbol
+        p.add(graph.getEdge(gh));
+                            ^
+  symbol:   variable gh
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:28: error: cannot find symbol
+        p.add(graph.getEdge(gh));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:29: error: cannot find symbol
+        p.add(graph.getEdge(hi));
+                            ^
+  symbol:   variable hi
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:29: error: cannot find symbol
+        p.add(graph.getEdge(hi));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:30: error: cannot find symbol
+        p.add(graph.getEdge(ij));
+                            ^
+  symbol:   variable ij
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:30: error: cannot find symbol
+        p.add(graph.getEdge(ij));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:31: error: cannot find symbol
+        p.add(graph.getEdge(jk));
+                            ^
+  symbol:   variable jk
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:31: error: cannot find symbol
+        p.add(graph.getEdge(jk));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:32: error: cannot find symbol
+        p.add(graph.getEdge(kl));
+                            ^
+  symbol:   variable kl
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:32: error: cannot find symbol
+        p.add(graph.getEdge(kl));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:33: error: cannot find symbol
+        p.add(graph.getEdge(lm));
+                            ^
+  symbol:   variable lm
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:33: error: cannot find symbol
+        p.add(graph.getEdge(lm));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:34: error: cannot find symbol
+        p.add(graph.getEdge(mn));
+                            ^
+  symbol:   variable mn
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:34: error: cannot find symbol
+        p.add(graph.getEdge(mn));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:35: error: cannot find symbol
+        p.add(graph.getEdge(no));
+                            ^
+  symbol:   variable no
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:35: error: cannot find symbol
+        p.add(graph.getEdge(no));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:36: error: cannot find symbol
+        p.add(graph.getEdge(op));
+                            ^
+  symbol:   variable op
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:36: error: cannot find symbol
+        p.add(graph.getEdge(op));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:37: error: cannot find symbol
+        p.add(graph.getEdge(pq));
+                            ^
+  symbol:   variable pq
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:37: error: cannot find symbol
+        p.add(graph.getEdge(pq));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:38: error: cannot find symbol
+        p.add(graph.getEdge(qr));
+                            ^
+  symbol:   variable qr
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:38: error: cannot find symbol
+        p.add(graph.getEdge(qr));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:39: error: cannot find symbol
+        p.add(graph.getEdge(rs));
+                            ^
+  symbol:   variable rs
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:39: error: cannot find symbol
+        p.add(graph.getEdge(rs));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:40: error: cannot find symbol
+        p.add(graph.getEdge(st));
+                            ^
+  symbol:   variable st
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:40: error: cannot find symbol
+        p.add(graph.getEdge(st));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:41: error: cannot find symbol
+        p.add(graph.getEdge(tu));
+                            ^
+  symbol:   variable tu
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:41: error: cannot find symbol
+        p.add(graph.getEdge(tu));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:42: error: cannot find symbol
+        p.add(graph.getEdge(uv));
+                            ^
+  symbol:   variable uv
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:42: error: cannot find symbol
+        p.add(graph.getEdge(uv));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:43: error: cannot find symbol
+        p.add(graph.getEdge(vw));
+                            ^
+  symbol:   variable vw
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:43: error: cannot find symbol
+        p.add(graph.getEdge(vw));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:44: error: cannot find symbol
+        p.add(graph.getEdge(wx));
+                            ^
+  symbol:   variable wx
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:44: error: cannot find symbol
+        p.add(graph.getEdge(wx));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:45: error: cannot find symbol
+        p.add(graph.getEdge(xy));
+                            ^
+  symbol:   variable xy
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:45: error: cannot find symbol
+        p.add(graph.getEdge(xy));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:46: error: cannot find symbol
+        p.add(graph.getEdge(yz));
+                            ^
+  symbol:   variable yz
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:46: error: cannot find symbol
+        p.add(graph.getEdge(yz));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:47: error: cannot find symbol
+        p.add(graph.getEdge(za));
+                            ^
+  symbol:   variable za
+  location: class CodexTest_0_3_11
+CodexTest_0_3_11.java:47: error: cannot find symbol
+        p.add(graph.getEdge(za));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_11

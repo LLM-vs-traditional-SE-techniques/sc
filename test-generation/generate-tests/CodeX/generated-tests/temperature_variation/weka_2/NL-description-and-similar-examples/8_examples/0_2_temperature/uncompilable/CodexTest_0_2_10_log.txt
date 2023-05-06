@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_10.java:44: error: <identifier> expected
+    insts.setClassIndex(insts.
+                              ^
+CodexTest_0_2_10.java:45: error: reached end of file while parsing
+}
+ ^

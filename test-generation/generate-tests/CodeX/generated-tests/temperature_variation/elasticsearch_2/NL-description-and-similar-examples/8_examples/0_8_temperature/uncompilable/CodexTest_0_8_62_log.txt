@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_62.java:70: error: cannot find symbol
+        String sSource = new String(indexRequest.source().utf8Bytes(), StandardCharsets.UTF_8);
+                                                         ^
+  symbol:   method utf8Bytes()
+  location: class org.elasticsearch.common.bytes.BytesReference

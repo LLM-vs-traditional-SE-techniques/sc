@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_3_47.java:21: error: cannot find symbol
+        assertFalse(empty.contains(null));
+                    ^
+  symbol:   variable empty
+  location: class CodexTest_0_3_47
+CodexTest_0_3_47.java:22: error: cannot find symbol
+        assertFalse(empty.contains("foo"));
+                    ^
+  symbol:   variable empty
+  location: class CodexTest_0_3_47
+CodexTest_0_3_47.java:23: error: cannot find symbol
+        assertFalse(empty.contains("bar"));
+                    ^
+  symbol:   variable empty
+  location: class CodexTest_0_3_47
+CodexTest_0_3_47.java:24: error: cannot find symbol
+        assertFalse(empty.contains("baz"));
+                    ^
+  symbol:   variable empty
+  location: class CodexTest_0_3_47

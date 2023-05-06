@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_74.java:25: error: cannot find symbol
+    HashIds hashIds = new HashIds() {
+    ^
+  symbol:   class HashIds
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:25: error: cannot find symbol
+    HashIds hashIds = new HashIds() {
+                          ^
+  symbol:   class HashIds
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:36: error: cannot find symbol
+    Date date = new Date(originalId);
+    ^
+  symbol:   class Date
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:36: error: cannot find symbol
+    Date date = new Date(originalId);
+                    ^
+  symbol:   class Date
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:37: error: cannot find symbol
+    TimeUnit timeUnit = hashIds.decodeTime(hashIds.encodeTime(date));
+    ^
+  symbol:   class TimeUnit
+  location: class CodexTest_0_9_74

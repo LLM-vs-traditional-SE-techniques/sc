@@ -1,0 +1,106 @@
+isCompilable => false
+CodexTest_0_8_63.java:29: error: <identifier> expected
+        def _test_dot(self):
+                          ^
+CodexTest_0_8_63.java:29: error: ';' expected
+        def _test_dot(self):
+                           ^
+CodexTest_0_8_63.java:30: error: unclosed string literal
+        """
+          ^
+CodexTest_0_8_63.java:31: error: not a statement
+        Test L{math.Vector.dot} for various valid inputs.
+                          ^
+CodexTest_0_8_63.java:31: error: ';' expected
+        Test L{math.Vector.dot} for various valid inputs.
+                              ^
+CodexTest_0_8_63.java:31: error: illegal start of type
+        Test L{math.Vector.dot} for various valid inputs.
+                                ^
+CodexTest_0_8_63.java:31: error: ';' expected
+        Test L{math.Vector.dot} for various valid inputs.
+                                   ^
+CodexTest_0_8_63.java:31: error: ';' expected
+        Test L{math.Vector.dot} for various valid inputs.
+                                                        ^
+CodexTest_0_8_63.java:32: error: unclosed string literal
+        """
+          ^
+CodexTest_0_8_63.java:33: error: <identifier> expected
+        for v1, v2 in self.dotCombinations:
+              ^
+CodexTest_0_8_63.java:33: error: ';' expected
+        for v1, v2 in self.dotCombinations:
+                  ^
+CodexTest_0_8_63.java:33: error: ';' expected
+        for v1, v2 in self.dotCombinations:
+                          ^
+CodexTest_0_8_63.java:33: error: <identifier> expected
+        for v1, v2 in self.dotCombinations:
+                                          ^
+CodexTest_0_8_63.java:34: error: <identifier> expected
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                            ^
+CodexTest_0_8_63.java:34: error: <identifier> expected
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                   ^
+CodexTest_0_8_63.java:34: error: ';' expected
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                    ^
+CodexTest_0_8_63.java:34: error: illegal start of type
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                      ^
+CodexTest_0_8_63.java:34: error: <identifier> expected
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                       ^
+CodexTest_0_8_63.java:34: error: ';' expected
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                        ^
+CodexTest_0_8_63.java:34: error: illegal start of type
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                            ^
+CodexTest_0_8_63.java:34: error: ')' expected
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                                         ^
+CodexTest_0_8_63.java:34: error: ']' expected
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                                             ^
+CodexTest_0_8_63.java:34: error: ';' expected
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                                              ^
+CodexTest_0_8_63.java:34: error: illegal start of type
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                                                ^
+CodexTest_0_8_63.java:34: error: ']' expected
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                                                    ^
+CodexTest_0_8_63.java:34: error: illegal start of type
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                                                     ^
+CodexTest_0_8_63.java:34: error: <identifier> expected
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                                                      ^
+CodexTest_0_8_63.java:34: error: ';' expected
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                                                       ^
+CodexTest_0_8_63.java:34: error: illegal start of type
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                                                           ^
+CodexTest_0_8_63.java:34: error: ';' expected
+            self.assertEqual(v1.dot(v2), sum(map(lambda x: x[0] * x[1], zip(v1, v2))))
+                                                                                  ^
+CodexTest_0_8_63.java:35: error: invalid method declaration; return type required
+        failUnlessRaises(ValueError, self.v1.dot, self.v3)
+        ^
+CodexTest_0_8_63.java:35: error: <identifier> expected
+        failUnlessRaises(ValueError, self.v1.dot, self.v3)
+                                   ^
+CodexTest_0_8_63.java:35: error: <identifier> expected
+        failUnlessRaises(ValueError, self.v1.dot, self.v3)
+                                                ^
+CodexTest_0_8_63.java:35: error: <identifier> expected
+        failUnlessRaises(ValueError, self.v1.dot, self.v3)
+                                                         ^
+CodexTest_0_8_63.java:35: error: ';' expected
+        failUnlessRaises(ValueError, self.v1.dot, self.v3)
+                                                          ^

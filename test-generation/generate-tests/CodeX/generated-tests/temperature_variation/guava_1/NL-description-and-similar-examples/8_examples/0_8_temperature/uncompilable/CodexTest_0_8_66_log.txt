@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_66.java:25: error: cannot find symbol
+    assertEquals(HashCode.fromLong(Long.MIN_VALUE), hashFunction.newHasher().putLong(Long.MIN_VALUE).hash());
+                                                    ^
+  symbol:   variable hashFunction
+  location: class CodexTest_0_8_66
+CodexTest_0_8_66.java:26: error: cannot find symbol
+    assertEquals(HashCode.fromLong(42L), hashFunction.newHasher().putLong(42L).hash());
+                                         ^
+  symbol:   variable hashFunction
+  location: class CodexTest_0_8_66
+CodexTest_0_8_66.java:28: error: cannot find symbol
+        HashCode.fromLong(Long.MAX_VALUE), hashFunction.newHasher().putLong(Long.MAX_VALUE).hash());
+                                           ^
+  symbol:   variable hashFunction
+  location: class CodexTest_0_8_66

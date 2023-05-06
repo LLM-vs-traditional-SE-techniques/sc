@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_2_5.java:30: error: cannot find symbol
+        DoubleMatrix1D other = new DenseDoubleMatrix1D(SIZE);
+                                                       ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_2_5
+CodexTest_0_2_5.java:31: error: cannot find symbol
+        for (int i = 0; i < SIZE; ++i) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_2_5
+CodexTest_0_2_5.java:34: error: cannot find symbol
+        DoubleMatrix1D copy = matrix.copy();
+                              ^
+  symbol:   variable matrix
+  location: class CodexTest_0_2_5
+CodexTest_0_2_5.java:35: error: cannot find symbol
+        matrix.assign(other);
+        ^
+  symbol:   variable matrix
+  location: class CodexTest_0_2_5
+CodexTest_0_2_5.java:36: error: cannot find symbol
+        for (int i = 0; i < SIZE; ++i) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_2_5
+CodexTest_0_2_5.java:37: error: cannot find symbol
+            assertEquals(other.getQuick(i), matrix.getQuick(i));
+                                            ^
+  symbol:   variable matrix
+  location: class CodexTest_0_2_5
+CodexTest_0_2_5.java:40: error: cannot find symbol
+        assertDeepEquals(copy, matrix);
+                               ^
+  symbol:   variable matrix
+  location: class CodexTest_0_2_5
+CodexTest_0_2_5.java:41: error: cannot find symbol
+        assertDeepEquals(other, other);
+        ^
+  symbol:   method assertDeepEquals(cern.colt.matrix.DoubleMatrix1D,cern.colt.matrix.DoubleMatrix1D)
+  location: class CodexTest_0_2_5

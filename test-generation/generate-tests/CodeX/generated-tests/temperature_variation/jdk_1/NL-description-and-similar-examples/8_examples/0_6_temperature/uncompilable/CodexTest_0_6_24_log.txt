@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_24.java:22: error: cannot find symbol
+            final int size = random.nextInt(100);
+                             ^
+  symbol:   variable random
+  location: class CodexTest_0_6_24
+CodexTest_0_6_24.java:28: error: cannot find symbol
+            final int idx = random.nextInt(size);
+                            ^
+  symbol:   variable random
+  location: class CodexTest_0_6_24

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_60.java:22: error: cannot find symbol
+        SortedList<String> underTest = new SortedList<>();
+        ^
+  symbol:   class SortedList
+  location: class CodexTest_0_8_60
+CodexTest_0_8_60.java:22: error: cannot find symbol
+        SortedList<String> underTest = new SortedList<>();
+                                           ^
+  symbol:   class SortedList
+  location: class CodexTest_0_8_60

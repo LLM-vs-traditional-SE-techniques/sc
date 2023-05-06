@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_68.java:30: error: bad operand types for binary operator '*'
+    DoubleMatrix2D A = 0.5*DoubleFactory2D.dense.make(new double[][] {{1,2,3},{4,5,6},{7,8,9}});
+                          ^
+  first type:  double
+  second type: cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_9_68.java:33: error: cannot find symbol
+    TestUtils.assertEquals(A,B);
+    ^
+  symbol:   variable TestUtils
+  location: class CodexTest_0_9_68

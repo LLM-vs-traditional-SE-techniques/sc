@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_26.java:18: error: cannot find symbol
+        Order order = new Order();
+        ^
+  symbol:   class Order
+  location: class CodexTest_0_9_26
+CodexTest_0_9_26.java:18: error: cannot find symbol
+        Order order = new Order();
+                          ^
+  symbol:   class Order
+  location: class CodexTest_0_9_26

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_96.java:71: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("[parent] must not be null"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_7_96

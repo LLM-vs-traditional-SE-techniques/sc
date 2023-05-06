@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_30.java:18: error: cannot find symbol
+        JTree tree = new JTree();
+        ^
+  symbol:   class JTree
+  location: class CodexTest_0_9_30
+CodexTest_0_9_30.java:18: error: cannot find symbol
+        JTree tree = new JTree();
+                         ^
+  symbol:   class JTree
+  location: class CodexTest_0_9_30
+CodexTest_0_9_30.java:19: error: cannot find symbol
+        int numrows = getRowCount();  
+                      ^
+  symbol:   method getRowCount()
+  location: class CodexTest_0_9_30
+CodexTest_0_9_30.java:21: error: cannot find symbol
+             expandRow(i); 
+             ^
+  symbol:   method expandRow(int)
+  location: class CodexTest_0_9_30
+CodexTest_0_9_30.java:22: error: cannot find symbol
+        TreePath path = tree.getPathForRow(2);
+        ^
+  symbol:   class TreePath
+  location: class CodexTest_0_9_30

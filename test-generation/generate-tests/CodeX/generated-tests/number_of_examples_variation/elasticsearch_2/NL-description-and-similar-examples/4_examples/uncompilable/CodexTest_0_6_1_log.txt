@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_1.java:65: error: <identifier> expected
+Input: public synchronized void set(int i, int j, double value) {
+     ^
+CodexTest_0_6_1.java:67: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_97.java:65: error: cannot find symbol
+        final String parent = randomAlphaOfLength(5);
+                              ^
+  symbol:   method randomAlphaOfLength(int)
+  location: class CodexTest_0_8_97
+CodexTest_0_8_97.java:66: error: cannot find symbol
+        final DeleteRequest deleteRequest = new DeleteRequest(parent);
+              ^
+  symbol:   class DeleteRequest
+  location: class CodexTest_0_8_97
+CodexTest_0_8_97.java:66: error: cannot find symbol
+        final DeleteRequest deleteRequest = new DeleteRequest(parent);
+                                                ^
+  symbol:   class DeleteRequest
+  location: class CodexTest_0_8_97

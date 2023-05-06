@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_6.java:26: error: cannot find symbol
+    new BitArray(new long[] {0x123456789L}, 52).getBytes(bytes, 0, 2);
+        ^
+  symbol:   class BitArray
+  location: class CodexTest_0_6_6

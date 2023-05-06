@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_21.java:69: error: cannot find symbol
+        indexRequest.timestamp("1");
+                    ^
+  symbol:   method timestamp(java.lang.String)
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_9_21.java:70: error: cannot find symbol
+        byte[] data = indexRequest.source().uncompressed();
+                                           ^
+  symbol:   method uncompressed()
+  location: class org.elasticsearch.common.bytes.BytesReference
+CodexTest_0_9_21.java:71: error: cannot find symbol
+        XContentParser parser = XContentHelper.createParser(data);
+        ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:71: error: no suitable method found for createParser(byte[])
+        XContentParser parser = XContentHelper.createParser(data);
+                                              ^
+    method org.elasticsearch.common.xcontent.XContentHelper.createParser(org.elasticsearch.common.xcontent.NamedXContentRegistry,org.elasticsearch.common.bytes.BytesReference) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.elasticsearch.common.xcontent.XContentHelper.createParser(org.elasticsearch.common.xcontent.NamedXContentRegistry,org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.xcontent.XContentType) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_9_21.java:73: error: cannot find symbol
+        assertThat(map.get("param2").toString(), containsString("value2"));
+                                                 ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_9_21

@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_5_1.java:27: error: cannot find symbol
+    Random r = new Random(0);
+    ^
+  symbol:   class Random
+  location: class CodexTest_0_5_1
+CodexTest_0_5_1.java:27: error: cannot find symbol
+    Random r = new Random(0);
+                   ^
+  symbol:   class Random
+  location: class CodexTest_0_5_1
+CodexTest_0_5_1.java:38: error: cannot find symbol
+    int numBytes = filter.writeBytesTo(out, 0, n);
+                         ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.Integer>
+CodexTest_0_5_1.java:40: error: cannot find symbol
+    assertEquals(new ByteArrayInputStream(bytes), new ByteArrayInputStream(out));
+                     ^
+  symbol:   class ByteArrayInputStream
+  location: class CodexTest_0_5_1
+CodexTest_0_5_1.java:40: error: cannot find symbol
+    assertEquals(new ByteArrayInputStream(bytes), new ByteArrayInputStream(out));
+                                                      ^
+  symbol:   class ByteArrayInputStream
+  location: class CodexTest_0_5_1

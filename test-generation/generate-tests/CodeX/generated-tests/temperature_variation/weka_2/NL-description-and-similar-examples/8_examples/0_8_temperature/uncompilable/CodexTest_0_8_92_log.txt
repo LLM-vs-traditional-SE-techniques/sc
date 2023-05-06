@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_8_92.java:18: error: cannot find symbol
+        final Instances dataset = createDummyDataset();
+                                  ^
+  symbol:   method createDummyDataset()
+  location: class CodexTest_0_8_92
+CodexTest_0_8_92.java:19: error: cannot find symbol
+        Random random = mock(Random.class);
+                        ^
+  symbol:   method mock(java.lang.Class<java.util.Random>)
+  location: class CodexTest_0_8_92
+CodexTest_0_8_92.java:20: error: cannot find symbol
+        when(random.nextDouble()).thenReturn(5.5, 4.1, 1.5);
+        ^
+  symbol:   method when(double)
+  location: class CodexTest_0_8_92
+CodexTest_0_8_92.java:21: error: non-static method getAsInstance(weka.core.Instances,java.util.Random) cannot be referenced from a static context
+        AlgVector.getAsInstance(dataset, random);
+                 ^

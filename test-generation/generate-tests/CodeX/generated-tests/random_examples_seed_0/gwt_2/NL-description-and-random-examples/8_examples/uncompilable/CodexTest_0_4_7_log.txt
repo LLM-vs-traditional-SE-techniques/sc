@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_7.java:15: error: cannot find symbol
+    final AtomicReference<Throwable> uncaughtException = new AtomicReference<Throwable>();
+          ^
+  symbol:   class AtomicReference
+  location: class CodexTest_0_4_7
+CodexTest_0_4_7.java:15: error: cannot find symbol
+    final AtomicReference<Throwable> uncaughtException = new AtomicReference<Throwable>();
+                                                             ^
+  symbol:   class AtomicReference
+  location: class CodexTest_0_4_7

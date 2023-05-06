@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_7.java:65: error: cannot find symbol
+        SearchRequestBuilder builder = new SearchRequestBuilder(null);
+        ^
+  symbol:   class SearchRequestBuilder
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:65: error: cannot find symbol
+        SearchRequestBuilder builder = new SearchRequestBuilder(null);
+                                           ^
+  symbol:   class SearchRequestBuilder
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:66: error: cannot find symbol
+        String parent = randomAsciiOfLengthBetween(1, 10);
+                        ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_7_7

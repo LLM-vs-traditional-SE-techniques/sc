@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_1.java:70: error: cannot find symbol
+        GetSourceRequest getSourceRequest = new GetSourceRequest(index, type, id);
+        ^
+  symbol:   class GetSourceRequest
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:70: error: cannot find symbol
+        GetSourceRequest getSourceRequest = new GetSourceRequest(index, type, id);
+                                                ^
+  symbol:   class GetSourceRequest
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:72: error: cannot find symbol
+        assertEquals(endpoint, getSourceRequest.getURI(ElasticsearchVersion.UNKNOWN));
+                                                       ^
+  symbol:   variable ElasticsearchVersion
+  location: class CodexTest_0_6_1

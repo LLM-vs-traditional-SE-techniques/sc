@@ -1,0 +1,52 @@
+isCompilable => false
+CodexTest_0_9_56.java:32: error: illegal start of type
+        for (int i = 0; i < m_Size; ++i) {
+        ^
+CodexTest_0_9_56.java:32: error: ')' expected
+        for (int i = 0; i < m_Size; ++i) {
+                  ^
+CodexTest_0_9_56.java:32: error: illegal start of type
+        for (int i = 0; i < m_Size; ++i) {
+                     ^
+CodexTest_0_9_56.java:32: error: <identifier> expected
+        for (int i = 0; i < m_Size; ++i) {
+                      ^
+CodexTest_0_9_56.java:32: error: ';' expected
+        for (int i = 0; i < m_Size; ++i) {
+                       ^
+CodexTest_0_9_56.java:32: error: > expected
+        for (int i = 0; i < m_Size; ++i) {
+                                  ^
+CodexTest_0_9_56.java:32: error: <identifier> expected
+        for (int i = 0; i < m_Size; ++i) {
+                                   ^
+CodexTest_0_9_56.java:32: error: '(' expected
+        for (int i = 0; i < m_Size; ++i) {
+                                      ^
+CodexTest_0_9_56.java:32: error: illegal start of type
+        for (int i = 0; i < m_Size; ++i) {
+                                       ^
+CodexTest_0_9_56.java:32: error: <identifier> expected
+        for (int i = 0; i < m_Size; ++i) {
+                                        ^
+CodexTest_0_9_56.java:32: error: ';' expected
+        for (int i = 0; i < m_Size; ++i) {
+                                          ^
+CodexTest_0_9_56.java:33: error: illegal start of type
+            inv[i] = a[i*s];
+               ^
+CodexTest_0_9_56.java:33: error: ';' expected
+            inv[i] = a[i*s];
+                 ^
+CodexTest_0_9_56.java:33: error: ']' expected
+            inv[i] = a[i*s];
+                       ^
+CodexTest_0_9_56.java:33: error: ';' expected
+            inv[i] = a[i*s];
+                        ^
+CodexTest_0_9_56.java:33: error: <identifier> expected
+            inv[i] = a[i*s];
+                          ^
+CodexTest_0_9_56.java:35: error: class, interface, or enum expected
+}
+^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_7.java:26: error: cannot find symbol
+    assertEquals(Hashing.sha512().hashBytes(Longs.toByteArray(42)).asLong(), hashCode.asLong());
+                                            ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_7

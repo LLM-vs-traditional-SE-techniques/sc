@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_78.java:37: error: <identifier> expected
+Input: public void update(char[] val, int off, int len) {        
+     ^
+CodexTest_0_9_78.java:43: error: <identifier> expected
+Output:
+      ^

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_47.java:33: error: cannot find symbol
+        Assert.assertEquals(25.0, Vector1D.distance3(v1, v2), 1.0e-12);
+                                          ^
+  symbol:   method distance3(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_47.java:34: error: cannot find symbol
+        Assert.assertEquals(v1.subtract(v2).getNormSq(), Vector1D.distance3(v1, v2), 1.0e-12);
+                                                                 ^
+  symbol:   method distance3(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D

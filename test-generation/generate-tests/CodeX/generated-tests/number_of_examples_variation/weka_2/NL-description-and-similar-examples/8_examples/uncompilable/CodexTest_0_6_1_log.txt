@@ -1,0 +1,81 @@
+isCompilable => false
+CodexTest_0_6_1.java:18: error: cannot find symbol
+    Instances model = new Instances(m_Instances, 0);
+                                    ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:19: error: cannot find symbol
+    m_Filter.setInputFormat(model);
+    ^
+  symbol:   variable m_Filter
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:20: error: cannot find symbol
+    model = Filter.useFilter(model, m_Filter);
+                                    ^
+  symbol:   variable m_Filter
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:20: error: cannot find symbol
+    model = Filter.useFilter(model, m_Filter);
+            ^
+  symbol:   variable Filter
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:21: error: cannot find symbol
+    AlgVector algVector = new AlgVector(m_Instances.numAttributes());
+                                        ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:22: error: cannot find symbol
+    for (int i = 0; i < m_Instances.numAttributes(); i++)
+                        ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:23: error: cannot find symbol
+      algVector.setElement(i, m_Instances.instance(0).value(i));
+                              ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:25: error: cannot find symbol
+    assertEquals("Wrong number of attributes", m_Instances.numAttributes(), instance.numAttributes());
+                                               ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:26: error: cannot find symbol
+    assertEquals("Wrong number of classes", m_Instances.numClasses(), instance.numClasses());
+                                            ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:27: error: cannot find symbol
+    assertEquals("Wrong class index", m_Instances.classIndex(), instance.classIndex());
+                                      ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:28: error: cannot find symbol
+    assertEquals("Wrong number of values", m_Instances.numAttributes(), instance.numValues());
+                                           ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:29: error: cannot find symbol
+    assertEquals("Wrong weight", m_Instances.instance(0).weight(), instance.weight());
+                                 ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:30: error: cannot find symbol
+    assertEquals("Wrong class value", m_Instances.instance(0).classValue(), instance.classValue());
+                                      ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:31: error: cannot find symbol
+    for (int i = 0; i < m_Instances.numAttributes(); i++)
+                        ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:32: error: cannot find symbol
+      assertEquals("Wrong value for attribute " + (i+1), m_Instances.instance(0).value(i), instance.value(i));
+                                                         ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:33: error: cannot find symbol
+    assertEquals("Wrong string representation", m_Instances.instance(0).toString(), instance.toString());
+                                                ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_1

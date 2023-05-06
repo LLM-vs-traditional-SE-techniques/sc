@@ -1,0 +1,15 @@
+isCompilable => false
+CodexTest_0_9_3.java:17: error: cannot find symbol
+    public Perform<HashMap<String, Object>> stop() {
+           ^
+  symbol:   class Perform
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:17: error: cannot find symbol
+    public Perform<HashMap<String, Object>> stop() {
+                   ^
+  symbol:   class HashMap
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:18: error: cannot find symbol
+        this.isStop = true;
+            ^
+  symbol: variable isStop

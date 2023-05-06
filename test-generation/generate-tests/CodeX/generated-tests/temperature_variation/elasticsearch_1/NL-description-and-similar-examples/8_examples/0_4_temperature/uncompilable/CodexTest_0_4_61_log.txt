@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_4_61.java:71: error: cannot find symbol
+        NodeType type = NodeType.UNKNOWN;
+        ^
+  symbol:   class NodeType
+  location: class CodexTest_0_4_61
+CodexTest_0_4_61.java:71: error: cannot find symbol
+        NodeType type = NodeType.UNKNOWN;
+                        ^
+  symbol:   variable NodeType
+  location: class CodexTest_0_4_61
+CodexTest_0_4_61.java:72: error: cannot find symbol
+        Node node = new Node(parent, name, path, fullPath, uri, id, type);
+        ^
+  symbol:   class Node
+  location: class CodexTest_0_4_61
+CodexTest_0_4_61.java:72: error: cannot find symbol
+        Node node = new Node(parent, name, path, fullPath, uri, id, type);
+                        ^
+  symbol:   class Node
+  location: class CodexTest_0_4_61

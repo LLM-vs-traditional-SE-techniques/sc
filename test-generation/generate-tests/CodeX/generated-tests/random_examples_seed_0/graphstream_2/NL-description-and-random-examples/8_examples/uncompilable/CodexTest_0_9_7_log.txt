@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_9_7.java:19: error: invalid method declaration; return type required
+    assert_False(tr.equals(p4))
+    ^
+CodexTest_0_9_7.java:19: error: <identifier> expected
+    assert_False(tr.equals(p4))
+                          ^
+CodexTest_0_9_7.java:19: error: ';' expected
+    assert_False(tr.equals(p4))
+                           ^
+CodexTest_0_9_7.java:19: error: illegal start of type
+    assert_False(tr.equals(p4))
+                             ^
+CodexTest_0_9_7.java:19: error: <identifier> expected
+    assert_False(tr.equals(p4))
+                              ^
+CodexTest_0_9_7.java:19: error: ';' expected
+    assert_False(tr.equals(p4))
+                               ^
+CodexTest_0_9_7.java:20: error: reached end of file while parsing
+}
+ ^

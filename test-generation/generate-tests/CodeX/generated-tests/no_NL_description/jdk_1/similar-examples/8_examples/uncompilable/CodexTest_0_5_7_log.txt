@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_7.java:23: error: cannot find symbol
+            list.add(o);
+            ^
+  symbol:   variable list
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:24: error: cannot find symbol
+            assertTrue(list.remove(o));
+                       ^
+  symbol:   variable list
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:25: error: cannot find symbol
+            assertFalse(list.remove(o));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_7

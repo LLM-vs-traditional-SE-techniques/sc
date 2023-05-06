@@ -1,0 +1,44 @@
+isCompilable => false
+CodexTest_0_9_5.java:39: error: no suitable method found for assign(cern.colt.matrix.DoubleMatrix2D)
+            B.assign(D);
+             ^
+    method cern.colt.matrix.DoubleMatrix1D.assign(double[]) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to double[])
+    method cern.colt.matrix.DoubleMatrix1D.assign(double) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to double)
+    method cern.colt.matrix.DoubleMatrix1D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.DoubleMatrix1D.assign(cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.matrix.DoubleMatrix1D)
+CodexTest_0_9_5.java:40: error: no suitable method found for assign(cern.colt.matrix.DoubleMatrix2D)
+            C.assign(D);
+             ^
+    method cern.colt.matrix.DoubleMatrix1D.assign(double[]) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to double[])
+    method cern.colt.matrix.DoubleMatrix1D.assign(double) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to double)
+    method cern.colt.matrix.DoubleMatrix1D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.DoubleMatrix1D.assign(cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.matrix.DoubleMatrix1D)
+CodexTest_0_9_5.java:41: error: cannot find symbol
+            Assert.assertEquals(B.get(0), 1, EPSILON);
+                                             ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:42: error: cannot find symbol
+            Assert.assertEquals(B.get(1), 1, EPSILON);
+                                             ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:43: error: cannot find symbol
+            Assert.assertEquals(C.get(0), 1, EPSILON);
+                                             ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:44: error: cannot find symbol
+            Assert.assertEquals(C.get(1), 1, EPSILON);
+                                             ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_9_5
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

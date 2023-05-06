@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_6_52.java:21: error: cannot find symbol
+        assertEquals(1, list.remove(0));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_52
+CodexTest_0_6_52.java:22: error: cannot find symbol
+        assertEquals(2, list.remove(0));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_52
+CodexTest_0_6_52.java:23: error: cannot find symbol
+        assertEquals(3, list.remove(0));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_52
+CodexTest_0_6_52.java:24: error: cannot find symbol
+        assertEquals(4, list.remove(0));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_52
+CodexTest_0_6_52.java:25: error: cannot find symbol
+        assertEquals(5, list.remove(0));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_52
+CodexTest_0_6_52.java:26: error: cannot find symbol
+        assertEquals(6, list.remove(0));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_52
+CodexTest_0_6_52.java:27: error: cannot find symbol
+        assertEquals(7, list.remove(0));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_52
+CodexTest_0_6_52.java:28: error: cannot find symbol
+        assertEquals(8, list.remove(0));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_52
+CodexTest_0_6_52.java:29: error: cannot find symbol
+        assertEquals(9, list.remove(0));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_52
+CodexTest_0_6_52.java:30: error: cannot find symbol
+        assertEquals(10, list.remove(0));
+                         ^
+  symbol:   variable list
+  location: class CodexTest_0_6_52
+CodexTest_0_6_52.java:31: error: cannot find symbol
+        assertEquals(0, list.size());
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_52

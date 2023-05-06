@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_31.java:25: error: cannot find symbol
+        ArrayMath.set(target, indices, source);
+        ^
+  symbol:   variable ArrayMath
+  location: class CodexTest_0_7_31

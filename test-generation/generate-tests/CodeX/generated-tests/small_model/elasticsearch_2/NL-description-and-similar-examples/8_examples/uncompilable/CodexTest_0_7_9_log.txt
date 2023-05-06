@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_9.java:69: error: cannot find symbol
+      final ElasticsearchGenerationException e = ElasticsearchGenerationException.from(request, "foo", "bar");
+                                                                                 ^
+  symbol:   method from(org.elasticsearch.action.index.IndexRequest,java.lang.String,java.lang.String)
+  location: class org.elasticsearch.ElasticsearchGenerationException
+CodexTest_0_7_9.java:70: error: cannot find symbol
+      assertThat(e.getMessage(), equalTo("Failed to generate [{\"foo\":\"bar\"}]"));
+                                 ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:71: error: cannot find symbol
+      assertThat(e.getCause().getMessage(), equalTo("Cannot serialize class [java.lang.String]"));
+                                            ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_7_9

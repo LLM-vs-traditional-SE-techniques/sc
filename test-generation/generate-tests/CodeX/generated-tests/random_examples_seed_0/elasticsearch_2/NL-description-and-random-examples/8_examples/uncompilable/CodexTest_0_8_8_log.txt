@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_8.java:65: error: cannot find symbol
+        Map<String, Object> map = jsonMapper.readValue("{\"field\":\"value\"}", new TypeReference<Map<String, Object>>(){});
+                                                                                    ^
+  symbol:   class TypeReference
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:65: error: cannot find symbol
+        Map<String, Object> map = jsonMapper.readValue("{\"field\":\"value\"}", new TypeReference<Map<String, Object>>(){});
+                                  ^
+  symbol:   variable jsonMapper
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:68: error: cannot find symbol
+        assertThat(indexRequest.source(), notNullValue());
+                                          ^
+  symbol:   method notNullValue()
+  location: class CodexTest_0_8_8

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_77.java:25: error: package com.google.common.geometry does not exist
+		com.google.common.geometry.S2LatLng test =
+		                          ^
+CodexTest_0_9_77.java:26: error: package com.google.common.geometry does not exist
+				com.google.common.geometry.S2LatLng.fromDegrees(90, 1);
+				                          ^

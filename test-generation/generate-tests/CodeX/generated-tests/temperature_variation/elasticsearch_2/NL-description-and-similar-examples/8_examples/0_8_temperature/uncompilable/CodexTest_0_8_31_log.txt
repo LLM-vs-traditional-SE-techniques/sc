@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_31.java:65: error: cannot find symbol
+			IndexRequest indexRequest = new IndexRequest(index, type);
+			                                             ^
+  symbol:   variable index
+  location: class CodexTest_0_8_31
+CodexTest_0_8_31.java:65: error: cannot find symbol
+			IndexRequest indexRequest = new IndexRequest(index, type);
+			                                                    ^
+  symbol:   variable type
+  location: class CodexTest_0_8_31
+Note: CodexTest_0_8_31.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

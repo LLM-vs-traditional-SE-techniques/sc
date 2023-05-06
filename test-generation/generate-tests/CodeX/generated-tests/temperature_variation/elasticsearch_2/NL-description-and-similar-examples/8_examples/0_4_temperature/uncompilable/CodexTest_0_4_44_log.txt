@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_44.java:66: error: cannot find symbol
+        byte[] binaryValue = randomAsciiOfLength(10).getBytes(StandardCharsets.UTF_8);
+                             ^
+  symbol:   method randomAsciiOfLength(int)
+  location: class CodexTest_0_4_44
+CodexTest_0_4_44.java:70: error: cannot find symbol
+        assertToXContentEquivalent(source, indexRequest.source(), XContentType.JSON);
+        ^
+  symbol:   method assertToXContentEquivalent(java.util.Map<java.lang.String,java.lang.Object>,org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.xcontent.XContentType)
+  location: class CodexTest_0_4_44

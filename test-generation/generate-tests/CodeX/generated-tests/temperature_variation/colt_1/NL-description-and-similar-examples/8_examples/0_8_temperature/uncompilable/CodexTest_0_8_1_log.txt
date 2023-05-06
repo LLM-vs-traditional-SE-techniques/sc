@@ -1,0 +1,76 @@
+isCompilable => false
+CodexTest_0_8_1.java:30: error: cannot find symbol
+        DoubleMatrix1D source = new cern.colt.matrix.impl.DenseDoubleMatrix1D(SIZE*2);
+                                                                              ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:31: error: cannot find symbol
+        DoubleMatrix1D target = new cern.colt.matrix.impl.DenseDoubleMatrix1D(SIZE*2);
+                                                                              ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:32: error: cannot find symbol
+        DoubleMatrix1D view = target.viewPart(SIZE/3,SIZE/2);
+                                              ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:32: error: cannot find symbol
+        DoubleMatrix1D view = target.viewPart(SIZE/3,SIZE/2);
+                                                     ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:34: error: cannot find symbol
+        source = cern.jet.math.Functions.chain(source,new cern.jet.math.Functions.PlusMult(2));
+                                                                                 ^
+  symbol:   class PlusMult
+  location: class cern.jet.math.Functions
+CodexTest_0_8_1.java:36: error: cannot find symbol
+        view.assign(source.viewRowFlip().viewPart(SOURCE_ROWS/2,SOURCE_ROWS/2),F.div);
+                                                  ^
+  symbol:   variable SOURCE_ROWS
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:36: error: cannot find symbol
+        view.assign(source.viewRowFlip().viewPart(SOURCE_ROWS/2,SOURCE_ROWS/2),F.div);
+                                                                ^
+  symbol:   variable SOURCE_ROWS
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:36: error: cannot find symbol
+        view.assign(source.viewRowFlip().viewPart(SOURCE_ROWS/2,SOURCE_ROWS/2),F.div);
+                          ^
+  symbol:   method viewRowFlip()
+  location: variable source of type cern.colt.matrix.DoubleMatrix1D
+CodexTest_0_8_1.java:37: error: cannot find symbol
+        Assert.assertTrue(checkView(source,0,0,view,true));
+                          ^
+  symbol:   method checkView(cern.colt.matrix.DoubleMatrix1D,int,int,cern.colt.matrix.DoubleMatrix1D,boolean)
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:38: error: cannot find symbol
+        view = target.viewPart(SIZE/3,SIZE/2);
+                               ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:38: error: cannot find symbol
+        view = target.viewPart(SIZE/3,SIZE/2);
+                                      ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:39: error: cannot find symbol
+        source = source.viewRowFlip().viewPart(SOURCE_ROWS/2,SOURCE_ROWS/2);
+                                               ^
+  symbol:   variable SOURCE_ROWS
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:39: error: cannot find symbol
+        source = source.viewRowFlip().viewPart(SOURCE_ROWS/2,SOURCE_ROWS/2);
+                                                             ^
+  symbol:   variable SOURCE_ROWS
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:39: error: cannot find symbol
+        source = source.viewRowFlip().viewPart(SOURCE_ROWS/2,SOURCE_ROWS/2);
+                       ^
+  symbol:   method viewRowFlip()
+  location: variable source of type cern.colt.matrix.DoubleMatrix1D
+CodexTest_0_8_1.java:42: error: cannot find symbol
+        Assert.assertTrue(checkView(source,0,0,view,true));
+                          ^
+  symbol:   method checkView(cern.colt.matrix.DoubleMatrix1D,int,int,cern.colt.matrix.DoubleMatrix1D,boolean)
+  location: class CodexTest_0_8_1

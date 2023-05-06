@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_14.java:23: error: cannot find symbol
+		graph.addVertex("a");
+		     ^
+  symbol:   method addVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_14.java:24: error: cannot find symbol
+		graph.addVertex("b");
+		     ^
+  symbol:   method addVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_14.java:25: error: cannot find symbol
+		graph.addVertex("c");
+		     ^
+  symbol:   method addVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph

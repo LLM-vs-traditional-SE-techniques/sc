@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_47.java:16: error: cannot find symbol
+        assertEquals(Boolean.TRUE, generator.fromString("true"));
+                                   ^
+  symbol:   variable generator
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:17: error: cannot find symbol
+        assertEquals(Boolean.FALSE, generator.fromString("false"));
+                                    ^
+  symbol:   variable generator
+  location: class CodexTest_0_8_47

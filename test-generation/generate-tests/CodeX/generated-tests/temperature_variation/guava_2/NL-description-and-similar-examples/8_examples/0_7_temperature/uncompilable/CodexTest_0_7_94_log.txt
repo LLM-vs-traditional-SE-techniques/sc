@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_94.java:26: error: cannot find symbol
+      BitArray ba = BitArray.from(value);
+      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_7_94
+CodexTest_0_7_94.java:26: error: cannot find symbol
+      BitArray ba = BitArray.from(value);
+                    ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_7_94
+CodexTest_0_7_94.java:30: error: cannot find symbol
+          BitArray.from(new BigInteger(1, bytes)),
+                            ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_94
+CodexTest_0_7_94.java:30: error: cannot find symbol
+          BitArray.from(new BigInteger(1, bytes)),
+          ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_7_94

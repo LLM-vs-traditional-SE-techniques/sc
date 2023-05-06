@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_4_60.java:23: error: unreported exception java.lang.Exception; must be caught or declared to be thrown
+    Instance result = instance.getAsInstance(model, random);
+                                            ^

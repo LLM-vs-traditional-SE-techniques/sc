@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_8_1.java:18: error: <identifier> expected
+Input: public static double twoNormSquared(double[] v) {
+     ^
+CodexTest_0_8_1.java:28: error: <identifier> expected
+Output: public void testTwoNormSquaredWhenVectorIsNull() {
+      ^
+CodexTest_0_8_1.java:37: error: <identifier> expected
+Input: public static double twoNormSquared(double[] v) {
+     ^
+CodexTest_0_8_1.java:47: error: <identifier> expected
+Output: public void testTwoNormSquaredWhenVectorHasValues() {
+      ^
+CodexTest_0_8_1.java:56: error: <identifier> expected
+Input: public static double twoNormSquared(double[] v) {
+     ^
+CodexTest_0_8_1.java:66: error: <identifier> expected
+Output: public void testTwo
+      ^
+CodexTest_0_8_1.java:67: error: '(' expected
+}
+^

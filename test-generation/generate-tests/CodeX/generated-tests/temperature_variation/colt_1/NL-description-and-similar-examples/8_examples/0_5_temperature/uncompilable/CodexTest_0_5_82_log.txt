@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_82.java:38: error: cannot find symbol
+			DoubleMatrix2D matrix = DoubleFactory2D.csv.make(data);
+			                                       ^
+  symbol:   variable csv
+  location: class cern.colt.matrix.DoubleFactory2D

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_13.java:67: error: cannot find symbol
+            Request request = new Request("index", "type", "id", "{}", parent);
+            ^
+  symbol:   class Request
+  location: class CodexTest_0_7_13
+CodexTest_0_7_13.java:67: error: cannot find symbol
+            Request request = new Request("index", "type", "id", "{}", parent);
+                                  ^
+  symbol:   class Request
+  location: class CodexTest_0_7_13
+CodexTest_0_7_13.java:68: error: cannot find symbol
+            assertThat(request.parent(), equalTo(parent));
+                                         ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_7_13

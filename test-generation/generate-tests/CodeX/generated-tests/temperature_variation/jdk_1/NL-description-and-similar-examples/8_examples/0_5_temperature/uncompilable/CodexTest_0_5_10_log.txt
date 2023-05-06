@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_5_10.java:21: error: cannot find symbol
+        assertEquals("1", a.remove(0));
+                          ^
+  symbol:   variable a
+  location: class CodexTest_0_5_10
+CodexTest_0_5_10.java:22: error: cannot find symbol
+        assertEquals("two", a.remove(0));
+                            ^
+  symbol:   variable a
+  location: class CodexTest_0_5_10
+CodexTest_0_5_10.java:23: error: cannot find symbol
+        assertEquals("3", a.remove(0));
+                          ^
+  symbol:   variable a
+  location: class CodexTest_0_5_10
+CodexTest_0_5_10.java:24: error: cannot find symbol
+        assertEquals("four", a.remove(0));
+                             ^
+  symbol:   variable a
+  location: class CodexTest_0_5_10
+CodexTest_0_5_10.java:25: error: cannot find symbol
+        assertEquals("five", a.remove(0));
+                             ^
+  symbol:   variable a
+  location: class CodexTest_0_5_10
+CodexTest_0_5_10.java:26: error: cannot find symbol
+        assertEquals("six", a.remove(0));
+                            ^
+  symbol:   variable a
+  location: class CodexTest_0_5_10
+CodexTest_0_5_10.java:28: error: cannot find symbol
+            a.remove(0);
+            ^
+  symbol:   variable a
+  location: class CodexTest_0_5_10

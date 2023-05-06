@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_4.java:19: error: cannot find symbol
+    Object[] intsWrapped = Arrays.stream(ints).boxed().toArray();
+                           ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:20: error: cannot find symbol
+    assertThat(Arrays.asList(intsWrapped), equalTo(Arrays.asList(ints)));
+               ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:20: error: cannot find symbol
+    assertThat(Arrays.asList(intsWrapped), equalTo(Arrays.asList(ints)));
+                                                   ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_7_4

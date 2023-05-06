@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_8.java:25: error: cannot find symbol
+		expectedException.expect(AssertionError.class);
+		^
+  symbol:   variable expectedException
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:26: error: cannot find symbol
+    expectedException.expectMessage("bits or reservedBits must not be -1");
+    ^
+  symbol:   variable expectedException
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:27: error: cannot find symbol
+    AlgVector v = new MyAlgVector(-1, -1);
+    ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:27: error: cannot find symbol
+    AlgVector v = new MyAlgVector(-1, -1);
+                      ^
+  symbol:   class MyAlgVector
+  location: class CodexTest_0_9_8

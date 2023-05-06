@@ -1,0 +1,109 @@
+isCompilable => false
+CodexTest_0_9_66.java:19: error: illegal start of type
+    for(int index_20 = 0 ; index_20 < a.edges.size();index_20++) { 
+    ^
+CodexTest_0_9_66.java:19: error: ')' expected
+    for(int index_20 = 0 ; index_20 < a.edges.size();index_20++) { 
+                    ^
+CodexTest_0_9_66.java:19: error: illegal start of type
+    for(int index_20 = 0 ; index_20 < a.edges.size();index_20++) { 
+                       ^
+CodexTest_0_9_66.java:19: error: <identifier> expected
+    for(int index_20 = 0 ; index_20 < a.edges.size();index_20++) { 
+                        ^
+CodexTest_0_9_66.java:19: error: ';' expected
+    for(int index_20 = 0 ; index_20 < a.edges.size();index_20++) { 
+                          ^
+CodexTest_0_9_66.java:19: error: > expected
+    for(int index_20 = 0 ; index_20 < a.edges.size();index_20++) { 
+                                       ^
+CodexTest_0_9_66.java:19: error: '(' expected
+    for(int index_20 = 0 ; index_20 < a.edges.size();index_20++) { 
+                                             ^
+CodexTest_0_9_66.java:19: error: invalid method declaration; return type required
+    for(int index_20 = 0 ; index_20 < a.edges.size();index_20++) { 
+                                              ^
+CodexTest_0_9_66.java:19: error: <identifier> expected
+    for(int index_20 = 0 ; index_20 < a.edges.size();index_20++) { 
+                                                             ^
+CodexTest_0_9_66.java:19: error: illegal start of type
+    for(int index_20 = 0 ; index_20 < a.edges.size();index_20++) { 
+                                                               ^
+CodexTest_0_9_66.java:19: error: <identifier> expected
+    for(int index_20 = 0 ; index_20 < a.edges.size();index_20++) { 
+                                                                ^
+CodexTest_0_9_66.java:19: error: ';' expected
+    for(int index_20 = 0 ; index_20 < a.edges.size();index_20++) { 
+                                                                  ^
+CodexTest_0_9_66.java:20: error: <identifier> expected
+     Edge e_22 = a.edges.get(index_20);
+              ^
+CodexTest_0_9_66.java:21: error: illegal start of type
+     if(e_22.getStartNode().equals(b) && e_22.getEndNode().equals(c))
+     ^
+CodexTest_0_9_66.java:21: error: <identifier> expected
+     if(e_22.getStartNode().equals(b) && e_22.getEndNode().equals(c))
+                         ^
+CodexTest_0_9_66.java:21: error: ';' expected
+     if(e_22.getStartNode().equals(b) && e_22.getEndNode().equals(c))
+                          ^
+CodexTest_0_9_66.java:21: error: illegal start of type
+     if(e_22.getStartNode().equals(b) && e_22.getEndNode().equals(c))
+                           ^
+CodexTest_0_9_66.java:21: error: <identifier> expected
+     if(e_22.getStartNode().equals(b) && e_22.getEndNode().equals(c))
+                                    ^
+CodexTest_0_9_66.java:21: error: ';' expected
+     if(e_22.getStartNode().equals(b) && e_22.getEndNode().equals(c))
+                                     ^
+CodexTest_0_9_66.java:24: error: class, interface, or enum expected
+    assertTrue(found_21);
+    ^
+CodexTest_0_9_66.java:26: error: class, interface, or enum expected
+Input: public boolean equals(Object o) {
+^
+CodexTest_0_9_66.java:26: error: class, interface, or enum expected
+Input: public boolean equals(Object o) {
+              ^
+CodexTest_0_9_66.java:29: error: class, interface, or enum expected
+		}
+		^
+CodexTest_0_9_66.java:32: error: class, interface, or enum expected
+		}
+		^
+CodexTest_0_9_66.java:34: error: class, interface, or enum expected
+		EqualsBuilder builder = new EqualsBuilder();
+		^
+CodexTest_0_9_66.java:35: error: class, interface, or enum expected
+		builder.append(this.id, p.id);
+		^
+CodexTest_0_9_66.java:36: error: class, interface, or enum expected
+		builder.append(this.firstname, p.firstname);
+		^
+CodexTest_0_9_66.java:37: error: class, interface, or enum expected
+		builder.append(this.lastname, p.lastname);
+		^
+CodexTest_0_9_66.java:38: error: class, interface, or enum expected
+		builder.append(this.email, p.email);
+		^
+CodexTest_0_9_66.java:39: error: class, interface, or enum expected
+		return builder.isEquals();
+		^
+CodexTest_0_9_66.java:40: error: class, interface, or enum expected
+	}
+	^
+CodexTest_0_9_66.java:42: error: class, interface, or enum expected
+	public void equals_differentLastName_returnsFalse() {
+	       ^
+CodexTest_0_9_66.java:45: error: class, interface, or enum expected
+		Person p2 = new Person(1, John, Wick, ...);
+		^
+CodexTest_0_9_66.java:47: error: class, interface, or enum expected
+		boolean actual = p1.equals(p2);
+		^
+CodexTest_0_9_66.java:49: error: class, interface, or enum expected
+		assertFalse(actual);
+		^
+CodexTest_0_9_66.java:50: error: class, interface, or enum expected
+	}
+	^

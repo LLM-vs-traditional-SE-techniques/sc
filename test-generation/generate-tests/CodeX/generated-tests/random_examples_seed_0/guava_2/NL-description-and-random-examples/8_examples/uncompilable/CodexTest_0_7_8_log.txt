@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_7_8.java:25: error: cannot find symbol
+        Random random = new Random(0);
+        ^
+  symbol:   class Random
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:25: error: cannot find symbol
+        Random random = new Random(0);
+                            ^
+  symbol:   class Random
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:33: error: cannot find symbol
+              ByteArrayBitArray bits =
+              ^
+  symbol:   class ByteArrayBitArray
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:34: error: cannot find symbol
+                  new ByteArrayBitArray(actual, offset, length * 8);
+                      ^
+  symbol:   class ByteArrayBitArray
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:36: error: cannot find symbol
+              assertBytesEqual(actual, offset, length, expected);
+              ^
+  symbol:   method assertBytesEqual(byte[],int,int,byte[])
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:37: error: cannot find symbol
+              assertBytesEqual(actual, offset + maxLength, length, expected);
+              ^
+  symbol:   method assertBytesEqual(byte[],int,int,byte[])
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:38: error: cannot find symbol
+              assertBytesEqual(actual, 0, offset, new byte[offset]);
+              ^
+  symbol:   method assertBytesEqual(byte[],int,int,byte[])
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:39: error: cannot find symbol
+              assertBytesEqual(actual, offset + length, maxLength, new byte[maxLength]);
+              ^
+  symbol:   method assertBytesEqual(byte[],int,int,byte[])
+  location: class CodexTest_0_7_8

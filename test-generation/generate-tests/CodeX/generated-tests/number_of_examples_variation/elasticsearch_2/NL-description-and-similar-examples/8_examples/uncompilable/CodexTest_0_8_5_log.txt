@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_5.java:66: error: cannot find symbol
+        assertThat(indexRequest.source("abc"), is(equalTo(indexRequest)));
+                                                  ^
+  symbol:   method equalTo(org.elasticsearch.action.index.IndexRequest)
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:71: error: cannot find symbol
+            assertThat(e, instanceOf(IllegalStateException.class));
+                          ^
+  symbol:   method instanceOf(java.lang.Class<java.lang.IllegalStateException>)
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:72: error: cannot find symbol
+            assertThat(e.getMessage(), is(equalTo("Failed to parse source")));
+                                          ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_5

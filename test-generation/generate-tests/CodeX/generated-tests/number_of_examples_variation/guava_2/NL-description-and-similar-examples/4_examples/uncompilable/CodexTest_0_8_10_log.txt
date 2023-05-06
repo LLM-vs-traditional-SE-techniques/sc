@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_10.java:25: error: cannot find symbol
+    BitArray ba = BitArrays.from(new byte[]{0b00000010, 0b00000100, 0b00001000});
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:25: error: cannot find symbol
+    BitArray ba = BitArrays.from(new byte[]{0b00000010, 0b00000100, 0b00001000});
+                  ^
+  symbol:   variable BitArrays
+  location: class CodexTest_0_8_10

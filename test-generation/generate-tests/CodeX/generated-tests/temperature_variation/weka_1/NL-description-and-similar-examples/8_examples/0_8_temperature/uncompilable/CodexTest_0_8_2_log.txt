@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_2.java:19: error: cannot find symbol
+        AlgMatrix instance = null;
+        ^
+  symbol:   class AlgMatrix
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:20: error: cannot find symbol
+        AlgMatrix expResult = null;
+        ^
+  symbol:   class AlgMatrix
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:21: error: cannot find symbol
+        AlgMatrix result = instance.copy();
+        ^
+  symbol:   class AlgMatrix
+  location: class CodexTest_0_8_2

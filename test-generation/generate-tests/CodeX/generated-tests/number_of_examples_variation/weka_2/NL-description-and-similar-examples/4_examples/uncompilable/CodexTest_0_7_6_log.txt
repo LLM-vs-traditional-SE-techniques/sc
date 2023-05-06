@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_6.java:20: error: cannot find symbol
+        ArrayList<Attribute> atts = new ArrayList<Attribute>(3);
+        ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:20: error: cannot find symbol
+        ArrayList<Attribute> atts = new ArrayList<Attribute>(3);
+                                        ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_7_6

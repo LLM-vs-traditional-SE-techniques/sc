@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_5_74.java:48: error: <identifier> expected
+        assertTrue(empty.contains(Integer.
+                                          ^
+CodexTest_0_5_74.java:49: error: reached end of file while parsing
+}
+ ^

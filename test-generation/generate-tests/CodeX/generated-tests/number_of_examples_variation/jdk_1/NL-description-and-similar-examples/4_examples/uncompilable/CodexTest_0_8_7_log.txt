@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_8_7.java:21: error: cannot find symbol
+        List<Point> list = new ArrayList<Point>();
+             ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:21: error: cannot find symbol
+        List<Point> list = new ArrayList<Point>();
+                                         ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:22: error: cannot find symbol
+        list.add(new Point(1, 2));
+                     ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:23: error: cannot find symbol
+        list.add(new Point(3, 4));
+                     ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:24: error: cannot find symbol
+        list.add(new Point(5, 6));
+                     ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:25: error: cannot find symbol
+        list.add(new Point(7, 8));
+                     ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:26: error: cannot find symbol
+        list.add(new Point(9, 10));
+                     ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:27: error: cannot find symbol
+        list.add(new Point(11, 12));
+                     ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:28: error: cannot find symbol
+        assertEquals(list.remove(0), new Point(1, 2));
+                                         ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:29: error: cannot find symbol
+        assertEquals(list.remove(1), new Point(5, 6));
+                                         ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:30: error: cannot find symbol
+        assertEquals(list.remove(0), new Point(3, 4));
+                                         ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:31: error: cannot find symbol
+        assertEquals(list.remove(1), new Point(9, 10));
+                                         ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:32: error: cannot find symbol
+        assertEquals(list.remove(0), new Point(7, 8));
+                                         ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:33: error: cannot find symbol
+        assertEquals(list.remove(0), new Point(11, 12));
+                                         ^
+  symbol:   class Point
+  location: class CodexTest_0_8_7

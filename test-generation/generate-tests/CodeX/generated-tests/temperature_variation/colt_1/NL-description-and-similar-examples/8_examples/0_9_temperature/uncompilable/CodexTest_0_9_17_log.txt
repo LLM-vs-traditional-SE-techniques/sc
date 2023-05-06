@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_17.java:65: error: ')' expected
+          if (x[i] == y
+                       ^
+CodexTest_0_9_17.java:66: error: illegal start of statement
+}
+^
+CodexTest_0_9_17.java:66: error: reached end of file while parsing
+}
+ ^

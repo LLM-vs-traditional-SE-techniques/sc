@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_91.java:21: error: cannot find symbol
+        assertTrue(collection.contains(1));
+                   ^
+  symbol:   variable collection
+  location: class CodexTest_0_7_91
+CodexTest_0_7_91.java:22: error: cannot find symbol
+        assertTrue(collection.contains(2));
+                   ^
+  symbol:   variable collection
+  location: class CodexTest_0_7_91
+CodexTest_0_7_91.java:23: error: cannot find symbol
+        assertTrue(collection.contains(3));
+                   ^
+  symbol:   variable collection
+  location: class CodexTest_0_7_91
+CodexTest_0_7_91.java:24: error: cannot find symbol
+        assertFalse(collection.contains(4));
+                    ^
+  symbol:   variable collection
+  location: class CodexTest_0_7_91

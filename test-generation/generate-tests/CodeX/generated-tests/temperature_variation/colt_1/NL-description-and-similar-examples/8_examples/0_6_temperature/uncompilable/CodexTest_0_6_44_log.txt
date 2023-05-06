@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_6_44.java:38: error: incompatible types: cern.colt.matrix.DoubleMatrix1D cannot be converted to cern.colt.matrix.impl.DenseDoubleMatrix1D
+        DenseDoubleMatrix1D dm_copy = dm.copy();
+                                             ^

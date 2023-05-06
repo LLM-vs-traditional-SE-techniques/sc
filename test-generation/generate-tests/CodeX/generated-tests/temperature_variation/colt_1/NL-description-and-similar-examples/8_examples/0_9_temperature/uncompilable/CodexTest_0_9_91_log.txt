@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_91.java:69: error: ')' expected
+                asertdoubleEquals(result, 0.9877659459927653, 0.9092974268
+                                                                          ^
+CodexTest_0_9_91.java:70: error: reached end of file while parsing
+}
+ ^

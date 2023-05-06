@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_13.java:22: error: cannot find symbol
+        FastList<Double> c = new FastList<Double>(a);
+        ^
+  symbol:   class FastList
+  location: class CodexTest_0_8_13
+CodexTest_0_8_13.java:22: error: cannot find symbol
+        FastList<Double> c = new FastList<Double>(a);
+                                 ^
+  symbol:   class FastList
+  location: class CodexTest_0_8_13

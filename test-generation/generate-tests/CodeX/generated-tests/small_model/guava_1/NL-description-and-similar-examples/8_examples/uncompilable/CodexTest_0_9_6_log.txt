@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_6.java:25: error: <identifier> expected
+Input: public static double toRadians(double angdeg) {
+     ^
+CodexTest_0_9_6.java:28: error: <identifier> expected
+Output: public void testToRadians() {
+      ^
+CodexTest_0_9_6.java:35: error: reached end of file while parsing
+}
+ ^

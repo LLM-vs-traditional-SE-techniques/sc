@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_2_78.java:20: error: weka.core.Instance is abstract; cannot be instantiated
+    Instances insts = new Instances(new Instance(numAtts));
+                                    ^
+CodexTest_0_2_78.java:23: error: weka.core.Instance is abstract; cannot be instantiated
+      insts.add(new Instance(1.0, new double[numAtts]));
+                ^
+Note: CodexTest_0_2_78.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

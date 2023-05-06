@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_76.java:66: error: cannot find symbol
+        UpdateRequest updateRequest = new UpdateRequest(parent, "type", "id");
+        ^
+  symbol:   class UpdateRequest
+  location: class CodexTest_0_7_76
+CodexTest_0_7_76.java:66: error: cannot find symbol
+        UpdateRequest updateRequest = new UpdateRequest(parent, "type", "id");
+                                          ^
+  symbol:   class UpdateRequest
+  location: class CodexTest_0_7_76

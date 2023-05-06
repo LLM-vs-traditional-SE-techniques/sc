@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_10.java:23: error: <identifier> expected
+Input: public boolean hasViews() {
+     ^
+CodexTest_0_7_10.java:26: error: <identifier> expected
+Output: public void testHasViews() {
+      ^

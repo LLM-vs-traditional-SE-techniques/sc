@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_9.java:21: error: cannot find symbol
+			instance.setDataset(new Instances("test", new ArrayList<Attribute>(), 0));
+			                                              ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:25: error: cannot find symbol
+			Instance result = new DenseDoubleMatrix1D(elements).getAsInstance(instance.dataset(), new Random());
+			                      ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_3_9

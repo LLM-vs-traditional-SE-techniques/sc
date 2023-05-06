@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_11.java:66: error: cannot find symbol
+        request.source(mapBuilder().put("foo", "gbkbar").put("gbkfoo", "bar").map());
+                       ^
+  symbol:   method mapBuilder()
+  location: class CodexTest_0_9_11
+CodexTest_0_9_11.java:67: error: cannot find symbol
+        assertThat(request.source().toUtf8(), equalTo("{\"gbkfoo\":\"bar\",\"foo\":\"gbkbar\"}"));
+                                   ^
+  symbol:   method toUtf8()
+  location: class org.elasticsearch.common.bytes.BytesReference
+CodexTest_0_9_11.java:67: error: cannot find symbol
+        assertThat(request.source().toUtf8(), equalTo("{\"gbkfoo\":\"bar\",\"foo\":\"gbkbar\"}"));
+                                              ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_11

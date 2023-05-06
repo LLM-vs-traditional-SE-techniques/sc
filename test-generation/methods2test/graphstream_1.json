@@ -1,0 +1,21 @@
+{
+	"project": "Graphstream",
+	"package": "org.graphstream.graph",
+	"class": "Path",
+	"method_signature": "boolean contains(Edge edge)",
+	"method": "public boolean contains(Edge edge) {\n		return edgePath.contains(edge);\n	}",
+	"helpers": ["Path", "Edge popEdge()"],
+	"example_same_class": {
+		"method_signature": "void add(Edge edge)",
+		"method": "public void add(Edge edge) {\n		if (nodePath.isEmpty()) {\n			add(null, edge);\n		} else {\n			add(nodePath.peek(), edge);\n		}	}",
+		"test": "@Test(expected = IllegalArgumentException.class)\n	public void add_whenAddingEdgeRootMustBeSet() {\n		Graph graph = new DefaultGraph(\"test\");\n		graph.setStrict(false);\n		graph.setAutoCreate(true);\n\n		graph.addEdge(\"ab\", \"a\", \"b\");\n		graph.addEdge(\"bc\", \"b\", \"c\");\n		graph.addEdge(\"cd\", \"c\", \"d\");\n		Path path = new Path();\n\n		// this has to fail as root of the path is not set\n		path.add(graph.getEdge(\"ab\"));\n	}"
+	},
+	"example_different_project": {
+		"id": "colt_1",
+		"method_signature": "double max()",
+		"method": "public synchronized double max() {\n	if (! isIncrementalStatValid) updateIncrementalStats();\n	return this.max;\n}",
+		"test": "public static void testMax() {\n  double[] temp = new double[2];\n\n   temp[0] = 8.9;\n  temp[1] = 1;\n\n   DenseDoubleMatrix1D d1Double = new DenseDoubleMatrix1D(temp);\n    hep.aida.bin.DynamicBin1D d1ynamicBin = cern.colt.matrix.doublealgo.Statistic.bin(d1Double);\n   double max = d1ynamicBin.max();\n   System.out.println(\"max = \"+ max);\n}"
+	},
+	"method_class_imports": "import org.graphstream.graph.*;\nimport java.util.Collection;\nimport java.util.List;\nimport java.util.Stack;\nimport java.util.logging.Logger;\nimport java.util.stream.Stream;",
+	"test_class_imports": "import org.graphstream.graph.Graph;\nimport org.graphstream.graph.Path;\nimport org.graphstream.graph.implementations.DefaultGraph;"
+}

@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_5.java:23: error: <identifier> expected
+Input:  public boolean convertToBoolean(Object value) {
+     ^
+CodexTest_0_9_5.java:29: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_5.java:38: error: <identifier> expected
+Input:  public boolean convertToBoolean(Object value) {
+     ^
+CodexTest_0_9_5.java:44: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_5.java:53: error: <identifier> expected
+Input:  public boolean convertToBoolean(Object value) {
+     ^
+CodexTest_0_9_5.java:59: error: <identifier> expected
+Output:
+      ^

@@ -1,0 +1,4 @@
+org.elasticsearch.action.index.IndexRequest()
+org.elasticsearch.action.index.IndexRequest.sourceAsMap()
+org.elasticsearch.action.index.IndexRequest.getContentType()
+org.elasticsearch.action.index.IndexRequest.source(java.util.Map, org.elasticsearch.common.xcontent.XContentType)

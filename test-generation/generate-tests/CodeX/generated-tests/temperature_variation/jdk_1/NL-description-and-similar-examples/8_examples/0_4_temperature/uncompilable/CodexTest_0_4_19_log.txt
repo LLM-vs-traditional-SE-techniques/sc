@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_4_19.java:21: error: cannot find symbol
+        assertEquals("Should remove element at index 0", new Integer(2), list.remove(0));
+                                                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_4_19
+CodexTest_0_4_19.java:22: error: cannot find symbol
+        assertEquals("Should remove element at index 2", new Integer(4), list.remove(2));
+                                                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_4_19
+CodexTest_0_4_19.java:23: error: cannot find symbol
+        assertEquals("Should remove element at index 0", new Integer(1), list.remove(0));
+                                                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_4_19
+CodexTest_0_4_19.java:24: error: cannot find symbol
+        assertEquals("Should remove element at index 0", new Integer(3), list.remove(0));
+                                                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_4_19
+CodexTest_0_4_19.java:25: error: cannot find symbol
+        assertTrue("List should be empty", list.isEmpty());
+                                           ^
+  symbol:   variable list
+  location: class CodexTest_0_4_19

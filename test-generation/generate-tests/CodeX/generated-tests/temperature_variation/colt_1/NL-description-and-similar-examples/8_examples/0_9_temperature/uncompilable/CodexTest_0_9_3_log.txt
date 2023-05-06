@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_9_3.java:30: error: cannot find symbol
+        checkAssign(this.getRowMatrix(this.rowIndexes), this.getColumnMatrix(this.colIndexes));
+                                          ^
+  symbol: variable rowIndexes
+CodexTest_0_9_3.java:30: error: cannot find symbol
+        checkAssign(this.getRowMatrix(this.rowIndexes), this.getColumnMatrix(this.colIndexes));
+                                                                                 ^
+  symbol: variable colIndexes

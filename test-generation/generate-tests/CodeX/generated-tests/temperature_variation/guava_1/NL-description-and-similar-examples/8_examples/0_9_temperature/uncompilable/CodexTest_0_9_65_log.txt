@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_65.java:29: error: <identifier> expected
+Input: public static SimpleRegression createRegression(double[][] data,boolean includeIntercept) throws ModelSpecificationException {
+     ^
+CodexTest_0_9_65.java:47: error: <identifier> expected
+Output: public void testCreateRegresssion() {
+      ^

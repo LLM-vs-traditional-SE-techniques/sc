@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_42.java:22: error: cannot find symbol
+        path.setRoot(new DefaultNode("a"));
+                         ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_7_42

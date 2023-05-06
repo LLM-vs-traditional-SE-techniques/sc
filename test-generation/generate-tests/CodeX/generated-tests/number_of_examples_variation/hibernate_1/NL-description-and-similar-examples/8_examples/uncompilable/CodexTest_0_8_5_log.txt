@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_5.java:42: error: <identifier> expected
+Input: public static int getRawBits(double value) {
+     ^
+CodexTest_0_8_5.java:49: error: <identifier> expected
+Output: public void testGetRawBits() {
+      ^
+CodexTest_0_8_5.java:56: error: ')' expected
+		assertEquals(0xbff00000, DoubleUt
+		                                 ^
+CodexTest_0_8_5.java:57: error: reached end of file while parsing
+}
+ ^

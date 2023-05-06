@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_1.java:67: error: cannot find symbol
+        JSONObject jsonObject = new JSONObject();
+        ^
+  symbol:   class JSONObject
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:67: error: cannot find symbol
+        JSONObject jsonObject = new JSONObject();
+                                    ^
+  symbol:   class JSONObject
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:71: error: cannot find symbol
+        JSONAssert.assertEquals(jsonObject.toString(), request.source().utf8ToString(), false);
+        ^
+  symbol:   variable JSONAssert
+  location: class CodexTest_0_9_1

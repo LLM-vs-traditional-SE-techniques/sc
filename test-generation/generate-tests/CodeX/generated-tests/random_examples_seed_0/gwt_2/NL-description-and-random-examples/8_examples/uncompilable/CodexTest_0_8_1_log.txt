@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_1.java:15: error: cannot find symbol
+     UncaughtExceptionHandler handler =
+     ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:16: error: cannot find symbol
+      AsyncTask.getUncaughtExceptionHandler();
+      ^
+  symbol:   variable AsyncTask
+  location: class CodexTest_0_8_1

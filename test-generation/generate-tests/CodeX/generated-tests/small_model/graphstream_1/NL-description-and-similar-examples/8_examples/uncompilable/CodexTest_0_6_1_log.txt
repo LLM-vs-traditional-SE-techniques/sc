@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_1.java:21: error: cannot find symbol
+    path.add(nodeA);
+             ^
+  symbol:   variable nodeA
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:22: error: cannot find symbol
+    assertTrue(path.contains(nodeA));
+                             ^
+  symbol:   variable nodeA
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:23: error: cannot find symbol
+    assertFalse(path.contains(nodeB));
+                              ^
+  symbol:   variable nodeB
+  location: class CodexTest_0_6_1

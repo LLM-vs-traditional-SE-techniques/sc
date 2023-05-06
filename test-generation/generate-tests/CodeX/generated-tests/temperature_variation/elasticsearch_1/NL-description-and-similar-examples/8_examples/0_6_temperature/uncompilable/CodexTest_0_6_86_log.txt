@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_86.java:66: error: cannot find symbol
+        FetchSubPhaseContext context = createContext(parent);
+        ^
+  symbol:   class FetchSubPhaseContext
+  location: class CodexTest_0_6_86
+CodexTest_0_6_86.java:66: error: cannot find symbol
+        FetchSubPhaseContext context = createContext(parent);
+                                       ^
+  symbol:   method createContext(java.lang.String)
+  location: class CodexTest_0_6_86
+CodexTest_0_6_86.java:67: error: cannot find symbol
+        assertThat(context.parent(), equalTo(parent));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_6_86

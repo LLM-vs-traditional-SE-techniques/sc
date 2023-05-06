@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_5_4.java:34: error: cannot find symbol
+    DoubleMatrix2D res = matrix.like2D(2, 5);
+                               ^
+  symbol:   method like2D(int,int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+Note: CodexTest_0_5_4.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

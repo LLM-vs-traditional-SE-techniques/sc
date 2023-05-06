@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_3.java:16: error: cannot find symbol
+        assertEquals(Boolean.TRUE, Boolean.fromString(Boolean.TRUE.toString()));
+                                          ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_7_3.java:17: error: cannot find symbol
+        assertEquals(Boolean.FALSE, Boolean.fromString(Boolean.FALSE.toString()));
+                                           ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_7_3.java:19: error: cannot find symbol
+            Boolean.fromString("");
+                   ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean

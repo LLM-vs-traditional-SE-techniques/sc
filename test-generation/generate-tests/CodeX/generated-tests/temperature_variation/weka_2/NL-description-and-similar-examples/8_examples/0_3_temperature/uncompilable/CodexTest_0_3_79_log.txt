@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_3_79.java:28: error: variable numClasses is already defined in method testGetAsInstance()
+    int numClasses = 2;
+        ^
+CodexTest_0_3_79.java:29: error: variable numNumeric is already defined in method testGetAsInstance()
+    int numNumeric = 2;
+        ^
+CodexTest_0_3_79.java:30: error: variable numNominal is already defined in method testGetAsInstance()
+    int numNominal = 3;
+        ^
+CodexTest_0_3_79.java:31: error: variable numString is already defined in method testGetAsInstance()
+    int numString = 0;
+        ^
+CodexTest_0_3_79.java:32: error: variable numDate is already defined in method testGetAsInstance()
+    int numDate = 0;
+        ^
+CodexTest_0_3_79.java:33: error: variable numRelational is already defined in method testGetAsInstance()
+    int numRelational = 0;
+        ^
+CodexTest_0_3_79.java:35: error: cannot find symbol
+    Instances data = makeTestDataset(42, numAtts, numVals, numInsts, numClasses, numNumeric, numNominal, numString, numDate, numRelational);
+                     ^
+  symbol:   method makeTestDataset(int,int,int,int,int,int,int,int,int,int)
+  location: class CodexTest_0_3_79

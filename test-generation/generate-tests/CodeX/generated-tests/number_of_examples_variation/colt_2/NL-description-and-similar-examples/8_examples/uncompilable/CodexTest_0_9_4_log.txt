@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_4.java:35: error: cannot find symbol
+        A= genereteAMatrix(2,2);
+           ^
+  symbol:   method genereteAMatrix(int,int)
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:37: error: cannot find symbol
+        W= A.like2D(2, 2);
+        ^
+  symbol:   variable W
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:37: error: cannot find symbol
+        W= A.like2D(2, 2);
+            ^
+  symbol:   method like2D(int,int)
+  location: variable A of type cern.colt.matrix.DoubleMatrix2D

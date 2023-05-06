@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_7.java:20: error: cannot find symbol
+    Instances insts = new Instances(getName(), makeAttInfo(numAtts, 2), numInsts);
+                                    ^
+  symbol:   method getName()
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:20: error: cannot find symbol
+    Instances insts = new Instances(getName(), makeAttInfo(numAtts, 2), numInsts);
+                                               ^
+  symbol:   method makeAttInfo(int,int)
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:22: error: cannot find symbol
+      insts.add(makeRandomInstance(numAtts, 2));
+                ^
+  symbol:   method makeRandomInstance(int,int)
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:30: error: cannot find symbol
+      assertTrue(insts.instance(i).equals(inst.getAsInstance(insts, new Random(1))));
+                                              ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable inst of type weka.core.DenseInstance

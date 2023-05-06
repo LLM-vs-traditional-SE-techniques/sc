@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_1_8.java:24: error: ')' expected
+          if (j >= m_Elements
+                             ^
+CodexTest_0_1_8.java:25: error: illegal start of statement
+}
+^
+CodexTest_0_1_8.java:25: error: reached end of file while parsing
+}
+ ^

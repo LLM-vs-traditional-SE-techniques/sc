@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_2_50.java:44: error: not a statement
+			inst.insertAttributeAt
+			    ^
+CodexTest_0_2_50.java:44: error: ';' expected
+			inst.insertAttributeAt
+			                      ^
+CodexTest_0_2_50.java:45: error: reached end of file while parsing
+}
+ ^

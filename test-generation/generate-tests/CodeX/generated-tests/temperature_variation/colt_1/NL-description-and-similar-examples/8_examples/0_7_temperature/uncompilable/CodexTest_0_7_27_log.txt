@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_27.java:32: error: incompatible types: double[] cannot be converted to double[][]
+    DoubleMatrix1D vector = factory.make(values);
+                                         ^
+CodexTest_0_7_27.java:34: error: no suitable method found for assign(cern.colt.matrix.DoubleMatrix1D)
+    matrix.assign(vector);
+          ^
+    method cern.colt.matrix.DoubleMatrix2D.assign(double[][]) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix1D cannot be converted to double[][])
+    method cern.colt.matrix.DoubleMatrix2D.assign(double) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix1D cannot be converted to double)
+    method cern.colt.matrix.DoubleMatrix2D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix1D cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.DoubleMatrix2D.assign(cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix1D cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

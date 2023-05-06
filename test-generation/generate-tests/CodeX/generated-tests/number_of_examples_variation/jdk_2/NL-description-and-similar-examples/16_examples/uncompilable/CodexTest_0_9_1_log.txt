@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_1.java:21: error: cannot find symbol
+        SortedSet<E> empty = createEmptySet();
+                  ^
+  symbol:   class E
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:21: error: cannot find symbol
+        SortedSet<E> empty = createEmptySet();
+                             ^
+  symbol:   method createEmptySet()
+  location: class CodexTest_0_9_1

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_2.java:20: error: cannot find symbol
+    Instances data = makeTestDataset(numInstances, numAttributes);
+                     ^
+  symbol:   method makeTestDataset(int,int)
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:23: error: cannot find symbol
+      data.instance(i).randomize(random);
+                      ^
+  symbol:   method randomize(java.util.Random)
+  location: interface weka.core.Instance
+CodexTest_0_4_2.java:25: error: cannot find symbol
+    check(data);
+    ^
+  symbol:   method check(weka.core.Instances)
+  location: class CodexTest_0_4_2

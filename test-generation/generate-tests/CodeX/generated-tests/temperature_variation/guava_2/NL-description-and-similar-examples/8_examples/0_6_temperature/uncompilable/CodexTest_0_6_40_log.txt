@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_6_40.java:25: error: cannot find symbol
+    byte[] bytes = new byte[Longs.BYTES * 10];
+                            ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_40
+CodexTest_0_6_40.java:27: error: cannot find symbol
+    for (long i = 0; i < bytes.length / Longs.BYTES; i++) {
+                                        ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_40
+CodexTest_0_6_40.java:28: error: cannot find symbol
+      offset += Longs.BYTES;
+                ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_40
+CodexTest_0_6_40.java:30: error: cannot find symbol
+      Longs.writeLong(bytes, offset, value);
+      ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_40
+CodexTest_0_6_40.java:32: error: cannot find symbol
+    for (int i = 0; i < bytes.length / Longs.BYTES; i++) {
+                                       ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_40
+CodexTest_0_6_40.java:34: error: cannot find symbol
+      assertEquals(value, Longs.fromBytes(bytes, i * Longs.BYTES, Longs.BYTES));
+                                                     ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_40
+CodexTest_0_6_40.java:34: error: cannot find symbol
+      assertEquals(value, Longs.fromBytes(bytes, i * Longs.BYTES, Longs.BYTES));
+                                                                  ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_40
+CodexTest_0_6_40.java:34: error: cannot find symbol
+      assertEquals(value, Longs.fromBytes(bytes, i * Longs.BYTES, Longs.BYTES));
+                          ^
+  symbol:   variable Longs
+  location: class CodexTest_0_6_40

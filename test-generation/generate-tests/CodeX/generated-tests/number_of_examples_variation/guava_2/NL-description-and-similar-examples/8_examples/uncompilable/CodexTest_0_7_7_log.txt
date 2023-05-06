@@ -1,0 +1,81 @@
+isCompilable => false
+CodexTest_0_7_7.java:25: error: cannot find symbol
+    byte[] bytes = new byte[maxLength];
+                            ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:26: error: cannot find symbol
+    byte[] zeros = new byte[maxLength];
+                            ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:27: error: cannot find symbol
+    byte[] ones = ByteStreams.createByteArray(maxLength, (byte) 0xFF);
+                                              ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:27: error: cannot find symbol
+    byte[] ones = ByteStreams.createByteArray(maxLength, (byte) 0xFF);
+                  ^
+  symbol:   variable ByteStreams
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:28: error: cannot find symbol
+    byte[] random = createRandomByteArray(maxLength);
+                                          ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:29: error: cannot find symbol
+    Blob bitVector = new Blob(maxLength * 8);
+    ^
+  symbol:   class Blob
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:29: error: cannot find symbol
+    Blob bitVector = new Blob(maxLength * 8);
+                         ^
+  symbol:   class Blob
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:29: error: cannot find symbol
+    Blob bitVector = new Blob(maxLength * 8);
+                              ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:30: error: cannot find symbol
+    bitVector.setBits(0, maxLength * 8, random, 0, maxLength * 8);
+                         ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:30: error: cannot find symbol
+    bitVector.setBits(0, maxLength * 8, random, 0, maxLength * 8);
+                                                   ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:31: error: cannot find symbol
+    int numBytesWritten = bitVector.writeBytesTo(bytes, 0, maxLength);
+                                                           ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:32: error: cannot find symbol
+    assertEquals(maxLength, numBytesWritten);
+                 ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:34: error: cannot find symbol
+    bitVector.setBits(0, maxLength * 8, ones, 0, maxLength * 8);
+                         ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:34: error: cannot find symbol
+    bitVector.setBits(0, maxLength * 8, ones, 0, maxLength * 8);
+                                                 ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:35: error: cannot find symbol
+    numBytesWritten = bitVector.writeBytesTo(bytes, 0, maxLength);
+                                                       ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:36: error: cannot find symbol
+    assertEquals(maxLength, numBytesWritten);
+                 ^
+  symbol:   variable maxLength
+  location: class CodexTest_0_7_7

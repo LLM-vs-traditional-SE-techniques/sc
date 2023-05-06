@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_6.java:21: error: <identifier> expected
+Input: public void add(Edge edge) {
+     ^
+CodexTest_0_8_6.java:27: error: <identifier> expected
+Output: 
+      ^

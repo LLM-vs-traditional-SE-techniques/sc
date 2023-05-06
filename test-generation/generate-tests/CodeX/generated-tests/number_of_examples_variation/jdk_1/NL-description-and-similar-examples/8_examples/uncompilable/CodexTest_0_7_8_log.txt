@@ -1,0 +1,89 @@
+isCompilable => false
+CodexTest_0_7_8.java:21: error: cannot find symbol
+        this.list.add("A");
+            ^
+  symbol: variable list
+CodexTest_0_7_8.java:22: error: cannot find symbol
+        this.list.add("B");
+            ^
+  symbol: variable list
+CodexTest_0_7_8.java:23: error: cannot find symbol
+        this.list.add("C");
+            ^
+  symbol: variable list
+CodexTest_0_7_8.java:24: error: cannot find symbol
+        this.list.add("D");
+            ^
+  symbol: variable list
+CodexTest_0_7_8.java:25: error: cannot find symbol
+        this.list.add("E");
+            ^
+  symbol: variable list
+CodexTest_0_7_8.java:26: error: cannot find symbol
+        this.list.add("F");
+            ^
+  symbol: variable list
+CodexTest_0_7_8.java:27: error: cannot find symbol
+        this.list.add("G");
+            ^
+  symbol: variable list
+CodexTest_0_7_8.java:28: error: cannot find symbol
+        this.list.add("H");
+            ^
+  symbol: variable list
+CodexTest_0_7_8.java:29: error: cannot find symbol
+        this.list.add("I");
+            ^
+  symbol: variable list
+CodexTest_0_7_8.java:30: error: cannot find symbol
+        assertEquals("C", this.list.remove(2));
+                              ^
+  symbol: variable list
+CodexTest_0_7_8.java:31: error: cannot find symbol
+        assertEquals("B", this.list.get(1));
+                              ^
+  symbol: variable list
+CodexTest_0_7_8.java:32: error: cannot find symbol
+        assertEquals("D", this.list.get(2));
+                              ^
+  symbol: variable list
+CodexTest_0_7_8.java:33: error: cannot find symbol
+        assertEquals("I", this.list.get(7));
+                              ^
+  symbol: variable list
+CodexTest_0_7_8.java:34: error: cannot find symbol
+        assertEquals("H", this.list.get(8));
+                              ^
+  symbol: variable list
+CodexTest_0_7_8.java:35: error: cannot find symbol
+        assertEquals("G", this.list.remove(7));
+                              ^
+  symbol: variable list
+CodexTest_0_7_8.java:36: error: cannot find symbol
+        assertEquals("F", this.list.remove(5));
+                              ^
+  symbol: variable list
+CodexTest_0_7_8.java:37: error: cannot find symbol
+        assertEquals("E", this.list.remove(4));
+                              ^
+  symbol: variable list
+CodexTest_0_7_8.java:38: error: cannot find symbol
+        assertEquals("D", this.list.remove(3));
+                              ^
+  symbol: variable list
+CodexTest_0_7_8.java:39: error: cannot find symbol
+        assertEquals("B", this.list.remove(1));
+                              ^
+  symbol: variable list
+CodexTest_0_7_8.java:40: error: cannot find symbol
+        assertEquals("A", this.list.remove(0));
+                              ^
+  symbol: variable list
+CodexTest_0_7_8.java:41: error: cannot find symbol
+        assertEquals("H", this.list.remove(0));
+                              ^
+  symbol: variable list
+CodexTest_0_7_8.java:42: error: cannot find symbol
+        assertEquals(0, this.list.size());
+                            ^
+  symbol: variable list

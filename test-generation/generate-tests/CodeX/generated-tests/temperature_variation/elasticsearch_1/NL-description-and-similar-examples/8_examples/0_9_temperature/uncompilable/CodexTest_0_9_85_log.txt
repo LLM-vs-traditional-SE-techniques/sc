@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_9_85.java:64: error: illegal start of type
+    if (value == null)
+    ^
+CodexTest_0_9_85.java:64: error: <identifier> expected
+    if (value == null)
+             ^
+CodexTest_0_9_85.java:64: error: ';' expected
+    if (value == null)
+                ^
+CodexTest_0_9_85.java:64: error: illegal start of type
+    if (value == null)
+                     ^
+CodexTest_0_9_85.java:64: error: <identifier> expected
+    if (value == null)
+                      ^
+CodexTest_0_9_85.java:65: error: ';' expected
+    {
+     ^
+CodexTest_0_9_85.java:68: error: class, interface, or enum expected
+}
+^

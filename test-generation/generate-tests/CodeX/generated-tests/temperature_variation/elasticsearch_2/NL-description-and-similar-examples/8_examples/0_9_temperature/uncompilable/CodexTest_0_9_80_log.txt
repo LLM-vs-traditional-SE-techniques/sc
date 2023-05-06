@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_80.java:66: error: reference to value is ambiguous
+            new IndexRequest("myindex", "mytype").source(XContentFactory.jsonBuilder().startObject().value(null).endObject());
+                                                                                                    ^
+  both method value(org.elasticsearch.common.geo.GeoPoint) in org.elasticsearch.common.xcontent.XContentBuilder and method value(java.nio.file.Path) in org.elasticsearch.common.xcontent.XContentBuilder match
+CodexTest_0_9_80.java:69: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("field [null] is defined as an object in mapping [mytype] but this name is already used for a field in other types"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_80

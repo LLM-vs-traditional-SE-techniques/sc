@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_2.java:31: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+            Vector1D v = new Vector1D(1, 2);
+                                         ^
+CodexTest_0_8_2.java:32: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+            Assert.assertEquals(13, DoubleEigenvalueDecomposition.distanceSq(v, new Vector1D(3, 6)), 1e-12);
+                                                                                                ^
+CodexTest_0_8_2.java:32: error: cannot find symbol
+            Assert.assertEquals(13, DoubleEigenvalueDecomposition.distanceSq(v, new Vector1D(3, 6)), 1e-12);
+                                    ^
+  symbol:   variable DoubleEigenvalueDecomposition
+  location: class CodexTest_0_8_2
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

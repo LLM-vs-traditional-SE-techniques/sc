@@ -1,0 +1,30 @@
+isCompilable => false
+CodexTest_0_8_1.java:19: error: no suitable constructor found for AlgVector(no arguments)
+    AlgVector fixture = new AlgVector();
+                        ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instances,java.util.Random) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_8_1.java:25: error: no suitable method found for assertArrayEquals(double[],double[])
+    assertArrayEquals(new double[] {4.6,2.4,10}, result);
+    ^
+    method org.junit.Assert.assertArrayEquals(long[],long[]) is not applicable
+      (argument mismatch; double[] cannot be converted to long[])
+    method org.junit.Assert.assertArrayEquals(int[],int[]) is not applicable
+      (argument mismatch; double[] cannot be converted to int[])
+    method org.junit.Assert.assertArrayEquals(short[],short[]) is not applicable
+      (argument mismatch; double[] cannot be converted to short[])
+    method org.junit.Assert.assertArrayEquals(char[],char[]) is not applicable
+      (argument mismatch; double[] cannot be converted to char[])
+    method org.junit.Assert.assertArrayEquals(byte[],byte[]) is not applicable
+      (argument mismatch; double[] cannot be converted to byte[])
+    method org.junit.Assert.assertArrayEquals(boolean[],boolean[]) is not applicable
+      (argument mismatch; double[] cannot be converted to boolean[])
+    method org.junit.Assert.assertArrayEquals(java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; double[] cannot be converted to java.lang.Object[])
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

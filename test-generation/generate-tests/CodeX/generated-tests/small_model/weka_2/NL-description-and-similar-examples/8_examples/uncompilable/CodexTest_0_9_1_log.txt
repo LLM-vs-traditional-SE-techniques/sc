@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_1.java:17: error: <identifier> expected
+  Input: public Instance getAsInstance(Instances model, Random random) {
+       ^
+CodexTest_0_9_1.java:23: error: ')' expected
+            newInst.setValue(i, m
+                                 ^
+CodexTest_0_9_1.java:24: error: reached end of file while parsing
+}
+ ^

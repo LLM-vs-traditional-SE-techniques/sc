@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_7_6.java:20: error: cannot find symbol
+      GinModule ginModule = Mockito.mock(GinModule.class);
+      ^
+  symbol:   class GinModule
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:20: error: cannot find symbol
+      GinModule ginModule = Mockito.mock(GinModule.class);
+                                         ^
+  symbol:   class GinModule
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:20: error: cannot find symbol
+      GinModule ginModule = Mockito.mock(GinModule.class);
+                            ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:21: error: cannot find symbol
+      AbstractGinModule abstractGinModule = new AbstractGinModule() {
+      ^
+  symbol:   class AbstractGinModule
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:21: error: cannot find symbol
+      AbstractGinModule abstractGinModule = new AbstractGinModule() {
+                                                ^
+  symbol:   class AbstractGinModule
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:26: error: cannot find symbol
+      Mockito.verify(ginModule, Mockito.never()).configure(Mockito.any(Binder.class));
+                                                                       ^
+  symbol:   class Binder
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:26: error: cannot find symbol
+      Mockito.verify(ginModule, Mockito.never()).configure(Mockito.any(Binder.class));
+                                                           ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:26: error: cannot find symbol
+      Mockito.verify(ginModule, Mockito.never()).configure(Mockito.any(Binder.class));
+                                ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:26: error: cannot find symbol
+      Mockito.verify(ginModule, Mockito.never()).configure(Mockito.any(Binder.class));
+      ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_7_6

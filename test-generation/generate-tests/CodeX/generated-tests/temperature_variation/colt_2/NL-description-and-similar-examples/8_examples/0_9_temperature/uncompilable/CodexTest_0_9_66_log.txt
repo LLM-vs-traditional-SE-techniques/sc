@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_66.java:32: error: cannot find symbol
+        assertArrayEquals(new double[]{1, 2, 3}, matrix.getRow(1), 0);
+                                                       ^
+  symbol:   method getRow(int)
+  location: variable matrix of type cern.colt.matrix.impl.DenseDoubleMatrix2D
+CodexTest_0_9_66.java:33: error: cannot find symbol
+        assertArrayEquals(new double[]{1, 5}, matrix.getRow(1, 2, 1, 2));
+                                                    ^
+  symbol:   method getRow(int,int,int,int)
+  location: variable matrix of type cern.colt.matrix.impl.DenseDoubleMatrix2D
+CodexTest_0_9_66.java:34: error: cannot find symbol
+        assertArrayEquals(new double[]{1, 4}, matrix.getColumn(2, 3, 0, 2));
+                                                    ^
+  symbol:   method getColumn(int,int,int,int)
+  location: variable matrix of type cern.colt.matrix.impl.DenseDoubleMatrix2D
+CodexTest_0_9_66.java:36: error: cannot find symbol
+        assertArrayEquals(new double[]{1, 7, 3}, matrix.getRow(1), 0);
+                                                       ^
+  symbol:   method getRow(int)
+  location: variable matrix of type cern.colt.matrix.impl.DenseDoubleMatrix2D
+CodexTest_0_9_66.java:38: error: cannot find symbol
+        assertArrayEquals(new double[]{3}, matrix.getRow(0, 0, 1, 1));
+                                                 ^
+  symbol:   method getRow(int,int,int,int)
+  location: variable matrix of type cern.colt.matrix.impl.DenseDoubleMatrix2D

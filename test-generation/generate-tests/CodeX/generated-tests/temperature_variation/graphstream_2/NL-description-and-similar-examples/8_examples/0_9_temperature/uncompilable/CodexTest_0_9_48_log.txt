@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_48.java:19: error: <identifier> expected
+Input: public MapBuilder<K, V> add(K k, V v) {
+     ^
+CodexTest_0_9_48.java:23: error: <identifier> expected
+Output: @Test
+      ^

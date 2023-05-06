@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_5_84.java:21: error: cannot find symbol
+        for (int i = 0; i < size(); i++) {
+                            ^
+  symbol:   method size()
+  location: class CodexTest_0_5_84
+CodexTest_0_5_84.java:23: error: cannot find symbol
+            assertEquals(s, list.remove(0));
+                            ^
+  symbol:   variable list
+  location: class CodexTest_0_5_84
+CodexTest_0_5_84.java:25: error: cannot find symbol
+        expectIndexOutOfBoundsException(() -> list.remove(0));
+        ^
+  symbol:   method expectIndexOutOfBoundsException(()->list.remove(0))
+  location: class CodexTest_0_5_84
+CodexTest_0_5_84.java:25: error: cannot find symbol
+        expectIndexOutOfBoundsException(() -> list.remove(0));
+                                              ^
+  symbol:   variable list
+  location: class CodexTest_0_5_84
+CodexTest_0_5_84.java:26: error: cannot find symbol
+        expectIndexOutOfBoundsException(() -> list.remove(1));
+        ^
+  symbol:   method expectIndexOutOfBoundsException(()->list.remove(1))
+  location: class CodexTest_0_5_84
+CodexTest_0_5_84.java:26: error: cannot find symbol
+        expectIndexOutOfBoundsException(() -> list.remove(1));
+                                              ^
+  symbol:   variable list
+  location: class CodexTest_0_5_84
+CodexTest_0_5_84.java:27: error: cannot find symbol
+        expectIndexOutOfBoundsException(() -> list.remove(Integer.MAX_VALUE));
+        ^
+  symbol:   method expectIndexOutOfBoundsException(()->list.r[...]ALUE))
+  location: class CodexTest_0_5_84
+CodexTest_0_5_84.java:27: error: cannot find symbol
+        expectIndexOutOfBoundsException(() -> list.remove(Integer.MAX_VALUE));
+                                              ^
+  symbol:   variable list
+  location: class CodexTest_0_5_84

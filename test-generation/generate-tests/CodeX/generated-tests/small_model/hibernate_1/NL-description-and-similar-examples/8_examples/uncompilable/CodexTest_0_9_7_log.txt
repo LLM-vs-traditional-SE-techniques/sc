@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_7.java:16: error: cannot find symbol
+    EasyMock.expect(simpleTestInterfaceMock.returnTrue()).andReturn(Boolean.TRUE).once();
+                    ^
+  symbol:   variable simpleTestInterfaceMock
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:16: error: cannot find symbol
+    EasyMock.expect(simpleTestInterfaceMock.returnTrue()).andReturn(Boolean.TRUE).once();
+    ^
+  symbol:   variable EasyMock
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:17: error: cannot find symbol
+    EasyMock.replay(simpleTestInterfaceMock);
+                    ^
+  symbol:   variable simpleTestInterfaceMock
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:17: error: cannot find symbol
+    EasyMock.replay(simpleTestInterfaceMock);
+    ^
+  symbol:   variable EasyMock
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:18: error: cannot find symbol
+    assertEquals((short) 1, model.simpleTestMethod(true));
+                            ^
+  symbol:   variable model
+  location: class CodexTest_0_9_7

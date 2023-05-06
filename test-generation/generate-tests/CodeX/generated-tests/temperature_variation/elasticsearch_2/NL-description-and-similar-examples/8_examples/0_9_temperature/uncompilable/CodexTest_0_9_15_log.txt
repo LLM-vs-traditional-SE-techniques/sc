@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_15.java:69: error: cannot find symbol
+        Request request = new Request("PUT", "/my_index/_mappings/my_type")
+        ^
+  symbol:   class Request
+  location: class CodexTest_0_9_15
+CodexTest_0_9_15.java:69: error: cannot find symbol
+        Request request = new Request("PUT", "/my_index/_mappings/my_type")
+                              ^
+  symbol:   class Request
+  location: class CodexTest_0_9_15
+CodexTest_0_9_15.java:72: error: cannot find symbol
+        getRestClient().performRequest(request);
+        ^
+  symbol:   method getRestClient()
+  location: class CodexTest_0_9_15
+CodexTest_0_9_15.java:73: error: cannot find symbol
+      } catch(ResponseException e) {
+              ^
+  symbol:   class ResponseException
+  location: class CodexTest_0_9_15
+CodexTest_0_9_15.java:75: error: cannot find symbol
+        assertThat(e.getMessage(), containsString("Mapping definition for [path] has unsupported parameters:  [fielddata]"));
+                                   ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_9_15

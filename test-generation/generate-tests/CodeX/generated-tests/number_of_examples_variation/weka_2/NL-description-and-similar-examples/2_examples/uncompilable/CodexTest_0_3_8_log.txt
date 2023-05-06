@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_8.java:30: error: ')' expected
+      assertEquals("Value differs", 1.2, inst.value(1
+                                                     ^
+CodexTest_0_3_8.java:31: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_3_8.java:26: error: 'try' without 'catch', 'finally' or resource declarations
+    try {
+    ^

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_14.java:66: error: cannot find symbol
+        ObjectMapper mapper = new ObjectMapper();
+        ^
+  symbol:   class ObjectMapper
+  location: class CodexTest_0_7_14
+CodexTest_0_7_14.java:66: error: cannot find symbol
+        ObjectMapper mapper = new ObjectMapper();
+                                  ^
+  symbol:   class ObjectMapper
+  location: class CodexTest_0_7_14
+CodexTest_0_7_14.java:69: error: cannot find symbol
+        XContentBuilder builder = new XContentBuilder(JsonXContent.jsonXContent, new BytesArray("{}"));
+                                                      ^
+  symbol:   variable JsonXContent
+  location: class CodexTest_0_7_14

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_30.java:76: error: cannot find symbol
+        IndexRequest deserialized = copyWriteable(indexRequest, namedWriteableRegistry, IndexRequest::new);
+                                                                ^
+  symbol:   variable namedWriteableRegistry
+  location: class CodexTest_0_7_30

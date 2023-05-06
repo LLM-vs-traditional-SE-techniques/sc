@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_8.java:65: error: cannot find symbol
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+        ^
+  symbol:   class BooleanTypeDescriptor
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:65: error: cannot find symbol
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+                                              ^
+  symbol:   class BooleanTypeDescriptor
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:66: error: cannot find symbol
+        assertThat( underTest.isTrue(parent()), equalTo( Boolean.TRUE ) );
+                                     ^
+  symbol:   method parent()
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:66: error: cannot find symbol
+        assertThat( underTest.isTrue(parent()), equalTo( Boolean.TRUE ) );
+                                                ^
+  symbol:   method equalTo(java.lang.Boolean)
+  location: class CodexTest_0_7_8

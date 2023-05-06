@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_93.java:51: error: <identifier> expected
+Input: public DoubleMatrix1D vectorizableMultiply(DoubleMatrix1D y) {
+     ^
+CodexTest_0_8_93.java:62: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_93.java:65: error: ')' expected
+    D.setQuick(0
+                ^
+CodexTest_0_8_93.java:66: error: reached end of file while parsing
+}
+ ^

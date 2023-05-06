@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_15.java:25: error: <identifier> expected
+Input: public static final Builder builder() {
+     ^
+CodexTest_0_9_15.java:28: error: <identifier> expected
+Output: public static void testBuilder() {
+      ^

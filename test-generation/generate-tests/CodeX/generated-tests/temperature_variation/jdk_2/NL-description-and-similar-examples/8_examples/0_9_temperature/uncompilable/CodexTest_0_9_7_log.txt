@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_7.java:21: error: cannot find symbol
+        assertTrue(bl.contains(new Integer(4)));
+                   ^
+  symbol:   variable bl
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:22: error: cannot find symbol
+        assertTrue(! bl.contains(new Integer(-4)));
+                     ^
+  symbol:   variable bl
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:23: error: cannot find symbol
+        assertTrue(! bl.contains("Four"));
+                     ^
+  symbol:   variable bl
+  location: class CodexTest_0_9_7

@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_72.java:27: error: cannot find symbol
+    Random rnd = new Random();
+    ^
+  symbol:   class Random
+  location: class CodexTest_0_7_72
+CodexTest_0_7_72.java:27: error: cannot find symbol
+    Random rnd = new Random();
+                     ^
+  symbol:   class Random
+  location: class CodexTest_0_7_72
+CodexTest_0_7_72.java:29: error: cannot find symbol
+    byte[] b = Bytes.toBytes(num);
+               ^
+  symbol:   variable Bytes
+  location: class CodexTest_0_7_72
+CodexTest_0_7_72.java:33: error: cannot find symbol
+    ByteBuffer buffer = ByteBuffer.wrap(bytes);
+    ^
+  symbol:   class ByteBuffer
+  location: class CodexTest_0_7_72
+CodexTest_0_7_72.java:33: error: cannot find symbol
+    ByteBuffer buffer = ByteBuffer.wrap(bytes);
+                        ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_7_72

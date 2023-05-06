@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_6_5.java:67: error: illegal character: '`'
+```
+^
+CodexTest_0_6_5.java:67: error: illegal character: '`'
+```
+ ^
+CodexTest_0_6_5.java:67: error: illegal character: '`'
+```
+  ^
+CodexTest_0_6_5.java:68: error: reached end of file while parsing
+}
+ ^

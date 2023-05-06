@@ -1,0 +1,65 @@
+isCompilable => false
+CodexTest_0_3_63.java:21: error: cannot find symbol
+        p1.setRoot(new Node(a));
+                            ^
+  symbol:   variable a
+  location: class CodexTest_0_3_63
+CodexTest_0_3_63.java:21: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        p1.setRoot(new Node(a));
+                   ^
+CodexTest_0_3_63.java:22: error: cannot find symbol
+        p1.add(new Edge(ab));
+                        ^
+  symbol:   variable ab
+  location: class CodexTest_0_3_63
+CodexTest_0_3_63.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        p1.add(new Edge(ab));
+               ^
+CodexTest_0_3_63.java:23: error: cannot find symbol
+        p1.add(new Edge(bc));
+                        ^
+  symbol:   variable bc
+  location: class CodexTest_0_3_63
+CodexTest_0_3_63.java:23: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        p1.add(new Edge(bc));
+               ^
+CodexTest_0_3_63.java:24: error: cannot find symbol
+        p1.add(new Edge(cd));
+                        ^
+  symbol:   variable cd
+  location: class CodexTest_0_3_63
+CodexTest_0_3_63.java:24: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        p1.add(new Edge(cd));
+               ^
+CodexTest_0_3_63.java:26: error: cannot find symbol
+        p2.setRoot(new Node(a));
+                            ^
+  symbol:   variable a
+  location: class CodexTest_0_3_63
+CodexTest_0_3_63.java:26: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        p2.setRoot(new Node(a));
+                   ^
+CodexTest_0_3_63.java:27: error: cannot find symbol
+        p2.add(new Edge(ab));
+                        ^
+  symbol:   variable ab
+  location: class CodexTest_0_3_63
+CodexTest_0_3_63.java:27: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        p2.add(new Edge(ab));
+               ^
+CodexTest_0_3_63.java:28: error: cannot find symbol
+        p2.add(new Edge(bc));
+                        ^
+  symbol:   variable bc
+  location: class CodexTest_0_3_63
+CodexTest_0_3_63.java:28: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        p2.add(new Edge(bc));
+               ^
+CodexTest_0_3_63.java:29: error: cannot find symbol
+        p2.add(new Edge(cd));
+                        ^
+  symbol:   variable cd
+  location: class CodexTest_0_3_63
+CodexTest_0_3_63.java:29: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        p2.add(new Edge(cd));
+               ^

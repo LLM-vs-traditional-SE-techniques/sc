@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_2.java:76: error: <identifier> expected
+Input: public static Boolean hasText(CharSequence str) {
+     ^
+CodexTest_0_8_2.java:88: error: <identifier> expected
+Output: public static void commonTest3() {
+      ^
+CodexTest_0_8_2.java:101: error: unclosed string literal
+			assertTrue(!StringUtils.hasText("\t
+			                                ^
+CodexTest_0_8_2.java:101: error: ')' expected
+			assertTrue(!StringUtils.hasText("\t
+			                                   ^
+CodexTest_0_8_2.java:102: error: reached end of file while parsing
+}
+ ^

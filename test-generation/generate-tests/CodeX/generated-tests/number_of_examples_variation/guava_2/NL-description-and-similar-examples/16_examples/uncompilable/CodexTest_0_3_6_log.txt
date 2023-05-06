@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_6.java:42: error: '[' expected
+    assertEquals(0, BitArray.fromBytes(new byte
+                                               ^
+CodexTest_0_3_6.java:43: error: illegal start of expression
+}
+^
+CodexTest_0_3_6.java:43: error: reached end of file while parsing
+}
+ ^

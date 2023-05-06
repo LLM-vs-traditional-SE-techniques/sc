@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_37.java:18: error: cannot find symbol
+    Classifier classifier = new DummyClassifier();
+    ^
+  symbol:   class Classifier
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:18: error: cannot find symbol
+    Classifier classifier = new DummyClassifier();
+                                ^
+  symbol:   class DummyClassifier
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:19: error: cannot find symbol
+    Instances model = new Instances(new BufferedReader(new FileReader("data/iris.arff")));
+                                        ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:19: error: cannot find symbol
+    Instances model = new Instances(new BufferedReader(new FileReader("data/iris.arff")));
+                                                           ^
+  symbol:   class FileReader
+  location: class CodexTest_0_8_37

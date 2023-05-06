@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_1.java:19: error: <identifier> expected
+Input: public static boolean isProdMode() {
+     ^
+CodexTest_0_7_1.java:22: error: <identifier> expected
+Output: public void testIsProdMode() {
+      ^

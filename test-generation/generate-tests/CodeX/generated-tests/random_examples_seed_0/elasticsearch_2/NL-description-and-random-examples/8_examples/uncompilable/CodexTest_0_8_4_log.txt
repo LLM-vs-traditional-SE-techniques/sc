@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_4.java:65: error: cannot find symbol
+        IndexRequest ir = mock(IndexRequest.class);
+                          ^
+  symbol:   method mock(java.lang.Class<org.elasticsearch.action.index.IndexRequest>)
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:66: error: cannot find symbol
+        when(ir.source(anyMap(), any(XContentType.class))).thenReturn(ir);
+                       ^
+  symbol:   method anyMap()
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:66: error: cannot find symbol
+        when(ir.source(anyMap(), any(XContentType.class))).thenReturn(ir);
+                                 ^
+  symbol:   method any(java.lang.Class<org.elasticsearch.common.xcontent.XContentType>)
+  location: class CodexTest_0_8_4

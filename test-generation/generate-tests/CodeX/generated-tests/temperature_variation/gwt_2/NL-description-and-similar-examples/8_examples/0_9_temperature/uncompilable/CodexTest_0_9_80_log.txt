@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_80.java:16: error: cannot find symbol
+      throw new Death();
+                ^
+  symbol:   class Death
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:17: error: cannot find symbol
+    } catch (Death d) {
+             ^
+  symbol:   class Death
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:19: error: cannot find symbol
+      assertTrue(d.getCause() instanceof MyThrowable);
+                                         ^
+  symbol:   class MyThrowable
+  location: class CodexTest_0_9_80

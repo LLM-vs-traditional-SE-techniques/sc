@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_67.java:26: error: <identifier> expected
+Input: public void add(int index, E element) {
+     ^
+CodexTest_0_6_67.java:34: error: <identifier> expected
+Output: public void testAdd() {
+      ^

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_6.java:21: error: cannot find symbol
+        Path p1 = Path.path("e1");
+                      ^
+  symbol:   method path(java.lang.String)
+  location: class org.graphstream.graph.Path
+CodexTest_0_6_6.java:22: error: cannot find symbol
+        Path p2 = Path.path("e1");
+                      ^
+  symbol:   method path(java.lang.String)
+  location: class org.graphstream.graph.Path

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_4.java:19: error: cannot find symbol
+      Set<Edge> edgeSet = graph.getAllEdges(Edge.class);
+      ^
+  symbol:   class Set
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:19: error: cannot find symbol
+      Set<Edge> edgeSet = graph.getAllEdges(Edge.class);
+                          ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_4

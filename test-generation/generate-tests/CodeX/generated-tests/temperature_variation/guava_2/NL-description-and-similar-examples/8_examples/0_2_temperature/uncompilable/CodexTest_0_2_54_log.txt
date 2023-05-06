@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_2_54.java:26: error: cannot find symbol
+    BitArray array = new BitArray(new int[] {0x12345678, 0x9abcdef0}, 32);
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_2_54
+CodexTest_0_2_54.java:26: error: cannot find symbol
+    BitArray array = new BitArray(new int[] {0x12345678, 0x9abcdef0}, 32);
+                         ^
+  symbol:   class BitArray
+  location: class CodexTest_0_2_54

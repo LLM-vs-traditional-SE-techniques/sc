@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_9.java:26: error: cannot find symbol
+			new IntHashCode(0);
+			    ^
+  symbol:   class IntHashCode
+  location: class CodexTest_0_8_9

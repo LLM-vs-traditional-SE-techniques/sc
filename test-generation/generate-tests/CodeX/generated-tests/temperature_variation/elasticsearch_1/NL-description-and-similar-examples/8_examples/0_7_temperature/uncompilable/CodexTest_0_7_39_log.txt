@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_39.java:65: error: cannot find symbol
+        assertEquals("/test/test2/test3", new Path("/test/test2/test3").toString());
+                                              ^
+  symbol:   class Path
+  location: class CodexTest_0_7_39

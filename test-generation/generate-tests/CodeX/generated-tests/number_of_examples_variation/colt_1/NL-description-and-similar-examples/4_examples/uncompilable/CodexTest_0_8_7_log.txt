@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_7.java:31: error: <identifier> expected
+	      d = (DenseDoubleMatrix1D)d.assign(d2);
+	       ^
+CodexTest_0_8_7.java:32: error: <identifier> expected
+	      System.out.println(d);
+	                        ^
+CodexTest_0_8_7.java:32: error: <identifier> expected
+	      System.out.println(d);
+	                          ^

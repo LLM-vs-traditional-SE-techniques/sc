@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_9_7.java:30: error: illegal start of type
+    [Test]
+    ^
+CodexTest_0_9_7.java:30: error: ';' expected
+    [Test]
+     ^
+CodexTest_0_9_7.java:30: error: illegal start of type
+    [Test]
+         ^
+CodexTest_0_9_7.java:30: error: <identifier> expected
+    [Test]
+          ^
+CodexTest_0_9_7.java:31: error: ';' expected
+    public void TestScalarMultiply() {
+          ^
+CodexTest_0_9_7.java:31: error: invalid method declaration; return type required
+    public void TestScalarMultiply() {
+                ^
+CodexTest_0_9_7.java:35: error: reached end of file while parsing
+}
+ ^

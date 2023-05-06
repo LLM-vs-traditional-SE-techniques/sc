@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_88.java:67: error: cannot find symbol
+        assertThat(indexRequest.source().toUtf8(), equalTo(new BytesArray("{\"field\":\"value\"}").toUtf8()));
+                                        ^
+  symbol:   method toUtf8()
+  location: class org.elasticsearch.common.bytes.BytesReference
+CodexTest_0_8_88.java:67: error: cannot find symbol
+        assertThat(indexRequest.source().toUtf8(), equalTo(new BytesArray("{\"field\":\"value\"}").toUtf8()));
+                                                                                                  ^
+  symbol:   method toUtf8()
+  location: class org.elasticsearch.common.bytes.BytesArray

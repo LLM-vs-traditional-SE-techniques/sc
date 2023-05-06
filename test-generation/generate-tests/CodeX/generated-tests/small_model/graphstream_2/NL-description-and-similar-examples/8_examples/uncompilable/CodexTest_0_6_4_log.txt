@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_6_4.java:29: error: <identifier> expected
+        System.out.
+                   ^
+CodexTest_0_6_4.java:29: error: not a statement
+        System.out.
+                  ^
+CodexTest_0_6_4.java:30: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_74.java:18: error: cannot find symbol
+    Instances model = new Instances(m_MissingValuesTestSet);
+                                    ^
+  symbol:   variable m_MissingValuesTestSet
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:20: error: cannot find symbol
+    Instance inst = new Instance(m_MissingValuesTestSet.numAttributes());
+                                 ^
+  symbol:   variable m_MissingValuesTestSet
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:20: error: weka.core.Instance is abstract; cannot be instantiated
+    Instance inst = new Instance(m_MissingValuesTestSet.numAttributes());
+                    ^
+CodexTest_0_9_74.java:38: error: cannot find symbol
+    assertNotNull(inst.getAsInstance(true, 1.0));
+                      ^
+  symbol:   method getAsInstance(boolean,double)
+  location: variable inst of type weka.core.Instance

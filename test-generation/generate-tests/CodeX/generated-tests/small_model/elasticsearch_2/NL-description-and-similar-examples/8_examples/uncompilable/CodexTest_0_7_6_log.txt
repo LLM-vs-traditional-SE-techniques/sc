@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_6.java:64: error: <identifier> expected
+    Output: public void testWriteString() {
+          ^

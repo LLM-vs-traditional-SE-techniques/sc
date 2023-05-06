@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_64.java:19: error: cannot find symbol
+			ZeroR zeroR = new ZeroR();
+			^
+  symbol:   class ZeroR
+  location: class CodexTest_0_8_64
+CodexTest_0_8_64.java:19: error: cannot find symbol
+			ZeroR zeroR = new ZeroR();
+			                  ^
+  symbol:   class ZeroR
+  location: class CodexTest_0_8_64
+CodexTest_0_8_64.java:20: error: cannot find symbol
+			Instances data= TestHelper.makeTestDataset(9, 7, 0, 51.0, 0.0, 1.0);
+			                ^
+  symbol:   variable TestHelper
+  location: class CodexTest_0_8_64

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_66.java:66: error: cannot find symbol
+        ReferenceNodeWithRelationships node = new ReferenceNodeWithRelationships( new GraphDatabaseFacade() );
+        ^
+  symbol:   class ReferenceNodeWithRelationships
+  location: class CodexTest_0_9_66
+CodexTest_0_9_66.java:66: error: cannot find symbol
+        ReferenceNodeWithRelationships node = new ReferenceNodeWithRelationships( new GraphDatabaseFacade() );
+                                                  ^
+  symbol:   class ReferenceNodeWithRelationships
+  location: class CodexTest_0_9_66
+CodexTest_0_9_66.java:66: error: cannot find symbol
+        ReferenceNodeWithRelationships node = new ReferenceNodeWithRelationships( new GraphDatabaseFacade() );
+                                                                                      ^
+  symbol:   class GraphDatabaseFacade
+  location: class CodexTest_0_9_66

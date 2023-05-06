@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_8_4.java:66: error: package Writeable does not exist
+        Writeable.Reader<TransportNodesStatsAction.NodeStatsRequest> reader = TransportNodesStatsAction.NodeStatsRequest::new;
+                 ^
+CodexTest_0_8_4.java:66: error: package TransportNodesStatsAction does not exist
+        Writeable.Reader<TransportNodesStatsAction.NodeStatsRequest> reader = TransportNodesStatsAction.NodeStatsRequest::new;
+                                                  ^
+CodexTest_0_8_4.java:66: error: method reference not expected here
+        Writeable.Reader<TransportNodesStatsAction.NodeStatsRequest> reader = TransportNodesStatsAction.NodeStatsRequest::new;
+                                                                              ^
+CodexTest_0_8_4.java:67: error: package TransportNodesStatsAction does not exist
+        TransportNodesStatsAction.NodeStatsRequest request = new TransportNodesStatsAction.NodeStatsRequest();
+                                 ^
+CodexTest_0_8_4.java:67: error: package TransportNodesStatsAction does not exist
+        TransportNodesStatsAction.NodeStatsRequest request = new TransportNodesStatsAction.NodeStatsRequest();
+                                                                                          ^
+CodexTest_0_8_4.java:70: error: package TransportNodesStatsAction does not exist
+            TransportNodesStatsAction.NodeStatsRequest serialized = reader.read(in);
+                                     ^

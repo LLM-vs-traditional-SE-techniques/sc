@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_6.java:18: error: cannot find symbol
+        actual = IsClient.get();
+                 ^
+  symbol:   variable IsClient
+  location: class CodexTest_0_9_6

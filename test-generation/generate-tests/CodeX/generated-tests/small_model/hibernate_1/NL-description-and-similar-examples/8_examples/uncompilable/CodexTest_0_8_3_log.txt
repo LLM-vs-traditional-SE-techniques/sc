@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_3.java:16: error: cannot find symbol
+    if (c == T || c == t || c == Y || c == y)
+             ^
+  symbol:   variable T
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:16: error: cannot find symbol
+    if (c == T || c == t || c == Y || c == y)
+                       ^
+  symbol:   variable t
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:16: error: cannot find symbol
+    if (c == T || c == t || c == Y || c == y)
+                                 ^
+  symbol:   variable Y
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:16: error: cannot find symbol
+    if (c == T || c == t || c == Y || c == y)
+                                           ^
+  symbol:   variable y
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:18: error: cannot find symbol
+    if (c == F || c == f || c == N || c == n)
+             ^
+  symbol:   variable F
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:18: error: cannot find symbol
+    if (c == F || c == f || c == N || c == n)
+                       ^
+  symbol:   variable f
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:18: error: cannot find symbol
+    if (c == F || c == f || c == N || c == n)
+                                 ^
+  symbol:   variable N
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:18: error: cannot find symbol
+    if (c == F || c == f || c == N || c == n)
+                                           ^
+  symbol:   variable n
+  location: class CodexTest_0_8_3

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_36.java:17: error: cannot find symbol
+		CustomBooleanTypeDescriptor underTest = new CustomBooleanTypeDescriptor();
+		^
+  symbol:   class CustomBooleanTypeDescriptor
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:17: error: cannot find symbol
+		CustomBooleanTypeDescriptor underTest = new CustomBooleanTypeDescriptor();
+		                                            ^
+  symbol:   class CustomBooleanTypeDescriptor
+  location: class CodexTest_0_9_36

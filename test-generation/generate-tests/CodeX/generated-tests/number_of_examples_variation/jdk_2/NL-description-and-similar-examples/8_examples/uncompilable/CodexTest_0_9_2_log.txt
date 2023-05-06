@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_2.java:22: error: cannot find symbol
+        expectNullPointerException(null);
+        ^
+  symbol:   method expectNullPointerException(<nulltype>)
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:24: error: cannot find symbol
+        underTest.contains(null);
+        ^
+  symbol:   variable underTest
+  location: class CodexTest_0_9_2

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_84.java:59: error: ')' expected
+        assertArrayEquals(vectorResult, Vector1D.scalar
+                                                       ^
+CodexTest_0_7_84.java:60: error: reached end of file while parsing
+}
+ ^

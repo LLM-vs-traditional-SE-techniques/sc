@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_73.java:37: error: <identifier> expected
+Input: public byte byteValue() {
+     ^
+CodexTest_0_9_73.java:40: error: <identifier> expected
+Output: public void testByteValue() {
+      ^
+CodexTest_0_9_73.java:43: error: reached end of file while parsing
+}
+ ^

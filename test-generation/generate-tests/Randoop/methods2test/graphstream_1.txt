@@ -1,0 +1,3 @@
+org.graphstream.graph.Path()
+org.graphstream.graph.Path.popEdge()
+org.graphstream.graph.Path.contains(org.graphstream.graph.Edge)

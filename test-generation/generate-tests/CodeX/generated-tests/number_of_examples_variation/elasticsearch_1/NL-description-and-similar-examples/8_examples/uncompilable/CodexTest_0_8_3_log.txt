@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_3.java:65: error: cannot find symbol
+            TopDocs topDocs = executeSearchPhase(builder().addChild(parent));
+            ^
+  symbol:   class TopDocs
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:65: error: cannot find symbol
+            TopDocs topDocs = executeSearchPhase(builder().addChild(parent));
+                                                                    ^
+  symbol:   variable parent
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:65: error: cannot find symbol
+            TopDocs topDocs = executeSearchPhase(builder().addChild(parent));
+                                                 ^
+  symbol:   method builder()
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:66: error: cannot find symbol
+            for (ScoreDoc scoreDoc : topDocs.scoreDocs) {
+                 ^
+  symbol:   class ScoreDoc
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:67: error: cannot find symbol
+                assertThat(Arrays.asList(((FieldDoc) scoreDoc).fields), hasItem((Object) parent));
+                                                                                         ^
+  symbol:   variable parent
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:67: error: cannot find symbol
+                assertThat(Arrays.asList(((FieldDoc) scoreDoc).fields), hasItem((Object) parent));
+                                                                        ^
+  symbol:   method hasItem(java.lang.Object)
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:67: error: cannot find symbol
+                assertThat(Arrays.asList(((FieldDoc) scoreDoc).fields), hasItem((Object) parent));
+                                           ^
+  symbol:   class FieldDoc
+  location: class CodexTest_0_8_3

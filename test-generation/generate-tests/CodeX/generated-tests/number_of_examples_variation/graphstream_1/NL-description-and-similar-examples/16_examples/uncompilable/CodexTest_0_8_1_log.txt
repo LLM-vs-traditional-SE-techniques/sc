@@ -1,0 +1,106 @@
+isCompilable => false
+CodexTest_0_8_1.java:20: error: cannot find symbol
+        Graph graph = new TinkerGraph();
+                          ^
+  symbol:   class TinkerGraph
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:21: error: cannot find symbol
+        Vertex a = graph.addVertex("1");
+        ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:21: error: cannot find symbol
+        Vertex a = graph.addVertex("1");
+                        ^
+  symbol:   method addVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_1.java:22: error: cannot find symbol
+        Vertex b = graph.addVertex("2");
+        ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:22: error: cannot find symbol
+        Vertex b = graph.addVertex("2");
+                        ^
+  symbol:   method addVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_1.java:23: error: cannot find symbol
+        Vertex c = graph.addVertex("3");
+        ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:23: error: cannot find symbol
+        Vertex c = graph.addVertex("3");
+                        ^
+  symbol:   method addVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_1.java:24: error: cannot find symbol
+        Vertex d = graph.addVertex("4");
+        ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:24: error: cannot find symbol
+        Vertex d = graph.addVertex("4");
+                        ^
+  symbol:   method addVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_1.java:25: error: cannot find symbol
+        Vertex e = graph.addVertex("5");
+        ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:25: error: cannot find symbol
+        Vertex e = graph.addVertex("5");
+                        ^
+  symbol:   method addVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_1.java:26: error: cannot find symbol
+        Vertex f = graph.addVertex("6");
+        ^
+  symbol:   class Vertex
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:26: error: cannot find symbol
+        Vertex f = graph.addVertex("6");
+                        ^
+  symbol:   method addVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_1.java:27: error: cannot find symbol
+        Edge edge1 = graph.addEdge(null, a, b, graph.getEdgeLabel());
+                                                    ^
+  symbol:   method getEdgeLabel()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_1.java:28: error: cannot find symbol
+        Edge edge2 = graph.addEdge(null, b, c, graph.getEdgeLabel());
+                                                    ^
+  symbol:   method getEdgeLabel()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_1.java:29: error: cannot find symbol
+        Edge edge3 = graph.addEdge(null, c, d, graph.getEdgeLabel());
+                                                    ^
+  symbol:   method getEdgeLabel()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_1.java:30: error: cannot find symbol
+        Edge edge4 = graph.addEdge(null, d, e, graph.getEdgeLabel());
+                                                    ^
+  symbol:   method getEdgeLabel()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_1.java:31: error: cannot find symbol
+        Edge edge5 = graph.addEdge(null, e, f, graph.getEdgeLabel());
+                                                    ^
+  symbol:   method getEdgeLabel()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_1.java:32: error: cannot find symbol
+        Edge edge6 = graph.addEdge(null, f, a, graph.getEdgeLabel());
+                                                    ^
+  symbol:   method getEdgeLabel()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_8_1.java:33: error: cannot find symbol
+        Set<Edge> set = new HashSet<Edge>();
+        ^
+  symbol:   class Set
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:33: error: cannot find symbol
+        Set<Edge> set = new HashSet<Edge>();
+                            ^
+  symbol:   class HashSet
+  location: class CodexTest_0_8_1

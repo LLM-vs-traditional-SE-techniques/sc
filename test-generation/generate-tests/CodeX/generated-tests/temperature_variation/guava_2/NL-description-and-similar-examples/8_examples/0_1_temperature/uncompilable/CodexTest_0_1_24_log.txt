@@ -1,0 +1,111 @@
+isCompilable => false
+CodexTest_0_1_24.java:26: error: cannot find symbol
+    int numBytes = bits() / 8;
+                   ^
+  symbol:   method bits()
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:27: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 0, dest.length));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:28: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 0, numBytes));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:29: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 0, numBytes + 1));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:30: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 1, numBytes));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:31: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 1, numBytes + 1));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:32: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 2, numBytes));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:33: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 2, numBytes + 1));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:34: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 3, numBytes));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:35: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 3, numBytes + 1));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:36: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 4, numBytes));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:37: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 4, numBytes + 1));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:38: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 5, numBytes));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:39: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 5, numBytes + 1));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:40: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 6, numBytes));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:41: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 6, numBytes + 1));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:42: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 7, numBytes));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:43: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 7, numBytes + 1));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:44: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 8, numBytes));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:45: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 8, numBytes + 1));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:46: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 9, numBytes));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24
+CodexTest_0_1_24.java:47: error: cannot find symbol
+    assertEquals(numBytes, writeBytesTo(dest, 9, numBytes + 1));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_24

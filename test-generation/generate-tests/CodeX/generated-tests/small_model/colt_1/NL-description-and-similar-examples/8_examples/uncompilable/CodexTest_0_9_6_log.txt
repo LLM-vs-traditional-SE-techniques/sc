@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_6.java:33: error: cannot find symbol
+		      for (int i = 0; i < numElements(); i++)
+		                          ^
+  symbol:   method numElements()
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:34: error: cannot find symbol
+		        s = s + getElement(i);
+		                ^
+  symbol:   method getElement(int)
+  location: class CodexTest_0_9_6

@@ -1,0 +1,64 @@
+isCompilable => false
+CodexTest_0_8_7.java:64: error: <identifier> expected
+            Assert.assertEquals("Relation 1", relation.parent());
+                               ^
+CodexTest_0_8_7.java:64: error: illegal start of type
+            Assert.assertEquals("Relation 1", relation.parent());
+                                ^
+CodexTest_0_8_7.java:64: error: <identifier> expected
+            Assert.assertEquals("Relation 1", relation.parent());
+                                                             ^
+CodexTest_0_8_7.java:64: error: ';' expected
+            Assert.assertEquals("Relation 1", relation.parent());
+                                                              ^
+CodexTest_0_8_7.java:64: error: illegal start of type
+            Assert.assertEquals("Relation 1", relation.parent());
+                                                               ^
+CodexTest_0_8_7.java:64: error: <identifier> expected
+            Assert.assertEquals("Relation 1", relation.parent());
+                                                                ^
+CodexTest_0_8_7.java:64: error: ';' expected
+            Assert.assertEquals("Relation 1", relation.parent());
+                                                                 ^
+CodexTest_0_8_7.java:65: error: illegal start of type
+    Assert.assertEquals("Relation 2", relation2.parent());
+          ^
+CodexTest_0_8_7.java:65: error: illegal start of type
+    Assert.assertEquals("Relation 2", relation2.parent());
+                        ^
+CodexTest_0_8_7.java:65: error: <identifier> expected
+    Assert.assertEquals("Relation 2", relation2.parent());
+                                                      ^
+CodexTest_0_8_7.java:65: error: ';' expected
+    Assert.assertEquals("Relation 2", relation2.parent());
+                                                       ^
+CodexTest_0_8_7.java:65: error: illegal start of type
+    Assert.assertEquals("Relation 2", relation2.parent());
+                                                        ^
+CodexTest_0_8_7.java:65: error: <identifier> expected
+    Assert.assertEquals("Relation 2", relation2.parent());
+                                                         ^
+CodexTest_0_8_7.java:65: error: ';' expected
+    Assert.assertEquals("Relation 2", relation2.parent());
+                                                          ^
+CodexTest_0_8_7.java:66: error: illegal start of type
+    Assert.assertEquals(relation.parent(), relation2.parent());
+          ^
+CodexTest_0_8_7.java:66: error: <identifier> expected
+    Assert.assertEquals(relation.parent(), relation2.parent());
+                                       ^
+CodexTest_0_8_7.java:66: error: ';' expected
+    Assert.assertEquals(relation.parent(), relation2.parent());
+                                        ^
+CodexTest_0_8_7.java:66: error: illegal start of type
+    Assert.assertEquals(relation.parent(), relation2.parent());
+                                         ^
+CodexTest_0_8_7.java:66: error: ';' expected
+    Assert.assertEquals(relation.parent(), relation2.parent());
+                                                    ^
+CodexTest_0_8_7.java:66: error: invalid method declaration; return type required
+    Assert.assertEquals(relation.parent(), relation2.parent());
+                                                     ^
+CodexTest_0_8_7.java:66: error: ';' expected
+    Assert.assertEquals(relation.parent(), relation2.parent());
+                                                             ^

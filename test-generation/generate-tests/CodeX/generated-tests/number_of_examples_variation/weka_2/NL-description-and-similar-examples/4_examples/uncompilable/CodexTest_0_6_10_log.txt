@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_10.java:18: error: cannot find symbol
+        Instances model = TestInstances.createSimpleTestInstances();
+                                       ^
+  symbol:   method createSimpleTestInstances()
+  location: class weka.core.TestInstances
+CodexTest_0_6_10.java:23: error: cannot find symbol
+        assertEquals(inst.value(1), v.classValue(), 0.0);
+                                     ^
+  symbol:   method classValue()
+  location: variable v of type weka.core.AlgVector

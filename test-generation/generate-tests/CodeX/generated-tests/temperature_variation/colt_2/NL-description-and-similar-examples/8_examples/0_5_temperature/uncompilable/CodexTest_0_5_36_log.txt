@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_36.java:32: error: cannot find symbol
+        DoubleMatrix2D x = a.solve(b);
+                            ^
+  symbol:   method solve(cern.colt.matrix.DoubleMatrix2D)
+  location: variable a of type cern.colt.matrix.DoubleMatrix2D

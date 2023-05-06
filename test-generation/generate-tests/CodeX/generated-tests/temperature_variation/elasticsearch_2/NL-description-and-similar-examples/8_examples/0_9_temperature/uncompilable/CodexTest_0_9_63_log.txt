@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_63.java:65: error: cannot find symbol
+        IndexRequest request = (IndexRequest) Requests.putRequest("index").type("type").id("id").source(XContentFactory.jsonBuilder().startObject().field("field", "value").endObject());
+                                                      ^
+  symbol:   method putRequest(java.lang.String)
+  location: class org.elasticsearch.client.Requests
+CodexTest_0_9_63.java:66: error: cannot find symbol
+        IndexRequest copy = request.copy();
+                                   ^
+  symbol:   method copy()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest

@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_11.java:43: error: unclosed string literal
+									+ "@attribute att24 numeric\n
+									  ^
+CodexTest_0_3_11.java:43: error: ')' expected
+									+ "@attribute att24 numeric\n
+									                             ^
+CodexTest_0_3_11.java:44: error: reached end of file while parsing
+}
+ ^

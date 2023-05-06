@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_8.java:16: error: <identifier> expected
+Input: public final double[] elements() {
+     ^
+CodexTest_0_9_8.java:19: error: <identifier> expected
+Output: 
+      ^

@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_6_6.java:21: error: cannot find symbol
+		path.add(new AbstractEdge("a", "b", "ab", 0.0));
+		             ^
+  symbol:   class AbstractEdge
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:22: error: cannot find symbol
+		path.add(new AbstractEdge("b", "c", "bc", 0.0));
+		             ^
+  symbol:   class AbstractEdge
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:23: error: cannot find symbol
+		path.add(new AbstractEdge("c", "d", "cd", 0.0));
+		             ^
+  symbol:   class AbstractEdge
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:24: error: cannot find symbol
+		assertTrue(path.contains(new AbstractEdge("a", "b", "ab", 0.0)));
+		                             ^
+  symbol:   class AbstractEdge
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:25: error: cannot find symbol
+		assertTrue(path.contains(new AbstractEdge("a", "c", "ab", 0.0)));
+		                             ^
+  symbol:   class AbstractEdge
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:26: error: cannot find symbol
+		assertTrue(path.contains(new AbstractEdge("a", "d", "ab", 0.0)));
+		                             ^
+  symbol:   class AbstractEdge
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:27: error: cannot find symbol
+		assertFalse(path.contains(new AbstractEdge("d", "a", "ab", 0.0)));
+		                              ^
+  symbol:   class AbstractEdge
+  location: class CodexTest_0_6_6

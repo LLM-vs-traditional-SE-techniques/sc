@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_2.java:25: error: cannot find symbol
+    byte[] bits = getBitPattern(0, 0, 0);
+                  ^
+  symbol:   method getBitPattern(int,int,int)
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:26: error: cannot find symbol
+    byte[] bytes = getBitPattern(0, 0, 4);
+                   ^
+  symbol:   method getBitPattern(int,int,int)
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:27: error: cannot find symbol
+    int numBytes = ByteBuffer.wrap(bytes).getInt();
+                   ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:28: error: cannot find symbol
+    int numBits = ByteBuffer.wrap(bits).getInt();
+                  ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:29: error: cannot find symbol
+    BitArray b = BitArray.fromBytes(bytes);
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:29: error: cannot find symbol
+    BitArray b = BitArray.fromBytes(bytes);
+                 ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_8_2

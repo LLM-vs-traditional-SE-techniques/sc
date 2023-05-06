@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_9_2.java:18: error: cannot find symbol
+      AlgVector v = new AlgMatrixTest_BinFunc_1().get();
+                        ^
+  symbol:   class AlgMatrixTest_BinFunc_1
+  location: class CodexTest_0_9_2
+Note: CodexTest_0_9_2.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_9.java:66: error: cannot find symbol
+                new BasicHeader("Content-Type", "application/json")).getEntity().getContent().toString());
+                    ^
+  symbol:   class BasicHeader
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:65: error: cannot find symbol
+        assertEquals("https://github.com/elasticsearch/elasticsearch", es.client().performRequest("GET", "https://github.com/elasticsearch/elasticsearch",
+                                                                       ^
+  symbol:   variable es
+  location: class CodexTest_0_9_9

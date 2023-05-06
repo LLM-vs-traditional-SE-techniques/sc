@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_9.java:25: error: <identifier> expected
+Input: public void setVector(int index, AlgVector vector) {
+     ^
+CodexTest_0_9_9.java:36: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_9.java:46: error: <identifier> expected
+Input: public DenseDoubleMatrix2D(int rows, int columns) {
+     ^
+CodexTest_0_9_9.java:46: error: invalid method declaration; return type required
+Input: public DenseDoubleMatrix2D(int rows, int columns) {
+              ^
+CodexTest_0_9_9.java:49: error: <identifier> expected
+Output: public void testMatrix2D() {
+      ^
+CodexTest_0_9_9.java:51: error: reached end of file while parsing
+}
+ ^

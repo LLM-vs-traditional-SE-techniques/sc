@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_87.java:24: error: cannot find symbol
+        boolean result = Arrays.contains(objects, Boolean.TRUE);
+                               ^
+  symbol:   method contains(java.lang.Object[],java.lang.Boolean)
+  location: class java.util.Arrays

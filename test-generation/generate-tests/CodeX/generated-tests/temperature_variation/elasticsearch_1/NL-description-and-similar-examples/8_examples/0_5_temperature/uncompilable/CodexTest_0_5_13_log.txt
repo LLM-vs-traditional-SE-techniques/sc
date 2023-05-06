@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_5_13.java:65: error: cannot find symbol
+        final String parent = randomAlphaOfLength(5);
+                              ^
+  symbol:   method randomAlphaOfLength(int)
+  location: class CodexTest_0_5_13
+CodexTest_0_5_13.java:66: error: cannot find symbol
+        final SnapshotInfo snapshotInfo = new SnapshotInfo("_repo", "_snap", parent, randomNonNegativeLong(),
+              ^
+  symbol:   class SnapshotInfo
+  location: class CodexTest_0_5_13
+CodexTest_0_5_13.java:66: error: cannot find symbol
+        final SnapshotInfo snapshotInfo = new SnapshotInfo("_repo", "_snap", parent, randomNonNegativeLong(),
+                                              ^
+  symbol:   class SnapshotInfo
+  location: class CodexTest_0_5_13
+CodexTest_0_5_13.java:66: error: cannot find symbol
+        final SnapshotInfo snapshotInfo = new SnapshotInfo("_repo", "_snap", parent, randomNonNegativeLong(),
+                                                                                     ^
+  symbol:   method randomNonNegativeLong()
+  location: class CodexTest_0_5_13
+CodexTest_0_5_13.java:67: error: cannot find symbol
+            randomNonNegativeLong(), randomNonNegativeLong(), randomNonNegativeLong(), randomNonNegativeLong(),
+            ^
+  symbol:   method randomNonNegativeLong()
+  location: class CodexTest_0_5_13
+CodexTest_0_5_13.java:67: error: cannot find symbol
+            randomNonNegativeLong(), randomNonNegativeLong(), randomNonNegativeLong(), randomNonNegativeLong(),
+                                     ^
+  symbol:   method randomNonNegativeLong()
+  location: class CodexTest_0_5_13
+CodexTest_0_5_13.java:67: error: cannot find symbol
+            randomNonNegativeLong(), randomNonNegativeLong(), randomNonNegativeLong(), randomNonNegativeLong(),
+                                                              ^
+  symbol:   method randomNonNegativeLong()
+  location: class CodexTest_0_5_13
+CodexTest_0_5_13.java:67: error: cannot find symbol
+            randomNonNegativeLong(), randomNonNegativeLong(), randomNonNegativeLong(), randomNonNegativeLong(),
+                                                                                       ^
+  symbol:   method randomNonNegativeLong()
+  location: class CodexTest_0_5_13
+CodexTest_0_5_13.java:68: error: cannot find symbol
+            randomNonNegativeLong(), Collections.emptyList(), randomNonNegativeLong(), randomBoolean());
+            ^
+  symbol:   method randomNonNegativeLong()
+  location: class CodexTest_0_5_13
+CodexTest_0_5_13.java:68: error: cannot find symbol
+            randomNonNegativeLong(), Collections.emptyList(), randomNonNegativeLong(), randomBoolean());
+                                                              ^
+  symbol:   method randomNonNegativeLong()
+  location: class CodexTest_0_5_13
+CodexTest_0_5_13.java:68: error: cannot find symbol
+            randomNonNegativeLong(), Collections.emptyList(), randomNonNegativeLong(), randomBoolean());
+                                                                                       ^
+  symbol:   method randomBoolean()
+  location: class CodexTest_0_5_13

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_52.java:27: error: cannot find symbol
+    assertEquals("failure - not identical", 5.0, c.getElement(0), DELTA);
+                                                                  ^
+  symbol:   variable DELTA
+  location: class CodexTest_0_7_52
+CodexTest_0_7_52.java:28: error: cannot find symbol
+    assertEquals("failure - not identical", 7.0, c.getElement(1), DELTA);
+                                                                  ^
+  symbol:   variable DELTA
+  location: class CodexTest_0_7_52
+CodexTest_0_7_52.java:29: error: cannot find symbol
+    assertEquals("failure - not identical", 9.0, c.getElement(2), DELTA);
+                                                                  ^
+  symbol:   variable DELTA
+  location: class CodexTest_0_7_52

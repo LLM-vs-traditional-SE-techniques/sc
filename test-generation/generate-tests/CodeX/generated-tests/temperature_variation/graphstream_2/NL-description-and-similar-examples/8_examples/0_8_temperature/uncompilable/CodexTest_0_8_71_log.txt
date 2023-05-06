@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_71.java:21: error: cannot find symbol
+        path1.add(e1);
+                  ^
+  symbol:   variable e1
+  location: class CodexTest_0_8_71
+CodexTest_0_8_71.java:23: error: cannot find symbol
+        path2.add(e1);
+                  ^
+  symbol:   variable e1
+  location: class CodexTest_0_8_71

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_9.java:66: error: cannot find symbol
+        QueryBuilder qb = new ConstantScoreQueryBuilder(new TermQueryBuilder("field", "value")).parent(parent);
+        ^
+  symbol:   class QueryBuilder
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:66: error: cannot find symbol
+        QueryBuilder qb = new ConstantScoreQueryBuilder(new TermQueryBuilder("field", "value")).parent(parent);
+                              ^
+  symbol:   class ConstantScoreQueryBuilder
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:66: error: cannot find symbol
+        QueryBuilder qb = new ConstantScoreQueryBuilder(new TermQueryBuilder("field", "value")).parent(parent);
+                                                            ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_6_9

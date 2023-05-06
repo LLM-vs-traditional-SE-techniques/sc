@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_1.java:22: error: cannot find symbol
+        SingletonList<Object> underTest = new SingletonList<>();
+        ^
+  symbol:   class SingletonList
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:22: error: cannot find symbol
+        SingletonList<Object> underTest = new SingletonList<>();
+                                              ^
+  symbol:   class SingletonList
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:24: error: cannot find symbol
+        boolean result = underTest.contains(ANY_OBJECT);
+                                            ^
+  symbol:   variable ANY_OBJECT
+  location: class CodexTest_0_7_1

@@ -1,0 +1,30 @@
+isCompilable => false
+CodexTest_0_8_5.java:67: error: method parentNotNull() is already defined in class CodexTest_0_8_5
+    public void parentNotNull() {
+                ^
+CodexTest_0_8_5.java:70: error: method parentNotNull() is already defined in class CodexTest_0_8_5
+    public void parentNotNull() {
+                ^
+CodexTest_0_8_5.java:73: error: method parentNotNull() is already defined in class CodexTest_0_8_5
+    public void parentNotNull() {
+                ^
+CodexTest_0_8_5.java:65: error: cannot find symbol
+        assertNotNull(new Person().parent());
+                          ^
+  symbol:   class Person
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:68: error: cannot find symbol
+        assertNotNull(new Person().parent());
+                          ^
+  symbol:   class Person
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:71: error: cannot find symbol
+        assertNotNull(new Person().parent());
+                          ^
+  symbol:   class Person
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:74: error: cannot find symbol
+        assertNotNull(new Person().parent());
+                          ^
+  symbol:   class Person
+  location: class CodexTest_0_8_5

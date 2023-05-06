@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_38.java:18: error: cannot find symbol
+    AlgVector y = this.v.add(this.y);
+                                 ^
+  symbol: variable y
+CodexTest_0_8_38.java:18: error: cannot find symbol
+    AlgVector y = this.v.add(this.y);
+                      ^
+  symbol: variable v
+CodexTest_0_8_38.java:19: error: cannot find symbol
+    assertTrue(y.toString(), y.equals(new AlgVector(this.yDouble)));
+                                                        ^
+  symbol: variable yDouble

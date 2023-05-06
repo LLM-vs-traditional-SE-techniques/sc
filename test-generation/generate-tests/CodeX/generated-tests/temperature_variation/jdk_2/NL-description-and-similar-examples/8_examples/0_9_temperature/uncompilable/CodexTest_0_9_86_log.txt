@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_86.java:21: error: cannot find symbol
+       boolean res = zStack.contains("99");
+                     ^
+  symbol:   variable zStack
+  location: class CodexTest_0_9_86

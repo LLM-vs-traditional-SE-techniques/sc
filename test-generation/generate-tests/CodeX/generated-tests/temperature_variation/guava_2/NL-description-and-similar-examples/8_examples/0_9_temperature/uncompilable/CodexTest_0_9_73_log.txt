@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_73.java:27: error: cannot find symbol
+      ImmutableBitSet bitset = b ? ImmutableBitSet.allOnes(8) : ImmutableBitSet.allZeros(8);
+      ^
+  symbol:   class ImmutableBitSet
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:27: error: cannot find symbol
+      ImmutableBitSet bitset = b ? ImmutableBitSet.allOnes(8) : ImmutableBitSet.allZeros(8);
+                                   ^
+  symbol:   variable ImmutableBitSet
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:27: error: cannot find symbol
+      ImmutableBitSet bitset = b ? ImmutableBitSet.allOnes(8) : ImmutableBitSet.allZeros(8);
+                                                                ^
+  symbol:   variable ImmutableBitSet
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:32: error: cannot find symbol
+          String.format((Locale) null, "b=%b", b),
+                         ^
+  symbol:   class Locale
+  location: class CodexTest_0_9_73

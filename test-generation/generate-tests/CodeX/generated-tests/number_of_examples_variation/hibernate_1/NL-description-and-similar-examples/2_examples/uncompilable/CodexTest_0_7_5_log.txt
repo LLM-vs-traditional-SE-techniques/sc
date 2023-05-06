@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_5.java:16: error: <identifier> expected
+Input: public short toShort(Boolean value) {
+     ^
+CodexTest_0_7_5.java:27: error: <identifier> expected
+Output: public void testToShortShouldReturnZeroWhenFalseGiven() {
+      ^

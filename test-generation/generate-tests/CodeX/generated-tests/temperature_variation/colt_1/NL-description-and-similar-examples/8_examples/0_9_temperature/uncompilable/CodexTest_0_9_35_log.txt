@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_35.java:29: error: cannot find symbol
+  public static int testAssign(Vector y) {
+                               ^
+  symbol:   class Vector
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:31: error: cannot find symbol
+    if (y instanceof AVector) {
+                     ^
+  symbol:   class AVector
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:33: error: cannot find symbol
+      y = new RandomVector((AVector) y, true);
+              ^
+  symbol:   class RandomVector
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:33: error: cannot find symbol
+      y = new RandomVector((AVector) y, true);
+                            ^
+  symbol:   class AVector
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:36: error: cannot find symbol
+    Vector x = new DenseVector(y.dim());
+    ^
+  symbol:   class Vector
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:36: error: cannot find symbol
+    Vector x = new DenseVector(y.dim());
+                   ^
+  symbol:   class DenseVector
+  location: class CodexTest_0_9_35

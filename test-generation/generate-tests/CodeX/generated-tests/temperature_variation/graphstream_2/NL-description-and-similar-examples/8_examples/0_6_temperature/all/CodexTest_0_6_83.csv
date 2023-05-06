@@ -1,0 +1,194 @@
+prompt,output
+"Suggest a test for a method with the boolean equals(Path p) signature.
+
+Input: public DoubleMatrix1D like(int size) {
+			return new DenseDoubleMatrix1D(size);
+		}
+Output: public static void doubleTest28() {
+			double[] data={1,2,3,4,5,6};
+			double[][] arrMatrix = 
+			{ 
+				{ 1, 2, 3, 4, 5, 6},
+				{ 2, 3, 4, 5, 6, 7}
+			};
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			DoubleMatrix2D matrix = f.make(arrMatrix);
+			DoubleMatrix1D res = vector.like(matrix.rows());
+
+						matrix.zMult(vector,res);
+
+					System.out.println(res);
+		}
+
+Input: public void add(Edge edge) {
+		if (nodePath.isEmpty()) {
+			add(null, edge);
+		} else {
+			add(nodePath.peek(), edge);
+		}	}
+Output: @Test(expected = IllegalArgumentException.class)
+	public void add_whenAddingEdgeRootMustBeSet() {
+		Graph graph = new DefaultGraph(""test"");
+		graph.setStrict(false);
+		graph.setAutoCreate(true);
+
+		graph.addEdge(""ab"", ""a"", ""b"");
+		graph.addEdge(""bc"", ""b"", ""c"");
+		graph.addEdge(""cd"", ""c"", ""d"");
+		Path path = new Path();
+
+		// this has to fail as root of the path is not set
+		path.add(graph.getEdge(""ab""));
+	}
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnFalseWhenFStringGiven() {
+			// given
+			BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+			// when
+			Boolean result = underTest.wrap('N', null);
+			// then
+			assertFalse(result);
+		}
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnTrueWhenYStringGiven() {
+        // given
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+        // when
+        Boolean result = underTest.wrap(""Y"", null);
+        // then
+        assertTrue(result);
+    }
+
+Input: public void setRoot(Node root) {
+			if (this.root == null) {
+				this.root = root;
+				nodePath.push(root);
+			} else {
+				logger.warning('Root node is not null - first use the clear method.');
+			}
+		}
+Output: @Test(expected = IllegalArgumentException.class)
+		public void add_nodeHeadMustBeInEdge() {
+			Graph graph = createSimpleGraph();
+			Path path = new Path();
+				path.setRoot(graph.getNode('a'));
+				// this has to fail as there is no edge between nodes 'a' and 'c'
+			path.add(graph.getEdge('cd'));
+		}
+
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public IndexRequest opType(String opType) {
+        String op = opType.toLowerCase(Locale.ROOT);
+        if (op.equals(""create"")) {
+            opType(OpType.CREATE);
+        } else if (op.equals(""index"")) {
+            opType(OpType.INDEX);
+        } else {
+            throw new IllegalArgumentException(""opType must be 'create' or 'index', found: ["" + opType + ""]"");
+        }
+        return this;
+    }
+Output: public void testReadBogusString() {
+        try {
+            IndexRequest indexRequest = new IndexRequest("""");
+            indexRequest.opType(""foobar"");
+            fail(""Expected IllegalArgumentException"");
+        } catch (IllegalArgumentException e) {
+            assertThat(e.getMessage(), equalTo(""opType must be 'create' or 'index', found: [foobar]""));
+        }    }
+
+Input: public double getX() {
+			return x;
+		}
+Output: public void testCoordinates() {
+			Vector1D v = new Vector1D(1);
+			Assert.assertTrue(FastMath.abs(v.getX() - 1) < 1.0e-12);
+		}
+
+Input: public boolean equals(Path p) {
+		if (nodePath.size() != p.nodePath.size()) {
+			return false;
+		} else {
+			for (int i = 0; i < nodePath.size(); i++) {
+				if (nodePath.get(i) != p.nodePath.get(i)) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+Output:
+  ","import org.graphstream.graph.*;
+import java.util.Collection;
+import java.util.List;
+import java.util.Stack;
+import java.util.logging.Logger;
+import java.util.stream.Stream;
+
+import org.graphstream.graph.Graph;
+import org.graphstream.graph.Path;
+import org.graphstream.graph.implementations.DefaultGraph;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_6_83 { 
+  @Test
+    public void testEquals() {
+        Path p = new Path();
+        p.setRoot(graph.getNode('a'));
+        p.add(graph.getEdge('ab'));
+        p.add(graph.getEdge('bc'));
+        assertTrue(p.equals(path));
+    }
+}"

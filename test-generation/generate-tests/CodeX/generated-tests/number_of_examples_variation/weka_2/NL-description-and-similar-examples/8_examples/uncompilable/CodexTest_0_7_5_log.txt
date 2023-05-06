@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_5.java:20: error: cannot find symbol
+      Instances model = new Instances("Test", generateTestHeader(numAtts, numVals), 0);
+                                              ^
+  symbol:   method generateTestHeader(int,int)
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:36: error: cannot find symbol
+      Instances model2 = new Instances("Test", generateTestHeader(numAtts, numVals), 0);
+                                               ^
+  symbol:   method generateTestHeader(int,int)
+  location: class CodexTest_0_7_5

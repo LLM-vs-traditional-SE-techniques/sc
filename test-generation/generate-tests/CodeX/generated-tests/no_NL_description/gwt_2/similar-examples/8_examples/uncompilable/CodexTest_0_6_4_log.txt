@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_4.java:16: error: cannot find symbol
+    Thread.setDefaultUncaughtExceptionHandler(new UncaughtExceptionHandler() {
+                                                  ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:25: error: cannot find symbol
+        getMainLooper().getThread(), t);
+        ^
+  symbol:   method getMainLooper()
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:24: error: cannot find symbol
+    getMainLooper().getThread().getUncaughtExceptionHandler().uncaughtException(
+    ^
+  symbol:   method getMainLooper()
+  location: class CodexTest_0_6_4

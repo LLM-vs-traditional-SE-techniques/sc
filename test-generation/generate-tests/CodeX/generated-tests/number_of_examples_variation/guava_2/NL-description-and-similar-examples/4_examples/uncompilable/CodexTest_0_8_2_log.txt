@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_2.java:26: error: cannot find symbol
+    assertEquals(7, bits.writeBytesTo(bytes, 0, bytes.length));
+                    ^
+  symbol:   variable bits
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:27: error: cannot find symbol
+    assertEquals("\0\0\0\0\0\0\0", new String(bytes, UTF_8));
+                                                     ^
+  symbol:   variable UTF_8
+  location: class CodexTest_0_8_2

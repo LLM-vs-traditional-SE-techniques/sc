@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_82.java:16: error: cannot find symbol
+        assertEquals(Short.valueOf(False), BooleanTypeDescriptor.INSTANCE.toShort(Boolean.FALSE));
+                                   ^
+  symbol:   variable False
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:17: error: cannot find symbol
+        assertEquals(Short.valueOf(True), BooleanTypeDescriptor.INSTANCE.toShort(Boolean.TRUE));
+                                   ^
+  symbol:   variable True
+  location: class CodexTest_0_8_82

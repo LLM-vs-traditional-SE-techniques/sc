@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_49.java:29: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_8_49.java:32: error: <identifier> expected
+Output:
+      ^

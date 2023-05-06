@@ -1,0 +1,43 @@
+isCompilable => false
+CodexTest_0_8_72.java:71: error: cannot find symbol
+        XContentParser parser = XContentFactory.xContent(XContentType.JSON)
+        ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_8_72
+CodexTest_0_8_72.java:72: error: cannot find symbol
+                .createParser(NamedXContentRegistry.EMPTY, DeprecationHandler.THROW_UNSUPPORTED_OPERATION,
+                              ^
+  symbol:   variable NamedXContentRegistry
+  location: class CodexTest_0_8_72
+CodexTest_0_8_72.java:72: error: cannot find symbol
+                .createParser(NamedXContentRegistry.EMPTY, DeprecationHandler.THROW_UNSUPPORTED_OPERATION,
+                                                           ^
+  symbol:   variable DeprecationHandler
+  location: class CodexTest_0_8_72
+CodexTest_0_8_72.java:73: error: cannot find symbol
+                        BytesReference.bytes(builder).streamInput());
+                                      ^
+  symbol:   method bytes(org.elasticsearch.common.xcontent.XContentBuilder)
+  location: class org.elasticsearch.common.bytes.BytesReference
+CodexTest_0_8_72.java:75: error: cannot find symbol
+        assertThat(generatedSourceAsMap, notNullValue());
+                                         ^
+  symbol:   method notNullValue()
+  location: class CodexTest_0_8_72
+CodexTest_0_8_72.java:76: error: cannot find symbol
+        assertThat(generatedSourceAsMap.size(), equalTo(1));
+                                                ^
+  symbol:   method equalTo(int)
+  location: class CodexTest_0_8_72
+CodexTest_0_8_72.java:77: error: cannot find symbol
+        assertThat(generatedSourceAsMap.get("date"), instanceOf(String.class));
+                                                     ^
+  symbol:   method instanceOf(java.lang.Class<java.lang.String>)
+  location: class CodexTest_0_8_72
+CodexTest_0_8_72.java:78: error: cannot find symbol
+        assertThat(generatedSourceAsMap.get("date"), equalTo("2009-11-15T14:12:12"));
+                                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_72
+Note: CodexTest_0_8_72.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

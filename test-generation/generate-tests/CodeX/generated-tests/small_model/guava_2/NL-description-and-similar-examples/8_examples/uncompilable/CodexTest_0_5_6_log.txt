@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_6.java:26: error: cannot find symbol
+    AlgVector v = new AlgVector(2);
+    ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_5_6
+CodexTest_0_5_6.java:26: error: cannot find symbol
+    AlgVector v = new AlgVector(2);
+                      ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_5_6
+CodexTest_0_5_6.java:31: error: cannot find symbol
+    assertEquals(2.3, ByteBuffer.wrap(bytes).getDouble(), 0.0);
+                      ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_5_6
+CodexTest_0_5_6.java:32: error: cannot find symbol
+    assertEquals(1.2, ByteBuffer.wrap(bytes).getDouble(), 0.0);
+                      ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_5_6

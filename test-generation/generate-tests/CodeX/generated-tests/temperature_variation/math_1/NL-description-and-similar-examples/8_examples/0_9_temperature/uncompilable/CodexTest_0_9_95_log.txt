@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_95.java:39: error: <identifier> expected
+Input: public Vector1D negate() {
+     ^
+CodexTest_0_9_95.java:42: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_95.java:58: error: <identifier> expected
+Input: public Vector1D linearCombination(double a1, Vector1D v1) {
+     ^
+CodexTest_0_9_95.java:61: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_9_95.java:64: error: '(' or '[' expected
+}
+^
+CodexTest_0_9_95.java:64: error: reached end of file while parsing
+}
+ ^

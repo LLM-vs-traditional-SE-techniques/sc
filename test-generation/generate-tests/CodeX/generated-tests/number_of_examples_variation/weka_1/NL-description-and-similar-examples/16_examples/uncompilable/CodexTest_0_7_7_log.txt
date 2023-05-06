@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_7_7.java:18: error: cannot find symbol
+    AlgVector a = new AlgVector(random, 20);
+                                ^
+  symbol:   variable random
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:19: error: cannot find symbol
+    AlgVector b = new AlgVector(random, 20);
+                                ^
+  symbol:   variable random
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:21: error: cannot find symbol
+    for (int i = 0; i < c.getDimension(); i++) {
+                         ^
+  symbol:   method getDimension()
+  location: variable c of type weka.core.AlgVector
+Note: CodexTest_0_7_7.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

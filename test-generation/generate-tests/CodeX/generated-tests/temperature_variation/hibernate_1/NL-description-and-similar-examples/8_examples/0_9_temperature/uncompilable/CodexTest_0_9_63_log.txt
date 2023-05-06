@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_9_63.java:16: error: incompatible types: possible lossy conversion from int to short
+    short shortExpected = 63647; // > 10 but < 10
+                          ^
+CodexTest_0_9_63.java:18: error: cannot find symbol
+    Short shortActual = underTest.toShort(true);
+                                 ^
+  symbol:   method toShort(boolean)
+  location: variable underTest of type org.hibernate.type.descriptor.java.ShortTypeDescriptor

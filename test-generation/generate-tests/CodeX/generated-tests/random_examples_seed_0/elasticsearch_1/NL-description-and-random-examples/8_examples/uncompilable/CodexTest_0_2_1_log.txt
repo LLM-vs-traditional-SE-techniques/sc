@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_2_1.java:68: error: cannot find symbol
+        HierarchyNode<String> parentNode = new HierarchyNode<String>(parent);
+        ^
+  symbol:   class HierarchyNode
+  location: class CodexTest_0_2_1
+CodexTest_0_2_1.java:68: error: cannot find symbol
+        HierarchyNode<String> parentNode = new HierarchyNode<String>(parent);
+                                               ^
+  symbol:   class HierarchyNode
+  location: class CodexTest_0_2_1
+CodexTest_0_2_1.java:69: error: cannot find symbol
+        HierarchyNode<String> childNode = new HierarchyNode<String>(child, parentNode);
+        ^
+  symbol:   class HierarchyNode
+  location: class CodexTest_0_2_1
+CodexTest_0_2_1.java:69: error: cannot find symbol
+        HierarchyNode<String> childNode = new HierarchyNode<String>(child, parentNode);
+                                              ^
+  symbol:   class HierarchyNode
+  location: class CodexTest_0_2_1
+CodexTest_0_2_1.java:70: error: cannot find symbol
+        HierarchyNode<String> grandchildNode = new HierarchyNode<String>(grandchild, childNode);
+        ^
+  symbol:   class HierarchyNode
+  location: class CodexTest_0_2_1
+CodexTest_0_2_1.java:70: error: cannot find symbol
+        HierarchyNode<String> grandchildNode = new HierarchyNode<String>(grandchild, childNode);
+                                                   ^
+  symbol:   class HierarchyNode
+  location: class CodexTest_0_2_1

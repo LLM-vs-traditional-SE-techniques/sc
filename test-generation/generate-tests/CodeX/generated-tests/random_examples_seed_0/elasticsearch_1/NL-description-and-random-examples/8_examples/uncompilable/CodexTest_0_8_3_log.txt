@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_3.java:65: error: cannot find symbol
+            ClassDescriptor classDescriptor = new ClassDescriptor();
+            ^
+  symbol:   class ClassDescriptor
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:65: error: cannot find symbol
+            ClassDescriptor classDescriptor = new ClassDescriptor();
+                                                  ^
+  symbol:   class ClassDescriptor
+  location: class CodexTest_0_8_3

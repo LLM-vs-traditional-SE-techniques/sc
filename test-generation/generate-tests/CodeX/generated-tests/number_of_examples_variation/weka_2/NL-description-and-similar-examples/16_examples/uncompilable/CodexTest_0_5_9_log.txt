@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_9.java:25: error: cannot find symbol
+            Instances data = MatrixOps.createInstances(values, null, 3);
+                             ^
+  symbol:   variable MatrixOps
+  location: class CodexTest_0_5_9

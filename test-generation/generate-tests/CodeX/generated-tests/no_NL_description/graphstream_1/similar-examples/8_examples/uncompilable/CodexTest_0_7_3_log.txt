@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_3.java:20: error: cannot find symbol
+        assertTrue(graph.contains(graph.getEdge("AB")));
+                                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:20: error: cannot find symbol
+        assertTrue(graph.contains(graph.getEdge("AB")));
+                   ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:21: error: cannot find symbol
+        assertFalse(graph.contains(new DefaultEdge("missing")));
+                                       ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:21: error: cannot find symbol
+        assertFalse(graph.contains(new DefaultEdge("missing")));
+                    ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_3

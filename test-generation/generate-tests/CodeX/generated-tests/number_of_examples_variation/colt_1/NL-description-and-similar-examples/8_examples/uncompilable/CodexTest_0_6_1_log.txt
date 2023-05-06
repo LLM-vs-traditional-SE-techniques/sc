@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_1.java:31: error: cannot find symbol
+        DoubleMatrix1D m = factory().make(3);
+                           ^
+  symbol:   method factory()
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:33: error: cannot find symbol
+        assertEquals(1, m.get(0), tolerance());
+                                  ^
+  symbol:   method tolerance()
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:34: error: cannot find symbol
+        assertEquals(2, m.get(1), tolerance());
+                                  ^
+  symbol:   method tolerance()
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:35: error: cannot find symbol
+        assertEquals(3, m.get(2), tolerance());
+                                  ^
+  symbol:   method tolerance()
+  location: class CodexTest_0_6_1

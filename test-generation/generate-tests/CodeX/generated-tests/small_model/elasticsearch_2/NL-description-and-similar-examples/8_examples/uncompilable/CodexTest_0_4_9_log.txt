@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_9.java:67: error: cannot find symbol
+            builder.map(source);
+                        ^
+  symbol:   variable source
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:72: error: cannot find symbol
+            throw new ElasticsearchGenerationException("Failed to generate [" + source + "]", e);
+                                                                                ^
+  symbol:   variable source
+  location: class CodexTest_0_4_9

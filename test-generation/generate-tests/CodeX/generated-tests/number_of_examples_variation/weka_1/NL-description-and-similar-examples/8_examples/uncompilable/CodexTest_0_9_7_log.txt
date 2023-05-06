@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_9_7.java:26: error: cannot find symbol
+       testColA[y] = Utils.randomFloat(mu, sigma);
+                          ^
+  symbol:   method randomFloat(float,float)
+  location: class weka.core.Utils
+CodexTest_0_9_7.java:28: error: cannot find symbol
+      ZVectorCol testCol = new ZVectorColImpl(testColA);
+      ^
+  symbol:   class ZVectorCol
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:28: error: cannot find symbol
+      ZVectorCol testCol = new ZVectorColImpl(testColA);
+                               ^
+  symbol:   class ZVectorColImpl
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:31: error: cannot find symbol
+    ZVectorCol[] arrA = new ZVectorCol[sizeX];
+    ^
+  symbol:   class ZVectorCol
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:31: error: cannot find symbol
+    ZVectorCol[] arrA = new ZVectorCol[sizeX];
+                            ^
+  symbol:   class ZVectorCol
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:34: error: cannot find symbol
+      ZVectorCol testCol = new ZVectorColImpl(testColA);
+      ^
+  symbol:   class ZVectorCol
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:34: error: cannot find symbol
+      ZVectorCol testCol = new ZVectorColImpl(testColA);
+                               ^
+  symbol:   class ZVectorColImpl
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:37: error: cannot find symbol
+    ZVectorRowImpl rowA = new ZVectorRowImpl(arrA, true);
+    ^
+  symbol:   class ZVectorRowImpl
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:37: error: cannot find symbol
+    ZVectorRowImpl rowA = new ZVectorRowImpl(arrA, true);
+                              ^
+  symbol:   class ZVectorRowImpl
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:38: error: cannot find symbol
+    ZVectorRowImpl rowB = rowA.transpose();
+    ^
+  symbol:   class ZVectorRowImpl
+  location: class CodexTest_0_9_7

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_8.java:20: error: cannot find symbol
+        Instances model = createTestInstances();
+                          ^
+  symbol:   method createTestInstances()
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:23: error: cannot find symbol
+            m_Vector.getAsInstance(model, random);
+            ^
+  symbol:   variable m_Vector
+  location: class CodexTest_0_6_8

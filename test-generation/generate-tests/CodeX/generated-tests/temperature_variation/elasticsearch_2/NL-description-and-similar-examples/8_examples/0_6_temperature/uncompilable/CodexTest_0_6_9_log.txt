@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_6_9.java:70: error: cannot find symbol
+			assertThat(indexRequest.sourceAsMap().size(), equalTo(1));
+			                                              ^
+  symbol:   method equalTo(int)
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:71: error: cannot find symbol
+			assertThat((String) indexRequest.sourceAsMap().get("field1"), equalTo("value1"));
+			                                                              ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:72: error: cannot find symbol
+			assertThat(indexRequest.sourceAsBytes(), equalTo(new BytesArray("{\"field1\":\"value1\"}".getBytes(Charsets.UTF_8))));
+			                       ^
+  symbol:   method sourceAsBytes()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_6_9.java:72: error: cannot find symbol
+			assertThat(indexRequest.sourceAsBytes(), equalTo(new BytesArray("{\"field1\":\"value1\"}".getBytes(Charsets.UTF_8))));
+			                                                                                                   ^
+  symbol:   variable Charsets
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:72: error: cannot find symbol
+			assertThat(indexRequest.sourceAsBytes(), equalTo(new BytesArray("{\"field1\":\"value1\"}".getBytes(Charsets.UTF_8))));
+			                                         ^
+  symbol:   method equalTo(org.elasticsearch.common.bytes.BytesArray)
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:73: error: cannot find symbol
+			assertThat(indexRequest.sourceAsString(), equalTo("{\"field1\":\"value1\"}"));
+			                       ^
+  symbol:   method sourceAsString()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_6_9.java:73: error: cannot find symbol
+			assertThat(indexRequest.sourceAsString(), equalTo("{\"field1\":\"value1\"}"));
+			                                          ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_6_9

@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_5_5.java:30: error: package Factory does not exist
+        DoubleMatrix1D vector = Factory.dense.make(3);
+                                       ^
+CodexTest_0_5_5.java:31: error: package Factory does not exist
+        DoubleMatrix2D matrix = Factory.dense.make(2, 3);
+                                       ^
+CodexTest_0_5_5.java:33: error: cannot find symbol
+        vector.zMult(matrix, res);
+              ^
+  symbol:   method zMult(cern.colt.matrix.DoubleMatrix2D,cern.colt.matrix.DoubleMatrix2D)
+  location: variable vector of type cern.colt.matrix.DoubleMatrix1D

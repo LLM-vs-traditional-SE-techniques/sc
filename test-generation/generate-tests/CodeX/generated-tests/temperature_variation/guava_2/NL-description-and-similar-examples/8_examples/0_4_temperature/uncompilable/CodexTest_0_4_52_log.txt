@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_52.java:29: error: cannot find symbol
+    int result = bs.writeBytesTo(dest, offset, maxLength);
+                 ^
+  symbol:   variable bs
+  location: class CodexTest_0_4_52

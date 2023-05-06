@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_3.java:30: error: cannot find symbol
+		DoubleMatrix1D expected = factory().make(SIZE);
+		                                         ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_5_3
+CodexTest_0_5_3.java:30: error: cannot find symbol
+		DoubleMatrix1D expected = factory().make(SIZE);
+		                          ^
+  symbol:   method factory()
+  location: class CodexTest_0_5_3
+CodexTest_0_5_3.java:34: error: cannot find symbol
+		DoubleMatrix1D other = factory().make(SIZE);
+		                                      ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_5_3
+CodexTest_0_5_3.java:34: error: cannot find symbol
+		DoubleMatrix1D other = factory().make(SIZE);
+		                       ^
+  symbol:   method factory()
+  location: class CodexTest_0_5_3

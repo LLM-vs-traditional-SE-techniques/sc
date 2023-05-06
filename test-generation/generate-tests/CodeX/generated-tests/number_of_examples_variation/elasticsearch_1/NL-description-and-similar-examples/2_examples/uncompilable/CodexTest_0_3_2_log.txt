@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_2.java:65: error: cannot find symbol
+        assertEquals("parent", new Parent().parent());
+                                   ^
+  symbol:   class Parent
+  location: class CodexTest_0_3_2

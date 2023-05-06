@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_1.java:38: error: <identifier> expected
+Input: public DoubleMatrix1D assign(double[] values) {
+     ^
+CodexTest_0_7_1.java:59: error: reached end of file while parsing
+}
+ ^

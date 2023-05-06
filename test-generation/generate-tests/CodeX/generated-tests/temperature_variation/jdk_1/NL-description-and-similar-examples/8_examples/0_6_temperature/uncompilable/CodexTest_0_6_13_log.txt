@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_6_13.java:21: error: cannot find symbol
+        assertEquals("1st remove failed", "A", a.remove(0));
+                                               ^
+  symbol:   variable a
+  location: class CodexTest_0_6_13
+CodexTest_0_6_13.java:22: error: cannot find symbol
+        assertEquals("2nd remove failed", "B", a.remove(0));
+                                               ^
+  symbol:   variable a
+  location: class CodexTest_0_6_13
+CodexTest_0_6_13.java:23: error: cannot find symbol
+        assertEquals("3rd remove failed", "C", a.remove(0));
+                                               ^
+  symbol:   variable a
+  location: class CodexTest_0_6_13
+CodexTest_0_6_13.java:24: error: cannot find symbol
+        assertEquals("4th remove failed", "D", a.remove(0));
+                                               ^
+  symbol:   variable a
+  location: class CodexTest_0_6_13
+CodexTest_0_6_13.java:25: error: cannot find symbol
+        assertEquals("5th remove failed", "E", a.remove(0));
+                                               ^
+  symbol:   variable a
+  location: class CodexTest_0_6_13
+CodexTest_0_6_13.java:27: error: cannot find symbol
+            a.remove(0);
+            ^
+  symbol:   variable a
+  location: class CodexTest_0_6_13

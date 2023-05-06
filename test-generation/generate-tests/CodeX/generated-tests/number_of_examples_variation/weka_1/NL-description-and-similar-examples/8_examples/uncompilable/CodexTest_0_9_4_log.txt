@@ -1,0 +1,29 @@
+isCompilable => false
+CodexTest_0_9_4.java:18: error: cannot find symbol
+    AlgVector v1 = new AlgVector(m_dArr);
+                                 ^
+  symbol:   variable m_dArr
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:19: error: cannot find symbol
+    AlgVector v2 = new AlgVector(m_dArr);
+                                 ^
+  symbol:   variable m_dArr
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:21: error: cannot find symbol
+    for(int i = 0; i < m_dArr.length; i++) {
+                       ^
+  symbol:   variable m_dArr
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:22: error: cannot find symbol
+      assertEquals("Value differs", m_dArr[i] + m_dArr[i], v3.m_Elements[i]);
+                                    ^
+  symbol:   variable m_dArr
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:22: error: cannot find symbol
+      assertEquals("Value differs", m_dArr[i] + m_dArr[i], v3.m_Elements[i]);
+                                                ^
+  symbol:   variable m_dArr
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:22: error: m_Elements has protected access in weka.core.AlgVector
+      assertEquals("Value differs", m_dArr[i] + m_dArr[i], v3.m_Elements[i]);
+                                                             ^

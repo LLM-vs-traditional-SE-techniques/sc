@@ -1,0 +1,76 @@
+isCompilable => false
+CodexTest_0_6_89.java:21: error: cannot find symbol
+        assertFalse(list.contains(null));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:22: error: cannot find symbol
+        list.add(null);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:23: error: cannot find symbol
+        assertTrue(list.contains(null));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:24: error: cannot find symbol
+        assertFalse(list.contains(1));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:25: error: cannot find symbol
+        list.add(1);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:26: error: cannot find symbol
+        assertTrue(list.contains(1));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:27: error: cannot find symbol
+        assertFalse(list.contains(2));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:28: error: cannot find symbol
+        list.add(2);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:29: error: cannot find symbol
+        assertTrue(list.contains(2));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:30: error: cannot find symbol
+        list.remove(null);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:31: error: cannot find symbol
+        assertFalse(list.contains(null));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:32: error: cannot find symbol
+        list.remove(1);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:33: error: cannot find symbol
+        assertFalse(list.contains(1));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:34: error: cannot find symbol
+        list.remove(2);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:35: error: cannot find symbol
+        assertFalse(list.contains(2));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_6_89

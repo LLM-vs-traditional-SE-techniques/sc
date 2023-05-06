@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_4_26.java:30: error: cannot find symbol
+		double[] values = new double[SIZE];
+		                             ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:31: error: cannot find symbol
+		for (int i=0; i<SIZE; i++) {
+		                ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:34: error: cannot find symbol
+		matA.assign(values);
+		^
+  symbol:   variable matA
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:35: error: cannot find symbol
+		for (int row=0; row<matA.rows(); row++) {
+		                    ^
+  symbol:   variable matA
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:36: error: cannot find symbol
+			for (int column=0; column<matA.columns(); column++) {
+			                          ^
+  symbol:   variable matA
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:37: error: cannot find symbol
+				assertEquals(values[row], matA.getQuick(row, column), TOL);
+				                          ^
+  symbol:   variable matA
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:37: error: cannot find symbol
+				assertEquals(values[row], matA.getQuick(row, column), TOL);
+				                                                      ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_26

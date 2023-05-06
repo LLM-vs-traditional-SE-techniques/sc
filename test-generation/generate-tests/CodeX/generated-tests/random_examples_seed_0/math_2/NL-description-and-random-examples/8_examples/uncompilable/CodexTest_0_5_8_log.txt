@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_5_8.java:31: error: cannot find symbol
+        Vector2D v1 = new Vector2D(0, 0);
+        ^
+  symbol:   class Vector2D
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:31: error: cannot find symbol
+        Vector2D v1 = new Vector2D(0, 0);
+                          ^
+  symbol:   class Vector2D
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:32: error: cannot find symbol
+        Vector2D v2 = new Vector2D(3, 4);
+        ^
+  symbol:   class Vector2D
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:32: error: cannot find symbol
+        Vector2D v2 = new Vector2D(3, 4);
+                          ^
+  symbol:   class Vector2D
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:33: error: cannot find symbol
+        double distance = Vector2D.distanceSq(v1, v2);
+                          ^
+  symbol:   variable Vector2D
+  location: class CodexTest_0_5_8

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_2_6.java:32: error: cannot find symbol
+    ByteArrayDataInput input = ByteStreams.newDataInput(bytes);
+    ^
+  symbol:   class ByteArrayDataInput
+  location: class CodexTest_0_2_6
+CodexTest_0_2_6.java:32: error: cannot find symbol
+    ByteArrayDataInput input = ByteStreams.newDataInput(bytes);
+                               ^
+  symbol:   variable ByteStreams
+  location: class CodexTest_0_2_6
+CodexTest_0_2_6.java:33: error: cannot find symbol
+    BitArray bitArray = BitArray.fromBytes(input, maxLength);
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_2_6
+CodexTest_0_2_6.java:33: error: cannot find symbol
+    BitArray bitArray = BitArray.fromBytes(input, maxLength);
+                        ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_2_6

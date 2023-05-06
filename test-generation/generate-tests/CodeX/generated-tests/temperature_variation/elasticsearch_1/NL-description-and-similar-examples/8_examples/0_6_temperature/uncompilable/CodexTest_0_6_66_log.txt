@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_66.java:70: error: cannot find symbol
+        SetSourceRequest request = new SetSourceRequest("index", "type", "id").parent(parent).source(builder);
+        ^
+  symbol:   class SetSourceRequest
+  location: class CodexTest_0_6_66
+CodexTest_0_6_66.java:70: error: cannot find symbol
+        SetSourceRequest request = new SetSourceRequest("index", "type", "id").parent(parent).source(builder);
+                                       ^
+  symbol:   class SetSourceRequest
+  location: class CodexTest_0_6_66
+CodexTest_0_6_66.java:71: error: cannot find symbol
+        assertThat(request.parent(), equalTo(parent));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_6_66

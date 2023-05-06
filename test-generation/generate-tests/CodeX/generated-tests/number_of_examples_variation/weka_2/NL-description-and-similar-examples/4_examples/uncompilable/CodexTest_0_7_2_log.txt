@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_7_2.java:18: error: no suitable constructor found for AlgVector(no arguments)
+    AlgVector v = new AlgVector();
+                  ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instances,java.util.Random) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_7_2.java:27: error: no suitable constructor found for Instances(weka.core.FastVector,int)
+    model = new Instances(new FastVector(), 0);
+            ^
+    constructor weka.core.Instances.Instances(java.io.Reader,int) is not applicable
+      (argument mismatch; weka.core.FastVector cannot be converted to java.io.Reader)
+    constructor weka.core.Instances.Instances(weka.core.Instances,int) is not applicable
+      (argument mismatch; weka.core.FastVector cannot be converted to weka.core.Instances)
+Note: CodexTest_0_7_2.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

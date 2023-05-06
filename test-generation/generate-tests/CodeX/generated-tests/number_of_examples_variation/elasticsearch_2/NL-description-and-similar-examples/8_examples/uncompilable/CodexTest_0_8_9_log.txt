@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_9.java:67: error: cannot find symbol
+        final String key = randomAsciiOfLengthBetween(1, 10);
+                           ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:68: error: cannot find symbol
+        source.put(key, new ByteArrayInputStream(((byte) 5)));
+                            ^
+  symbol:   class ByteArrayInputStream
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:69: error: cannot find symbol
+        final XContentType xContentType = randomFrom(XContentType.values());
+                                          ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:71: error: cannot find symbol
+        try (XContentParser parser = createParser(xContentType.xContent(), indexRequest.source())) {
+             ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:71: error: cannot find symbol
+        try (XContentParser parser = createParser(xContentType.xContent(), indexRequest.source())) {
+                                     ^
+  symbol:   method createParser(org.elasticsearch.common.xcontent.XContent,org.elasticsearch.common.bytes.BytesReference)
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:73: error: cannot find symbol
+            assertThat(sourceAsMap.get(key), equalTo(5));
+                                             ^
+  symbol:   method equalTo(int)
+  location: class CodexTest_0_8_9

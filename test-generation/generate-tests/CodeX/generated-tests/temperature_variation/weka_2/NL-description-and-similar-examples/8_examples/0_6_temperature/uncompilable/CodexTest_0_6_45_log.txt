@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_6_45.java:24: error: cannot find symbol
+			dataSet = v.getAsInstances("test");
+			           ^
+  symbol:   method getAsInstances(java.lang.String)
+  location: variable v of type weka.core.AlgVector
+Note: CodexTest_0_6_45.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

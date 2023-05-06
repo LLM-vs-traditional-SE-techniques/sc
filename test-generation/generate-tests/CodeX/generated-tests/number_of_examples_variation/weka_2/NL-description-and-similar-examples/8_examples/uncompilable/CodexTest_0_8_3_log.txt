@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_3.java:18: error: cannot find symbol
+    Instances data = TestInstances.createRandomInstances(10);
+                                  ^
+  symbol:   method createRandomInstances(int)
+  location: class weka.core.TestInstances

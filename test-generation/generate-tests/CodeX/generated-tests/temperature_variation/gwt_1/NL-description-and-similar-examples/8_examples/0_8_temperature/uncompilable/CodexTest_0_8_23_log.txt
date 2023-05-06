@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_23.java:19: error: illegal character: '\'
+          fail(\"Expected ArithmeticException\");
+               ^
+CodexTest_0_8_23.java:19: error: unclosed string literal
+          fail(\"Expected ArithmeticException\");
+                ^

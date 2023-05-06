@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_4.java:16: error: cannot find symbol
+    assertEquals("Wrong result", 0, toShort(true));
+                                    ^
+  symbol:   method toShort(boolean)
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:19: error: cannot find symbol
+    assertEquals("Wrong result", 1, toShort(false));
+                                    ^
+  symbol:   method toShort(boolean)
+  location: class CodexTest_0_8_4

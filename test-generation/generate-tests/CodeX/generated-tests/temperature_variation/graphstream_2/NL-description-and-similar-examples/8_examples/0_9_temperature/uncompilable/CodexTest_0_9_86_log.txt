@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_86.java:19: error: illegal start of type
+   [TestMethod]
+   ^
+CodexTest_0_9_86.java:19: error: ';' expected
+   [TestMethod]
+    ^
+CodexTest_0_9_86.java:19: error: illegal start of type
+   [TestMethod]
+              ^
+CodexTest_0_9_86.java:19: error: <identifier> expected
+   [TestMethod]
+               ^
+CodexTest_0_9_86.java:20: error: ';' expected
+        public void testEqualsObject() { // Tests for method boolean org.apache.commons.math.linear.BeVeeCh.equals(org.apache.commons.math.linear.BeVeeCh.s)
+              ^
+CodexTest_0_9_86.java:20: error: invalid method declaration; return type required
+        public void testEqualsObject() { // Tests for method boolean org.apache.commons.math.linear.BeVeeCh.equals(org.apache.commons.math.linear.BeVeeCh.s)
+                    ^
+CodexTest_0_9_86.java:39: error: <identifier> expected
+Input: public boolean equals(Path p) {
+     ^
+CodexTest_0_9_86.java:44: error: ')' expected
+				if (nodePath.get(i) != p.node
+				                             ^
+CodexTest_0_9_86.java:45: error: illegal start of statement
+}
+^
+CodexTest_0_9_86.java:45: error: reached end of file while parsing
+}
+ ^

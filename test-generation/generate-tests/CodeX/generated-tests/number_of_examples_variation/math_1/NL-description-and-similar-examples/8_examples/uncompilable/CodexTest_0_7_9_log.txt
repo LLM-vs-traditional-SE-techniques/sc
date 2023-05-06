@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_9.java:42: error: cannot find symbol
+        } catch (MathRuntimeException mre) {
+                 ^
+  symbol:   class MathRuntimeException
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:48: error: cannot find symbol
+        } catch (MathRuntimeException mre) {
+                 ^
+  symbol:   class MathRuntimeException
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:54: error: cannot find symbol
+        } catch (MathRuntimeException mre) {
+                 ^
+  symbol:   class MathRuntimeException
+  location: class CodexTest_0_7_9

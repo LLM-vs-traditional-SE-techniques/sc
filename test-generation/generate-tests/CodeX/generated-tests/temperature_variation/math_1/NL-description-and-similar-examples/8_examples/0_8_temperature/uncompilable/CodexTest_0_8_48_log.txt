@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_48.java:34: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(13, v.x, 0.01);
+                                 ^

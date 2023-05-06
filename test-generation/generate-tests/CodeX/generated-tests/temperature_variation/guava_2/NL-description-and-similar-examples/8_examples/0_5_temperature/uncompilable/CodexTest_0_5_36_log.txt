@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_36.java:25: error: cannot find symbol
+    byte[] dest = new byte[bits() / 8];
+                           ^
+  symbol:   method bits()
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:26: error: cannot find symbol
+    int written = bitArray.writeBytesTo(dest, 0, dest.length);
+                  ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:28: error: cannot find symbol
+    assertTrue(Arrays.equals(BYTES, dest));
+                             ^
+  symbol:   variable BYTES
+  location: class CodexTest_0_5_36

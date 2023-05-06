@@ -1,0 +1,100 @@
+isCompilable => false
+CodexTest_0_5_43.java:20: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:23: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:25: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:28: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:30: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:33: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:35: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:38: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:40: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:43: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:45: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:48: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:50: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:53: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:55: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:58: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:60: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:63: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:65: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:68: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:70: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:73: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:75: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:78: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:80: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:83: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:85: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:88: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:90: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:93: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:95: error: <identifier> expected
+Input: public boolean contains(Edge edge) {
+     ^
+CodexTest_0_5_43.java:98: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_43.java:100: error: <identifier> expected
+Input:
+     ^

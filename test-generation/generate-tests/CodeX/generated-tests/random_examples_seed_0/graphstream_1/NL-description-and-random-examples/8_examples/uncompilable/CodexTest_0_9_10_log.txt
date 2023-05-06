@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_10.java:20: error: cannot find symbol
+        assertEquals(TimeInstant.fromEpochTime(0).contains(TimeInstant.fromEpochTime(0)), true);
+                                                           ^
+  symbol:   variable TimeInstant
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:20: error: cannot find symbol
+        assertEquals(TimeInstant.fromEpochTime(0).contains(TimeInstant.fromEpochTime(0)), true);
+                     ^
+  symbol:   variable TimeInstant
+  location: class CodexTest_0_9_10

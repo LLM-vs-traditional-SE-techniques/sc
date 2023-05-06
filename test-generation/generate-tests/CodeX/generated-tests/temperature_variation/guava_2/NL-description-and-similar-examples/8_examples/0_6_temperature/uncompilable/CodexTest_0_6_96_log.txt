@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_96.java:25: error: cannot find symbol
+    for (int i = 0; i < NBITS; i++) {
+                        ^
+  symbol:   variable NBITS
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:26: error: cannot find symbol
+      for (int j = 0; j < NBITS; j++) {
+                          ^
+  symbol:   variable NBITS
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:27: error: cannot find symbol
+        BitArray a = new BitArray(i);
+        ^
+  symbol:   class BitArray
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:27: error: cannot find symbol
+        BitArray a = new BitArray(i);
+                         ^
+  symbol:   class BitArray
+  location: class CodexTest_0_6_96

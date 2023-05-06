@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_4.java:18: error: method start in class java.lang.Thread cannot be applied to given types;
+      Thread.start(new TestUncaughtExceptionHandler(), "testUncaughtException", 1);
+            ^
+  required: no arguments
+  found: CodexTest_0_9_4.TestUncaughtExceptionHandler,java.lang.String,int
+  reason: actual and formal argument lists differ in length

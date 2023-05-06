@@ -1,0 +1,52 @@
+isCompilable => false
+CodexTest_0_7_25.java:20: error: <identifier> expected
+  path.edgePath.add( graph.getEdge( "x" ) );
+                   ^
+CodexTest_0_7_25.java:20: error: <identifier> expected
+  path.edgePath.add( graph.getEdge( "x" ) );
+                                  ^
+CodexTest_0_7_25.java:20: error: ';' expected
+  path.edgePath.add( graph.getEdge( "x" ) );
+                                   ^
+CodexTest_0_7_25.java:20: error: illegal start of type
+  path.edgePath.add( graph.getEdge( "x" ) );
+                                        ^
+CodexTest_0_7_25.java:20: error: <identifier> expected
+  path.edgePath.add( graph.getEdge( "x" ) );
+                                         ^
+CodexTest_0_7_25.java:21: error: invalid method declaration; return type required
+  assertTrue( path.contains( graph.getEdge( "x" ) ) );
+  ^
+CodexTest_0_7_25.java:21: error: <identifier> expected
+  assertTrue( path.contains( graph.getEdge( "x" ) ) );
+                           ^
+CodexTest_0_7_25.java:21: error: ';' expected
+  assertTrue( path.contains( graph.getEdge( "x" ) ) );
+                            ^
+CodexTest_0_7_25.java:21: error: illegal start of type
+  assertTrue( path.contains( graph.getEdge( "x" ) ) );
+                                  ^
+CodexTest_0_7_25.java:21: error: illegal start of type
+  assertTrue( path.contains( graph.getEdge( "x" ) ) );
+                                            ^
+CodexTest_0_7_25.java:21: error: ';' expected
+  assertTrue( path.contains( graph.getEdge( "x" ) ) );
+                                                 ^
+CodexTest_0_7_25.java:22: error: invalid method declaration; return type required
+  assertFalse( path.contains( graph.getEdge( "y" ) ) );
+  ^
+CodexTest_0_7_25.java:22: error: <identifier> expected
+  assertFalse( path.contains( graph.getEdge( "y" ) ) );
+                            ^
+CodexTest_0_7_25.java:22: error: ';' expected
+  assertFalse( path.contains( graph.getEdge( "y" ) ) );
+                             ^
+CodexTest_0_7_25.java:22: error: illegal start of type
+  assertFalse( path.contains( graph.getEdge( "y" ) ) );
+                                   ^
+CodexTest_0_7_25.java:22: error: illegal start of type
+  assertFalse( path.contains( graph.getEdge( "y" ) ) );
+                                             ^
+CodexTest_0_7_25.java:22: error: ';' expected
+  assertFalse( path.contains( graph.getEdge( "y" ) ) );
+                                                  ^

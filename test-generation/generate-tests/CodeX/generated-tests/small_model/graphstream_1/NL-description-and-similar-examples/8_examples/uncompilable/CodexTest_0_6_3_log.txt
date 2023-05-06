@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_6_3.java:19: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+CodexTest_0_6_3.java:21: error: cannot find symbol
+    return edgePath.contains(edge);
+           ^
+  symbol:   variable edgePath
+  location: class CodexTest_0_6_3

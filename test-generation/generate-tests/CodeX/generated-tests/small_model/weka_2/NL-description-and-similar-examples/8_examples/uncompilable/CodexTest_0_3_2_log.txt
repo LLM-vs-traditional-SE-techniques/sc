@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_2.java:24: error: ')' expected
+        assertEquals(newInst, m_Vector.getAsInstance(m_Dataset, new Random(1
+                                                                            ^
+CodexTest_0_3_2.java:25: error: reached end of file while parsing
+}
+ ^

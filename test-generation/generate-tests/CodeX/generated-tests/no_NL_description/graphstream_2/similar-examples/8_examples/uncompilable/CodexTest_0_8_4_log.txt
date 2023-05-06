@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_8_4.java:19: error: invalid method declaration; return type required
+        assertFalse("Paths should not be equal", path1.equals(path2));
+        ^
+CodexTest_0_8_4.java:19: error: illegal start of type
+        assertFalse("Paths should not be equal", path1.equals(path2));
+                    ^
+CodexTest_0_8_4.java:19: error: <identifier> expected
+        assertFalse("Paths should not be equal", path1.equals(path2));
+                                                             ^
+CodexTest_0_8_4.java:19: error: ';' expected
+        assertFalse("Paths should not be equal", path1.equals(path2));
+                                                              ^
+CodexTest_0_8_4.java:19: error: illegal start of type
+        assertFalse("Paths should not be equal", path1.equals(path2));
+                                                                   ^
+CodexTest_0_8_4.java:19: error: <identifier> expected
+        assertFalse("Paths should not be equal", path1.equals(path2));
+                                                                    ^
+CodexTest_0_8_4.java:21: error: class, interface, or enum expected
+}
+^

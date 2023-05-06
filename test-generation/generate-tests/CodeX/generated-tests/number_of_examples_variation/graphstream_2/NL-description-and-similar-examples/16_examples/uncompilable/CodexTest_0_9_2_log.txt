@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_9_2.java:20: error: cannot find symbol
+        Graph graph = createSimpleGraph();
+                      ^
+  symbol:   method createSimpleGraph()
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:21: error: cannot find symbol
+        String oldId = graph.getNode(b).getId();
+                                     ^
+  symbol:   variable b
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:22: error: cannot find symbol
+        String newId = x;
+                       ^
+  symbol:   variable x
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:23: error: cannot find symbol
+        graph.replaceNode(oldId, graph.getNode(newId));
+             ^
+  symbol:   method replaceNode(java.lang.String,org.graphstream.graph.Node)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_9_2.java:25: error: cannot find symbol
+        assertTrue(graph.containsNode(newId));
+                        ^
+  symbol:   method containsNode(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_9_2.java:26: error: cannot find symbol
+        assertFalse(graph.containsNode(oldId));
+                         ^
+  symbol:   method containsNode(java.lang.String)
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_9_2.java:28: error: cannot find symbol
+        assertTrue(graph.containsEdge(ab));
+                                      ^
+  symbol:   variable ab
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:29: error: cannot find symbol
+        assertTrue(graph.containsEdge(xb));
+                                      ^
+  symbol:   variable xb
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:30: error: cannot find symbol
+        assertEquals(graph.getEdge(xb), graph.getEdge(ab).reversed());
+                                                      ^
+  symbol:   variable ab
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:30: error: cannot find symbol
+        assertEquals(graph.getEdge(xb), graph.getEdge(ab).reversed());
+                                   ^
+  symbol:   variable xb
+  location: class CodexTest_0_9_2

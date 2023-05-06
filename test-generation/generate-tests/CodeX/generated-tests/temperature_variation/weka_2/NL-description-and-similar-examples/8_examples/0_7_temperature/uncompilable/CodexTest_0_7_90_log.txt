@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_90.java:18: error: cannot find symbol
+        AlgVector vec = new AlgVector(numElements);
+                                      ^
+  symbol:   variable numElements
+  location: class CodexTest_0_7_90

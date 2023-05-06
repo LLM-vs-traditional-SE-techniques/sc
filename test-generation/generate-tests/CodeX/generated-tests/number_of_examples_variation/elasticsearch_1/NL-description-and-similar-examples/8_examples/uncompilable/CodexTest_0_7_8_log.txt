@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_7_8.java:65: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_7_8.java:68: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:70: error: <identifier> expected
+Input: public boolean isLeaf() {
+     ^
+CodexTest_0_7_8.java:73: error: <identifier> expected
+Output: public void testLeaf() {
+      ^

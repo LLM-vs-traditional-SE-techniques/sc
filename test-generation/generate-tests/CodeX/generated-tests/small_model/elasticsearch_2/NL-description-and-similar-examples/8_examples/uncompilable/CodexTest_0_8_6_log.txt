@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_6.java:65: error: cannot find symbol
+        Document doc = new Document();
+        ^
+  symbol:   class Document
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:65: error: cannot find symbol
+        Document doc = new Document();
+                           ^
+  symbol:   class Document
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:66: error: cannot find symbol
+        DocumentBuilder builder = new DocumentBuilder(doc);
+        ^
+  symbol:   class DocumentBuilder
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:66: error: cannot find symbol
+        DocumentBuilder builder = new DocumentBuilder(doc);
+                                      ^
+  symbol:   class DocumentBuilder
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:68: error: cannot find symbol
+        Indexer indexer = new Indexer();
+        ^
+  symbol:   class Indexer
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:68: error: cannot find symbol
+        Indexer indexer = new Indexer();
+                              ^
+  symbol:   class Indexer
+  location: class CodexTest_0_8_6

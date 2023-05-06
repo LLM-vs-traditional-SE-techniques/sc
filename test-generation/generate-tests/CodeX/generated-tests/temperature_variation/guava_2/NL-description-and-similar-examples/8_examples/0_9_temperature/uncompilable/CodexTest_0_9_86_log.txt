@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_9_86.java:27: error: cannot find symbol
+            byte[] bytes = new byte[5 * Flower.BYTES];
+                                        ^
+  symbol:   variable Flower
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:28: error: cannot find symbol
+            Random random = new Random(0x5ca1ab1e);
+            ^
+  symbol:   class Random
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:28: error: cannot find symbol
+            Random random = new Random(0x5ca1ab1e);
+                                ^
+  symbol:   class Random
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:30: error: cannot find symbol
+            Set<Flower> flowers = Sets.newLinkedHashSet();
+            ^
+  symbol:   class Set
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:30: error: cannot find symbol
+            Set<Flower> flowers = Sets.newLinkedHashSet();
+                ^
+  symbol:   class Flower
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:30: error: cannot find symbol
+            Set<Flower> flowers = Sets.newLinkedHashSet();
+                                  ^
+  symbol:   variable Sets
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:31: error: cannot find symbol
+            DataView data = new DataView(ByteBuffer.wrap(bytes));
+            ^
+  symbol:   class DataView
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:31: error: cannot find symbol
+            DataView data = new DataView(ByteBuffer.wrap(bytes));
+                                ^
+  symbol:   class DataView
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:31: error: cannot find symbol
+            DataView data = new DataView(ByteBuffer.wrap(bytes));
+                                         ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:33: error: cannot find symbol
+            while (data.remaining() >= Flower.BYTES) {
+                                       ^
+  symbol:   variable Flower
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:34: error: cannot find symbol
+                Flower flower = Flower.parseFrom(data);
+                ^
+  symbol:   class Flower
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:34: error: cannot find symbol
+                Flower flower = Flower.parseFrom(data);
+                                ^
+  symbol:   variable Flower
+  location: class CodexTest_0_9_86
+CodexTest_0_9_86.java:35: error: cannot find symbol
+                assertEquals(Flower.BYTES, flower.getSerializedSize());
+                             ^
+  symbol:   variable Flower
+  location: class CodexTest_0_9_86

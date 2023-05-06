@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_6_83.java:51: error: <identifier> expected
+        assertFalse(list.contains(new
+                                     ^
+CodexTest_0_6_83.java:52: error: '(' or '[' expected
+}
+^
+CodexTest_0_6_83.java:52: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_63.java:66: error: cannot find symbol
+        State instance = new State();
+        ^
+  symbol:   class State
+  location: class CodexTest_0_9_63
+CodexTest_0_9_63.java:66: error: cannot find symbol
+        State instance = new State();
+                             ^
+  symbol:   class State
+  location: class CodexTest_0_9_63
+CodexTest_0_9_63.java:67: error: cannot find symbol
+        BBox expResult = null;
+        ^
+  symbol:   class BBox
+  location: class CodexTest_0_9_63
+CodexTest_0_9_63.java:68: error: cannot find symbol
+        BBox result = instance.getBBox();
+        ^
+  symbol:   class BBox
+  location: class CodexTest_0_9_63

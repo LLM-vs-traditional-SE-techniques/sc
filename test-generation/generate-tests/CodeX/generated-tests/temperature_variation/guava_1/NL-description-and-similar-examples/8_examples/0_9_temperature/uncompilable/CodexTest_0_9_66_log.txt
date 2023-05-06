@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_66.java:25: error: cannot find symbol
+    final LongHashCode lhCode = (LongHashCode) HashCode.fromLong(Hashing.murmur3_128().hashString(null, Charset.defaultCharset()));
+          ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_9_66
+CodexTest_0_9_66.java:25: error: cannot find symbol
+    final LongHashCode lhCode = (LongHashCode) HashCode.fromLong(Hashing.murmur3_128().hashString(null, Charset.defaultCharset()));
+                                 ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_9_66
+CodexTest_0_9_66.java:25: error: cannot find symbol
+    final LongHashCode lhCode = (LongHashCode) HashCode.fromLong(Hashing.murmur3_128().hashString(null, Charset.defaultCharset()));
+                                                                                                        ^
+  symbol:   variable Charset
+  location: class CodexTest_0_9_66
+CodexTest_0_9_66.java:33: error: cannot find symbol
+    assertEquals("HashCode must have the right value as bytes", "0000000000000000".getBytes(CHARSET_UTF_8), lhCode.asBytes());
+                                                                                            ^
+  symbol:   variable CHARSET_UTF_8
+  location: class CodexTest_0_9_66

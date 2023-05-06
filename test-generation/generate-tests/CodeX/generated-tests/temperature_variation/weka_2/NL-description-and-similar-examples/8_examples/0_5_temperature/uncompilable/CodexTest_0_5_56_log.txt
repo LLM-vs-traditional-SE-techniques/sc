@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_56.java:19: error: cannot find symbol
+      Instances inst = new Instances(new StringReader(
+                                         ^
+  symbol:   class StringReader
+  location: class CodexTest_0_5_56

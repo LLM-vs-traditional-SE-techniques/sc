@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_16.java:31: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D p = new Vector1D(1, 2);
+                                     ^
+CodexTest_0_7_16.java:33: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(4.0 * p.x, q.x, 1.0e-15);
+                                   ^
+CodexTest_0_7_16.java:33: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(4.0 * p.x, q.x, 1.0e-15);
+                                        ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

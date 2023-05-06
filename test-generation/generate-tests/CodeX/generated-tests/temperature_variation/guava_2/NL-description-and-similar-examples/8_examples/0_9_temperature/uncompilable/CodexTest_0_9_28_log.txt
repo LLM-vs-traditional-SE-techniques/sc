@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_28.java:29: error: cannot find symbol
+      FixedBitSet bitSet = new FixedBitSet(new int[]{b}, b + 1);
+      ^
+  symbol:   class FixedBitSet
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:29: error: cannot find symbol
+      FixedBitSet bitSet = new FixedBitSet(new int[]{b}, b + 1);
+                               ^
+  symbol:   class FixedBitSet
+  location: class CodexTest_0_9_28

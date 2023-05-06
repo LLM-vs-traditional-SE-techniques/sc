@@ -1,0 +1,30 @@
+isCompilable => false
+CodexTest_0_9_1.java:30: error: cannot find symbol
+		int size=this.size;
+		             ^
+  symbol: variable size
+CodexTest_0_9_1.java:31: error: cannot find symbol
+		DoubleMatrix1D A=AbstractDoubleMatrix1D.make(U(size,1));
+		                                             ^
+  symbol:   method U(int,int)
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:31: error: cannot find symbol
+		DoubleMatrix1D A=AbstractDoubleMatrix1D.make(U(size,1));
+		                 ^
+  symbol:   variable AbstractDoubleMatrix1D
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:32: error: cannot find symbol
+		DoubleMatrix1D b=AbstractDoubleMatrix1D.make(U(size,2));
+		                                             ^
+  symbol:   method U(int,int)
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:32: error: cannot find symbol
+		DoubleMatrix1D b=AbstractDoubleMatrix1D.make(U(size,2));
+		                 ^
+  symbol:   variable AbstractDoubleMatrix1D
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:35: error: cannot find symbol
+			assertEquals(1,b.get(i),TOL);
+			                        ^
+  symbol:   variable TOL
+  location: class CodexTest_0_9_1

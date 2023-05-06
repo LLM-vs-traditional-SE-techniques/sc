@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_1.java:18: error: <identifier> expected
+  UncaughtExceptionHandler handler2 = new UncaughtExceptionHandler.class.getCanonicalName();
+                                                                   ^

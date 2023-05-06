@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_7.java:21: error: cannot find symbol
+        Set set = createCollection();
+                  ^
+  symbol:   method createCollection()
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:22: error: cannot find symbol
+        set.add(a);
+                ^
+  symbol:   variable a
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:23: error: cannot find symbol
+        set.add(b);
+                ^
+  symbol:   variable b
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:24: error: cannot find symbol
+        assertTrue(set.contains(b));
+                                ^
+  symbol:   variable b
+  location: class CodexTest_0_8_7

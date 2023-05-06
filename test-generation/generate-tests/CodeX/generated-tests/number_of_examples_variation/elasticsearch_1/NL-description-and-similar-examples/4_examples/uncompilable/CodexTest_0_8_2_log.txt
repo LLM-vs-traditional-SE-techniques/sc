@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_2.java:65: error: cannot find symbol
+        assertEquals("testString", new ClassUnderTest().parent());
+                                       ^
+  symbol:   class ClassUnderTest
+  location: class CodexTest_0_8_2

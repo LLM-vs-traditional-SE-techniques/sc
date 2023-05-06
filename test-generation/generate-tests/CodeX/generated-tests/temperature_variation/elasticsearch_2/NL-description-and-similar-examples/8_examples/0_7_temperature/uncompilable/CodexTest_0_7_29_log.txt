@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_29.java:69: error: cannot find symbol
+        assertThat(request.source(), equalTo(sourceMap));
+                                     ^
+  symbol:   method equalTo(java.util.Map<java.lang.String,java.lang.Object>)
+  location: class CodexTest_0_7_29

@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_72.java:19: error: cannot find symbol
+            uncaughtException = e;
+            ^
+  symbol: variable uncaughtException
+CodexTest_0_9_72.java:24: error: cannot find symbol
+        assertNotNull(uncaughtException);
+                      ^
+  symbol:   variable uncaughtException
+  location: class CodexTest_0_9_72

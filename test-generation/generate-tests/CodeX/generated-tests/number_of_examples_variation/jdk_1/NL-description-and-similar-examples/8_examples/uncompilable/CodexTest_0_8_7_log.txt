@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_7.java:23: error: cannot find symbol
+        Object object = remove(2);
+                        ^
+  symbol:   method remove(int)
+  location: class CodexTest_0_8_7

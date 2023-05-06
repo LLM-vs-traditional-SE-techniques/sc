@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_2.java:65: error: cannot find symbol
+        assertTrue(new TypedMap().put("hello", 12) == 12);
+                       ^
+  symbol:   class TypedMap
+  location: class CodexTest_0_8_2

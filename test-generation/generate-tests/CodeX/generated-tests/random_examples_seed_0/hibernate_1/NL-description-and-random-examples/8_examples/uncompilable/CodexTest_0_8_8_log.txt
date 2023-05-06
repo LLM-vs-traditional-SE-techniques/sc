@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_8.java:18: error: cannot find symbol
+		Converter conver = new Converter();
+		^
+  symbol:   class Converter
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:18: error: cannot find symbol
+		Converter conver = new Converter();
+		                       ^
+  symbol:   class Converter
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:23: error: cannot find symbol
+		assertEquals( s1, conver.toShort(bool1).shortValue() );
+		              ^
+  symbol:   variable s1
+  location: class CodexTest_0_8_8

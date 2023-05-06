@@ -1,0 +1,39 @@
+isCompilable => false
+CodexTest_0_5_57.java:26: error: cannot find symbol
+    ByteBuffer destBuffer = ByteBuffer.wrap(dest);
+    ^
+  symbol:   class ByteBuffer
+  location: class CodexTest_0_5_57
+CodexTest_0_5_57.java:26: error: cannot find symbol
+    ByteBuffer destBuffer = ByteBuffer.wrap(dest);
+                            ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_5_57
+CodexTest_0_5_57.java:30: error: cannot find symbol
+    BitArray bitArray = new BitArray(destBuffer, 10);
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_5_57
+CodexTest_0_5_57.java:30: error: cannot find symbol
+    BitArray bitArray = new BitArray(destBuffer, 10);
+                            ^
+  symbol:   class BitArray
+  location: class CodexTest_0_5_57
+CodexTest_0_5_57.java:32: error: no suitable method found for assertThat(int)
+    assertThat(bytesWritten).isEqualTo(8);
+    ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+CodexTest_0_5_57.java:33: error: no suitable method found for assertThat(byte[])
+    assertThat(dest).containsExactly(
+    ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))

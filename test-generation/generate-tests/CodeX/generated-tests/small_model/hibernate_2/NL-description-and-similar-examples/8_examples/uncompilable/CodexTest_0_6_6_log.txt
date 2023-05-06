@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_6.java:31: error: ')' expected
+        assertEquals( Boolean.TRUE, BooleanTypeDescriptor.INSTANCE.fromString("1E0")
+                                                                                    ^
+CodexTest_0_6_6.java:32: error: reached end of file while parsing
+}
+ ^

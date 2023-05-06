@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_3.java:65: error: cannot find symbol
+        String parent = randomAlphaOfLengthBetween(3, 10);
+                        ^
+  symbol:   method randomAlphaOfLengthBetween(int,int)
+  location: class CodexTest_0_5_3
+CodexTest_0_5_3.java:66: error: cannot find symbol
+        SearchRequest searchRequest = new SearchRequest("test");
+        ^
+  symbol:   class SearchRequest
+  location: class CodexTest_0_5_3
+CodexTest_0_5_3.java:66: error: cannot find symbol
+        SearchRequest searchRequest = new SearchRequest("test");
+                                          ^
+  symbol:   class SearchRequest
+  location: class CodexTest_0_5_3

@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_9_1.java:20: error: cannot find symbol
+        final Edge e1 = new EdgeImpl(0);
+                            ^
+  symbol:   class EdgeImpl
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:21: error: cannot find symbol
+        final Edge e2 = new EdgeImpl(1);
+                            ^
+  symbol:   class EdgeImpl
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:22: error: cannot find symbol
+        final Edge e3 = new EdgeImpl(2);
+                            ^
+  symbol:   class EdgeImpl
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:23: error: type org.graphstream.graph.Path does not take parameters
+        Path<Edge> path = new Path<Edge>();
+            ^
+CodexTest_0_9_1.java:23: error: type org.graphstream.graph.Path does not take parameters
+        Path<Edge> path = new Path<Edge>();
+                                  ^

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_13.java:120: error: ';' expected
+        long source
+                   ^
+CodexTest_0_3_13.java:121: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,58 @@
+isCompilable => false
+CodexTest_0_9_3.java:21: error: incompatible types: inference variable T has incompatible bounds
+        Collection<Character> collection = Arrays.asList(2, 3);
+                                                        ^
+    equality constraints: java.lang.Character
+    lower bounds: java.lang.Integer
+CodexTest_0_9_3.java:23: error: cannot find symbol
+        list.add(a);
+                 ^
+  symbol:   variable a
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:24: error: no suitable method found for add(int)
+        list.add(2);
+            ^
+    method java.util.Collection.add(java.lang.Character) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.Character)
+    method java.util.List.add(java.lang.Character) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.Character)
+    method java.util.AbstractCollection.add(java.lang.Character) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.Character)
+    method java.util.AbstractList.add(java.lang.Character) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.Character)
+    method java.util.ArrayList.add(java.lang.Character) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.Character)
+CodexTest_0_9_3.java:25: error: no suitable method found for add(int)
+        list.add(3);
+            ^
+    method java.util.Collection.add(java.lang.Character) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.Character)
+    method java.util.List.add(java.lang.Character) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.Character)
+    method java.util.AbstractCollection.add(java.lang.Character) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.Character)
+    method java.util.AbstractList.add(java.lang.Character) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.Character)
+    method java.util.ArrayList.add(java.lang.Character) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.Character)
+CodexTest_0_9_3.java:26: error: cannot find symbol
+        list.add(c);
+                 ^
+  symbol:   variable c
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:29: error: cannot find symbol
+        assertFalse(list.containsAll(Arrays.asList(a, c, d)));
+                                                   ^
+  symbol:   variable a
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:29: error: cannot find symbol
+        assertFalse(list.containsAll(Arrays.asList(a, c, d)));
+                                                      ^
+  symbol:   variable c
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:29: error: cannot find symbol
+        assertFalse(list.containsAll(Arrays.asList(a, c, d)));
+                                                         ^
+  symbol:   variable d
+  location: class CodexTest_0_9_3
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_1_52.java:28: error: cannot find symbol
+    int bits = bits();
+               ^
+  symbol:   method bits()
+  location: class CodexTest_0_1_52
+CodexTest_0_1_52.java:32: error: cannot find symbol
+    int actualLength = bitArray.writeBytesTo(dest, offset, maxLength);
+                       ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_1_52
+CodexTest_0_1_52.java:34: error: cannot find symbol
+    assertEquals(expectedOffset, bitArray.getPosition());
+                                 ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_1_52
+CodexTest_0_1_52.java:35: error: cannot find symbol
+    assertEquals(expectedBits, bitArray.bits());
+                               ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_1_52

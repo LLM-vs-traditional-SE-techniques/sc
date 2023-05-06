@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_4.java:22: error: cannot find symbol
+        p1.addChild(2);
+          ^
+  symbol:   method addChild(int)
+  location: variable p1 of type org.graphstream.graph.Path
+CodexTest_0_9_4.java:23: error: cannot find symbol
+        p2.addChild(1);
+          ^
+  symbol:   method addChild(int)
+  location: variable p2 of type org.graphstream.graph.Path

@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_7_96.java:23: error: incompatible types: weka.core.TestInstances cannot be converted to weka.core.Instances
+        Instance newInst = v.getAsInstance(model, new Random(1));
+                                           ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

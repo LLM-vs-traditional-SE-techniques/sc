@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_85.java:65: error: cannot find symbol
+        String s = this.parent;
+                       ^
+  symbol: variable parent
+CodexTest_0_8_85.java:66: error: cannot find symbol
+        assertEquals(this.parent, s);
+                         ^
+  symbol: variable parent

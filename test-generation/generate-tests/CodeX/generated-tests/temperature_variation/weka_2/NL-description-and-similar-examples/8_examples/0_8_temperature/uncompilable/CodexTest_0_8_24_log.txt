@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_24.java:55: error: not a statement
+	m_Instances.deleteAttributeAt
+	           ^
+CodexTest_0_8_24.java:55: error: ';' expected
+	m_Instances.deleteAttributeAt
+	                             ^
+CodexTest_0_8_24.java:56: error: reached end of file while parsing
+}
+ ^

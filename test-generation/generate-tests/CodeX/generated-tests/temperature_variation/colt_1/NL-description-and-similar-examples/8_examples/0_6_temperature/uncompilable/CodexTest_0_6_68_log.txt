@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_6_68.java:33: error: no suitable method found for assign(double[])
+        m.assign(values);
+         ^
+    method cern.colt.matrix.DoubleMatrix2D.assign(double[][]) is not applicable
+      (argument mismatch; double[] cannot be converted to double[][])
+    method cern.colt.matrix.DoubleMatrix2D.assign(double) is not applicable
+      (argument mismatch; double[] cannot be converted to double)
+    method cern.colt.matrix.DoubleMatrix2D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.DoubleMatrix2D.assign(cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+CodexTest_0_6_68.java:34: error: cannot find symbol
+        assertContentEquals(expectedValues, m);
+        ^
+  symbol:   method assertContentEquals(double[],cern.colt.matrix.DoubleMatrix2D)
+  location: class CodexTest_0_6_68
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

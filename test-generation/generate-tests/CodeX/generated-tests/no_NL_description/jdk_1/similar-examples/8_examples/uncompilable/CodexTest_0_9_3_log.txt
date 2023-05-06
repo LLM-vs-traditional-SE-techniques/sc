@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_3.java:21: error: cannot find symbol
+        for (int i=0; i<test.length; i++) {
+                        ^
+  symbol:   variable test
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:22: error: cannot find symbol
+            element = (Element)test[i].elements().nextElement();
+            ^
+  symbol:   variable element
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:22: error: cannot find symbol
+            element = (Element)test[i].elements().nextElement();
+                       ^
+  symbol:   class Element
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:22: error: cannot find symbol
+            element = (Element)test[i].elements().nextElement();
+                               ^
+  symbol:   variable test
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:23: error: cannot find symbol
+            test[i].removeElement(element);
+                                  ^
+  symbol:   variable element
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:23: error: cannot find symbol
+            test[i].removeElement(element);
+            ^
+  symbol:   variable test
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:24: error: cannot find symbol
+            assertFalse(test[i].contains(element));
+                                         ^
+  symbol:   variable element
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:24: error: cannot find symbol
+            assertFalse(test[i].contains(element));
+                        ^
+  symbol:   variable test
+  location: class CodexTest_0_9_3

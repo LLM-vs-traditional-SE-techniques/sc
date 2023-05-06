@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_93.java:21: error: cannot find symbol
+				Instances model = new Instances("Test", new ArrayList(), numAttributes);
+				                                            ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_6_93

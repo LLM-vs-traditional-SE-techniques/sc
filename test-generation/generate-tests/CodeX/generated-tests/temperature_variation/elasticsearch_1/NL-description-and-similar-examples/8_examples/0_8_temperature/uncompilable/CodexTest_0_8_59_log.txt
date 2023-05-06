@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_59.java:65: error: cannot find symbol
+        assertEquals("elasticsearch", new GetSettingsRequest("parent").parent());
+                                          ^
+  symbol:   class GetSettingsRequest
+  location: class CodexTest_0_8_59

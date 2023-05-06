@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_19.java:21: error: cannot find symbol
+		DenseDoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+		^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_19
+CodexTest_0_8_19.java:21: error: cannot find symbol
+		DenseDoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+		                                 ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_19
+CodexTest_0_8_19.java:22: error: cannot find symbol
+		DenseDoubleMatrix1D vector2 = new DenseDoubleMatrix1D(data2);
+		^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_19
+CodexTest_0_8_19.java:22: error: cannot find symbol
+		DenseDoubleMatrix1D vector2 = new DenseDoubleMatrix1D(data2);
+		                                  ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_19
+CodexTest_0_8_19.java:23: error: cannot find symbol
+		DenseDoubleMatrix1D vector3 = new DenseDoubleMatrix1D(data3);
+		^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_19
+CodexTest_0_8_19.java:23: error: cannot find symbol
+		DenseDoubleMatrix1D vector3 = new DenseDoubleMatrix1D(data3);
+		                                  ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_19
+CodexTest_0_8_19.java:24: error: cannot find symbol
+		vector.assign(vector2, Functions.plus);
+		                       ^
+  symbol:   variable Functions
+  location: class CodexTest_0_8_19
+CodexTest_0_8_19.java:25: error: cannot find symbol
+		vector3.assign(vector, Functions.plus);
+		                       ^
+  symbol:   variable Functions
+  location: class CodexTest_0_8_19

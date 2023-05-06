@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_12.java:25: error: cannot find symbol
+    byte[] data = GuavaTests.getTestData_byteArray();
+                  ^
+  symbol:   variable GuavaTests
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:33: error: cannot find symbol
+      assertEquals(msg, asList(data).subList(0, count), asList(slice));
+                        ^
+  symbol:   method asList(byte[])
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:33: error: cannot find symbol
+      assertEquals(msg, asList(data).subList(0, count), asList(slice));
+                                                        ^
+  symbol:   method asList(byte[])
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:39: error: cannot find symbol
+    assertEquals(asList(truncated), asList(bs).subList(0, truncated.length));
+                 ^
+  symbol:   method asList(byte[])
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:39: error: cannot find symbol
+    assertEquals(asList(truncated), asList(bs).subList(0, truncated.length));
+                                    ^
+  symbol:   method asList(byte[])
+  location: class CodexTest_0_9_12

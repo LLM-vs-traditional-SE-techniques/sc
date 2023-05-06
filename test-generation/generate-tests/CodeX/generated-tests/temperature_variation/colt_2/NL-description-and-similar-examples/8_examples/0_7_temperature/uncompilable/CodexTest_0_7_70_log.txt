@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_70.java:30: error: cannot find symbol
+        DoubleMatrix2D like2D = DenseDoubleMatrix2D.FACTORY.make(4,4);
+                                                   ^
+  symbol:   variable FACTORY
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix2D
+CodexTest_0_7_70.java:31: error: cannot find symbol
+        DoubleMatrix2D newLike2D = like2D.like2D(4,4);
+                                         ^
+  symbol:   method like2D(int,int)
+  location: variable like2D of type cern.colt.matrix.DoubleMatrix2D

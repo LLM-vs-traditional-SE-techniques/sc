@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_10.java:20: error: cannot find symbol
+      testInst = getAsInstance(new DenseInstance(2));
+                 ^
+  symbol:   method getAsInstance(weka.core.DenseInstance)
+  location: class CodexTest_0_6_10

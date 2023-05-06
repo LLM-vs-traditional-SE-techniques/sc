@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_9_23.java:17: error: package ExceptionCauseAction does not exist
+    ExceptionCauseAction.doThrow(ExceptionCauseAction.Cause.NUMBER_FORMAT);
+                                                     ^
+CodexTest_0_9_23.java:17: error: cannot find symbol
+    ExceptionCauseAction.doThrow(ExceptionCauseAction.Cause.NUMBER_FORMAT);
+    ^
+  symbol:   variable ExceptionCauseAction
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:24: error: cannot find symbol
+        "For input string: \"" + ExceptionCauseAction.BAD_INT_STRING + "\"",
+                                 ^
+  symbol:   variable ExceptionCauseAction
+  location: class CodexTest_0_9_23

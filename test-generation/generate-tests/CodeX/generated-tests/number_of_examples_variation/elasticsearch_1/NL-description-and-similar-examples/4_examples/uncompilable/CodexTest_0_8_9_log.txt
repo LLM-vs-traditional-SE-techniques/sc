@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_9.java:66: error: cannot find symbol
+        ConfigurationStore parent = new BaseConfigurationStore();
+        ^
+  symbol:   class ConfigurationStore
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:66: error: cannot find symbol
+        ConfigurationStore parent = new BaseConfigurationStore();
+                                        ^
+  symbol:   class BaseConfigurationStore
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:67: error: cannot find symbol
+        ConfigurationStore store = new BaseConfigurationStore(source, parent);
+        ^
+  symbol:   class ConfigurationStore
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:67: error: cannot find symbol
+        ConfigurationStore store = new BaseConfigurationStore(source, parent);
+                                       ^
+  symbol:   class BaseConfigurationStore
+  location: class CodexTest_0_8_9

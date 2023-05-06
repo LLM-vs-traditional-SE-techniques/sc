@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_76.java:16: error: <identifier> expected
+Input: public static int compare(final Date a, final Date b) {
+     ^
+CodexTest_0_8_76.java:22: error: <identifier> expected
+Output: public void testCompare() {
+      ^

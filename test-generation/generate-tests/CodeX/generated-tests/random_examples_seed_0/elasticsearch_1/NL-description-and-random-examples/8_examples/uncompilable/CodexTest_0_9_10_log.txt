@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_10.java:64: error: cannot find symbol
+       private TestService getTestService() {
+               ^
+  symbol:   class TestService
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:65: error: cannot find symbol
+        TestService testService = null;
+        ^
+  symbol:   class TestService
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:66: error: cannot find symbol
+        if (containsBean("testService")) {
+            ^
+  symbol:   method containsBean(java.lang.String)
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:67: error: cannot find symbol
+            testService = (TestService) getBean("testService");
+                           ^
+  symbol:   class TestService
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:67: error: cannot find symbol
+            testService = (TestService) getBean("testService");
+                                        ^
+  symbol:   method getBean(java.lang.String)
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:68: error: cannot find symbol
+        } else if (containsBean("testServiceMock")) {
+                   ^
+  symbol:   method containsBean(java.lang.String)
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:69: error: cannot find symbol
+            testService = (TestService) getBean("testServiceMock");
+                           ^
+  symbol:   class TestService
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:69: error: cannot find symbol
+            testService = (TestService) getBean("testServiceMock");
+                                        ^
+  symbol:   method getBean(java.lang.String)
+  location: class CodexTest_0_9_10

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_15.java:49: error: <identifier> expected
+  Input: public void testNominal() throws Exception {
+       ^
+CodexTest_0_8_15.java:51: error: reached end of file while parsing
+}
+ ^

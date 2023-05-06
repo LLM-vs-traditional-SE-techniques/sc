@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_7_75.java:21: error: cannot find symbol
+        final int size = this.size();
+                             ^
+  symbol: method size()
+CodexTest_0_7_75.java:24: error: cannot find symbol
+            final Integer o = this.removeIndex(i);
+                                  ^
+  symbol: method removeIndex(int)
+CodexTest_0_7_75.java:26: error: cannot find symbol
+            assertEquals(size - i - 1, this.size());
+                                           ^
+  symbol: method size()

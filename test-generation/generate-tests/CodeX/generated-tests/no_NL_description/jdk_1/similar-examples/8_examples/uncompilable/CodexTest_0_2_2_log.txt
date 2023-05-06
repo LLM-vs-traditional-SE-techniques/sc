@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_2.java:81: error: ')' expected
+        list.remove(0
+                     ^
+CodexTest_0_2_2.java:82: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_8.java:20: error: illegal start of type
+  13. One test per a method.
+  ^
+CodexTest_0_9_8.java:20: error: ';' expected
+  13. One test per a method.
+     ^
+CodexTest_0_9_8.java:20: error: ';' expected
+  13. One test per a method.
+                  ^
+CodexTest_0_9_8.java:20: error: ';' expected
+  13. One test per a method.
+                           ^

@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_29.java:20: error: cannot find symbol
+    if (x < 0 || x > 2) {
+        ^
+  symbol:   variable x
+  location: class CodexTest_0_9_29
+CodexTest_0_9_29.java:20: error: cannot find symbol
+    if (x < 0 || x > 2) {
+                 ^
+  symbol:   variable x
+  location: class CodexTest_0_9_29
+CodexTest_0_9_29.java:22: error: cannot find symbol
+        assertNull("Expected null", result.getEntry(x));
+                                                    ^
+  symbol:   variable x
+  location: class CodexTest_0_9_29
+CodexTest_0_9_29.java:22: error: cannot find symbol
+        assertNull("Expected null", result.getEntry(x));
+                                    ^
+  symbol:   variable result
+  location: class CodexTest_0_9_29
+CodexTest_0_9_29.java:24: error: cannot find symbol
+        assertNotNull("Expected not null", result.getEntry(x));
+                                                           ^
+  symbol:   variable x
+  location: class CodexTest_0_9_29
+CodexTest_0_9_29.java:24: error: cannot find symbol
+        assertNotNull("Expected not null", result.getEntry(x));
+                                           ^
+  symbol:   variable result
+  location: class CodexTest_0_9_29

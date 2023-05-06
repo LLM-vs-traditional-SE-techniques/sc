@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_6.java:25: error: ')' expected
+    Edge e2 = g.addEdge("e2", n2, n
+                                   ^
+CodexTest_0_8_6.java:26: error: reached end of file while parsing
+}
+ ^

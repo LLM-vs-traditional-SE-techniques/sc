@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_49.java:18: error: cannot find symbol
+        Instances inst = new Instances(m_Instances, 0);
+                                       ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_4_49
+CodexTest_0_4_49.java:20: error: cannot find symbol
+        Instance inst2 = m_Filter.getAsInstance(inst, random);
+                         ^
+  symbol:   variable m_Filter
+  location: class CodexTest_0_4_49
+CodexTest_0_4_49.java:24: error: cannot find symbol
+                assertEquals(m_Elements[i], inst2.value(i), 0.0);
+                             ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_4_49

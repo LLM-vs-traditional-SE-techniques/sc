@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_4_88.java:25: error: cannot find symbol
+    int bits = random.nextInt(1000) + 1;
+               ^
+  symbol:   variable random
+  location: class CodexTest_0_4_88
+CodexTest_0_4_88.java:26: error: cannot find symbol
+    BitArray array = BitArray.create(bits);
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_4_88
+CodexTest_0_4_88.java:26: error: cannot find symbol
+    BitArray array = BitArray.create(bits);
+                     ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_4_88
+CodexTest_0_4_88.java:28: error: cannot find symbol
+      array.set(i, random.nextBoolean());
+                   ^
+  symbol:   variable random
+  location: class CodexTest_0_4_88

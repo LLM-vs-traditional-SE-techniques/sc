@@ -1,0 +1,85 @@
+isCompilable => false
+CodexTest_0_9_4.java:29: error: illegal start of type
+        {
+        ^
+CodexTest_0_9_4.java:29: error: ';' expected
+        {
+         ^
+CodexTest_0_9_4.java:30: error: illegal start of type
+            double[] data = {1, 2, 3, 4, 5, 6};
+                  ^
+CodexTest_0_9_4.java:30: error: <identifier> expected
+            double[] data = {1, 2, 3, 4, 5, 6};
+                   ^
+CodexTest_0_9_4.java:30: error: ';' expected
+            double[] data = {1, 2, 3, 4, 5, 6};
+                    ^
+CodexTest_0_9_4.java:30: error: illegal start of type
+            double[] data = {1, 2, 3, 4, 5, 6};
+                          ^
+CodexTest_0_9_4.java:30: error: <identifier> expected
+            double[] data = {1, 2, 3, 4, 5, 6};
+                           ^
+CodexTest_0_9_4.java:30: error: ';' expected
+            double[] data = {1, 2, 3, 4, 5, 6};
+                             ^
+CodexTest_0_9_4.java:30: error: illegal start of type
+            double[] data = {1, 2, 3, 4, 5, 6};
+                              ^
+CodexTest_0_9_4.java:30: error: <identifier> expected
+            double[] data = {1, 2, 3, 4, 5, 6};
+                               ^
+CodexTest_0_9_4.java:30: error: <identifier> expected
+            double[] data = {1, 2, 3, 4, 5, 6};
+                                  ^
+CodexTest_0_9_4.java:30: error: illegal start of type
+            double[] data = {1, 2, 3, 4, 5, 6};
+                                    ^
+CodexTest_0_9_4.java:30: error: <identifier> expected
+            double[] data = {1, 2, 3, 4, 5, 6};
+                                     ^
+CodexTest_0_9_4.java:30: error: <identifier> expected
+            double[] data = {1, 2, 3, 4, 5, 6};
+                                        ^
+CodexTest_0_9_4.java:30: error: illegal start of type
+            double[] data = {1, 2, 3, 4, 5, 6};
+                                          ^
+CodexTest_0_9_4.java:30: error: <identifier> expected
+            double[] data = {1, 2, 3, 4, 5, 6};
+                                           ^
+CodexTest_0_9_4.java:30: error: ';' expected
+            double[] data = {1, 2, 3, 4, 5, 6};
+                                             ^
+CodexTest_0_9_4.java:34: error: <identifier> expected
+            vector.assign(vector1);
+                         ^
+CodexTest_0_9_4.java:34: error: <identifier> expected
+            vector.assign(vector1);
+                                 ^
+CodexTest_0_9_4.java:35: error: <identifier> expected
+            System.out.println(vector);
+                              ^
+CodexTest_0_9_4.java:35: error: <identifier> expected
+            System.out.println(vector);
+                                     ^
+CodexTest_0_9_4.java:37: error: class, interface, or enum expected
+        {
+        ^
+CodexTest_0_9_4.java:39: error: class, interface, or enum expected
+            DenseDoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+            ^
+CodexTest_0_9_4.java:40: error: class, interface, or enum expected
+            double[] data1 = {7, 8};
+            ^
+CodexTest_0_9_4.java:41: error: class, interface, or enum expected
+            DenseDoubleMatrix1D vector1 = new DenseDoubleMatrix1D(data1);
+            ^
+CodexTest_0_9_4.java:42: error: class, interface, or enum expected
+            vector.assign(vector1);
+            ^
+CodexTest_0_9_4.java:43: error: class, interface, or enum expected
+            System.out.println(vector);
+            ^
+CodexTest_0_9_4.java:44: error: class, interface, or enum expected
+        }
+        ^

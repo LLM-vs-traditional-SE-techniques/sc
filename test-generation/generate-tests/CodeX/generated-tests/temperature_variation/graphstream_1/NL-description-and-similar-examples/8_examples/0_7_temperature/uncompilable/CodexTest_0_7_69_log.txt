@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_69.java:20: error: cannot find symbol
+        DefaultEdge edge = new DefaultEdge();
+        ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_69
+CodexTest_0_7_69.java:20: error: cannot find symbol
+        DefaultEdge edge = new DefaultEdge();
+                               ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_69
+CodexTest_0_7_69.java:21: error: cannot find symbol
+        Subgraph subgraph = new Subgraph("test", edge, new DefaultEdge(), new DefaultEdge());
+        ^
+  symbol:   class Subgraph
+  location: class CodexTest_0_7_69
+CodexTest_0_7_69.java:21: error: cannot find symbol
+        Subgraph subgraph = new Subgraph("test", edge, new DefaultEdge(), new DefaultEdge());
+                                ^
+  symbol:   class Subgraph
+  location: class CodexTest_0_7_69
+CodexTest_0_7_69.java:21: error: cannot find symbol
+        Subgraph subgraph = new Subgraph("test", edge, new DefaultEdge(), new DefaultEdge());
+                                                           ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_69
+CodexTest_0_7_69.java:21: error: cannot find symbol
+        Subgraph subgraph = new Subgraph("test", edge, new DefaultEdge(), new DefaultEdge());
+                                                                              ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_69
+CodexTest_0_7_69.java:22: error: cannot find symbol
+        subgraph.add(new DefaultEdge());
+                         ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_69

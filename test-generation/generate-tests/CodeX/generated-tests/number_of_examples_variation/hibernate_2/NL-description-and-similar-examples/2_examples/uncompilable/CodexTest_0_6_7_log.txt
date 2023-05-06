@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_6_7.java:23: error: method testFromStringShouldReturnFalseWhenFalseStringGiven() is already defined in class CodexTest_0_6_7
+  public void testFromStringShouldReturnFalseWhenFalseStringGiven() {
+              ^

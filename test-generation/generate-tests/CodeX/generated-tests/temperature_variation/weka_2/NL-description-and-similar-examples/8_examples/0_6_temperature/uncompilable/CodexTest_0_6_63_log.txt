@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_6_63.java:28: error: incompatible types: double cannot be converted to weka.core.Instances
+    AlgVector vec = new AlgVector(1.0, 1.0);
+                                  ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

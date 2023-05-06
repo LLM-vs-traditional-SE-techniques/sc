@@ -1,0 +1,32 @@
+isCompilable => false
+CodexTest_0_5_16.java:20: error: cannot find symbol
+			Graph graph = createSimpleGraph();
+			              ^
+  symbol:   method createSimpleGraph()
+  location: class CodexTest_0_5_16
+CodexTest_0_5_16.java:22: error: cannot find symbol
+			path.setRoot(graph.getNode(a));
+			                           ^
+  symbol:   variable a
+  location: class CodexTest_0_5_16
+CodexTest_0_5_16.java:23: error: cannot find symbol
+			path.add(graph.getEdge(ab));
+			                       ^
+  symbol:   variable ab
+  location: class CodexTest_0_5_16
+CodexTest_0_5_16.java:24: error: cannot find symbol
+			path.add(graph.getEdge(bc));
+			                       ^
+  symbol:   variable bc
+  location: class CodexTest_0_5_16
+CodexTest_0_5_16.java:25: error: cannot find symbol
+			path.add(graph.getEdge(cd));
+			                       ^
+  symbol:   variable cd
+  location: class CodexTest_0_5_16
+CodexTest_0_5_16.java:26: error: clone() has protected access in java.lang.Object
+			Path clone = path.clone();
+			                 ^
+CodexTest_0_5_16.java:26: error: incompatible types: java.lang.Object cannot be converted to org.graphstream.graph.Path
+			Path clone = path.clone();
+			                       ^

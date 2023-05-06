@@ -1,0 +1,55 @@
+isCompilable => false
+CodexTest_0_6_37.java:20: error: cannot find symbol
+		Path<V, E> path = new Path<V, E>();
+		     ^
+  symbol:   class V
+  location: class CodexTest_0_6_37
+CodexTest_0_6_37.java:20: error: cannot find symbol
+		Path<V, E> path = new Path<V, E>();
+		        ^
+  symbol:   class E
+  location: class CodexTest_0_6_37
+CodexTest_0_6_37.java:20: error: type org.graphstream.graph.Path does not take parameters
+		Path<V, E> path = new Path<V, E>();
+		    ^
+CodexTest_0_6_37.java:20: error: cannot find symbol
+		Path<V, E> path = new Path<V, E>();
+		                           ^
+  symbol:   class V
+  location: class CodexTest_0_6_37
+CodexTest_0_6_37.java:20: error: cannot find symbol
+		Path<V, E> path = new Path<V, E>();
+		                              ^
+  symbol:   class E
+  location: class CodexTest_0_6_37
+CodexTest_0_6_37.java:20: error: type org.graphstream.graph.Path does not take parameters
+		Path<V, E> path = new Path<V, E>();
+		                          ^
+CodexTest_0_6_37.java:21: error: cannot find symbol
+		V v1 = new Vertex("v1");
+		^
+  symbol:   class V
+  location: class CodexTest_0_6_37
+CodexTest_0_6_37.java:21: error: cannot find symbol
+		V v1 = new Vertex("v1");
+		           ^
+  symbol:   class Vertex
+  location: class CodexTest_0_6_37
+CodexTest_0_6_37.java:22: error: cannot find symbol
+		V v2 = new Vertex("v2");
+		^
+  symbol:   class V
+  location: class CodexTest_0_6_37
+CodexTest_0_6_37.java:22: error: cannot find symbol
+		V v2 = new Vertex("v2");
+		           ^
+  symbol:   class Vertex
+  location: class CodexTest_0_6_37
+CodexTest_0_6_37.java:23: error: cannot find symbol
+		E e1 = new Edge("e1", v1, v2);
+		^
+  symbol:   class E
+  location: class CodexTest_0_6_37
+CodexTest_0_6_37.java:23: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		E e1 = new Edge("e1", v1, v2);
+		       ^

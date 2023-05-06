@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_8_9.java:30: error: cannot find symbol
+        super.tearDown();
+             ^
+  symbol: method tearDown()
+CodexTest_0_8_9.java:33: error: cannot find symbol
+				for (i = 0; i < NUM_ROWS; i++)
+				                ^
+  symbol:   variable NUM_ROWS
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:36: error: cannot find symbol
+					for (j = 0; j < NUM_COLS; j++)
+					                ^
+  symbol:   variable NUM_COLS
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:38: error: cannot find symbol
+						expected[i][j] = 0;
+						^
+  symbol:   variable expected
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:39: error: cannot find symbol
+						actual[i][j] = 0;
+						^
+  symbol:   variable actual
+  location: class CodexTest_0_8_9

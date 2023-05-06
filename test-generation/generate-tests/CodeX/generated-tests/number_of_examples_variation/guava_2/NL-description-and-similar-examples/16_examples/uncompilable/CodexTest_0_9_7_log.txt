@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_7.java:26: error: cannot find symbol
+    TestBitArray bits = TestBitArray.fromBitString("11011110101011011011111011101111");
+    ^
+  symbol:   class TestBitArray
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:26: error: cannot find symbol
+    TestBitArray bits = TestBitArray.fromBitString("11011110101011011011111011101111");
+                        ^
+  symbol:   variable TestBitArray
+  location: class CodexTest_0_9_7

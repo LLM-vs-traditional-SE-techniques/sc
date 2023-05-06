@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_84.java:18: error: cannot find symbol
+			final Instances dataset = getDataset();
+			                          ^
+  symbol:   method getDataset()
+  location: class CodexTest_0_8_84
+CodexTest_0_8_84.java:22: error: cannot find symbol
+				instanceList[j] = getInstance(dataset, j);
+				                  ^
+  symbol:   method getInstance(weka.core.Instances,int)
+  location: class CodexTest_0_8_84
+CodexTest_0_8_84.java:24: error: cannot find symbol
+			final Object[] encodings = m_Converter.batchToValueArray(getEncoder(dataset), instanceList, dataset);
+			                                                         ^
+  symbol:   method getEncoder(weka.core.Instances)
+  location: class CodexTest_0_8_84
+CodexTest_0_8_84.java:24: error: cannot find symbol
+			final Object[] encodings = m_Converter.batchToValueArray(getEncoder(dataset), instanceList, dataset);
+			                           ^
+  symbol:   variable m_Converter
+  location: class CodexTest_0_8_84
+CodexTest_0_8_84.java:30: error: cannot find symbol
+				final Instance decoded = m_Converter.valueArrayToInstance(getDecoder(dataset), encodings[j], dataset);
+				                                                          ^
+  symbol:   method getDecoder(weka.core.Instances)
+  location: class CodexTest_0_8_84
+CodexTest_0_8_84.java:30: error: cannot find symbol
+				final Instance decoded = m_Converter.valueArrayToInstance(getDecoder(dataset), encodings[j], dataset);
+				                         ^
+  symbol:   variable m_Converter
+  location: class CodexTest_0_8_84

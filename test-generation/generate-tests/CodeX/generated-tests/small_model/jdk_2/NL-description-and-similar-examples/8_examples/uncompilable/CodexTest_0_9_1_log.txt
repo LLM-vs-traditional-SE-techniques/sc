@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_1.java:21: error: ';' expected
+  eq
+    ^
+CodexTest_0_9_1.java:22: error: ';' expected
+  func_array contains
+                     ^

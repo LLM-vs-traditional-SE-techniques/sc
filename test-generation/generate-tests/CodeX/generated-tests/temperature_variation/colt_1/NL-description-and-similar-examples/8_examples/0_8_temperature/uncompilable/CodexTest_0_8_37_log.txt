@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_8_37.java:31: error: cannot find symbol
+        IntMatrix2D m = new SparseIntMatrix2D(SIZE,SIZE);
+        ^
+  symbol:   class IntMatrix2D
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:31: error: cannot find symbol
+        IntMatrix2D m = new SparseIntMatrix2D(SIZE,SIZE);
+                            ^
+  symbol:   class SparseIntMatrix2D
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:31: error: cannot find symbol
+        IntMatrix2D m = new SparseIntMatrix2D(SIZE,SIZE);
+                                              ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:31: error: cannot find symbol
+        IntMatrix2D m = new SparseIntMatrix2D(SIZE,SIZE);
+                                                   ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:32: error: cannot find symbol
+        m.assign(Functions.identity);
+                 ^
+  symbol:   variable Functions
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:33: error: cannot find symbol
+        IntMatrix2D m1 = m.viewSelection(perm,null);
+        ^
+  symbol:   class IntMatrix2D
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:36: error: cannot find symbol
+        assertTrue(m1 instanceof DenseIntMatrix2D);
+                                 ^
+  symbol:   class DenseIntMatrix2D
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:42: error: cannot find symbol
+        Arrays.sort(idx2);
+        ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:43: error: cannot find symbol
+        IntMatrix1D mAv = m.viewColumn(0).viewSelection(idx);
+        ^
+  symbol:   class IntMatrix1D
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:44: error: cannot find symbol
+        IntMatrix1D mAv2 = m1.viewColumn(0).viewSelection(idx2);
+        ^
+  symbol:   class IntMatrix1D
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:46: error: cannot find symbol
+        assertTrue(mAv instanceof SelectedSparseIntMatrix1D);
+                                  ^
+  symbol:   class SelectedSparseIntMatrix1D
+  location: class CodexTest_0_8_37
+CodexTest_0_8_37.java:47: error: cannot find symbol
+        assertTrue(mAv2 instanceof SelectedDenseIntMatrix1D);
+                                   ^
+  symbol:   class SelectedDenseIntMatrix1D
+  location: class CodexTest_0_8_37

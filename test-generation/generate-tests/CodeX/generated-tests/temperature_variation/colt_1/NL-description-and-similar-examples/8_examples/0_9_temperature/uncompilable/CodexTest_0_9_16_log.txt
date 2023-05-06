@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_16.java:31: error: cannot find symbol
+		DoubleMatrix2D dm2 = new StrassenDenseDoubleAlgebra().mult(dm,dm);
+		                         ^
+  symbol:   class StrassenDenseDoubleAlgebra
+  location: class CodexTest_0_9_16

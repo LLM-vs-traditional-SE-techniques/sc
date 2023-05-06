@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_37.java:26: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    int written = new BloomFilter(Funnels.byteArrayFunnel(), 100, 0.01).writeBytesTo(dest, 1, 2);
+                  ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel,com.google.common.hash.BloomFilter.Strategy
+  found: com.google.common.hash.Funnel<byte[]>,int,double
+  reason: actual and formal argument lists differ in length

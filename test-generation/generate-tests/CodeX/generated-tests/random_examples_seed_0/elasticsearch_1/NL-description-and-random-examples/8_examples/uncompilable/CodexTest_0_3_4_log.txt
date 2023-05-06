@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_3_4.java:65: error: cannot find symbol
+        assertEquals("", new File("").getParent());
+                             ^
+  symbol:   class File
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:66: error: cannot find symbol
+        assertEquals("/", new File("/").getParent());
+                              ^
+  symbol:   class File
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:67: error: cannot find symbol
+        assertEquals("/", new File("/foo").getParent());
+                              ^
+  symbol:   class File
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:68: error: cannot find symbol
+        assertEquals("/foo", new File("/foo/bar").getParent());
+                                 ^
+  symbol:   class File
+  location: class CodexTest_0_3_4

@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_6_57.java:18: error: cannot find symbol
+    Instances d = new Instances(m_Instances, 0);
+                                ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_57
+CodexTest_0_6_57.java:19: error: cannot find symbol
+    int num = m_Instances.numAttributes();
+              ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_57
+CodexTest_0_6_57.java:22: error: cannot find symbol
+      if (m_Instances.attribute(i).isNominal()) {
+          ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_57
+CodexTest_0_6_57.java:23: error: cannot find symbol
+	values[i] = (int) (Math.random() * m_Instances.attribute(i).numValues());
+	                                   ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_57
+CodexTest_0_6_57.java:29: error: cannot find symbol
+    inst.setDataset(m_Instances);
+                    ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_57

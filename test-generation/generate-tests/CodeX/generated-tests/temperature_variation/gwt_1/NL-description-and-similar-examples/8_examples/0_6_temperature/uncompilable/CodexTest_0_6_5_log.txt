@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_5.java:17: error: cannot find symbol
+      double d = seven / zero;
+                 ^
+  symbol:   variable seven
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:17: error: cannot find symbol
+      double d = seven / zero;
+                         ^
+  symbol:   variable zero
+  location: class CodexTest_0_6_5

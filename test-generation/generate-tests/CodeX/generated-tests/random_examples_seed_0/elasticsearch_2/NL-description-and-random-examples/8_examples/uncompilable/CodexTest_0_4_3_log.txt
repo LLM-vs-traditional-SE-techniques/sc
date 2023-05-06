@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_3.java:72: error: cannot find symbol
+        assertEquals(sSource.getBytes("UTF-8"), indexRequest.source().uncompressed());
+                                                                     ^
+  symbol:   method uncompressed()
+  location: class org.elasticsearch.common.bytes.BytesReference

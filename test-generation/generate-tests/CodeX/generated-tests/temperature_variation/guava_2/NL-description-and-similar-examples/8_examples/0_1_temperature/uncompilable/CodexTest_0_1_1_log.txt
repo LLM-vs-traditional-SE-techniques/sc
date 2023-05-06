@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_1_1.java:28: error: cannot find symbol
+    int bits = bits();
+               ^
+  symbol:   method bits()
+  location: class CodexTest_0_1_1
+CodexTest_0_1_1.java:38: error: cannot find symbol
+    assertEquals(expectedLength, writeBytesTo(dest, offset, maxLength));
+                                 ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_1_1
+CodexTest_0_1_1.java:40: error: cannot find symbol
+    assertEquals(expectedBits, bits());
+                               ^
+  symbol:   method bits()
+  location: class CodexTest_0_1_1
+CodexTest_0_1_1.java:41: error: cannot find symbol
+    assertEquals(expectedBytes, bytes());
+                                ^
+  symbol:   method bytes()
+  location: class CodexTest_0_1_1
+CodexTest_0_1_1.java:42: error: cannot find symbol
+    assertEquals(expectedRemainingBits, remainingBits());
+                                        ^
+  symbol:   method remainingBits()
+  location: class CodexTest_0_1_1
+CodexTest_0_1_1.java:43: error: cannot find symbol
+    assertEquals(expectedRemainingBytes, remainingBytes());
+                                         ^
+  symbol:   method remainingBytes()
+  location: class CodexTest_0_1_1
+CodexTest_0_1_1.java:44: error: cannot find symbol
+    assertEquals(expectedRemainingBits2, remainingBits());
+                                         ^
+  symbol:   method remainingBits()
+  location: class CodexTest_0_1_1

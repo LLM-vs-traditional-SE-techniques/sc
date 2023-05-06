@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_5_9.java:15: error: non-static method getUncaughtExceptionHandler() cannot be referenced from a static context
+    assertEquals(null, Thread.getUncaughtExceptionHandler());
+                             ^

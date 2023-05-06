@@ -1,0 +1,59 @@
+isCompilable => false
+CodexTest_0_9_7.java:65: error: cannot find symbol
+        ExtractValue xv = new ExtractValue("field1", "field2");
+        ^
+  symbol:   class ExtractValue
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:65: error: cannot find symbol
+        ExtractValue xv = new ExtractValue("field1", "field2");
+                              ^
+  symbol:   class ExtractValue
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:66: error: cannot find symbol
+        ByteArrayOutputStream os = new ByteArrayOutputStream();
+        ^
+  symbol:   class ByteArrayOutputStream
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:66: error: cannot find symbol
+        ByteArrayOutputStream os = new ByteArrayOutputStream();
+                                       ^
+  symbol:   class ByteArrayOutputStream
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:67: error: cannot find symbol
+        ExtractValue.PARSER.toXContent(xv, new OutputStreamStreamOutput(os), ToXContent.EMPTY_PARAMS);
+                                               ^
+  symbol:   class OutputStreamStreamOutput
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:67: error: cannot find symbol
+        ExtractValue.PARSER.toXContent(xv, new OutputStreamStreamOutput(os), ToXContent.EMPTY_PARAMS);
+                                                                             ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:67: error: package ExtractValue does not exist
+        ExtractValue.PARSER.toXContent(xv, new OutputStreamStreamOutput(os), ToXContent.EMPTY_PARAMS);
+                    ^
+CodexTest_0_9_7.java:69: error: cannot find symbol
+        ExtractValue parsedValue = ExtractValue.fromXContent(createParser(json), new CommandOutput(),
+        ^
+  symbol:   class ExtractValue
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:69: error: cannot find symbol
+        ExtractValue parsedValue = ExtractValue.fromXContent(createParser(json), new CommandOutput(),
+                                                             ^
+  symbol:   method createParser(java.lang.String)
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:69: error: cannot find symbol
+        ExtractValue parsedValue = ExtractValue.fromXContent(createParser(json), new CommandOutput(),
+                                                                                     ^
+  symbol:   class CommandOutput
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:70: error: cannot find symbol
+                new CommandOutput());
+                    ^
+  symbol:   class CommandOutput
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:69: error: cannot find symbol
+        ExtractValue parsedValue = ExtractValue.fromXContent(createParser(json), new CommandOutput(),
+                                   ^
+  symbol:   variable ExtractValue
+  location: class CodexTest_0_9_7

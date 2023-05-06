@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_8_25.java:26: error: incompatible types: possible lossy conversion from long to int
+        assertTrue(HashCode.fromLong(0xFFL).equals(HashCode.fromInt(0xFFL)));
+                                                                    ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

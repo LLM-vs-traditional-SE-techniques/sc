@@ -1,0 +1,81 @@
+isCompilable => false
+CodexTest_0_5_4.java:26: error: cannot find symbol
+    assertEquals(0, bitArray.writeBytesTo(dest, 0, 0));
+                    ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:27: error: cannot find symbol
+    assertEquals(0, bitArray.writeBytesTo(dest, 0, 10));
+                    ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:28: error: cannot find symbol
+    assertEquals(0, bitArray.writeBytesTo(dest, 5, 0));
+                    ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:29: error: cannot find symbol
+    assertEquals(0, bitArray.writeBytesTo(dest, 5, 5));
+                    ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:30: error: cannot find symbol
+    assertEquals(0, bitArray.writeBytesTo(dest, 10, 0));
+                    ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:31: error: cannot find symbol
+    assertEquals(0, bitArray.writeBytesTo(dest, 10, 10));
+                    ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:32: error: cannot find symbol
+    assertEquals(0, bitArray.writeBytesTo(dest, 11, 0));
+                    ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:33: error: cannot find symbol
+    assertEquals(0, bitArray.writeBytesTo(dest, 11, 1));
+                    ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:34: error: cannot find symbol
+    assertEquals(0, bitArray.writeBytesTo(dest, 12, 0));
+                    ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:36: error: cannot find symbol
+      bitArray.writeBytesTo(dest, 0, -1);
+      ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:41: error: cannot find symbol
+      bitArray.writeBytesTo(dest, -1, 0);
+      ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:46: error: cannot find symbol
+      bitArray.writeBytesTo(dest, -1, -1);
+      ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:51: error: cannot find symbol
+      bitArray.writeBytesTo(dest, 0, 11);
+      ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:56: error: cannot find symbol
+      bitArray.writeBytesTo(dest, 5, 6);
+      ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:61: error: cannot find symbol
+      bitArray.writeBytesTo(dest, 11, 1);
+      ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:66: error: cannot find symbol
+      bitArray.writeBytesTo(dest, 12, 0);
+      ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_5_4

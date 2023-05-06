@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_65.java:30: error: elementCount has protected access in java.util.Vector
+        assertEquals(vector.elementCount, 2);
+                           ^
+CodexTest_0_9_65.java:31: error: elementData has protected access in java.util.Vector
+        assertEquals((Integer) vector.elementData[0], Integer.valueOf(1));
+                                     ^
+CodexTest_0_9_65.java:32: error: elementData has protected access in java.util.Vector
+        assertEquals((Integer) vector.elementData[1], Integer.valueOf(2));
+                                     ^

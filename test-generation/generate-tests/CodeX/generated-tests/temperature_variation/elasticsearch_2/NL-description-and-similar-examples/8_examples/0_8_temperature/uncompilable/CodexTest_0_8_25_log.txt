@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_8_25.java:67: error: cannot find symbol
+        BytesArray bytes = new BytesArray(request.source().toUtf8());
+                                                          ^
+  symbol:   method toUtf8()
+  location: class org.elasticsearch.common.bytes.BytesReference
+CodexTest_0_8_25.java:69: error: cannot find symbol
+            XContentParser parser = JsonXContent.jsonXContent.createParser(bytes.streamInput());
+            ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_8_25
+CodexTest_0_8_25.java:69: error: package JsonXContent does not exist
+            XContentParser parser = JsonXContent.jsonXContent.createParser(bytes.streamInput());
+                                                ^

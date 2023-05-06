@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_39.java:26: error: removeRange(int,int) has protected access in java.util.Vector
+            v.removeRange(1, 4);
+             ^

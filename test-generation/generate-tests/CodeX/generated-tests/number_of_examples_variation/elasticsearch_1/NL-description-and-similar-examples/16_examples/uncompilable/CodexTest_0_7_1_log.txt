@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_1.java:65: error: cannot find symbol
+        ClusterStateRequest request = Requests.clusterStateRequest()
+        ^
+  symbol:   class ClusterStateRequest
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:66: error: cannot find symbol
+                .filterRoutingTable(true)
+                ^
+  symbol:   method filterRoutingTable(boolean)
+  location: class org.elasticsearch.action.admin.cluster.state.ClusterStateRequest

@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_9_73.java:28: error: reference to assertEquals is ambiguous
+    assertEquals(Long.valueOf(42L), hashCode42.asLong());
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match

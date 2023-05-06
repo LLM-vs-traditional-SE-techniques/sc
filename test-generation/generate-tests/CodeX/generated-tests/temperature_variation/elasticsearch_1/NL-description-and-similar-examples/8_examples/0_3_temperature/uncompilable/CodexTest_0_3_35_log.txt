@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_35.java:84: error: unclosed string literal
+        String grandgrandgrandgrandgrandgrandgrandgrandgrandgrandgrandgrandgrandgrandgrandgrandgrandgrandchild = "grandgrandgrandgrandgrandgrandgrandgrandgrandgrandgrand
+                                                                                                                 ^
+CodexTest_0_3_35.java:85: error: reached end of file while parsing
+}
+ ^

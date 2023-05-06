@@ -1,0 +1,199 @@
+prompt,output
+"Suggest a test for a method with the int writeBytesTo(byte[] dest, int offset, int maxLength) signature.
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public static HashCode fromBytes(byte[] bytes) {
+    checkArgument(bytes.length >= 1, ""A HashCode must contain at least 1 byte."");
+    return fromBytesNoCopy(bytes.clone());
+  }
+Output: public void testRoundTripHashCodeUsingBaseEncoding() {
+    HashCode hash1 = Hashing.sha1().hashString(""foo"", Charsets.US_ASCII);
+    HashCode hash2 = HashCode.fromBytes(BaseEncoding.base16().lowerCase().decode(hash1.toString()));
+    assertEquals(hash1, hash2);
+  }
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public DoubleMatrix1D like(int size) {
+			return new DenseDoubleMatrix1D(size);
+		}
+Output: public static void doubleTest28() {
+			double[] data={1,2,3,4,5,6};
+			double[][] arrMatrix = 
+			{ 
+				{ 1, 2, 3, 4, 5, 6},
+				{ 2, 3, 4, 5, 6, 7}
+			};
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			DoubleMatrix2D matrix = f.make(arrMatrix);
+			DoubleMatrix1D res = vector.like(matrix.rows());
+
+						matrix.zMult(vector,res);
+
+					System.out.println(res);
+		}
+
+Input: public static HashCode fromInt(int hash) {
+			return new IntHashCode(hash);
+		  }
+Output: public void testObjectHashCode() {
+			HashCode hashCode42 = HashCode.fromInt(42);
+			assertEquals(42, hashCode42.hashCode());
+		  }
+
+Input: public DenseDoubleMatrix1D(double[] values) {
+			this(values.length);
+			assign(values);
+		}
+Output: public static void testMax() {
+  double[] temp = new double[2];
+
+   temp[0] = 8.9;
+  temp[1] = 1;
+
+   DenseDoubleMatrix1D d1Double = new DenseDoubleMatrix1D(temp);
+    hep.aida.bin.DynamicBin1D d1ynamicBin = cern.colt.matrix.doublealgo.Statistic.bin(d1Double);
+   double max = d1ynamicBin.max();
+   System.out.println(""max = ""+ max);
+}
+
+Input: public double getX() {
+			return x;
+		}
+Output: public void testCoordinates() {
+			Vector1D v = new Vector1D(1);
+			Assert.assertTrue(FastMath.abs(v.getX() - 1) < 1.0e-12);
+		}
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnFalseWhenFStringGiven() {
+			// given
+			BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+			// when
+			Boolean result = underTest.wrap('N', null);
+			// then
+			assertFalse(result);
+		}
+
+Input: public int writeBytesTo(byte[] dest, int offset, int maxLength) {
+    maxLength = Ints.min(maxLength, bits() / 8);
+    Preconditions.checkPositionIndexes(offset, offset + maxLength, dest.length);
+    writeBytesToImpl(dest, offset, maxLength);
+    return maxLength;
+  }
+Output:
+  ","import com.google.common.hash.*;
+import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.common.base.Preconditions.checkState;
+import com.google.common.annotations.Beta;
+import com.google.common.base.Preconditions;
+import com.google.common.primitives.Ints;
+import com.google.common.primitives.UnsignedInts;
+import java.io.Serializable;
+
+import static com.google.common.io.BaseEncoding.base16;
+import com.google.common.base.Charsets;
+import com.google.common.collect.ImmutableList;
+import com.google.common.io.BaseEncoding;
+import java.util.Arrays;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_3_74 { 
+  @Test
+  public void testWriteBytesTo() {
+    byte[] dest = new byte[8];
+    BitSet bs = new BitSet(64);
+    bs.set(0);
+    bs.set(1);
+    bs.set(2);
+    bs.set(3);
+    bs.set(4);
+    bs.set(5);
+    bs.set(6);
+    bs.set(7);
+    bs.set(8);
+    bs.set(9);
+    bs.set(10);
+    bs.set(11);
+    bs.set(12);
+    bs.set(13);
+    bs.set(14);
+    bs.set(15);
+    bs.set(16);
+    bs.set(17);
+    bs.set(18);
+    bs.set(19);
+    bs.set(20);
+    bs.set(21);
+    bs.set(22);
+    bs.set(23);
+    bs.set(24);
+    bs.set(25);
+    bs.set(26);
+    bs.set(27);
+    bs.set(28);
+    bs.set(29);
+    bs.set(30);
+    bs.set(31);
+    bs.set(32);
+    bs.set(33);
+    bs.set(34);
+    bs.set(35);
+    bs.set(36);
+    bs.set(37);
+    bs.set(38);
+    bs.set(39);
+    bs.set(40);
+    bs.set(41);
+    bs.set(42);
+    bs.set(43);
+    bs.set(44);
+    bs.set(45);
+    bs.set(46);
+    bs.set(47);
+    bs.set(48);
+    bs.set(49);
+    bs.set(50);
+    bs.set(51
+}"

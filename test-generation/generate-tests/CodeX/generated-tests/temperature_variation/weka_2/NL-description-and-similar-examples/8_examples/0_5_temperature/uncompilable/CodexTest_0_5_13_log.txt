@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_13.java:19: error: cannot find symbol
+        Instances instances = new Instances(null, new ArrayList<>(Arrays.asList(new Attribute("first"), new Attribute("second"))), 1);
+                                                      ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_5_13
+CodexTest_0_5_13.java:19: error: cannot find symbol
+        Instances instances = new Instances(null, new ArrayList<>(Arrays.asList(new Attribute("first"), new Attribute("second"))), 1);
+                                                                  ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_5_13

@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_6_9.java:32: error: non-static method scalarMultiply(double) cannot be referenced from a static context
+        Assert.assertTrue(Vector1D.scalarMultiply(2).equals(new Vector1D(2)));
+                                  ^
+CodexTest_0_6_9.java:33: error: non-static method scalarMultiply(double) cannot be referenced from a static context
+        Assert.assertTrue(Vector1D.scalarMultiply(-3).equals(new Vector1D(-3)));
+                                  ^
+CodexTest_0_6_9.java:34: error: non-static method scalarMultiply(double) cannot be referenced from a static context
+        Assert.assertTrue(Vector1D.scalarMultiply(0).equals(new Vector1D(0)));
+                                  ^

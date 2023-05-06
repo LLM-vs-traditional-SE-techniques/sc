@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_8.java:16: error: cannot find symbol
+        BooleanType booleanType = new BooleanType();
+        ^
+  symbol:   class BooleanType
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:16: error: cannot find symbol
+        BooleanType booleanType = new BooleanType();
+                                      ^
+  symbol:   class BooleanType
+  location: class CodexTest_0_9_8

@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_7_10.java:32: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D point1 = new Vector1D(10, 50);
+                                           ^
+CodexTest_0_7_10.java:33: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D point2 = new Vector1D(30, 40);
+                                           ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

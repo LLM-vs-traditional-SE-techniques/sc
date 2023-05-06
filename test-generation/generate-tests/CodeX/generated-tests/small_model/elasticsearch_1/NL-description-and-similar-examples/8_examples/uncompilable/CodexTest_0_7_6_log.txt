@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_6.java:65: error: cannot find symbol
+        assertEquals("com.google.gwt.sample.contacts.server.service.ContactsServiceImpl", parent);
+                                                                                          ^
+  symbol:   variable parent
+  location: class CodexTest_0_7_6

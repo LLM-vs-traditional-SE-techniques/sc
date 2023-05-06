@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_66.java:37: error: <identifier> expected
+Input: public final void assertEquals(String message, double expected, double actual) {
+     ^
+CodexTest_0_8_66.java:40: error: <identifier> expected
+Output: public void testNumber() {
+      ^
+CodexTest_0_8_66.java:55: error: not a statement
+		testNumber
+		^
+CodexTest_0_8_66.java:55: error: ';' expected
+		testNumber
+		          ^
+CodexTest_0_8_66.java:56: error: reached end of file while parsing
+}
+ ^

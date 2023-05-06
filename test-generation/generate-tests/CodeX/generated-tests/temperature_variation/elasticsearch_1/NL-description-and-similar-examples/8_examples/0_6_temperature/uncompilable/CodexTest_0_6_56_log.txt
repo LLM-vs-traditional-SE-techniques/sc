@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_56.java:66: error: cannot find symbol
+        assertEquals(str, new String(str).parent());
+                                         ^
+  symbol:   method parent()
+  location: class java.lang.String

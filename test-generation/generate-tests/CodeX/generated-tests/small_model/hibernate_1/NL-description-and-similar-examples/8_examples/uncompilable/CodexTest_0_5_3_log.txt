@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_3.java:16: error: cannot find symbol
+    assertEquals(0, BooleanTypeDescriptor.INSTANCE.wrap(false, null).shortValue());
+                                                                    ^
+  symbol:   method shortValue()
+  location: class java.lang.Boolean
+CodexTest_0_5_3.java:19: error: cannot find symbol
+    assertEquals(1, BooleanTypeDescriptor.INSTANCE.wrap(true, null).shortValue());
+                                                                   ^
+  symbol:   method shortValue()
+  location: class java.lang.Boolean

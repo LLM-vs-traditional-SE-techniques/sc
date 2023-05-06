@@ -1,0 +1,117 @@
+isCompilable => false
+CodexTest_0_8_28.java:65: error: cannot find symbol
+        Node node1 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9300), "node1"));
+        ^
+  symbol:   class Node
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:65: error: cannot find symbol
+        Node node1 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9300), "node1"));
+                         ^
+  symbol:   class MockNode
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:65: error: cannot find symbol
+        Node node1 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9300), "node1"));
+                                  ^
+  symbol:   variable settings
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:65: error: cannot find symbol
+        Node node1 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9300), "node1"));
+                                                                      ^
+  symbol:   variable settings
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:65: error: cannot find symbol
+        Node node1 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9300), "node1"));
+                                                                                    ^
+  symbol:   class TransportAddress
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:65: error: cannot find symbol
+        Node node1 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9300), "node1"));
+                                                                                                     ^
+  symbol:   variable TransportAddress
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:65: error: cannot find symbol
+        Node node1 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9300), "node1"));
+                                            ^
+  symbol:   variable DiscoveryNode
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:66: error: cannot find symbol
+        Node node2 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9301), "node2"));
+        ^
+  symbol:   class Node
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:66: error: cannot find symbol
+        Node node2 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9301), "node2"));
+                         ^
+  symbol:   class MockNode
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:66: error: cannot find symbol
+        Node node2 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9301), "node2"));
+                                  ^
+  symbol:   variable settings
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:66: error: cannot find symbol
+        Node node2 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9301), "node2"));
+                                                                      ^
+  symbol:   variable settings
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:66: error: cannot find symbol
+        Node node2 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9301), "node2"));
+                                                                                    ^
+  symbol:   class TransportAddress
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:66: error: cannot find symbol
+        Node node2 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9301), "node2"));
+                                                                                                     ^
+  symbol:   variable TransportAddress
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:66: error: cannot find symbol
+        Node node2 = new MockNode(settings, DiscoveryNode.createLocal(settings, new TransportAddress(TransportAddress.META_ADDRESS, 9301), "node2"));
+                                            ^
+  symbol:   variable DiscoveryNode
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:67: error: cannot find symbol
+        MockTransportService mockTransportService1 = (MockTransportService) node1.injector().getInstance(TransportService.class);
+        ^
+  symbol:   class MockTransportService
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:67: error: cannot find symbol
+        MockTransportService mockTransportService1 = (MockTransportService) node1.injector().getInstance(TransportService.class);
+                                                      ^
+  symbol:   class MockTransportService
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:67: error: cannot find symbol
+        MockTransportService mockTransportService1 = (MockTransportService) node1.injector().getInstance(TransportService.class);
+                                                                                                         ^
+  symbol:   class TransportService
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:68: error: cannot find symbol
+        MockTransportService mockTransportService2 = (MockTransportService) node2.injector().getInstance(TransportService.class);
+        ^
+  symbol:   class MockTransportService
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:68: error: cannot find symbol
+        MockTransportService mockTransportService2 = (MockTransportService) node2.injector().getInstance(TransportService.class);
+                                                      ^
+  symbol:   class MockTransportService
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:68: error: cannot find symbol
+        MockTransportService mockTransportService2 = (MockTransportService) node2.injector().getInstance(TransportService.class);
+                                                                                                         ^
+  symbol:   class TransportService
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:69: error: package MockTransportService does not exist
+        try (MockTransportService.DelegateTransport delegateTransport = new MockTransportService.DelegateTransport(mockTransportService1.original(), mockTransportService1) {
+                                 ^
+CodexTest_0_8_28.java:69: error: package MockTransportService does not exist
+        try (MockTransportService.DelegateTransport delegateTransport = new MockTransportService.DelegateTransport(mockTransportService1.original(), mockTransportService1) {
+                                                                                                ^
+CodexTest_0_8_28.java:78: error: cannot find symbol
+            Client client = node1.client();
+            ^
+  symbol:   class Client
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:83: error: cannot find symbol
+                assertThat(e.getMessage(), containsString("BOOM"));
+                                           ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_8_28

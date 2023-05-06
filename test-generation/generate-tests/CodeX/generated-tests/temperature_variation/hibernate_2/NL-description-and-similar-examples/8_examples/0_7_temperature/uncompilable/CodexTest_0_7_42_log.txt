@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_42.java:16: error: cannot find symbol
+    for (String string : VALUES) {
+                         ^
+  symbol:   variable VALUES
+  location: class CodexTest_0_7_42

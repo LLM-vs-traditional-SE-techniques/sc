@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_91.java:18: error: cannot find symbol
+    AlgVector m_Elements_14=AlgVector.vector(14);
+                                     ^
+  symbol:   method vector(int)
+  location: class weka.core.AlgVector

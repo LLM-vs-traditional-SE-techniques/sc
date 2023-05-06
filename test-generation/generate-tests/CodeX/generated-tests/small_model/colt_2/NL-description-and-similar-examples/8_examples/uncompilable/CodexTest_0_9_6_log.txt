@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_6.java:30: error: cannot find symbol
+    private void setDataFromArray(final E[] objects) {
+                                        ^
+  symbol:   class E
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:32: error: cannot find symbol
+			if ( m_Elements == null ) {
+			     ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:33: error: cannot find symbol
+				m_Elements = (DoubleStorage) objectFactory.createStorage( numberOfElements );
+				^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:33: error: cannot find symbol
+				m_Elements = (DoubleStorage) objectFactory.createStorage( numberOfElements );
+				              ^
+  symbol:   class DoubleStorage
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:33: error: cannot find symbol
+				m_Elements = (DoubleStorage) objectFactory.createStorage( numberOfElements );
+				                             ^
+  symbol:   variable objectFactory
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:36: error: cannot find symbol
+				m_Elements.set( elementIndex, toDouble( objects[ elementIndex ] ) );
+				^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_9_6

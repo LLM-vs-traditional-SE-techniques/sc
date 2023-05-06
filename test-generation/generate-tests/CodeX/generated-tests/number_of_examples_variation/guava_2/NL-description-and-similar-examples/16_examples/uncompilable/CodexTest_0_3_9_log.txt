@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_3_9.java:26: error: cannot find symbol
+    assertEquals(1, hash.writeBytesTo(dest, 0, 1));
+                    ^
+  symbol:   variable hash
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:29: error: cannot find symbol
+    assertEquals(2, hash.writeBytesTo(dest, 0, 2));
+                    ^
+  symbol:   variable hash
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:33: error: cannot find symbol
+    assertEquals(2, hash.writeBytesTo(dest, 0, 3));
+                    ^
+  symbol:   variable hash
+  location: class CodexTest_0_3_9

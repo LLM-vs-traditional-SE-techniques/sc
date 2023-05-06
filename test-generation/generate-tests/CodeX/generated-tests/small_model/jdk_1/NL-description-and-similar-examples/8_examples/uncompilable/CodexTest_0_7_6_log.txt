@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_6.java:21: error: cannot find symbol
+    assertEquals(2, list.remove(0));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:22: error: cannot find symbol
+    assertEquals(1, list.size());
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_7_6

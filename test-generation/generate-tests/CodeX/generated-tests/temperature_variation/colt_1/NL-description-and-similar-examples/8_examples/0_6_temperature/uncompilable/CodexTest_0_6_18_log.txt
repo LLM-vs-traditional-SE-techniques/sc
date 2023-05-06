@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_18.java:42: error: cannot find symbol
+		v1.assign(v2, Functions.plus);
+		              ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_18
+CodexTest_0_6_18.java:47: error: cannot find symbol
+		v1.assign(v2, Functions.div);
+		              ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_18

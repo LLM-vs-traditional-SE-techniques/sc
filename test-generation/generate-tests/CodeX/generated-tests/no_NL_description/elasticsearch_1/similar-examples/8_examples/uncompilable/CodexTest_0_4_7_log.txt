@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_7.java:65: error: cannot find symbol
+        assertEquals("parent", searchRequest.parent());
+                               ^
+  symbol:   variable searchRequest
+  location: class CodexTest_0_4_7

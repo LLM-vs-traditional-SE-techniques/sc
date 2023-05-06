@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_86.java:71: error: cannot find symbol
+        final IndexRequest ir2 = randomIndexRequest();
+                                 ^
+  symbol:   method randomIndexRequest()
+  location: class CodexTest_0_9_86

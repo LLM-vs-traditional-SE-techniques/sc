@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_40.java:40: error: fromBytesNoCopy(byte[]) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+        HashCode hash2 = HashCode.fromBytesNoCopy(new byte[20]);
+                                 ^

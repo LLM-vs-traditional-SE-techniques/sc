@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_3.java:31: error: cannot find symbol
+        RandomGenerator random = new Well1024a(0xd0e7e4c6ed26d6d4l);
+        ^
+  symbol:   class RandomGenerator
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:31: error: cannot find symbol
+        RandomGenerator random = new Well1024a(0xd0e7e4c6ed26d6d4l);
+                                     ^
+  symbol:   class Well1024a
+  location: class CodexTest_0_9_3
+Note: CodexTest_0_9_3.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

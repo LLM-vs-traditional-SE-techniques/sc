@@ -1,0 +1,108 @@
+prompt,output
+"Suggest a test for a method with the Short toShort(Boolean value) signature.
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnTrueWhenYStringGiven() {
+        // given
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+        // when
+        Boolean result = underTest.wrap(""Y"", null);
+        // then
+        assertTrue(result);
+    }
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnFalseWhenFStringGiven() {
+			// given
+			BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+			// when
+			Boolean result = underTest.wrap('N', null);
+			// then
+			assertFalse(result);
+		}
+
+Input: public static boolean isScript() {
+			return com.google.gwt.core.shared.GWT.isScript();
+		  }
+Output: public void testIsScript() {
+			try {
+			  double d = seven / zero;
+			  if (!GWT.isScript()) {
+				fail('Expected ArithmeticException');
+			  }
+			} catch (ArithmeticException expected) {
+			  assertFalse(GWT.isScript());
+			}
+	  }
+
+Input: public double getX() {
+			return x;
+		}
+Output: public void testCoordinates() {
+			Vector1D v = new Vector1D(1);
+			Assert.assertTrue(FastMath.abs(v.getX() - 1) < 1.0e-12);
+		}
+
+Input: public Short toShort(Boolean value) {
+		return (short) toInt( value );
+	}
+Output:
+  ","import org.hibernate.type.descriptor.java.*;
+import org.hibernate.type.descriptor.WrapperOptions;
+import static java.lang.Boolean.FALSE;
+import static java.lang.Boolean.TRUE;
+
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_3_1 { 
+  @Test
+    public void testToShortShouldReturnOneWhenTrueGiven() {
+        // given
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+        // when
+        Short result = underTest.toShort(true);
+        // then
+        assertEquals(new Short(""1""), result);
+    }
+}"

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_9.java:65: error: cannot find symbol
+        assertEquals(null, new TreeNode().parent());
+                               ^
+  symbol:   class TreeNode
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:66: error: cannot find symbol
+        assertEquals(null, new TreeNode(null).parent());
+                               ^
+  symbol:   class TreeNode
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:67: error: cannot find symbol
+        assertEquals("parent", new TreeNode("parent").parent());
+                                   ^
+  symbol:   class TreeNode
+  location: class CodexTest_0_7_9

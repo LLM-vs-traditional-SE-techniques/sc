@@ -1,0 +1,33 @@
+isCompilable => false
+CodexTest_0_9_73.java:21: error: cannot find symbol
+        if (this.cursor < 0) throw new IllegalStateException();
+                ^
+  symbol: variable cursor
+CodexTest_0_9_73.java:22: error: not an enclosing class: java.util.ArrayList
+        Object[] elementData = ArrayList.this.elementData;
+                                        ^
+CodexTest_0_9_73.java:23: error: cannot find symbol
+        if (this.lastRet < 0) throw new IllegalStateException();
+                ^
+  symbol: variable lastRet
+CodexTest_0_9_73.java:25: error: cannot find symbol
+            ArrayList.this.remove(this.lastRet);
+                                      ^
+  symbol: variable lastRet
+CodexTest_0_9_73.java:25: error: not an enclosing class: java.util.ArrayList
+            ArrayList.this.remove(this.lastRet);
+                     ^
+CodexTest_0_9_73.java:26: error: cannot find symbol
+            cursor = this.lastRet;
+            ^
+  symbol:   variable cursor
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:26: error: cannot find symbol
+            cursor = this.lastRet;
+                         ^
+  symbol: variable lastRet
+CodexTest_0_9_73.java:27: error: cannot find symbol
+            lastRet = -1;
+            ^
+  symbol:   variable lastRet
+  location: class CodexTest_0_9_73

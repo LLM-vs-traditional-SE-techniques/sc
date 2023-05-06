@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_6_8.java:66: error: cannot find symbol
+        XContentType xContentType = randomFrom(XContentType.values());
+                                    ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:69: error: cannot find symbol
+        BytesReference bytes = indexRequest.toBytes();
+                                           ^
+  symbol:   method toBytes()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+Note: CodexTest_0_6_8.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

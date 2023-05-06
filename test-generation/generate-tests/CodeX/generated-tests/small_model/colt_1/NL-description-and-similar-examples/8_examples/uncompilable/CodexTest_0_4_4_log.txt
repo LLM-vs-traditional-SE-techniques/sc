@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_4.java:31: error: index(int) has protected access in cern.colt.matrix.impl.AbstractMatrix1D
+			assertEquals(0, v.index(0));
+			                 ^
+CodexTest_0_4_4.java:32: error: index(int) has protected access in cern.colt.matrix.impl.AbstractMatrix1D
+			assertEquals(1, v.index(1));
+			                 ^
+CodexTest_0_4_4.java:33: error: index(int) has protected access in cern.colt.matrix.impl.AbstractMatrix1D
+			assertEquals(2, v.index(2));
+			                 ^
+CodexTest_0_4_4.java:34: error: index(int) has protected access in cern.colt.matrix.impl.AbstractMatrix1D
+			assertEquals(3, v.index(3));
+			                 ^
+CodexTest_0_4_4.java:35: error: index(int) has protected access in cern.colt.matrix.impl.AbstractMatrix1D
+			assertEquals(3, v.index(4));
+			                 ^

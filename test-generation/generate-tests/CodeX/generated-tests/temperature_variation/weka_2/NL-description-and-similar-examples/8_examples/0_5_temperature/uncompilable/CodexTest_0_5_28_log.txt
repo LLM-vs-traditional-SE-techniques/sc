@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_28.java:19: error: cannot find symbol
+		inst.setDataset(new Instances(m_Instances, 0));
+		                              ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_5_28
+CodexTest_0_5_28.java:25: error: cannot find symbol
+			Instance newInst = vector.getAsInstance(m_Instances, new Random(1));
+			                                        ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_5_28

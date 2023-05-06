@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_3_89.java:18: error: cannot find symbol
+    Instances model = new Instances(m_Instances, 0);
+                                    ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_3_89
+CodexTest_0_3_89.java:22: error: cannot find symbol
+      Instance inst = m_AlgVector.getAsInstance(model, random);
+                      ^
+  symbol:   variable m_AlgVector
+  location: class CodexTest_0_3_89
+CodexTest_0_3_89.java:24: error: cannot find symbol
+		   m_AlgVector.numElements(), inst.numAttributes());
+		   ^
+  symbol:   variable m_AlgVector
+  location: class CodexTest_0_3_89
+CodexTest_0_3_89.java:25: error: cannot find symbol
+      for (int i = 0; i < m_AlgVector.numElements(); i++) {
+                          ^
+  symbol:   variable m_AlgVector
+  location: class CodexTest_0_3_89
+CodexTest_0_3_89.java:26: error: cannot find symbol
+	assertEquals("Values differ.", m_AlgVector.getElement(i), 
+	                               ^
+  symbol:   variable m_AlgVector
+  location: class CodexTest_0_3_89

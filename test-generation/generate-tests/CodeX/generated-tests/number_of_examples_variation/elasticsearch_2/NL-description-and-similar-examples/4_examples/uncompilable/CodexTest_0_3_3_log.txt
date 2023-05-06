@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_3.java:73: error: cannot find symbol
+        assertEquals(mapping, indexRequest.mapping());
+                                          ^
+  symbol:   method mapping()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest

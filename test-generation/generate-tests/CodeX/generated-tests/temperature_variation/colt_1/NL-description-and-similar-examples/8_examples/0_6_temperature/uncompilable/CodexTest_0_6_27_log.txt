@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_27.java:30: error: cannot find symbol
+        System.out.println(testAssignDoubleMatrix1D);
+                           ^
+  symbol:   variable testAssignDoubleMatrix1D
+  location: class CodexTest_0_6_27
+CodexTest_0_6_27.java:38: error: cannot find symbol
+            assertEquals(m1.get(r), m3.get(r), TOL);
+                                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_27
+CodexTest_0_6_27.java:42: error: cannot find symbol
+            assertEquals(m2.get(r), m3.get(r), TOL);
+                                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_27

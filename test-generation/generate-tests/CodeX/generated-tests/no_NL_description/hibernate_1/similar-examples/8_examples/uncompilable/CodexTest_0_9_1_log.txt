@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_1.java:19: error: cannot find symbol
+      assertEquals(canonicalName, TypeUtils.getCanonicalName(shortcutName, java.util.function.LongFunction.class));
+                                  ^
+  symbol:   variable TypeUtils
+  location: class CodexTest_0_9_1

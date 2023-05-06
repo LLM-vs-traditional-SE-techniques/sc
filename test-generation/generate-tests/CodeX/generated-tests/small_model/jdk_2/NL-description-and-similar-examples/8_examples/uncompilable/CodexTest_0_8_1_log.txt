@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_1.java:22: error: cannot find symbol
+    assertEquals(that, collection.contains(null));
+                       ^
+  symbol:   variable collection
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:23: error: cannot find symbol
+    assertEquals(that, collection.contains(null));
+                       ^
+  symbol:   variable collection
+  location: class CodexTest_0_8_1

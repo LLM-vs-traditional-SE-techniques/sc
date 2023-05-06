@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_8.java:16: error: cannot find symbol
+     assertTrue( new AlgVector(1.0, 5.0).contains( "5", DoubleType.INSTANCE ) );
+                                                        ^
+  symbol:   variable DoubleType
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:16: error: cannot find symbol
+     assertTrue( new AlgVector(1.0, 5.0).contains( "5", DoubleType.INSTANCE ) );
+                     ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_9_8

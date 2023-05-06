@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_30.java:66: error: cannot find symbol
+        addTestFileAndTemplateIntoStaticData(expected);
+        ^
+  symbol:   method addTestFileAndTemplateIntoStaticData(java.lang.String)
+  location: class CodexTest_0_9_30
+CodexTest_0_9_30.java:67: error: cannot find symbol
+        String parent = highLevelClient().indices().prepareDeleteTemplate(expected).parent();
+                        ^
+  symbol:   method highLevelClient()
+  location: class CodexTest_0_9_30
+CodexTest_0_9_30.java:68: error: cannot find symbol
+        assertThat(parent, notNullValue());
+                           ^
+  symbol:   method notNullValue()
+  location: class CodexTest_0_9_30
+CodexTest_0_9_30.java:69: error: cannot find symbol
+        assertThat(parent, equalTo(expected));
+                           ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_30

@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_10.java:40: error: incompatible types: cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.matrix.DoubleMatrix1D
+		res = x.like2D(y.rows(),y.columns()).assign(x.zMult(vector,y,2,0,false));
+		                                                           ^
+CodexTest_0_8_10.java:40: error: cannot find symbol
+		res = x.like2D(y.rows(),y.columns()).assign(x.zMult(vector,y,2,0,false));
+		       ^
+  symbol:   method like2D(int,int)
+  location: variable x of type cern.colt.matrix.DoubleMatrix2D
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

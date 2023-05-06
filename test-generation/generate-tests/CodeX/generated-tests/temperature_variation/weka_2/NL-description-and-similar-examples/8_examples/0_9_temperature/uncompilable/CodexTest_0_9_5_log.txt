@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_5.java:20: error: weka.core.Instance is abstract; cannot be instantiated
+	Instance inst = new Instance(insts.numAttributes());
+	                ^
+CodexTest_0_9_5.java:32: error: cannot find symbol
+	    newInst.setValue(i, doubleValue);
+	                        ^
+  symbol:   variable doubleValue
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:32: error: cannot find symbol
+	    newInst.setValue(i, doubleValue);
+	    ^
+  symbol:   variable newInst
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:36: error: cannot find symbol
+	    newInst.setValue(i, "2");
+	    ^
+  symbol:   variable newInst
+  location: class CodexTest_0_9_5

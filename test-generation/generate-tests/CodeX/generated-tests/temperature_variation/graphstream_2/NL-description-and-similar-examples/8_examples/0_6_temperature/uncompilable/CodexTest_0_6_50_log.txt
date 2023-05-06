@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_50.java:22: error: cannot find symbol
+        boolean actual = instance.equals(obj);
+                         ^
+  symbol:   variable instance
+  location: class CodexTest_0_6_50

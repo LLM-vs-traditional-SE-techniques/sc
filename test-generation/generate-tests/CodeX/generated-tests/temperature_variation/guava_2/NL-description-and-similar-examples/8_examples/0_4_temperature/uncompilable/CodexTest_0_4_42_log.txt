@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_42.java:26: error: cannot find symbol
+    BitSet bitset = new BitSet(64);
+    ^
+  symbol:   class BitSet
+  location: class CodexTest_0_4_42
+CodexTest_0_4_42.java:26: error: cannot find symbol
+    BitSet bitset = new BitSet(64);
+                        ^
+  symbol:   class BitSet
+  location: class CodexTest_0_4_42
+CodexTest_0_4_42.java:29: error: cannot find symbol
+    assertEquals(0x0F0F0F0F, ByteBuffer.wrap(dest).getInt());
+                             ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_4_42

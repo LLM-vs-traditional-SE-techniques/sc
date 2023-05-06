@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_8_39.java:38: error: illegal start of expression
+            assertEquals("m_intArray[" + r + ], expected[r], F.getQuick(r), TOLERANCE); 
+                                             ^
+CodexTest_0_8_39.java:38: error: ';' expected
+            assertEquals("m_intArray[" + r + ], expected[r], F.getQuick(r), TOLERANCE); 
+                                              ^
+CodexTest_0_8_39.java:38: error: not a statement
+            assertEquals("m_intArray[" + r + ], expected[r], F.getQuick(r), TOLERANCE); 
+                                                        ^
+CodexTest_0_8_39.java:38: error: ';' expected
+            assertEquals("m_intArray[" + r + ], expected[r], F.getQuick(r), TOLERANCE); 
+                                                           ^
+CodexTest_0_8_39.java:38: error: ';' expected
+            assertEquals("m_intArray[" + r + ], expected[r], F.getQuick(r), TOLERANCE); 
+                                                                          ^
+CodexTest_0_8_39.java:38: error: not a statement
+            assertEquals("m_intArray[" + r + ], expected[r], F.getQuick(r), TOLERANCE); 
+                                                                            ^
+CodexTest_0_8_39.java:38: error: ';' expected
+            assertEquals("m_intArray[" + r + ], expected[r], F.getQuick(r), TOLERANCE); 
+                                                                                     ^

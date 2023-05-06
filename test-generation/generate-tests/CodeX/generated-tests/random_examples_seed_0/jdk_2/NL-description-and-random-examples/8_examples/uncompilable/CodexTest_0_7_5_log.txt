@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_5.java:24: error: cannot find symbol
+        ObjectList<String> list = new ObjectArrayList<String>(data);
+        ^
+  symbol:   class ObjectList
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:24: error: cannot find symbol
+        ObjectList<String> list = new ObjectArrayList<String>(data);
+                                      ^
+  symbol:   class ObjectArrayList
+  location: class CodexTest_0_7_5

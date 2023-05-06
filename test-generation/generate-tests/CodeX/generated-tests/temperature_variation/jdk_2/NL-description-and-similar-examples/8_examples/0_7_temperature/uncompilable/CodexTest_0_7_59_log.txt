@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_59.java:23: error: cannot find symbol
+            assertFalse(testSet.contains(testObjects[i]));
+                        ^
+  symbol:   variable testSet
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:26: error: cannot find symbol
+            testSet.add(testObjects[i]);
+            ^
+  symbol:   variable testSet
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:27: error: cannot find symbol
+            assertTrue(testSet.contains(testObjects[i]));
+                       ^
+  symbol:   variable testSet
+  location: class CodexTest_0_7_59

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_4.java:26: error: cannot find symbol
+    Random r = new Random();
+    ^
+  symbol:   class Random
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:26: error: cannot find symbol
+    Random r = new Random();
+                   ^
+  symbol:   class Random
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:29: error: cannot find symbol
+    BitSet bitset = BitSet.valueOf(internal);
+    ^
+  symbol:   class BitSet
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:29: error: cannot find symbol
+    BitSet bitset = BitSet.valueOf(internal);
+                    ^
+  symbol:   variable BitSet
+  location: class CodexTest_0_9_4

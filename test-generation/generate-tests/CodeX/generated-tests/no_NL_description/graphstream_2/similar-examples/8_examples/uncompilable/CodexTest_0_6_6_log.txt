@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_6.java:22: error: cannot find symbol
+        p.add(new DefaultNode());
+                  ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_6

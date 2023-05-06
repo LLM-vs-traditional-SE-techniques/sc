@@ -1,0 +1,20 @@
+isCompilable => false
+CodexTest_0_7_5.java:20: error: cannot find symbol
+        EdgePath edgePath1 = new EdgePath(new Edge(2, 3, 2));
+        ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:20: error: cannot find symbol
+        EdgePath edgePath1 = new EdgePath(new Edge(2, 3, 2));
+                                 ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:20: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        EdgePath edgePath1 = new EdgePath(new Edge(2, 3, 2));
+                                          ^
+CodexTest_0_7_5.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        edgePath1.edgePath.add(new Edge(5, 6, 2));
+                               ^
+CodexTest_0_7_5.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        Edge edge = new Edge(5, 6, 2);
+                    ^

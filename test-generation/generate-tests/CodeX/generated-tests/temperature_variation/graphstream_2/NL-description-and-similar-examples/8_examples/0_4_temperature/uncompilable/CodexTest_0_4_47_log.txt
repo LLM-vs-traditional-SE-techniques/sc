@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_4_47.java:21: error: cannot find symbol
+        path1.add(nodeA);
+                  ^
+  symbol:   variable nodeA
+  location: class CodexTest_0_4_47
+CodexTest_0_4_47.java:22: error: cannot find symbol
+        path1.add(nodeB);
+                  ^
+  symbol:   variable nodeB
+  location: class CodexTest_0_4_47
+CodexTest_0_4_47.java:23: error: cannot find symbol
+        path1.add(nodeC);
+                  ^
+  symbol:   variable nodeC
+  location: class CodexTest_0_4_47
+CodexTest_0_4_47.java:25: error: cannot find symbol
+        path2.add(nodeA);
+                  ^
+  symbol:   variable nodeA
+  location: class CodexTest_0_4_47
+CodexTest_0_4_47.java:26: error: cannot find symbol
+        path2.add(nodeB);
+                  ^
+  symbol:   variable nodeB
+  location: class CodexTest_0_4_47
+CodexTest_0_4_47.java:27: error: cannot find symbol
+        path2.add(nodeC);
+                  ^
+  symbol:   variable nodeC
+  location: class CodexTest_0_4_47

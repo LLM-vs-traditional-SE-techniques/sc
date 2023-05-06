@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_6_18.java:32: error: illegal character: '`'
+```
+^
+CodexTest_0_6_18.java:32: error: illegal character: '`'
+```
+ ^
+CodexTest_0_6_18.java:32: error: illegal character: '`'
+```
+  ^
+CodexTest_0_6_18.java:33: error: illegal character: '#'
+## Scripts
+^
+CodexTest_0_6_18.java:33: error: illegal character: '#'
+## Scripts
+ ^
+CodexTest_0_6_18.java:34: error: illegal start of type
+}
+^
+CodexTest_0_6_18.java:34: error: reached end of file while parsing
+}
+ ^

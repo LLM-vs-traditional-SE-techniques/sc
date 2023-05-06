@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_7_54.java:29: error: <identifier> expected
+Input: public final int getRadius() {
+     ^
+CodexTest_0_7_54.java:32: error: <identifier> expected
+Output: public void testRadiusAccess() {
+      ^
+CodexTest_0_7_54.java:38: error: <identifier> expected
+Input: public static <T, U> U[] copyOf(U[] original, int newLength, Class<? extends U[]> newType) {
+     ^
+CodexTest_0_7_54.java:41: error: <identifier> expected
+Output: public void testCopyOf() {
+      ^

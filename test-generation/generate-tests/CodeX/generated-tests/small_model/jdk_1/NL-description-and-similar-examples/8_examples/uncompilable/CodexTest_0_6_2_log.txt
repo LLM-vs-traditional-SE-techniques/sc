@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_2.java:21: error: cannot find symbol
+        assertEquals(42, remove(0));
+                         ^
+  symbol:   method remove(int)
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:22: error: cannot find symbol
+        assertEquals(43, remove(0));
+                         ^
+  symbol:   method remove(int)
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:23: error: cannot find symbol
+        assertEquals(44, remove(0));
+                         ^
+  symbol:   method remove(int)
+  location: class CodexTest_0_6_2

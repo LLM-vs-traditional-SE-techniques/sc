@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_7_56.java:20: error: ';' expected
+        public void should_return_false() {
+                                       ^
+CodexTest_0_7_56.java:30: error: <identifier> expected
+Input: public boolean isBatch() {
+     ^
+CodexTest_0_7_56.java:33: error: <identifier> expected
+Output: @Test
+      ^

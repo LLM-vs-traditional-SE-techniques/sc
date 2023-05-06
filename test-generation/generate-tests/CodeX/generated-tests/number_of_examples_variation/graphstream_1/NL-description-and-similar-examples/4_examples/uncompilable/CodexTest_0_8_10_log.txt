@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_8_10.java:24: error: no suitable method found for contains(java.lang.String)
+        assertFalse(underTest.contains("edge"));
+                             ^
+    method org.graphstream.graph.Path.contains(org.graphstream.graph.Node) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to org.graphstream.graph.Node)
+    method org.graphstream.graph.Path.contains(org.graphstream.graph.Edge) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to org.graphstream.graph.Edge)

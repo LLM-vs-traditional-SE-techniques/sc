@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_1.java:32: error: cannot find symbol
+            new QRDecomposition(new DenseDoubleMatrix2D(n, n - 1));
+                ^
+  symbol:   class QRDecomposition
+  location: class CodexTest_0_7_1

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_12.java:25: error: cannot find symbol
+    HashCode hash1 = HashCodes.fromLong(42L);
+                     ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_12
+CodexTest_0_9_12.java:26: error: cannot find symbol
+    HashCode hash2 = HashCodes.fromLong(42L);
+                     ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_12

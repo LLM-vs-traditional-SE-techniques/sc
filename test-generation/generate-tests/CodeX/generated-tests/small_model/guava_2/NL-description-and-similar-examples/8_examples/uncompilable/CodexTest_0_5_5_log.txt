@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_5.java:29: error: cannot find symbol
+    assertEquals(expected, writeBytesTo(buffer, offset, maxLength));
+                           ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_5_5

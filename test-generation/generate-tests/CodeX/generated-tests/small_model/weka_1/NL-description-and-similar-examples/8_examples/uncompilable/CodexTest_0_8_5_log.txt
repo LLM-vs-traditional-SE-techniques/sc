@@ -1,0 +1,34 @@
+isCompilable => false
+CodexTest_0_8_5.java:17: error: invalid method declaration; return type required
+    assertEquals("vector1", new AlgVector(3.0), v1.add(v2));
+    ^
+CodexTest_0_8_5.java:17: error: illegal start of type
+    assertEquals("vector1", new AlgVector(3.0), v1.add(v2));
+                 ^
+CodexTest_0_8_5.java:17: error: illegal start of type
+    assertEquals("vector1", new AlgVector(3.0), v1.add(v2));
+                            ^
+CodexTest_0_8_5.java:17: error: ')' expected
+    assertEquals("vector1", new AlgVector(3.0), v1.add(v2));
+                               ^
+CodexTest_0_8_5.java:17: error: ';' expected
+    assertEquals("vector1", new AlgVector(3.0), v1.add(v2));
+                                         ^
+CodexTest_0_8_5.java:17: error: illegal start of type
+    assertEquals("vector1", new AlgVector(3.0), v1.add(v2));
+                                          ^
+CodexTest_0_8_5.java:17: error: <identifier> expected
+    assertEquals("vector1", new AlgVector(3.0), v1.add(v2));
+                                             ^
+CodexTest_0_8_5.java:17: error: ';' expected
+    assertEquals("vector1", new AlgVector(3.0), v1.add(v2));
+                                                  ^
+CodexTest_0_8_5.java:17: error: invalid method declaration; return type required
+    assertEquals("vector1", new AlgVector(3.0), v1.add(v2));
+                                                   ^
+CodexTest_0_8_5.java:17: error: <identifier> expected
+    assertEquals("vector1", new AlgVector(3.0), v1.add(v2));
+                                                         ^
+CodexTest_0_8_5.java:17: error: ';' expected
+    assertEquals("vector1", new AlgVector(3.0), v1.add(v2));
+                                                          ^

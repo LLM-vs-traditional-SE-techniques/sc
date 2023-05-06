@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_8.java:25: error: cannot find symbol
+    DoubleMatrix1D vector = new DenseDoubleMatrix1D(new double[] { 1, 2, 3 });
+    ^
+  symbol:   class DoubleMatrix1D
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:25: error: cannot find symbol
+    DoubleMatrix1D vector = new DenseDoubleMatrix1D(new double[] { 1, 2, 3 });
+                                ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:29: error: cannot find symbol
+    assertArrayEquals(data, new DoubleArray2D(new double[][] { data }).getColumn(0));
+                                ^
+  symbol:   class DoubleArray2D
+  location: class CodexTest_0_5_8

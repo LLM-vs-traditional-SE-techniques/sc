@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_3.java:26: error: cannot find symbol
+      Ints.checkPositionIndexes(0, 2, 1);
+          ^
+  symbol:   method checkPositionIndexes(int,int,int)
+  location: class com.google.common.primitives.Ints

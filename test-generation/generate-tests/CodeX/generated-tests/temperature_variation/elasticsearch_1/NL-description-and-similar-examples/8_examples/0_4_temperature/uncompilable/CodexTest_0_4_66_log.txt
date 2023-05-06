@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_4_66.java:68: error: cannot find symbol
+        DocumentMapperParser mapperParser = mock(DocumentMapperParser.class);
+        ^
+  symbol:   class DocumentMapperParser
+  location: class CodexTest_0_4_66
+CodexTest_0_4_66.java:68: error: cannot find symbol
+        DocumentMapperParser mapperParser = mock(DocumentMapperParser.class);
+                                                 ^
+  symbol:   class DocumentMapperParser
+  location: class CodexTest_0_4_66
+CodexTest_0_4_66.java:69: error: cannot find symbol
+        when(mapperParser.parse(anyString(), anyString(), anyString())).thenReturn(mock(DocumentMapper.class));
+                                                                                        ^
+  symbol:   class DocumentMapper
+  location: class CodexTest_0_4_66
+CodexTest_0_4_66.java:69: error: cannot find symbol
+        when(mapperParser.parse(anyString(), anyString(), anyString())).thenReturn(mock(DocumentMapper.class));
+                                ^
+  symbol:   method anyString()
+  location: class CodexTest_0_4_66
+CodexTest_0_4_66.java:69: error: cannot find symbol
+        when(mapperParser.parse(anyString(), anyString(), anyString())).thenReturn(mock(DocumentMapper.class));
+                                             ^
+  symbol:   method anyString()
+  location: class CodexTest_0_4_66
+CodexTest_0_4_66.java:69: error: cannot find symbol
+        when(mapperParser.parse(anyString(), anyString(), anyString())).thenReturn(mock(DocumentMapper.class));
+                                                          ^
+  symbol:   method anyString()
+  location: class CodexTest_0_4_66
+CodexTest_0_4_66.java:70: error: package DocumentMapperParser does not exist
+        DocumentMapperParser.BuilderContext context = new DocumentMapperParser.BuilderContext(
+                            ^
+CodexTest_0_4_66.java:70: error: package DocumentMapperParser does not exist
+        DocumentMapperParser.BuilderContext context = new DocumentMapperParser.BuilderContext(
+                                                                              ^
+CodexTest_0_4_66.java:71: error: cannot find symbol
+                Settings.EMPTY, new ContentPath(1));
+                ^
+  symbol:   variable Settings
+  location: class CodexTest_0_4_66
+CodexTest_0_4_66.java:71: error: cannot find symbol
+                Settings.EMPTY, new ContentPath(1));
+                                    ^
+  symbol:   class ContentPath
+  location: class CodexTest_0_4_66
+CodexTest_0_4_66.java:72: error: cannot find symbol
+        ParentFieldMapper parentMapper = new ParentFieldMapper.Builder("parent", "type").build(context);
+        ^
+  symbol:   class ParentFieldMapper
+  location: class CodexTest_0_4_66
+CodexTest_0_4_66.java:72: error: package ParentFieldMapper does not exist
+        ParentFieldMapper parentMapper = new ParentFieldMapper.Builder("parent", "type").build(context);
+                                                              ^
+CodexTest_0_4_66.java:73: error: package ParentFieldMapper does not exist
+        ParentFieldMapper.TypeParser typeParser = new ParentFieldMapper.TypeParser();
+                         ^
+CodexTest_0_4_66.java:73: error: package ParentFieldMapper does not exist
+        ParentFieldMapper.TypeParser typeParser = new ParentFieldMapper.TypeParser();
+                                                                       ^
+CodexTest_0_4_66.java:74: error: cannot find symbol
+        assertEquals(typeParser.parse("parent", new HashMap<>(), mapperParser, context).getClass(), ParentFieldMapper.class);
+                                                                                                    ^
+  symbol:   class ParentFieldMapper
+  location: class CodexTest_0_4_66

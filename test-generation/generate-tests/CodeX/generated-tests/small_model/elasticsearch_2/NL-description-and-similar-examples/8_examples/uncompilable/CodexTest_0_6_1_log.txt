@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_1.java:70: error: cannot find symbol
+            throw new ElasticsearchException("Failed to generate [{}]", e);
+                      ^
+  symbol:   class ElasticsearchException
+  location: class CodexTest_0_6_1

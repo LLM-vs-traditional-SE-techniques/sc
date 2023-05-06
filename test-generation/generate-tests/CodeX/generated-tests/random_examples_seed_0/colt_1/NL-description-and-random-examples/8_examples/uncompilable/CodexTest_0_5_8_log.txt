@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_5_8.java:31: error: cannot find symbol
+		matrix.assign(source);
+		^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:32: error: cannot find symbol
+		assertEquals(1, matrix.get(0), TOLERANCE);
+		                ^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:32: error: cannot find symbol
+		assertEquals(1, matrix.get(0), TOLERANCE);
+		                               ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:33: error: cannot find symbol
+		assertEquals(2, matrix.get(1), TOLERANCE);
+		                ^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:33: error: cannot find symbol
+		assertEquals(2, matrix.get(1), TOLERANCE);
+		                               ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:34: error: cannot find symbol
+		assertEquals(3, matrix.get(2), TOLERANCE);
+		                ^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:34: error: cannot find symbol
+		assertEquals(3, matrix.get(2), TOLERANCE);
+		                               ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:35: error: cannot find symbol
+		assertEquals(4, matrix.get(3), TOLERANCE);
+		                ^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:35: error: cannot find symbol
+		assertEquals(4, matrix.get(3), TOLERANCE);
+		                               ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:36: error: cannot find symbol
+		assertEquals(5, matrix.get(4), TOLERANCE);
+		                ^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:36: error: cannot find symbol
+		assertEquals(5, matrix.get(4), TOLERANCE);
+		                               ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_5_8

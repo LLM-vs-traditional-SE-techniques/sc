@@ -1,0 +1,133 @@
+isCompilable => false
+CodexTest_0_3_8.java:65: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:68: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:70: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:73: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:75: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:78: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:80: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:83: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:85: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:88: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:90: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:93: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:95: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:98: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:100: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:103: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:105: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:108: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:110: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:113: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:115: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:118: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:120: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:123: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:125: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:128: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:130: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:133: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:135: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:138: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:140: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:143: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:145: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:148: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:150: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:153: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:155: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:158: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:160: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:163: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:165: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:168: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_3_8.java:170: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_3_8.java:173: error: reached end of file while parsing
+}
+ ^

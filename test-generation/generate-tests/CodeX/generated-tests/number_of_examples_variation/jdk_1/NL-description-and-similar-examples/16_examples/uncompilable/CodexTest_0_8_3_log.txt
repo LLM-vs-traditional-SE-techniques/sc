@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_8_3.java:21: error: cannot find symbol
+        assertSame(this, list.remove(0));
+                         ^
+  symbol:   variable list
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:22: error: cannot find symbol
+        assertEquals(3, list.size());
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:23: error: cannot find symbol
+        assertEquals(weak(object1), list.get(0));
+                          ^
+  symbol:   variable object1
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:23: error: cannot find symbol
+        assertEquals(weak(object1), list.get(0));
+                                    ^
+  symbol:   variable list
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:24: error: cannot find symbol
+        assertSame(strong(object2), list.get(1));
+                          ^
+  symbol:   variable object2
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:24: error: cannot find symbol
+        assertSame(strong(object2), list.get(1));
+                                    ^
+  symbol:   variable list
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:25: error: cannot find symbol
+        assertSame(strong(object3), list.get(2));
+                          ^
+  symbol:   variable object3
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:25: error: cannot find symbol
+        assertSame(strong(object3), list.get(2));
+                                    ^
+  symbol:   variable list
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:28: error: cannot find symbol
+        assertSame(strong(object3), list.remove(2));
+                          ^
+  symbol:   variable object3
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:28: error: cannot find symbol
+        assertSame(strong(object3), list.remove(2));
+                                    ^
+  symbol:   variable list
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:29: error: cannot find symbol
+        assertEquals(2, list.size());
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:30: error: cannot find symbol
+        assertEquals(this, list.get(0));
+                           ^
+  symbol:   variable list
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:31: error: cannot find symbol
+        assertEquals(weak(object1), list.get(1));
+                          ^
+  symbol:   variable object1
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:31: error: cannot find symbol
+        assertEquals(weak(object1), list.get(1));
+                                    ^
+  symbol:   variable list
+  location: class CodexTest_0_8_3

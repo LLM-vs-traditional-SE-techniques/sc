@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_9_3.java:65: error: cannot find symbol
+        assertEquals(new ArrayList<String>(), this.query.parent());
+                                                  ^
+  symbol: variable query

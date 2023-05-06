@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_34.java:18: error: cannot find symbol
+    assertEquals("isSparse()", false, v.isSparse());
+                                      ^
+  symbol:   variable v
+  location: class CodexTest_0_7_34

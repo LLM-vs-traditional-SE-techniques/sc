@@ -1,0 +1,89 @@
+isCompilable => false
+CodexTest_0_9_7.java:18: error: no suitable constructor found for AlgVector(double)
+    AlgVector a = new AlgVector(3.3);
+                  ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; possible lossy conversion from double to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; double cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; double cannot be converted to weka.core.Instance)
+CodexTest_0_9_7.java:19: error: no suitable constructor found for AlgVector(double)
+    AlgVector b = new AlgVector(4.4);
+                  ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; possible lossy conversion from double to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; double cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; double cannot be converted to weka.core.Instance)
+CodexTest_0_9_7.java:20: error: no suitable constructor found for AlgVector(double)
+    AlgVector c = new AlgVector(5.5);
+                  ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; possible lossy conversion from double to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; double cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; double cannot be converted to weka.core.Instance)
+CodexTest_0_9_7.java:23: error: no suitable method found for assertEquals(double,weka.core.AlgVector,double)
+    assertEquals(0.0, b.add(c), 1.0e-12);
+    ^
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; possible lossy conversion from double to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; weka.core.AlgVector cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+CodexTest_0_9_7.java:24: error: no suitable method found for assertEquals(double,weka.core.AlgVector,double)
+    assertEquals(0.0,c.add(a), 1.0e-12);
+    ^
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; possible lossy conversion from double to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; weka.core.AlgVector cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+CodexTest_0_9_7.java:25: error: no suitable method found for assertEquals(double,weka.core.AlgVector,double)
+    assertEquals(5.5,c.add(a), 1.0e-12);
+    ^
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; possible lossy conversion from double to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; weka.core.AlgVector cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+CodexTest_0_9_7.java:26: error: no suitable method found for assertEquals(double,weka.core.AlgVector,double)
+    assertEquals(3.3,a.add(b), 1.0e-12);
+    ^
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; possible lossy conversion from double to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; weka.core.AlgVector cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

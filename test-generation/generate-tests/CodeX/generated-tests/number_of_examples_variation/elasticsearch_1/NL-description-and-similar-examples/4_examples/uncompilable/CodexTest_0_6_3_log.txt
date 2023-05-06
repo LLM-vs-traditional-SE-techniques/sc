@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_3.java:67: error: cannot find symbol
+        obj.parent = parent;
+           ^
+  symbol:   variable parent
+  location: variable obj of type java.lang.Object
+CodexTest_0_6_3.java:68: error: cannot find symbol
+        assertEquals(parent, obj.parent());
+                                ^
+  symbol:   method parent()
+  location: variable obj of type java.lang.Object

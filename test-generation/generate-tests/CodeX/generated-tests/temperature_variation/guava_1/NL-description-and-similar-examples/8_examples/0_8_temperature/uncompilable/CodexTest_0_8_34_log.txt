@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_34.java:26: error: cannot find symbol
+    assertEquals(42L, hashCode.longValue());
+                              ^
+  symbol:   method longValue()
+  location: variable hashCode of type com.google.common.hash.HashCode

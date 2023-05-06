@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_20.java:25: error: invalid method declaration; return type required
+fromLong(long hash)
+^
+CodexTest_0_9_20.java:25: error: ';' expected
+fromLong(long hash)
+                   ^
+CodexTest_0_9_20.java:29: error: <identifier> expected
+Output: public void testObjectHashCode() {
+      ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_2_10.java:26: error: cannot find symbol
+    int numBytesWritten = bitArray.writeBytesTo(dest, 0, dest.length);
+                          ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_2_10

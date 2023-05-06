@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_27.java:30: error: cannot find symbol
+            int m = uniform.nextIntFromTo(MIN_ROWS_AND_COLUMNS, MAX_ROWS_AND_COLUMNS);
+                                          ^
+  symbol:   variable MIN_ROWS_AND_COLUMNS
+  location: class CodexTest_0_7_27
+CodexTest_0_7_27.java:30: error: cannot find symbol
+            int m = uniform.nextIntFromTo(MIN_ROWS_AND_COLUMNS, MAX_ROWS_AND_COLUMNS);
+                                                                ^
+  symbol:   variable MAX_ROWS_AND_COLUMNS
+  location: class CodexTest_0_7_27
+CodexTest_0_7_27.java:30: error: cannot find symbol
+            int m = uniform.nextIntFromTo(MIN_ROWS_AND_COLUMNS, MAX_ROWS_AND_COLUMNS);
+                    ^
+  symbol:   variable uniform
+  location: class CodexTest_0_7_27
+CodexTest_0_7_27.java:31: error: cannot find symbol
+            int n = uniform.nextIntFromTo(MIN_ROWS_AND_COLUMNS, MAX_ROWS_AND_COLUMNS);
+                                          ^
+  symbol:   variable MIN_ROWS_AND_COLUMNS
+  location: class CodexTest_0_7_27
+CodexTest_0_7_27.java:31: error: cannot find symbol
+            int n = uniform.nextIntFromTo(MIN_ROWS_AND_COLUMNS, MAX_ROWS_AND_COLUMNS);
+                                                                ^
+  symbol:   variable MAX_ROWS_AND_COLUMNS
+  location: class CodexTest_0_7_27
+CodexTest_0_7_27.java:31: error: cannot find symbol
+            int n = uniform.nextIntFromTo(MIN_ROWS_AND_COLUMNS, MAX_ROWS_AND_COLUMNS);
+                    ^
+  symbol:   variable uniform
+  location: class CodexTest_0_7_27
+CodexTest_0_7_27.java:32: error: cannot find symbol
+            DoubleMatrix2D A = new DenseDoubleMatrix2D(m, n).assign(Functions.mult(10));
+                                                                    ^
+  symbol:   variable Functions
+  location: class CodexTest_0_7_27

@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_4.java:169: error: unclosed string literal
+		UiCommandTracker tracker2 = new UiCommandTracker("cmd
+		                                                 ^
+CodexTest_0_9_4.java:169: error: ';' expected
+		UiCommandTracker tracker2 = new UiCommandTracker("cmd
+		                                                     ^
+CodexTest_0_9_4.java:170: error: reached end of file while parsing
+}
+ ^

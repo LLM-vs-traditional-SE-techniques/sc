@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_6_3.java:70: error: exception java.io.IOException is never thrown in body of corresponding try statement
+        } catch (IOException e) {
+          ^

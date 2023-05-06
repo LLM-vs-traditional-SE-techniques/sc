@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_7_5.java:72: error: not a statement
+        udpPacket
+        ^
+CodexTest_0_7_5.java:72: error: ';' expected
+        udpPacket
+                 ^
+CodexTest_0_7_5.java:73: error: reached end of file while parsing
+}
+ ^

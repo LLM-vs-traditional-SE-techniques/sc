@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_12.java:67: error: cannot find symbol
+        assertThat(request.mapping().type(), equalTo("_doc"));
+                          ^
+  symbol:   method mapping()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_8_12.java:67: error: cannot find symbol
+        assertThat(request.mapping().type(), equalTo("_doc"));
+                                             ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_12

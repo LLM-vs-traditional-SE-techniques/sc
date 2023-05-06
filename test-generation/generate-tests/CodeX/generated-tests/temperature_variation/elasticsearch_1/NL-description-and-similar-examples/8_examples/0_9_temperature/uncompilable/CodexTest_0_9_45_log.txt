@@ -1,0 +1,15 @@
+isCompilable => false
+CodexTest_0_9_45.java:148: error: cannot find symbol
+        this.parent = parent;
+            ^
+  symbol: variable parent
+CodexTest_0_9_45.java:151: error: cannot find symbol
+        TermQueryBuilder qb = new TermQueryBuilder("name","value");
+        ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_9_45
+CodexTest_0_9_45.java:151: error: cannot find symbol
+        TermQueryBuilder qb = new TermQueryBuilder("name","value");
+                                  ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_9_45

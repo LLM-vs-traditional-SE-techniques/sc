@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_26.java:21: error: cannot find symbol
+        Preference[] actuals = new Preference[preferences.size()];
+        ^
+  symbol:   class Preference
+  location: class CodexTest_0_8_26
+CodexTest_0_8_26.java:21: error: cannot find symbol
+        Preference[] actuals = new Preference[preferences.size()];
+                                   ^
+  symbol:   class Preference
+  location: class CodexTest_0_8_26
+CodexTest_0_8_26.java:21: error: cannot find symbol
+        Preference[] actuals = new Preference[preferences.size()];
+                                              ^
+  symbol:   variable preferences
+  location: class CodexTest_0_8_26
+CodexTest_0_8_26.java:22: error: cannot find symbol
+        actuals = (Preference[]) preferences.toArray(actuals);
+                   ^
+  symbol:   class Preference
+  location: class CodexTest_0_8_26
+CodexTest_0_8_26.java:22: error: cannot find symbol
+        actuals = (Preference[]) preferences.toArray(actuals);
+                                 ^
+  symbol:   variable preferences
+  location: class CodexTest_0_8_26
+CodexTest_0_8_26.java:23: error: cannot find symbol
+        Assert.assertTrue(preferences.contains(actuals[0]));
+                          ^
+  symbol:   variable preferences
+  location: class CodexTest_0_8_26

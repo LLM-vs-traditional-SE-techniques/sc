@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_3.java:15: error: <identifier> expected
+Input: public UncaughtExceptionHandler getUncaughtExceptionHandler() {
+     ^
+CodexTest_0_9_3.java:18: error: illegal start of type
+>>> getUncaughtExceptionHandler
+^
+CodexTest_0_9_3.java:18: error: ';' expected
+>>> getUncaughtExceptionHandler
+   ^

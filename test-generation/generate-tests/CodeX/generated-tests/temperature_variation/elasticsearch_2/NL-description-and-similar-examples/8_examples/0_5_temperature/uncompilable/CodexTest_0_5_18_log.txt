@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_18.java:67: error: cannot find symbol
+            instanceOf(IllegalArgumentException.class));
+            ^
+  symbol:   method instanceOf(java.lang.Class<java.lang.IllegalArgumentException>)
+  location: class CodexTest_0_5_18
+CodexTest_0_5_18.java:66: error: cannot find symbol
+                new IndexRequest("index", "type").opType(DocWriteRequest.OpType.CREATE).performRequest(),
+                                                                                       ^
+  symbol:   method performRequest()
+  location: class org.elasticsearch.action.index.IndexRequest

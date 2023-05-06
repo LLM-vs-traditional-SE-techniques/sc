@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_2.java:27: error: cannot find symbol
+		Buffer buf = new FixedLengthBuffer(buffer);
+		^
+  symbol:   class Buffer
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:27: error: cannot find symbol
+		Buffer buf = new FixedLengthBuffer(buffer);
+		                 ^
+  symbol:   class FixedLengthBuffer
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:28: error: cannot find symbol
+		buf.writeByte((byte) x);
+		                     ^
+  symbol:   variable x
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:30: error: cannot find symbol
+		buf.writeByte((byte) y);
+		                     ^
+  symbol:   variable y
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:31: error: cannot find symbol
+		String result = new String(buffer, Charset.forName("UTF-8"));
+		                                   ^
+  symbol:   variable Charset
+  location: class CodexTest_0_8_2

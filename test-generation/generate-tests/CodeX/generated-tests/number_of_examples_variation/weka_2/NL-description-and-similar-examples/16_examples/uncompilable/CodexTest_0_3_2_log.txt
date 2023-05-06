@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_3_2.java:18: error: cannot find symbol
+        Instances inst = new Instances(m_Instances, 0);
+                                       ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_3_2
+CodexTest_0_3_2.java:20: error: cannot find symbol
+        Instance instNew = m_Instance.getAsInstance(inst, new Random(1));
+                           ^
+  symbol:   variable m_Instance
+  location: class CodexTest_0_3_2
+CodexTest_0_3_2.java:25: error: cannot find symbol
+        assertEquals(inst.classAttribute().value((int) m_Instance.classValue()),
+                                                       ^
+  symbol:   variable m_Instance
+  location: class CodexTest_0_3_2
+CodexTest_0_3_2.java:26: error: cannot find symbol
+                m_Instance.stringValue(0));
+                ^
+  symbol:   variable m_Instance
+  location: class CodexTest_0_3_2

@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_87.java:30: error: cannot find symbol
+        double[] expected = new double[size];
+                                       ^
+  symbol:   variable size
+  location: class CodexTest_0_7_87
+CodexTest_0_7_87.java:31: error: cannot find symbol
+        for (int i = 0; i < size; i++) {
+                            ^
+  symbol:   variable size
+  location: class CodexTest_0_7_87
+CodexTest_0_7_87.java:34: error: cannot find symbol
+        DoubleMatrix1D M = factory().make(size);
+                                          ^
+  symbol:   variable size
+  location: class CodexTest_0_7_87
+CodexTest_0_7_87.java:34: error: cannot find symbol
+        DoubleMatrix1D M = factory().make(size);
+                           ^
+  symbol:   method factory()
+  location: class CodexTest_0_7_87
+CodexTest_0_7_87.java:36: error: cannot find symbol
+        for (int r = 0; r < size; r++) {
+                            ^
+  symbol:   variable size
+  location: class CodexTest_0_7_87
+CodexTest_0_7_87.java:37: error: cannot find symbol
+            assertEquals("value does not match at " + r, expected[r], M.get(r), TOL);
+                                                                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_87

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_99.java:25: error: cannot find symbol
+    byte[] bytes = hashFunction().hashLong(0).asBytes();
+                   ^
+  symbol:   method hashFunction()
+  location: class CodexTest_0_8_99
+CodexTest_0_8_99.java:27: error: cannot find symbol
+    HashCode hc = hashFunction().hashBytes(bytes, 0, bytes.length);
+                  ^
+  symbol:   method hashFunction()
+  location: class CodexTest_0_8_99

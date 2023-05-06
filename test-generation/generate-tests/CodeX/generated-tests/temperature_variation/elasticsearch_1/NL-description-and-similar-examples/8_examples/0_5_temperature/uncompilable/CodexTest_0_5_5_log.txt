@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_5.java:66: error: cannot find symbol
+        GetAliasesRequest getAliasesRequest = new GetAliasesRequest(parent);
+        ^
+  symbol:   class GetAliasesRequest
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:66: error: cannot find symbol
+        GetAliasesRequest getAliasesRequest = new GetAliasesRequest(parent);
+                                                  ^
+  symbol:   class GetAliasesRequest
+  location: class CodexTest_0_5_5

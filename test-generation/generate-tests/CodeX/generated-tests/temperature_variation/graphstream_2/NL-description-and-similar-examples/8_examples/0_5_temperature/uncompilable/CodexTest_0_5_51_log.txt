@@ -1,0 +1,43 @@
+isCompilable => false
+CodexTest_0_5_51.java:21: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path.setRoot(new Node("A"));
+                     ^
+CodexTest_0_5_51.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path.add(new Edge("A-B"));
+                 ^
+CodexTest_0_5_51.java:23: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path.add(new Edge("B-C"));
+                 ^
+CodexTest_0_5_51.java:24: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path.add(new Edge("C-D"));
+                 ^
+CodexTest_0_5_51.java:25: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path.add(new Edge("D-E"));
+                 ^
+CodexTest_0_5_51.java:26: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path.add(new Edge("E-F"));
+                 ^
+CodexTest_0_5_51.java:27: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path.add(new Edge("F-G"));
+                 ^
+CodexTest_0_5_51.java:29: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path2.setRoot(new Node("A"));
+                      ^
+CodexTest_0_5_51.java:30: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path2.add(new Edge("A-B"));
+                  ^
+CodexTest_0_5_51.java:31: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path2.add(new Edge("B-C"));
+                  ^
+CodexTest_0_5_51.java:32: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path2.add(new Edge("C-D"));
+                  ^
+CodexTest_0_5_51.java:33: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path2.add(new Edge("D-E"));
+                  ^
+CodexTest_0_5_51.java:34: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path2.add(new Edge("E-F"));
+                  ^
+CodexTest_0_5_51.java:35: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path2.add(new Edge("F-G"));
+                  ^

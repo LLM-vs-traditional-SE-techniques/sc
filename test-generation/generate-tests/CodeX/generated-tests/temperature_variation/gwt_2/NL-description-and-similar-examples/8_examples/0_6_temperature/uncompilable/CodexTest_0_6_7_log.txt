@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_6_7.java:22: error: unreachable statement
+    fail("Expected to catch RuntimeException");
+    ^

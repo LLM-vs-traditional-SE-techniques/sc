@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_6_5.java:19: error: <identifier> expected
+Input: public int hashCode() {
+     ^
+CodexTest_0_6_5.java:22: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_5.java:28: error: <identifier> expected
+Input: public void setUncaughtExceptionHandler(UncaughtExceptionHandler handler) {
+     ^
+CodexTest_0_6_5.java:31: error: <identifier> expected
+Output:
+      ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_9.java:65: error: cannot find symbol
+        String parent = randomAsciiOfLengthBetween(5, 10);
+                        ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_4_9

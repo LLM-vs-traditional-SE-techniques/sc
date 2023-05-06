@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_7.java:30: error: 'try' without 'catch', 'finally' or resource declarations
+		  try {
+		  ^
+CodexTest_0_9_7.java:33: error: reached end of file while parsing
+}
+ ^

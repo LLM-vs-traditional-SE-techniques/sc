@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_6_6.java:35: error: incompatible types: double[] cannot be converted to double
+        Vector1D vector1D = new Vector1D(vector);
+                                         ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

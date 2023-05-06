@@ -1,0 +1,29 @@
+isCompilable => false
+CodexTest_0_7_1.java:65: error: cannot find symbol
+        BeanProperties beanProperties = BeanProperties.instance( org.hibernate.jpa.test.pack.nested.P2.class);
+        ^
+  symbol:   class BeanProperties
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:65: error: package org.hibernate.jpa.test.pack.nested does not exist
+        BeanProperties beanProperties = BeanProperties.instance( org.hibernate.jpa.test.pack.nested.P2.class);
+                                                                                                   ^
+CodexTest_0_7_1.java:65: error: cannot find symbol
+        BeanProperties beanProperties = BeanProperties.instance( org.hibernate.jpa.test.pack.nested.P2.class);
+                                        ^
+  symbol:   variable BeanProperties
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:66: error: cannot find symbol
+        assertThat( beanProperties, notNullValue() );
+                                    ^
+  symbol:   method notNullValue()
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:67: error: cannot find symbol
+        assertThat( beanProperties.getAll(), notNullValue() );
+                                             ^
+  symbol:   method notNullValue()
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:68: error: cannot find symbol
+        assertThat( beanProperties.getAll(), hasSize( 3 ) );
+                                             ^
+  symbol:   method hasSize(int)
+  location: class CodexTest_0_7_1

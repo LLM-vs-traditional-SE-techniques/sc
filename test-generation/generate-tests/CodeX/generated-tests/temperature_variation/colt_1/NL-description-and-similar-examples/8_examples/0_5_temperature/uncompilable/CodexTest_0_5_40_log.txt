@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_40.java:31: error: cannot find symbol
+        DoubleMatrix1D A = factory().make(values);
+                           ^
+  symbol:   method factory()
+  location: class CodexTest_0_5_40
+CodexTest_0_5_40.java:32: error: cannot find symbol
+        DoubleMatrix1D B = factory().make(values);
+                           ^
+  symbol:   method factory()
+  location: class CodexTest_0_5_40
+CodexTest_0_5_40.java:35: error: cannot find symbol
+            assertEquals(values[i], B.getQuick(i), TOL);
+                                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_40

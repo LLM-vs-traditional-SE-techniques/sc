@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_69.java:66: error: cannot find symbol
+        DeleteRequest deleteRequest = new DeleteRequest("index", "type", "id", parent);
+        ^
+  symbol:   class DeleteRequest
+  location: class CodexTest_0_6_69
+CodexTest_0_6_69.java:66: error: cannot find symbol
+        DeleteRequest deleteRequest = new DeleteRequest("index", "type", "id", parent);
+                                          ^
+  symbol:   class DeleteRequest
+  location: class CodexTest_0_6_69

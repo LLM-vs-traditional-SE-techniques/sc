@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_8.java:67: error: cannot find symbol
+            builder.map(ImmutableMap.of("foo", "bar"));
+                        ^
+  symbol:   variable ImmutableMap
+  location: class CodexTest_0_3_8

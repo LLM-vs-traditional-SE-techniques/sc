@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_24.java:26: error: cannot find symbol
+    ImmutableBitArray bitArray = ImmutableBitArray.create(new byte[] {(byte) 0x3f}, 8);
+    ^
+  symbol:   class ImmutableBitArray
+  location: class CodexTest_0_6_24
+CodexTest_0_6_24.java:26: error: cannot find symbol
+    ImmutableBitArray bitArray = ImmutableBitArray.create(new byte[] {(byte) 0x3f}, 8);
+                                 ^
+  symbol:   variable ImmutableBitArray
+  location: class CodexTest_0_6_24

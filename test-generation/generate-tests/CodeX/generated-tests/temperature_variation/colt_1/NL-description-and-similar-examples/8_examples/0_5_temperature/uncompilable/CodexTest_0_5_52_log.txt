@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_52.java:33: error: cannot find symbol
+        assertEquals(m.get(0), 5, EPSILON);
+                                  ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_5_52
+CodexTest_0_5_52.java:34: error: cannot find symbol
+        assertEquals(m.get(1), 6, EPSILON);
+                                  ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_5_52
+CodexTest_0_5_52.java:35: error: cannot find symbol
+        assertEquals(m.get(2), 7, EPSILON);
+                                  ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_5_52
+CodexTest_0_5_52.java:36: error: cannot find symbol
+        assertEquals(m.get(3), 8, EPSILON);
+                                  ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_5_52

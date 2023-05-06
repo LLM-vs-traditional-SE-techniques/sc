@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_10.java:20: error: cannot find symbol
+        Path p1 = createPath("a", "a", "a");
+                  ^
+  symbol:   method createPath(java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:21: error: cannot find symbol
+        Path p2 = createPath("a", "a", "a");
+                  ^
+  symbol:   method createPath(java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:22: error: cannot find symbol
+        Path p3 = createPath("a", "a");
+                  ^
+  symbol:   method createPath(java.lang.String,java.lang.String)
+  location: class CodexTest_0_9_10

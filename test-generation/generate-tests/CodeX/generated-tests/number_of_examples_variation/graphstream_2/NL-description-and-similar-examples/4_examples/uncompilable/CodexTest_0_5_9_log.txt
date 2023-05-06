@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_9.java:22: error: cannot find symbol
+        path1.add(node1);
+                  ^
+  symbol:   variable node1
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:23: error: cannot find symbol
+        path1.add(node2);
+                  ^
+  symbol:   variable node2
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:25: error: cannot find symbol
+        path2.add(node1);
+                  ^
+  symbol:   variable node1
+  location: class CodexTest_0_5_9

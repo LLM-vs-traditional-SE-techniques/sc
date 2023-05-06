@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_4_6.java:21: error: cannot find symbol
+        assertTrue(contains(1));
+                   ^
+  symbol:   method contains(int)
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:22: error: cannot find symbol
+        assertTrue(contains(2));
+                   ^
+  symbol:   method contains(int)
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:23: error: cannot find symbol
+        assertTrue(contains(3));
+                   ^
+  symbol:   method contains(int)
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:24: error: cannot find symbol
+        assertFalse(contains(4));
+                    ^
+  symbol:   method contains(int)
+  location: class CodexTest_0_4_6

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_87.java:21: error: cannot find symbol
+					    createAttributes(numAttributes),
+					    ^
+  symbol:   method createAttributes(int)
+  location: class CodexTest_0_4_87
+CodexTest_0_4_87.java:29: error: cannot find symbol
+      assertEquals(testInstances.numAttributes(), inst.numInputAttributes());
+                                                      ^
+  symbol:   method numInputAttributes()
+  location: variable inst of type weka.core.Instance

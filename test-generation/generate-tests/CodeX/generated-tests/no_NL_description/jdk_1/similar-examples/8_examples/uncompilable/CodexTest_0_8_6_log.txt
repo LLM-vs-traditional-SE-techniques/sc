@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_6.java:23: error: cannot find symbol
+        eq(x, Arrays.asList("a", "b", "c"));
+        ^
+  symbol:   method eq(java.util.List<java.lang.String>,java.util.List<java.lang.String>)
+  location: class CodexTest_0_8_6

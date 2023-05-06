@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_10.java:26: error: cannot find symbol
+    assertEquals(2, new BitSet().writeBytesTo(dest, 0, 2));
+                        ^
+  symbol:   class BitSet
+  location: class CodexTest_0_5_10
+CodexTest_0_5_10.java:29: error: cannot find symbol
+    BitSet bs = new BitSet();
+    ^
+  symbol:   class BitSet
+  location: class CodexTest_0_5_10
+CodexTest_0_5_10.java:29: error: cannot find symbol
+    BitSet bs = new BitSet();
+                    ^
+  symbol:   class BitSet
+  location: class CodexTest_0_5_10

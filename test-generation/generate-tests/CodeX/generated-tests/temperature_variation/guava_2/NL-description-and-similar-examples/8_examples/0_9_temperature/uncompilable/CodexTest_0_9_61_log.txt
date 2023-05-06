@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_9_61.java:27: error: cannot find symbol
+    Pointer ptr = Pointer.fromLong(0x1231L);
+    ^
+  symbol:   class Pointer
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:27: error: cannot find symbol
+    Pointer ptr = Pointer.fromLong(0x1231L);
+                  ^
+  symbol:   variable Pointer
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:32: error: variable expected is already defined in method testWriteBytesTo()
+    } catch (IndexOutOfBoundsException expected) {
+                                       ^

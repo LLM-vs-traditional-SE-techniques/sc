@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_8.java:69: error: cannot find symbol
+        assertThat(request.source().utf8ToString(), equalTo(jsonBuilder().startObject().field("field", "value").endObject().string()));
+                                                            ^
+  symbol:   method jsonBuilder()
+  location: class CodexTest_0_7_8

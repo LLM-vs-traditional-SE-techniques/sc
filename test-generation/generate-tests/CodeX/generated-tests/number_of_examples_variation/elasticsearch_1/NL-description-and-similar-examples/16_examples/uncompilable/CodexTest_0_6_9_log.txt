@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_9.java:65: error: cannot find symbol
+        assertEquals("twitter", tweet.parent());
+                                ^
+  symbol:   variable tweet
+  location: class CodexTest_0_6_9

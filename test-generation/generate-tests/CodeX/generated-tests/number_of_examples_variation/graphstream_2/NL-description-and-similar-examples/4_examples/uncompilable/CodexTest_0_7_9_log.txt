@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_7_9.java:21: error: class, interface, or enum expected
+	public void shouldReturnTrueWhenPathsAreEqual() {
+	       ^
+CodexTest_0_7_9.java:24: error: class, interface, or enum expected
+		path1.add(new Edge("e1"));
+		^
+CodexTest_0_7_9.java:25: error: class, interface, or enum expected
+		path1.add(new Edge("e2"));
+		^
+CodexTest_0_7_9.java:27: error: class, interface, or enum expected
+		Path path2 = new Path();
+		^
+CodexTest_0_7_9.java:28: error: class, interface, or enum expected
+		path2.add(new Edge("e1"));
+		^
+CodexTest_0_7_9.java:29: error: class, interface, or enum expected
+		path2.add(new Edge("e2"));
+		^
+CodexTest_0_7_9.java:32: error: class, interface, or enum expected
+		boolean equals = path1.equals(path2);
+		^
+CodexTest_0_7_9.java:35: error: class, interface, or enum expected
+		assertTrue(equals);
+		^
+CodexTest_0_7_9.java:36: error: class, interface, or enum expected
+	}
+	^

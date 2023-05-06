@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_7_3.java:19: error: cannot find symbol
+    Instances model = mock(Instances.class);
+                      ^
+  symbol:   method mock(java.lang.Class<weka.core.Instances>)
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:20: error: cannot find symbol
+    when(model.numAttributes()).thenReturn(1);
+    ^
+  symbol:   method when(int)
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:21: error: cannot find symbol
+    when(model.attribute(anyInt())).thenReturn(mock(Attribute.class));
+                                               ^
+  symbol:   method mock(java.lang.Class<weka.core.Attribute>)
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:21: error: cannot find symbol
+    when(model.attribute(anyInt())).thenReturn(mock(Attribute.class));
+                         ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:22: error: cannot find symbol
+    when(model.attribute(anyInt()).isNumeric()).thenReturn(true);
+                         ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:23: error: cannot find symbol
+    when(model.attribute(anyInt()).isNominal()).thenReturn(false);
+                         ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:27: error: cannot find symbol
+    Random random = mock(Random.class);
+                    ^
+  symbol:   method mock(java.lang.Class<java.util.Random>)
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:28: error: cannot find symbol
+    when(random.nextDouble()).thenReturn(3.0);
+    ^
+  symbol:   method when(double)
+  location: class CodexTest_0_7_3

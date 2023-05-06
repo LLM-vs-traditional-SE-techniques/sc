@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_3.java:22: error: cannot find symbol
+        AlgIndexedVector v = new AlgIndexedVector(data);
+        ^
+  symbol:   class AlgIndexedVector
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:22: error: cannot find symbol
+        AlgIndexedVector v = new AlgIndexedVector(data);
+                                 ^
+  symbol:   class AlgIndexedVector
+  location: class CodexTest_0_8_3

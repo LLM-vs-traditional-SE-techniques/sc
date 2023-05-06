@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_6.java:21: error: cannot find symbol
+    final DoubleArrayList list = new DoubleArrayList();
+          ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:21: error: cannot find symbol
+    final DoubleArrayList list = new DoubleArrayList();
+                                     ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_7_6

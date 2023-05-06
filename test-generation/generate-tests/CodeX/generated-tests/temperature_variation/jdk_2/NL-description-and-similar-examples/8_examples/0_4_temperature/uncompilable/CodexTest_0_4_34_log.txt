@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_4_34.java:21: error: cannot find symbol
+        assertTrue(list.contains(one));
+                                 ^
+  symbol:   variable one
+  location: class CodexTest_0_4_34
+CodexTest_0_4_34.java:21: error: cannot find symbol
+        assertTrue(list.contains(one));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_34
+CodexTest_0_4_34.java:22: error: cannot find symbol
+        assertTrue(list.contains(two));
+                                 ^
+  symbol:   variable two
+  location: class CodexTest_0_4_34
+CodexTest_0_4_34.java:22: error: cannot find symbol
+        assertTrue(list.contains(two));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_34
+CodexTest_0_4_34.java:23: error: cannot find symbol
+        assertTrue(list.contains(three));
+                                 ^
+  symbol:   variable three
+  location: class CodexTest_0_4_34
+CodexTest_0_4_34.java:23: error: cannot find symbol
+        assertTrue(list.contains(three));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_4_34
+CodexTest_0_4_34.java:24: error: cannot find symbol
+        assertFalse(list.contains(four));
+                                  ^
+  symbol:   variable four
+  location: class CodexTest_0_4_34
+CodexTest_0_4_34.java:24: error: cannot find symbol
+        assertFalse(list.contains(four));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_4_34
+CodexTest_0_4_34.java:25: error: cannot find symbol
+        assertFalse(list.contains(null));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_4_34

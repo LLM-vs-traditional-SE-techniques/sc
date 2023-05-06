@@ -1,0 +1,59 @@
+isCompilable => false
+CodexTest_0_5_5.java:19: error: cannot find symbol
+        if (m_Elements != null) {
+            ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:20: error: cannot find symbol
+          newInst = new DenseInstance(model.numAttributes());
+                                      ^
+  symbol:   variable model
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:21: error: cannot find symbol
+          newInst.setDataset(model);
+                             ^
+  symbol:   variable model
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:22: error: cannot find symbol
+                for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+                                           ^
+  symbol:   variable model
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:23: error: cannot find symbol
+            if (model.attribute(i).isNumeric()) {
+                ^
+  symbol:   variable model
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:24: error: cannot find symbol
+              if (j >= m_Elements.length)
+                       ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:26: error: cannot find symbol
+              newInst.setValue(i, m_Elements[j++]);
+                                  ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:28: error: cannot find symbol
+            if (model.attribute(i).isNominal()) {
+                ^
+  symbol:   variable model
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:30: error: cannot find symbol
+                (random.nextDouble() * (double) (model.attribute(i).numValues()));
+                 ^
+  symbol:   variable random
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:30: error: cannot find symbol
+                (random.nextDouble() * (double) (model.attribute(i).numValues()));
+                                                 ^
+  symbol:   variable model
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:31: error: cannot find symbol
+              if (newVal == (int) model.attribute(i).numValues())
+                                  ^
+  symbol:   variable model
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:37: error: incompatible types: unexpected return value
+        return newInst;
+               ^

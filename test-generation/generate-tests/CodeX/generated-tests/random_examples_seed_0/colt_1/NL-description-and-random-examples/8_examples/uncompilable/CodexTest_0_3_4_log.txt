@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_4.java:30: error: cannot find symbol
+        DoubleMatrix1D source = new DenseDoubleMatrix1D(SIZE);
+                                                        ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:31: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_3_4

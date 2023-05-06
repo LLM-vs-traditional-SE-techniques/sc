@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_1.java:65: error: cannot find symbol
+        assertThat(reason, response.status(), is(RestStatus.OK));
+                                              ^
+  symbol:   method is(org.elasticsearch.rest.RestStatus)
+  location: class CodexTest_0_7_1

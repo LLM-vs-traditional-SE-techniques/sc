@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_72.java:75: error: <identifier> expected
+ Input:
+      ^
+CodexTest_0_9_72.java:79: error: <identifier> expected
+Output:
+      ^

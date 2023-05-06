@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_51.java:35: error: package DenseDoubleAlgebra does not exist
+        DoubleMatrix2D D = DenseDoubleAlgebra.DEFAULT.make(d);		
+                                             ^
+CodexTest_0_9_51.java:36: error: method zSum in class cern.colt.matrix.DoubleMatrix2D cannot be applied to given types;
+        double[] columnSums = D.zSum(0,2);
+                               ^
+  required: no arguments
+  found: int,int
+  reason: actual and formal argument lists differ in length
+CodexTest_0_9_51.java:37: error: method zSum in class cern.colt.matrix.DoubleMatrix2D cannot be applied to given types;
+        double[] rowSums = D.zSum(1,2);
+                            ^
+  required: no arguments
+  found: int,int
+  reason: actual and formal argument lists differ in length
+CodexTest_0_9_51.java:42: error: cannot find symbol
+        assertTrue(Arrays.equals(expectedColumnSums, columnSums));
+                   ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_51
+CodexTest_0_9_51.java:43: error: cannot find symbol
+        assertTrue(Arrays.equals(expectedRowSums, rowSums));
+                   ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_9_51

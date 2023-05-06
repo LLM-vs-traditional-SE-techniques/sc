@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_59.java:69: error: cannot find symbol
+        assertThat(request.source().utf8ToString(), is(equalTo("{\"foo\":null}")));
+                                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_6_59

@@ -1,0 +1,20 @@
+isCompilable => false
+CodexTest_0_7_8.java:27: error: cannot find symbol
+		Path path = new Path(graph.getVertex("b"), graph.getVertex("b"),
+		                          ^
+  symbol:   method getVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.implementations.DefaultGraph
+CodexTest_0_7_8.java:27: error: cannot find symbol
+		Path path = new Path(graph.getVertex("b"), graph.getVertex("b"),
+		                                                ^
+  symbol:   method getVertex(java.lang.String)
+  location: variable graph of type org.graphstream.graph.implementations.DefaultGraph
+CodexTest_0_7_8.java:28: error: cannot find symbol
+				Arrays.asList(graph.getEdge("ab"), graph.getEdge("bc")));
+				^
+  symbol:   variable Arrays
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:30: error: reference to contains is ambiguous
+		boolean result = path.contains(graph.getEdge("bc"));
+		                     ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match

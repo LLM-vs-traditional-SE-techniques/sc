@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_3.java:49: error: ')' expected
+			inst.add(new Attribute("cc")
+			                            ^
+CodexTest_0_2_3.java:50: error: reached end of file while parsing
+}
+ ^

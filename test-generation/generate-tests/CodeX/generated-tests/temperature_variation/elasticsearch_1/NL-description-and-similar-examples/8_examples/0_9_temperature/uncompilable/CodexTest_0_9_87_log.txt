@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_87.java:67: error: <identifier> expected
+Input: public static List<Boolean> asList(boolean[] array) {
+     ^
+CodexTest_0_9_87.java:78: error: <identifier> expected
+Output: public void testAsList() {
+      ^
+CodexTest_0_9_87.java:81: error: ';' expected
+        assertEquals(expectedList, ArrayUtils.asList((boolean[]) ArrayUtils.toObject(array)), "2 boolean true& false"));
+                                                                                                                      ^

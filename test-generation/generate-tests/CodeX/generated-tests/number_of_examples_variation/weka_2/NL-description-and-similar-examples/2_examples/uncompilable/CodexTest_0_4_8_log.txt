@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_4_8.java:20: error: cannot find symbol
+      model = TestInstances.createTestInstances();
+                           ^
+  symbol:   method createTestInstances()
+  location: class weka.core.TestInstances
+Note: CodexTest_0_4_8.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

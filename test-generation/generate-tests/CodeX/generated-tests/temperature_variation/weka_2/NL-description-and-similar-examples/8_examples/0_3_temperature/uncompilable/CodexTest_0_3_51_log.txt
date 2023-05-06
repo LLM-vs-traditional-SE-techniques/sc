@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_51.java:47: error: illegal escape character
+							+ "@attribute ac numeric\
+							                         ^
+CodexTest_0_3_51.java:47: error: unclosed string literal
+							+ "@attribute ac numeric\
+							  ^
+CodexTest_0_3_51.java:48: error: reached end of file while parsing
+}
+ ^

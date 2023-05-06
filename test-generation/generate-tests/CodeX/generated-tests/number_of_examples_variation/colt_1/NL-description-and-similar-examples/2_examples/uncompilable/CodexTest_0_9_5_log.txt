@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_5.java:29: error: illegal start of type
+       1) doubleTest5(){
+       ^
+CodexTest_0_9_5.java:29: error: ';' expected
+       1) doubleTest5(){
+        ^
+CodexTest_0_9_5.java:29: error: invalid method declaration; return type required
+       1) doubleTest5(){
+          ^
+CodexTest_0_9_5.java:39: error: illegal start of type
+ 	*/
+ 	^
+CodexTest_0_9_5.java:39: error: ';' expected
+ 	*/
+ 	 ^

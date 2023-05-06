@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_8_66.java:65: error: cannot find symbol
+			assertEquals("Test", this.indexRequest.parent("Test").parent());
+			                         ^
+  symbol: variable indexRequest

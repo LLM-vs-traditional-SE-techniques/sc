@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_7_4.java:38: error: <identifier> expected
+Input: public static Vector1D getOrthogonalVector(Vector1D v) {
+     ^
+CodexTest_0_7_4.java:41: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_4.java:48: error: <identifier> expected
+Input: public static Vector1D getUnitVector(Vector1D v) {
+     ^
+CodexTest_0_7_4.java:51: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_4.java:58: error: <identifier> expected
+Input: public static Vector1D negate(Vector1D v) {
+     ^
+CodexTest_0_7_4.java:61: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_4.java:66: error: ')' expected
+        Assert.assertEquals(-10.
+                                ^
+CodexTest_0_7_4.java:67: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_5_6.java:65: error: org.junit.Test is abstract; cannot be instantiated
+        assertEquals("Test", new Test().toString());
+                             ^

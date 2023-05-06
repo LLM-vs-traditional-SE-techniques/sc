@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_7.java:65: error: cannot find symbol
+        assertEquals(new IndexRules().parent(),null);
+                         ^
+  symbol:   class IndexRules
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:66: error: cannot find symbol
+        assertEquals(new IndexRules(3).parent(),3);
+                         ^
+  symbol:   class IndexRules
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:67: error: cannot find symbol
+        assertEquals(new IndexRules(true).parent(),false);
+                         ^
+  symbol:   class IndexRules
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:68: error: cannot find symbol
+        assertEquals(new IndexRules(2.2f).parent(),2.2f);
+                         ^
+  symbol:   class IndexRules
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:69: error: cannot find symbol
+        assertEquals(new IndexRules(s).parent(),"s");
+                         ^
+  symbol:   class IndexRules
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:69: error: cannot find symbol
+        assertEquals(new IndexRules(s).parent(),"s");
+                                    ^
+  symbol:   variable s
+  location: class CodexTest_0_9_7

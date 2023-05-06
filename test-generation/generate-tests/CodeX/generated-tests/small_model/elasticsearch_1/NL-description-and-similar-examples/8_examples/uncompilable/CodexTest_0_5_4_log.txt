@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_5_4.java:66: error: package XhrLoadingStrategy does not exist
+                XhrLoadingStrategy.XhrDownloadStrategy.class.getName());
+                                  ^

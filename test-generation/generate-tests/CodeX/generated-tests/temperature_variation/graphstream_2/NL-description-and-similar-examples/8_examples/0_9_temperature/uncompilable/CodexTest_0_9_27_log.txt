@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_9_27.java:20: error: cannot find symbol
+        Vector1D v1 = createVector1D(2);
+        ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_9_27
+CodexTest_0_9_27.java:20: error: cannot find symbol
+        Vector1D v1 = createVector1D(2);
+                      ^
+  symbol:   method createVector1D(int)
+  location: class CodexTest_0_9_27
+CodexTest_0_9_27.java:21: error: cannot find symbol
+        Vector1D v2 = createVector1D(2);
+        ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_9_27
+CodexTest_0_9_27.java:21: error: cannot find symbol
+        Vector1D v2 = createVector1D(2);
+                      ^
+  symbol:   method createVector1D(int)
+  location: class CodexTest_0_9_27
+CodexTest_0_9_27.java:22: error: cannot find symbol
+        Vector1D v3 = createVector1D(3);
+        ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_9_27
+CodexTest_0_9_27.java:22: error: cannot find symbol
+        Vector1D v3 = createVector1D(3);
+                      ^
+  symbol:   method createVector1D(int)
+  location: class CodexTest_0_9_27
+CodexTest_0_9_27.java:23: error: cannot find symbol
+        Vector1D v4 = createVector1D(Integer.MAX_VALUE - 1);
+        ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_9_27
+CodexTest_0_9_27.java:23: error: cannot find symbol
+        Vector1D v4 = createVector1D(Integer.MAX_VALUE - 1);
+                      ^
+  symbol:   method createVector1D(int)
+  location: class CodexTest_0_9_27
+CodexTest_0_9_27.java:24: error: cannot find symbol
+        Vector1D v5 = createVector1D(Integer.MAX_VALUE - 1);
+        ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_9_27
+CodexTest_0_9_27.java:24: error: cannot find symbol
+        Vector1D v5 = createVector1D(Integer.MAX_VALUE - 1);
+                      ^
+  symbol:   method createVector1D(int)
+  location: class CodexTest_0_9_27

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_44.java:21: error: cannot find symbol
+        assertTrue("ArrayList should contain 42", al.contains(new Integer(42)));
+                                                  ^
+  symbol:   variable al
+  location: class CodexTest_0_5_44
+CodexTest_0_5_44.java:22: error: cannot find symbol
+        assertFalse("ArrayList should not contain 666", al.contains(new Integer(666)));
+                                                        ^
+  symbol:   variable al
+  location: class CodexTest_0_5_44
+CodexTest_0_5_44.java:23: error: cannot find symbol
+        assertFalse("ArrayList should not contain null", al.contains(null));
+                                                         ^
+  symbol:   variable al
+  location: class CodexTest_0_5_44

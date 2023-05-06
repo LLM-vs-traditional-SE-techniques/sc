@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_7_1.java:32: error: <identifier> expected
+Input: public static int getInt(long[] array, long[] buffer) {
+     ^
+CodexTest_0_7_1.java:46: error: ';' expected
+                HEADS_UP += NUM
+                               ^
+CodexTest_0_7_1.java:47: error: reached end of file while parsing
+}
+ ^

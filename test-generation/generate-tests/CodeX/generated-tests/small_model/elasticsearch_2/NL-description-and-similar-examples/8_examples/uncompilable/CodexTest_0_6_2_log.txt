@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_6_2.java:71: error: incompatible types: org.elasticsearch.common.bytes.BytesReference cannot be converted to java.lang.String
+        String result = request.source();
+                                      ^

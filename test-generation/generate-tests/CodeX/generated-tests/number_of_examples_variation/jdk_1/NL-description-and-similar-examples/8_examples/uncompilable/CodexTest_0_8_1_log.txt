@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_1.java:29: error: cannot find symbol
+		assertThat(list.remove(0), equalTo("a"));
+		                           ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:30: error: cannot find symbol
+		assertThat(list.remove(2), equalTo("f"));
+		                           ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:31: error: cannot find symbol
+		assertThat(list.remove(3), equalTo("h"));
+		                           ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_1

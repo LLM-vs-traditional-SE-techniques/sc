@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_91.java:38: error: <identifier> expected
+Input: public static boolean isTrue(String s) {
+     ^
+CodexTest_0_7_91.java:41: error: <identifier> expected
+Output: public void testWrapShouldReturnFalseWhenNStringGiven() {
+      ^
+CodexTest_0_7_91.java:49: error: <identifier> expected
+Input: public static class Builder {
+     ^
+CodexTest_0_7_91.java:67: error: <identifier> expected
+			public Builder setCharset(Chars
+			                               ^
+CodexTest_0_7_91.java:68: error: reached end of file while parsing
+}
+ ^

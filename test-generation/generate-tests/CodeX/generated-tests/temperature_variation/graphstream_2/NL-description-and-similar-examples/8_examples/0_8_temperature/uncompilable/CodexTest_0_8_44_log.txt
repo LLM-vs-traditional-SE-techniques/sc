@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_44.java:21: error: cannot find symbol
+		assertFalse(path.isEmpty());
+		                ^
+  symbol:   method isEmpty()
+  location: variable path of type org.graphstream.graph.Path

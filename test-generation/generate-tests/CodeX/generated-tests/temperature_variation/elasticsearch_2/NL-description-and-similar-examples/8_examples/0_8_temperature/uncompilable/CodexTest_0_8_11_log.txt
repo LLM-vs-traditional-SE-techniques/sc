@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_11.java:66: error: cannot find symbol
+        byte[] data = "{ \"field1\" : \"value1\", \"field2\" : \"value2\", \"field3\" : null }".getBytes(Charsets.UTF_8);
+                                                                                                         ^
+  symbol:   variable Charsets
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:72: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("Failed to parse content to map"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:73: error: cannot find symbol
+            assertThat(e.getCause(), instanceOf(NullPointerException.class));
+                                     ^
+  symbol:   method instanceOf(java.lang.Class<java.lang.NullPointerException>)
+  location: class CodexTest_0_8_11

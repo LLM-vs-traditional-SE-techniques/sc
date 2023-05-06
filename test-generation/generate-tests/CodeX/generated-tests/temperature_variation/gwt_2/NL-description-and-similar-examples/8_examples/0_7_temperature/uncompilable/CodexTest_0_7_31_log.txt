@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_31.java:29: error: <identifier> expected
+Input:  public static boolean isClient() {
+     ^
+CodexTest_0_7_31.java:32: error: <identifier> expected
+Output: public void testClient() {
+      ^

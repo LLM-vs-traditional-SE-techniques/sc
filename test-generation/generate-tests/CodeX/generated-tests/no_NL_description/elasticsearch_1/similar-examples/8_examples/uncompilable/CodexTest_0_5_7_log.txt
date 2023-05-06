@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_7.java:65: error: cannot find symbol
+        String parent = randomAsciiOfLengthBetween(5, 10);
+                        ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:66: error: cannot find symbol
+        SegmentsStatsRequest request = new SegmentsStatsRequest();
+        ^
+  symbol:   class SegmentsStatsRequest
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:66: error: cannot find symbol
+        SegmentsStatsRequest request = new SegmentsStatsRequest();
+                                           ^
+  symbol:   class SegmentsStatsRequest
+  location: class CodexTest_0_5_7

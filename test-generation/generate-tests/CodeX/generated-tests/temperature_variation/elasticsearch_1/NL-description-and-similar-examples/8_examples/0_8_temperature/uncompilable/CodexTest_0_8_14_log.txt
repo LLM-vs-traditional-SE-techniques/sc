@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_14.java:66: error: cannot find symbol
+            MetricId id = new MetricId("parent", "type", "name");
+            ^
+  symbol:   class MetricId
+  location: class CodexTest_0_8_14
+CodexTest_0_8_14.java:66: error: cannot find symbol
+            MetricId id = new MetricId("parent", "type", "name");
+                              ^
+  symbol:   class MetricId
+  location: class CodexTest_0_8_14

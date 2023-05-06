@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_35.java:21: error: cannot find symbol
+        assertFalse(empty.containsAll(full));
+                                      ^
+  symbol:   variable full
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:21: error: cannot find symbol
+        assertFalse(empty.containsAll(full));
+                    ^
+  symbol:   variable empty
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:22: error: cannot find symbol
+        assertFalse(one.containsAll(full));
+                                    ^
+  symbol:   variable full
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:22: error: cannot find symbol
+        assertFalse(one.containsAll(full));
+                    ^
+  symbol:   variable one
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:23: error: cannot find symbol
+        assertTrue(full.containsAll(full));
+                                    ^
+  symbol:   variable full
+  location: class CodexTest_0_9_35
+CodexTest_0_9_35.java:23: error: cannot find symbol
+        assertTrue(full.containsAll(full));
+                   ^
+  symbol:   variable full
+  location: class CodexTest_0_9_35

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_1.java:65: error: cannot find symbol
+    		XContentBuilder builder = jsonBuilder();
+    		                          ^
+  symbol:   method jsonBuilder()
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:103: error: cannot find symbol
+    		Requests.indices().prepareIndex(defaulIndex, "type")
+    		                                ^
+  symbol:   variable defaulIndex
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:103: error: cannot find symbol
+    		Requests.indices().prepareIndex(defaulIndex, "type")
+    		        ^
+  symbol:   method indices()
+  location: class org.elasticsearch.client.Requests
+CodexTest_0_9_1.java:105: error: cannot find symbol
+    		refresh();
+    		^
+  symbol:   method refresh()
+  location: class CodexTest_0_9_1

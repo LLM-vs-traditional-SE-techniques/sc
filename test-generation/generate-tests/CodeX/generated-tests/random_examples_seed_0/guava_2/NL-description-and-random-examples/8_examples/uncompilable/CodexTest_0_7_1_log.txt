@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_7_1.java:25: error: cannot find symbol
+    Random r = new Random();
+    ^
+  symbol:   class Random
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:25: error: cannot find symbol
+    Random r = new Random();
+                   ^
+  symbol:   class Random
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:31: error: writeBytesToImpl(byte[],int,int) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+      hashCode.writeBytesToImpl(bytes, 0, 4);
+              ^

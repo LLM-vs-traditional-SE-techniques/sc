@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_3_4.java:65: error: cannot find symbol
+        String parent = randomAlphaOfLengthBetween(3, 10);
+                        ^
+  symbol:   method randomAlphaOfLengthBetween(int,int)
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:66: error: cannot find symbol
+        SearchRequest searchRequest = new SearchRequest();
+        ^
+  symbol:   class SearchRequest
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:66: error: cannot find symbol
+        SearchRequest searchRequest = new SearchRequest();
+                                          ^
+  symbol:   class SearchRequest
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:68: error: cannot find symbol
+        assertThat(searchRequest.parent(), equalTo(parent));
+                                           ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_3_4

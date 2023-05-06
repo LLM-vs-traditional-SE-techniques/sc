@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_4.java:19: error: cannot find symbol
+    Vector v = new Vector(2);
+    ^
+  symbol:   class Vector
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:19: error: cannot find symbol
+    Vector v = new Vector(2);
+                   ^
+  symbol:   class Vector
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:23: error: cannot find symbol
+    assertEquals(5.0, m_ZeroR.classAdditionalMeasure(v, test, v));
+                      ^
+  symbol:   variable m_ZeroR
+  location: class CodexTest_0_9_4

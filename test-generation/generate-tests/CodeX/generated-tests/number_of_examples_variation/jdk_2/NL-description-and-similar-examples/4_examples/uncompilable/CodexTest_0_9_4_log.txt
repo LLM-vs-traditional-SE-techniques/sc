@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_4.java:23: error: cannot find symbol
+            MultiDimensionalSplineInterpolator l = new SplineInterpolator();
+            ^
+  symbol:   class MultiDimensionalSplineInterpolator
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:23: error: cannot find symbol
+            MultiDimensionalSplineInterpolator l = new SplineInterpolator();
+                                                       ^
+  symbol:   class SplineInterpolator
+  location: class CodexTest_0_9_4

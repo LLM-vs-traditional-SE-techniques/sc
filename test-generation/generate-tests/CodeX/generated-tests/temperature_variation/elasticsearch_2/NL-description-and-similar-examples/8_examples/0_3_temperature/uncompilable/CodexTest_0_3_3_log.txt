@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_3.java:68: error: cannot find symbol
+                indexRequest.source(), ToXContent.EMPTY_PARAMS);
+                                       ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_3_3

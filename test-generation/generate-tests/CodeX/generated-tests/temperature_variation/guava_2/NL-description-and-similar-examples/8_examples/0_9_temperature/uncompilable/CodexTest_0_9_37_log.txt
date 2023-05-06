@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_37.java:30: error: integer number too large: 000102030405060708090a0b0c0d0e0f10
+        HashCode hashCode = HashCode.fromLong(0x000102030405060708090a0b0c0d0e0f10L);
+                                              ^
+CodexTest_0_9_37.java:36: error: reached end of file while parsing
+}
+ ^

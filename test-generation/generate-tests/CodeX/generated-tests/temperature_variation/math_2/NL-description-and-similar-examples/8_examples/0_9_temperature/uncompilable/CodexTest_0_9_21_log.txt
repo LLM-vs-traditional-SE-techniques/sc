@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_21.java:34: error: cannot find symbol
+        Assert.assertEquals(new Vector1D(3).subtract(v1).getNormSq(), Vector1D.distanceSq(v1.copy(), v1), 1.0e-12);
+                                                                                            ^
+  symbol:   method copy()
+  location: variable v1 of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D

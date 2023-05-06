@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_2_23.java:81: error: unclosed string literal
+        list.add("
+                 ^
+CodexTest_0_2_23.java:81: error: ';' expected
+        list.add("
+                  ^
+CodexTest_0_2_23.java:82: error: reached end of file while parsing
+}
+ ^

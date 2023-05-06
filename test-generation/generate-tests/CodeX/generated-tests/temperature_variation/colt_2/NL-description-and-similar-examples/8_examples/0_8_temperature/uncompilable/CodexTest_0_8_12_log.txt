@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_12.java:42: error: class, interface, or enum expected
+}
+^

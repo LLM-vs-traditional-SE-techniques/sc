@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_40.java:29: error: cannot find symbol
+      testZero.writeBytesTo(dest, offset, maxLength);
+      ^
+  symbol:   variable testZero
+  location: class CodexTest_0_5_40

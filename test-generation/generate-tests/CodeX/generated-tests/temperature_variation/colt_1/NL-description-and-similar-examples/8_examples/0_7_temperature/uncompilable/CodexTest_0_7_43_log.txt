@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_43.java:30: error: <identifier> expected
+					System.out.println(res);
+					                  ^
+CodexTest_0_7_43.java:30: error: <identifier> expected
+					System.out.println(res);
+					                      ^

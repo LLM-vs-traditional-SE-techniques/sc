@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_70.java:20: error: cannot find symbol
+            for (int i = 0; i < mNumActions; i++) {
+                                ^
+  symbol:   variable mNumActions
+  location: class CodexTest_0_8_70
+CodexTest_0_8_70.java:21: error: cannot find symbol
+                assertTrue(mPath.contains(mEdge[i]));
+                                          ^
+  symbol:   variable mEdge
+  location: class CodexTest_0_8_70
+CodexTest_0_8_70.java:21: error: cannot find symbol
+                assertTrue(mPath.contains(mEdge[i]));
+                           ^
+  symbol:   variable mPath
+  location: class CodexTest_0_8_70
+CodexTest_0_8_70.java:22: error: cannot find symbol
+                assertFalse(mPath2.contains(mEdge[i]));
+                                            ^
+  symbol:   variable mEdge
+  location: class CodexTest_0_8_70
+CodexTest_0_8_70.java:22: error: cannot find symbol
+                assertFalse(mPath2.contains(mEdge[i]));
+                            ^
+  symbol:   variable mPath2
+  location: class CodexTest_0_8_70

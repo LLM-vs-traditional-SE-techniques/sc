@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_3.java:21: error: cannot find symbol
+		path.setStrict(false);
+		    ^
+  symbol:   method setStrict(boolean)
+  location: variable path of type org.graphstream.graph.Path
+CodexTest_0_9_3.java:22: error: cannot find symbol
+		path.add(mockGraph.getEdge("ab"));
+		         ^
+  symbol:   variable mockGraph
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:23: error: cannot find symbol
+		path.setStartVertex("a");
+		    ^
+  symbol:   method setStartVertex(java.lang.String)
+  location: variable path of type org.graphstream.graph.Path

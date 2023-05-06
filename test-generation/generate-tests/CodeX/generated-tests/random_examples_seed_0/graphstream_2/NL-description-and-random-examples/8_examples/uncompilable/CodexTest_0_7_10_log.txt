@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_10.java:19: error: invalid method declaration; return type required
+    public Path() {
+           ^
+CodexTest_0_7_10.java:20: error: illegal start of expression
+    public void testEqualsFailsOnNull() {
+    ^
+CodexTest_0_7_10.java:20: error: illegal start of expression
+    public void testEqualsFailsOnNull() {
+           ^
+CodexTest_0_7_10.java:20: error: ';' expected
+    public void testEqualsFailsOnNull() {
+                                     ^
+CodexTest_0_7_10.java:25: error: reached end of file while parsing
+}
+ ^

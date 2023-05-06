@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_70.java:42: error: <identifier> expected
+Input: public void updateToMatch(AutoDetectParser parser) throws Exception {
+     ^
+CodexTest_0_9_70.java:45: error: <identifier> expected
+Output: public void testClone() {
+      ^
+CodexTest_0_9_70.java:59: error: <identifier> expected
+Input: public Vector1D negate() {
+     ^
+CodexTest_0_9_70.java:62: error: <identifier> expected
+Output: public static void doubleTest36() {
+      ^
+CodexTest_0_9_70.java:70: error: reached end of file while parsing
+}
+ ^

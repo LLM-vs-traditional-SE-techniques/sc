@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_4.java:71: error: <identifier> expected
+Input: public IndexRequest routing(String routing) {
+     ^
+CodexTest_0_8_4.java:75: error: <identifier> expected
+Output: public void testSetRouting() {
+      ^

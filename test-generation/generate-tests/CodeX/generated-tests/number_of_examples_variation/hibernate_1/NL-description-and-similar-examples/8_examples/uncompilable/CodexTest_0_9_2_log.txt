@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_9_2.java:15: error: invalid method declaration; return type required
+        assertEquals((short) 1,underTest.toShort(true));
+        ^
+CodexTest_0_9_2.java:15: error: illegal start of type
+        assertEquals((short) 1,underTest.toShort(true));
+                     ^
+CodexTest_0_9_2.java:15: error: ')' expected
+        assertEquals((short) 1,underTest.toShort(true));
+                      ^
+CodexTest_0_9_2.java:15: error: ';' expected
+        assertEquals((short) 1,underTest.toShort(true));
+                           ^
+CodexTest_0_9_2.java:15: error: illegal start of type
+        assertEquals((short) 1,underTest.toShort(true));
+                             ^
+CodexTest_0_9_2.java:15: error: <identifier> expected
+        assertEquals((short) 1,underTest.toShort(true));
+                              ^
+CodexTest_0_9_2.java:15: error: ';' expected
+        assertEquals((short) 1,underTest.toShort(true));
+                               ^
+CodexTest_0_9_2.java:15: error: illegal start of type
+        assertEquals((short) 1,underTest.toShort(true));
+                                        ^
+CodexTest_0_9_2.java:15: error: illegal start of type
+        assertEquals((short) 1,underTest.toShort(true));
+                                                 ^
+CodexTest_0_9_2.java:15: error: ';' expected
+        assertEquals((short) 1,underTest.toShort(true));
+                                                      ^
+CodexTest_0_9_2.java:16: error: <identifier> expected
+Input: public String[] getTarget(MoreAnnotations target) {
+     ^
+CodexTest_0_9_2.java:21: error: <identifier> expected
+Output: public void testGetTarget() {
+      ^

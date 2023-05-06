@@ -1,0 +1,107 @@
+import org.elasticsearch.action.index.*;
+import org.elasticsearch.ElasticsearchGenerationException;
+import org.elasticsearch.Version;
+import org.elasticsearch.action.ActionRequestValidationException;
+import org.elasticsearch.action.CompositeIndicesRequest;
+import org.elasticsearch.action.DocWriteRequest;
+import org.elasticsearch.action.RoutingMissingException;
+import org.elasticsearch.action.support.replication.ReplicatedWriteRequest;
+import org.elasticsearch.action.support.replication.ReplicationRequest;
+import org.elasticsearch.client.Requests;
+import org.elasticsearch.cluster.metadata.MappingMetaData;
+import org.elasticsearch.cluster.metadata.MetaData;
+import org.elasticsearch.common.Nullable;
+import org.elasticsearch.common.UUIDs;
+import org.elasticsearch.common.bytes.BytesArray;
+import org.elasticsearch.common.bytes.BytesReference;
+import org.elasticsearch.common.io.stream.StreamInput;
+import org.elasticsearch.common.io.stream.StreamOutput;
+import org.elasticsearch.common.lucene.uid.Versions;
+import org.elasticsearch.common.unit.ByteSizeValue;
+import org.elasticsearch.common.unit.TimeValue;
+import org.elasticsearch.common.xcontent.XContentBuilder;
+import org.elasticsearch.common.xcontent.XContentFactory;
+import org.elasticsearch.common.xcontent.XContentHelper;
+import org.elasticsearch.common.xcontent.XContentType;
+import org.elasticsearch.index.IndexSettings;
+import org.elasticsearch.index.VersionType;
+import org.elasticsearch.index.shard.ShardId;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Objects;
+import static org.elasticsearch.action.ValidateActions.addValidationError;
+import java.util.*;
+
+import org.elasticsearch.Version;
+import org.elasticsearch.action.ActionRequestValidationException;
+import org.elasticsearch.action.DocWriteRequest;
+import org.elasticsearch.action.support.ActiveShardCount;
+import org.elasticsearch.action.support.replication.ReplicationResponse;
+import org.elasticsearch.common.bytes.BytesArray;
+import org.elasticsearch.common.io.stream.BytesStreamOutput;
+import org.elasticsearch.common.io.stream.StreamInput;
+import org.elasticsearch.common.unit.ByteSizeValue;
+import org.elasticsearch.common.xcontent.XContentType;
+import org.elasticsearch.index.VersionType;
+import org.elasticsearch.index.seqno.SequenceNumbers;
+import org.elasticsearch.index.shard.ShardId;
+import org.elasticsearch.rest.RestStatus;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_1_6 { 
+  @Test
+    public void testParent() {
+        String parent = "parent";
+        String child = "child";
+        String grandchild = "grandchild";
+        String grandchild2 = "grandchild2";
+        String grandchild3 = "grandchild3";
+        String grandchild4 = "grandchild4";
+        String grandchild5 = "grandchild5";
+        String grandchild6 = "grandchild6";
+        String grandchild7 = "grandchild7";
+        String grandchild8 = "grandchild8";
+        String grandchild9 = "grandchild9";
+        String grandchild10 = "grandchild10";
+        String grandchild11 = "grandchild11";
+        String grandchild12 = "grandchild12";
+        String grandchild13 = "grandchild13";
+        String grandchild14 = "grandchild14";
+        String grandchild15 = "grandchild15";
+        String grandchild16 = "grandchild16";
+        String grandchild17 = "grandchild17";
+        String grandchild18 = "grandchild18";
+        String grandchild19 = "grandchild19";
+        String grandchild20 = "grandchild20";
+        String grandchild21 = "grandchild21";
+        String grandchild22 = "grandchild22";
+        String grandchild23 = "grandchild23";
+        String grandchild24 = "grandchild24";
+        String grandchild25 = "grandchild25";
+        String grandchild26 = "grandchild26";
+        String grandchild27 = "grandchild27";
+        String grandchild28 = "grandchild28";
+        String grandchild29 = "grandchild29";
+        String grandchild30 = "grandchild30";
+        String grandchild31 = "grandchild31";
+        String grandchild32 = "grandchild32";
+        String grandchild33 = "grandchild33";
+        String grandchild34 = "grandchild34";
+        String grandchild35 = "grandchild35";
+        String grandchild36 = "grandchild36";
+        String grandchild37 = "grandchild37";
+        String grandchild38 = "grandchild38";
+        String grandchild39 = "grandchild39";
+        String grandchild40 = "grandchild40
+}

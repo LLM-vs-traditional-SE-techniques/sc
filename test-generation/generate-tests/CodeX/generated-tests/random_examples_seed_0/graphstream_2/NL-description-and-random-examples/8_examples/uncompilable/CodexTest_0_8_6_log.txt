@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_6.java:22: error: cannot find symbol
+        thePath1.addNode(4);
+                ^
+  symbol:   method addNode(int)
+  location: variable thePath1 of type org.graphstream.graph.Path
+CodexTest_0_8_6.java:23: error: cannot find symbol
+        thePath1.addNode(3);
+                ^
+  symbol:   method addNode(int)
+  location: variable thePath1 of type org.graphstream.graph.Path
+CodexTest_0_8_6.java:24: error: cannot find symbol
+        thePath1.addNode(7);
+                ^
+  symbol:   method addNode(int)
+  location: variable thePath1 of type org.graphstream.graph.Path
+CodexTest_0_8_6.java:25: error: cannot find symbol
+        thePath2.addNode(4);
+                ^
+  symbol:   method addNode(int)
+  location: variable thePath2 of type org.graphstream.graph.Path
+CodexTest_0_8_6.java:26: error: cannot find symbol
+        thePath2.addNode(3);
+                ^
+  symbol:   method addNode(int)
+  location: variable thePath2 of type org.graphstream.graph.Path
+CodexTest_0_8_6.java:27: error: cannot find symbol
+        thePath2.addNode(7);
+                ^
+  symbol:   method addNode(int)
+  location: variable thePath2 of type org.graphstream.graph.Path

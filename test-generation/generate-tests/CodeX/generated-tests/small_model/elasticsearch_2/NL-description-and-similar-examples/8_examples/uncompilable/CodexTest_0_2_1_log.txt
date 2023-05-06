@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_2_1.java:67: error: reference to source is ambiguous
+            request.source(null, XContentType.JSON);
+                   ^
+  both method source(org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.xcontent.XContentType) in org.elasticsearch.action.index.IndexRequest and method source(byte[],org.elasticsearch.common.xcontent.XContentType) in org.elasticsearch.action.index.IndexRequest match
+CodexTest_0_2_1.java:70: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("source must not be null"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_2_1

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_7.java:65: error: cannot find symbol
+      SetParentRequest request = Requests.setParentRequest("child", "parent");
+      ^
+  symbol:   class SetParentRequest
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:65: error: cannot find symbol
+      SetParentRequest request = Requests.setParentRequest("child", "parent");
+                                         ^
+  symbol:   method setParentRequest(java.lang.String,java.lang.String)
+  location: class org.elasticsearch.client.Requests
+CodexTest_0_9_7.java:66: error: cannot find symbol
+      assertThat(request.parent(), equalTo("parent"));
+                                   ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_7

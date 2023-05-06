@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_8.java:23: error: cannot find symbol
+        assertThat(list, is(Arrays.asList(3, 2, 3, 5, 8)));
+                         ^
+  symbol:   method is(java.util.List<java.lang.Integer>)
+  location: class CodexTest_0_4_8

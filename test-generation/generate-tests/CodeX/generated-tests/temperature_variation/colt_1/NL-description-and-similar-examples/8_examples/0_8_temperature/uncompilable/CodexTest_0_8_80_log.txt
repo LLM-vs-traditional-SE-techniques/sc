@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_80.java:60: error: ';' expected
+			Queue<String> queue
+			                   ^
+CodexTest_0_8_80.java:61: error: reached end of file while parsing
+}
+ ^

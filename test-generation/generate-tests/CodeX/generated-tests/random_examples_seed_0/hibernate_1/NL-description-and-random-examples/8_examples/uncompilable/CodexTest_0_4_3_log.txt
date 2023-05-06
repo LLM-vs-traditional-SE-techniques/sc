@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_3.java:17: error: cannot find symbol
+		Short s = TypeConverter.toShort(b);
+		          ^
+  symbol:   variable TypeConverter
+  location: class CodexTest_0_4_3

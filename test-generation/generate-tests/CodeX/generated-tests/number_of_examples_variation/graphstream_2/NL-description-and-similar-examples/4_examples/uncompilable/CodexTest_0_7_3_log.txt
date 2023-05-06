@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_7_3.java:24: error: incompatible types: int cannot be converted to org.graphstream.graph.Node
+        path1.add(1, 2);
+                  ^
+CodexTest_0_7_3.java:25: error: incompatible types: int cannot be converted to org.graphstream.graph.Node
+        path2.add(1, 2);
+                  ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

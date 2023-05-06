@@ -1,0 +1,116 @@
+isCompilable => false
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                      ^
+  symbol:   variable a
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                        ^
+  symbol:   variable b
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                          ^
+  symbol:   variable c
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                            ^
+  symbol:   variable d
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                              ^
+  symbol:   variable e
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                                ^
+  symbol:   variable f
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                                  ^
+  symbol:   variable g
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                                    ^
+  symbol:   variable h
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                                      ^
+  symbol:   variable i
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                                        ^
+  symbol:   variable j
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                                          ^
+  symbol:   variable k
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                                            ^
+  symbol:   variable l
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:25: error: cannot find symbol
+    byte[] payload = {a,b,c,d,e,f,g,h,i,j,k,l,m};
+                                              ^
+  symbol:   variable m
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:26: error: cannot find symbol
+    byte[] expected = {a,b,c,d,e,f,g,h};
+                       ^
+  symbol:   variable a
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:26: error: cannot find symbol
+    byte[] expected = {a,b,c,d,e,f,g,h};
+                         ^
+  symbol:   variable b
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:26: error: cannot find symbol
+    byte[] expected = {a,b,c,d,e,f,g,h};
+                           ^
+  symbol:   variable c
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:26: error: cannot find symbol
+    byte[] expected = {a,b,c,d,e,f,g,h};
+                             ^
+  symbol:   variable d
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:26: error: cannot find symbol
+    byte[] expected = {a,b,c,d,e,f,g,h};
+                               ^
+  symbol:   variable e
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:26: error: cannot find symbol
+    byte[] expected = {a,b,c,d,e,f,g,h};
+                                 ^
+  symbol:   variable f
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:26: error: cannot find symbol
+    byte[] expected = {a,b,c,d,e,f,g,h};
+                                   ^
+  symbol:   variable g
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:26: error: cannot find symbol
+    byte[] expected = {a,b,c,d,e,f,g,h};
+                                     ^
+  symbol:   variable h
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:28: error: cannot find symbol
+    BitArray b = BitArray.createFromArray(payload, 0, 8);
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_58
+CodexTest_0_8_58.java:28: error: cannot find symbol
+    BitArray b = BitArray.createFromArray(payload, 0, 8);
+                 ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_8_58

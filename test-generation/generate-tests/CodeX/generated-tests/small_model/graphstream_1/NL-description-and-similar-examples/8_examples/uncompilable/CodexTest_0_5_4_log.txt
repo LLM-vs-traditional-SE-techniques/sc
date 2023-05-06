@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_5_4.java:56: error: <identifier> expected
+			Edge edge37 = new
+			                 ^
+CodexTest_0_5_4.java:57: error: '(' or '[' expected
+}
+^
+CodexTest_0_5_4.java:57: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_11.java:32: error: cannot find symbol
+        DenseDoubleMatrix1D m = new DenseDoubleMatrix1D(SIZE);
+                                                        ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:34: error: cannot find symbol
+        assertEquals(0, m.get(0), TOL);
+                                  ^
+  symbol:   variable TOL
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:35: error: cannot find symbol
+        assertEquals(1, m.get(1), TOL);
+                                  ^
+  symbol:   variable TOL
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:36: error: cannot find symbol
+        assertEquals(2, m.get(2), TOL);
+                                  ^
+  symbol:   variable TOL
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:37: error: cannot find symbol
+        assertEquals(3, m.get(3), TOL);
+                                  ^
+  symbol:   variable TOL
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:38: error: cannot find symbol
+        assertEquals(4, m.get(4), TOL);
+                                  ^
+  symbol:   variable TOL
+  location: class CodexTest_0_8_11

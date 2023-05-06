@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_3_9.java:21: error: cannot find symbol
+        assertTrue(list.contains(one));
+                                 ^
+  symbol:   variable one
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:21: error: cannot find symbol
+        assertTrue(list.contains(one));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:22: error: cannot find symbol
+        assertTrue(list.contains(two));
+                                 ^
+  symbol:   variable two
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:22: error: cannot find symbol
+        assertTrue(list.contains(two));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:23: error: cannot find symbol
+        assertTrue(list.contains(three));
+                                 ^
+  symbol:   variable three
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:23: error: cannot find symbol
+        assertTrue(list.contains(three));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:24: error: cannot find symbol
+        assertTrue(list.contains(four));
+                                 ^
+  symbol:   variable four
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:24: error: cannot find symbol
+        assertTrue(list.contains(four));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:25: error: cannot find symbol
+        assertTrue(list.contains(five));
+                                 ^
+  symbol:   variable five
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:25: error: cannot find symbol
+        assertTrue(list.contains(five));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:26: error: cannot find symbol
+        assertFalse(list.contains(six));
+                                  ^
+  symbol:   variable six
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:26: error: cannot find symbol
+        assertFalse(list.contains(six));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_3_9

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_6.java:67: error: cannot find symbol
+        String result = new TreeNode().parent();
+                            ^
+  symbol:   class TreeNode
+  location: class CodexTest_0_7_6

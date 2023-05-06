@@ -1,0 +1,30 @@
+import com.google.common.hash.*;
+import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.common.base.Preconditions.checkState;
+import com.google.common.annotations.Beta;
+import com.google.common.base.Preconditions;
+import com.google.common.primitives.Ints;
+import com.google.common.primitives.UnsignedInts;
+import java.io.Serializable;
+
+import static com.google.common.io.BaseEncoding.base16;
+import com.google.common.base.Charsets;
+import com.google.common.collect.ImmutableList;
+import com.google.common.io.BaseEncoding;
+import java.util.Arrays;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_3_95 { 
+  @Test
+  public void testWriteBytesTo() {
+    byte[] dest = new byte[4];
+    int numBytes = new BloomFilter(Funnels.byteArrayFunnel(), 4, 0.03).writeBytesTo(dest, 0, 4);
+    assertEquals(4, numBytes);
+    assertEquals(new BloomFilter(Funnels.byteArrayFunnel(), 4, 0.03), BloomFilter.readFrom(dest, 0, numBytes, Funnels.byteArrayFunnel()));
+  }
+}

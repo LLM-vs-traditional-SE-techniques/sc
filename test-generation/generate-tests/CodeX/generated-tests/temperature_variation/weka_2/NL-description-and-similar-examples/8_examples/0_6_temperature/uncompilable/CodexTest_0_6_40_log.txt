@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_40.java:35: error: ')' expected
+		assertEquals("Wrong attribute value", 3
+		                                       ^
+CodexTest_0_6_40.java:36: error: reached end of file while parsing
+}
+ ^

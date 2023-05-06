@@ -1,0 +1,111 @@
+isCompilable => false
+CodexTest_0_4_23.java:21: error: cannot find symbol
+        path.setRoot(graph.getNode(1));
+                     ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:22: error: cannot find symbol
+        path.add(graph.getEdge(1, 2));
+                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:23: error: cannot find symbol
+        path.add(graph.getEdge(2, 3));
+                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:24: error: cannot find symbol
+        path.add(graph.getEdge(3, 4));
+                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:25: error: cannot find symbol
+        path.add(graph.getEdge(4, 5));
+                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:26: error: cannot find symbol
+        path.add(graph.getEdge(5, 6));
+                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:27: error: cannot find symbol
+        path.add(graph.getEdge(6, 7));
+                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:28: error: cannot find symbol
+        path.add(graph.getEdge(7, 8));
+                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:29: error: cannot find symbol
+        path.add(graph.getEdge(8, 9));
+                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:30: error: cannot find symbol
+        path.add(graph.getEdge(9, 10));
+                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:31: error: cannot find symbol
+        path.add(graph.getEdge(10, 11));
+                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:33: error: cannot find symbol
+        path2.setRoot(graph.getNode(1));
+                      ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:34: error: cannot find symbol
+        path2.add(graph.getEdge(1, 2));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:35: error: cannot find symbol
+        path2.add(graph.getEdge(2, 3));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:36: error: cannot find symbol
+        path2.add(graph.getEdge(3, 4));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:37: error: cannot find symbol
+        path2.add(graph.getEdge(4, 5));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:38: error: cannot find symbol
+        path2.add(graph.getEdge(5, 6));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:39: error: cannot find symbol
+        path2.add(graph.getEdge(6, 7));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:40: error: cannot find symbol
+        path2.add(graph.getEdge(7, 8));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:41: error: cannot find symbol
+        path2.add(graph.getEdge(8, 9));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:42: error: cannot find symbol
+        path2.add(graph.getEdge(9, 10));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:43: error: cannot find symbol
+        path2.add(graph.getEdge(10, 11));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_4_23

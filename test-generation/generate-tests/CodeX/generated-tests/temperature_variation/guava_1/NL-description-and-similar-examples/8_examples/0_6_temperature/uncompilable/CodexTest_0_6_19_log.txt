@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_6_19.java:25: error: <identifier> expected
+Input: public static HashCode fromInt(int hash) {
+     ^
+CodexTest_0_6_19.java:28: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_19.java:30: error: <identifier> expected
+Input: public static HashCode fromBytes(byte[] bytes) {
+     ^
+CodexTest_0_6_19.java:34: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_19.java:36: error: <identifier> expected
+Input: public static HashCode fromBytesNoCopy(byte[] bytes) {
+     ^
+CodexTest_0_6_19.java:39: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_19.java:41: error: <identifier> expected
+Input: public static HashCode fromString(CharSequence chars) {
+     ^
+CodexTest_0_6_19.java:48: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_19.java:50: error: <identifier> expected
+Input: public static HashCode fromString(CharSequence chars, Charset charset) {
+     ^
+CodexTest_0_6_19.java:53: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_19.java:55: error: <identifier> expected
+Input: public HashFunction hmacSha256(Key key) {
+     ^
+CodexTest_0_6_19.java:58: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_19.java:60: error: <identifier> expected
+Input: public HashFunction hmacSha512(Key key) {
+     ^
+CodexTest_0_6_19.java:63: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_19.java:65: error: <identifier> expected
+Input: public HashFunction hmacMd5(Key key) {
+     ^
+CodexTest_0_6_19.java:68: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_19.java:70: error: <identifier> expected
+Input: public HashFunction sha1() {
+     ^
+CodexTest_0_6_19.java:73: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_19.java:75: error: <identifier> expected
+Input: public HashFunction sha256() {
+     ^
+CodexTest_0_6_19.java:78: error: <identifier> expected
+Output:
+      ^

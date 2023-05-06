@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_3_18.java:70: error: cannot find symbol
+        assertThat(indexRequest.source(), equalTo(jsonMap));
+                                          ^
+  symbol:   method equalTo(java.util.Map<java.lang.String,java.lang.Object>)
+  location: class CodexTest_0_3_18
+CodexTest_0_3_18.java:71: error: cannot find symbol
+        assertThat(indexRequest.sourceAsMap(), equalTo(jsonMap));
+                                               ^
+  symbol:   method equalTo(java.util.Map<java.lang.String,java.lang.Object>)
+  location: class CodexTest_0_3_18
+CodexTest_0_3_18.java:72: error: cannot find symbol
+        assertThat(indexRequest.sourceAsString(), equalTo("{\"field1\":\"value1\",\"field2\":\"value2\"}"));
+                               ^
+  symbol:   method sourceAsString()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_3_18.java:72: error: cannot find symbol
+        assertThat(indexRequest.sourceAsString(), equalTo("{\"field1\":\"value1\",\"field2\":\"value2\"}"));
+                                                  ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_3_18
+CodexTest_0_3_18.java:73: error: cannot find symbol
+        assertThat(indexRequest.source(), equalTo(jsonMap));
+                                          ^
+  symbol:   method equalTo(java.util.Map<java.lang.String,java.lang.Object>)
+  location: class CodexTest_0_3_18
+CodexTest_0_3_18.java:74: error: cannot find symbol
+        assertThat(indexRequest.sourceAsMap(), equalTo(jsonMap));
+                                               ^
+  symbol:   method equalTo(java.util.Map<java.lang.String,java.lang.Object>)
+  location: class CodexTest_0_3_18
+CodexTest_0_3_18.java:75: error: cannot find symbol
+        assertThat(indexRequest.sourceAsBytes(), equalTo(new BytesArray("{\"field1\":\"value1\",\"field2\":\"value2\"}".getBytes("UTF-8"))));
+                               ^
+  symbol:   method sourceAsBytes()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_3_18.java:75: error: cannot find symbol
+        assertThat(indexRequest.sourceAsBytes(), equalTo(new BytesArray("{\"field1\":\"value1\",\"field2\":\"value2\"}".getBytes("UTF-8"))));
+                                                 ^
+  symbol:   method equalTo(org.elasticsearch.common.bytes.BytesArray)
+  location: class CodexTest_0_3_18

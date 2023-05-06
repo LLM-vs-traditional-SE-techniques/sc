@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_5.java:69: error: cannot find symbol
+        Parameter p = new Parameter(parent, name, value, description);
+        ^
+  symbol:   class Parameter
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:69: error: cannot find symbol
+        Parameter p = new Parameter(parent, name, value, description);
+                          ^
+  symbol:   class Parameter
+  location: class CodexTest_0_3_5

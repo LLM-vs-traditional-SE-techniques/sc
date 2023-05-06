@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_56.java:47: error: illegal escape character
+					+ "64,65,66\
+					            ^
+CodexTest_0_3_56.java:47: error: unclosed string literal
+					+ "64,65,66\
+					  ^
+CodexTest_0_3_56.java:48: error: reached end of file while parsing
+}
+ ^

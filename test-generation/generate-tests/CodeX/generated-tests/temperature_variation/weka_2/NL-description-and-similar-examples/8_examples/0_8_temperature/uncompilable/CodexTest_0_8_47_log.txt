@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_8_47.java:20: error: cannot find symbol
+        Instances.DATAMODEL_CLASS, dataModel.getClassSuitableFor(instances));
+                 ^
+  symbol:   variable DATAMODEL_CLASS
+  location: class weka.core.Instances
+CodexTest_0_8_47.java:20: error: cannot find symbol
+        Instances.DATAMODEL_CLASS, dataModel.getClassSuitableFor(instances));
+                                                                 ^
+  symbol:   variable instances
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:20: error: cannot find symbol
+        Instances.DATAMODEL_CLASS, dataModel.getClassSuitableFor(instances));
+                                   ^
+  symbol:   variable dataModel
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:24: error: cannot find symbol
+    Instances matchInstances = new Instances(instances); 
+                                             ^
+  symbol:   variable instances
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:27: error: cannot find symbol
+    dataModel = new DataModelDummy(matchInstances, 
+    ^
+  symbol:   variable dataModel
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:27: error: cannot find symbol
+    dataModel = new DataModelDummy(matchInstances, 
+                    ^
+  symbol:   class DataModelDummy
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:30: error: cannot find symbol
+        matchInstances.classIndex(), dataModel.getClassSuitableFor(instances));
+                                                                   ^
+  symbol:   variable instances
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:30: error: cannot find symbol
+        matchInstances.classIndex(), dataModel.getClassSuitableFor(instances));
+                                     ^
+  symbol:   variable dataModel
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:33: error: cannot find symbol
+      dataModel.getAsInstance(instances, new Random());
+                              ^
+  symbol:   variable instances
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:33: error: cannot find symbol
+      dataModel.getAsInstance(instances, new Random());
+      ^
+  symbol:   variable dataModel
+  location: class CodexTest_0_8_47

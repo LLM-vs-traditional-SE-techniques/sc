@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_7.java:31: error: cannot find symbol
+    if (paramsSet[index])
+        ^
+  symbol:   variable paramsSet
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:33: error: cannot find symbol
+      paramsSet[index] = false;
+      ^
+  symbol:   variable paramsSet
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:34: error: cannot find symbol
+      fitCount--;
+      ^
+  symbol:   variable fitCount
+  location: class CodexTest_0_9_7

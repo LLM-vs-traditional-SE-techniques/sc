@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_71.java:23: error: cannot find symbol
+      assertVectorAndDataMatch(result,
+      ^
+  symbol:   method assertVectorAndDataMatch(weka.core.AlgVector,double[])
+  location: class CodexTest_0_9_71

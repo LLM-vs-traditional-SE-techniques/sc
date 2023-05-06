@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_9_78.java:66: error: cannot find symbol
+        assertThat(request.source().utf8ToString(), equalTo("{}"));
+                                                    ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:67: error: cannot find symbol
+        assertThat(request.opType(), equalTo("create"));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:71: error: cannot find symbol
+        assertThat(request.source().utf8ToString(), equalTo("{}"));
+                                                    ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:72: error: cannot find symbol
+        assertThat(request.opType(), equalTo("create"));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:74: error: cannot find symbol
+        assertThat(request.source().utf8ToString(), equalTo("{}"));
+                                                    ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:75: error: cannot find symbol
+        assertThat(request.opType(), equalTo("create"));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:78: error: cannot find symbol
+        assertThat(request.source().utf8ToString(), equalTo("{}"));
+                                                    ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:79: error: cannot find symbol
+        assertThat(request.opType(), equalTo("create"));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:83: error: cannot find symbol
+        assertThat(request.source().utf8ToString(), equalTo("{}"));
+                                                    ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:84: error: cannot find symbol
+        assertThat(request.opType(), equalTo("create"));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_78

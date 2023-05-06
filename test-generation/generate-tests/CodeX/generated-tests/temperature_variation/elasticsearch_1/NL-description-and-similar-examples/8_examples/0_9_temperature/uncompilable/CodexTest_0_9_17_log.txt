@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_17.java:65: error: cannot find symbol
+        assertNotNull(new ParentClassStub().parent());
+                          ^
+  symbol:   class ParentClassStub
+  location: class CodexTest_0_9_17

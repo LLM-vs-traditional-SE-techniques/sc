@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_2.java:21: error: cannot find symbol
+    assertTrue("Should contain element 1", m_Data.contains("1"));
+                                           ^
+  symbol:   variable m_Data
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:22: error: cannot find symbol
+    assertFalse("Should not contain element 7", m_Data.contains("7"));
+                                                ^
+  symbol:   variable m_Data
+  location: class CodexTest_0_8_2

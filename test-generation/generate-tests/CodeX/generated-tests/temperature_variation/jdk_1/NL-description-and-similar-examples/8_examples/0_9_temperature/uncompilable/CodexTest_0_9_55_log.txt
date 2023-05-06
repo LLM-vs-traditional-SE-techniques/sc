@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_55.java:27: error: cannot find symbol
+			AssertJUnit.assertEquals("[2, 3, 4]", Arrays.toString(list
+			^
+  symbol:   variable AssertJUnit
+  location: class CodexTest_0_9_55

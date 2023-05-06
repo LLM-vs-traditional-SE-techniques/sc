@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_25.java:21: error: cannot find symbol
+        StringCollection collection = new StringCollection();
+        ^
+  symbol:   class StringCollection
+  location: class CodexTest_0_9_25
+CodexTest_0_9_25.java:21: error: cannot find symbol
+        StringCollection collection = new StringCollection();
+                                          ^
+  symbol:   class StringCollection
+  location: class CodexTest_0_9_25

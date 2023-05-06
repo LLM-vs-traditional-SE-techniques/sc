@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_2.java:22: error: cannot find symbol
+              assertThat(e.getMessage(), equalTo("Not a boolean: foobar"));
+                                         ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_2

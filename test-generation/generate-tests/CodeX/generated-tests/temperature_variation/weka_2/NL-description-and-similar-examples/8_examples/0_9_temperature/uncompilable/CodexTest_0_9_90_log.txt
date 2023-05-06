@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_9_90.java:22: error: invalid method declaration; return type required
+    assertArrayEquals("Not an instance.", expectedResult, result.toDoubleArray(), 0.001D);
+    ^
+CodexTest_0_9_90.java:22: error: illegal start of type
+    assertArrayEquals("Not an instance.", expectedResult, result.toDoubleArray(), 0.001D);
+                      ^
+CodexTest_0_9_90.java:22: error: <identifier> expected
+    assertArrayEquals("Not an instance.", expectedResult, result.toDoubleArray(), 0.001D);
+                                                        ^
+CodexTest_0_9_90.java:22: error: <identifier> expected
+    assertArrayEquals("Not an instance.", expectedResult, result.toDoubleArray(), 0.001D);
+                                                                              ^
+CodexTest_0_9_90.java:22: error: ';' expected
+    assertArrayEquals("Not an instance.", expectedResult, result.toDoubleArray(), 0.001D);
+                                                                               ^
+CodexTest_0_9_90.java:22: error: illegal start of type
+    assertArrayEquals("Not an instance.", expectedResult, result.toDoubleArray(), 0.001D);
+                                                                                ^
+CodexTest_0_9_90.java:22: error: <identifier> expected
+    assertArrayEquals("Not an instance.", expectedResult, result.toDoubleArray(), 0.001D);
+                                                                                 ^
+CodexTest_0_9_90.java:22: error: ';' expected
+    assertArrayEquals("Not an instance.", expectedResult, result.toDoubleArray(), 0.001D);
+                                                                                        ^

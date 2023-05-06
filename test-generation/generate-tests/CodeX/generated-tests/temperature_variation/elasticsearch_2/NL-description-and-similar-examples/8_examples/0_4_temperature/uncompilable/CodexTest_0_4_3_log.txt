@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_4_3.java:65: error: <identifier> expected
+Input: public IndexRequest source(Map source, XContentType contentType) throws ElasticsearchGenerationException {
+     ^
+CodexTest_0_4_3.java:74: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_4_3.java:76: error: <identifier> expected
+Input: public IndexRequest source(Map source, XContentType contentType) throws ElasticsearchGenerationException {
+     ^
+CodexTest_0_4_3.java:85: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_4_3.java:87: error: <identifier> expected
+Input: public IndexRequest source(Map source, XContentType contentType) throws ElasticsearchGenerationException {
+     ^
+CodexTest_0_4_3.java:96: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_4_3.java:98: error: <identifier> expected
+Input: public IndexRequest source(Map source, XContentType contentType) throws ElasticsearchGenerationException {
+     ^
+CodexTest_0_4_3.java:107: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_4_3.java:109: error: <identifier> expected
+Input: public IndexRequest source(Map source, XContentType contentType) throws ElasticsearchGenerationException {
+     ^
+CodexTest_0_4_3.java:115: error: unclosed string literal
+            throw new ElasticsearchGenerationException("Failed to
+                                                       ^
+CodexTest_0_4_3.java:115: error: ';' expected
+            throw new ElasticsearchGenerationException("Failed to
+                                                                 ^
+CodexTest_0_4_3.java:116: error: reached end of file while parsing
+}
+ ^

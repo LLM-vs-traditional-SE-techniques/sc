@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_28.java:31: error: cannot find symbol
+		DoubleMatrix1D Acopy = A.copy();
+		                       ^
+  symbol:   variable A
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:32: error: cannot find symbol
+		A.assign(alpha);
+		^
+  symbol:   variable A
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:33: error: cannot find symbol
+		for (int r=0; r<A.size(); r++) {
+		                ^
+  symbol:   variable A
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:34: error: cannot find symbol
+			assertEquals(alpha, A.getQuick(r), TOL);
+			                    ^
+  symbol:   variable A
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:34: error: cannot find symbol
+			assertEquals(alpha, A.getQuick(r), TOL);
+			                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:36: error: cannot find symbol
+		A = Acopy.copy();
+		^
+  symbol:   variable A
+  location: class CodexTest_0_9_28

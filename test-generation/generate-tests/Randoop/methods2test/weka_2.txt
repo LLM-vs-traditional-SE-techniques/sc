@@ -1,0 +1,6 @@
+weka.core.AlgVector(int)
+weka.core.AlgVector.numElements()
+java.io.Reader()
+java.util.Random()
+weka.core.Instances(java.io.Reader)
+weka.core.AlgVector.getAsInstance(weka.core.Instances, java.util.Random)

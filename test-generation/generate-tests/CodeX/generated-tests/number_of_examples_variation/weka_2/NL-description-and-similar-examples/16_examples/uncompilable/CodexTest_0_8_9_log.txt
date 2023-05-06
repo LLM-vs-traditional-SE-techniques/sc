@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_9.java:23: error: unreported exception java.lang.Exception; must be caught or declared to be thrown
+    vector.getAsInstance(null, null);
+                        ^

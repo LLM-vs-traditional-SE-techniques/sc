@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_49.java:65: error: cannot find symbol
+        assertEquals("foobar", new Index("foobar", "baz").parent());
+                                   ^
+  symbol:   class Index
+  location: class CodexTest_0_7_49

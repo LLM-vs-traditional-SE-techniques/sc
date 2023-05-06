@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_54.java:65: error: cannot find symbol
+                Field f=null;
+                ^
+  symbol:   class Field
+  location: class CodexTest_0_9_54
+CodexTest_0_9_54.java:67: error: cannot find symbol
+                        f = jsonObject.getClass().getDeclaredField("parent");
+                            ^
+  symbol:   variable jsonObject
+  location: class CodexTest_0_9_54
+CodexTest_0_9_54.java:77: error: cannot find symbol
+                        f.set(jsonObject, "newName");
+                              ^
+  symbol:   variable jsonObject
+  location: class CodexTest_0_9_54

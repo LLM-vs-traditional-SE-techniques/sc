@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_60.java:41: error: <identifier> expected
+Input: public DoubleMatrix2D like2D(int rows, int columns) {
+     ^
+CodexTest_0_9_60.java:44: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_60.java:57: error: <identifier> expected
+Input: public static int count(InputStream is) throws IOException {
+     ^
+CodexTest_0_9_60.java:60: error: <identifier> expected
+Output: public void testCountingIsIfRequested() throws IOException {
+      ^

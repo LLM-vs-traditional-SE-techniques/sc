@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_37.java:66: error: cannot find symbol
+        String actualParent = parent();
+                              ^
+  symbol:   method parent()
+  location: class CodexTest_0_9_37

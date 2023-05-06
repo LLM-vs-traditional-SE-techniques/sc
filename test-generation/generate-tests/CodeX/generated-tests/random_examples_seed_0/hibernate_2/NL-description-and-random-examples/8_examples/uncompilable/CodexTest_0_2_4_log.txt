@@ -1,0 +1,81 @@
+isCompilable => false
+CodexTest_0_2_4.java:16: error: cannot find symbol
+        assertEquals(Boolean.TRUE, Boolean.fromString("true"));
+                                          ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:17: error: cannot find symbol
+        assertEquals(Boolean.FALSE, Boolean.fromString("false"));
+                                           ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:18: error: cannot find symbol
+        assertEquals(Boolean.TRUE, Boolean.fromString("TRUE"));
+                                          ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:19: error: cannot find symbol
+        assertEquals(Boolean.FALSE, Boolean.fromString("FALSE"));
+                                           ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:20: error: cannot find symbol
+        assertEquals(Boolean.TRUE, Boolean.fromString("TrUe"));
+                                          ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:21: error: cannot find symbol
+        assertEquals(Boolean.FALSE, Boolean.fromString("FaLsE"));
+                                           ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:22: error: cannot find symbol
+        assertEquals(Boolean.TRUE, Boolean.fromString("t"));
+                                          ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:23: error: cannot find symbol
+        assertEquals(Boolean.FALSE, Boolean.fromString("f"));
+                                           ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:24: error: cannot find symbol
+        assertEquals(Boolean.TRUE, Boolean.fromString("T"));
+                                          ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:25: error: cannot find symbol
+        assertEquals(Boolean.FALSE, Boolean.fromString("F"));
+                                           ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:26: error: cannot find symbol
+        assertEquals(Boolean.TRUE, Boolean.fromString("y"));
+                                          ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:27: error: cannot find symbol
+        assertEquals(Boolean.FALSE, Boolean.fromString("n"));
+                                           ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:28: error: cannot find symbol
+        assertEquals(Boolean.TRUE, Boolean.fromString("Y"));
+                                          ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:29: error: cannot find symbol
+        assertEquals(Boolean.FALSE, Boolean.fromString("N"));
+                                           ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:30: error: cannot find symbol
+        assertEquals(Boolean.TRUE, Boolean.fromString("1"));
+                                          ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean
+CodexTest_0_2_4.java:31: error: cannot find symbol
+        assertEquals(Boolean.FALSE, Boolean.fromString("0"));
+                                           ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean

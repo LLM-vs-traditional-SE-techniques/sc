@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_19.java:46: error: ')' expected
+      if (data.attribute(i
+                          ^
+CodexTest_0_6_19.java:47: error: illegal start of statement
+}
+ ^

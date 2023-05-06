@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_5.java:58: error: unclosed string literal
+        assertFalse(list.contains("l
+                                  ^
+CodexTest_0_3_5.java:58: error: ')' expected
+        assertFalse(list.contains("l
+                                    ^
+CodexTest_0_3_5.java:59: error: reached end of file while parsing
+}
+ ^

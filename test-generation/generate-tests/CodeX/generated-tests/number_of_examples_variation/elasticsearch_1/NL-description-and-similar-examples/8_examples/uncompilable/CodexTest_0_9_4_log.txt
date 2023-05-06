@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_4.java:65: error: cannot find symbol
+        URI result = instance.getParentURI();
+        ^
+  symbol:   class URI
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:65: error: cannot find symbol
+        URI result = instance.getParentURI();
+                     ^
+  symbol:   variable instance
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:66: error: cannot find symbol
+        assertEquals(expectedResult, result);
+                     ^
+  symbol:   variable expectedResult
+  location: class CodexTest_0_9_4

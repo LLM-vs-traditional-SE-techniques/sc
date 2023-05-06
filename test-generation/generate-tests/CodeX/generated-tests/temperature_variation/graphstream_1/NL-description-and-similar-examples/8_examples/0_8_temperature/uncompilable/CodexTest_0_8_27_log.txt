@@ -1,0 +1,15 @@
+isCompilable => false
+CodexTest_0_8_27.java:20: error: type org.graphstream.graph.Path does not take parameters
+		Path<String, Edge> path = new Path<>();
+		    ^
+CodexTest_0_8_27.java:20: error: cannot infer type arguments for org.graphstream.graph.Path
+		Path<String, Edge> path = new Path<>();
+		                                  ^
+  reason: cannot use '<>' with non-generic class org.graphstream.graph.Path
+CodexTest_0_8_27.java:21: error: type org.graphstream.graph.Graph does not take parameters
+		Graph<String, Edge> graph = new DefaultGraph<>("TEST", true, false);
+		     ^
+CodexTest_0_8_27.java:21: error: cannot infer type arguments for org.graphstream.graph.implementations.DefaultGraph
+		Graph<String, Edge> graph = new DefaultGraph<>("TEST", true, false);
+		                                            ^
+  reason: cannot use '<>' with non-generic class org.graphstream.graph.implementations.DefaultGraph

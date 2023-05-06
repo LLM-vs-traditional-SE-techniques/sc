@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_5_22.java:22: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        p1.add(new Edge(new Node(1), new Node(2)));
+                        ^
+CodexTest_0_5_22.java:22: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        p1.add(new Edge(new Node(1), new Node(2)));
+                                     ^
+CodexTest_0_5_22.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        p1.add(new Edge(new Node(1), new Node(2)));
+               ^
+CodexTest_0_5_22.java:23: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        p2.add(new Edge(new Node(1), new Node(2)));
+                        ^
+CodexTest_0_5_22.java:23: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        p2.add(new Edge(new Node(1), new Node(2)));
+                                     ^
+CodexTest_0_5_22.java:23: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        p2.add(new Edge(new Node(1), new Node(2)));
+               ^
+CodexTest_0_5_22.java:26: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        p1.add(new Edge(new Node(2), new Node(3)));
+                        ^
+CodexTest_0_5_22.java:26: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        p1.add(new Edge(new Node(2), new Node(3)));
+                                     ^
+CodexTest_0_5_22.java:26: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        p1.add(new Edge(new Node(2), new Node(3)));
+               ^
+CodexTest_0_5_22.java:29: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        p2.add(new Edge(new Node(2), new Node(3)));
+                        ^
+CodexTest_0_5_22.java:29: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        p2.add(new Edge(new Node(2), new Node(3)));
+                                     ^
+CodexTest_0_5_22.java:29: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        p2.add(new Edge(new Node(2), new Node(3)));
+               ^

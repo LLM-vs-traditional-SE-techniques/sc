@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_6.java:30: error: cannot find symbol
+      int expectedOutputSize = SimpleRandom.getRandomGeometric(0.5);
+                               ^
+  symbol:   variable SimpleRandom
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:31: error: cannot find symbol
+      SimpleRandom random = new SimpleRandom(bytes);
+      ^
+  symbol:   class SimpleRandom
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:31: error: cannot find symbol
+      SimpleRandom random = new SimpleRandom(bytes);
+                                ^
+  symbol:   class SimpleRandom
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:33: error: cannot find symbol
+      assertThat(actualOutputSize, greaterThanOrEqualTo(expectedOutputSize));
+                                   ^
+  symbol:   method greaterThanOrEqualTo(int)
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:34: error: cannot find symbol
+      assertThat(actualOutputSize, lessThanOrEqualTo(bytes.length));
+                                   ^
+  symbol:   method lessThanOrEqualTo(int)
+  location: class CodexTest_0_9_6

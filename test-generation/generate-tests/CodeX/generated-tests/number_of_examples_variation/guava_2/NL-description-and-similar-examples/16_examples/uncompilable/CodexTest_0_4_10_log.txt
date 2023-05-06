@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_4_10.java:26: error: cannot find symbol
+    BitArray bits = new BitArray(new byte[] {0x12, 0x34, 0x56, 0x78, (byte) 0x9A, (byte) 0xBC, (byte) 0xDE, (byte) 0xF0});
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:26: error: cannot find symbol
+    BitArray bits = new BitArray(new byte[] {0x12, 0x34, 0x56, 0x78, (byte) 0x9A, (byte) 0xBC, (byte) 0xDE, (byte) 0xF0});
+                        ^
+  symbol:   class BitArray
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:28: error: cannot find symbol
+    assertThat(dest[0], equalTo((byte) 0x00));
+                        ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:29: error: cannot find symbol
+    assertThat(dest[1], equalTo((byte) 0x00));
+                        ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:30: error: cannot find symbol
+    assertThat(dest[2], equalTo((byte) 0x12));
+                        ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:31: error: cannot find symbol
+    assertThat(dest[3], equalTo((byte) 0x34));
+                        ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:32: error: cannot find symbol
+    assertThat(dest[4], equalTo((byte) 0x56));
+                        ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:33: error: cannot find symbol
+    assertThat(dest[5], equalTo((byte) 0x78));
+                        ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:34: error: cannot find symbol
+    assertThat(dest[6], equalTo((byte) 0x00));
+                        ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:35: error: cannot find symbol
+    assertThat(dest[7], equalTo((byte) 0x00));
+                        ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:36: error: cannot find symbol
+    assertThat(dest[8], equalTo((byte) 0x00));
+                        ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:37: error: cannot find symbol
+    assertThat(dest[9], equalTo((byte) 0x00));
+                        ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_4_10

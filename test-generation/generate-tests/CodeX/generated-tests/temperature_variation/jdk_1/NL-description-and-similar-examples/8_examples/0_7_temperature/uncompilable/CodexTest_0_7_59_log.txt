@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_59.java:21: error: cannot find symbol
+        Assertions.assertThrows(IndexOutOfBoundsException.class, ()->{
+        ^
+  symbol:   variable Assertions
+  location: class CodexTest_0_7_59

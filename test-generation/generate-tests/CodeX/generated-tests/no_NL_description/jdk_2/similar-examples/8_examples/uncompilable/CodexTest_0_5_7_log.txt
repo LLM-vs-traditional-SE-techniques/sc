@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_5_7.java:21: error: cannot find symbol
+        assertTrue("contains", l.contains("A"));
+                               ^
+  symbol:   variable l
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:22: error: cannot find symbol
+        assertTrue("contains", l.contains("E"));
+                               ^
+  symbol:   variable l
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:23: error: cannot find symbol
+        assertTrue("contains", l.contains("I"));
+                               ^
+  symbol:   variable l
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:24: error: cannot find symbol
+        assertTrue("contains", l.contains("O"));
+                               ^
+  symbol:   variable l
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:25: error: cannot find symbol
+        assertTrue("contains", l.contains("U"));
+                               ^
+  symbol:   variable l
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:26: error: cannot find symbol
+        assertFalse("contains", l.contains("K"));
+                                ^
+  symbol:   variable l
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:27: error: cannot find symbol
+        assertFalse("contains", l.contains("Z"));
+                                ^
+  symbol:   variable l
+  location: class CodexTest_0_5_7

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_4.java:16: error: cannot find symbol
+    AbstractApplicationContext context = new ClassPathXmlApplicationContext(
+    ^
+  symbol:   class AbstractApplicationContext
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:16: error: cannot find symbol
+    AbstractApplicationContext context = new ClassPathXmlApplicationContext(
+                                             ^
+  symbol:   class ClassPathXmlApplicationContext
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:23: error: cannot find symbol
+    context = new ClassPathXmlApplicationContext(
+                  ^
+  symbol:   class ClassPathXmlApplicationContext
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:28: error: cannot find symbol
+    context = new ClassPathXmlApplicationContext(
+                  ^
+  symbol:   class ClassPathXmlApplicationContext
+  location: class CodexTest_0_8_4

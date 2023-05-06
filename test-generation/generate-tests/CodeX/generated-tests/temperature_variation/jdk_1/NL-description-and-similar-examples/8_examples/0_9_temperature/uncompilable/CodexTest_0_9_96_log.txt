@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_96.java:21: error: cannot find symbol
+        list.clear();
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:22: error: cannot find symbol
+        list.add("foo");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:23: error: cannot find symbol
+        list.add("bar");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:24: error: cannot find symbol
+        list.add("baz");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:25: error: cannot find symbol
+        list.add("qux");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:26: error: cannot find symbol
+        list.remove(0);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:27: error: cannot find symbol
+        assertThat(list, contains("bar", "baz", "qux"));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:27: error: cannot find symbol
+        assertThat(list, contains("bar", "baz", "qux"));
+                         ^
+  symbol:   method contains(java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_9_96

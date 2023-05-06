@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_67.java:69: error: cannot find symbol
+        assertEquals("{\"foo\":\"bar\"}", new String(indexRequest.source().array(), "UTF-8"));
+                                                                          ^
+  symbol:   method array()
+  location: class org.elasticsearch.common.bytes.BytesReference

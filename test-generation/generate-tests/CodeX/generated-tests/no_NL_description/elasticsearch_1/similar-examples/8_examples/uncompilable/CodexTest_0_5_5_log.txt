@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_5.java:65: error: cannot find symbol
+        assertEquals("a", new TermQueryBuilder("field", "value").parent("a").parent());
+                              ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_5_5

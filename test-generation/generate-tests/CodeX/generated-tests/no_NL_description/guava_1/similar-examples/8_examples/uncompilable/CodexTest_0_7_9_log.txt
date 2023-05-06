@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_9.java:25: error: cannot find symbol
+    assertEquals(0xABCD1234ABCD1234L, new LongHashCode(0xABCD1234ABCD1234L).asLong());
+                                          ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:26: error: cannot find symbol
+    assertEquals(0xABCD1234ABCD1234L, new LongHashCode(0xABCD1234ABCD1234L).asInt());
+                                          ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_7_9

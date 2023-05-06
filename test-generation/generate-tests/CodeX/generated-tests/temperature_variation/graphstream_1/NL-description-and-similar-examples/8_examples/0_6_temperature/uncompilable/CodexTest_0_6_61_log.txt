@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_6_61.java:21: error: type org.graphstream.graph.Path does not take parameters
+		Path<Edge> underTest = new Path<Edge>();
+		    ^
+CodexTest_0_6_61.java:21: error: type org.graphstream.graph.Path does not take parameters
+		Path<Edge> underTest = new Path<Edge>();
+		                               ^
+CodexTest_0_6_61.java:22: error: cannot find symbol
+		Edge edge = mock(Edge.class);
+		            ^
+  symbol:   method mock(java.lang.Class<org.graphstream.graph.Edge>)
+  location: class CodexTest_0_6_61

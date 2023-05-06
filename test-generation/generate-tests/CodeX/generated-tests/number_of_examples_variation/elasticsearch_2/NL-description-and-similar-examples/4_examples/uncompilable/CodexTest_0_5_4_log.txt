@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_4.java:66: error: cannot find symbol
+            XContent xContent = XContentFactory.xContent(XContentType.JSON);
+            ^
+  symbol:   class XContent
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:71: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("Failed to generate [foobar]"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_5_4

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_31.java:16: error: cannot find symbol
+    String s = System.getProperty(java.version);
+                                  ^
+  symbol:   variable java
+  location: class CodexTest_0_8_31

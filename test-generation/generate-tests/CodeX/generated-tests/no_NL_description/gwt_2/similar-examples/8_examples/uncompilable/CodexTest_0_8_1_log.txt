@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_8_1.java:15: error: cannot find symbol
+    UncaughtExceptionHandler uncaughtExceptionHandler = AsyncTask.getUncaughtExceptionHandler();
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:15: error: cannot find symbol
+    UncaughtExceptionHandler uncaughtExceptionHandler = AsyncTask.getUncaughtExceptionHandler();
+                                                        ^
+  symbol:   variable AsyncTask
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:17: error: package AsyncTask does not exist
+    assertSame(uncaughtExceptionHandler, AsyncTask.THREAD_POOL_EXECUTOR.getUncaughtExceptionHandler());
+                                                  ^

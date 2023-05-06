@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_6.java:32: error: method scalarMultiply in class org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be applied to given types;
+        assertEquals(null, Vector1D.scalarMultiply(1, new Vector1D(1)));
+                                   ^
+  required: double
+  found: int,org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+  reason: actual and formal argument lists differ in length
+CodexTest_0_9_6.java:33: error: method scalarMultiply in class org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be applied to given types;
+        assertEquals(null, Vector1D.scalarMultiply(2, new Vector1D(1)));
+                                   ^
+  required: double
+  found: int,org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+  reason: actual and formal argument lists differ in length

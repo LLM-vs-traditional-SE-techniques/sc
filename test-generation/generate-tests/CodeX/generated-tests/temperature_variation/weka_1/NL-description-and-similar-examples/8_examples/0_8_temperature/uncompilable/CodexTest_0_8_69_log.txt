@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_69.java:20: error: cannot find symbol
+    AlgVector v = AlgVector.fromArray(vals);
+                           ^
+  symbol:   method fromArray(double[])
+  location: class weka.core.AlgVector

@@ -1,0 +1,49 @@
+isCompilable => false
+CodexTest_0_8_2.java:23: error: illegal character: '`'
+```
+^
+CodexTest_0_8_2.java:23: error: illegal character: '`'
+```
+ ^
+CodexTest_0_8_2.java:23: error: illegal character: '`'
+```
+  ^
+CodexTest_0_8_2.java:24: error: ';' expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                  ^
+CodexTest_0_8_2.java:24: error: ';' expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                         ^
+CodexTest_0_8_2.java:24: error: ';' expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                                            ^
+CodexTest_0_8_2.java:24: error: ';' expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                                                         ^
+CodexTest_0_8_2.java:24: error: ';' expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                                                                 ^
+CodexTest_0_8_2.java:24: error: ';' expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                                                                         ^
+CodexTest_0_8_2.java:24: error: ';' expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                                                                                   ^
+CodexTest_0_8_2.java:24: error: ';' expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                                                                                               ^
+CodexTest_0_8_2.java:24: error: ';' expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                                                                                                               ^
+CodexTest_0_8_2.java:24: error: <identifier> expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                                                                                                                      ^
+CodexTest_0_8_2.java:24: error: ';' expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                                                                                                                                          ^
+CodexTest_0_8_2.java:24: error: ';' expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                                                                                                                                                       ^
+CodexTest_0_8_2.java:24: error: ';' expected
+This example shows that a symbolic execution approach can be used to test and debug programs by generating test inputs for subprograms and test oracles for the tests.
+                                                                                                                                                                     ^

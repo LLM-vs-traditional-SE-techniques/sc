@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_7_56.java:27: error: cannot find symbol
+    ByteBuffer buf = ByteBuffer.allocate(8);
+    ^
+  symbol:   class ByteBuffer
+  location: class CodexTest_0_7_56
+CodexTest_0_7_56.java:27: error: cannot find symbol
+    ByteBuffer buf = ByteBuffer.allocate(8);
+                     ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_7_56
+CodexTest_0_7_56.java:30: error: package Longs does not exist
+    int written = Longs.BYTES.writeBytesTo(value, target, 1, 6);
+                       ^

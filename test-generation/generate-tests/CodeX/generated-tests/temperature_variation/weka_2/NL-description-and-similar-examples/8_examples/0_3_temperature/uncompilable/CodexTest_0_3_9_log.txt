@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_9.java:61: error: ')' expected
+	"@attribute AP numeric\n"
+	                         ^
+CodexTest_0_3_9.java:62: error: reached end of file while parsing
+}
+ ^

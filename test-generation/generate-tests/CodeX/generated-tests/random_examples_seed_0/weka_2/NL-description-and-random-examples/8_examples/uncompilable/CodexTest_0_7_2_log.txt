@@ -1,0 +1,97 @@
+isCompilable => false
+CodexTest_0_7_2.java:18: error: cannot find symbol
+        Instances model = mock(Instances.class);
+                          ^
+  symbol:   method mock(java.lang.Class<weka.core.Instances>)
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:19: error: cannot find symbol
+        Random random = mock(Random.class);
+                        ^
+  symbol:   method mock(java.lang.Class<java.util.Random>)
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:21: error: cannot find symbol
+        DenseInstance instance = mock(DenseInstance.class);
+                                 ^
+  symbol:   method mock(java.lang.Class<weka.core.DenseInstance>)
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:22: error: no suitable constructor found for DenseInstance(double[])
+        DenseInstance underTest = new DenseInstance(elements);
+                                  ^
+    constructor weka.core.DenseInstance.DenseInstance(weka.core.Instance) is not applicable
+      (argument mismatch; double[] cannot be converted to weka.core.Instance)
+    constructor weka.core.DenseInstance.DenseInstance(int) is not applicable
+      (argument mismatch; double[] cannot be converted to int)
+CodexTest_0_7_2.java:23: error: cannot find symbol
+        when(model.numAttributes()).thenReturn(4);
+        ^
+  symbol:   method when(int)
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:24: error: cannot find symbol
+        when(model.attribute(anyInt())).thenReturn(mock(Attribute.class));
+                                                   ^
+  symbol:   method mock(java.lang.Class<weka.core.Attribute>)
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:24: error: cannot find symbol
+        when(model.attribute(anyInt())).thenReturn(mock(Attribute.class));
+                             ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:25: error: cannot find symbol
+        when(random.nextDouble()).thenReturn(0.5);
+        ^
+  symbol:   method when(double)
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:26: error: cannot find symbol
+        when(model.attribute(anyInt()).isNumeric()).thenReturn(true);
+                             ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:27: error: cannot find symbol
+        when(model.attribute(anyInt()).isNominal()).thenReturn(false);
+                             ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:28: error: cannot find symbol
+        when(model.attribute(anyInt()).numValues()).thenReturn(3);
+                             ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:29: error: 'void' type not allowed here
+        when(instance.setDataset(model)).thenReturn(instance);
+                                ^
+CodexTest_0_7_2.java:30: error: cannot find symbol
+        when(instance.setValue(anyInt(), anyDouble())).thenReturn(instance);
+                               ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:30: error: cannot find symbol
+        when(instance.setValue(anyInt(), anyDouble())).thenReturn(instance);
+                                         ^
+  symbol:   method anyDouble()
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:31: error: cannot find symbol
+        when(instance.setValue(anyInt(), anyInt())).thenReturn(instance);
+                               ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:31: error: cannot find symbol
+        when(instance.setValue(anyInt(), anyInt())).thenReturn(instance);
+                                         ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:32: error: cannot find symbol
+        DenseInstance result = underTest.getAsInstance(model, random);
+                                        ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable underTest of type weka.core.DenseInstance
+CodexTest_0_7_2.java:34: error: cannot find symbol
+            verify(model.attribute(i)).isNumeric();
+            ^
+  symbol:   method verify(weka.core.Attribute)
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:35: error: cannot find symbol
+            verify(instance).setValue(i, elements[i]);
+            ^
+  symbol:   method verify(weka.core.DenseInstance)
+  location: class CodexTest_0_7_2
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

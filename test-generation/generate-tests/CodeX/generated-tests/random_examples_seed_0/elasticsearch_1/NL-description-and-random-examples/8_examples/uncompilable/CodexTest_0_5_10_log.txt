@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_10.java:71: error: cannot find symbol
+        EnumeratedParameter parameter = new EnumeratedParameter(parent, name, description, label, values);
+        ^
+  symbol:   class EnumeratedParameter
+  location: class CodexTest_0_5_10
+CodexTest_0_5_10.java:71: error: cannot find symbol
+        EnumeratedParameter parameter = new EnumeratedParameter(parent, name, description, label, values);
+                                            ^
+  symbol:   class EnumeratedParameter
+  location: class CodexTest_0_5_10

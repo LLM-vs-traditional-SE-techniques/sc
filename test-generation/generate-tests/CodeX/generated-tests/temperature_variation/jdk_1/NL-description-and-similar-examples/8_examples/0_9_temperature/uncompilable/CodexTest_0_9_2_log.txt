@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_2.java:21: error: cannot find symbol
+        final int size = collection.size();
+                         ^
+  symbol:   variable collection
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:24: error: cannot find symbol
+                collection.remove(-1);
+                ^
+  symbol:   variable collection
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:27: error: cannot find symbol
+                collection.remove(0);
+                ^
+  symbol:   variable collection
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:31: error: cannot find symbol
+            collection.remove(-1);
+            ^
+  symbol:   variable collection
+  location: class CodexTest_0_9_2

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_2.java:28: error: cannot find symbol
+        assertEquals("Value mismatch for padding [13]", 1, Integer.parseInt(new String(b, BaseEncoding.base16().lowerCase()).substring(b.length-2)));
+                                                                                          ^
+  symbol:   variable BaseEncoding
+  location: class CodexTest_0_9_2

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_14.java:50: error: ')' expected
+    assertEquals("Wrong class attribute", data.classAttribute(), inst
+                                                                     ^
+CodexTest_0_3_14.java:51: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,27 @@
+isCompilable => false
+CodexTest_0_8_40.java:18: error: cannot find symbol
+    Instances inst = new Instances(new StringReader(m_Data));
+                                       ^
+  symbol:   class StringReader
+  location: class CodexTest_0_8_40
+CodexTest_0_8_40.java:18: error: cannot find symbol
+    Instances inst = new Instances(new StringReader(m_Data));
+                                                    ^
+  symbol:   variable m_Data
+  location: class CodexTest_0_8_40
+CodexTest_0_8_40.java:19: error: no suitable constructor found for AlgVector(weka.core.Instances)
+    AlgVector v = new AlgVector(inst);
+                  ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; weka.core.Instances cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; weka.core.Instances cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Instances cannot be converted to weka.core.Instance)
+CodexTest_0_8_40.java:20: error: method getAsInstance in class weka.core.AlgVector cannot be applied to given types;
+    Instance newInst = v.getAsInstance(inst);
+                        ^
+  required: weka.core.Instances,java.util.Random
+  found: weka.core.Instances
+  reason: actual and formal argument lists differ in length
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

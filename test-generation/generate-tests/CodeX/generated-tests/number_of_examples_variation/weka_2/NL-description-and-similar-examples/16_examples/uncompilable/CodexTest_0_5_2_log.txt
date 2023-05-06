@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_2.java:21: error: cannot find symbol
+    Instances i = makeTestDataset(numAtts, numInsts);
+                  ^
+  symbol:   method makeTestDataset(int,int)
+  location: class CodexTest_0_5_2
+CodexTest_0_5_2.java:27: error: cannot find symbol
+    DenseInstance in2 = (DenseInstance)in.getAsInstance(i, new Random());
+                                         ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable in of type weka.core.DenseInstance
+CodexTest_0_5_2.java:31: error: cannot find symbol
+		   !Instance.isMissingValue(in2.value(j)));
+		            ^
+  symbol:   method isMissingValue(double)
+  location: interface weka.core.Instance

@@ -1,0 +1,80 @@
+import weka.core.*;
+import java.io.Serializable;
+import java.util.Random;
+
+import weka.core.*;
+import java.util.Random;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_8_37 { 
+  @Test
+  Annotation:
+    False
+  Num input points:
+    25
+  Num Inputs
+    5
+  Input points:
+    0.4444444444444444
+    0.3333333333333333
+    0.375
+    0.7777777777777778
+    0.5555555555555556
+  Input points:
+    0.7222222222222222
+    0.6666666666666666
+    0.625
+    0.7777777777777778
+    0.5555555555555556
+  Input points:
+    0.9722222222222222
+    0.6666666666666666
+    0.625
+    0.7777777777777778
+    0.5555555555555556
+  Input points:
+    0.9722222222222222
+    0.6666666666666666
+    1.375
+    0.7777777777777778
+    0.5555555555555556
+  Input points:
+    0.9722222222222222
+    0.6666666666666666
+    1.375
+    0.7777777777777778
+    0.5555555555555556
+  Input points:
+    0.9722222222222222
+    0.6666666666666666
+    1.375
+    0.7777777777777778
+    1.1111111111111112
+  Input points:
+    0.9722222222222222
+    0.6666666666666666
+    1.375
+    0.7777777777777778
+    1.1111111111111112
+  Input points:
+    0.9722222222222222
+    0.6666666666666666
+    1.375
+    0.7777777777777778
+    1.1111111111111112
+  Input points:
+    0.9722222222222222
+    0.6666666666666666
+    1.375
+    0.7777777777777778
+    1.1111111111111112
+  Input points:
+    0.9722222222222222
+
+}

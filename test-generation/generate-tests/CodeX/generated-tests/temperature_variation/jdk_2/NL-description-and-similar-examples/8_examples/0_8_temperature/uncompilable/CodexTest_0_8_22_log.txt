@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_22.java:20: error: cannot find symbol
+        public void testContainsShouldReturnTrueWhen(Parameterized parameterized) {
+                                                     ^
+  symbol:   class Parameterized
+  location: class CodexTest_0_8_22
+CodexTest_0_8_22.java:22: error: cannot find symbol
+		BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+		^
+  symbol:   class BooleanTypeDescriptor
+  location: class CodexTest_0_8_22
+CodexTest_0_8_22.java:22: error: cannot find symbol
+		BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+		                                      ^
+  symbol:   class BooleanTypeDescriptor
+  location: class CodexTest_0_8_22
+CodexTest_0_8_22.java:24: error: cannot find symbol
+		Boolean result = underTest.wrap(Y, null);
+		                                ^
+  symbol:   variable Y
+  location: class CodexTest_0_8_22

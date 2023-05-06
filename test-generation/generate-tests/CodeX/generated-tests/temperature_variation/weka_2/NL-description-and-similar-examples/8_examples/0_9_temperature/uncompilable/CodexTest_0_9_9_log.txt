@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_9.java:33: error: <identifier> expected
+    Input: public void setClass(Instance inst, String s) {
+         ^
+CodexTest_0_9_9.java:43: error: <identifier> expected
+	Output: public void testNominalClassNotSet(){
+	      ^
+CodexTest_0_9_9.java:53: error: ')' expected
+		assertEquals(0, instance.value(0
+		                                ^
+CodexTest_0_9_9.java:54: error: reached end of file while parsing
+}
+ ^

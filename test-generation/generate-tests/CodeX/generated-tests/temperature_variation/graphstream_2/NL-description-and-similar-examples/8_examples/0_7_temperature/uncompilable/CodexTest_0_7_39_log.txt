@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_39.java:21: error: cannot find symbol
+		Graph graph = createSimpleGraph();
+		              ^
+  symbol:   method createSimpleGraph()
+  location: class CodexTest_0_7_39
+CodexTest_0_7_39.java:22: error: cannot find symbol
+		Path path1 = createPath(graph, a, b, c);
+		                               ^
+  symbol:   variable a
+  location: class CodexTest_0_7_39
+CodexTest_0_7_39.java:22: error: cannot find symbol
+		Path path1 = createPath(graph, a, b, c);
+		                                  ^
+  symbol:   variable b
+  location: class CodexTest_0_7_39
+CodexTest_0_7_39.java:22: error: cannot find symbol
+		Path path1 = createPath(graph, a, b, c);
+		                                     ^
+  symbol:   variable c
+  location: class CodexTest_0_7_39
+CodexTest_0_7_39.java:23: error: cannot find symbol
+		Path path2 = createPath(graph, a, b, d);
+		                               ^
+  symbol:   variable a
+  location: class CodexTest_0_7_39
+CodexTest_0_7_39.java:23: error: cannot find symbol
+		Path path2 = createPath(graph, a, b, d);
+		                                  ^
+  symbol:   variable b
+  location: class CodexTest_0_7_39
+CodexTest_0_7_39.java:23: error: cannot find symbol
+		Path path2 = createPath(graph, a, b, d);
+		                                     ^
+  symbol:   variable d
+  location: class CodexTest_0_7_39

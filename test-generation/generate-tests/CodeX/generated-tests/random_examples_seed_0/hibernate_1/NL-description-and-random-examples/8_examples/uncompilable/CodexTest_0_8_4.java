@@ -1,0 +1,35 @@
+import org.hibernate.type.descriptor.java.*;
+import org.hibernate.type.descriptor.WrapperOptions;
+import static java.lang.Boolean.FALSE;
+import static java.lang.Boolean.TRUE;
+
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_8_4 { 
+  @Test
+  public void testSets() {
+		Set<Boolean> treeSet = new TreeSet<Boolean>();
+		treeSet.add(Boolean.TRUE);
+		treeSet.add(Boolean.FALSE);
+		treeSet.add(Boolean.TRUE);
+		treeSet.add(Boolean.TRUE);
+		treeSet.add(Boolean.FALSE);
+		treeSet.add(Boolean.FALSE);
+		treeSet.add(Boolean.FALSE);
+		treeSet.add(Boolean.FALSE);
+		treeSet.add(Boolean.TRUE);
+		treeSet.add(Boolean.FALSE);
+		treeSet.add(Boolean.TRUE);
+		treeSet.add(Boolean.TRUE);
+		treeSet.add(Boolean.FALSE);
+		treeSet.add(Boolean.FALSE);
+		treeSet.add(Boolean.FALSE);
+		treeSet.add(Boolean.FALSE);
+		treeSet.add(Boolean.TRUE);
+		assertEquals(2, treeSet.size());
+}

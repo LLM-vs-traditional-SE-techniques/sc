@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_72.java:27: error: cannot find symbol
+      ByteString.empty().writeBytesTo(dest, 1, 1);
+      ^
+  symbol:   variable ByteString
+  location: class CodexTest_0_9_72

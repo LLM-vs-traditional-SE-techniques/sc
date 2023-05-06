@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_9.java:20: error: cannot find symbol
+        IndexRequest i1 = new IndexRequest("index", "type", "id");
+        ^
+  symbol:   class IndexRequest
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:20: error: cannot find symbol
+        IndexRequest i1 = new IndexRequest("index", "type", "id");
+                              ^
+  symbol:   class IndexRequest
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:21: error: cannot find symbol
+        IndexRequest i2 = new IndexRequest("index", "type", "id");
+        ^
+  symbol:   class IndexRequest
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:21: error: cannot find symbol
+        IndexRequest i2 = new IndexRequest("index", "type", "id");
+                              ^
+  symbol:   class IndexRequest
+  location: class CodexTest_0_7_9

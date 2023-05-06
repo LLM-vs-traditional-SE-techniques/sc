@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_2.java:15: error: cannot find symbol
+      System.setProperty(KieSession.UNCAUGHT_EXCEPTION_HANDLER, MyExceptionHandler.class.getCanonicalName());
+                         ^
+  symbol:   variable KieSession
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:15: error: cannot find symbol
+      System.setProperty(KieSession.UNCAUGHT_EXCEPTION_HANDLER, MyExceptionHandler.class.getCanonicalName());
+                                                                ^
+  symbol:   class MyExceptionHandler
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:16: error: cannot find symbol
+      KieSessionConfiguration config = KnowledgeBaseFactory.newKnowledgeSessionConfiguration();
+      ^
+  symbol:   class KieSessionConfiguration
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:16: error: cannot find symbol
+      KieSessionConfiguration config = KnowledgeBaseFactory.newKnowledgeSessionConfiguration();
+                                       ^
+  symbol:   variable KnowledgeBaseFactory
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:17: error: cannot find symbol
+      assertEquals(MyExceptionHandler.class.getCanonicalName(),
+                   ^
+  symbol:   class MyExceptionHandler
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:18: error: cannot find symbol
+                   config.getOption(KieSession.UNCAUGHT_EXCEPTION_HANDLER));
+                                    ^
+  symbol:   variable KieSession
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:19: error: cannot find symbol
+      assertEquals(MyExceptionHandler.class.getCanonicalName(), System.getProperty(KieSession.UNCAUGHT_EXCEPTION_HANDLER));
+                   ^
+  symbol:   class MyExceptionHandler
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:19: error: cannot find symbol
+      assertEquals(MyExceptionHandler.class.getCanonicalName(), System.getProperty(KieSession.UNCAUGHT_EXCEPTION_HANDLER));
+                                                                                   ^
+  symbol:   variable KieSession
+  location: class CodexTest_0_8_2

@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_69.java:30: error: cannot find symbol
+        int n = doubleMatrix2D.rows();
+                ^
+  symbol:   variable doubleMatrix2D
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:31: error: cannot find symbol
+        DoubleMatrix2D B = doubleMatrix2D.like2D(n, n);
+                           ^
+  symbol:   variable doubleMatrix2D
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:32: error: cannot find symbol
+        doubleMatrix2D.zMult(doubleMatrix2D, B);
+                             ^
+  symbol:   variable doubleMatrix2D
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:32: error: cannot find symbol
+        doubleMatrix2D.zMult(doubleMatrix2D, B);
+        ^
+  symbol:   variable doubleMatrix2D
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:33: error: cannot find symbol
+        doubleMatrix2D.zMult(B, doubleMatrix2D);
+                                ^
+  symbol:   variable doubleMatrix2D
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:33: error: cannot find symbol
+        doubleMatrix2D.zMult(B, doubleMatrix2D);
+        ^
+  symbol:   variable doubleMatrix2D
+  location: class CodexTest_0_8_69

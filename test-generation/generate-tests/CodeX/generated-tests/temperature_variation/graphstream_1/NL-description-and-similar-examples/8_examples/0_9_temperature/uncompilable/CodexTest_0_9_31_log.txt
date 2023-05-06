@@ -1,0 +1,76 @@
+isCompilable => false
+CodexTest_0_9_31.java:20: error: cannot find symbol
+		alg = new Path();
+		^
+  symbol:   variable alg
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:21: error: cannot find symbol
+		alg.add(null, e1);
+		              ^
+  symbol:   variable e1
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:21: error: cannot find symbol
+		alg.add(null, e1);
+		^
+  symbol:   variable alg
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:22: error: cannot find symbol
+		alg.add(e1, e2);
+		        ^
+  symbol:   variable e1
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:22: error: cannot find symbol
+		alg.add(e1, e2);
+		            ^
+  symbol:   variable e2
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:22: error: cannot find symbol
+		alg.add(e1, e2);
+		^
+  symbol:   variable alg
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:23: error: cannot find symbol
+		alg.add(e2, e3);
+		        ^
+  symbol:   variable e2
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:23: error: cannot find symbol
+		alg.add(e2, e3);
+		            ^
+  symbol:   variable e3
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:23: error: cannot find symbol
+		alg.add(e2, e3);
+		^
+  symbol:   variable alg
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:24: error: cannot find symbol
+		assertTrue(alg.contains(e1));
+		                        ^
+  symbol:   variable e1
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:24: error: cannot find symbol
+		assertTrue(alg.contains(e1));
+		           ^
+  symbol:   variable alg
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:25: error: cannot find symbol
+		assertTrue(alg.contains(e2));
+		                        ^
+  symbol:   variable e2
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:25: error: cannot find symbol
+		assertTrue(alg.contains(e2));
+		           ^
+  symbol:   variable alg
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:26: error: cannot find symbol
+		assertTrue(alg.contains(e3));
+		                        ^
+  symbol:   variable e3
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:26: error: cannot find symbol
+		assertTrue(alg.contains(e3));
+		           ^
+  symbol:   variable alg
+  location: class CodexTest_0_9_31

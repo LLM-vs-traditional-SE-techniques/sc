@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_6_2.java:30: error: cannot find symbol
+        DoubleMatrix1D m = FACTORY.make(3,3);
+                           ^
+  symbol:   variable FACTORY
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:36: error: cannot find symbol
+        DoubleMatrix1D a = FACTORY.make(3);
+                           ^
+  symbol:   variable FACTORY
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:37: error: cannot find symbol
+        a.assign(m.viewColumn(0));
+                  ^
+  symbol:   method viewColumn(int)
+  location: variable m of type cern.colt.matrix.DoubleMatrix1D
+CodexTest_0_6_2.java:38: error: cannot find symbol
+        assertEquals(a.get(0),1,TOL);
+                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:39: error: cannot find symbol
+        assertEquals(a.get(1),2,TOL);
+                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:40: error: cannot find symbol
+        assertEquals(a.get(2),3,TOL);
+                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:41: error: cannot find symbol
+        a.assign(m.viewColumn(1));
+                  ^
+  symbol:   method viewColumn(int)
+  location: variable m of type cern.colt.matrix.DoubleMatrix1D
+CodexTest_0_6_2.java:42: error: cannot find symbol
+        assertEquals(a.get(0),4,TOL);
+                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:43: error: cannot find symbol
+        assertEquals(a.get(1),5,TOL);
+                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:44: error: cannot find symbol
+        assertEquals(a.get(2),6,TOL);
+                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_2

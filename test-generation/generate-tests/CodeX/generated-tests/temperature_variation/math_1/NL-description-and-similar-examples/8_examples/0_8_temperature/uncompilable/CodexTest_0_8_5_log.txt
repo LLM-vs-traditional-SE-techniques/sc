@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_5.java:36: error: <identifier> expected
+Input: public static void main(String[] args) {
+     ^
+CodexTest_0_8_5.java:39: error: <identifier> expected
+Output:	
+      ^
+CodexTest_0_8_5.java:40: error: <identifier> expected
+Input: public double getY() {
+     ^
+CodexTest_0_8_5.java:43: error: <identifier> expected
+Output: public void testCoordinates() {
+      ^

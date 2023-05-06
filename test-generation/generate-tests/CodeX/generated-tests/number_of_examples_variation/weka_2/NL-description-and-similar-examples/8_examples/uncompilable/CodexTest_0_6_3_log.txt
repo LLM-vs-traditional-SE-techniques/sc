@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_6_3.java:18: error: cannot find symbol
+    AlgVector v = new AlgVector(m_Data);
+                                ^
+  symbol:   variable m_Data
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:19: error: cannot find symbol
+    Instances dataSet = new Instances(m_Instances, 0);
+                                      ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:20: error: cannot find symbol
+    Instance inst = v.getAsInstance(dataSet, m_Random);
+                                             ^
+  symbol:   variable m_Random
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:21: error: cannot find symbol
+    assertEquals("Wrong number of attributes!", m_Data.length, inst.numAttributes());
+                                                ^
+  symbol:   variable m_Data
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:22: error: cannot find symbol
+    assertEquals("Wrong number of values!", m_Data.length, inst.numValues());
+                                            ^
+  symbol:   variable m_Data
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:23: error: cannot find symbol
+    for (int i = 0; i < m_Data.length; i++)
+                        ^
+  symbol:   variable m_Data
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:24: error: cannot find symbol
+      assertEquals((i+1) + ". value differs", m_Data[i], inst.value(i));
+                                              ^
+  symbol:   variable m_Data
+  location: class CodexTest_0_6_3

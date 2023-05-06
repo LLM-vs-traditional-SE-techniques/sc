@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_10.java:36: error: <identifier> expected
+Input: public boolean equals(Object other) {
+     ^
+CodexTest_0_6_10.java:47: error: reached end of file while parsing
+}
+ ^

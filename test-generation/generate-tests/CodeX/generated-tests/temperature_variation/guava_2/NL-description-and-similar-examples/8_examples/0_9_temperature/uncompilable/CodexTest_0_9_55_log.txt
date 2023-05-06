@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_55.java:26: error: cannot find symbol
+    byte[] dest = TestUtils.hashToByteArray(hash);
+                  ^
+  symbol:   variable TestUtils
+  location: class CodexTest_0_9_55
+CodexTest_0_9_55.java:27: error: cannot find symbol
+    byte[] returnedDest = TestUtils.copyByteArray(dest);
+                          ^
+  symbol:   variable TestUtils
+  location: class CodexTest_0_9_55

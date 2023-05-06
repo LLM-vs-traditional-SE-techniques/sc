@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_6.java:67: error: cannot find symbol
+        ParentClass test = new ParentClass(parent, child);
+        ^
+  symbol:   class ParentClass
+  location: class CodexTest_0_5_6
+CodexTest_0_5_6.java:67: error: cannot find symbol
+        ParentClass test = new ParentClass(parent, child);
+                               ^
+  symbol:   class ParentClass
+  location: class CodexTest_0_5_6

@@ -1,0 +1,111 @@
+isCompilable => false
+CodexTest_0_9_4.java:16: error: cannot find symbol
+        assertEquals(127,   typeConvert.toLong(byteValue));
+                                               ^
+  symbol:   variable byteValue
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:16: error: cannot find symbol
+        assertEquals(127,   typeConvert.toLong(byteValue));
+                            ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:17: error: cannot find symbol
+        assertEquals(127,   typeConvert.toLong(shortValue));
+                                               ^
+  symbol:   variable shortValue
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:17: error: cannot find symbol
+        assertEquals(127,   typeConvert.toLong(shortValue));
+                            ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:18: error: cannot find symbol
+        assertEquals(127,   typeConvert.toLong(intValue));
+                                               ^
+  symbol:   variable intValue
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:18: error: cannot find symbol
+        assertEquals(127,   typeConvert.toLong(intValue));
+                            ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:19: error: cannot find symbol
+        assertEquals(127,   typeConvert.toLong(longValue));
+                                               ^
+  symbol:   variable longValue
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:19: error: cannot find symbol
+        assertEquals(127,   typeConvert.toLong(longValue));
+                            ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:20: error: cannot find symbol
+        assertEquals(127L,  typeConvert.toLong(floatValue));
+                                               ^
+  symbol:   variable floatValue
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:20: error: cannot find symbol
+        assertEquals(127L,  typeConvert.toLong(floatValue));
+                            ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:21: error: cannot find symbol
+        assertEquals(127L,  typeConvert.toLong(doubleValue));
+                                               ^
+  symbol:   variable doubleValue
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:21: error: cannot find symbol
+        assertEquals(127L,  typeConvert.toLong(doubleValue));
+                            ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:22: error: cannot find symbol
+        assertEquals(0,     typeConvert.toLong(falseValue));
+                                               ^
+  symbol:   variable falseValue
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:22: error: cannot find symbol
+        assertEquals(0,     typeConvert.toLong(falseValue));
+                            ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:23: error: cannot find symbol
+        assertEquals(1,     typeConvert.toLong(trueValue));
+                                               ^
+  symbol:   variable trueValue
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:23: error: cannot find symbol
+        assertEquals(1,     typeConvert.toLong(trueValue));
+                            ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:24: error: cannot find symbol
+        assertEquals(127, typeConvert.toLong(charValue));
+                                             ^
+  symbol:   variable charValue
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:24: error: cannot find symbol
+        assertEquals(127, typeConvert.toLong(charValue));
+                          ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:25: error: cannot find symbol
+        assertEquals(0,     typeConvert.toLong(null));
+                            ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:26: error: cannot find symbol
+        assertEquals(0,     typeConvert.toLong(""));
+                            ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:27: error: cannot find symbol
+        assertEquals(127,   typeConvert.toLong("127"));
+                            ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:28: error: cannot find symbol
+        assertEquals(0,     typeConvert.toLong("127.0"));
+                            ^
+  symbol:   variable typeConvert
+  location: class CodexTest_0_9_4

@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_4_23.java:68: error: cannot find symbol
+        DocumentMapper mapper = createDocumentMapper(mapping(type).parent(parent));
+        ^
+  symbol:   class DocumentMapper
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:68: error: cannot find symbol
+        DocumentMapper mapper = createDocumentMapper(mapping(type).parent(parent));
+                                                     ^
+  symbol:   method mapping(java.lang.String)
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:69: error: cannot find symbol
+        ParsedDocument doc = mapper.parse(source(b -> b.field("field", "value"), type, id));
+        ^
+  symbol:   class ParsedDocument
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:69: error: cannot find symbol
+        ParsedDocument doc = mapper.parse(source(b -> b.field("field", "value"), type, id));
+                                          ^
+  symbol:   method source((b)->b.fie[...]lue"),java.lang.String,java.lang.String)
+  location: class CodexTest_0_4_23
+CodexTest_0_4_23.java:70: error: cannot find symbol
+        assertThat(doc.parent(), equalTo(parent));
+                                 ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_4_23

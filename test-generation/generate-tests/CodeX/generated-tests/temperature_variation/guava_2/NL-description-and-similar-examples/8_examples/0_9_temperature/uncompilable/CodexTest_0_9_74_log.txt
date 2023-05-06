@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_74.java:25: error: cannot find symbol
+    encoding.encode("000".getBytes(US_ASCII), encodingBuffer);
+                                              ^
+  symbol:   variable encodingBuffer
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:25: error: cannot find symbol
+    encoding.encode("000".getBytes(US_ASCII), encodingBuffer);
+    ^
+  symbol:   variable encoding
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:25: error: cannot find symbol
+    encoding.encode("000".getBytes(US_ASCII), encodingBuffer);
+                                   ^
+  symbol:   variable US_ASCII
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:27: error: cannot find symbol
+    for (int i = encodingBuffer.position(); i < encodingBuffer.limit(); i++) {
+                 ^
+  symbol:   variable encodingBuffer
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:27: error: cannot find symbol
+    for (int i = encodingBuffer.position(); i < encodingBuffer.limit(); i++) {
+                                                ^
+  symbol:   variable encodingBuffer
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:28: error: cannot find symbol
+      byte randomChar = (byte) randomAsciiOfLengthBetween(1, 8).charAt(0);
+                               ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:29: error: cannot find symbol
+      encodingBuffer.put(i, randomChar);
+      ^
+  symbol:   variable encodingBuffer
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:32: error: cannot find symbol
+      encoding.decode(encodingBuffer);
+                      ^
+  symbol:   variable encodingBuffer
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:32: error: cannot find symbol
+      encoding.decode(encodingBuffer);
+      ^
+  symbol:   variable encoding
+  location: class CodexTest_0_9_74

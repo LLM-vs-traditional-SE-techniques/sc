@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_48.java:22: error: cannot find symbol
+            testRemove_int(i);
+            ^
+  symbol:   method testRemove_int(int)
+  location: class CodexTest_0_4_48

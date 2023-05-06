@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_5_9.java:20: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+CodexTest_0_5_9.java:22: error: cannot find symbol
+            int size = RandomUtils.nextInt(20);
+                       ^
+  symbol:   variable RandomUtils
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:27: error: cannot find symbol
+            int index = RandomUtils.nextInt(size);
+                        ^
+  symbol:   variable RandomUtils
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:28: error: cannot find symbol
+            assertEquals(l.remove(index), l.fastRemove(index));
+                                           ^
+  symbol:   method fastRemove(int)
+  location: variable l of type java.util.List<java.lang.Object>

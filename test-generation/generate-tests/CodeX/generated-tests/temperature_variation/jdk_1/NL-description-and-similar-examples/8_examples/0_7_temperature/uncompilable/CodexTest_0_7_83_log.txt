@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_83.java:21: error: cannot find symbol
+        Object[] a = range(0, 10);
+                     ^
+  symbol:   method range(int,int)
+  location: class CodexTest_0_7_83
+CodexTest_0_7_83.java:22: error: cannot find symbol
+        ListIterator it = list.listIterator();
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_7_83
+CodexTest_0_7_83.java:30: error: cannot find symbol
+        assertEquals(Arrays.asList(1, 3, 5, 7, 9), list);
+                                                   ^
+  symbol:   variable list
+  location: class CodexTest_0_7_83

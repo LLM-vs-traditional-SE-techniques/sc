@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_7_2.java:25: error: cannot find symbol
+    ByteBuffer buf = ByteBuffer.allocate(320);
+    ^
+  symbol:   class ByteBuffer
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:25: error: cannot find symbol
+    ByteBuffer buf = ByteBuffer.allocate(320);
+                     ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:27: error: package BloomFilterStrategies does not exist
+      int n = BloomFilterStrategies.MURMUR128_MITZ_32.writeBytesTo(buf.array(), i, 320 - i);
+                                   ^
+CodexTest_0_7_2.java:31: error: package BloomFilterStrategies does not exist
+      BloomFilterStrategies.MURMUR128_MITZ_32.readBytesFrom(buf.array(), i, 320 - i);
+                           ^

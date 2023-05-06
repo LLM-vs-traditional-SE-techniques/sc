@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_8.java:20: error: cannot find symbol
+        Instances model = createModel(new String[] {"numeric", "nominal"},
+                          ^
+  symbol:   method createModel(java.lang.String[],java.lang.String[][])
+  location: class CodexTest_0_6_8

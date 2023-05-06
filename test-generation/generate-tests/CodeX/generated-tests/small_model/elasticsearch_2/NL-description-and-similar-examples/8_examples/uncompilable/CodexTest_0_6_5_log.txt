@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_5.java:65: error: cannot find symbol
+        IndexRequest request = new IndexRequest("index", "type", "id").source(SourceToParse.source(XContentType.JSON, "field", "value"), XContentType.JSON);
+                                                                              ^
+  symbol:   variable SourceToParse
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:67: error: cannot find symbol
+        request.toXContent(builder, ToXContent.EMPTY_PARAMS);
+                                    ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:68: error: cannot find symbol
+        assertThat(builder.string(), equalTo("{\"field\":\"value\"}"));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_6_5

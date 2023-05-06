@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_7.java:20: error: cannot find symbol
+        Assert.assertNotEquals(null, new Time(1, 2, 3, 4, 5, 6, 7, TimeZone.getDefault()));
+                                         ^
+  symbol:   class Time
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:20: error: cannot find symbol
+        Assert.assertNotEquals(null, new Time(1, 2, 3, 4, 5, 6, 7, TimeZone.getDefault()));
+                                                                   ^
+  symbol:   variable TimeZone
+  location: class CodexTest_0_7_7

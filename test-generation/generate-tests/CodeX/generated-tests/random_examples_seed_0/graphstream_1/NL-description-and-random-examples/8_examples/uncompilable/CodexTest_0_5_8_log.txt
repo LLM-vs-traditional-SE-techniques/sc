@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_5_8.java:50: error: ')' expected
+			assertTrue(edgePath.cont
+			                        ^
+CodexTest_0_5_8.java:51: error: reached end of file while parsing
+}
+ ^

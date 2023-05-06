@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_6_7.java:19: error: cannot find symbol
+      Instances model = new Instances(new StringReader(instances));
+                                          ^
+  symbol:   class StringReader
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:19: error: cannot find symbol
+      Instances model = new Instances(new StringReader(instances));
+                                                       ^
+  symbol:   variable instances
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:20: error: weka.core.Instance is abstract; cannot be instantiated
+      Instance inst = new Instance(2);
+                      ^
+CodexTest_0_6_7.java:24: error: cannot find symbol
+      Instance newInst = inst.getAsInstance(model, new Random(42));
+                             ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable inst of type weka.core.Instance
+CodexTest_0_6_7.java:26: error: cannot find symbol
+      assertEquals(newInst.value(1), 1.0, EPSILON);
+                                          ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_6_7

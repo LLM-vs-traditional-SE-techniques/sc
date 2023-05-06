@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_6.java:21: error: cannot find symbol
+        Instances data = createInstancesWithNumAttributes(numAtt);
+                         ^
+  symbol:   method createInstancesWithNumAttributes(int)
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:23: error: cannot find symbol
+        AlgVector vec = createAlgVector();
+                        ^
+  symbol:   method createAlgVector()
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:26: error: cannot find symbol
+        assertEquals("Number of instances in instance differs.", numInst, inst.numInstances());
+                                                                              ^
+  symbol:   method numInstances()
+  location: variable inst of type weka.core.Instance
+CodexTest_0_7_6.java:27: error: cannot find symbol
+        checkInstance(inst);
+        ^
+  symbol:   method checkInstance(weka.core.Instance)
+  location: class CodexTest_0_7_6

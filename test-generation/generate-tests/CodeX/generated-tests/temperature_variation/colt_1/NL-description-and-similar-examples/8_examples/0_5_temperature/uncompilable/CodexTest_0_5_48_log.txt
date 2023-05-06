@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_5_48.java:30: error: cannot find symbol
+        double[] expected = new double[SIZE];
+                                       ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_5_48
+CodexTest_0_5_48.java:31: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_5_48
+CodexTest_0_5_48.java:34: error: cannot find symbol
+        DenseVector v = new DenseVector(SIZE);
+        ^
+  symbol:   class DenseVector
+  location: class CodexTest_0_5_48
+CodexTest_0_5_48.java:34: error: cannot find symbol
+        DenseVector v = new DenseVector(SIZE);
+                            ^
+  symbol:   class DenseVector
+  location: class CodexTest_0_5_48
+CodexTest_0_5_48.java:34: error: cannot find symbol
+        DenseVector v = new DenseVector(SIZE);
+                                        ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_5_48
+CodexTest_0_5_48.java:39: error: cannot find symbol
+            assertEquals(expected[i], actual[i], TOLERANCE);
+                                                 ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_5_48

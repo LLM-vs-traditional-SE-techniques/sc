@@ -1,0 +1,178 @@
+prompt,output
+"Suggest a test for a method with the DoubleMatrix1D assign(DoubleMatrix1D source) signature.
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public DoubleMatrix1D like(int size) {
+			return new DenseDoubleMatrix1D(size);
+		}
+Output: public static void doubleTest28() {
+			double[] data={1,2,3,4,5,6};
+			double[][] arrMatrix = 
+			{ 
+				{ 1, 2, 3, 4, 5, 6},
+				{ 2, 3, 4, 5, 6, 7}
+			};
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			DoubleMatrix2D matrix = f.make(arrMatrix);
+			DoubleMatrix1D res = vector.like(matrix.rows());
+
+						matrix.zMult(vector,res);
+
+					System.out.println(res);
+		}
+
+Input: public DenseDoubleMatrix1D(double[] values) {
+			this(values.length);
+			assign(values);
+		}
+Output: public static void testMax() {
+  double[] temp = new double[2];
+
+   temp[0] = 8.9;
+  temp[1] = 1;
+
+   DenseDoubleMatrix1D d1Double = new DenseDoubleMatrix1D(temp);
+    hep.aida.bin.DynamicBin1D d1ynamicBin = cern.colt.matrix.doublealgo.Statistic.bin(d1Double);
+   double max = d1ynamicBin.max();
+   System.out.println(""max = ""+ max);
+}
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public ArrayList() {
+        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+    }
+Output: public void emptyArraysDifferBetweenDefaultAndExplicit() {
+			assertNotSame(elementData(new ArrayList<Object>()),
+						  elementData(new ArrayList<Object>(0)));
+		}
+
+Input: public ArrayList() {
+        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+    }
+Output: public void emptyArraysAreShared() {        assertSame(new ArrayList<Object>(), new ArrayList<Object>());
+    }
+
+Input: public IndexRequest opType(String opType) {
+        String op = opType.toLowerCase(Locale.ROOT);
+        if (op.equals(""create"")) {
+            opType(OpType.CREATE);
+        } else if (op.equals(""index"")) {
+            opType(OpType.INDEX);
+        } else {
+            throw new IllegalArgumentException(""opType must be 'create' or 'index', found: ["" + opType + ""]"");
+        }
+        return this;
+    }
+Output: public void testReadBogusString() {
+        try {
+            IndexRequest indexRequest = new IndexRequest("""");
+            indexRequest.opType(""foobar"");
+            fail(""Expected IllegalArgumentException"");
+        } catch (IllegalArgumentException e) {
+            assertThat(e.getMessage(), equalTo(""opType must be 'create' or 'index', found: [foobar]""));
+        }    }
+
+Input: public void setRoot(Node root) {
+			if (this.root == null) {
+				this.root = root;
+				nodePath.push(root);
+			} else {
+				logger.warning('Root node is not null - first use the clear method.');
+			}
+		}
+Output: @Test(expected = IllegalArgumentException.class)
+		public void add_nodeHeadMustBeInEdge() {
+			Graph graph = createSimpleGraph();
+			Path path = new Path();
+				path.setRoot(graph.getNode('a'));
+				// this has to fail as there is no edge between nodes 'a' and 'c'
+			path.add(graph.getEdge('cd'));
+		}
+
+
+Input: public DoubleMatrix1D assign(DoubleMatrix1D source) {
+		// overriden for performance only
+		if (! (source instanceof DenseDoubleMatrix1D)) {
+			return super.assign(source);
+		}
+		DenseDoubleMatrix1D other = (DenseDoubleMatrix1D) source;
+		if (other==this) return this;
+		checkSize(other);
+		if (isNoView && other.isNoView) { // quickest
+			System.arraycopy(other.elements, 0, this.elements, 0, this.elements.length);
+			return this;
+		}
+		if (haveSharedCells(other)) {
+			DoubleMatrix1D c = other.copy();
+			if (! (c instanceof DenseDoubleMatrix1D)) { // should not happen
+				return super.assign(source);
+			}
+			other = (DenseDoubleMatrix1D) c;
+		}
+
+			final double[] elems = this.elements;
+		final double[] otherElems = other.elements;
+		if (elements==null || otherElems==null) throw new InternalError();
+		int s = this.stride;
+		int ys = other.stride;
+
+			int index = index(0);
+		int otherIndex = other.index(0);
+		for (int k=size; --k >= 0; ) {
+			elems[index] = otherElems[otherIndex];
+			index += s;
+			otherIndex += ys;
+		}
+		return this;
+	}
+Output:
+  ","import cern.colt.matrix.*;
+import cern.colt.list.DoubleArrayList;
+import cern.colt.list.IntArrayList;
+import cern.colt.matrix.impl.AbstractMatrix1D;
+
+import hep.aida.bin.*;
+import cern.colt.matrix.impl.*;
+import cern.colt.function.DoubleDoubleFunction;
+import cern.colt.function.DoubleFunction;
+import cern.colt.list.IntArrayList;
+import cern.colt.map.AbstractIntDoubleMap;
+import cern.colt.map.OpenIntDoubleHashMap;
+import cern.colt.matrix.DoubleFactory2D;
+import cern.colt.matrix.DoubleMatrix1D;
+import cern.colt.matrix.DoubleMatrix2D;
+import cern.colt.matrix.DoubleMatrix3D;
+import cern.colt.matrix.doublealgo.DoubleMatrix2DComparator;
+import cern.colt.matrix.linalg.Algebra;
+import cern.colt.matrix.linalg.LUDecompositionQuick;
+import cern.colt.matrix.linalg.SeqBlas;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_2_6 { 
+  @Test
+    public void testAssign() {
+        DoubleMatrix1D a = new DenseDoubleMatrix1D(new double[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236,
+}"

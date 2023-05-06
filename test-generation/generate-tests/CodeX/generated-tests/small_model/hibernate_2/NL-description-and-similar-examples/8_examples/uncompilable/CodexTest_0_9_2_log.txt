@@ -1,0 +1,43 @@
+isCompilable => false
+CodexTest_0_9_2.java:15: error: ';' expected
+   Error on the following call:
+           ^
+CodexTest_0_9_2.java:15: error: ';' expected
+   Error on the following call:
+                         ^
+CodexTest_0_9_2.java:15: error: <identifier> expected
+   Error on the following call:
+                              ^
+CodexTest_0_9_2.java:16: error: <identifier> expected
+   BooleanTypeDescriptor.fromString("foo");
+                                   ^
+CodexTest_0_9_2.java:16: error: illegal start of type
+   BooleanTypeDescriptor.fromString("foo");
+                                    ^
+CodexTest_0_9_2.java:17: error: invalid method declaration; return type required
+   Expected (but not found) is a class that extends Boolean but was Boolean
+   ^
+CodexTest_0_9_2.java:17: error: ')' expected
+   Expected (but not found) is a class that extends Boolean but was Boolean
+                    ^
+CodexTest_0_9_2.java:17: error: illegal start of type
+   Expected (but not found) is a class that extends Boolean but was Boolean
+                          ^
+CodexTest_0_9_2.java:17: error: ';' expected
+   Expected (but not found) is a class that extends Boolean but was Boolean
+                              ^
+CodexTest_0_9_2.java:17: error: <identifier> expected
+   Expected (but not found) is a class that extends Boolean but was Boolean
+                                ^
+CodexTest_0_9_2.java:17: error: <identifier> expected
+   Expected (but not found) is a class that extends Boolean but was Boolean
+                                           ^
+CodexTest_0_9_2.java:17: error: ';' expected
+   Expected (but not found) is a class that extends Boolean but was Boolean
+                                                               ^
+CodexTest_0_9_2.java:17: error: ';' expected
+   Expected (but not found) is a class that extends Boolean but was Boolean
+                                                                           ^
+CodexTest_0_9_2.java:19: error: class, interface, or enum expected
+}
+^

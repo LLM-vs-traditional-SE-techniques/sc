@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_8.java:18: error: cannot find symbol
+    checkGetAsInstance(new String[]{"-R", "1-2", "test/test1.arff"});
+    ^
+  symbol:   method checkGetAsInstance(java.lang.String[])
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:19: error: cannot find symbol
+    checkGetAsInstance(new String[]{"-R", "5-5", "test/test1.arff"});
+    ^
+  symbol:   method checkGetAsInstance(java.lang.String[])
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:20: error: cannot find symbol
+    checkGetAsInstance(new String[]{"-R", "5-5", "-V", "test/test1.arff"});
+    ^
+  symbol:   method checkGetAsInstance(java.lang.String[])
+  location: class CodexTest_0_8_8

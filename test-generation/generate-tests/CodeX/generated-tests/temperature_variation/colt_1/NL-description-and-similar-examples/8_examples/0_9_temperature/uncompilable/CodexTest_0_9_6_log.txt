@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_6.java:29: error: invalid method declaration; return type required
+    assertEquals(2, vector.get(2));
+    ^
+CodexTest_0_9_6.java:29: error: illegal start of type
+    assertEquals(2, vector.get(2));
+                 ^
+CodexTest_0_9_6.java:29: error: <identifier> expected
+    assertEquals(2, vector.get(2));
+                              ^
+CodexTest_0_9_6.java:29: error: ';' expected
+    assertEquals(2, vector.get(2));
+                               ^
+CodexTest_0_9_6.java:29: error: illegal start of type
+    assertEquals(2, vector.get(2));
+                                ^
+CodexTest_0_9_6.java:29: error: <identifier> expected
+    assertEquals(2, vector.get(2));
+                                 ^
+CodexTest_0_9_6.java:30: error: <identifier> expected
+    vector.set(2, 22);
+              ^
+CodexTest_0_9_6.java:30: error: illegal start of type
+    vector.set(2, 22);
+               ^
+CodexTest_0_9_6.java:30: error: illegal start of type
+    vector.set(2, 22);
+                  ^
+CodexTest_0_9_6.java:31: error: invalid method declaration; return type required
+    assertEquals(22, vector.get(2));
+    ^
+CodexTest_0_9_6.java:31: error: illegal start of type
+    assertEquals(22, vector.get(2));
+                 ^
+CodexTest_0_9_6.java:31: error: <identifier> expected
+    assertEquals(22, vector.get(2));
+                               ^
+CodexTest_0_9_6.java:31: error: ';' expected
+    assertEquals(22, vector.get(2));
+                                ^
+CodexTest_0_9_6.java:31: error: illegal start of type
+    assertEquals(22, vector.get(2));
+                                 ^
+CodexTest_0_9_6.java:31: error: <identifier> expected
+    assertEquals(22, vector.get(2));
+                                  ^

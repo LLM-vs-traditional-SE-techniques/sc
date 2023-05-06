@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_6.java:51: error: <identifier> expected
+Input: public static DoubleMatrix1D like1D(int size) {
+     ^
+CodexTest_0_8_6.java:54: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_6.java:67: error: reached end of file while parsing
+}
+ ^

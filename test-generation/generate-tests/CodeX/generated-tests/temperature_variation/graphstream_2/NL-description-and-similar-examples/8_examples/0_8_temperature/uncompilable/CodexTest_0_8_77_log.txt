@@ -1,0 +1,47 @@
+isCompilable => false
+CodexTest_0_8_77.java:23: error: cannot find symbol
+        Path path1 = createPath();
+                     ^
+  symbol:   method createPath()
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:24: error: cannot find symbol
+        Path path2 = createPath();
+                     ^
+  symbol:   method createPath()
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:25: error: cannot find symbol
+        Path path3 = createPath();
+                     ^
+  symbol:   method createPath()
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:26: error: cannot find symbol
+        Path path4 = createPath();
+                     ^
+  symbol:   method createPath()
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:32: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path4.add(new Edge());
+                  ^
+CodexTest_0_8_77.java:37: error: cannot find symbol
+        Path path1 = createPath();
+                     ^
+  symbol:   method createPath()
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:38: error: cannot find symbol
+        Path path2 = createPath();
+                     ^
+  symbol:   method createPath()
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:39: error: cannot find symbol
+        Path path3 = createPath();
+                     ^
+  symbol:   method createPath()
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:40: error: cannot find symbol
+        Path path4 = createPath();
+                     ^
+  symbol:   method createPath()
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:46: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+        path4.add(new Edge());
+                  ^

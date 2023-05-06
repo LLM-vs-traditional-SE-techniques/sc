@@ -1,0 +1,38 @@
+isCompilable => false
+CodexTest_0_8_36.java:20: error: cannot find symbol
+        edgelist.add(e1);
+                     ^
+  symbol:   variable e1
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:20: error: cannot find symbol
+        edgelist.add(e1);
+        ^
+  symbol:   variable edgelist
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:21: error: type org.graphstream.graph.Graph does not take parameters
+        Graph<String, Edge> graph = new DefaultGraph<String, Edge>("Graph", true, true);
+             ^
+CodexTest_0_8_36.java:21: error: type org.graphstream.graph.implementations.DefaultGraph does not take parameters
+        Graph<String, Edge> graph = new DefaultGraph<String, Edge>("Graph", true, true);
+                                                    ^
+CodexTest_0_8_36.java:22: error: type org.graphstream.graph.Path does not take parameters
+        Path<String, Edge> path = new Path<String, Edge>(graph);
+            ^
+CodexTest_0_8_36.java:22: error: type org.graphstream.graph.Path does not take parameters
+        Path<String, Edge> path = new Path<String, Edge>(graph);
+                                          ^
+CodexTest_0_8_36.java:23: error: cannot find symbol
+        path.setRoot(v1);
+                     ^
+  symbol:   variable v1
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:24: error: cannot find symbol
+        path.add(e1);
+                 ^
+  symbol:   variable e1
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:25: error: cannot find symbol
+        assertTrue(path.contains(e1));
+                                 ^
+  symbol:   variable e1
+  location: class CodexTest_0_8_36

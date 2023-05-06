@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_6_9.java:25: error: cannot find symbol
+    assertEquals(new LongHashCode(0), HashCode.fromLong(0));
+                     ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:26: error: cannot find symbol
+    assertEquals(new LongHashCode(-1), HashCode.fromLong(-1));
+                     ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:27: error: cannot find symbol
+    assertEquals(new LongHashCode(1), HashCode.fromLong(1));
+                     ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:28: error: cannot find symbol
+    assertEquals(new LongHashCode(Integer.MAX_VALUE + 1L),
+                     ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:30: error: cannot find symbol
+    assertEquals(new LongHashCode(Long.MAX_VALUE), HashCode.fromLong(Long.MAX_VALUE));
+                     ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_6_9

@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_5_8.java:68: error: cannot find symbol
+			Node root = new Node(parent);
+			^
+  symbol:   class Node
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:68: error: cannot find symbol
+			Node root = new Node(parent);
+			                ^
+  symbol:   class Node
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:69: error: cannot find symbol
+			Node childNode = new Node(child);
+			^
+  symbol:   class Node
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:69: error: cannot find symbol
+			Node childNode = new Node(child);
+			                     ^
+  symbol:   class Node
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:70: error: cannot find symbol
+			Node grandchildNode = new Node(grandchild);
+			^
+  symbol:   class Node
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:70: error: cannot find symbol
+			Node grandchildNode = new Node(grandchild);
+			                          ^
+  symbol:   class Node
+  location: class CodexTest_0_5_8

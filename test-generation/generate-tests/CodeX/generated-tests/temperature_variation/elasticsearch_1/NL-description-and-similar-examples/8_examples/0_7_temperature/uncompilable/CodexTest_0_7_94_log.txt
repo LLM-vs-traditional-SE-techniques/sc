@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_94.java:66: error: cannot find symbol
+            new TestClass(null);
+                ^
+  symbol:   class TestClass
+  location: class CodexTest_0_7_94

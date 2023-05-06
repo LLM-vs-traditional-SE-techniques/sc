@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_19.java:39: error: <identifier> expected
+Input:  dot = new double[m][n];
+     ^
+CodexTest_0_8_19.java:39: error: <identifier> expected
+Input:  dot = new double[m][n];
+           ^
+CodexTest_0_8_19.java:40: error: <identifier> expected
+Output: 
+      ^

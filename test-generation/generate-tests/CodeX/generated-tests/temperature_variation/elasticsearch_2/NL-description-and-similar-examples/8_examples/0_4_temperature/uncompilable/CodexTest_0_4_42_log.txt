@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_42.java:66: error: cannot find symbol
+        String field = randomAsciiOfLengthBetween(3, 10);
+                       ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_4_42
+CodexTest_0_4_42.java:67: error: cannot find symbol
+        String value = randomAsciiOfLengthBetween(3, 10);
+                       ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_4_42
+CodexTest_0_4_42.java:71: error: cannot find symbol
+        assertToXContent(indexRequest, "{\"" + field + "\":\"" + value + "\"}", ToXContent.EMPTY_PARAMS);
+                                                                                ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_4_42

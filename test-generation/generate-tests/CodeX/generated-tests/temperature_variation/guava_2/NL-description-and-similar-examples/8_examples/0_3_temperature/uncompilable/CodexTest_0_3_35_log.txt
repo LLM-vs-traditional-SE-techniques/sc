@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_3_35.java:28: error: cannot find symbol
+    int bits = bits();
+               ^
+  symbol:   method bits()
+  location: class CodexTest_0_3_35
+CodexTest_0_3_35.java:32: error: cannot find symbol
+    writeBytesToImpl(dest, offset, length);
+    ^
+  symbol:   method writeBytesToImpl(byte[],int,int)
+  location: class CodexTest_0_3_35
+CodexTest_0_3_35.java:34: error: cannot find symbol
+    System.arraycopy(toByteArray(), 0, expected, offset, length);
+                     ^
+  symbol:   method toByteArray()
+  location: class CodexTest_0_3_35

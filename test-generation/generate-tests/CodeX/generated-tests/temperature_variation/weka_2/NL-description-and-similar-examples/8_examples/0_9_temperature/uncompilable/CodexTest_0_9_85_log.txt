@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_85.java:26: error: <identifier> expected
+Input: public Instance getAsInstance(Instances model, Random random) 
+     ^
+CodexTest_0_9_85.java:49: error: <identifier> expected
+Output: @Test public void testShouldThrowRuntimeExceptionIfGivesInvalidValue() {
+      ^
+CodexTest_0_9_85.java:50: error: reached end of file while parsing
+}
+ ^

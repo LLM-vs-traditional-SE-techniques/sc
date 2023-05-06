@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_57.java:23: error: cannot find symbol
+		DoubleVector instance = new DoubleVector(attrs, index, 4);
+		^
+  symbol:   class DoubleVector
+  location: class CodexTest_0_8_57
+CodexTest_0_8_57.java:23: error: cannot find symbol
+		DoubleVector instance = new DoubleVector(attrs, index, 4);
+		                            ^
+  symbol:   class DoubleVector
+  location: class CodexTest_0_8_57

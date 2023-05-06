@@ -1,0 +1,58 @@
+isCompilable => false
+CodexTest_0_9_1.java:74: error: illegal character: '`'
+```
+^
+CodexTest_0_9_1.java:74: error: illegal character: '`'
+```
+ ^
+CodexTest_0_9_1.java:74: error: illegal character: '`'
+```
+  ^
+CodexTest_0_9_1.java:75: error: illegal character: '#'
+## List of generated test cases
+^
+CodexTest_0_9_1.java:75: error: illegal character: '#'
+## List of generated test cases
+ ^
+CodexTest_0_9_1.java:75: error: ';' expected
+## List of generated test cases
+                    ^
+CodexTest_0_9_1.java:75: error: ';' expected
+## List of generated test cases
+                               ^
+CodexTest_0_9_1.java:76: error: <identifier> expected
+- [x] java-benchmark
+    ^
+CodexTest_0_9_1.java:76: error: <identifier> expected
+- [x] java-benchmark
+          ^
+CodexTest_0_9_1.java:76: error: <identifier> expected
+- [x] java-benchmark
+                    ^
+CodexTest_0_9_1.java:77: error: illegal start of type
+- [x] init-maven-plugin
+  ^
+CodexTest_0_9_1.java:77: error: ';' expected
+- [x] init-maven-plugin
+    ^
+CodexTest_0_9_1.java:77: error: <identifier> expected
+- [x] init-maven-plugin
+          ^
+CodexTest_0_9_1.java:77: error: <identifier> expected
+- [x] init-maven-plugin
+                ^
+CodexTest_0_9_1.java:77: error: <identifier> expected
+- [x] init-maven-plugin
+                       ^
+CodexTest_0_9_1.java:78: error: illegal start of type
+- [x] jsr305
+  ^
+CodexTest_0_9_1.java:78: error: ';' expected
+- [x] jsr305
+    ^
+CodexTest_0_9_1.java:78: error: <identifier> expected
+- [x] jsr305
+            ^
+CodexTest_0_9_1.java:79: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_8_79.java:28: error: writeBytesToImpl(byte[],int,int) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+			h1.writeBytesToImpl(dest, 0, 3);
+			  ^
+CodexTest_0_8_79.java:32: error: cannot find symbol
+			Random rnd = new Random();
+			^
+  symbol:   class Random
+  location: class CodexTest_0_8_79
+CodexTest_0_8_79.java:32: error: cannot find symbol
+			Random rnd = new Random();
+			                 ^
+  symbol:   class Random
+  location: class CodexTest_0_8_79
+CodexTest_0_8_79.java:34: error: writeBytesToImpl(byte[],int,int) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+			h1.writeBytesToImpl(dest, 2, 1);
+			  ^

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_68.java:29: error: <identifier> expected
+Input: public String getName() {
+     ^
+CodexTest_0_9_68.java:32: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_68.java:39: error: <identifier> expected
+Input: public PagesAfter(long next, long last, long max) {
+     ^
+CodexTest_0_9_68.java:39: error: invalid method declaration; return type required
+Input: public PagesAfter(long next, long last, long max) {
+              ^
+CodexTest_0_9_68.java:44: error: <identifier> expected
+Output: 
+      ^

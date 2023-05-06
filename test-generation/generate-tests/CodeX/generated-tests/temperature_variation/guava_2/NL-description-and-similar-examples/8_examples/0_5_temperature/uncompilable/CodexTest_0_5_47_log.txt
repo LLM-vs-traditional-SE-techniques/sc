@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_5_47.java:26: error: incompatible types: possible lossy conversion from int to byte
+            0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0,
+                                    ^
+CodexTest_0_5_47.java:26: error: incompatible types: possible lossy conversion from int to byte
+            0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0,
+                                          ^
+CodexTest_0_5_47.java:26: error: incompatible types: possible lossy conversion from int to byte
+            0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0,
+                                                ^
+CodexTest_0_5_47.java:26: error: incompatible types: possible lossy conversion from int to byte
+            0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0,
+                                                      ^
+CodexTest_0_5_47.java:27: error: incompatible types: possible lossy conversion from int to byte
+            0x34, 0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x12,
+                              ^
+CodexTest_0_5_47.java:27: error: incompatible types: possible lossy conversion from int to byte
+            0x34, 0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x12,
+                                    ^
+CodexTest_0_5_47.java:27: error: incompatible types: possible lossy conversion from int to byte
+            0x34, 0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x12,
+                                          ^
+CodexTest_0_5_47.java:27: error: incompatible types: possible lossy conversion from int to byte
+            0x34, 0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x12,
+                                                ^
+CodexTest_0_5_47.java:28: error: incompatible types: possible lossy conversion from int to byte
+            0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x12, 0x34,
+                        ^
+CodexTest_0_5_47.java:28: error: incompatible types: possible lossy conversion from int to byte
+            0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x12, 0x34,
+                              ^
+CodexTest_0_5_47.java:28: error: incompatible types: possible lossy conversion from int to byte
+            0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x12, 0x34,
+                                    ^
+CodexTest_0_5_47.java:28: error: incompatible types: possible lossy conversion from int to byte
+            0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x12, 0x34,
+                                          ^
+CodexTest_0_5_47.java:29: error: incompatible types: possible lossy conversion from int to byte
+            0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x12, 0x34, 0x56,
+                  ^
+CodexTest_0_5_47.java:29: error: incompatible types: possible lossy conversion from int to byte
+            0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x12, 0x34, 0x56,
+                        ^
+CodexTest_0_5_47.java:29: error: incompatible types: possible lossy conversion from int to byte
+            0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x12, 0x34, 0x56,
+                              ^
+CodexTest_0_5_47.java:29: error: incompatible types: possible lossy conversion from int to byte
+            0x78, 0x9A, 0xBC, 0xDE, 0xF0, 0x12, 0x34, 0x56,
+                                    ^
+CodexTest_0_5_47.java:30: error: incompatible types: possible lossy conversion from int to byte
+            0x9A, 0xBC, 0xDE, 0xF0, 0x12, 0x34, 0x56, 0x78,
+            ^
+CodexTest_0_5_47.java:30: error: incompatible types: possible lossy conversion from int to byte
+            0x9A, 0xBC, 0xDE, 0xF0, 0x12, 0x34, 0x56, 0x78,
+                  ^
+CodexTest_0_5_47.java:30: error: incompatible types: possible lossy conversion from int to byte
+            0x9A, 0xBC, 0xDE, 0xF0, 0x12, 0x34, 0x56, 0x78,
+                        ^
+CodexTest_0_5_47.java:30: error: incompatible types: possible lossy conversion from int to byte
+            0x9A, 0xBC, 0xDE, 0xF0, 0x12, 0x34, 0x56, 0x78,
+                              ^
+CodexTest_0_5_47.java:36: error: cannot find symbol
+            assertEquals(i + 1, new BitArray(bytes).writeBytesTo(dest, 0, i + 1));
+                                    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_5_47

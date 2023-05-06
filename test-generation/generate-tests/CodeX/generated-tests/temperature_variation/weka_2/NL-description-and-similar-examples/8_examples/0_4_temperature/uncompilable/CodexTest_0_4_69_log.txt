@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_4_69.java:19: error: cannot find symbol
+      Instances insts = makeTestInstances();
+                        ^
+  symbol:   method makeTestInstances()
+  location: class CodexTest_0_4_69
+Note: CodexTest_0_4_69.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

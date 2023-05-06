@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_1.java:65: error: cannot find symbol
+            String parent = nodeId("parent");
+                            ^
+  symbol:   method nodeId(java.lang.String)
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:66: error: cannot find symbol
+            NestedPath nested = new NestedPath("parent", "nested", parent);
+            ^
+  symbol:   class NestedPath
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:66: error: cannot find symbol
+            NestedPath nested = new NestedPath("parent", "nested", parent);
+                                    ^
+  symbol:   class NestedPath
+  location: class CodexTest_0_9_1

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_56.java:21: error: cannot find symbol
+            Instances model = new Instances(new BufferedReader(
+                                                ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_6_56
+CodexTest_0_6_56.java:22: error: cannot find symbol
+                    new FileReader("/home/hongzhe/Documents/test/test.arff")));
+                        ^
+  symbol:   class FileReader
+  location: class CodexTest_0_6_56

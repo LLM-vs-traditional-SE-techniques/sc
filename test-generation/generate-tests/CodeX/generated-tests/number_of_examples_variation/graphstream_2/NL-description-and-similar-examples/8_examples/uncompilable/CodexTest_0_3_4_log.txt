@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_3_4.java:24: error: cannot find symbol
+        path1.add(graph.getNode("a"));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:25: error: cannot find symbol
+        path1.add(graph.getNode("b"));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:26: error: cannot find symbol
+        path1.add(graph.getNode("c"));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:27: error: cannot find symbol
+        path2.add(graph.getNode("a"));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:28: error: cannot find symbol
+        path2.add(graph.getNode("b"));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:29: error: cannot find symbol
+        path2.add(graph.getNode("c"));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:32: error: cannot find symbol
+        path1.add(graph.getNode("d"));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_4
+CodexTest_0_3_4.java:35: error: cannot find symbol
+        path2.add(graph.getNode("d"));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_3_4

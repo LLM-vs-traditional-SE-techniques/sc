@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_72.java:21: error: cannot find symbol
+        final SetOfBoolean bm = new SetOfBoolean(5);
+              ^
+  symbol:   class SetOfBoolean
+  location: class CodexTest_0_7_72
+CodexTest_0_7_72.java:21: error: cannot find symbol
+        final SetOfBoolean bm = new SetOfBoolean(5);
+                                    ^
+  symbol:   class SetOfBoolean
+  location: class CodexTest_0_7_72

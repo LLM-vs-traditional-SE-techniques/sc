@@ -1,0 +1,2 @@
+cern.colt.matrix.impl.DenseDoubleMatrix1D(int)
+cern.colt.matrix.impl.DenseDoubleMatrix1D.like2D(int, int)

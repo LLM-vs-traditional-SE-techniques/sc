@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_5.java:82: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_9_5.java:85: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_5.java:97: error: <identifier> expected
+                    .index("articles-2014").type("article").
+                                                            ^
+CodexTest_0_9_5.java:97: error: not a statement
+                    .index("articles-2014").type("article").
+                                                           ^
+CodexTest_0_9_5.java:98: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_7.java:34: error: size has protected access in cern.colt.matrix.impl.AbstractMatrix1D
+        for (int i = 0; i < m.size; i++) {
+                             ^

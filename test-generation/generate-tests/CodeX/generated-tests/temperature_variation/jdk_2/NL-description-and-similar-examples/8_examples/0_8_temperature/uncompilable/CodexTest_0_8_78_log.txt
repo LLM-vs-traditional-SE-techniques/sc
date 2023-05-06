@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_78.java:21: error: cannot find symbol
+        List<Integer> list = Arrays.stream(input).boxed().collect(Collectors.toList());
+                                                                  ^
+  symbol:   variable Collectors
+  location: class CodexTest_0_8_78

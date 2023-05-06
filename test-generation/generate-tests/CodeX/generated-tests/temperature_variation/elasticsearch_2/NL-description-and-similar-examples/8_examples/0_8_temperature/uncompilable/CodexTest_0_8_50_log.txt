@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_50.java:66: error: cannot find symbol
+        assertThat(request.getContentType(), equalTo(XContentType.JSON));
+                                             ^
+  symbol:   method equalTo(org.elasticsearch.common.xcontent.XContentType)
+  location: class CodexTest_0_8_50

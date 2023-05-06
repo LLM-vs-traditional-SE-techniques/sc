@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_77.java:65: error: cannot find symbol
+        System.out.println(parent());
+                           ^
+  symbol:   method parent()
+  location: class CodexTest_0_8_77

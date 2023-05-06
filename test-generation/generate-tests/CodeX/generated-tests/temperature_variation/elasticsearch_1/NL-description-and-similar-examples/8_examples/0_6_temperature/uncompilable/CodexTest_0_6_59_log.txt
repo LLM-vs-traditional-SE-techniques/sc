@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_59.java:65: error: cannot find symbol
+        final String parent = randomAlphaOfLength(5);
+                              ^
+  symbol:   method randomAlphaOfLength(int)
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:66: error: cannot find symbol
+        final SearchScrollRequest request = new SearchScrollRequest(parent);
+              ^
+  symbol:   class SearchScrollRequest
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:66: error: cannot find symbol
+        final SearchScrollRequest request = new SearchScrollRequest(parent);
+                                                ^
+  symbol:   class SearchScrollRequest
+  location: class CodexTest_0_6_59
+CodexTest_0_6_59.java:67: error: cannot find symbol
+        assertThat(request.parent(), equalTo(parent));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_6_59

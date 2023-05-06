@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_10.java:31: error: cannot find symbol
+        DenseVector u = new DenseVector(one);
+        ^
+  symbol:   class DenseVector
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:31: error: cannot find symbol
+        DenseVector u = new DenseVector(one);
+                            ^
+  symbol:   class DenseVector
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:31: error: cannot find symbol
+        DenseVector u = new DenseVector(one);
+                                        ^
+  symbol:   variable one
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:32: error: cannot find symbol
+        DenseVector v = new DenseVector(one);
+        ^
+  symbol:   class DenseVector
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:32: error: cannot find symbol
+        DenseVector v = new DenseVector(one);
+                            ^
+  symbol:   class DenseVector
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:32: error: cannot find symbol
+        DenseVector v = new DenseVector(one);
+                                        ^
+  symbol:   variable one
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:33: error: cannot find symbol
+        v.set(2, two);
+                 ^
+  symbol:   variable two
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:34: error: cannot find symbol
+        assertEquals(Math.pow(u.distance(v), 2), Distance.distanceSq(u, v));
+                                                 ^
+  symbol:   variable Distance
+  location: class CodexTest_0_8_10

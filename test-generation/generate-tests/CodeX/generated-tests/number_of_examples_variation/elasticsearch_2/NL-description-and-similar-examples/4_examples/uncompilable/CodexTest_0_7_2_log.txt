@@ -1,0 +1,65 @@
+isCompilable => false
+CodexTest_0_7_2.java:65: error: cannot find symbol
+        MapperService mapperService = createMapperService(mapping(b -> {}));
+        ^
+  symbol:   class MapperService
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:65: error: cannot find symbol
+        MapperService mapperService = createMapperService(mapping(b -> {}));
+                                                          ^
+  symbol:   method mapping((b)->{ })
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:67: error: reference to field is ambiguous
+            builder.field("col", null);
+                   ^
+  both method field(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>) in org.elasticsearch.common.xcontent.XContentBuilder and method field(java.lang.String,java.lang.Iterable<?>) in org.elasticsearch.common.xcontent.XContentBuilder match
+CodexTest_0_7_2.java:69: error: cannot find symbol
+            SourceToParse source = SourceToParse.source(builder.bytes(), XContentType.JSON);
+            ^
+  symbol:   class SourceToParse
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:69: error: cannot find symbol
+            SourceToParse source = SourceToParse.source(builder.bytes(), XContentType.JSON);
+                                   ^
+  symbol:   variable SourceToParse
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:70: error: cannot find symbol
+            DocumentMapper defaultMapper = mapperService.documentMapper();
+            ^
+  symbol:   class DocumentMapper
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:71: error: cannot find symbol
+            ParsedDocument doc = defaultMapper.parse(source);
+            ^
+  symbol:   class ParsedDocument
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:72: error: cannot find symbol
+            assertThat(doc.docs(), hasSize(1));
+                                   ^
+  symbol:   method hasSize(int)
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:73: error: cannot find symbol
+            IndexableField[] fields = doc.docs().get(0).getFields("col");
+            ^
+  symbol:   class IndexableField
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:74: error: cannot find symbol
+            assertThat(fields, notNullValue());
+                               ^
+  symbol:   method notNullValue()
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:75: error: cannot find symbol
+            assertThat(fields.length, equalTo(1));
+                                      ^
+  symbol:   method equalTo(int)
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:76: error: cannot find symbol
+            assertThat(fields[0].fieldType().docValuesType(), equalTo(DocValuesType.SORTED_NUMERIC));
+                                                                      ^
+  symbol:   variable DocValuesType
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:77: error: cannot find symbol
+            assertThat(fields[0].tokenStream(defaultMapper.mappers().indexAnalyzer(), null), nullValue());
+                                                                                             ^
+  symbol:   method nullValue()
+  location: class CodexTest_0_7_2

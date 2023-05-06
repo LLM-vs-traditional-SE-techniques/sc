@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_8_41.java:65: error: package Connection does not exist
+        Connection.Builder builder = new Connection.Builder("http://my.host/");
+                  ^
+CodexTest_0_8_41.java:65: error: package Connection does not exist
+        Connection.Builder builder = new Connection.Builder("http://my.host/");
+                                                   ^
+CodexTest_0_8_41.java:67: error: cannot find symbol
+        Connection conn = builder.build();
+        ^
+  symbol:   class Connection
+  location: class CodexTest_0_8_41

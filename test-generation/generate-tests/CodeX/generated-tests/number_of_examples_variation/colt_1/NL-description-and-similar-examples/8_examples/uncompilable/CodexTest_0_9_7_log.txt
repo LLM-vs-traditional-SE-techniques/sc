@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_7.java:32: error: cannot find symbol
+		int[] stride = MDArray.calcStrides(shape);
+		               ^
+  symbol:   variable MDArray
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:33: error: cannot find symbol
+		DoubleArray array = new DenseDoubleArray(data, shape, stride, false);
+		^
+  symbol:   class DoubleArray
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:33: error: cannot find symbol
+		DoubleArray array = new DenseDoubleArray(data, shape, stride, false);
+		                        ^
+  symbol:   class DenseDoubleArray
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:34: error: cannot find symbol
+		DoubleDataset ret = DatasetFactory.zeros(new int[]{3, 4, 2}, Dataset.FLOAT64);
+		^
+  symbol:   class DoubleDataset
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:34: error: cannot find symbol
+		DoubleDataset ret = DatasetFactory.zeros(new int[]{3, 4, 2}, Dataset.FLOAT64);
+		                                                             ^
+  symbol:   variable Dataset
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:34: error: cannot find symbol
+		DoubleDataset ret = DatasetFactory.zeros(new int[]{3, 4, 2}, Dataset.FLOAT64);
+		                    ^
+  symbol:   variable DatasetFactory
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:36: error: cannot find symbol
+		DatasetTestUtils.assertDatasetEquals(DatasetFactory.createRange(0, 24, 1), ret);
+		                                     ^
+  symbol:   variable DatasetFactory
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:36: error: cannot find symbol
+		DatasetTestUtils.assertDatasetEquals(DatasetFactory.createRange(0, 24, 1), ret);
+		^
+  symbol:   variable DatasetTestUtils
+  location: class CodexTest_0_9_7

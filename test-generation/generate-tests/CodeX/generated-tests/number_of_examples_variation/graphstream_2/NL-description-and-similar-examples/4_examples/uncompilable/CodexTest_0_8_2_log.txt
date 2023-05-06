@@ -1,0 +1,35 @@
+isCompilable => false
+CodexTest_0_8_2.java:23: error: type org.graphstream.graph.Graph does not take parameters
+         Graph<String, String> graph = new DefaultDirectedGraph<String, String>(
+              ^
+CodexTest_0_8_2.java:23: error: cannot find symbol
+         Graph<String, String> graph = new DefaultDirectedGraph<String, String>(
+                                           ^
+  symbol:   class DefaultDirectedGraph
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:34: error: cannot find symbol
+         DijkstraShortestPath<String, String> dijkstra = new DijkstraShortestPath<String, String>(
+         ^
+  symbol:   class DijkstraShortestPath
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:34: error: cannot find symbol
+         DijkstraShortestPath<String, String> dijkstra = new DijkstraShortestPath<String, String>(
+                                                             ^
+  symbol:   class DijkstraShortestPath
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:36: error: type org.graphstream.graph.Path does not take parameters
+         Path<String, String> path = dijkstra.getPath();
+             ^
+CodexTest_0_8_2.java:38: error: cannot find symbol
+         DijkstraShortestPath<String, String> dijkstra2 = new DijkstraShortestPath<String, String>(
+         ^
+  symbol:   class DijkstraShortestPath
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:38: error: cannot find symbol
+         DijkstraShortestPath<String, String> dijkstra2 = new DijkstraShortestPath<String, String>(
+                                                              ^
+  symbol:   class DijkstraShortestPath
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:40: error: type org.graphstream.graph.Path does not take parameters
+         Path<String, String> path2 = dijkstra2.getPath();
+             ^

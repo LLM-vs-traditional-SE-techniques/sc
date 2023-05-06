@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_61.java:18: error: cannot find symbol
+        TIntArrayList indices = new TIntArrayList();
+        ^
+  symbol:   class TIntArrayList
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:18: error: cannot find symbol
+        TIntArrayList indices = new TIntArrayList();
+                                    ^
+  symbol:   class TIntArrayList
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:23: error: cannot find symbol
+        WekaAlgVector vector = new WekaAlgVector(indices, values);
+        ^
+  symbol:   class WekaAlgVector
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:23: error: cannot find symbol
+        WekaAlgVector vector = new WekaAlgVector(indices, values);
+                                   ^
+  symbol:   class WekaAlgVector
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:24: error: cannot find symbol
+        Instances instances = InstanceBuilder.builder()
+                              ^
+  symbol:   variable InstanceBuilder
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:30: error: cannot find symbol
+        assertEquals(0, vector.getAsInstance(instances, random()).value(0));
+                                                        ^
+  symbol:   method random()
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:31: error: cannot find symbol
+        assertEquals(2, vector.getAsInstance(instances, random()).value(1));
+                                                        ^
+  symbol:   method random()
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:32: error: cannot find symbol
+        assertEquals(4, vector.getAsInstance(instances, random()).value(2));
+                                                        ^
+  symbol:   method random()
+  location: class CodexTest_0_9_61
+CodexTest_0_9_61.java:33: error: cannot find symbol
+        assertEquals(0, vector.getAsInstance(instances, random()).value(3));
+                                                        ^
+  symbol:   method random()
+  location: class CodexTest_0_9_61

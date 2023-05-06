@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_21.java:65: error: cannot find symbol
+        IndicesExistsResponse expected = new IndicesExistsResponse(true);
+        ^
+  symbol:   class IndicesExistsResponse
+  location: class CodexTest_0_7_21
+CodexTest_0_7_21.java:65: error: cannot find symbol
+        IndicesExistsResponse expected = new IndicesExistsResponse(true);
+                                             ^
+  symbol:   class IndicesExistsResponse
+  location: class CodexTest_0_7_21
+CodexTest_0_7_21.java:66: error: cannot find symbol
+        assertEquals(expected.getClass().getSimpleName(), IndicesExistsResponse.class.getSimpleName());
+                                                          ^
+  symbol:   class IndicesExistsResponse
+  location: class CodexTest_0_7_21

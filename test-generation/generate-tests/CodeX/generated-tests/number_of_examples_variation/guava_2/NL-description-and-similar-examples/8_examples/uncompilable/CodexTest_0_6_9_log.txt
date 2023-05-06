@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_9.java:26: error: cannot find symbol
+        dest[offset + i] = (byte) ((intValue >> ((maxLength - i - 1) * 8)) & 0xFF);
+                                    ^
+  symbol:   variable intValue
+  location: class CodexTest_0_6_9

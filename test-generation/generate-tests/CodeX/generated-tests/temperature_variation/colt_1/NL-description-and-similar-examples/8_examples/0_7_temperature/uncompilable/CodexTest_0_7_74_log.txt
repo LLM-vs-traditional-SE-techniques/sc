@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_7_74.java:30: error: cannot find symbol
+		DoubleMatrix1D row = F.viewRow(A, 0);
+		                               ^
+  symbol:   variable A
+  location: class CodexTest_0_7_74
+CodexTest_0_7_74.java:30: error: cannot find symbol
+		DoubleMatrix1D row = F.viewRow(A, 0);
+		                     ^
+  symbol:   variable F
+  location: class CodexTest_0_7_74
+CodexTest_0_7_74.java:31: error: cannot find symbol
+		row.assign(B);
+		           ^
+  symbol:   variable B
+  location: class CodexTest_0_7_74
+CodexTest_0_7_74.java:32: error: cannot find symbol
+		assertEquals("row", F.viewRow(DoubleFactory2D.dense.make(new double[][] { { 4, 5, 6 } }), 0), row);
+		                    ^
+  symbol:   variable F
+  location: class CodexTest_0_7_74
+CodexTest_0_7_74.java:33: error: cannot find symbol
+		DoubleMatrix1D col = F.viewColumn(A, 1);
+		                                  ^
+  symbol:   variable A
+  location: class CodexTest_0_7_74
+CodexTest_0_7_74.java:33: error: cannot find symbol
+		DoubleMatrix1D col = F.viewColumn(A, 1);
+		                     ^
+  symbol:   variable F
+  location: class CodexTest_0_7_74
+CodexTest_0_7_74.java:34: error: cannot find symbol
+		col.assign(B);
+		           ^
+  symbol:   variable B
+  location: class CodexTest_0_7_74
+CodexTest_0_7_74.java:35: error: cannot find symbol
+		assertEquals("col", F.viewColumn(DoubleFactory2D.dense
+		                    ^
+  symbol:   variable F
+  location: class CodexTest_0_7_74

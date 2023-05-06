@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_25.java:66: error: cannot find symbol
+        SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder().parent(parent);
+        ^
+  symbol:   class SearchSourceBuilder
+  location: class CodexTest_0_5_25
+CodexTest_0_5_25.java:66: error: cannot find symbol
+        SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder().parent(parent);
+                                                      ^
+  symbol:   class SearchSourceBuilder
+  location: class CodexTest_0_5_25

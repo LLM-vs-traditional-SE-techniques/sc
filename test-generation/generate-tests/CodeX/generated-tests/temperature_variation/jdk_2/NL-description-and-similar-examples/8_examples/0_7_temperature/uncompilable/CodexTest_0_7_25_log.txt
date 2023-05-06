@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_25.java:21: error: cannot find symbol
+        Exchanger x = new Exchanger();
+        ^
+  symbol:   class Exchanger
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:21: error: cannot find symbol
+        Exchanger x = new Exchanger();
+                          ^
+  symbol:   class Exchanger
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:22: error: cannot find symbol
+        assertFalse(x.contains(zero));
+                               ^
+  symbol:   variable zero
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:23: error: cannot find symbol
+        assertTrue(x.contains(one));
+                              ^
+  symbol:   variable one
+  location: class CodexTest_0_7_25

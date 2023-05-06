@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_5.java:49: error: cannot find symbol
+    for (int i = 0; i < c.getSize(); i++) {
+                         ^
+  symbol:   method getSize()
+  location: variable c of type weka.core.AlgVector

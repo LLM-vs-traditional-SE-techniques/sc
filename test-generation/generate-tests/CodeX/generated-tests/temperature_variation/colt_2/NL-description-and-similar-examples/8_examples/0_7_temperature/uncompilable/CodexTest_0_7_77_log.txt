@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_77.java:30: error: cannot find symbol
+    DoubleMatrix1D matrix = RandomMatrices.createRandom(5, 7, new Random());
+                                                                  ^
+  symbol:   class Random
+  location: class CodexTest_0_7_77
+CodexTest_0_7_77.java:30: error: cannot find symbol
+    DoubleMatrix1D matrix = RandomMatrices.createRandom(5, 7, new Random());
+                            ^
+  symbol:   variable RandomMatrices
+  location: class CodexTest_0_7_77
+CodexTest_0_7_77.java:32: error: cannot find symbol
+    matrix.zMult(RandomMatrices.createRandom(matrix.size(),1,new Random()),res);
+                                                                 ^
+  symbol:   class Random
+  location: class CodexTest_0_7_77
+CodexTest_0_7_77.java:32: error: cannot find symbol
+    matrix.zMult(RandomMatrices.createRandom(matrix.size(),1,new Random()),res);
+                 ^
+  symbol:   variable RandomMatrices
+  location: class CodexTest_0_7_77

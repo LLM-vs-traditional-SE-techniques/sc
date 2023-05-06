@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_8_57.java:21: error: type org.graphstream.graph.Graph does not take parameters
+        Graph<String, Edge> graph = factory.createGraph();
+             ^
+CodexTest_0_8_57.java:21: error: cannot find symbol
+        Graph<String, Edge> graph = factory.createGraph();
+                                    ^
+  symbol:   variable factory
+  location: class CodexTest_0_8_57
+CodexTest_0_8_57.java:27: error: type org.graphstream.graph.Path does not take parameters
+        Path<String, Edge> path = new PathImpl<>();
+            ^
+CodexTest_0_8_57.java:27: error: cannot find symbol
+        Path<String, Edge> path = new PathImpl<>();
+                                      ^
+  symbol:   class PathImpl
+  location: class CodexTest_0_8_57

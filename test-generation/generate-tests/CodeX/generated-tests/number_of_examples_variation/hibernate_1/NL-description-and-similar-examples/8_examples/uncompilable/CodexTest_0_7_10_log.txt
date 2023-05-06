@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_10.java:19: error: incompatible types: short cannot be converted to java.lang.Boolean
+        Short result = underTest.toShort((Boolean) (short) 1);
+                                                   ^

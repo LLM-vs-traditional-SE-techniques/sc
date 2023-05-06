@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_9_1.java:31: error: cannot find symbol
+        assertSize(vectorA, vectorB);
+        ^
+  symbol:   method assertSize(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:32: error: cannot find symbol
+        double[] a = vectorA.getVector();
+                            ^
+  symbol:   method getVector()
+  location: variable vectorA of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_1.java:33: error: cannot find symbol
+        double[] b = vectorB.getVector();
+                            ^
+  symbol:   method getVector()
+  location: variable vectorB of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_1.java:34: error: cannot find symbol
+        int size = vectorA.getSize();
+                          ^
+  symbol:   method getSize()
+  location: variable vectorA of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_1.java:39: error: incompatible types: double[] cannot be converted to double
+        return new Vector1D(new double[] {sum});
+                            ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

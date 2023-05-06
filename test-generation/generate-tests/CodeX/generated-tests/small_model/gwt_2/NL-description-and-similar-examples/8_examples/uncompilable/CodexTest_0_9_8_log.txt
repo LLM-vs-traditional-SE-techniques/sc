@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_8.java:15: error: cannot find symbol
+    UncaughtExceptionHandler h = CoreTest.getUncaughtExceptionHandler();
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:15: error: cannot find symbol
+    UncaughtExceptionHandler h = CoreTest.getUncaughtExceptionHandler();
+                                 ^
+  symbol:   variable CoreTest
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:17: error: cannot find symbol
+    GWT.setUncaughtExceptionHandler(new UncaughtExceptionHandler() {
+                                        ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:22: error: cannot find symbol
+    assertSame(CoreTest.getUncaughtExceptionHandler(), h);
+               ^
+  symbol:   variable CoreTest
+  location: class CodexTest_0_9_8

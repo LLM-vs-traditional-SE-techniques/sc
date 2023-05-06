@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_2_4.java:22: error: cannot find symbol
+            list.remove(0);
+            ^
+  symbol:   variable list
+  location: class CodexTest_0_2_4

@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_82.java:19: error: cannot find symbol
+            a.setDataset(new Instances(new ArrayList<>(), 1));
+                                           ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_9_82
+CodexTest_0_9_82.java:20: error: incompatible types: weka.core.DenseInstance cannot be converted to weka.core.Instances
+            assertNotNull(AlgVector.getAsInstance(a, new Random(9)));
+                                                  ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

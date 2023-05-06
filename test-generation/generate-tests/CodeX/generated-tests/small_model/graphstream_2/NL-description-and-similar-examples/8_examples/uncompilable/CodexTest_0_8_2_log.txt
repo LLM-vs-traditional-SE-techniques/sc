@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_2.java:20: error: cannot find symbol
+    assertEquals(path, path);
+                 ^
+  symbol:   variable path
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:20: error: cannot find symbol
+    assertEquals(path, path);
+                       ^
+  symbol:   variable path
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:22: error: cannot find symbol
+    assertFalse(path.equals(null));
+                ^
+  symbol:   variable path
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:23: error: cannot find symbol
+    assertFalse(path.equals(new Object()));
+                ^
+  symbol:   variable path
+  location: class CodexTest_0_8_2

@@ -1,0 +1,15 @@
+isCompilable => false
+CodexTest_0_8_18.java:27: error: cannot find symbol
+      assertThat(writeBytesTo(dest, 0, numBytes)).isEqualTo(numBytes);
+                 ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:28: error: no suitable method found for assertThat(byte[])
+      assertThat(dest).isEqualTo(new byte[numBytes]);
+      ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))

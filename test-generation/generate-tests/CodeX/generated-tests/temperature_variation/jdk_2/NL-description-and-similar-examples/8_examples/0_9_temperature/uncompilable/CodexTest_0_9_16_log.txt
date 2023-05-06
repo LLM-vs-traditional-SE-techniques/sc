@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_16.java:21: error: package StringArrays does not exist
+        StringArrays.ContainsTest arrayContainsTest = new StringArrays.ContainsTest();
+                    ^
+CodexTest_0_9_16.java:21: error: package StringArrays does not exist
+        StringArrays.ContainsTest arrayContainsTest = new StringArrays.ContainsTest();
+                                                                      ^

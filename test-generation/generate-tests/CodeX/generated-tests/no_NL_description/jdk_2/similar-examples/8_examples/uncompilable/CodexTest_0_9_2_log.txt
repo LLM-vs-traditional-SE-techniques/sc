@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_2.java:21: error: cannot find symbol
+        assertTrue(this.createFromArgsTest().contains(null));
+                       ^
+  symbol: method createFromArgsTest()
+CodexTest_0_9_2.java:22: error: cannot find symbol
+        assertTrue(this.createFromArgsTest().contains(this.getFullElements()[0]));
+                                                          ^
+  symbol: method getFullElements()
+CodexTest_0_9_2.java:22: error: cannot find symbol
+        assertTrue(this.createFromArgsTest().contains(this.getFullElements()[0]));
+                       ^
+  symbol: method createFromArgsTest()

@@ -1,0 +1,81 @@
+isCompilable => false
+CodexTest_0_7_7.java:26: error: cannot find symbol
+    BigInteger[] inputs = {
+    ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:27: error: cannot find symbol
+      BigInteger.ZERO,
+      ^
+  symbol:   variable BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:28: error: cannot find symbol
+      BigInteger.ONE,
+      ^
+  symbol:   variable BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:29: error: cannot find symbol
+      BigInteger.valueOf(-1),
+      ^
+  symbol:   variable BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:30: error: cannot find symbol
+      BigInteger.valueOf(Integer.MAX_VALUE),
+      ^
+  symbol:   variable BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:31: error: cannot find symbol
+      BigInteger.valueOf(Integer.MIN_VALUE),
+      ^
+  symbol:   variable BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:32: error: cannot find symbol
+      new BigInteger("8000000000000000", 16),
+          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:33: error: cannot find symbol
+      new BigInteger("7fffffffffffffff", 16),
+          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:34: error: cannot find symbol
+      new BigInteger("ffffffffffffffff", 16),
+          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:35: error: cannot find symbol
+      new BigInteger("10000000000000000", 16),
+          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:36: error: cannot find symbol
+      new BigInteger("-8000000000000000", 16),
+          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:37: error: cannot find symbol
+      new BigInteger("-8000000000000001", 16),
+          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:38: error: cannot find symbol
+      new BigInteger("-ffffffffffffffff", 16),
+          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:39: error: cannot find symbol
+      new BigInteger("-10000000000000000", 16),
+          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:41: error: cannot find symbol
+    for (BigInteger input : inputs) {
+         ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:43: error: cannot find symbol
+      int numBytes = LessThanBranchFree.writeBigEndian(dest, 0, input);
+                     ^
+  symbol:   variable LessThanBranchFree
+  location: class CodexTest_0_7_7

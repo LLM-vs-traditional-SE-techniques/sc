@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_94.java:66: error: cannot find symbol
+    			source.put(1, value);
+    			              ^
+  symbol:   variable value
+  location: class CodexTest_0_8_94

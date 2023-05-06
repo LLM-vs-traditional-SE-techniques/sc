@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_2_4.java:66: error: cannot find symbol
+        QueryBuilder queryBuilder = new HasParentQueryBuilder("parentType", new TermQueryBuilder("field", "value"), parent);
+        ^
+  symbol:   class QueryBuilder
+  location: class CodexTest_0_2_4
+CodexTest_0_2_4.java:66: error: cannot find symbol
+        QueryBuilder queryBuilder = new HasParentQueryBuilder("parentType", new TermQueryBuilder("field", "value"), parent);
+                                        ^
+  symbol:   class HasParentQueryBuilder
+  location: class CodexTest_0_2_4
+CodexTest_0_2_4.java:66: error: cannot find symbol
+        QueryBuilder queryBuilder = new HasParentQueryBuilder("parentType", new TermQueryBuilder("field", "value"), parent);
+                                                                                ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_2_4

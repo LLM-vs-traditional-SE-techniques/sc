@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_2.java:33: error: not a statement
+				for (int i = 0; i < data.length; i
+				                                 ^
+CodexTest_0_5_2.java:33: error: ')' expected
+				for (int i = 0; i < data.length; i
+				                                  ^
+CodexTest_0_5_2.java:34: error: illegal start of statement
+}
+^
+CodexTest_0_5_2.java:18: error: 'try' without 'catch', 'finally' or resource declarations
+			try {
+			^
+CodexTest_0_5_2.java:34: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_6_58.java:31: error: incompatible types: cern.colt.matrix.DoubleMatrix1D cannot be converted to cern.colt.matrix.DoubleMatrix2D
+			DoubleMatrix2D A = F.make(2,2);
+			                         ^
+CodexTest_0_6_58.java:32: error: no suitable method found for make(double[][])
+			A.assign(F.make(new double[][] {{-1,2},{0,0}}));
+			          ^
+    method cern.colt.matrix.DoubleFactory1D.make(double[]) is not applicable
+      (argument mismatch; double[][] cannot be converted to double[])
+    method cern.colt.matrix.DoubleFactory1D.make(cern.colt.matrix.DoubleMatrix1D[]) is not applicable
+      (argument mismatch; double[][] cannot be converted to cern.colt.matrix.DoubleMatrix1D[])
+    method cern.colt.matrix.DoubleFactory1D.make(int) is not applicable
+      (argument mismatch; double[][] cannot be converted to int)
+    method cern.colt.matrix.DoubleFactory1D.make(cern.colt.list.AbstractDoubleList) is not applicable
+      (argument mismatch; double[][] cannot be converted to cern.colt.list.AbstractDoubleList)
+CodexTest_0_6_58.java:34: error: cannot find symbol
+			A.assign(b, DoubleFunctions.div);
+			            ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_6_58
+CodexTest_0_6_58.java:35: error: cannot find symbol
+			A.assign(b, DoubleFunctions.chain(DoubleFunctions.square,DoubleFunctions.sqrt));
+			                                  ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_6_58
+CodexTest_0_6_58.java:35: error: cannot find symbol
+			A.assign(b, DoubleFunctions.chain(DoubleFunctions.square,DoubleFunctions.sqrt));
+			                                                         ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_6_58
+CodexTest_0_6_58.java:35: error: cannot find symbol
+			A.assign(b, DoubleFunctions.chain(DoubleFunctions.square,DoubleFunctions.sqrt));
+			            ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_6_58
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

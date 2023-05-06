@@ -1,0 +1,29 @@
+isCompilable => false
+CodexTest_0_4_6.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                                            ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                                                               ^
+  symbol:   class StringReader
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:23: error: weka.core.Instance is abstract; cannot be instantiated
+        Instance newInst = new Instance(model.numAttributes());
+                           ^
+CodexTest_0_4_6.java:28: error: weka.core.Instance is abstract; cannot be instantiated
+        Instance newInst1 = new Instance(model.numAttributes());
+                            ^
+CodexTest_0_4_6.java:33: error: weka.core.Instance is abstract; cannot be instantiated
+        Instance newInst2 = new Instance(model.numAttributes());
+                            ^
+CodexTest_0_4_6.java:38: error: weka.core.Instance is abstract; cannot be instantiated
+        assertEquals(newInst, new Instance(newInst.toDoubleArray()).getAsInstance(model, new Random()));
+                              ^
+CodexTest_0_4_6.java:39: error: weka.core.Instance is abstract; cannot be instantiated
+        assertEquals(newInst1, new Instance(newInst1.toDoubleArray()).getAsInstance(model, new Random()));
+                               ^
+CodexTest_0_4_6.java:40: error: weka.core.Instance is abstract; cannot be instantiated
+        assertEquals(newInst2, new Instance(newInst2.toDoubleArray()).getAsInstance(model, new Random()));
+                               ^

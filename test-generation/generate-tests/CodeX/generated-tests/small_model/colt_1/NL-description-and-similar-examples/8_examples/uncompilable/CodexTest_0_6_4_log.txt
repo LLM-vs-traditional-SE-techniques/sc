@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_6_4.java:40: error: <identifier> expected
+			DoubleMatrix1D d8Double = new
+			                             ^
+CodexTest_0_6_4.java:41: error: '(' or '[' expected
+}
+^
+CodexTest_0_6_4.java:41: error: reached end of file while parsing
+}
+ ^

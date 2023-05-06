@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_97.java:26: error: cannot find symbol
+    byte[] hash = generateRandomHash();
+                  ^
+  symbol:   method generateRandomHash()
+  location: class CodexTest_0_8_97
+CodexTest_0_8_97.java:27: error: fromBytesNoCopy(byte[]) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+    HashCode hashCode = HashCode.fromBytesNoCopy(hash);
+                                ^

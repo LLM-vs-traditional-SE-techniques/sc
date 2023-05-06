@@ -1,0 +1,20 @@
+isCompilable => false
+CodexTest_0_6_87.java:18: error: cannot find symbol
+    Instances model = new Instances(new BufferedReader(new StringReader(
+                                        ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_6_87
+CodexTest_0_6_87.java:18: error: cannot find symbol
+    Instances model = new Instances(new BufferedReader(new StringReader(
+                                                           ^
+  symbol:   class StringReader
+  location: class CodexTest_0_6_87
+CodexTest_0_6_87.java:27: error: m_Elements has protected access in weka.core.AlgVector
+    inst.m_Elements[0] = 1.0;
+        ^
+CodexTest_0_6_87.java:28: error: m_Elements has protected access in weka.core.AlgVector
+    inst.m_Elements[1] = 2.0;
+        ^
+CodexTest_0_6_87.java:29: error: m_Elements has protected access in weka.core.AlgVector
+    inst.m_Elements[2] = 3.0;
+        ^

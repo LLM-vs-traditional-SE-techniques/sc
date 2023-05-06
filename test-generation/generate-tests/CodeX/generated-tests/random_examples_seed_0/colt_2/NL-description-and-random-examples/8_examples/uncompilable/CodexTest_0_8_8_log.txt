@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_8.java:32: error: cannot find symbol
+        DoubleMatrix2D intMatrix2D = DoubleFactory2D.sparse.like2D(0, 0);
+                                                           ^
+  symbol:   method like2D(int,int)
+  location: variable sparse of type cern.colt.matrix.DoubleFactory2D

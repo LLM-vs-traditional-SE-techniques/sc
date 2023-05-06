@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_8.java:34: error: ')' expected
+		if(expected[i] != resu
+		                      ^
+CodexTest_0_9_8.java:35: error: illegal start of statement
+}
+^
+CodexTest_0_9_8.java:35: error: reached end of file while parsing
+}
+ ^

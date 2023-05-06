@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_9_6.java:18: error: cannot find symbol
+    HashCode hash1 = Hashing.sha1().hashString("foo", Charsets.US_ASCII);
+    ^
+  symbol:   class HashCode
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:18: error: cannot find symbol
+    HashCode hash1 = Hashing.sha1().hashString("foo", Charsets.US_ASCII);
+                                                      ^
+  symbol:   variable Charsets
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:18: error: cannot find symbol
+    HashCode hash1 = Hashing.sha1().hashString("foo", Charsets.US_ASCII);
+                     ^
+  symbol:   variable Hashing
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:20: error: cannot find symbol
+    LOG.info("HESH1_1_TEXT={}", hash1Text);
+    ^
+  symbol:   variable LOG
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:21: error: cannot find symbol
+    HashCode hash2 = HashCode.fromBytes(BaseEncoding.base16().lowerCase().decode(hash1Text));
+    ^
+  symbol:   class HashCode
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:21: error: cannot find symbol
+    HashCode hash2 = HashCode.fromBytes(BaseEncoding.base16().lowerCase().decode(hash1Text));
+                                        ^
+  symbol:   variable BaseEncoding
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:21: error: cannot find symbol
+    HashCode hash2 = HashCode.fromBytes(BaseEncoding.base16().lowerCase().decode(hash1Text));
+                     ^
+  symbol:   variable HashCode
+  location: class CodexTest_0_9_6

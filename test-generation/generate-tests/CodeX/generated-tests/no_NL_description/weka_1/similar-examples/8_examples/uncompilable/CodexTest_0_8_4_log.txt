@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_8_4.java:22: error: cannot find symbol
+    AlgVector result = v1.subtract(other);
+                         ^
+  symbol:   method subtract(weka.core.AlgVector)
+  location: variable v1 of type weka.core.AlgVector
+Note: CodexTest_0_8_4.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

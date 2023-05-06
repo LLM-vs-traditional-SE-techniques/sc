@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_87.java:36: error: cannot find symbol
+			svd = V.svd();
+			       ^
+  symbol:   method svd()
+  location: variable V of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_9_87.java:38: error: cannot find symbol
+					.zDotProduct(svd[1], svd[1])));
+					^
+  symbol:   method zDotProduct(cern.colt.matrix.DoubleMatrix2D,cern.colt.matrix.DoubleMatrix2D)
+  location: class cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_9_87.java:37: error: cannot find symbol
+			assertEquals(5.0, svd[1].zDotProduct(svd[1], svd[1]), 1E-14 * Math.abs(svd[1]
+			                        ^
+  symbol:   method zDotProduct(cern.colt.matrix.DoubleMatrix2D,cern.colt.matrix.DoubleMatrix2D)
+  location: class cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_9_87.java:40: error: cannot find symbol
+			assertEquals(0.0, res.aggregate(svd[2], Functions.plus, Functions.chain(
+			                                        ^
+  symbol:   variable Functions
+  location: class CodexTest_0_9_87
+CodexTest_0_9_87.java:41: error: cannot find symbol
+					Functions.square, Functions.minus(arrMatrix))), 1.0E-10);
+					^
+  symbol:   variable Functions
+  location: class CodexTest_0_9_87
+CodexTest_0_9_87.java:41: error: cannot find symbol
+					Functions.square, Functions.minus(arrMatrix))), 1.0E-10);
+					                  ^
+  symbol:   variable Functions
+  location: class CodexTest_0_9_87
+CodexTest_0_9_87.java:40: error: cannot find symbol
+			assertEquals(0.0, res.aggregate(svd[2], Functions.plus, Functions.chain(
+			                                                        ^
+  symbol:   variable Functions
+  location: class CodexTest_0_9_87
+CodexTest_0_9_87.java:43: error: cannot find symbol
+			res = V.like2D(V.rows(), V.columns());
+			       ^
+  symbol:   method like2D(int,int)
+  location: variable V of type cern.colt.matrix.DoubleMatrix2D

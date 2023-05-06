@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_84.java:20: error: cannot find symbol
+		Instances dataset = new Instances(new StringReader(
+		                                      ^
+  symbol:   class StringReader
+  location: class CodexTest_0_9_84

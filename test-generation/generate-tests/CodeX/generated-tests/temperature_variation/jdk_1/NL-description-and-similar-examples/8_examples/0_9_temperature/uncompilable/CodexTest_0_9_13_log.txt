@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_13.java:24: error: <identifier> expected
+Input: public static FastVector sprintf(PrintfVariables pfVars) {
+     ^
+CodexTest_0_9_13.java:56: error: ')' expected
+        return sprintf(pfV
+                          ^
+CodexTest_0_9_13.java:57: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_9_5.java:18: error: no suitable constructor found for AlgVector(int[])
+    AlgVector v1 = new AlgVector(new int[]{1, 2});
+                   ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; int[] cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; int[] cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; int[] cannot be converted to weka.core.Instance)
+CodexTest_0_9_5.java:19: error: no suitable constructor found for AlgVector(int[])
+     AlgVector v2 = new AlgVector(new int[]{3, 4});
+                    ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; int[] cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; int[] cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; int[] cannot be converted to weka.core.Instance)
+Note: CodexTest_0_9_5.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

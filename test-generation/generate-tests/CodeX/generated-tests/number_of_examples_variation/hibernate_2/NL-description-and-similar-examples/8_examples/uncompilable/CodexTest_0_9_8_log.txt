@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_8.java:16: error: cannot find symbol
+          assertFalse(bool.fromString("false"));
+                      ^
+  symbol:   variable bool
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:17: error: cannot find symbol
+          assertTrue(bool.fromString("true"));
+                     ^
+  symbol:   variable bool
+  location: class CodexTest_0_9_8

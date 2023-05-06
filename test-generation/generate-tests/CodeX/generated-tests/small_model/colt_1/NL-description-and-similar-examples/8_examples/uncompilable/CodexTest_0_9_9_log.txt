@@ -1,0 +1,34 @@
+isCompilable => false
+CodexTest_0_9_9.java:29: error: illegal start of type
+        import junit.framework.TestCase;
+        ^
+CodexTest_0_9_9.java:29: error: ';' expected
+        import junit.framework.TestCase;
+              ^
+CodexTest_0_9_9.java:29: error: illegal start of type
+        import junit.framework.TestCase;
+                    ^
+CodexTest_0_9_9.java:29: error: ';' expected
+        import junit.framework.TestCase;
+                              ^
+CodexTest_0_9_9.java:29: error: <identifier> expected
+        import junit.framework.TestCase;
+                                       ^
+CodexTest_0_9_9.java:30: error: illegal start of type
+        import org.junit.Test;
+        ^
+CodexTest_0_9_9.java:30: error: ';' expected
+        import org.junit.Test;
+              ^
+CodexTest_0_9_9.java:30: error: illegal start of type
+        import org.junit.Test;
+                  ^
+CodexTest_0_9_9.java:30: error: ';' expected
+        import org.junit.Test;
+                        ^
+CodexTest_0_9_9.java:30: error: <identifier> expected
+        import org.junit.Test;
+                             ^
+CodexTest_0_9_9.java:33: error: reached end of file while parsing
+}
+ ^

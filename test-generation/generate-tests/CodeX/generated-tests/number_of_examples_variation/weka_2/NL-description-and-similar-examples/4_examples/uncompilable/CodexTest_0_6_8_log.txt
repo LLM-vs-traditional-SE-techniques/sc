@@ -1,0 +1,76 @@
+isCompilable => false
+CodexTest_0_6_8.java:20: error: cannot find symbol
+        Instances model = Mockito.mock(Instances.class);
+                          ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:21: error: cannot find symbol
+        Random random = Mockito.mock(Random.class);
+                        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:22: error: cannot find symbol
+        Mockito.when(model.numAttributes()).thenReturn(3);
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:23: error: cannot find symbol
+        Mockito.when(model.attribute(0)).thenReturn(Mockito.mock(Attribute.class));
+                                                    ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:23: error: cannot find symbol
+        Mockito.when(model.attribute(0)).thenReturn(Mockito.mock(Attribute.class));
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:24: error: cannot find symbol
+        Mockito.when(model.attribute(1)).thenReturn(Mockito.mock(Attribute.class));
+                                                    ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:24: error: cannot find symbol
+        Mockito.when(model.attribute(1)).thenReturn(Mockito.mock(Attribute.class));
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:25: error: cannot find symbol
+        Mockito.when(model.attribute(2)).thenReturn(Mockito.mock(Attribute.class));
+                                                    ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:25: error: cannot find symbol
+        Mockito.when(model.attribute(2)).thenReturn(Mockito.mock(Attribute.class));
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:26: error: cannot find symbol
+        Mockito.when(model.attribute(0).isNumeric()).thenReturn(true);
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:27: error: cannot find symbol
+        Mockito.when(model.attribute(1).isNumeric()).thenReturn(true);
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:28: error: cannot find symbol
+        Mockito.when(model.attribute(2).isNumeric()).thenReturn(true);
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:29: error: cannot find symbol
+        Mockito.when(model.attribute(0).isNominal()).thenReturn(false);
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:30: error: cannot find symbol
+        Mockito.when(model.attribute(1).isNominal()).thenReturn(false);
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:31: error: cannot find symbol
+        Mockito.when(model.attribute(2).isNominal()).thenReturn(false);
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_6_8

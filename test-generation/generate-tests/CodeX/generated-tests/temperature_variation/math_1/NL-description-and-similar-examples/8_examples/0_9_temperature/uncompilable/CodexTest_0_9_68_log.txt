@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_68.java:42: error: <identifier> expected
+Input: public static int max(int... a) {
+     ^
+CodexTest_0_9_68.java:50: error: <identifier> expected
+Output: public static void testMax1() {
+      ^
+CodexTest_0_9_68.java:71: error: illegal character: '`'
+```
+^
+CodexTest_0_9_68.java:71: error: illegal character: '`'
+```
+ ^
+CodexTest_0_9_68.java:71: error: illegal character: '`'
+```
+  ^
+CodexTest_0_9_68.java:72: error: reached end of file while parsing
+}
+ ^

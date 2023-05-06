@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_44.java:65: error: <identifier> expected
+Input: public String parent() {
+     ^
+CodexTest_0_9_44.java:68: error: <identifier> expected
+Output: public void testGetParent() {
+      ^

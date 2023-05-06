@@ -1,0 +1,48 @@
+isCompilable => false
+CodexTest_0_8_55.java:18: error: cannot find symbol
+		Instances d = new Instances("Test", new ArrayList<Attribute>(), 1);
+		                                        ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_8_55
+CodexTest_0_8_55.java:20: error: cannot find symbol
+		d.add(new Attribute("Nominal1", Arrays.asList("val1", "val2")));
+		                                ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_8_55
+CodexTest_0_8_55.java:20: error: no suitable method found for add(weka.core.Attribute)
+		d.add(new Attribute("Nominal1", Arrays.asList("val1", "val2")));
+		 ^
+    method java.util.Collection.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method java.util.List.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method java.util.AbstractCollection.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method java.util.AbstractList.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method weka.core.Instances.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+CodexTest_0_8_55.java:21: error: cannot find symbol
+		d.add(new Attribute("Nominal2", Arrays.asList("val1", "val2")));
+		                                ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_8_55
+CodexTest_0_8_55.java:21: error: no suitable method found for add(weka.core.Attribute)
+		d.add(new Attribute("Nominal2", Arrays.asList("val1", "val2")));
+		 ^
+    method java.util.Collection.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method java.util.List.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method java.util.AbstractCollection.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method java.util.AbstractList.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method weka.core.Instances.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+CodexTest_0_8_55.java:25: error: cannot find symbol
+		DenseInstance result = (DenseInstance) inst.getAsInstance(d, new Random(1));
+		                                           ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable inst of type weka.core.DenseInstance
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

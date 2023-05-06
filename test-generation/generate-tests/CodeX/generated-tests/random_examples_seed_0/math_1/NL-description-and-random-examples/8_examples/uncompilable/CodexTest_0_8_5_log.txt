@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_5.java:30: error: ';' expected
+    Suggest a test for a method with the Vector1D scalarMultiply(double a) signature.
+             ^
+CodexTest_0_8_5.java:30: error: <identifier> expected
+    Suggest a test for a method with the Vector1D scalarMultiply(double a) signature.
+                  ^
+CodexTest_0_8_5.java:30: error: ';' expected
+    Suggest a test for a method with the Vector1D scalarMultiply(double a) signature.
+                               ^
+CodexTest_0_8_5.java:30: error: ';' expected
+    Suggest a test for a method with the Vector1D scalarMultiply(double a) signature.
+                                        ^
+CodexTest_0_8_5.java:30: error: ';' expected
+    Suggest a test for a method with the Vector1D scalarMultiply(double a) signature.
+                                                                          ^

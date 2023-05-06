@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_55.java:17: error: <identifier> expected
+Input: public Integer fromString(String string) {
+     ^
+CodexTest_0_8_55.java:20: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_55.java:22: error: <identifier> expected
+Input: public boolean isEmpty() {
+     ^
+CodexTest_0_8_55.java:25: error: <identifier> expected
+Output: public void testIsEmpty() {
+      ^

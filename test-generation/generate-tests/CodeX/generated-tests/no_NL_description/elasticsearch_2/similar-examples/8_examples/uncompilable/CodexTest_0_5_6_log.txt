@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_5_6.java:94: error: not a statement
+        map.put
+           ^
+CodexTest_0_5_6.java:94: error: ';' expected
+        map.put
+               ^
+CodexTest_0_5_6.java:95: error: reached end of file while parsing
+}
+ ^

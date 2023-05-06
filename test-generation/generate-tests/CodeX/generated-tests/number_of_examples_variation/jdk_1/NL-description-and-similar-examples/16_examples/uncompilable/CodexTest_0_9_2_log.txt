@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_2.java:25: error: cannot find symbol
+        al.add(500, null);
+        ^
+  symbol:   variable al
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:28: error: cannot find symbol
+                assertTrue("Failed to add Object", al.get(i) == null);
+                                                   ^
+  symbol:   variable al
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:30: error: cannot find symbol
+                assertTrue("Failed to add Object", al.get(i).equals(o[i]));
+                                                   ^
+  symbol:   variable al
+  location: class CodexTest_0_9_2

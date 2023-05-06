@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_7.java:18: error: cannot find symbol
+    Vector1D v1 = new Vector1D(1);
+    ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:18: error: cannot find symbol
+    Vector1D v1 = new Vector1D(1);
+                      ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:19: error: cannot find symbol
+    Vector1D v2 = new Vector1D(-4);
+    ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:19: error: cannot find symbol
+    Vector1D v2 = new Vector1D(-4);
+                      ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:20: error: cannot find symbol
+    Assert.assertEquals(0.0, Vector1D.distance(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                   ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:20: error: cannot find symbol
+    Assert.assertEquals(0.0, Vector1D.distance(new Vector1D(-1), new Vector1D(-1)), 0);
+                                                                     ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:20: error: cannot find symbol
+    Assert.assertEquals(0.0, Vector1D.distance(new Vector1D(-1), new Vector1D(-1)), 0);
+                             ^
+  symbol:   variable Vector1D
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:21: error: cannot find symbol
+    Assert.assertEquals(5.0, Vector1D.distance(v1, v2), 1.0e-12);
+                             ^
+  symbol:   variable Vector1D
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:22: error: cannot find symbol
+    Assert.assertEquals(v1.subtract(v2).getNorm(), Vector1D.distance(v1, v2), 1.0e-12);
+                                                   ^
+  symbol:   variable Vector1D
+  location: class CodexTest_0_9_7

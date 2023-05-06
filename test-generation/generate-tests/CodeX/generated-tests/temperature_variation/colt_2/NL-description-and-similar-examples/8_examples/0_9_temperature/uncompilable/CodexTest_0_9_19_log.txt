@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_19.java:30: error: cannot find symbol
+        double[][] result = Multiply.multiply(matA, matB);
+                                              ^
+  symbol:   variable matA
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:30: error: cannot find symbol
+        double[][] result = Multiply.multiply(matA, matB);
+                                                    ^
+  symbol:   variable matB
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:30: error: cannot find symbol
+        double[][] result = Multiply.multiply(matA, matB);
+                            ^
+  symbol:   variable Multiply
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:31: error: cannot find symbol
+        assertEquals(matC, new BooleanMatrix2D(result));
+                     ^
+  symbol:   variable matC
+  location: class CodexTest_0_9_19
+CodexTest_0_9_19.java:31: error: cannot find symbol
+        assertEquals(matC, new BooleanMatrix2D(result));
+                               ^
+  symbol:   class BooleanMatrix2D
+  location: class CodexTest_0_9_19

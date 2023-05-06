@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_54.java:31: error: cannot find symbol
+        Assert.assertEquals(new Vector1D(1), Vector1D.O.add(new Vector1D(1)));
+                                                     ^
+  symbol:   variable O
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_54.java:34: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.Vector<org.apache.commons.math3.geometry.euclidean.oned.Euclidean1D>
+        Assert.assertEquals(new Vector1D(2), new Vector1D(1).add(1));
+                                                                 ^
+CodexTest_0_8_54.java:35: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.Vector<org.apache.commons.math3.geometry.euclidean.oned.Euclidean1D>
+        Assert.assertEquals(new Vector1D(0), new Vector1D(1).add(-1));
+                                                                 ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_7.java:68: error: cannot find symbol
+        assertNotSame(parent, new Node(parent, some, other));
+                                  ^
+  symbol:   class Node
+  location: class CodexTest_0_8_7

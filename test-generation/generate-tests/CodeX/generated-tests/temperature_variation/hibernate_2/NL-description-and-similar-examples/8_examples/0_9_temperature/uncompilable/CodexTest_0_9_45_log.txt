@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_45.java:16: error: cannot find symbol
+        MyObject myObject = new MyObject("true");
+        ^
+  symbol:   class MyObject
+  location: class CodexTest_0_9_45
+CodexTest_0_9_45.java:16: error: cannot find symbol
+        MyObject myObject = new MyObject("true");
+                                ^
+  symbol:   class MyObject
+  location: class CodexTest_0_9_45
+CodexTest_0_9_45.java:17: error: cannot find symbol
+        Boolean b = MyObject.fromString("true");
+                    ^
+  symbol:   variable MyObject
+  location: class CodexTest_0_9_45
+CodexTest_0_9_45.java:22: error: cannot find symbol
+        MyObject myObject = new MyObject("trazise");
+        ^
+  symbol:   class MyObject
+  location: class CodexTest_0_9_45
+CodexTest_0_9_45.java:22: error: cannot find symbol
+        MyObject myObject = new MyObject("trazise");
+                                ^
+  symbol:   class MyObject
+  location: class CodexTest_0_9_45
+CodexTest_0_9_45.java:23: error: cannot find symbol
+        Boolean b = MyObject.fromString("trazise");
+                    ^
+  symbol:   variable MyObject
+  location: class CodexTest_0_9_45

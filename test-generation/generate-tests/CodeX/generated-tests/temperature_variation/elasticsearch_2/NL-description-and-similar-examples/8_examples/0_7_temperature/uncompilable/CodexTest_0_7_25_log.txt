@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_25.java:67: error: cannot find symbol
+            indexRequest.toXContent(jsonBuilder(), ToXContent.EMPTY_PARAMS);
+                                    ^
+  symbol:   method jsonBuilder()
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:67: error: cannot find symbol
+            indexRequest.toXContent(jsonBuilder(), ToXContent.EMPTY_PARAMS);
+                                                   ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_7_25
+CodexTest_0_7_25.java:72: error: cannot find symbol
+            assertThat(e.getMessage(), containsString("Failed to generate"));
+                                       ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_7_25

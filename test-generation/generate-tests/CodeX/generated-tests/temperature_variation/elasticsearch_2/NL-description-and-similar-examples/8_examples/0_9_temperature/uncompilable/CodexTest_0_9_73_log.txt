@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_73.java:65: error: cannot find symbol
+        XContentBuilder builder = XContentFactory.jsonBuilder().map(ImmutableMap.of(
+                                                                    ^
+  symbol:   variable ImmutableMap
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:76: error: cannot find symbol
+            Requests.indexRequest().source(XContentType.CBOR, builder);
+                                                              ^
+  symbol:   variable builder
+  location: class CodexTest_0_9_73
+CodexTest_0_9_73.java:79: error: cannot find symbol
+            assertThat(e.getMessage(), containsString("unknown xcontent type: [cbor]"));
+                                       ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_9_73

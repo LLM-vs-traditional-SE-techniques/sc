@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_67.java:69: error: <identifier> expected
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+     ^
+CodexTest_0_9_67.java:88: error: <identifier> expected
+Output: public void testWrapShouldReturnTrueWhenYStringGiven() {
+      ^
+CodexTest_0_9_67.java:97: error: <identifier> expected
+Input: public IndexRequest source(Map<String, ?> source) {
+     ^
+CodexTest_0_9_67.java:105: error: <identifier> expected
+Output: public void testSourceWithMapAndTwoDepth() throws Exception {
+      ^
+CodexTest_0_9_67.java:107: error: ')' expected
+        indexRequest.source(Collections
+                                       ^
+CodexTest_0_9_67.java:108: error: reached end of file while parsing
+}
+ ^

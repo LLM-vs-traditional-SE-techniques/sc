@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_2.java:181: error: illegal start of type
+}
+^
+CodexTest_0_6_2.java:181: error: reached end of file while parsing
+}
+ ^

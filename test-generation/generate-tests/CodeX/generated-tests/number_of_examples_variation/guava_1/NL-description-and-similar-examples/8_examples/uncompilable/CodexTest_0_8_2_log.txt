@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_2.java:28: error: cannot find symbol
+    HashCode hash1 = HashCode.fromInts(array1);
+                             ^
+  symbol:   method fromInts(int[])
+  location: class com.google.common.hash.HashCode
+CodexTest_0_8_2.java:29: error: cannot find symbol
+    HashCode hash2 = HashCode.fromInts(array2);
+                             ^
+  symbol:   method fromInts(int[])
+  location: class com.google.common.hash.HashCode
+CodexTest_0_8_2.java:30: error: cannot find symbol
+    HashCode hash3 = HashCode.fromInts(array3);
+                             ^
+  symbol:   method fromInts(int[])
+  location: class com.google.common.hash.HashCode

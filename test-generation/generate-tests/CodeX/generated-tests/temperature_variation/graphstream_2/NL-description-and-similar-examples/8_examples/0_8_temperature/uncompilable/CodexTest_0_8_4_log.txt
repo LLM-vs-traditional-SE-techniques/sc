@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_4.java:25: error: no suitable method found for getEdge(org.graphstream.graph.Node,org.graphstream.graph.Node)
+            path.add(null, graph.getEdge(nodeA, nodeB));
+                                ^
+    method org.graphstream.graph.Graph.<T>getEdge(java.lang.String) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.graphstream.graph.Graph.<T>getEdge(int) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))

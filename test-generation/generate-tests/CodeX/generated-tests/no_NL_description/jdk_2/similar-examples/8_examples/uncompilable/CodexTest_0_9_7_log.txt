@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_7.java:21: error: cannot find symbol
+        Set<Object> set = newLinkedHashSet();
+                          ^
+  symbol:   method newLinkedHashSet()
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:22: error: cannot find symbol
+        set.add(new TestNullHashCodeObject("one"));
+                    ^
+  symbol:   class TestNullHashCodeObject
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:23: error: cannot find symbol
+        set.add(new TestNullHashCodeObject("two"));
+                    ^
+  symbol:   class TestNullHashCodeObject
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:25: error: cannot find symbol
+                set.contains(new TestNullHashCodeObject("one")));
+                                 ^
+  symbol:   class TestNullHashCodeObject
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:27: error: cannot find symbol
+                set.contains(new TestNullHashCodeObject("two")));
+                                 ^
+  symbol:   class TestNullHashCodeObject
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:29: error: cannot find symbol
+                set.contains(new TestNullHashCodeObject("three")));
+                                 ^
+  symbol:   class TestNullHashCodeObject
+  location: class CodexTest_0_9_7

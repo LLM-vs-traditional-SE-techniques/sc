@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_3.java:65: error: 'void' type not allowed here
+        String var1 = String.valueOf(Integer.valueOf(this.parent()));
+                                                                ^
+CodexTest_0_9_3.java:66: error: 'void' type not allowed here
+        String var2 = String.valueOf(Integer.valueOf(this.parent()));
+                                                                ^
+CodexTest_0_9_3.java:68: error: incompatible types: unexpected return value
+        return var2 + var1;
+                    ^

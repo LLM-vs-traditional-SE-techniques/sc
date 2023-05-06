@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_2.java:25: error: cannot find symbol
+        HashCode hashCode = LongHashCode.fromLong(123456L);
+                            ^
+  symbol:   variable LongHashCode
+  location: class CodexTest_0_7_2

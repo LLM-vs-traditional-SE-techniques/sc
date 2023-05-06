@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_13.java:18: error: cannot find symbol
+		Instances result = AlgVector.createInstances(2);
+		                            ^
+  symbol:   method createInstances(int)
+  location: class weka.core.AlgVector
+CodexTest_0_8_13.java:20: error: cannot find symbol
+		result.add(v.getAsInstance(result, new MockRandom()));
+		                                       ^
+  symbol:   class MockRandom
+  location: class CodexTest_0_8_13

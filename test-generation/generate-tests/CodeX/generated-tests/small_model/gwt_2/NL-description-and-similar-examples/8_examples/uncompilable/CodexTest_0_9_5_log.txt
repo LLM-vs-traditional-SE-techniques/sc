@@ -1,0 +1,52 @@
+isCompilable => false
+CodexTest_0_9_5.java:14: error: illegal start of type
+  {
+  ^
+CodexTest_0_9_5.java:14: error: ';' expected
+  {
+   ^
+CodexTest_0_9_5.java:15: error: <identifier> expected
+    Enhancer en = new Enhancer();
+               ^
+CodexTest_0_9_5.java:16: error: <identifier> expected
+    en.setClassLoader(GWT.class.getClassLoader());
+                     ^
+CodexTest_0_9_5.java:16: error: <identifier> expected
+    en.setClassLoader(GWT.class.getClassLoader());
+                          ^
+CodexTest_0_9_5.java:16: error: ')' expected
+    en.setClassLoader(GWT.class.getClassLoader());
+                                              ^
+CodexTest_0_9_5.java:16: error: illegal start of type
+    en.setClassLoader(GWT.class.getClassLoader());
+                                               ^
+CodexTest_0_9_5.java:16: error: <identifier> expected
+    en.setClassLoader(GWT.class.getClassLoader());
+                                                ^
+CodexTest_0_9_5.java:17: error: <identifier> expected
+    en.setClassName("org.eclipse.aether.AbstractArtifact");
+                   ^
+CodexTest_0_9_5.java:17: error: illegal start of type
+    en.setClassName("org.eclipse.aether.AbstractArtifact");
+                    ^
+CodexTest_0_9_5.java:18: error: <identifier> expected
+    en.setInterfaces(new Class[] { org.eclipse.aether.AbstractArtifact.class });
+                    ^
+CodexTest_0_9_5.java:18: error: illegal start of type
+    en.setInterfaces(new Class[] { org.eclipse.aether.AbstractArtifact.class });
+                     ^
+CodexTest_0_9_5.java:18: error: ')' expected
+    en.setInterfaces(new Class[] { org.eclipse.aether.AbstractArtifact.class });
+                        ^
+CodexTest_0_9_5.java:18: error: not a statement
+    en.setInterfaces(new Class[] { org.eclipse.aether.AbstractArtifact.class });
+                                                                      ^
+CodexTest_0_9_5.java:18: error: ';' expected
+    en.setInterfaces(new Class[] { org.eclipse.aether.AbstractArtifact.class });
+                                                                            ^
+CodexTest_0_9_5.java:18: error: illegal start of type
+    en.setInterfaces(new Class[] { org.eclipse.aether.AbstractArtifact.class });
+                                                                              ^
+CodexTest_0_9_5.java:20: error: class, interface, or enum expected
+}
+^

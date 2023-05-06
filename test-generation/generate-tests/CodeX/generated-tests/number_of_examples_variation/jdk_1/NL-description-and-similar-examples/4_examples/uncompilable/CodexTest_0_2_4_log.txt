@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_2_4.java:21: error: cannot find symbol
+        Object[] a = new Object[SIZE];
+                                ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_2_4
+CodexTest_0_2_4.java:22: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_2_4
+CodexTest_0_2_4.java:26: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_2_4
+Note: CodexTest_0_2_4.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

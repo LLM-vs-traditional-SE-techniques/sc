@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_28.java:18: error: cannot find symbol
+    this.vector = p_Values;
+        ^
+  symbol: variable vector
+CodexTest_0_8_28.java:19: error: cannot find symbol
+    this.m_Elements = p_Values;
+        ^
+  symbol: variable m_Elements

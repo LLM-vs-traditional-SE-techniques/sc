@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_15.java:70: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("Failed to generate [foobar]"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_15

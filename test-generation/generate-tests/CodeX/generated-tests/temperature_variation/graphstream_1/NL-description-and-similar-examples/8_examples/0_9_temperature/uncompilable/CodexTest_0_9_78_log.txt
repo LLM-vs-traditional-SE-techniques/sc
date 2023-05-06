@@ -1,0 +1,42 @@
+isCompilable => false
+CodexTest_0_9_78.java:20: error: cannot find symbol
+  	Graph g = new ListenableDirectedGraph<Vertex, Edge>(Edge.class);
+  	              ^
+  symbol:   class ListenableDirectedGraph
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:20: error: cannot find symbol
+  	Graph g = new ListenableDirectedGraph<Vertex, Edge>(Edge.class);
+  	                                      ^
+  symbol:   class Vertex
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:21: error: cannot find symbol
+    Vertex v1 = new ConcreteVertex(1);
+    ^
+  symbol:   class Vertex
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:21: error: cannot find symbol
+    Vertex v1 = new ConcreteVertex(1);
+                    ^
+  symbol:   class ConcreteVertex
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:22: error: cannot find symbol
+    Vertex v2 = new ConcreteVertex(2);
+    ^
+  symbol:   class Vertex
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:22: error: cannot find symbol
+    Vertex v2 = new ConcreteVertex(2);
+                    ^
+  symbol:   class ConcreteVertex
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:23: error: cannot find symbol
+    Edge e1 = new ConcreteEdge(v1, v2);
+                  ^
+  symbol:   class ConcreteEdge
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:27: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+    Path path = new Path(e1);
+                ^
+  required: no arguments
+  found: org.graphstream.graph.Edge
+  reason: actual and formal argument lists differ in length

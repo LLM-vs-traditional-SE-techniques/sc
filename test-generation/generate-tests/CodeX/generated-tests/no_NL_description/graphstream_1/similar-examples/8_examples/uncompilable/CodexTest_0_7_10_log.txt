@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_10.java:21: error: cannot find symbol
+        Edge edge = new SimpleWeightedEdge();
+                        ^
+  symbol:   class SimpleWeightedEdge
+  location: class CodexTest_0_7_10

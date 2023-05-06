@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_7_9.java:21: error: cannot find symbol
+            List<String> list = new ArrayList<>(Arrays.asList(a, b, c, d, e));
+                                                              ^
+  symbol:   variable a
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:21: error: cannot find symbol
+            List<String> list = new ArrayList<>(Arrays.asList(a, b, c, d, e));
+                                                                 ^
+  symbol:   variable b
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:21: error: cannot find symbol
+            List<String> list = new ArrayList<>(Arrays.asList(a, b, c, d, e));
+                                                                    ^
+  symbol:   variable c
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:21: error: cannot find symbol
+            List<String> list = new ArrayList<>(Arrays.asList(a, b, c, d, e));
+                                                                       ^
+  symbol:   variable d
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:21: error: cannot find symbol
+            List<String> list = new ArrayList<>(Arrays.asList(a, b, c, d, e));
+                                                                          ^
+  symbol:   variable e
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:24: error: cannot find symbol
+            assertEquals(a, list.get(0));
+                         ^
+  symbol:   variable a
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:25: error: cannot find symbol
+            assertEquals(b, list.get(1));
+                         ^
+  symbol:   variable b
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:26: error: cannot find symbol
+            assertEquals(d, list.get(2));
+                         ^
+  symbol:   variable d
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:27: error: cannot find symbol
+            assertEquals(e, list.get(3));
+                         ^
+  symbol:   variable e
+  location: class CodexTest_0_7_9

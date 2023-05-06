@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_40.java:38: error: <identifier> expected
+Input: @Deprecated
+     ^
+CodexTest_0_9_40.java:61: error: <identifier> expected
+Output: public void test() {
+      ^
+CodexTest_0_9_40.java:62: error: reached end of file while parsing
+}
+ ^

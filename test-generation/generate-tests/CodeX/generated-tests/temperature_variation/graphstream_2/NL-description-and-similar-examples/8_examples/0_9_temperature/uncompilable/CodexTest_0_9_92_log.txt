@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_92.java:20: error: cannot find symbol
+        Vector3D v1 = new Vector3D(1.0,2.0,3.0);
+        ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_92
+CodexTest_0_9_92.java:20: error: cannot find symbol
+        Vector3D v1 = new Vector3D(1.0,2.0,3.0);
+                          ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_92
+CodexTest_0_9_92.java:21: error: cannot find symbol
+        Vector3D v2 = new Vector3D(v1);
+        ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_92
+CodexTest_0_9_92.java:21: error: cannot find symbol
+        Vector3D v2 = new Vector3D(v1);
+                          ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_92

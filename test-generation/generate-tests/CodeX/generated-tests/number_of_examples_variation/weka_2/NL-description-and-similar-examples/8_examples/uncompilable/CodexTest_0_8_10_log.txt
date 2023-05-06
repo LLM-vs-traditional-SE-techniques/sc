@@ -1,0 +1,68 @@
+isCompilable => false
+CodexTest_0_8_10.java:19: error: cannot find symbol
+		for (int i = 0; i < numAttributes(); i++) {
+		                    ^
+  symbol:   method numAttributes()
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:20: error: cannot find symbol
+			if (!attribute(i).isNumeric() && attribute(i).isNominal()) {
+			     ^
+  symbol:   method attribute(int)
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:20: error: cannot find symbol
+			if (!attribute(i).isNumeric() && attribute(i).isNominal()) {
+			                                 ^
+  symbol:   method attribute(int)
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:24: error: cannot find symbol
+		DenseInstance vect = new DenseInstance(numAttributes());
+		                                       ^
+  symbol:   method numAttributes()
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:25: error: incompatible types: CodexTest_0_8_10 cannot be converted to weka.core.Instances
+		vect.setDataset(this);
+		                ^
+CodexTest_0_8_10.java:26: error: cannot find symbol
+		vect.randomize(new Random(1));
+		    ^
+  symbol:   method randomize(java.util.Random)
+  location: variable vect of type weka.core.DenseInstance
+CodexTest_0_8_10.java:27: error: cannot find symbol
+		Instance inst = vect.getAsInstance(this, new Random(1));
+		                    ^
+  symbol:   method getAsInstance(CodexTest_0_8_10,java.util.Random)
+  location: variable vect of type weka.core.DenseInstance
+CodexTest_0_8_10.java:28: error: cannot find symbol
+		assertEquals(numAttributes(), inst.numAttributes());
+		             ^
+  symbol:   method numAttributes()
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:29: error: cannot find symbol
+		assertEquals(numClasses(), inst.numClasses());
+		             ^
+  symbol:   method numClasses()
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:30: error: incompatible types: CodexTest_0_8_10 cannot be converted to weka.core.Instance
+		assertTrue(inst.equalHeaders(this));
+		                             ^
+CodexTest_0_8_10.java:31: error: cannot find symbol
+		for (int i = 0; i < numAttributes(); i++) {
+		                    ^
+  symbol:   method numAttributes()
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:32: error: cannot find symbol
+			if (attribute(i).isNumeric()) {
+			    ^
+  symbol:   method attribute(int)
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:34: error: cannot find symbol
+			} else if (attribute(i).isNominal()) {
+			           ^
+  symbol:   method attribute(int)
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:35: error: cannot find symbol
+				assertTrue("Attribute " + i + " differs", vect.value(i) != (numValues(i) - 1));
+				                                                            ^
+  symbol:   method numValues(int)
+  location: class CodexTest_0_8_10
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

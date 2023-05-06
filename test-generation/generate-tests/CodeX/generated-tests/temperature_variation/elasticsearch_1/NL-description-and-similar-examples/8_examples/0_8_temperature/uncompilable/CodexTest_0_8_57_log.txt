@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_57.java:65: error: cannot find symbol
+        assertFalse(new Cat("cat1", null).parent().isEmpty());
+                        ^
+  symbol:   class Cat
+  location: class CodexTest_0_8_57

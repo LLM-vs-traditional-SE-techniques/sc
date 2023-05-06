@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_4.java:25: error: cannot find symbol
+        HashCode h1 = fromLong(1L);
+                      ^
+  symbol:   method fromLong(long)
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:26: error: cannot find symbol
+        HashCode h2 = fromLong(2L);
+                      ^
+  symbol:   method fromLong(long)
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:27: error: cannot find symbol
+        HashCode h3 = fromLong(1L);
+                      ^
+  symbol:   method fromLong(long)
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:28: error: cannot find symbol
+        assertEqualsAndHashCode(h1, h3);
+        ^
+  symbol:   method assertEqualsAndHashCode(com.google.common.hash.HashCode,com.google.common.hash.HashCode)
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:29: error: cannot find symbol
+        assertNotEqual(h1, h2);
+        ^
+  symbol:   method assertNotEqual(com.google.common.hash.HashCode,com.google.common.hash.HashCode)
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:30: error: cannot find symbol
+        assertNotEqual(h2, h3);
+        ^
+  symbol:   method assertNotEqual(com.google.common.hash.HashCode,com.google.common.hash.HashCode)
+  location: class CodexTest_0_9_4

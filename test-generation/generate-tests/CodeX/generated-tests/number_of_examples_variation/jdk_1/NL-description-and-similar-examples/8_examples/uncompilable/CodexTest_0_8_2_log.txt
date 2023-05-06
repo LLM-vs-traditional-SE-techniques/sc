@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_8_2.java:25: error: no suitable method found for remove(int,int)
+        list.remove(0, 2);
+            ^
+    method java.util.Collection.remove(java.lang.Object) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.List.remove(java.lang.Object) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.List.remove(int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.AbstractCollection.remove(java.lang.Object) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.AbstractList.remove(int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.ArrayList.remove(int) is not applicable
+      (actual and formal argument lists differ in length)
+    method java.util.ArrayList.remove(java.lang.Object) is not applicable
+      (actual and formal argument lists differ in length)

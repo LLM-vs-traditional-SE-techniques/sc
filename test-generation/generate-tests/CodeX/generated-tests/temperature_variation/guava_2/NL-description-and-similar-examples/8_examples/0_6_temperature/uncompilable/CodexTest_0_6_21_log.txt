@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_21.java:26: error: cannot find symbol
+    int bytes = hashCode.writeBytesTo(dest, 2, 8);
+                ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_6_21
+CodexTest_0_6_21.java:28: error: cannot find symbol
+    assertEquals(toString(), ByteBuffer.wrap(dest, 2, bytes).getLong());
+                             ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_6_21

@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_9_3.java:33: error: cannot find symbol
+			Point1D point1 = new Point1D(a);
+			^
+  symbol:   class Point1D
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:33: error: cannot find symbol
+			Point1D point1 = new Point1D(a);
+			                     ^
+  symbol:   class Point1D
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:34: error: cannot find symbol
+			Point1D point2 = new Point1D(b);
+			^
+  symbol:   class Point1D
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:34: error: cannot find symbol
+			Point1D point2 = new Point1D(b);
+			                     ^
+  symbol:   class Point1D
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:35: error: cannot find symbol
+			double distanceX1X2 = GeometryUtils.distanceSq(point1,point2);
+			                      ^
+  symbol:   variable GeometryUtils
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:36: error: cannot find symbol
+			assertEquals(distanceX1X2, Math.pow(((Point1D) point1).getX()-((Point1D) point2).getX(),2));
+			                                      ^
+  symbol:   class Point1D
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:36: error: cannot find symbol
+			assertEquals(distanceX1X2, Math.pow(((Point1D) point1).getX()-((Point1D) point2).getX(),2));
+			                                                                ^
+  symbol:   class Point1D
+  location: class CodexTest_0_9_3

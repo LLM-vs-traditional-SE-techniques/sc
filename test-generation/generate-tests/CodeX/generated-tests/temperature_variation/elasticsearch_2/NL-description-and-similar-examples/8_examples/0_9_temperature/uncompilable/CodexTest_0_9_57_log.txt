@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_57.java:65: error: cannot find symbol
+        XContentType xContentType = randomFrom(XContentType.values());
+                                    ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_9_57
+CodexTest_0_9_57.java:66: error: cannot find symbol
+        IndexRequest testRequest = createTestItem();
+                                   ^
+  symbol:   method createTestItem()
+  location: class CodexTest_0_9_57
+CodexTest_0_9_57.java:67: error: cannot find symbol
+        boolean humanReadable = randomBoolean();
+                                ^
+  symbol:   method randomBoolean()
+  location: class CodexTest_0_9_57
+CodexTest_0_9_57.java:68: error: cannot find symbol
+        BytesReference originalBytes = toShuffledXContent(testRequest, xContentType, ToXContent.EMPTY_PARAMS, humanReadable);
+                                                                                     ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_9_57
+CodexTest_0_9_57.java:71: error: cannot find symbol
+        BytesReference finalBytes = toXContent(parsedRequest, xContentType, humanReadable);
+                                    ^
+  symbol:   method toXContent(org.elasticsearch.action.index.IndexRequest,org.elasticsearch.common.xcontent.XContentType,boolean)
+  location: class CodexTest_0_9_57
+CodexTest_0_9_57.java:72: error: cannot find symbol
+        assertToXContentEquivalent(originalBytes, finalBytes, xContentType);
+        ^
+  symbol:   method assertToXContentEquivalent(org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.xcontent.XContentType)
+  location: class CodexTest_0_9_57

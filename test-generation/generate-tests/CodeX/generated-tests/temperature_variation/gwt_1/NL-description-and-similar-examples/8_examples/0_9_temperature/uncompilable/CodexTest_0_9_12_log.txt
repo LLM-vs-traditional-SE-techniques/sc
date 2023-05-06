@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_12.java:16: error: bad operand type java.lang.String for unary operator '!'
+    assertFalse(!"assertFalse assertion", false);
+                ^
+CodexTest_0_9_12.java:17: error: bad operand type java.lang.String for unary operator '!'
+    assertTrue(!"assertTrue assertion", true);
+               ^

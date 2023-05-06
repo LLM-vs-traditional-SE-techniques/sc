@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_6_22.java:34: error: cannot find symbol
+        FloatMatrix2D A = FloatFactory2D.dense.make(expected);
+        ^
+  symbol:   class FloatMatrix2D
+  location: class CodexTest_0_6_22
+CodexTest_0_6_22.java:34: error: package FloatFactory2D does not exist
+        FloatMatrix2D A = FloatFactory2D.dense.make(expected);
+                                        ^
+CodexTest_0_6_22.java:35: error: cannot find symbol
+        FloatMatrix2D B = A.viewPart(1, 2, 2, 2).viewRowFlip();
+        ^
+  symbol:   class FloatMatrix2D
+  location: class CodexTest_0_6_22
+CodexTest_0_6_22.java:36: error: cannot find symbol
+        FloatMatrix2D C = FloatFactory2D.dense.make(2, 2);
+        ^
+  symbol:   class FloatMatrix2D
+  location: class CodexTest_0_6_22
+CodexTest_0_6_22.java:36: error: package FloatFactory2D does not exist
+        FloatMatrix2D C = FloatFactory2D.dense.make(2, 2);
+                                        ^

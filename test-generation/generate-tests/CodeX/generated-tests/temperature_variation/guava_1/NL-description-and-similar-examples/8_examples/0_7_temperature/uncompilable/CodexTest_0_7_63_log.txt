@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_63.java:28: error: <identifier> expected
+Input: public static HashCode fromInt(int hash) {
+     ^
+CodexTest_0_7_63.java:31: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_63.java:36: error: <identifier> expected
+Input: public static HashCode fromBytes(byte[] bytes) {
+     ^
+CodexTest_0_7_63.java:40: error: <identifier> expected
+Output: public void testRoundTripHashCodeUsingBaseEncoding() {
+      ^
+CodexTest_0_7_63.java:45: error: <identifier> expected
+Input: public static HashCode fromBytesNoCopy(byte[] bytes) {
+     ^
+CodexTest_0_7_63.java:48: error: <identifier> expected
+Output: public void testCreateHashCodeFromByteArray() {
+      ^
+CodexTest_0_7_63.java:53: error: <identifier> expected
+Input: public static HashCode fromString(CharSequence chars) {
+     ^
+CodexTest_0_7_63.java:57: error: <identifier> expected
+Output: public void testCreateHashCodeFromString() {
+      ^
+CodexTest_0_7_63.java:62: error: illegal start of expression
+}
+^
+CodexTest_0_7_63.java:62: error: reached end of file while parsing
+}
+ ^

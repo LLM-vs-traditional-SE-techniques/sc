@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_19.java:30: error: ')' expected
+    assertEquals(10, new BitArray(new byte[] {(byte) 0xFF, (byte) 0xFF, (byte) 0xFF, (byte) 0xFF, (byte) 0xFF, (byte) 0xFF, (byte) 0xFF, (byte) 0xFF, (byte) 0xFF, (byte) 0xFF}).writeBytesTo(dest
+                                                                                                                                                                                                  ^
+CodexTest_0_2_19.java:31: error: reached end of file while parsing
+}
+ ^

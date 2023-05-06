@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_17.java:27: error: integer number too large: 667788990011
+    long value2 = 0x667788990011;
+                  ^

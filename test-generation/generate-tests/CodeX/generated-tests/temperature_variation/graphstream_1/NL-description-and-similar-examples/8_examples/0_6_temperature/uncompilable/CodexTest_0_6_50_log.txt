@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_50.java:24: error: cannot find symbol
+        assertTrue(graph.addEdge("1", "1", "1"));
+                   ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_50
+CodexTest_0_6_50.java:25: error: cannot find symbol
+        assertTrue(graph.containsEdge("1", "1"));
+                   ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_50

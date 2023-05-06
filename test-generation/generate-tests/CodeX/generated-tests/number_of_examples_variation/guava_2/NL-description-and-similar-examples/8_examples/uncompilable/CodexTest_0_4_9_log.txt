@@ -1,0 +1,91 @@
+isCompilable => false
+CodexTest_0_4_9.java:26: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 0, 4));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:27: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 0, 5));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:28: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 0, 100));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:29: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 1, 4));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:30: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 1, 5));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:31: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 1, 100));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:32: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 2, 4));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:33: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 2, 5));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:34: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 2, 100));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:35: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 3, 4));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:36: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 3, 5));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:37: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 3, 100));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:38: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 4, 4));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:39: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 4, 5));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_4_9.java:40: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(4, new BloomFilter<Integer>(10, 0.03).writeBytesTo(dest, 4, 100));
+                    ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel<? super java.lang.Integer>,com.google.common.hash.BloomFilter.Strategy
+  found: int,double
+  reason: actual and formal argument lists differ in length

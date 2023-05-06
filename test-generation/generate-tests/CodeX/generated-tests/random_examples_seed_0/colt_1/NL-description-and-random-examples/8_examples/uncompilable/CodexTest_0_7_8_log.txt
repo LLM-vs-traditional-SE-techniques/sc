@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_7_8.java:35: error: <identifier> expected
+Input: public void testAssignDenseDoubleMatrix1D() {
+     ^
+CodexTest_0_7_8.java:41: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:46: error: <identifier> expected
+Input: @Test(expected=IndexOutOfBoundsException.class)
+     ^
+CodexTest_0_7_8.java:50: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:58: error: <identifier> expected
+Input: @Test
+     ^
+CodexTest_0_7_8.java:60: error: '(' expected
+}
+^

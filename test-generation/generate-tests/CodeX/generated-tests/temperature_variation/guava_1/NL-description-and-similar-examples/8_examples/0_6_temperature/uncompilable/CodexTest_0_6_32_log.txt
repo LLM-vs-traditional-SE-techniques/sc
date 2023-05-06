@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_6_32.java:34: error: fromBytesNoCopy(byte[]) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+      assertEquals(fromInt, HashCode.fromBytesNoCopy(hashCode.asBytes()).asInt());
+                                    ^
+CodexTest_0_6_32.java:43: error: cannot find symbol
+            hash1.compareTo(hash2));
+                 ^
+  symbol:   method compareTo(com.google.common.hash.HashCode)
+  location: variable hash1 of type com.google.common.hash.HashCode

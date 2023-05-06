@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_8.java:16: error: cannot find symbol
+     @Test(expected = AlgorithmRuntimeException.class)
+                      ^
+  symbol:   class AlgorithmRuntimeException
+  location: class CodexTest_0_9_8

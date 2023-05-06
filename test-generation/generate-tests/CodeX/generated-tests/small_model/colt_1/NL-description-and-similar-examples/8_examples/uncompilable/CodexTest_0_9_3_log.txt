@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_9_3.java:30: error: package DiskLruCache does not exist
+    DiskLruCache.Editor editor = null;
+                ^
+CodexTest_0_9_3.java:32: error: cannot find symbol
+      editor = subject.edit("");
+               ^
+  symbol:   variable subject
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:33: error: cannot find symbol
+      InputStream in = new ByteArrayInputStream("foobar".getBytes(UTF_8));
+      ^
+  symbol:   class InputStream
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:33: error: cannot find symbol
+      InputStream in = new ByteArrayInputStream("foobar".getBytes(UTF_8));
+                           ^
+  symbol:   class ByteArrayInputStream
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:39: error: cannot find symbol
+    assertFalse(subject.isOpened());
+                ^
+  symbol:   variable subject
+  location: class CodexTest_0_9_3

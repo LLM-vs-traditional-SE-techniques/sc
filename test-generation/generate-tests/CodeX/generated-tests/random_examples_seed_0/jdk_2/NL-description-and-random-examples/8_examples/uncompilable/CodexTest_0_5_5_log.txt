@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_5_5.java:21: error: cannot find symbol
+        Assert.assertTrue(new DoubleArrayList(new double[] {1.0, 2.0, 3.0}).contains(1.0));
+                              ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:22: error: cannot find symbol
+        Assert.assertTrue(new DoubleArrayList(new double[] {1.0, 2.0, 3.0}).contains(2.0));
+                              ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:23: error: cannot find symbol
+        Assert.assertTrue(new DoubleArrayList(new double[] {1.0, 2.0, 3.0}).contains(3.0));
+                              ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:24: error: cannot find symbol
+        Assert.assertFalse(new DoubleArrayList(new double[] {1.0, 2.0, 3.0}).contains(0.0));
+                               ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:25: error: cannot find symbol
+        Assert.assertFalse(new DoubleArrayList(new double[] {1.0, 2.0, 3.0}).contains(4.0));
+                               ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_5_5

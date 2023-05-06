@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_59.java:29: error: <identifier> expected
+Input: public static byte[] toByteArray(long value) {
+     ^
+CodexTest_0_7_59.java:41: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_59.java:53: error: <identifier> expected
+Input: public static int toInt(byte[] buf, int offset) {
+     ^
+CodexTest_0_7_59.java:60: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_59.java:70: error: reached end of file while parsing
+}
+ ^

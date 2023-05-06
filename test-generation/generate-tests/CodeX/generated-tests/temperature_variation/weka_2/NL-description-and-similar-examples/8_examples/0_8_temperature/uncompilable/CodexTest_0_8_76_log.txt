@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_76.java:22: error: cannot find symbol
+		DenseInstance instNew = (DenseInstance) inst.getAsInstance(inst.dataset(), random);
+		                                            ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable inst of type weka.core.DenseInstance

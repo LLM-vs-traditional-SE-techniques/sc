@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_79.java:21: error: cannot find symbol
+              Vector u = new Vector(k);
+              ^
+  symbol:   class Vector
+  location: class CodexTest_0_8_79
+CodexTest_0_8_79.java:21: error: cannot find symbol
+              Vector u = new Vector(k);
+                             ^
+  symbol:   class Vector
+  location: class CodexTest_0_8_79
+CodexTest_0_8_79.java:22: error: cannot find symbol
+              Vector v = new Vector(k);
+              ^
+  symbol:   class Vector
+  location: class CodexTest_0_8_79
+CodexTest_0_8_79.java:22: error: cannot find symbol
+              Vector v = new Vector(k);
+                             ^
+  symbol:   class Vector
+  location: class CodexTest_0_8_79

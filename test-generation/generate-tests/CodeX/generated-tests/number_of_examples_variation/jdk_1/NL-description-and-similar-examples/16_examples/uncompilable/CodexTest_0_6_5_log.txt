@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_5.java:21: error: cannot find symbol
+        assertTrue(list.remove(1));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:22: error: cannot find symbol
+        assertFalse(list.remove(1));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:23: error: cannot find symbol
+        assertEquals(Arrays.asList(0, 2, 3), list);
+                                             ^
+  symbol:   variable list
+  location: class CodexTest_0_6_5

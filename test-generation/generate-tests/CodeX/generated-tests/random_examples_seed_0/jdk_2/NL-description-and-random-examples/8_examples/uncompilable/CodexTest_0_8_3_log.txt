@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_3.java:21: error: cannot find symbol
+        Vector2D v = new Vector2D(2, 3);
+        ^
+  symbol:   class Vector2D
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:21: error: cannot find symbol
+        Vector2D v = new Vector2D(2, 3);
+                         ^
+  symbol:   class Vector2D
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:22: error: cannot find symbol
+        Assert.assertTrue(v.contains(new SparseObjectVector(new Object[] {new Vector1D(2), new Vector1D(3)})));
+                                         ^
+  symbol:   class SparseObjectVector
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:22: error: cannot find symbol
+        Assert.assertTrue(v.contains(new SparseObjectVector(new Object[] {new Vector1D(2), new Vector1D(3)})));
+                                                                              ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:22: error: cannot find symbol
+        Assert.assertTrue(v.contains(new SparseObjectVector(new Object[] {new Vector1D(2), new Vector1D(3)})));
+                                                                                               ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:23: error: cannot find symbol
+        Assert.assertFalse(v.contains(new SparseObjectVector(new Object[] {new Vector1D(2), new Vector1D(4)})));
+                                          ^
+  symbol:   class SparseObjectVector
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:23: error: cannot find symbol
+        Assert.assertFalse(v.contains(new SparseObjectVector(new Object[] {new Vector1D(2), new Vector1D(4)})));
+                                                                               ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:23: error: cannot find symbol
+        Assert.assertFalse(v.contains(new SparseObjectVector(new Object[] {new Vector1D(2), new Vector1D(4)})));
+                                                                                                ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_3

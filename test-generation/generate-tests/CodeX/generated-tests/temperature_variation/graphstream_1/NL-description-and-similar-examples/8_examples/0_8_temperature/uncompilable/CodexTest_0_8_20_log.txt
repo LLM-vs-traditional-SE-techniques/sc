@@ -1,0 +1,53 @@
+isCompilable => false
+CodexTest_0_8_20.java:20: error: cannot find symbol
+		graph.addEdge("ab", "a", "b");
+		^
+  symbol:   variable graph
+  location: class CodexTest_0_8_20
+CodexTest_0_8_20.java:21: error: cannot find symbol
+		graph.addEdge("bc", "b", "c");
+		^
+  symbol:   variable graph
+  location: class CodexTest_0_8_20
+CodexTest_0_8_20.java:22: error: cannot find symbol
+		graph.addEdge("cd", "c", "d");
+		^
+  symbol:   variable graph
+  location: class CodexTest_0_8_20
+CodexTest_0_8_20.java:24: error: cannot find symbol
+		path.add(graph.getEdge("ab"));
+		         ^
+  symbol:   variable graph
+  location: class CodexTest_0_8_20
+CodexTest_0_8_20.java:25: error: cannot find symbol
+		path.add(graph.getEdge("bc"));
+		         ^
+  symbol:   variable graph
+  location: class CodexTest_0_8_20
+CodexTest_0_8_20.java:26: error: cannot find symbol
+		path.add(graph.getEdge("cd"));
+		         ^
+  symbol:   variable graph
+  location: class CodexTest_0_8_20
+CodexTest_0_8_20.java:27: error: cannot find symbol
+		assertTrue(path.contains(graph.getEdge("ab")));
+		                         ^
+  symbol:   variable graph
+  location: class CodexTest_0_8_20
+CodexTest_0_8_20.java:28: error: cannot find symbol
+		assertTrue(path.contains(graph.getEdge("bc")));
+		                         ^
+  symbol:   variable graph
+  location: class CodexTest_0_8_20
+CodexTest_0_8_20.java:29: error: cannot find symbol
+		assertTrue(path.contains(graph.getEdge("cd")));
+		                         ^
+  symbol:   variable graph
+  location: class CodexTest_0_8_20
+CodexTest_0_8_20.java:30: error: no suitable method found for contains(java.lang.String)
+		assertFalse(path.contains("ab"));
+		                ^
+    method org.graphstream.graph.Path.contains(org.graphstream.graph.Node) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to org.graphstream.graph.Node)
+    method org.graphstream.graph.Path.contains(org.graphstream.graph.Edge) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to org.graphstream.graph.Edge)

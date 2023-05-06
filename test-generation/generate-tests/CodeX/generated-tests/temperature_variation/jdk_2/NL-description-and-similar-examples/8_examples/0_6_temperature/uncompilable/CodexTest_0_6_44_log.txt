@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_44.java:22: error: cannot find symbol
+        SimpleList<String> underTest = new SimpleList<>();
+        ^
+  symbol:   class SimpleList
+  location: class CodexTest_0_6_44
+CodexTest_0_6_44.java:22: error: cannot find symbol
+        SimpleList<String> underTest = new SimpleList<>();
+                                           ^
+  symbol:   class SimpleList
+  location: class CodexTest_0_6_44
+CodexTest_0_6_44.java:23: error: cannot find symbol
+        underTest.add(test1);
+                      ^
+  symbol:   variable test1
+  location: class CodexTest_0_6_44
+CodexTest_0_6_44.java:25: error: cannot find symbol
+        boolean contains = underTest.contains(test2);
+                                              ^
+  symbol:   variable test2
+  location: class CodexTest_0_6_44

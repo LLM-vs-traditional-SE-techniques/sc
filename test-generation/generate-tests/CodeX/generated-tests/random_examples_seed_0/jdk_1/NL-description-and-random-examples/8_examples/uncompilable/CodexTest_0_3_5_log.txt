@@ -1,0 +1,163 @@
+isCompilable => false
+CodexTest_0_3_5.java:21: error: cannot find symbol
+        Object[] data = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                      ^
+  symbol:   variable a
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:21: error: cannot find symbol
+        Object[] data = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                         ^
+  symbol:   variable b
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:21: error: cannot find symbol
+        Object[] data = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                            ^
+  symbol:   variable c
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:21: error: cannot find symbol
+        Object[] data = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                               ^
+  symbol:   variable d
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:21: error: cannot find symbol
+        Object[] data = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                  ^
+  symbol:   variable e
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:21: error: cannot find symbol
+        Object[] data = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                     ^
+  symbol:   variable f
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:21: error: cannot find symbol
+        Object[] data = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                        ^
+  symbol:   variable g
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:21: error: cannot find symbol
+        Object[] data = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                           ^
+  symbol:   variable h
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:21: error: cannot find symbol
+        Object[] data = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                              ^
+  symbol:   variable i
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:21: error: cannot find symbol
+        Object[] data = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                                 ^
+  symbol:   variable j
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:21: error: cannot find symbol
+        Object[] data = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                                    ^
+  symbol:   variable k
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:23: error: cannot find symbol
+        Object[] expected = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                          ^
+  symbol:   variable a
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:23: error: cannot find symbol
+        Object[] expected = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                             ^
+  symbol:   variable b
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:23: error: cannot find symbol
+        Object[] expected = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                ^
+  symbol:   variable c
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:23: error: cannot find symbol
+        Object[] expected = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                   ^
+  symbol:   variable d
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:23: error: cannot find symbol
+        Object[] expected = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                      ^
+  symbol:   variable e
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:23: error: cannot find symbol
+        Object[] expected = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                         ^
+  symbol:   variable f
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:23: error: cannot find symbol
+        Object[] expected = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                            ^
+  symbol:   variable g
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:23: error: cannot find symbol
+        Object[] expected = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                               ^
+  symbol:   variable h
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:23: error: cannot find symbol
+        Object[] expected = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                                  ^
+  symbol:   variable i
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:23: error: cannot find symbol
+        Object[] expected = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                                     ^
+  symbol:   variable j
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:23: error: cannot find symbol
+        Object[] expected = new Object[] {a, b, c, d, e, f, g, h, i, j, k};
+                                                                        ^
+  symbol:   variable k
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:24: error: cannot find symbol
+        Object[] expectedAfterRemove = new Object[] {a, b, c, d, e, f, g, h, i};
+                                                     ^
+  symbol:   variable a
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:24: error: cannot find symbol
+        Object[] expectedAfterRemove = new Object[] {a, b, c, d, e, f, g, h, i};
+                                                        ^
+  symbol:   variable b
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:24: error: cannot find symbol
+        Object[] expectedAfterRemove = new Object[] {a, b, c, d, e, f, g, h, i};
+                                                           ^
+  symbol:   variable c
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:24: error: cannot find symbol
+        Object[] expectedAfterRemove = new Object[] {a, b, c, d, e, f, g, h, i};
+                                                              ^
+  symbol:   variable d
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:24: error: cannot find symbol
+        Object[] expectedAfterRemove = new Object[] {a, b, c, d, e, f, g, h, i};
+                                                                 ^
+  symbol:   variable e
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:24: error: cannot find symbol
+        Object[] expectedAfterRemove = new Object[] {a, b, c, d, e, f, g, h, i};
+                                                                    ^
+  symbol:   variable f
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:24: error: cannot find symbol
+        Object[] expectedAfterRemove = new Object[] {a, b, c, d, e, f, g, h, i};
+                                                                       ^
+  symbol:   variable g
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:24: error: cannot find symbol
+        Object[] expectedAfterRemove = new Object[] {a, b, c, d, e, f, g, h, i};
+                                                                          ^
+  symbol:   variable h
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:24: error: cannot find symbol
+        Object[] expectedAfterRemove = new Object[] {a, b, c, d, e, f, g, h, i};
+                                                                             ^
+  symbol:   variable i
+  location: class CodexTest_0_3_5
+CodexTest_0_3_5.java:26: error: cannot find symbol
+        assertEquals(k, list.remove(10));
+                     ^
+  symbol:   variable k
+  location: class CodexTest_0_3_5
+Note: CodexTest_0_3_5.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_1.java:29: error: method fromBytesNoCopy in class com.google.common.hash.HashCode cannot be applied to given types;
+    assertEquals(hashCode, HashCode.fromBytesNoCopy(dest, 0, 32));
+                                   ^
+  required: byte[]
+  found: byte[],int,int
+  reason: actual and formal argument lists differ in length

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_61.java:15: error: cannot find symbol
+    GWT.setUncaughtExceptionHandler(mockhandler);
+                                    ^
+  symbol:   variable mockhandler
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:16: error: cannot find symbol
+    assertEquals(mockhandler, GWT.getUncaughtExceptionHandler());
+                 ^
+  symbol:   variable mockhandler
+  location: class CodexTest_0_8_61

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_3.java:16: error: cannot find symbol
+    BooleanConverter converter = new BooleanConverter();
+    ^
+  symbol:   class BooleanConverter
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:16: error: cannot find symbol
+    BooleanConverter converter = new BooleanConverter();
+                                     ^
+  symbol:   class BooleanConverter
+  location: class CodexTest_0_7_3

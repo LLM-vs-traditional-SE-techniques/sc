@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_48.java:71: error: cannot find symbol
+        assertEquals(XContentType.JSON.mediaTypeWithoutParameters(), indexRequest.contentType().mediaType());
+                                                                                 ^
+  symbol:   method contentType()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest

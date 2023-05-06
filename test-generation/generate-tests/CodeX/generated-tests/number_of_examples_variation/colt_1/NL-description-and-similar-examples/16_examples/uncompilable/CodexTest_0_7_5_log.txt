@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_5.java:31: error: cern.colt.matrix.DoubleMatrix1D is abstract; cannot be instantiated
+    matrix.assign(new DoubleMatrix1D(0, 0));
+                  ^

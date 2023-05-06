@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_75.java:65: error: cannot find symbol
+        StructureId structureId = StructureId.of("4");
+        ^
+  symbol:   class StructureId
+  location: class CodexTest_0_9_75
+CodexTest_0_9_75.java:65: error: cannot find symbol
+        StructureId structureId = StructureId.of("4");
+                                  ^
+  symbol:   variable StructureId
+  location: class CodexTest_0_9_75
+CodexTest_0_9_75.java:66: error: cannot find symbol
+        StructureId structureId2 = structureId.parent("3");
+        ^
+  symbol:   class StructureId
+  location: class CodexTest_0_9_75

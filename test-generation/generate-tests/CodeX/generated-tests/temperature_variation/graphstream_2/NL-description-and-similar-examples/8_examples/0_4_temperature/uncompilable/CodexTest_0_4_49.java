@@ -1,0 +1,36 @@
+import org.graphstream.graph.*;
+import java.util.Collection;
+import java.util.List;
+import java.util.Stack;
+import java.util.logging.Logger;
+import java.util.stream.Stream;
+
+import org.graphstream.graph.Graph;
+import org.graphstream.graph.Path;
+import org.graphstream.graph.implementations.DefaultGraph;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_4_49 { 
+  @Test
+    public void testEquals() {
+        Path p1 = new Path();
+        Path p2 = new Path();
+        Assert.assertTrue(p1.equals(p2));
+        p1.setRoot(new Node(a));
+        Assert.assertFalse(p1.equals(p2));
+        p2.setRoot(new Node(a));
+        Assert.assertTrue(p1.equals(p2));
+        p1.add(new Edge(ab));
+        Assert.assertFalse(p1.equals(p2));
+        p2.add(new Edge(ab));
+        Assert.assertTrue(p1.equals(p2));
+        p1.add(new Edge(bc));
+        Assert.assertFalse(p1.equals(p2));
+        p2.add(new Edge(bc));
+        Assert.assertTrue(p1.equals(p2));
+    }
+}

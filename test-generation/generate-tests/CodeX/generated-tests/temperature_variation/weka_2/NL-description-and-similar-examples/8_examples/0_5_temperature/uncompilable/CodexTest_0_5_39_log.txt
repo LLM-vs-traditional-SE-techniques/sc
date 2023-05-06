@@ -1,0 +1,33 @@
+isCompilable => false
+CodexTest_0_5_39.java:21: error: cannot find symbol
+    Instances model = new Instances("test", new ArrayList(), numAtts);
+                                                ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_5_39
+CodexTest_0_5_39.java:22: error: no suitable method found for add(weka.core.Attribute)
+    model.add(new Attribute("Att1"));
+         ^
+    method java.util.Collection.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method java.util.List.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method java.util.AbstractCollection.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method java.util.AbstractList.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method weka.core.Instances.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+CodexTest_0_5_39.java:23: error: no suitable method found for add(weka.core.Attribute)
+    model.add(new Attribute("Att2"));
+         ^
+    method java.util.Collection.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method java.util.List.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method java.util.AbstractCollection.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method java.util.AbstractList.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+    method weka.core.Instances.add(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Attribute cannot be converted to weka.core.Instance)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

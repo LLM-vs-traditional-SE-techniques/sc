@@ -1,0 +1,76 @@
+isCompilable => false
+CodexTest_0_4_38.java:21: error: cannot find symbol
+        Object[] a = {a, b, c, d, e, f, g, h, i, j, k};
+                         ^
+  symbol:   variable b
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:21: error: cannot find symbol
+        Object[] a = {a, b, c, d, e, f, g, h, i, j, k};
+                            ^
+  symbol:   variable c
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:21: error: cannot find symbol
+        Object[] a = {a, b, c, d, e, f, g, h, i, j, k};
+                               ^
+  symbol:   variable d
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:21: error: cannot find symbol
+        Object[] a = {a, b, c, d, e, f, g, h, i, j, k};
+                                  ^
+  symbol:   variable e
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:21: error: cannot find symbol
+        Object[] a = {a, b, c, d, e, f, g, h, i, j, k};
+                                     ^
+  symbol:   variable f
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:21: error: cannot find symbol
+        Object[] a = {a, b, c, d, e, f, g, h, i, j, k};
+                                        ^
+  symbol:   variable g
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:21: error: cannot find symbol
+        Object[] a = {a, b, c, d, e, f, g, h, i, j, k};
+                                           ^
+  symbol:   variable h
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:21: error: cannot find symbol
+        Object[] a = {a, b, c, d, e, f, g, h, i, j, k};
+                                              ^
+  symbol:   variable i
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:21: error: cannot find symbol
+        Object[] a = {a, b, c, d, e, f, g, h, i, j, k};
+                                                 ^
+  symbol:   variable j
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:21: error: cannot find symbol
+        Object[] a = {a, b, c, d, e, f, g, h, i, j, k};
+                                                    ^
+  symbol:   variable k
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:22: error: cannot find symbol
+        FastList l = new FastList(a);
+        ^
+  symbol:   class FastList
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:22: error: cannot find symbol
+        FastList l = new FastList(a);
+                         ^
+  symbol:   class FastList
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:24: error: cannot find symbol
+        assertTrue(l.contains(e));
+                              ^
+  symbol:   variable e
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:25: error: cannot find symbol
+        assertTrue(l.contains(k));
+                              ^
+  symbol:   variable k
+  location: class CodexTest_0_4_38
+CodexTest_0_4_38.java:26: error: cannot find symbol
+        assertFalse(l.contains(A));
+                               ^
+  symbol:   variable A
+  location: class CodexTest_0_4_38

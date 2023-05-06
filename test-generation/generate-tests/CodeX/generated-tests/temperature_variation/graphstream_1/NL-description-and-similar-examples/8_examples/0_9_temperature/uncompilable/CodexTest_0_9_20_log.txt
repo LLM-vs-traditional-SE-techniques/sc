@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_20.java:21: error: cannot find symbol
+        PathTypeDescriptor underTest = new PathTypeDescriptor();
+        ^
+  symbol:   class PathTypeDescriptor
+  location: class CodexTest_0_9_20
+CodexTest_0_9_20.java:21: error: cannot find symbol
+        PathTypeDescriptor underTest = new PathTypeDescriptor();
+                                           ^
+  symbol:   class PathTypeDescriptor
+  location: class CodexTest_0_9_20
+CodexTest_0_9_20.java:22: error: cannot find symbol
+        Mockito.when(edgePath.contains(edge)).thenReturn(true);
+                                       ^
+  symbol:   variable edge
+  location: class CodexTest_0_9_20
+CodexTest_0_9_20.java:22: error: cannot find symbol
+        Mockito.when(edgePath.contains(edge)).thenReturn(true);
+                     ^
+  symbol:   variable edgePath
+  location: class CodexTest_0_9_20
+CodexTest_0_9_20.java:22: error: cannot find symbol
+        Mockito.when(edgePath.contains(edge)).thenReturn(true);
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_9_20
+CodexTest_0_9_20.java:24: error: cannot find symbol
+        boolean result = underTest.contains(edge, null);
+                                            ^
+  symbol:   variable edge
+  location: class CodexTest_0_9_20

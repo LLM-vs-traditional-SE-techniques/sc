@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_75.java:19: error: cannot find symbol
+			DoubleFactory1D f = DoubleFactory1D.dense;
+			^
+  symbol:   class DoubleFactory1D
+  location: class CodexTest_0_8_75
+CodexTest_0_8_75.java:19: error: cannot find symbol
+			DoubleFactory1D f = DoubleFactory1D.dense;
+			                    ^
+  symbol:   variable DoubleFactory1D
+  location: class CodexTest_0_8_75
+CodexTest_0_8_75.java:20: error: cannot find symbol
+			DoubleMatrix1D vector = f.make(data);
+			^
+  symbol:   class DoubleMatrix1D
+  location: class CodexTest_0_8_75

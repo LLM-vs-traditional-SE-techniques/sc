@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_55.java:20: error: cannot find symbol
+        Graph graph = createSimpleGraph();
+                      ^
+  symbol:   method createSimpleGraph()
+  location: class CodexTest_0_8_55

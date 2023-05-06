@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_75.java:31: error: cannot find symbol
+		DenseDoubleVector v1 = new DenseDoubleVector(data);
+		^
+  symbol:   class DenseDoubleVector
+  location: class CodexTest_0_8_75
+CodexTest_0_8_75.java:31: error: cannot find symbol
+		DenseDoubleVector v1 = new DenseDoubleVector(data);
+		                           ^
+  symbol:   class DenseDoubleVector
+  location: class CodexTest_0_8_75
+CodexTest_0_8_75.java:32: error: cannot find symbol
+		DenseDoubleVector v2 = new DenseDoubleVector(data.length);
+		^
+  symbol:   class DenseDoubleVector
+  location: class CodexTest_0_8_75
+CodexTest_0_8_75.java:32: error: cannot find symbol
+		DenseDoubleVector v2 = new DenseDoubleVector(data.length);
+		                           ^
+  symbol:   class DenseDoubleVector
+  location: class CodexTest_0_8_75

@@ -1,0 +1,29 @@
+isCompilable => false
+CodexTest_0_7_9.java:31: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D v1 = new Vector1D(1, 2);
+                                      ^
+CodexTest_0_7_9.java:32: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D v2 = new Vector1D(3, 4);
+                                      ^
+CodexTest_0_7_9.java:33: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D v3 = new Vector1D(5, 6);
+                                      ^
+CodexTest_0_7_9.java:34: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D v4 = new Vector1D(7, 8);
+                                      ^
+CodexTest_0_7_9.java:35: error: cannot find symbol
+        assertEquals(TestUtils.createRealVector(new double[]{2, 2}),
+                     ^
+  symbol:   variable TestUtils
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:37: error: cannot find symbol
+        assertEquals(TestUtils.createRealVector(new double[]{4, 4}),
+                     ^
+  symbol:   variable TestUtils
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:39: error: cannot find symbol
+        assertEquals(TestUtils.createRealVector(new double[]{6, 6}),
+                     ^
+  symbol:   variable TestUtils
+  location: class CodexTest_0_7_9
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

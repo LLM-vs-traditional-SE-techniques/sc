@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_5.java:67: error: cannot find symbol
+        QueryBuilder nestedBuilder = new NestedQueryBuilder("obj1", new TermQueryBuilder("obj1.name", "blue"));
+        ^
+  symbol:   class QueryBuilder
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:67: error: cannot find symbol
+        QueryBuilder nestedBuilder = new NestedQueryBuilder("obj1", new TermQueryBuilder("obj1.name", "blue"));
+                                         ^
+  symbol:   class NestedQueryBuilder
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:67: error: cannot find symbol
+        QueryBuilder nestedBuilder = new NestedQueryBuilder("obj1", new TermQueryBuilder("obj1.name", "blue"));
+                                                                        ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_8_5

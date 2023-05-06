@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_6_68.java:21: error: cannot find symbol
+        Instances insts = new Instances(new BufferedReader(
+                                            ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_6_68
+CodexTest_0_6_68.java:22: error: cannot find symbol
+                new StringReader(AlgVectorTest.DATATYPE_HEADER)));
+                    ^
+  symbol:   class StringReader
+  location: class CodexTest_0_6_68
+CodexTest_0_6_68.java:22: error: cannot find symbol
+                new StringReader(AlgVectorTest.DATATYPE_HEADER)));
+                                 ^
+  symbol:   variable AlgVectorTest
+  location: class CodexTest_0_6_68
+CodexTest_0_6_68.java:28: error: cannot find symbol
+                AlgVectorTest.DOUBLE_PRECISION);
+                ^
+  symbol:   variable AlgVectorTest
+  location: class CodexTest_0_6_68
+CodexTest_0_6_68.java:30: error: cannot find symbol
+                AlgVectorTest.DOUBLE_PRECISION);
+                ^
+  symbol:   variable AlgVectorTest
+  location: class CodexTest_0_6_68
+CodexTest_0_6_68.java:32: error: cannot find symbol
+                AlgVectorTest.DOUBLE_PRECISION);
+                ^
+  symbol:   variable AlgVectorTest
+  location: class CodexTest_0_6_68

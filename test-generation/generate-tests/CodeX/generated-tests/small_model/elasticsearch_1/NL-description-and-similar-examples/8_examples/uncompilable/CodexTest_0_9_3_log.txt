@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_3.java:65: error: cannot find symbol
+        assertTrue(parent().startsWith("http://data.europa.eu/euodp/etl/?"));
+                   ^
+  symbol:   method parent()
+  location: class CodexTest_0_9_3

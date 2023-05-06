@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_97.java:65: error: cannot find symbol
+        File file = File.createTempFile(getClass().getSimpleName(), "");
+        ^
+  symbol:   class File
+  location: class CodexTest_0_9_97
+CodexTest_0_9_97.java:65: error: cannot find symbol
+        File file = File.createTempFile(getClass().getSimpleName(), "");
+                    ^
+  symbol:   variable File
+  location: class CodexTest_0_9_97

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_50.java:31: error: cannot find symbol
+       rayMatrix rMatrix = new rayMatrix(10,10, values);
+       ^
+  symbol:   class rayMatrix
+  location: class CodexTest_0_9_50
+CodexTest_0_9_50.java:31: error: cannot find symbol
+       rayMatrix rMatrix = new rayMatrix(10,10, values);
+                               ^
+  symbol:   class rayMatrix
+  location: class CodexTest_0_9_50

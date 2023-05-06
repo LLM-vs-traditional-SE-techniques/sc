@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_6_5.java:36: error: illegal character: '`'
+```
+^
+CodexTest_0_6_5.java:36: error: illegal character: '`'
+```
+ ^
+CodexTest_0_6_5.java:36: error: illegal character: '`'
+```
+  ^
+CodexTest_0_6_5.java:37: error: illegal character: '#'
+##### Output:
+^
+CodexTest_0_6_5.java:37: error: illegal character: '#'
+##### Output:
+ ^
+CodexTest_0_6_5.java:37: error: illegal character: '#'
+##### Output:
+  ^
+CodexTest_0_6_5.java:37: error: illegal character: '#'
+##### Output:
+   ^
+CodexTest_0_6_5.java:37: error: illegal character: '#'
+##### Output:
+    ^
+CodexTest_0_6_5.java:37: error: <identifier> expected
+##### Output:
+            ^
+CodexTest_0_6_5.java:38: error: illegal character: '`'
+```
+^
+CodexTest_0_6_5.java:38: error: illegal character: '`'
+```
+ ^
+CodexTest_0_6_5.java:38: error: illegal character: '`'
+```
+  ^

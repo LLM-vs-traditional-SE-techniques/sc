@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_10.java:28: error: cannot find symbol
+      BitArray array = new BitArray(bits);
+      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:28: error: cannot find symbol
+      BitArray array = new BitArray(bits);
+                           ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:29: error: cannot find symbol
+      Method writeBytesToImpl = BitArray.class.getDeclaredMethod("writeBytesToImpl", byte[].class, int.class, int.class);
+      ^
+  symbol:   class Method
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:29: error: cannot find symbol
+      Method writeBytesToImpl = BitArray.class.getDeclaredMethod("writeBytesToImpl", byte[].class, int.class, int.class);
+                                ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_10

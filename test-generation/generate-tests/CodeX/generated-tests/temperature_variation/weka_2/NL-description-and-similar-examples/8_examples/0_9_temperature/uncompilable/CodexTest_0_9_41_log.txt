@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_41.java:29: error: <identifier> expected
+Input: public static void register(Map<String,String> props) {
+     ^
+CodexTest_0_9_41.java:33: error: <identifier> expected
+Output: public void testCreateInitializer() {
+      ^

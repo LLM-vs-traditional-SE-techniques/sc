@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_59.java:20: error: <identifier> expected
+Input: public double[] toArray() {
+     ^
+CodexTest_0_8_59.java:28: error: <identifier> expected
+Output: public void testToArray() {
+      ^

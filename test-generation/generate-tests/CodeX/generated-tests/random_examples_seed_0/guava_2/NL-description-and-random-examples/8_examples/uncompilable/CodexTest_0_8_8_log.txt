@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_8.java:25: error: cannot find symbol
+    BitArray array = new BitArray(Lists.newArrayList(0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0));
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:25: error: cannot find symbol
+    BitArray array = new BitArray(Lists.newArrayList(0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0));
+                         ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:25: error: cannot find symbol
+    BitArray array = new BitArray(Lists.newArrayList(0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0));
+                                  ^
+  symbol:   variable Lists
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:27: error: cannot find symbol
+    assertThat(array.writeBytesTo(dest, 0, dest.length), equalTo(dest.length));
+                                                         ^
+  symbol:   method equalTo(int)
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:28: error: cannot find symbol
+    assertThat(dest, equalTo(new byte[] {0x1A, (byte) 0xCA}));
+                     ^
+  symbol:   method equalTo(byte[])
+  location: class CodexTest_0_8_8

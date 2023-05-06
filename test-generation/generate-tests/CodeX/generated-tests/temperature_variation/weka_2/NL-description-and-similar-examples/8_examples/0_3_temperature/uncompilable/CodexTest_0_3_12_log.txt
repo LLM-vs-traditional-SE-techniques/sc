@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_12.java:51: error: unclosed string literal
+      assertEquals("N
+                   ^
+CodexTest_0_3_12.java:51: error: ';' expected
+      assertEquals("N
+                     ^
+CodexTest_0_3_12.java:52: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_4.java:65: error: package org.hibernate.internal.util.JsonTool does not exist
+        org.hibernate.internal.util.JsonTool.JsonNode parentNode = JsonTool.parse(new File(this.parent));
+                                            ^
+CodexTest_0_7_4.java:65: error: cannot find symbol
+        org.hibernate.internal.util.JsonTool.JsonNode parentNode = JsonTool.parse(new File(this.parent));
+                                                                                      ^
+  symbol:   class File
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:65: error: cannot find symbol
+        org.hibernate.internal.util.JsonTool.JsonNode parentNode = JsonTool.parse(new File(this.parent));
+                                                                                               ^
+  symbol: variable parent
+CodexTest_0_7_4.java:65: error: cannot find symbol
+        org.hibernate.internal.util.JsonTool.JsonNode parentNode = JsonTool.parse(new File(this.parent));
+                                                                   ^
+  symbol:   variable JsonTool
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:66: error: package org.hibernate.internal.util.JsonTool does not exist
+        org.hibernate.internal.util.JsonTool.JsonNode childNode = parentNode.get("child");
+                                            ^

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_8.java:24: error: incompatible types: java.lang.Object cannot be converted to boolean
+        assertFalse(arrayList.remove(2));
+                                    ^
+Note: CodexTest_0_9_8.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

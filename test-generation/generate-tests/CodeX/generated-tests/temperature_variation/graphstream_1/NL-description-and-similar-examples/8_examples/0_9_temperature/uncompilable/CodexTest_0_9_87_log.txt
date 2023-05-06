@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_9_87.java:18: error: type org.graphstream.graph.Path does not take parameters
+   private Path<Edge> edgePath;
+               ^
+CodexTest_0_9_87.java:21: error: type org.graphstream.graph.Path does not take parameters
+		edgePath = new Path<Edge>();
+		                   ^
+CodexTest_0_9_87.java:22: error: cannot find symbol
+		Edge a1 = new DefaultEdge();
+		              ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_9_87
+CodexTest_0_9_87.java:23: error: cannot find symbol
+		Edge a2 = new DefaultEdge();
+		              ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_9_87

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_79.java:34: error: cannot find symbol
+            assertEquals(values[i], m.getQuick(i), TOL);
+                                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_79

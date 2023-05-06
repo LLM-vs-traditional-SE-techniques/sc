@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_34.java:51: error: ')' expected
+        assertEquals(new Integer(21), al.get(19
+                                               ^
+CodexTest_0_6_34.java:52: error: reached end of file while parsing
+}
+ ^

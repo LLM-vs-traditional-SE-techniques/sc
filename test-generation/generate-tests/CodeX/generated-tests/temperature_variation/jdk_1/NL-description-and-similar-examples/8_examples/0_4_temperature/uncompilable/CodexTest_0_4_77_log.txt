@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_77.java:29: error: cannot find symbol
+                .concatenate(Arrays.asList(data).subList(1, data.length - 1).subList(2, 3)), list);
+                ^
+  symbol:   method concatenate(java.util.List<java.lang.Object>)
+  location: interface java.util.List<java.lang.Object>

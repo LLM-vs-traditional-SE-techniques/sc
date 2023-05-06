@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_27.java:71: error: cannot find symbol
+        assertToXContentEquivalent(map, indexRequest.getSourceAsBytesRef(), indexRequest.getContentType());
+                                                    ^
+  symbol:   method getSourceAsBytesRef()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest

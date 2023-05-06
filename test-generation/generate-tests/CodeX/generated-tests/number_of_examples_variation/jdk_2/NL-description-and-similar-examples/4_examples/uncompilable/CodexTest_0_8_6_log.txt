@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_6.java:22: error: cannot find symbol
+        FArrayList underTest = new FArrayList();
+        ^
+  symbol:   class FArrayList
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:22: error: cannot find symbol
+        FArrayList underTest = new FArrayList();
+                                   ^
+  symbol:   class FArrayList
+  location: class CodexTest_0_8_6

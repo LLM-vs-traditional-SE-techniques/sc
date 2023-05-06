@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_100.java:21: error: cannot find symbol
+		XList<String> l = newArrayList("A", "B", "C", "D", "E");
+		^
+  symbol:   class XList
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:21: error: cannot find symbol
+		XList<String> l = newArrayList("A", "B", "C", "D", "E");
+		                  ^
+  symbol:   method newArrayList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:22: error: cannot find symbol
+		A.remove(2);
+		^
+  symbol:   variable A
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:23: error: cannot find symbol
+		assertEquals(newArrayList("A", "B", "D", "E"), l);
+		             ^
+  symbol:   method newArrayList(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:24: error: cannot find symbol
+		assertEquals(newArrayList("A", "B", "C", "D", "E"),
+		             ^
+  symbol:   method newArrayList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:26: error: cannot find symbol
+		assertEquals(newArrayList(2), l.getRemoveHistory());
+		             ^
+  symbol:   method newArrayList(int)
+  location: class CodexTest_0_9_100

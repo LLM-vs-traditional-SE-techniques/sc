@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_2.java:25: error: cannot find symbol
+        assertThat(HashCode.fromLong(42L).hashCode(), equalTo(Longs.hashCode(42L)));
+                                                              ^
+  symbol:   variable Longs
+  location: class CodexTest_0_9_2

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_81.java:31: error: cannot find symbol
+    DoubleMatrix1D m = make(values.length, 1);
+                       ^
+  symbol:   method make(int,int)
+  location: class CodexTest_0_7_81
+CodexTest_0_7_81.java:33: error: cannot find symbol
+    for (int row = 0; row < m.rows(); row++) {
+                             ^
+  symbol:   method rows()
+  location: variable m of type cern.colt.matrix.DoubleMatrix1D
+CodexTest_0_7_81.java:34: error: cannot find symbol
+      assertEquals(values[row], m.getQuick(row), TOL);
+                                                 ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_81

@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_5_2.java:65: error: cannot find symbol
+        assertEquals("com.google.gwt.sample.mail.client.MailServiceImpl", this.parent);
+                                                                              ^
+  symbol: variable parent

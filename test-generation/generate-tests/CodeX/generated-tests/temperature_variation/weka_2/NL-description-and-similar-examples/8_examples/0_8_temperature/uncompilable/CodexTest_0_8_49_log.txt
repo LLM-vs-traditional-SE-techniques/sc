@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_49.java:20: error: no suitable constructor found for AlgVector(int[])
+			AlgVector v = new AlgVector(values);
+			              ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; int[] cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; int[] cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; int[] cannot be converted to weka.core.Instance)
+CodexTest_0_8_49.java:22: error: cannot find symbol
+			Instances data = AlgVectorTest.create10AttributeDataset();
+			                 ^
+  symbol:   variable AlgVectorTest
+  location: class CodexTest_0_8_49
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

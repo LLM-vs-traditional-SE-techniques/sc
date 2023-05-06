@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_6_87.java:14: error: cannot find symbol
+  private static class MyUncaughtExceptionHandler implements UncaughtExceptionHandler {
+                                                             ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_6_87
+CodexTest_0_6_87.java:13: error: annotation type not applicable to this kind of declaration
+  @Test
+  ^

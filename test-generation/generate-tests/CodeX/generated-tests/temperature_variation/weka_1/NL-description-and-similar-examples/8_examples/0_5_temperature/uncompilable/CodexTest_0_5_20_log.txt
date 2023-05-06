@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_20.java:27: error: cannot find symbol
+    assertEquals("0th element", 5, c.getElement(0), EPSILON);
+                                                    ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_5_20
+CodexTest_0_5_20.java:28: error: cannot find symbol
+    assertEquals("1st element", 7, c.getElement(1), EPSILON);
+                                                    ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_5_20
+CodexTest_0_5_20.java:29: error: cannot find symbol
+    assertEquals("2nd element", 9, c.getElement(2), EPSILON);
+                                                    ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_5_20

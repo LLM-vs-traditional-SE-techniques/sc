@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_1.java:16: error: cannot find symbol
+     assertEquals(new Short(Byte.MAX_VALUE), converters.toShort(new Boolean(true)));
+                                             ^
+  symbol:   variable converters
+  location: class CodexTest_0_9_1

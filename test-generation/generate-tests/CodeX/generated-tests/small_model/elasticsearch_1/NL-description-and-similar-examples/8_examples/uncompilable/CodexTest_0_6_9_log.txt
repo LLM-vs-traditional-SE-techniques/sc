@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_9.java:67: error: package org.hibernate.test.legacy does not exist
+            org.hibernate.test.legacy.Bid bid = new org.hibernate.test.legacy.Bid();
+                                     ^
+CodexTest_0_6_9.java:67: error: package org.hibernate.test.legacy does not exist
+            org.hibernate.test.legacy.Bid bid = new org.hibernate.test.legacy.Bid();
+                                                                             ^

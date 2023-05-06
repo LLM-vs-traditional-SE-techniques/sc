@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_8_4.java:67: error: <identifier> expected
+        request.source(builder);
+                      ^
+CodexTest_0_8_4.java:67: error: <identifier> expected
+        request.source(builder);
+                              ^
+CodexTest_0_8_4.java:68: error: invalid method declaration; return type required
+        assertEquals(builder, request.source());
+        ^
+CodexTest_0_8_4.java:68: error: <identifier> expected
+        assertEquals(builder, request.source());
+                            ^
+CodexTest_0_8_4.java:68: error: <identifier> expected
+        assertEquals(builder, request.source());
+                                            ^
+CodexTest_0_8_4.java:68: error: ';' expected
+        assertEquals(builder, request.source());
+                                             ^
+CodexTest_0_8_4.java:68: error: illegal start of type
+        assertEquals(builder, request.source());
+                                              ^
+CodexTest_0_8_4.java:68: error: <identifier> expected
+        assertEquals(builder, request.source());
+                                               ^
+CodexTest_0_8_4.java:68: error: ';' expected
+        assertEquals(builder, request.source());
+                                                ^
+CodexTest_0_8_4.java:69: error: illegal start of type
+        assertEquals(XContentType.JSON, request.getContentType());
+                    ^
+CodexTest_0_8_4.java:69: error: ';' expected
+        assertEquals(XContentType.JSON, request.getContentType());
+                                 ^
+CodexTest_0_8_4.java:69: error: <identifier> expected
+        assertEquals(XContentType.JSON, request.getContentType());
+                                      ^
+CodexTest_0_8_4.java:69: error: ';' expected
+        assertEquals(XContentType.JSON, request.getContentType());
+                                               ^
+CodexTest_0_8_4.java:69: error: invalid method declaration; return type required
+        assertEquals(XContentType.JSON, request.getContentType());
+                                                ^
+CodexTest_0_8_4.java:69: error: ';' expected
+        assertEquals(XContentType.JSON, request.getContentType());
+                                                                ^

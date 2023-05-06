@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_1.java:17: error: cannot find symbol
+            short s = toShort(b);
+                      ^
+  symbol:   method toShort(java.lang.Boolean)
+  location: class CodexTest_0_7_1

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_27.java:65: error: cannot find symbol
+        XContentBuilder xContentBuilder = JsonXContent.contentBuilder().startObject().field("field", "value").endObject();
+                                          ^
+  symbol:   variable JsonXContent
+  location: class CodexTest_0_6_27
+CodexTest_0_6_27.java:66: error: cannot find symbol
+        CreateIndexRequest request = new CreateIndexRequest("index").source(xContentBuilder);
+        ^
+  symbol:   class CreateIndexRequest
+  location: class CodexTest_0_6_27
+CodexTest_0_6_27.java:66: error: cannot find symbol
+        CreateIndexRequest request = new CreateIndexRequest("index").source(xContentBuilder);
+                                         ^
+  symbol:   class CreateIndexRequest
+  location: class CodexTest_0_6_27

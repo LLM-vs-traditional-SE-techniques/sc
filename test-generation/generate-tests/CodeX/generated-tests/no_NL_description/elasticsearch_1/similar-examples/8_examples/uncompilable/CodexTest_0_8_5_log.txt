@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_8_5.java:65: error: package ParentJoinFieldMapper does not exist
+        ParentJoinFieldMapper.Builder builder = new ParentJoinFieldMapper.Builder("join_field");
+                             ^
+CodexTest_0_8_5.java:65: error: package ParentJoinFieldMapper does not exist
+        ParentJoinFieldMapper.Builder builder = new ParentJoinFieldMapper.Builder("join_field");
+                                                                         ^
+CodexTest_0_8_5.java:66: error: cannot find symbol
+        ParentJoinFieldMapper mapper = builder.build(new BuilderContext(null, null, null, null));
+        ^
+  symbol:   class ParentJoinFieldMapper
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:66: error: cannot find symbol
+        ParentJoinFieldMapper mapper = builder.build(new BuilderContext(null, null, null, null));
+                                                         ^
+  symbol:   class BuilderContext
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:67: error: cannot find symbol
+        assertEquals(ParentJoinFieldMapper.NAME, mapper.parent());
+                     ^
+  symbol:   variable ParentJoinFieldMapper
+  location: class CodexTest_0_8_5

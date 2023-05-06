@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_5.java:21: error: cannot find symbol
+        DenseDoubleMatrix2D matrix2D = new DenseDoubleMatrix2D(new double[][]{{1,2,3},{4,5,6},{7,8,9}});
+        ^
+  symbol:   class DenseDoubleMatrix2D
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:21: error: cannot find symbol
+        DenseDoubleMatrix2D matrix2D = new DenseDoubleMatrix2D(new double[][]{{1,2,3},{4,5,6},{7,8,9}});
+                                           ^
+  symbol:   class DenseDoubleMatrix2D
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:22: error: cannot find symbol
+        DenseDoubleMatrix1D matrix1D = new DenseDoubleMatrix1D(new double[]{1,2,3});
+        ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:22: error: cannot find symbol
+        DenseDoubleMatrix1D matrix1D = new DenseDoubleMatrix1D(new double[]{1,2,3});
+                                           ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:23: error: cannot find symbol
+        assertEquals(true, matrix2D.contains(condition));
+                                             ^
+  symbol:   variable condition
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:24: error: cannot find symbol
+        assertEquals(true, matrix1D.contains(condition));
+                                             ^
+  symbol:   variable condition
+  location: class CodexTest_0_9_5

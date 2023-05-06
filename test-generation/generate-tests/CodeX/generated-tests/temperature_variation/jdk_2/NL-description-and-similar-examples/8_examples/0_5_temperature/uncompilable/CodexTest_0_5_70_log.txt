@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_70.java:21: error: cannot find symbol
+        BidiLinkedList<String> list = new BidiLinkedList<>();
+        ^
+  symbol:   class BidiLinkedList
+  location: class CodexTest_0_5_70
+CodexTest_0_5_70.java:21: error: cannot find symbol
+        BidiLinkedList<String> list = new BidiLinkedList<>();
+                                          ^
+  symbol:   class BidiLinkedList
+  location: class CodexTest_0_5_70

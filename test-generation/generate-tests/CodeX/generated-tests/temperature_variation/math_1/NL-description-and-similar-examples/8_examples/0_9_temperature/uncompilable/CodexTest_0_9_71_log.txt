@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_9_71.java:39: error: cannot find symbol
+        } catch (MathIllegalArgumentException e) {
+                 ^
+  symbol:   class MathIllegalArgumentException
+  location: class CodexTest_0_9_71
+CodexTest_0_9_71.java:43: error: method scalarMultiply in class org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be applied to given types;
+            Vector1D.scalarMultiply(v, Double.NaN);
+                    ^
+  required: double
+  found: org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_9_71.java:45: error: cannot find symbol
+        } catch (MathIllegalArgumentException e) {
+                 ^
+  symbol:   class MathIllegalArgumentException
+  location: class CodexTest_0_9_71

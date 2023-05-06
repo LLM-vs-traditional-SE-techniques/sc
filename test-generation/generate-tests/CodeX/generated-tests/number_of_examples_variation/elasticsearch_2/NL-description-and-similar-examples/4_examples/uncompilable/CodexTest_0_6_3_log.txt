@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_3.java:70: error: cannot find symbol
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			^
+  symbol:   class DoubleFactory2D
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:70: error: cannot find symbol
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			                    ^
+  symbol:   variable DoubleFactory2D
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:71: error: cannot find symbol
+			DoubleMatrix2D matrix = f.make(arrMatrix);
+			^
+  symbol:   class DoubleMatrix2D
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:72: error: cannot find symbol
+			DoubleMatrix2D transpose = matrix.viewDice();
+			^
+  symbol:   class DoubleMatrix2D
+  location: class CodexTest_0_6_3

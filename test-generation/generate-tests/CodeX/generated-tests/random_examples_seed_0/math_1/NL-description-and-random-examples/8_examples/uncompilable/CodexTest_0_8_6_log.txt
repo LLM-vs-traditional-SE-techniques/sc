@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_6.java:35: error: cannot find symbol
+        Vector1D a = (new DenseDoubleMatrix1D(new double[] { 1, 2, 3, 4 })).viewColumn(0);
+                          ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:36: error: cannot find symbol
+        Vector1D b = (new DenseDoubleMatrix1D(new double[] { 2, 4, 6, 8 })).viewColumn(0);
+                          ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:40: error: cannot find symbol
+        assertEquals(4.0, c.getQuick(0), 0.000001);
+                           ^
+  symbol:   method getQuick(int)
+  location: variable c of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_6.java:41: error: cannot find symbol
+        assertEquals(8.0, c.getQuick(1), 0.000001);
+                           ^
+  symbol:   method getQuick(int)
+  location: variable c of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_6.java:42: error: cannot find symbol
+        assertEquals(12.0, c.getQuick(2), 0.000001);
+                            ^
+  symbol:   method getQuick(int)
+  location: variable c of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_8_6.java:43: error: cannot find symbol
+        assertEquals(16.0, c.getQuick(3), 0.000001);
+                            ^
+  symbol:   method getQuick(int)
+  location: variable c of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D

@@ -1,0 +1,33 @@
+isCompilable => false
+CodexTest_0_8_10.java:22: error: incompatible types: int[] cannot be converted to java.lang.Object[]
+        final Object[] OLD_DATA = Arrays.copyOf(DATA, DATA.length);
+                                               ^
+CodexTest_0_8_10.java:24: error: incompatible types: int[] cannot be converted to java.lang.Integer[]
+        final Integer[] OLD_DATA_WRAPPED = Arrays.copyOf(DATA, DATA.length);
+                                                        ^
+CodexTest_0_8_10.java:29: error: incompatible types: java.lang.Object cannot be converted to java.lang.Integer
+            Integer removed = OLD_DATA[REMOVED];
+                                      ^
+CodexTest_0_8_10.java:33: error: cannot find symbol
+        fastRemove(OLD_DATA, REMOVED);
+        ^
+  symbol:   method fastRemove(java.lang.Object[],int)
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:34: error: no suitable method found for assertArrayEquals(int[],java.lang.Object[])
+        assertArrayEquals(NEW_DATA, OLD_DATA);
+        ^
+    method org.junit.Assert.assertArrayEquals(long[],long[]) is not applicable
+      (argument mismatch; int[] cannot be converted to long[])
+    method org.junit.Assert.assertArrayEquals(int[],int[]) is not applicable
+      (argument mismatch; java.lang.Object[] cannot be converted to int[])
+    method org.junit.Assert.assertArrayEquals(short[],short[]) is not applicable
+      (argument mismatch; int[] cannot be converted to short[])
+    method org.junit.Assert.assertArrayEquals(char[],char[]) is not applicable
+      (argument mismatch; int[] cannot be converted to char[])
+    method org.junit.Assert.assertArrayEquals(byte[],byte[]) is not applicable
+      (argument mismatch; int[] cannot be converted to byte[])
+    method org.junit.Assert.assertArrayEquals(boolean[],boolean[]) is not applicable
+      (argument mismatch; int[] cannot be converted to boolean[])
+    method org.junit.Assert.assertArrayEquals(java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; int[] cannot be converted to java.lang.Object[])
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_8.java:23: error: <identifier> expected
+Input: default Byte toByte(Boolean value) {
+     ^
+CodexTest_0_9_8.java:26: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_8.java:35: error: <identifier> expected
+Input: default Character toCharacter(Boolean value) {
+     ^
+CodexTest_0_9_8.java:38: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_8.java:47: error: <identifier> expected
+Input: default Double toDouble(Boolean value) {
+     ^
+CodexTest_0_9_8.java:50: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_8.java:59: error: <identifier> expected
+Input: default Integer toInteger(Boolean value) {
+     ^
+CodexTest_0_9_8.java:62: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_8.java:69: error: ')' expected
+        assertEquals(Integer
+                            ^
+CodexTest_0_9_8.java:70: error: reached end of file while parsing
+}
+ ^

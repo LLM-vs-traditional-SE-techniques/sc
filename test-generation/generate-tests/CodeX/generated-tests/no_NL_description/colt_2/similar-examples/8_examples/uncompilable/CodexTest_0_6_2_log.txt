@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_6_2.java:35: error: <identifier> expected
+Input: public DoubleMatrix1D like1D(int size) {
+     ^
+CodexTest_0_6_2.java:38: error: <identifier> expected
+Output: public void testLike1D() {
+      ^
+CodexTest_0_6_2.java:43: error: <identifier> expected
+Input: public DoubleMatrix2D like2D(int rows, int columns) {
+     ^
+CodexTest_0_6_2.java:46: error: <identifier> expected
+Output: public void testLike2D() {
+      ^
+CodexTest_0_6_2.java:52: error: <identifier> expected
+Input: public DoubleMatrix2D like2D(int rows, int columns) {
+     ^
+CodexTest_0_6_2.java:55: error: <identifier> expected
+Output: public void testLike2D() {
+      ^
+CodexTest_0_6_2.java:61: error: <identifier> expected
+Input: public DoubleMatrix2D like2D(int rows, int columns) {
+     ^
+CodexTest_0_6_2.java:64: error: <identifier> expected
+Output: public void testLike2D() {
+      ^
+CodexTest_0_6_2.java:70: error: <identifier> expected
+Input
+     ^
+CodexTest_0_6_2.java:71: error: reached end of file while parsing
+}
+ ^

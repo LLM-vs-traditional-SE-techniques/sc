@@ -1,0 +1,20 @@
+isCompilable => false
+CodexTest_0_3_95.java:26: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    int numBytes = new BloomFilter(Funnels.byteArrayFunnel(), 4, 0.03).writeBytesTo(dest, 0, 4);
+                   ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel,com.google.common.hash.BloomFilter.Strategy
+  found: com.google.common.hash.Funnel<byte[]>,int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_3_95.java:28: error: constructor BloomFilter in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(new BloomFilter(Funnels.byteArrayFunnel(), 4, 0.03), BloomFilter.readFrom(dest, 0, numBytes, Funnels.byteArrayFunnel()));
+                 ^
+  required: com.google.common.hash.BloomFilterStrategies.BitArray,int,com.google.common.hash.Funnel,com.google.common.hash.BloomFilter.Strategy
+  found: com.google.common.hash.Funnel<byte[]>,int,double
+  reason: actual and formal argument lists differ in length
+CodexTest_0_3_95.java:28: error: method readFrom in class com.google.common.hash.BloomFilter<T> cannot be applied to given types;
+    assertEquals(new BloomFilter(Funnels.byteArrayFunnel(), 4, 0.03), BloomFilter.readFrom(dest, 0, numBytes, Funnels.byteArrayFunnel()));
+                                                                                 ^
+  required: java.io.InputStream,com.google.common.hash.Funnel<T>
+  found: byte[],int,int,com.google.common.hash.Funnel<byte[]>
+  reason: cannot infer type-variable(s) T
+    (actual and formal argument lists differ in length)

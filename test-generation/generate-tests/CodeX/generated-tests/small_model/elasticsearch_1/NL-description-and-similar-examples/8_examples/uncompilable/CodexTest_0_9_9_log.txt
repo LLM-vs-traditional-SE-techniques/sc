@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_9.java:65: error: cannot find symbol
+        assertEquals("(java.lang.String)", parent.getAccessorMethod().generateCode());
+                                           ^
+  symbol:   variable parent
+  location: class CodexTest_0_9_9

@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_9_2.java:15: error: cannot find symbol
+    assertThat(getUncaughtExceptionHandler(), is(nullValue()));
+               ^
+  symbol:   method getUncaughtExceptionHandler()
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:15: error: cannot find symbol
+    assertThat(getUncaughtExceptionHandler(), is(nullValue()));
+                                                 ^
+  symbol:   method nullValue()
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:19: error: cannot find symbol
+        assertThat(getUncaughtExceptionHandler(), is(any(UncaughtExceptionHandler.class)));
+                   ^
+  symbol: method getUncaughtExceptionHandler()
+CodexTest_0_9_2.java:19: error: cannot find symbol
+        assertThat(getUncaughtExceptionHandler(), is(any(UncaughtExceptionHandler.class)));
+                                                         ^
+  symbol: class UncaughtExceptionHandler
+CodexTest_0_9_2.java:23: error: cannot find symbol
+    joinThread(thread);
+    ^
+  symbol:   method joinThread(java.lang.Thread)
+  location: class CodexTest_0_9_2

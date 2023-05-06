@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_7_5.java:25: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_5.java:27: error: not a statement
+    Inst
+    ^
+CodexTest_0_7_5.java:27: error: ';' expected
+    Inst
+        ^
+CodexTest_0_7_5.java:28: error: reached end of file while parsing
+}
+ ^

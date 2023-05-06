@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_3.java:25: error: <identifier> expected
+Input: public ParameterizedParameterizedType(Class<? super T> rawType,
+     ^
+CodexTest_0_9_3.java:25: error: invalid method declaration; return type required
+Input: public ParameterizedParameterizedType(Class<? super T> rawType,
+              ^
+CodexTest_0_9_3.java:42: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_9_3.java:49: error: reached end of file while parsing
+}
+ ^

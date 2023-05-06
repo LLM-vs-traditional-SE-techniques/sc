@@ -1,0 +1,101 @@
+isCompilable => false
+CodexTest_0_8_33.java:36: error: cannot find symbol
+         DoubleMatrix2D res = matrix.like2D(rows, columns);
+                                    ^
+  symbol:   method like2D(int,int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:37: error: cannot find symbol
+         assertTrue(matrix.getDimension(0) == res.getDimension(0));
+                          ^
+  symbol:   method getDimension(int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:37: error: cannot find symbol
+         assertTrue(matrix.getDimension(0) == res.getDimension(0));
+                                                 ^
+  symbol:   method getDimension(int)
+  location: variable res of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:38: error: cannot find symbol
+         assertTrue(matrix.getDimension(1) == res.getDimension(1));
+                          ^
+  symbol:   method getDimension(int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:38: error: cannot find symbol
+         assertTrue(matrix.getDimension(1) == res.getDimension(1));
+                                                 ^
+  symbol:   method getDimension(int)
+  location: variable res of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:39: error: cannot find symbol
+         res = matrix.like2D(matrix.rows(), matrix.columns());
+                     ^
+  symbol:   method like2D(int,int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:40: error: cannot find symbol
+         assertTrue(matrix.getDimension(0) == res.getDimension(0));
+                          ^
+  symbol:   method getDimension(int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:40: error: cannot find symbol
+         assertTrue(matrix.getDimension(0) == res.getDimension(0));
+                                                 ^
+  symbol:   method getDimension(int)
+  location: variable res of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:41: error: cannot find symbol
+         assertTrue(matrix.getDimension(1) == res.getDimension(1));
+                          ^
+  symbol:   method getDimension(int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:41: error: cannot find symbol
+         assertTrue(matrix.getDimension(1) == res.getDimension(1));
+                                                 ^
+  symbol:   method getDimension(int)
+  location: variable res of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:42: error: cannot find symbol
+         res = matrix.like2D(matrix.slices(), matrix.columns());
+                                   ^
+  symbol:   method slices()
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:43: error: cannot find symbol
+         assertTrue(matrix.getDimension(0) == res.getDimension(0));
+                          ^
+  symbol:   method getDimension(int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:43: error: cannot find symbol
+         assertTrue(matrix.getDimension(0) == res.getDimension(0));
+                                                 ^
+  symbol:   method getDimension(int)
+  location: variable res of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:44: error: cannot find symbol
+         assertTrue(matrix.getDimension(1) == res.getDimension(1));
+                          ^
+  symbol:   method getDimension(int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:44: error: cannot find symbol
+         assertTrue(matrix.getDimension(1) == res.getDimension(1));
+                                                 ^
+  symbol:   method getDimension(int)
+  location: variable res of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:45: error: cannot find symbol
+         res = matrix.like2D(matrix.rows(), matrix.columns() / 2);
+                     ^
+  symbol:   method like2D(int,int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:46: error: cannot find symbol
+         assertTrue(matrix.getDimension(0) == res.getDimension(0));
+                          ^
+  symbol:   method getDimension(int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:46: error: cannot find symbol
+         assertTrue(matrix.getDimension(0) == res.getDimension(0));
+                                                 ^
+  symbol:   method getDimension(int)
+  location: variable res of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:47: error: cannot find symbol
+         assertTrue(matrix.getDimension(1) / 2 == res.getDimension(1));
+                          ^
+  symbol:   method getDimension(int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_33.java:47: error: cannot find symbol
+         assertTrue(matrix.getDimension(1) / 2 == res.getDimension(1));
+                                                     ^
+  symbol:   method getDimension(int)
+  location: variable res of type cern.colt.matrix.DoubleMatrix2D

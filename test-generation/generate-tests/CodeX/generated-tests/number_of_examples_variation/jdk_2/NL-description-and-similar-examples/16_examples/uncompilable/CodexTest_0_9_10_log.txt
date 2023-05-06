@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_10.java:21: error: cannot find symbol
+        ImmutableList<String> list = ImmutableList.<String>builder().add("foo", "bar").build();
+        ^
+  symbol:   class ImmutableList
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:21: error: cannot find symbol
+        ImmutableList<String> list = ImmutableList.<String>builder().add("foo", "bar").build();
+                                     ^
+  symbol:   variable ImmutableList
+  location: class CodexTest_0_9_10

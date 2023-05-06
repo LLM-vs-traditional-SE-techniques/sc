@@ -1,0 +1,39 @@
+isCompilable => false
+CodexTest_0_9_4.java:24: error: type org.graphstream.graph.Edge does not take parameters
+        Edge<Integer> neg = new Edge <Integer>(startNode, endNode);
+            ^
+CodexTest_0_9_4.java:24: error: type org.graphstream.graph.Edge does not take parameters
+        Edge<Integer> neg = new Edge <Integer>(startNode, endNode);
+                                     ^
+CodexTest_0_9_4.java:25: error: type org.graphstream.graph.Edge does not take parameters
+        Edge<Integer> neg2 = new Edge <Integer>(startNode2, endNode2);
+            ^
+CodexTest_0_9_4.java:25: error: type org.graphstream.graph.Edge does not take parameters
+        Edge<Integer> neg2 = new Edge <Integer>(startNode2, endNode2);
+                                      ^
+CodexTest_0_9_4.java:26: error: cannot find symbol
+        Set<Edge<Integer>> negativeEdges = new HashSet<Edge<Integer>>();
+        ^
+  symbol:   class Set
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:26: error: type org.graphstream.graph.Edge does not take parameters
+        Set<Edge<Integer>> negativeEdges = new HashSet<Edge<Integer>>();
+                ^
+CodexTest_0_9_4.java:26: error: cannot find symbol
+        Set<Edge<Integer>> negativeEdges = new HashSet<Edge<Integer>>();
+                                               ^
+  symbol:   class HashSet
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:26: error: type org.graphstream.graph.Edge does not take parameters
+        Set<Edge<Integer>> negativeEdges = new HashSet<Edge<Integer>>();
+                                                           ^
+CodexTest_0_9_4.java:29: error: cannot find symbol
+        EdgePath<Integer> negEdgePath = new EdgePath<Integer>(startNode, endNode, negativeEdges);
+        ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:29: error: cannot find symbol
+        EdgePath<Integer> negEdgePath = new EdgePath<Integer>(startNode, endNode, negativeEdges);
+                                            ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_9_4

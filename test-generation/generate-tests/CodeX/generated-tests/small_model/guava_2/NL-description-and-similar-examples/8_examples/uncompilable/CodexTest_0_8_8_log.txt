@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_8.java:24: error: cannot find symbol
+    public boolean equals(int other, Vector1D vector) {
+                                     ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_8

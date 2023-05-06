@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_9_23.java:18: error: cannot find symbol
+    load("nominal.arff");
+    ^
+  symbol:   method load(java.lang.String)
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:19: error: cannot find symbol
+    Instances data = getInstances();
+                     ^
+  symbol:   method getInstances()
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:22: error: cannot find symbol
+      insts.add(getInstance(m_Instances, i));
+                            ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:23: error: cannot find symbol
+    LinearRegression cls = new LinearRegression();
+    ^
+  symbol:   class LinearRegression
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:23: error: cannot find symbol
+    LinearRegression cls = new LinearRegression();
+                               ^
+  symbol:   class LinearRegression
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:30: error: cannot find symbol
+      Instance newInst = getInstance(data, i).getAsInstance(data, m_Random);
+                                                                  ^
+  symbol:   variable m_Random
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:30: error: cannot find symbol
+      Instance newInst = getInstance(data, i).getAsInstance(data, m_Random);
+                         ^
+  symbol:   method getInstance(weka.core.Instances,int)
+  location: class CodexTest_0_9_23

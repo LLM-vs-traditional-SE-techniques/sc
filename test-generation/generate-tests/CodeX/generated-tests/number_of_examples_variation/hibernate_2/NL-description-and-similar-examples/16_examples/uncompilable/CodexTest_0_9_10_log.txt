@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_9_10.java:15: error: cannot find symbol
+  private void writeObject(ObjectOutputStream s) throws IOException {
+                           ^
+  symbol:   class ObjectOutputStream
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:15: error: cannot find symbol
+  private void writeObject(ObjectOutputStream s) throws IOException {
+                                                        ^
+  symbol:   class IOException
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:20: error: package Map does not exist
+		for (Map.Entry<K, V> e : s.entrySet()) {
+		        ^
+CodexTest_0_9_10.java:20: error: cannot find symbol
+		for (Map.Entry<K, V> e : s.entrySet()) {
+		               ^
+  symbol:   class K
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:20: error: cannot find symbol
+		for (Map.Entry<K, V> e : s.entrySet()) {
+		                  ^
+  symbol:   class V
+  location: class CodexTest_0_9_10

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_1.java:23: error: cannot find symbol
+                 assertTrue(instanceOf(Integer.valueOf(i), Integer.class));
+                            ^
+  symbol:   method instanceOf(java.lang.Integer,java.lang.Class<java.lang.Integer>)
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:24: error: cannot find symbol
+                 assertTrue(instanceOf(Double.valueOf(i), Double.class));
+                            ^
+  symbol:   method instanceOf(java.lang.Double,java.lang.Class<java.lang.Double>)
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:26: error: cannot find symbol
+                 assertFalse(instanceOf(Integer.valueOf(i), Integer.class));
+                             ^
+  symbol:   method instanceOf(java.lang.Integer,java.lang.Class<java.lang.Integer>)
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:27: error: cannot find symbol
+                 assertFalse(instanceOf(Double.valueOf(i), Double.class));
+                             ^
+  symbol:   method instanceOf(java.lang.Double,java.lang.Class<java.lang.Double>)
+  location: class CodexTest_0_9_1

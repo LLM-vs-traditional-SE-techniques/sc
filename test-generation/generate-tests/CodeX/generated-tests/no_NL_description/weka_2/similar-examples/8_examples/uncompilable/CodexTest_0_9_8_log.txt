@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_8.java:23: error: cannot find symbol
+        Instance inst = vector.getAsInstance(m_Data, new Random(1));
+                                             ^
+  symbol:   variable m_Data
+  location: class CodexTest_0_9_8

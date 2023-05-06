@@ -1,0 +1,20 @@
+isCompilable => false
+CodexTest_0_9_37.java:32: error: incompatible types: double[] cannot be converted to double
+        Vector1D p = new Vector1D(point);
+                                  ^
+CodexTest_0_9_37.java:33: error: bad operand types for binary operator '*'
+        Vector1D expected = new Vector1D(4.0 * point);
+                                             ^
+  first type:  double
+  second type: double[]
+CodexTest_0_9_37.java:35: error: cannot find symbol
+        CheckNotNaN.checkNotNull(result);
+        ^
+  symbol:   variable CheckNotNaN
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:36: error: cannot find symbol
+        VectorAssert.assertEquals(expected, result, 10E-15);
+        ^
+  symbol:   variable VectorAssert
+  location: class CodexTest_0_9_37
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

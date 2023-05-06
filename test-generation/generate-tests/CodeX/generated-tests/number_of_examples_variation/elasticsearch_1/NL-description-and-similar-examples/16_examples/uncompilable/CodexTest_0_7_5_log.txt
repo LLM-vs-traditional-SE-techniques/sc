@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_5.java:65: error: cannot find symbol
+        assertEquals("foo", new ParentPathElement("foo", "bar").parent());
+                                ^
+  symbol:   class ParentPathElement
+  location: class CodexTest_0_7_5

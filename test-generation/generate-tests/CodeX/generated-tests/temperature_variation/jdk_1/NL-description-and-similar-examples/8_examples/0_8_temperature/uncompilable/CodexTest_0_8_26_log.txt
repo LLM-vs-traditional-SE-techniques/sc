@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_26.java:22: error: cannot find symbol
+        int[] lst = new ArrayIntList(arr);
+                        ^
+  symbol:   class ArrayIntList
+  location: class CodexTest_0_8_26
+CodexTest_0_8_26.java:23: error: cannot find symbol
+        lst.remove(1);
+           ^
+  symbol:   method remove(int)
+  location: variable lst of type int[]
+CodexTest_0_8_26.java:24: error: cannot find symbol
+        assertEquals(3, lst.size());
+                           ^
+  symbol:   method size()
+  location: variable lst of type int[]

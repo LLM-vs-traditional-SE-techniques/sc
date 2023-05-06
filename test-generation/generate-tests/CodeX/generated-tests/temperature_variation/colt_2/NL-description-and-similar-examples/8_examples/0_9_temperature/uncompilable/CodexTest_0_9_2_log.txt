@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_2.java:62: error: ')' expected
+                assertEquals(BOrigCopy.getQuick(i, j),B.getQuick(i, j), TOL
+                                                                           ^
+CodexTest_0_9_2.java:63: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_6.java:37: error: incompatible types: double[] cannot be converted to double[][]
+    DoubleMatrix2D d2Double = new DenseDoubleMatrix2D(temp2);
+                                                      ^
+CodexTest_0_6_6.java:39: error: cannot find symbol
+    DoubleMatrix2D d4Double = d2Double.like2D(2,2);
+                                      ^
+  symbol:   method like2D(int,int)
+  location: variable d2Double of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_6_6.java:40: error: no suitable method found for assign(cern.colt.matrix.DoubleMatrix1D)
+    d3Double.assign(d1Double);
+            ^
+    method cern.colt.matrix.DoubleMatrix2D.assign(double[][]) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix1D cannot be converted to double[][])
+    method cern.colt.matrix.DoubleMatrix2D.assign(double) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix1D cannot be converted to double)
+    method cern.colt.matrix.DoubleMatrix2D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix1D cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.DoubleMatrix2D.assign(cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix1D cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

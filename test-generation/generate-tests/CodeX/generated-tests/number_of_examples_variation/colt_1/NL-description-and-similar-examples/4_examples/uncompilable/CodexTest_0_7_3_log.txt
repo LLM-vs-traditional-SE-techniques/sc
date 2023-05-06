@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_3.java:30: error: cannot find symbol
+    DoubleMatrix2D m = zeros(3,3);
+                       ^
+  symbol:   method zeros(int,int)
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:34: error: cannot find symbol
+    assertEquals(2.0, m.get(0, 1), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:35: error: cannot find symbol
+    assertEquals(3.0, m.get(1, 2), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:36: error: cannot find symbol
+    assertEquals(4.0, m.get(2, 0), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3

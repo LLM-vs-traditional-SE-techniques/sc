@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_4.java:65: error: cannot find symbol
+        ParentDoc parentDoc1 = new ParentDoc("p1");
+        ^
+  symbol:   class ParentDoc
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:65: error: cannot find symbol
+        ParentDoc parentDoc1 = new ParentDoc("p1");
+                                   ^
+  symbol:   class ParentDoc
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:66: error: cannot find symbol
+        ParentDoc parentDoc2 = new ParentDoc("p2");
+        ^
+  symbol:   class ParentDoc
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:66: error: cannot find symbol
+        ParentDoc parentDoc2 = new ParentDoc("p2");
+                                   ^
+  symbol:   class ParentDoc
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:67: error: cannot find symbol
+        ChildDoc childDoc1 = new ChildDoc(parentDoc1);
+        ^
+  symbol:   class ChildDoc
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:67: error: cannot find symbol
+        ChildDoc childDoc1 = new ChildDoc(parentDoc1);
+                                 ^
+  symbol:   class ChildDoc
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:68: error: cannot find symbol
+        ChildDoc childDoc2 = new ChildDoc(parentDoc2);
+        ^
+  symbol:   class ChildDoc
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:68: error: cannot find symbol
+        ChildDoc childDoc2 = new ChildDoc(parentDoc2);
+                                 ^
+  symbol:   class ChildDoc
+  location: class CodexTest_0_8_4

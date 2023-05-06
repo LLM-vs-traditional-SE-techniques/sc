@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_55.java:33: error: cannot find symbol
+        assertContentEquals(m, expected);
+        ^
+  symbol:   method assertContentEquals(cern.colt.matrix.impl.DenseDoubleMatrix1D,double[])
+  location: class CodexTest_0_7_55

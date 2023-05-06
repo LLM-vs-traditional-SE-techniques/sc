@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_8.java:71: error: cannot find symbol
+    		assertThat(ir.source().utf8ToString(), is("{\"bar\":\"baz\",\"foo\":\"bar\"}"));
+    		                                       ^
+  symbol:   method is(java.lang.String)
+  location: class CodexTest_0_8_8

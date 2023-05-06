@@ -1,0 +1,34 @@
+isCompilable => false
+CodexTest_0_6_7.java:23: error: <identifier> expected
+Input: public int toInt(Boolean value) {
+     ^
+CodexTest_0_6_7.java:26: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_7.java:35: error: <identifier> expected
+Input: public float toFloat(Boolean value) {
+     ^
+CodexTest_0_6_7.java:38: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_7.java:47: error: <identifier> expected
+Input: public double toDouble(Boolean value) {
+     ^
+CodexTest_0_6_7.java:50: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_7.java:59: error: <identifier> expected
+Input: public long toLong(Boolean value) {
+     ^
+CodexTest_0_6_7.java:62: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_6_7.java:71: error: <identifier> expected
+Input: public char toCharacter(Boolean
+     ^
+CodexTest_0_6_7.java:71: error: <identifier> expected
+Input: public char toCharacter(Boolean
+                                      ^
+CodexTest_0_6_7.java:72: error: reached end of file while parsing
+}
+ ^

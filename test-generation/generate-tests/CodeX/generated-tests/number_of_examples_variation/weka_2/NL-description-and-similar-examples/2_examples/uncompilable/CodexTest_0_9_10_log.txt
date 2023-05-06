@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_9_10.java:20: error: cannot find symbol
+			Random random = new MockRandom();
+			                    ^
+  symbol:   class MockRandom
+  location: class CodexTest_0_9_10
+Note: CodexTest_0_9_10.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_4_9.java:22: error: cannot find symbol
+        p1.add(node1);
+               ^
+  symbol:   variable node1
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:23: error: cannot find symbol
+        p1.add(node2);
+               ^
+  symbol:   variable node2
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:24: error: cannot find symbol
+        p2.add(node1);
+               ^
+  symbol:   variable node1
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:25: error: cannot find symbol
+        p2.add(node2);
+               ^
+  symbol:   variable node2
+  location: class CodexTest_0_4_9

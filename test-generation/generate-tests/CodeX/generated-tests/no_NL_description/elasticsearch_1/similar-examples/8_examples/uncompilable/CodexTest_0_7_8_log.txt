@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_8.java:65: error: cannot find symbol
+        assertEquals("_parent", IndexRequest.PARENT);
+                                            ^
+  symbol:   variable PARENT
+  location: class org.elasticsearch.action.index.IndexRequest

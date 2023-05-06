@@ -1,0 +1,49 @@
+isCompilable => false
+CodexTest_0_9_82.java:18: error: illegal start of type
+    if (m_Elements != null) {
+    ^
+CodexTest_0_9_82.java:18: error: <identifier> expected
+    if (m_Elements != null) {
+                  ^
+CodexTest_0_9_82.java:18: error: ';' expected
+    if (m_Elements != null) {
+                     ^
+CodexTest_0_9_82.java:18: error: illegal start of type
+    if (m_Elements != null) {
+                          ^
+CodexTest_0_9_82.java:18: error: <identifier> expected
+    if (m_Elements != null) {
+                           ^
+CodexTest_0_9_82.java:18: error: ';' expected
+    if (m_Elements != null) {
+                             ^
+CodexTest_0_9_82.java:19: error: <identifier> expected
+      int n = m_Elements.length;
+           ^
+CodexTest_0_9_82.java:20: error: illegal start of type
+       try {
+       ^
+CodexTest_0_9_82.java:20: error: ';' expected
+       try {
+          ^
+CodexTest_0_9_82.java:21: error: <identifier> expected
+	b = (AlgVector)clone();
+	 ^
+CodexTest_0_9_82.java:22: error: class, interface, or enum expected
+      } catch (CloneNotSupportedException ex) {
+        ^
+CodexTest_0_9_82.java:24: error: class, interface, or enum expected
+      }
+      ^
+CodexTest_0_9_82.java:25: error: class, interface, or enum expected
+          for(int i = 0; i < n; i++) {
+                         ^
+CodexTest_0_9_82.java:25: error: class, interface, or enum expected
+          for(int i = 0; i < n; i++) {
+                                ^
+CodexTest_0_9_82.java:28: error: class, interface, or enum expected
+      }
+      ^
+CodexTest_0_9_82.java:32: error: class, interface, or enum expected
+}
+^

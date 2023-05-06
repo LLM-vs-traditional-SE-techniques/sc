@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_10.java:23: error: cannot find symbol
+        boolean result = underTest.contains(edge);
+                                            ^
+  symbol:   variable edge
+  location: class CodexTest_0_6_10

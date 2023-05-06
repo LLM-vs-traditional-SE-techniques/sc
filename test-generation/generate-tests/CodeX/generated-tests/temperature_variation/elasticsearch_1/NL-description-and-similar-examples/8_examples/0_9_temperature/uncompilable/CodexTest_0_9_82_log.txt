@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_9_82.java:65: error: cannot find symbol
+        ByteSizeValue original = new ByteSizeValue(RandomNumbers.randomIntBetween(getRandom(), 1, 1 << 15));
+                                                                                  ^
+  symbol:   method getRandom()
+  location: class CodexTest_0_9_82
+CodexTest_0_9_82.java:65: error: cannot find symbol
+        ByteSizeValue original = new ByteSizeValue(RandomNumbers.randomIntBetween(getRandom(), 1, 1 << 15));
+                                                   ^
+  symbol:   variable RandomNumbers
+  location: class CodexTest_0_9_82
+CodexTest_0_9_82.java:66: error: cannot find symbol
+        String s = original.getStringRep();
+                           ^
+  symbol:   method getStringRep()
+  location: variable original of type org.elasticsearch.common.unit.ByteSizeValue
+CodexTest_0_9_82.java:67: error: no suitable constructor found for ByteSizeValue(java.lang.String)
+        ByteSizeValue parsed = new ByteSizeValue(s);
+                               ^
+    constructor org.elasticsearch.common.unit.ByteSizeValue.ByteSizeValue(org.elasticsearch.common.io.stream.StreamInput) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to org.elasticsearch.common.io.stream.StreamInput)
+    constructor org.elasticsearch.common.unit.ByteSizeValue.ByteSizeValue(long) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to long)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

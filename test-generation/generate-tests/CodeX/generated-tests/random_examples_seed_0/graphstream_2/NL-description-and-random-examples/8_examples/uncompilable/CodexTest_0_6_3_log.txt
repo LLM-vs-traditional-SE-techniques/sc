@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_3.java:20: error: cannot find symbol
+		ArrayList<Integer> nodes1 = new ArrayList<Integer>();
+		^
+  symbol:   class ArrayList
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:20: error: cannot find symbol
+		ArrayList<Integer> nodes1 = new ArrayList<Integer>();
+		                                ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:25: error: cannot find symbol
+		ArrayList<Integer> nodes2 = new ArrayList<Integer>();
+		^
+  symbol:   class ArrayList
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:25: error: cannot find symbol
+		ArrayList<Integer> nodes2 = new ArrayList<Integer>();
+		                                ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_6_3

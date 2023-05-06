@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_8.java:21: error: cannot find symbol
+    assertEquals(value, adapter.fromString(string));
+                        ^
+  symbol:   variable adapter
+  location: class CodexTest_0_9_8

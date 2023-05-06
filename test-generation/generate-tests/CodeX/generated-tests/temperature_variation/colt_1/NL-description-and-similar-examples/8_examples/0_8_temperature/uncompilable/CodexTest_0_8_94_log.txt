@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_94.java:42: error: cannot find symbol
+        check(A, B);
+        ^
+  symbol:   method check(cern.colt.matrix.DoubleMatrix3D,cern.colt.matrix.DoubleMatrix3D)
+  location: class CodexTest_0_8_94

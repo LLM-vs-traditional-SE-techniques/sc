@@ -1,0 +1,106 @@
+isCompilable => false
+CodexTest_0_8_1.java:21: error: cannot find symbol
+        Object[] a = new Object[SIZE];
+                                ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:22: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++)
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:26: error: cannot find symbol
+        assertTrue(x.remove(two));
+                            ^
+  symbol:   variable two
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:28: error: cannot find symbol
+        a = new Integer[]{zero, one, three, four, five, six, seven, eight, nine};
+                          ^
+  symbol:   variable zero
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:28: error: cannot find symbol
+        a = new Integer[]{zero, one, three, four, five, six, seven, eight, nine};
+                                ^
+  symbol:   variable one
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:28: error: cannot find symbol
+        a = new Integer[]{zero, one, three, four, five, six, seven, eight, nine};
+                                     ^
+  symbol:   variable three
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:28: error: cannot find symbol
+        a = new Integer[]{zero, one, three, four, five, six, seven, eight, nine};
+                                            ^
+  symbol:   variable four
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:28: error: cannot find symbol
+        a = new Integer[]{zero, one, three, four, five, six, seven, eight, nine};
+                                                  ^
+  symbol:   variable five
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:28: error: cannot find symbol
+        a = new Integer[]{zero, one, three, four, five, six, seven, eight, nine};
+                                                        ^
+  symbol:   variable six
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:28: error: cannot find symbol
+        a = new Integer[]{zero, one, three, four, five, six, seven, eight, nine};
+                                                             ^
+  symbol:   variable seven
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:28: error: cannot find symbol
+        a = new Integer[]{zero, one, three, four, five, six, seven, eight, nine};
+                                                                    ^
+  symbol:   variable eight
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:28: error: cannot find symbol
+        a = new Integer[]{zero, one, three, four, five, six, seven, eight, nine};
+                                                                           ^
+  symbol:   variable nine
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:30: error: cannot find symbol
+        assertTrue(x.remove(one));
+                            ^
+  symbol:   variable one
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:31: error: cannot find symbol
+        assertTrue(x.remove(five));
+                            ^
+  symbol:   variable five
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:32: error: cannot find symbol
+        assertTrue(x.remove(seven));
+                            ^
+  symbol:   variable seven
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:33: error: cannot find symbol
+        assertTrue(x.remove(eight));
+                            ^
+  symbol:   variable eight
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:34: error: cannot find symbol
+        a = new Integer[]{zero, three, four, six, nine};
+                          ^
+  symbol:   variable zero
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:34: error: cannot find symbol
+        a = new Integer[]{zero, three, four, six, nine};
+                                ^
+  symbol:   variable three
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:34: error: cannot find symbol
+        a = new Integer[]{zero, three, four, six, nine};
+                                       ^
+  symbol:   variable four
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:34: error: cannot find symbol
+        a = new Integer[]{zero, three, four, six, nine};
+                                             ^
+  symbol:   variable six
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:34: error: cannot find symbol
+        a = new Integer[]{zero, three, four, six, nine};
+                                                  ^
+  symbol:   variable nine
+  location: class CodexTest_0_8_1

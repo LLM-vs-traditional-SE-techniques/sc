@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_49.java:21: error: cannot find symbol
+        final Object[] es = elementData(new ArrayList<Object>(Arrays.asList(1, 2, 3, 4, 5)));
+                            ^
+  symbol:   method elementData(java.util.ArrayList<java.lang.Object>)
+  location: class CodexTest_0_3_49
+CodexTest_0_3_49.java:25: error: cannot find symbol
+        final Object[] actual = remove(es, index);
+                                ^
+  symbol:   method remove(java.lang.Object[],int)
+  location: class CodexTest_0_3_49

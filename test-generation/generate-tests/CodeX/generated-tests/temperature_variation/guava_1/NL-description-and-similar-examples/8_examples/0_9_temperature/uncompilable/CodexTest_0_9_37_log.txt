@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_37.java:25: error: cannot find symbol
+    assertEquals(HashCodes.fromLong(0), HashCodes.fromBytes(new byte[0], 0, 0));
+                 ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:25: error: cannot find symbol
+    assertEquals(HashCodes.fromLong(0), HashCodes.fromBytes(new byte[0], 0, 0));
+                                        ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:26: error: cannot find symbol
+    assertEquals(HashCodes.fromLong(0), HashCodes.fromBytes(new byte[1], 0, 1));
+                 ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:26: error: cannot find symbol
+    assertEquals(HashCodes.fromLong(0), HashCodes.fromBytes(new byte[1], 0, 1));
+                                        ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:27: error: cannot find symbol
+    assertEquals(HashCodes.fromLong(0xdeadbeefL), HashCodes.fromBytes(new byte[] { (byte) 0xde, (byte) 0xad, (byte) 0xbe, (byte) 0xef }, 0, 4));
+                 ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:27: error: cannot find symbol
+    assertEquals(HashCodes.fromLong(0xdeadbeefL), HashCodes.fromBytes(new byte[] { (byte) 0xde, (byte) 0xad, (byte) 0xbe, (byte) 0xef }, 0, 4));
+                                                  ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:29: error: cannot find symbol
+    assertEquals(HashCodes.fromLong(0xdeadbeefL), HashCodes.fromBytes(new byte[] { (byte) 0xde, (byte) 0xad, (byte) 0xbe }, 0, 3));
+                 ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:29: error: cannot find symbol
+    assertEquals(HashCodes.fromLong(0xdeadbeefL), HashCodes.fromBytes(new byte[] { (byte) 0xde, (byte) 0xad, (byte) 0xbe }, 0, 3));
+                                                  ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_37

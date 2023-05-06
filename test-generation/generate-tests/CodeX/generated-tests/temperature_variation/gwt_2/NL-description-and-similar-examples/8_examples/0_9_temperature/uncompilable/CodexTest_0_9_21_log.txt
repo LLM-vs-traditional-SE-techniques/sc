@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_21.java:23: error: cannot find symbol
+      throw nullPointerFromJSNI();
+            ^
+  symbol:   method nullPointerFromJSNI()
+  location: class CodexTest_0_9_21

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_3.java:17: error: cannot find symbol
+		assertEquals(string, StringWrapper.fromString(string).fromString());
+		                     ^
+  symbol:   variable StringWrapper
+  location: class CodexTest_0_9_3

@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_8_2.java:26: error: cannot find symbol
+	  DoubleMatrix2D matrix = DoubleFactory2D.dense.make(data, data.length, (data.length / 2));
+	  ^
+  symbol:   class DoubleMatrix2D
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:26: error: package DoubleFactory2D does not exist
+	  DoubleMatrix2D matrix = DoubleFactory2D.dense.make(data, data.length, (data.length / 2));
+	                                         ^
+CodexTest_0_8_2.java:34: error: cannot find symbol
+	  DoubleMatrix2D matrix2 = DoubleFactory2D.dense.make(data, data.length, (data.length / 2));
+	  ^
+  symbol:   class DoubleMatrix2D
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:34: error: package DoubleFactory2D does not exist
+	  DoubleMatrix2D matrix2 = DoubleFactory2D.dense.make(data, data.length, (data.length / 2));
+	                                          ^

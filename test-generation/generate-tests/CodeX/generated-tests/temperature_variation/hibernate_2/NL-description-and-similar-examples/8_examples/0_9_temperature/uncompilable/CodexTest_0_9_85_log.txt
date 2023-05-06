@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_85.java:16: error: cannot find symbol
+    MongodbBooleanConverter converter = new MongodbBooleanConverter();
+    ^
+  symbol:   class MongodbBooleanConverter
+  location: class CodexTest_0_9_85
+CodexTest_0_9_85.java:16: error: cannot find symbol
+    MongodbBooleanConverter converter = new MongodbBooleanConverter();
+                                            ^
+  symbol:   class MongodbBooleanConverter
+  location: class CodexTest_0_9_85

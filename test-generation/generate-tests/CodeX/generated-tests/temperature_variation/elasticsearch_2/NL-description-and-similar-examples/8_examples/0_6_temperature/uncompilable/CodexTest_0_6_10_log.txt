@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_6_10.java:67: error: cannot find symbol
+        assertToXContentEquivalent(XContentFactory.jsonBuilder().startObject().field("field", "value").endObject(), indexRequest.getSource(), indexRequest.getContentType());
+                                                                                                                                ^
+  symbol:   method getSource()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_6_10.java:68: error: cannot find symbol
+        BytesReference bytes = indexRequest.getSource().bytes();
+                                           ^
+  symbol:   method getSource()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+Note: CodexTest_0_6_10.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

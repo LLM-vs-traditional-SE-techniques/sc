@@ -1,0 +1,3 @@
+org.hibernate.type.descriptor.java.BooleanTypeDescriptor()
+java.lang.Boolean(boolean)
+org.hibernate.type.descriptor.java.BooleanTypeDescriptor.toShort(java.lang.Boolean)

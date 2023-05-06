@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_4_59.java:47: error: ')' expected
+						    + "Attribute att26 numeric\n"
+						                                 ^
+CodexTest_0_4_59.java:49: error: reached end of file while parsing
+}
+ ^

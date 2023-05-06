@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_8_52.java:21: error: java.util.RandomAccessSubList is not public in java.util; cannot be accessed from outside package
+        List<String> list = new RandomAccessSubList<String>(this.list, 0, 0);
+                                ^
+CodexTest_0_8_52.java:21: error: cannot find symbol
+        List<String> list = new RandomAccessSubList<String>(this.list, 0, 0);
+                                                                ^
+  symbol: variable list

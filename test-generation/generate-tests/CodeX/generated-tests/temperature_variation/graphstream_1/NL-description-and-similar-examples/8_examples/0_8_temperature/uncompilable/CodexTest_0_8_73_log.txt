@@ -1,0 +1,29 @@
+isCompilable => false
+CodexTest_0_8_73.java:20: error: cannot find symbol
+			Edge e1 = new Edge(node1, node2, 7);
+			                   ^
+  symbol:   variable node1
+  location: class CodexTest_0_8_73
+CodexTest_0_8_73.java:20: error: cannot find symbol
+			Edge e1 = new Edge(node1, node2, 7);
+			                          ^
+  symbol:   variable node2
+  location: class CodexTest_0_8_73
+CodexTest_0_8_73.java:20: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+			Edge e1 = new Edge(node1, node2, 7);
+			          ^
+CodexTest_0_8_73.java:21: error: cannot find symbol
+			graph.addEdge(e1);
+			^
+  symbol:   variable graph
+  location: class CodexTest_0_8_73
+CodexTest_0_8_73.java:22: error: cannot find symbol
+			edgePath.add(e1);
+			^
+  symbol:   variable edgePath
+  location: class CodexTest_0_8_73
+CodexTest_0_8_73.java:23: error: cannot find symbol
+			Assert.assertTrue(edgePath.contains(e1));
+			                  ^
+  symbol:   variable edgePath
+  location: class CodexTest_0_8_73

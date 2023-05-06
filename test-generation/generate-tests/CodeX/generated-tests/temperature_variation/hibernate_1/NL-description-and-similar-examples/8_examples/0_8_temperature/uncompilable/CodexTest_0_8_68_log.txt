@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_68.java:16: error: cannot find symbol
+    assertThat(primitiveWrapperConverter.unwrap(Short.class, (short) 1), is((short) 1));
+               ^
+  symbol:   variable primitiveWrapperConverter
+  location: class CodexTest_0_8_68
+CodexTest_0_8_68.java:16: error: cannot find symbol
+    assertThat(primitiveWrapperConverter.unwrap(Short.class, (short) 1), is((short) 1));
+                                                                         ^
+  symbol:   method is(short)
+  location: class CodexTest_0_8_68

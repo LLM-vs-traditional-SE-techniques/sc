@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_9_10.java:20: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+      Edge a = new Edge("nodeA", "nodeB");
+               ^
+CodexTest_0_9_10.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+      Edge b = new Edge("nodeA", "nodeB");
+               ^
+CodexTest_0_9_10.java:24: error: cannot find symbol
+      Assert.assertTrue(new AlgPath(a, b).contains(b));
+                            ^
+  symbol:   class AlgPath
+  location: class CodexTest_0_9_10

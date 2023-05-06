@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_8_20.java:74: error: illegal start of expression
+        assertThat(indexRequest.source().utf8ToString(), equalTo({source:{field:null}}));
+                                                                 ^
+CodexTest_0_8_20.java:74: error: ')' expected
+        assertThat(indexRequest.source().utf8ToString(), equalTo({source:{field:null}}));
+                                                                  ^
+CodexTest_0_8_20.java:74: error: ';' expected
+        assertThat(indexRequest.source().utf8ToString(), equalTo({source:{field:null}}));
+                                                                        ^
+CodexTest_0_8_20.java:74: error: not a statement
+        assertThat(indexRequest.source().utf8ToString(), equalTo({source:{field:null}}));
+                                                                                ^
+CodexTest_0_8_20.java:74: error: ';' expected
+        assertThat(indexRequest.source().utf8ToString(), equalTo({source:{field:null}}));
+                                                                                    ^
+CodexTest_0_8_20.java:74: error: illegal start of type
+        assertThat(indexRequest.source().utf8ToString(), equalTo({source:{field:null}}));
+                                                                                      ^
+CodexTest_0_8_20.java:74: error: ';' expected
+        assertThat(indexRequest.source().utf8ToString(), equalTo({source:{field:null}}));
+                                                                                       ^
+CodexTest_0_8_20.java:76: error: class, interface, or enum expected
+}
+^

@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_8.java:36: error: illegal character: '#'
+## Timing
+^
+CodexTest_0_9_8.java:36: error: illegal character: '#'
+## Timing
+ ^
+CodexTest_0_9_8.java:36: error: <identifier> expected
+## Timing
+         ^
+CodexTest_0_9_8.java:37: error: reached end of file while parsing
+}
+ ^

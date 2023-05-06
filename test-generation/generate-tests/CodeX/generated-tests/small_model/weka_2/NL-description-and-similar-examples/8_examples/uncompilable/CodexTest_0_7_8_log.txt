@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_8.java:19: error: cannot find symbol
+    DenseInstance newInst = v.getAsInstance(getModel(), new Random(42));
+                                            ^
+  symbol:   method getModel()
+  location: class CodexTest_0_7_8

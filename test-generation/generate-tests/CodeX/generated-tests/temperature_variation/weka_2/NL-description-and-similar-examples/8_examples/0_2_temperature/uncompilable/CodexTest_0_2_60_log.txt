@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_2_60.java:44: error: <identifier> expected
+			model.insertAttributeAt(new
+			                           ^
+CodexTest_0_2_60.java:45: error: '(' or '[' expected
+}
+^
+CodexTest_0_2_60.java:45: error: reached end of file while parsing
+}
+ ^

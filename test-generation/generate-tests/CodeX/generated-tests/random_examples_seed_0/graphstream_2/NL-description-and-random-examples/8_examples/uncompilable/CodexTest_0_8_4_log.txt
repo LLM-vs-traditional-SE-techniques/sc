@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_4.java:21: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+            Path p1 = new Path("/A/B/C");
+                      ^
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length
+CodexTest_0_8_4.java:22: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+            Path p2 = new Path("/B/C/D");
+                      ^
+  required: no arguments
+  found: java.lang.String
+  reason: actual and formal argument lists differ in length

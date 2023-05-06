@@ -1,0 +1,23 @@
+isCompilable => false
+CodexTest_0_9_65.java:25: error: cannot find symbol
+    Random r = newRandom();
+    ^
+  symbol:   class Random
+  location: class CodexTest_0_9_65
+CodexTest_0_9_65.java:25: error: cannot find symbol
+    Random r = newRandom();
+               ^
+  symbol:   method newRandom()
+  location: class CodexTest_0_9_65
+CodexTest_0_9_65.java:29: error: method min in class com.google.common.primitives.Ints cannot be applied to given types;
+        Ints.min(ints), Ints.min(Ints.asList(ints)));
+                            ^
+  required: int[]
+  found: java.util.List<java.lang.Integer>
+  reason: varargs mismatch; java.util.List<java.lang.Integer> cannot be converted to int
+CodexTest_0_9_65.java:35: error: method min in class com.google.common.primitives.Ints cannot be applied to given types;
+      assertEquals(Ints.min(shorts[0], shorts[1]), Ints.min(shorts[0], shorts.clone()));
+                                                       ^
+  required: int[]
+  found: short,short[]
+  reason: varargs mismatch; short[] cannot be converted to int

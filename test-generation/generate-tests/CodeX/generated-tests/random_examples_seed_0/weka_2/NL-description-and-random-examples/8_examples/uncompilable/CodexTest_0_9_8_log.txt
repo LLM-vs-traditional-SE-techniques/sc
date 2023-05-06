@@ -1,0 +1,166 @@
+isCompilable => false
+CodexTest_0_9_8.java:19: error: illegal start of type
+     if (m_Elements != null) {
+     ^
+CodexTest_0_9_8.java:19: error: <identifier> expected
+     if (m_Elements != null) {
+                   ^
+CodexTest_0_9_8.java:19: error: ';' expected
+     if (m_Elements != null) {
+                      ^
+CodexTest_0_9_8.java:19: error: illegal start of type
+     if (m_Elements != null) {
+                           ^
+CodexTest_0_9_8.java:19: error: <identifier> expected
+     if (m_Elements != null) {
+                            ^
+CodexTest_0_9_8.java:19: error: ';' expected
+     if (m_Elements != null) {
+                              ^
+CodexTest_0_9_8.java:20: error: illegal start of type
+	   newInst = new DenseInstance(model.numAttributes());
+	           ^
+CodexTest_0_9_8.java:20: error: <identifier> expected
+	   newInst = new DenseInstance(model.numAttributes());
+	            ^
+CodexTest_0_9_8.java:20: error: ';' expected
+	   newInst = new DenseInstance(model.numAttributes());
+	                ^
+CodexTest_0_9_8.java:20: error: illegal start of type
+	   newInst = new DenseInstance(model.numAttributes());
+	                              ^
+CodexTest_0_9_8.java:20: error: ';' expected
+	   newInst = new DenseInstance(model.numAttributes());
+	                                    ^
+CodexTest_0_9_8.java:20: error: invalid method declaration; return type required
+	   newInst = new DenseInstance(model.numAttributes());
+	                                     ^
+CodexTest_0_9_8.java:20: error: ';' expected
+	   newInst = new DenseInstance(model.numAttributes());
+	                                                    ^
+CodexTest_0_9_8.java:21: error: <identifier> expected
+newInst.setDataset(model);
+                  ^
+CodexTest_0_9_8.java:21: error: <identifier> expected
+newInst.setDataset(model);
+                        ^
+CodexTest_0_9_8.java:22: error: illegal start of type
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			^
+CodexTest_0_9_8.java:22: error: ')' expected
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			          ^
+CodexTest_0_9_8.java:22: error: illegal start of type
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			             ^
+CodexTest_0_9_8.java:22: error: <identifier> expected
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			              ^
+CodexTest_0_9_8.java:22: error: ';' expected
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			               ^
+CodexTest_0_9_8.java:22: error: illegal start of type
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			                  ^
+CodexTest_0_9_8.java:22: error: <identifier> expected
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			                   ^
+CodexTest_0_9_8.java:22: error: > expected
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			                                              ^
+CodexTest_0_9_8.java:22: error: ';' expected
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			                                               ^
+CodexTest_0_9_8.java:22: error: <identifier> expected
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			                                                   ^
+CodexTest_0_9_8.java:22: error: illegal start of type
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			                                                     ^
+CodexTest_0_9_8.java:22: error: <identifier> expected
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			                                                      ^
+CodexTest_0_9_8.java:22: error: ';' expected
+			for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+			                                                        ^
+CodexTest_0_9_8.java:23: error: illegal start of type
+				if (model.attribute(i).isNumeric()) {
+				   ^
+CodexTest_0_9_8.java:23: error: ';' expected
+				if (model.attribute(i).isNumeric()) {
+				         ^
+CodexTest_0_9_8.java:23: error: invalid method declaration; return type required
+				if (model.attribute(i).isNumeric()) {
+				          ^
+CodexTest_0_9_8.java:23: error: <identifier> expected
+				if (model.attribute(i).isNumeric()) {
+				                     ^
+CodexTest_0_9_8.java:23: error: ';' expected
+				if (model.attribute(i).isNumeric()) {
+				                      ^
+CodexTest_0_9_8.java:28: error: illegal start of type
+			if (model.attribute(i).isNominal().equals(true)) {
+			^
+CodexTest_0_9_8.java:28: error: <identifier> expected
+			if (model.attribute(i).isNominal().equals(true)) {
+			                   ^
+CodexTest_0_9_8.java:28: error: ';' expected
+			if (model.attribute(i).isNominal().equals(true)) {
+			                    ^
+CodexTest_0_9_8.java:28: error: illegal start of type
+			if (model.attribute(i).isNominal().equals(true)) {
+			                     ^
+CodexTest_0_9_8.java:28: error: <identifier> expected
+			if (model.attribute(i).isNominal().equals(true)) {
+			                      ^
+CodexTest_0_9_8.java:28: error: ';' expected
+			if (model.attribute(i).isNominal().equals(true)) {
+			                       ^
+CodexTest_0_9_8.java:28: error: illegal start of type
+			if (model.attribute(i).isNominal().equals(true)) {
+			                                ^
+CodexTest_0_9_8.java:28: error: <identifier> expected
+			if (model.attribute(i).isNominal().equals(true)) {
+			                                 ^
+CodexTest_0_9_8.java:28: error: ';' expected
+			if (model.attribute(i).isNominal().equals(true)) {
+			                                  ^
+CodexTest_0_9_8.java:28: error: invalid method declaration; return type required
+			if (model.attribute(i).isNominal().equals(true)) {
+			                                   ^
+CodexTest_0_9_8.java:28: error: illegal start of type
+			if (model.attribute(i).isNominal().equals(true)) {
+			                                          ^
+CodexTest_0_9_8.java:28: error: ';' expected
+			if (model.attribute(i).isNominal().equals(true)) {
+			                                               ^
+CodexTest_0_9_8.java:36: error: class, interface, or enum expected
+			}
+			^
+CodexTest_0_9_8.java:38: error: class, interface, or enum expected
+		}
+		^
+CodexTest_0_9_8.java:39: error: class, interface, or enum expected
+    Output: public void testTest() {
+                   ^
+CodexTest_0_9_8.java:41: error: class, interface, or enum expected
+		Instance newInst = optional ? new DenseInstance(model.numAttributes()) : null;
+		^
+CodexTest_0_9_8.java:42: error: class, interface, or enum expected
+		newInst.setDataset(model);
+		^
+CodexTest_0_9_8.java:43: error: class, interface, or enum expected
+        for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+        ^
+CodexTest_0_9_8.java:43: error: class, interface, or enum expected
+        for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+                               ^
+CodexTest_0_9_8.java:43: error: class, interface, or enum expected
+        for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+                                                          ^
+CodexTest_0_9_8.java:45: error: class, interface, or enum expected
+			boolean numeric2 = numeric ? (j >= m_Elements.length)
+			^
+CodexTest_0_9_8.java:47: error: class, interface, or enum expected
+}
+^

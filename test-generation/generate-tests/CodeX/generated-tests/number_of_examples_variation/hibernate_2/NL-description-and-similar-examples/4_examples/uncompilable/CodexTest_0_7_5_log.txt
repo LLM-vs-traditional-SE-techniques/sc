@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_7_5.java:73: error: not a statement
+        BooleanTypeDesc
+        ^
+CodexTest_0_7_5.java:73: error: ';' expected
+        BooleanTypeDesc
+                       ^
+CodexTest_0_7_5.java:74: error: reached end of file while parsing
+}
+ ^

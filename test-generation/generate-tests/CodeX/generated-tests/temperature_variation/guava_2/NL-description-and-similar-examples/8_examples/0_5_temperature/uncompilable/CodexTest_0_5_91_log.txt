@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_5_91.java:33: error: <identifier> expected
+Input: public static HashCode fromBytes(byte[] bytes) {
+     ^
+CodexTest_0_5_91.java:37: error: <identifier> expected
+Output: public void testRoundTripHashCodeUsingBaseEncoding() {
+      ^

@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_10.java:37: error: illegal start of type
+ */
+ ^
+CodexTest_0_9_10.java:37: error: ';' expected
+ */
+  ^
+CodexTest_0_9_10.java:54: error: unclosed comment
+	/**
+	^
+CodexTest_0_9_10.java:57: error: reached end of file while parsing
+}
+ ^

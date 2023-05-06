@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_1.java:65: error: cannot find symbol
+        assertEquals(parentProperty().get(), parent);
+                     ^
+  symbol:   method parentProperty()
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:65: error: cannot find symbol
+        assertEquals(parentProperty().get(), parent);
+                                             ^
+  symbol:   variable parent
+  location: class CodexTest_0_8_1

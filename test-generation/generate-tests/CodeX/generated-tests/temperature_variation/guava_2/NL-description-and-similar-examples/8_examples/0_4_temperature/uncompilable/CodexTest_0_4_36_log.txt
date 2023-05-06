@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_36.java:26: error: cannot find symbol
+    int numBytesWritten = hc.writeBytesTo(dest, 0, 4);
+                          ^
+  symbol:   variable hc
+  location: class CodexTest_0_4_36
+CodexTest_0_4_36.java:28: error: cannot find symbol
+    assertEquals(hc, HashCode.fromBytes(dest));
+                 ^
+  symbol:   variable hc
+  location: class CodexTest_0_4_36

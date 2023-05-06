@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_2_28.java:22: error: cannot find symbol
+        path1.add(graph.getEdge(ab));
+                                ^
+  symbol:   variable ab
+  location: class CodexTest_0_2_28
+CodexTest_0_2_28.java:22: error: cannot find symbol
+        path1.add(graph.getEdge(ab));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_2_28
+CodexTest_0_2_28.java:23: error: cannot find symbol
+        path1.add(graph.getEdge(bc));
+                                ^
+  symbol:   variable bc
+  location: class CodexTest_0_2_28
+CodexTest_0_2_28.java:23: error: cannot find symbol
+        path1.add(graph.getEdge(bc));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_2_28
+CodexTest_0_2_28.java:24: error: cannot find symbol
+        path1.add(graph.getEdge(cd));
+                                ^
+  symbol:   variable cd
+  location: class CodexTest_0_2_28
+CodexTest_0_2_28.java:24: error: cannot find symbol
+        path1.add(graph.getEdge(cd));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_2_28
+CodexTest_0_2_28.java:25: error: cannot find symbol
+        path2.add(graph.getEdge(ab));
+                                ^
+  symbol:   variable ab
+  location: class CodexTest_0_2_28
+CodexTest_0_2_28.java:25: error: cannot find symbol
+        path2.add(graph.getEdge(ab));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_2_28
+CodexTest_0_2_28.java:26: error: cannot find symbol
+        path2.add(graph.getEdge(bc));
+                                ^
+  symbol:   variable bc
+  location: class CodexTest_0_2_28
+CodexTest_0_2_28.java:26: error: cannot find symbol
+        path2.add(graph.getEdge(bc));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_2_28
+CodexTest_0_2_28.java:27: error: cannot find symbol
+        path2.add(graph.getEdge(cd));
+                                ^
+  symbol:   variable cd
+  location: class CodexTest_0_2_28
+CodexTest_0_2_28.java:27: error: cannot find symbol
+        path2.add(graph.getEdge(cd));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_2_28

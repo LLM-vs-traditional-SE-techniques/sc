@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_6.java:21: error: cannot find symbol
+        int size = l.size();
+                   ^
+  symbol:   variable l
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:23: error: cannot find symbol
+            assertTrue(l.contains(new Integer(i)));
+                       ^
+  symbol:   variable l
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:25: error: cannot find symbol
+        assertTrue(!l.contains(new Integer(-1)));
+                    ^
+  symbol:   variable l
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:26: error: cannot find symbol
+        assertTrue(!l.contains(new Integer(size)));
+                    ^
+  symbol:   variable l
+  location: class CodexTest_0_7_6

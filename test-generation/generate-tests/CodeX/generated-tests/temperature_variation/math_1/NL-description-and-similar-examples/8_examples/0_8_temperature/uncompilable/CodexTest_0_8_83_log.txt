@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_83.java:34: error: cannot find symbol
+        Assert.assertEquals(expected.getDistance(result), 0.0, 1.0e-12);
+                                    ^
+  symbol:   method getDistance(org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: variable expected of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D

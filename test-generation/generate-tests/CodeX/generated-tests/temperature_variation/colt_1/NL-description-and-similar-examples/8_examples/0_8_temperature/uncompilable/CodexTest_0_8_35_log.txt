@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_35.java:30: error: <identifier> expected
+Input: public double aggregate(final cern.colt.function.DoubleDoubleFunction aggr, final cern.colt.function.DoubleFunction f) {
+     ^
+CodexTest_0_8_35.java:60: error: not a statement
+				a
+				^
+CodexTest_0_8_35.java:60: error: ';' expected
+				a
+				 ^
+CodexTest_0_8_35.java:61: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_20.java:27: error: <identifier> expected
+Input: public Object remove(int index) {
+     ^
+CodexTest_0_7_20.java:34: error: <identifier> expected
+Output: public void testRemove() {
+      ^

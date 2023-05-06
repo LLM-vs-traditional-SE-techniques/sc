@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_8_42.java:18: error: incompatible types: int cannot be converted to weka.core.Instances
+    AlgVector v = new AlgVector(num, rand);
+                                ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

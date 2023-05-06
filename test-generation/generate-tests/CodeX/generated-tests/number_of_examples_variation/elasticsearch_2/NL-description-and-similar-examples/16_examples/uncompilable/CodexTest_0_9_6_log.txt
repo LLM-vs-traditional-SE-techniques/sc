@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_9_6.java:65: error: <identifier> expected
+        data.put("map", "bar");
+                ^
+CodexTest_0_9_6.java:65: error: illegal start of type
+        data.put("map", "bar");
+                 ^
+CodexTest_0_9_6.java:65: error: illegal start of type
+        data.put("map", "bar");
+                        ^
+CodexTest_0_9_6.java:68: error: invalid method declaration; return type required
+        assertEquals(requestBody, "{\"map\":\"bar\"}");
+        ^
+CodexTest_0_9_6.java:68: error: <identifier> expected
+        assertEquals(requestBody, "{\"map\":\"bar\"}");
+                                ^
+CodexTest_0_9_6.java:68: error: illegal start of type
+        assertEquals(requestBody, "{\"map\":\"bar\"}");
+                                  ^
+CodexTest_0_9_6.java:70: error: class, interface, or enum expected
+}
+^

@@ -1,0 +1,183 @@
+prompt,output
+"Suggest a test for a method with the Object remove(int index) signature.
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public DoubleMatrix1D like(int size) {
+			return new DenseDoubleMatrix1D(size);
+		}
+Output: public static void doubleTest28() {
+			double[] data={1,2,3,4,5,6};
+			double[][] arrMatrix = 
+			{ 
+				{ 1, 2, 3, 4, 5, 6},
+				{ 2, 3, 4, 5, 6, 7}
+			};
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			DoubleMatrix2D matrix = f.make(arrMatrix);
+			DoubleMatrix1D res = vector.like(matrix.rows());
+
+						matrix.zMult(vector,res);
+
+					System.out.println(res);
+		}
+
+Input: public IndexRequest opType(String opType) {
+        String op = opType.toLowerCase(Locale.ROOT);
+        if (op.equals(""create"")) {
+            opType(OpType.CREATE);
+        } else if (op.equals(""index"")) {
+            opType(OpType.INDEX);
+        } else {
+            throw new IllegalArgumentException(""opType must be 'create' or 'index', found: ["" + opType + ""]"");
+        }
+        return this;
+    }
+Output: public void testReadBogusString() {
+        try {
+            IndexRequest indexRequest = new IndexRequest("""");
+            indexRequest.opType(""foobar"");
+            fail(""Expected IllegalArgumentException"");
+        } catch (IllegalArgumentException e) {
+            assertThat(e.getMessage(), equalTo(""opType must be 'create' or 'index', found: [foobar]""));
+        }    }
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public ArrayList() {
+        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+    }
+Output: public void emptyArraysAreShared() {        assertSame(new ArrayList<Object>(), new ArrayList<Object>());
+    }
+
+Input: public ArrayList() {
+        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+    }
+Output: public void emptyArraysDifferBetweenDefaultAndExplicit() {
+			assertNotSame(elementData(new ArrayList<Object>()),
+						  elementData(new ArrayList<Object>(0)));
+		}
+
+Input: public static HashCode fromInt(int hash) {
+			return new IntHashCode(hash);
+		  }
+Output: public void testObjectHashCode() {
+			HashCode hashCode42 = HashCode.fromInt(42);
+			assertEquals(42, hashCode42.hashCode());
+		  }
+
+Input: public double getX() {
+			return x;
+		}
+Output: public void testCoordinates() {
+			Vector1D v = new Vector1D(1);
+			Assert.assertTrue(FastMath.abs(v.getX() - 1) < 1.0e-12);
+		}
+
+Input: public Object remove(int index) {
+        Objects.checkIndex(index, size);
+        final Object[] es = elementData;
+        @SuppressWarnings(""unchecked"") Object oldValue = (Object) es[index];
+        fastRemove(es, index);
+        return oldValue;
+    }
+Output:
+  ","import java.util.*;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+import java.util.function.UnaryOperator;
+
+import java.lang.reflect.Field;
+import java.util.AbstractList;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.SplittableRandom;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_2_4 { 
+  @Test
+    public void testRemove() {
+        ArrayList<String> list = new ArrayList<String>();
+        list.add(""1"");
+        list.add(""2"");
+        list.add(""3"");
+        list.add(""4"");
+        list.add(""5"");
+        list.add(""6"");
+        list.add(""7"");
+        list.add(""8"");
+        list.add(""9"");
+        list.add(""10"");
+        list.add(""11"");
+        list.add(""12"");
+        list.add(""13"");
+        list.add(""14"");
+        list.add(""15"");
+        list.add(""16"");
+        list.add(""17"");
+        list.add(""18"");
+        list.add(""19"");
+        list.add(""20"");
+        list.add(""21"");
+        list.add(""22"");
+        list.add(""23"");
+        list.add(""24"");
+        list.add(""25"");
+        list.add(""26"");
+        list.add(""27"");
+        list.add(""28"");
+        list.add(""29"");
+        list.add(""30"");
+        list.add(""31"");
+        list.add(""32"");
+        list.add(""33"");
+        list.add(""34"");
+        list.add(""35"");
+        list.add(""36"");
+        list.add(""37"");
+        list.add(""38"");
+        list.add(""39"");
+        list.add(""40"");
+        list.add(""41"");
+        list.add(""42"");
+        list.add(""43"");
+        list.add(""44"");
+        list.add(""45"");
+        list.add(""46"");
+        list.add(""47"");
+        list.add(""48"");
+        list.add(""49"");
+        list.add(""50"");
+        list.add(""51"");
+        list.add(""52"");
+        list.add(""53"");
+        list.add(""54"");
+        list.add(""55"");
+        list.add(""56"");
+        list.add(""57"");
+        list.add(""58"");
+        list.add(""59"");
+        list.add
+}"

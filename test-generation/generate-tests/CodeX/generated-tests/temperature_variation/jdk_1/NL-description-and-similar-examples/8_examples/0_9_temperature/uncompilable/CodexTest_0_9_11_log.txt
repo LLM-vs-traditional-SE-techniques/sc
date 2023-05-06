@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_11.java:33: error: cannot find symbol
+			AssertJUnit.assertEquals(new Integer(10), list.remove(9));
+			^
+  symbol:   variable AssertJUnit
+  location: class CodexTest_0_9_11
+CodexTest_0_9_11.java:34: error: cannot find symbol
+			AssertJUnit.assertEquals(new Integer(2), list.remove(1));
+			^
+  symbol:   variable AssertJUnit
+  location: class CodexTest_0_9_11
+CodexTest_0_9_11.java:35: error: cannot find symbol
+			AssertJUnit.assertEquals(new Integer(4), list.remove(2));
+			^
+  symbol:   variable AssertJUnit
+  location: class CodexTest_0_9_11
+CodexTest_0_9_11.java:36: error: cannot find symbol
+			AssertJUnit.assertEquals(new Integer(6), list.remove(3));
+			^
+  symbol:   variable AssertJUnit
+  location: class CodexTest_0_9_11
+CodexTest_0_9_11.java:37: error: cannot find symbol
+			AssertJUnit.assertEquals(new Integer(8), list.remove(4));
+			^
+  symbol:   variable AssertJUnit
+  location: class CodexTest_0_9_11
+Note: CodexTest_0_9_11.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

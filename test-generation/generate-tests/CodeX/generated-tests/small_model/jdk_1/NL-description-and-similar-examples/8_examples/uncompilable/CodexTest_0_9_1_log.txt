@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_9_1.java:22: error: no suitable constructor found for ArrayList(java.lang.Integer[])
+        List list = new ArrayList(new Integer[originalSize]);
+                    ^
+    constructor java.util.ArrayList.ArrayList(int) is not applicable
+      (argument mismatch; java.lang.Integer[] cannot be converted to int)
+    constructor java.util.ArrayList.ArrayList(java.util.Collection) is not applicable
+      (argument mismatch; java.lang.Integer[] cannot be converted to java.util.Collection)
+CodexTest_0_9_1.java:24: error: incompatible types: java.lang.Object cannot be converted to boolean
+        Assert.assertTrue(list.remove(indexToRemove));
+                                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

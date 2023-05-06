@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_8_8.java:21: error: cannot find symbol
+        Assert.assertEquals(10, mockList.size());
+                                ^
+  symbol:   variable mockList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:22: error: cannot find symbol
+        Assert.assertEquals("element 0", mockList.remove(0));
+                                         ^
+  symbol:   variable mockList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:23: error: cannot find symbol
+        Assert.assertEquals(9, mockList.size());
+                               ^
+  symbol:   variable mockList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:24: error: cannot find symbol
+        Assert.assertEquals("element 7", mockList.remove(7));
+                                         ^
+  symbol:   variable mockList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:25: error: cannot find symbol
+        Assert.assertEquals(8, mockList.size());
+                               ^
+  symbol:   variable mockList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:26: error: cannot find symbol
+        Assert.assertEquals("element 5", mockList.remove(5));
+                                         ^
+  symbol:   variable mockList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:27: error: cannot find symbol
+        Assert.assertEquals(7, mockList.size());
+                               ^
+  symbol:   variable mockList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:30: error: cannot find symbol
+        Assert.assertEquals("element 8", mockList.remove(3));
+                                         ^
+  symbol:   variable mockList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:31: error: cannot find symbol
+        Assert.assertEquals(6, mockList.size());
+                               ^
+  symbol:   variable mockList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:32: error: cannot find symbol
+        Assert.assertEquals("element 6", mockList.remove(2));
+                                         ^
+  symbol:   variable mockList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:33: error: cannot find symbol
+        Assert.assertEquals(5, mockList.size());
+                               ^
+  symbol:   variable mockList
+  location: class CodexTest_0_8_8

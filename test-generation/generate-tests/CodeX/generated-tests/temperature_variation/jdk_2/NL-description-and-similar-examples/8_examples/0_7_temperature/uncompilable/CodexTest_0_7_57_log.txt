@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_57.java:21: error: cannot find symbol
+        Predicate predicate = Predicates.contains("foo");
+                              ^
+  symbol:   variable Predicates
+  location: class CodexTest_0_7_57
+CodexTest_0_7_57.java:22: error: cannot find symbol
+        assertFalse(predicate.apply(""));
+                             ^
+  symbol:   method apply(java.lang.String)
+  location: variable predicate of type java.util.function.Predicate
+CodexTest_0_7_57.java:23: error: cannot find symbol
+        assertFalse(predicate.apply("bar"));
+                             ^
+  symbol:   method apply(java.lang.String)
+  location: variable predicate of type java.util.function.Predicate
+CodexTest_0_7_57.java:24: error: cannot find symbol
+        assertTrue(predicate.apply("foo"));
+                            ^
+  symbol:   method apply(java.lang.String)
+  location: variable predicate of type java.util.function.Predicate
+CodexTest_0_7_57.java:25: error: cannot find symbol
+        assertTrue(predicate.apply("foobar"));
+                            ^
+  symbol:   method apply(java.lang.String)
+  location: variable predicate of type java.util.function.Predicate

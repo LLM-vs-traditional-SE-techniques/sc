@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_5.java:66: error: cannot find symbol
+        String actual = new ClassUnderTest().parent();
+                            ^
+  symbol:   class ClassUnderTest
+  location: class CodexTest_0_6_5

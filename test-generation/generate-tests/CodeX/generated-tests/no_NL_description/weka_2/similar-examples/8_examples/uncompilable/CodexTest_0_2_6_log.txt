@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_2_6.java:22: error: cannot find symbol
+				Instance inst = v.getAsInstance(m_Instances, r);
+				                                ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_2_6
+CodexTest_0_2_6.java:23: error: cannot find symbol
+				assertEquals("Number of attributes differs", m_Instances.numAttributes(), inst.numAttributes());
+				                                             ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_2_6
+CodexTest_0_2_6.java:24: error: cannot find symbol
+				assertEquals("Number of values differs", m_Instances.numAttributes(), inst.numValues());
+				                                         ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_2_6
+CodexTest_0_2_6.java:25: error: cannot find symbol
+				for (int i = 0; i < m_Instances.numAttributes(); i++) {
+				                    ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_2_6
+CodexTest_0_2_6.java:26: error: cannot find symbol
+					if (m_Instances.attribute(i).isNumeric()) {
+					    ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_2_6
+CodexTest_0_2_6.java:29: error: cannot find symbol
+						assertTrue("Value is not nominal", inst.isMissing(i) || inst.isNominal(i));
+						                                                            ^
+  symbol:   method isNominal(int)
+  location: variable inst of type weka.core.Instance

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_17.java:22: error: cannot find symbol
+			emptyList.removeRange(0, 0);
+			^
+  symbol:   variable emptyList
+  location: class CodexTest_0_8_17

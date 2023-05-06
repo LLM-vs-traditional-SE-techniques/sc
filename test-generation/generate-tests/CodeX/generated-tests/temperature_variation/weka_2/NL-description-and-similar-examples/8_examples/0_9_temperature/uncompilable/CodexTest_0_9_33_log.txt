@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_33.java:18: error: cannot find symbol
+    Instances temp = data.stringFreeStructure();
+                     ^
+  symbol:   variable data
+  location: class CodexTest_0_9_33
+CodexTest_0_9_33.java:20: error: cannot find symbol
+    smo.setClassifier(new weka.classifiers.rules.ZeroR());
+    ^
+  symbol:   variable smo
+  location: class CodexTest_0_9_33
+CodexTest_0_9_33.java:21: error: cannot find symbol
+    smo.setBuildLogisticModels(true);
+    ^
+  symbol:   variable smo
+  location: class CodexTest_0_9_33
+CodexTest_0_9_33.java:23: error: cannot find symbol
+      smo.setOptions(weka.core.Utils.splitOptions("-M"));
+      ^
+  symbol:   variable smo
+  location: class CodexTest_0_9_33
+CodexTest_0_9_33.java:24: error: cannot find symbol
+      smo.buildClassifier(data);
+                          ^
+  symbol:   variable data
+  location: class CodexTest_0_9_33
+CodexTest_0_9_33.java:24: error: cannot find symbol
+      smo.buildClassifier(data);
+      ^
+  symbol:   variable smo
+  location: class CodexTest_0_9_33
+CodexTest_0_9_33.java:30: error: cannot find symbol
+                 smo.getClassifierSet().size());
+                 ^
+  symbol:   variable smo
+  location: class CodexTest_0_9_33
+CodexTest_0_9_33.java:32: error: cannot find symbol
+                 smo.isUpToDate());
+                 ^
+  symbol:   variable smo
+  location: class CodexTest_0_9_33

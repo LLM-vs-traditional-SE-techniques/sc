@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_81.java:29: error: cannot find symbol
+            BitArray bits = create(i, value);
+            ^
+  symbol:   class BitArray
+  location: class CodexTest_0_7_81
+CodexTest_0_7_81.java:29: error: cannot find symbol
+            BitArray bits = create(i, value);
+                            ^
+  symbol:   method create(int,int)
+  location: class CodexTest_0_7_81
+CodexTest_0_7_81.java:32: error: cannot find symbol
+            BitArray copy = create(i, 0);
+            ^
+  symbol:   class BitArray
+  location: class CodexTest_0_7_81
+CodexTest_0_7_81.java:32: error: cannot find symbol
+            BitArray copy = create(i, 0);
+                            ^
+  symbol:   method create(int,int)
+  location: class CodexTest_0_7_81

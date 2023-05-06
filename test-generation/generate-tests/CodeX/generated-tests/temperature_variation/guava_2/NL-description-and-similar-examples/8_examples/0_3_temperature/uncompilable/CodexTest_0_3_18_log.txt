@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_18.java:26: error: cannot find symbol
+    assertEquals(3, bits.writeBytesTo(dest, 0, dest.length));
+                    ^
+  symbol:   variable bits
+  location: class CodexTest_0_3_18
+CodexTest_0_3_18.java:30: error: cannot find symbol
+    assertEquals(2, bits.writeBytesTo(dest, 0, 2));
+                    ^
+  symbol:   variable bits
+  location: class CodexTest_0_3_18

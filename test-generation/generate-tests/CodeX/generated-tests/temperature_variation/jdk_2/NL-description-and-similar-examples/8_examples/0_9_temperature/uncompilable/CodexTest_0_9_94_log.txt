@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_94.java:21: error: cannot find symbol
+		if (!collection.contains(otherValue)) {
+		                         ^
+  symbol:   variable otherValue
+  location: class CodexTest_0_9_94
+CodexTest_0_9_94.java:21: error: cannot find symbol
+		if (!collection.contains(otherValue)) {
+		     ^
+  symbol:   variable collection
+  location: class CodexTest_0_9_94
+CodexTest_0_9_94.java:22: error: cannot find symbol
+			Assert.fail("The collection should contain [" + otherValue + "]");
+			                                                ^
+  symbol:   variable otherValue
+  location: class CodexTest_0_9_94

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_38.java:65: error: cannot find symbol
+        assertEquals(new String("p" + getRandomString()), new String(parent()));
+                                      ^
+  symbol:   method getRandomString()
+  location: class CodexTest_0_6_38
+CodexTest_0_6_38.java:65: error: cannot find symbol
+        assertEquals(new String("p" + getRandomString()), new String(parent()));
+                                                                     ^
+  symbol:   method parent()
+  location: class CodexTest_0_6_38

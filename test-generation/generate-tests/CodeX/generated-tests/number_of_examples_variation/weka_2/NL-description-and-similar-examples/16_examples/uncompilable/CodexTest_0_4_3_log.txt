@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_4_3.java:21: error: weka.core.Instance is abstract; cannot be instantiated
+			Instances model = new Instances(new Instance(2), 0);
+			                                ^

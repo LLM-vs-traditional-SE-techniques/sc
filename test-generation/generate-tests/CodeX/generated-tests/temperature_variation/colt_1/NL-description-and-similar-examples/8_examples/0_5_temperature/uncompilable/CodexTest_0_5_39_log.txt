@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_5_39.java:30: error: cannot find symbol
+        double[] assigned = new double[size];
+                                       ^
+  symbol:   variable size
+  location: class CodexTest_0_5_39
+CodexTest_0_5_39.java:31: error: cannot find symbol
+        for (int i = 0; i < size; i++) {
+                            ^
+  symbol:   variable size
+  location: class CodexTest_0_5_39
+CodexTest_0_5_39.java:34: error: cannot find symbol
+        matrix.assign(assigned);
+        ^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_39
+CodexTest_0_5_39.java:35: error: cannot find symbol
+        for (int r = 0; r < rows; r++) {
+                            ^
+  symbol:   variable rows
+  location: class CodexTest_0_5_39
+CodexTest_0_5_39.java:36: error: cannot find symbol
+            for (int c = 0; c < columns; c++) {
+                                ^
+  symbol:   variable columns
+  location: class CodexTest_0_5_39
+CodexTest_0_5_39.java:37: error: cannot find symbol
+                assertEquals(assigned[r + c * rows], matrix.getQuick(r, c), TOL);
+                                              ^
+  symbol:   variable rows
+  location: class CodexTest_0_5_39
+CodexTest_0_5_39.java:37: error: cannot find symbol
+                assertEquals(assigned[r + c * rows], matrix.getQuick(r, c), TOL);
+                                                     ^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_39
+CodexTest_0_5_39.java:37: error: cannot find symbol
+                assertEquals(assigned[r + c * rows], matrix.getQuick(r, c), TOL);
+                                                                            ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_39

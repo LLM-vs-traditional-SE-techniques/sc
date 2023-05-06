@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_1.java:66: error: cannot find symbol
+        ParentJoinRequest request = new ParentJoinRequest("type", "name", parent);
+        ^
+  symbol:   class ParentJoinRequest
+  location: class CodexTest_0_5_1
+CodexTest_0_5_1.java:66: error: cannot find symbol
+        ParentJoinRequest request = new ParentJoinRequest("type", "name", parent);
+                                        ^
+  symbol:   class ParentJoinRequest
+  location: class CodexTest_0_5_1

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_8.java:78: error: cannot find symbol
+        final NullTreeNode parent = new NullTreeNode(new Object());
+              ^
+  symbol:   class NullTreeNode
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:78: error: cannot find symbol
+        final NullTreeNode parent = new NullTreeNode(new Object());
+                                        ^
+  symbol:   class NullTreeNode
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:79: error: cannot find symbol
+        final NullTreeNode child = new NullTreeNode(null);
+              ^
+  symbol:   class NullTreeNode
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:79: error: cannot find symbol
+        final NullTreeNode child = new NullTreeNode(null);
+                                       ^
+  symbol:   class NullTreeNode
+  location: class CodexTest_0_9_8

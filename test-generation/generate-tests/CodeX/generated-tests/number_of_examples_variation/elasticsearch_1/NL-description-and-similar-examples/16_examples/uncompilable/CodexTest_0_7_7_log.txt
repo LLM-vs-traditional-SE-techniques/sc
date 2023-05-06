@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_7.java:65: error: cannot find symbol
+        Settings settings = Settings.builder().put("key1", "value1").put("key2", "value2").put("key3", "value3").build();
+        ^
+  symbol:   class Settings
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:65: error: cannot find symbol
+        Settings settings = Settings.builder().put("key1", "value1").put("key2", "value2").put("key3", "value3").build();
+                            ^
+  symbol:   variable Settings
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:66: error: cannot find symbol
+        assertThat(new SettingsFilter(settings, "key1", "key2").parent(), nullValue());
+                       ^
+  symbol:   class SettingsFilter
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:66: error: cannot find symbol
+        assertThat(new SettingsFilter(settings, "key1", "key2").parent(), nullValue());
+                                                                          ^
+  symbol:   method nullValue()
+  location: class CodexTest_0_7_7

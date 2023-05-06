@@ -1,0 +1,20 @@
+isCompilable => false
+CodexTest_0_9_42.java:20: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    	Edge e1 = new Edge(1, 2, 1);
+    	          ^
+CodexTest_0_9_42.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    	Edge e2 = new Edge(2, 3, 4);
+    	          ^
+CodexTest_0_9_42.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    	Edge e3 = new Edge(3, 4, 5);
+    	          ^
+CodexTest_0_9_42.java:23: error: cannot find symbol
+    	ArrayList<Edge> edges = new ArrayList<Edge>();
+    	^
+  symbol:   class ArrayList
+  location: class CodexTest_0_9_42
+CodexTest_0_9_42.java:23: error: cannot find symbol
+    	ArrayList<Edge> edges = new ArrayList<Edge>();
+    	                            ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_9_42

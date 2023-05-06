@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_7_8.java:25: error: cannot find symbol
+    }).when(mockUncaughtExceptionHandler).uncaughtException(any(Thread.class), any(Throwable.class));
+                                                            ^
+  symbol:   method any(java.lang.Class<java.lang.Thread>)
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:25: error: cannot find symbol
+    }).when(mockUncaughtExceptionHandler).uncaughtException(any(Thread.class), any(Throwable.class));
+                                                                               ^
+  symbol:   method any(java.lang.Class<java.lang.Throwable>)
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:25: error: cannot find symbol
+    }).when(mockUncaughtExceptionHandler).uncaughtException(any(Thread.class), any(Throwable.class));
+            ^
+  symbol:   variable mockUncaughtExceptionHandler
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:16: error: cannot find symbol
+    Mockito.doAnswer(new Answer() {
+                         ^
+  symbol:   class Answer
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:16: error: cannot find symbol
+    Mockito.doAnswer(new Answer() {
+    ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:26: error: cannot find symbol
+    Thread.setDefaultUncaughtExceptionHandler(mockUncaughtExceptionHandler);
+                                              ^
+  symbol:   variable mockUncaughtExceptionHandler
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:28: error: cannot find symbol
+    Mockito.verify(mockUncaughtExceptionHandler, Mockito.times(1)).uncaughtException(any(Thread.class), any(Throwable.class));
+                                                                                     ^
+  symbol:   method any(java.lang.Class<java.lang.Thread>)
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:28: error: cannot find symbol
+    Mockito.verify(mockUncaughtExceptionHandler, Mockito.times(1)).uncaughtException(any(Thread.class), any(Throwable.class));
+                                                                                                        ^
+  symbol:   method any(java.lang.Class<java.lang.Throwable>)
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:28: error: cannot find symbol
+    Mockito.verify(mockUncaughtExceptionHandler, Mockito.times(1)).uncaughtException(any(Thread.class), any(Throwable.class));
+                   ^
+  symbol:   variable mockUncaughtExceptionHandler
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:28: error: cannot find symbol
+    Mockito.verify(mockUncaughtExceptionHandler, Mockito.times(1)).uncaughtException(any(Thread.class), any(Throwable.class));
+                                                 ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:28: error: cannot find symbol
+    Mockito.verify(mockUncaughtExceptionHandler, Mockito.times(1)).uncaughtException(any(Thread.class), any(Throwable.class));
+    ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_7_8

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_9.java:28: error: cannot find symbol
+    BitArray bits = BitArray.fromBitList(Arrays.asList(true, false, true, false, true, false, true, false));
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:28: error: cannot find symbol
+    BitArray bits = BitArray.fromBitList(Arrays.asList(true, false, true, false, true, false, true, false));
+                    ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_8_9

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_7.java:31: error: <identifier> expected
+Input: public Instance getAsInstance(Instances model, Random random) 
+     ^
+CodexTest_0_5_7.java:54: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_7.java:60: error: ';' expected
+            inst2 = v
+                     ^
+CodexTest_0_5_7.java:59: error: 'try' without 'catch', 'finally' or resource declarations
+        try {
+        ^
+CodexTest_0_5_7.java:61: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_2.java:70: error: cannot find symbol
+            assertThat(e.getMessage(), is("source must not be null"));
+                                       ^
+  symbol:   method is(java.lang.String)
+  location: class CodexTest_0_6_2

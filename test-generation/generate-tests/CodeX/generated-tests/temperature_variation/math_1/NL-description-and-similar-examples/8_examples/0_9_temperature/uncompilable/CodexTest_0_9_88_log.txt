@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_88.java:39: error: <identifier> expected
+Input: public String getName() {
+     ^
+CodexTest_0_9_88.java:42: error: <identifier> expected
+Output: public void testName() {
+      ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_85.java:22: error: cannot find symbol
+    assertArrayEquals("Value differs", new double[] {3, 5, 7}, c.getData(), 1e-16);
+                                                                ^
+  symbol:   method getData()
+  location: variable c of type weka.core.AlgVector

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_70.java:21: error: cannot find symbol
+        Seq<Integer> seq = Seq.empty().append(5, 6, 3).append(5, 6, 3);
+        ^
+  symbol:   class Seq
+  location: class CodexTest_0_9_70
+CodexTest_0_9_70.java:21: error: cannot find symbol
+        Seq<Integer> seq = Seq.empty().append(5, 6, 3).append(5, 6, 3);
+                           ^
+  symbol:   variable Seq
+  location: class CodexTest_0_9_70

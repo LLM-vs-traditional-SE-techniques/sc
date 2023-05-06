@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_24.java:18: error: cannot find symbol
+    Instances model = new Instances(new BufferedReader(
+                                        ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_7_24
+CodexTest_0_7_24.java:19: error: cannot find symbol
+                                          new StringReader(instances)));
+                                              ^
+  symbol:   class StringReader
+  location: class CodexTest_0_7_24
+CodexTest_0_7_24.java:19: error: cannot find symbol
+                                          new StringReader(instances)));
+                                                           ^
+  symbol:   variable instances
+  location: class CodexTest_0_7_24
+CodexTest_0_7_24.java:37: error: cannot find symbol
+		 1, in.value(0), EPSILON);
+		                 ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_7_24
+CodexTest_0_7_24.java:39: error: cannot find symbol
+		 2, in.value(1), EPSILON);
+		                 ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_7_24
+CodexTest_0_7_24.java:41: error: cannot find symbol
+		 3, in.value(2), EPSILON);
+		                 ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_7_24
+CodexTest_0_7_24.java:43: error: cannot find symbol
+		 1, in.classValue(), EPSILON);
+		                     ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_7_24

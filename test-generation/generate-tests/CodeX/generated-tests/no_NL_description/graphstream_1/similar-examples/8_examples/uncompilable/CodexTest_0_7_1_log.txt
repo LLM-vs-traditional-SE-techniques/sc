@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_1.java:20: error: cannot find symbol
+        Path p = SimplePath.makePath(new Vertex("A"), new Vertex("B"), new Vertex("C"));
+                                         ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:20: error: cannot find symbol
+        Path p = SimplePath.makePath(new Vertex("A"), new Vertex("B"), new Vertex("C"));
+                                                          ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:20: error: cannot find symbol
+        Path p = SimplePath.makePath(new Vertex("A"), new Vertex("B"), new Vertex("C"));
+                                                                           ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:20: error: cannot find symbol
+        Path p = SimplePath.makePath(new Vertex("A"), new Vertex("B"), new Vertex("C"));
+                 ^
+  symbol:   variable SimplePath
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:21: error: cannot find symbol
+        assertTrue("Path does not contain an edge it should", p.contains(new Vertex("B")));
+                                                                             ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:22: error: cannot find symbol
+        assertFalse("Path contains an edge it should not", p.contains(new Vertex("D")));
+                                                                          ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_1

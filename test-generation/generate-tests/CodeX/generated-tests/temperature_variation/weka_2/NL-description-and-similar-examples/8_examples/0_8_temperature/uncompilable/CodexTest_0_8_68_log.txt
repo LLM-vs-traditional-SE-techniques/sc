@@ -1,0 +1,20 @@
+isCompilable => false
+CodexTest_0_8_68.java:18: error: cannot find symbol
+    Instances test = new Instances(new BufferedReader(new StringReader(
+                                       ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_8_68
+CodexTest_0_8_68.java:18: error: cannot find symbol
+    Instances test = new Instances(new BufferedReader(new StringReader(
+                                                          ^
+  symbol:   class StringReader
+  location: class CodexTest_0_8_68
+CodexTest_0_8_68.java:19: error: cannot find symbol
+									 InstancesTest.TEST_INSTANCES)));
+									 ^
+  symbol:   variable InstancesTest
+  location: class CodexTest_0_8_68
+Note: CodexTest_0_8_68.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: CodexTest_0_8_68.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

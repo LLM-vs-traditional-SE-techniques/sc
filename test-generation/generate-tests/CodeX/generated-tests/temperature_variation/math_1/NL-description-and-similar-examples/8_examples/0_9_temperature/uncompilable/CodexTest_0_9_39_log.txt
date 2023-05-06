@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_39.java:32: error: incompatible types: org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be converted to double
+       double project = v1.scalarMultiply(2);
+                                         ^

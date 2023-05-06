@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_4_10.java:23: error: cannot find symbol
+    Instances data = new Instances(new MockInstances(numAttributes, numValues, numInstances));
+                                       ^
+  symbol:   class MockInstances
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:28: error: cannot find symbol
+      assertEquals("number of values in instance and data differ", data.numValues(), inst.numValues());
+                                                                       ^
+  symbol:   method numValues()
+  location: variable data of type weka.core.Instances
+CodexTest_0_4_10.java:29: error: cannot find symbol
+      assertEquals("number of instances in instance and data differ", data.numInstances(), inst.numInstances());
+                                                                                               ^
+  symbol:   method numInstances()
+  location: variable inst of type weka.core.Instance
+CodexTest_0_4_10.java:30: error: cannot find symbol
+      assertEquals("number of elements in instance and data differ", data.numElements(), inst.numElements());
+                                                                         ^
+  symbol:   method numElements()
+  location: variable data of type weka.core.Instances
+CodexTest_0_4_10.java:30: error: cannot find symbol
+      assertEquals("number of elements in instance and data differ", data.numElements(), inst.numElements());
+                                                                                             ^
+  symbol:   method numElements()
+  location: variable inst of type weka.core.Instance

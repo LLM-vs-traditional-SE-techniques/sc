@@ -1,0 +1,65 @@
+isCompilable => false
+CodexTest_0_9_8.java:21: error: cannot find symbol
+    Instances inst = new Instances(this.m_Instances);
+                                       ^
+  symbol: variable m_Instances
+CodexTest_0_9_8.java:22: error: cannot find symbol
+    m_Instances.setClassIndex(m_Instances.numAttributes() - 1);
+                              ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:22: error: cannot find symbol
+    m_Instances.setClassIndex(m_Instances.numAttributes() - 1);
+    ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:23: error: cannot find symbol
+    for (int i = 0; i < m_Instances.numAttributes(); i++) {
+                        ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:24: error: cannot find symbol
+      if (m_Instances.classIndex() == i) {
+          ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:26: error: cannot find symbol
+		     m_Instances.attribute(i).numValues(),
+		     ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:27: error: cannot find symbol
+		     m_Instances.numClasses());
+		     ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:28: error: cannot find symbol
+      } else if (m_Instances.attribute(i).isNominal()) {
+                 ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:30: error: cannot find symbol
+		     m_Instances.attribute(i).numValues(),
+		     ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:31: error: cannot find symbol
+		     m_Instances.attributeStats(i).nominalCounts.length);
+		     ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:32: error: cannot find symbol
+      } else if (m_Instances.attribute(i).isString()) {
+                 ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:34: error: cannot find symbol
+		     1, m_Instances.attributeStats(i).nominalCounts.length);
+		        ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:37: error: cannot find symbol
+		     0, m_Instances.attributeStats(i).nominalCounts.length);
+		        ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_9_8

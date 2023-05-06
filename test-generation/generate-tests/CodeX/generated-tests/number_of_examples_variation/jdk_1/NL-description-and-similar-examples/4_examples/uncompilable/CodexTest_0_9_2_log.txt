@@ -1,0 +1,49 @@
+isCompilable => false
+CodexTest_0_9_2.java:29: error: <identifier> expected
+Input:  
+     ^
+CodexTest_0_9_2.java:54: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_2.java:61: error: <identifier> expected
+Input:  
+     ^
+CodexTest_0_9_2.java:66: error: illegal start of expression
+        sb.append({);
+                  ^
+CodexTest_0_9_2.java:66: error: ';' expected
+        sb.append({);
+                   ^
+CodexTest_0_9_2.java:71: error: illegal start of expression
+                sb.append(,);
+                          ^
+CodexTest_0_9_2.java:71: error: illegal start of expression
+                sb.append(,);
+                           ^
+CodexTest_0_9_2.java:75: error: illegal start of expression
+            sb.append(=);
+                      ^
+CodexTest_0_9_2.java:75: error: illegal start of expression
+            sb.append(=);
+                       ^
+CodexTest_0_9_2.java:78: error: illegal start of expression
+        return sb.append(}).toString();    }
+                         ^
+CodexTest_0_9_2.java:78: error: ';' expected
+        return sb.append(}).toString();    }
+                          ^
+CodexTest_0_9_2.java:78: error: illegal start of expression
+        return sb.append(}).toString();    }
+                           ^
+CodexTest_0_9_2.java:78: error: ';' expected
+        return sb.append(}).toString();    }
+                                    ^
+CodexTest_0_9_2.java:80: error: <identifier> expected
+Output:  
+      ^
+CodexTest_0_9_2.java:83: error: '(' or '[' expected
+}
+^
+CodexTest_0_9_2.java:83: error: reached end of file while parsing
+}
+ ^

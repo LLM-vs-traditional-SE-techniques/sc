@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_32.java:16: error: cannot find symbol
+        assertEquals((short)0, underTest.toShort(false));
+                               ^
+  symbol:   variable underTest
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:17: error: cannot find symbol
+        assertEquals((short)1, underTest.toShort(true));
+                               ^
+  symbol:   variable underTest
+  location: class CodexTest_0_7_32

@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_7_34.java:21: error: cannot find symbol
+    path.setRoot(graph.getNode(a));
+                               ^
+  symbol:   variable a
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:21: error: cannot find symbol
+    path.setRoot(graph.getNode(a));
+                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:22: error: cannot find symbol
+    path.add(graph.getEdge(ab));
+                           ^
+  symbol:   variable ab
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:22: error: cannot find symbol
+    path.add(graph.getEdge(ab));
+             ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:23: error: cannot find symbol
+    path.add(graph.getEdge(bc));
+                           ^
+  symbol:   variable bc
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:23: error: cannot find symbol
+    path.add(graph.getEdge(bc));
+             ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:25: error: cannot find symbol
+    path2.setRoot(graph.getNode(a));
+                                ^
+  symbol:   variable a
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:25: error: cannot find symbol
+    path2.setRoot(graph.getNode(a));
+                  ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:26: error: cannot find symbol
+    path2.add(graph.getEdge(ab));
+                            ^
+  symbol:   variable ab
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:26: error: cannot find symbol
+    path2.add(graph.getEdge(ab));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:27: error: cannot find symbol
+    path2.add(graph.getEdge(bc));
+                            ^
+  symbol:   variable bc
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:27: error: cannot find symbol
+    path2.add(graph.getEdge(bc));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_7_34

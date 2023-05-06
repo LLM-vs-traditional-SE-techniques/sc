@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_2_5.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                                            ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_2_5
+CodexTest_0_2_5.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                                                               ^
+  symbol:   class StringReader
+  location: class CodexTest_0_2_5
+CodexTest_0_2_5.java:28: error: cannot find symbol
+        Instance newInst = instance.getAsInstance(model, random);
+                                   ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable instance of type weka.core.Instance

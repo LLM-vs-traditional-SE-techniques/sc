@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_3.java:22: error: cannot find symbol
+        list.add(one);
+                 ^
+  symbol:   variable one
+  location: class CodexTest_0_3_3
+CodexTest_0_3_3.java:23: error: cannot find symbol
+        list.add(two);
+                 ^
+  symbol:   variable two
+  location: class CodexTest_0_3_3

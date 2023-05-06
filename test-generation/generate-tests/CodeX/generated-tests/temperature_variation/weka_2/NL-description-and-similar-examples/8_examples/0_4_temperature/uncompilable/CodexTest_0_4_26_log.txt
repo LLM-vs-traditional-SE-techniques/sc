@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_4_26.java:18: error: cannot find symbol
+		Instances model = new Instances(new Instances(new BufferedReader(
+		                                                  ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:19: error: cannot find symbol
+				new StringReader(TEST_INSTANCES))));
+				    ^
+  symbol:   class StringReader
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:19: error: cannot find symbol
+				new StringReader(TEST_INSTANCES))));
+				                 ^
+  symbol:   variable TEST_INSTANCES
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:27: error: cannot find symbol
+			assertEquals("Number of values differ", model.numValues(), i
+			                                             ^
+  symbol:   method numValues()
+  location: variable model of type weka.core.Instances
+CodexTest_0_4_26.java:29: error: cannot find symbol
+			assertEquals("Number of weights differ", model.numWeights(), i
+			                                              ^
+  symbol:   method numWeights()
+  location: variable model of type weka.core.Instances
+CodexTest_0_4_26.java:30: error: cannot find symbol
+					.numWeights());
+					^
+  symbol:   method numWeights()
+  location: variable i of type weka.core.Instance
+CodexTest_0_4_26.java:31: error: cannot find symbol
+			assertEquals("Weight differs", model.weight(), i.weight());
+			                                    ^
+  symbol:   method weight()
+  location: variable model of type weka.core.Instances
+CodexTest_0_4_26.java:34: error: cannot find symbol
+			assertEquals("Class differs", model.classValue(), i.classValue());
+			                                   ^
+  symbol:   method classValue()
+  location: variable model of type weka.core.Instances

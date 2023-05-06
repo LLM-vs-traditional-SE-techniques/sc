@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_27.java:30: error: cannot find symbol
+		DoubleMatrix2D A = new DenseDoubleMatrix2D(NROWS,NCOLUMNS);
+		                                           ^
+  symbol:   variable NROWS
+  location: class CodexTest_0_5_27
+CodexTest_0_5_27.java:30: error: cannot find symbol
+		DoubleMatrix2D A = new DenseDoubleMatrix2D(NROWS,NCOLUMNS);
+		                                                 ^
+  symbol:   variable NCOLUMNS
+  location: class CodexTest_0_5_27
+CodexTest_0_5_27.java:31: error: cannot find symbol
+		DoubleMatrix2D B = new DenseDoubleMatrix2D(NROWS,NCOLUMNS);
+		                                           ^
+  symbol:   variable NROWS
+  location: class CodexTest_0_5_27
+CodexTest_0_5_27.java:31: error: cannot find symbol
+		DoubleMatrix2D B = new DenseDoubleMatrix2D(NROWS,NCOLUMNS);
+		                                                 ^
+  symbol:   variable NCOLUMNS
+  location: class CodexTest_0_5_27

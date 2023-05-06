@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_7_71.java:41: error: <identifier> expected
+Input: public static void testGetNumericValue() {
+     ^
+CodexTest_0_7_71.java:54: error: <identifier> expected
+Output: public void testGetNumericValue() {
+      ^
+CodexTest_0_7_71.java:60: error: ')' expected
+			assertEquals(5, Character.getNumericValue
+			                                         ^
+CodexTest_0_7_71.java:61: error: reached end of file while parsing
+}
+ ^

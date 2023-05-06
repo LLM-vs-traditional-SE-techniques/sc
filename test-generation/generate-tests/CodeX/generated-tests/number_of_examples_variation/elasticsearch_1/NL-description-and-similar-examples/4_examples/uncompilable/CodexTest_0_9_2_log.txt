@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_2.java:65: error: cannot find symbol
+ 			when(mockChild.parent()).thenReturn("parent");
+ 			     ^
+  symbol:   variable mockChild
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:66: error: cannot find symbol
+ 			assertEquals(child.parent(), "parent");
+ 			             ^
+  symbol:   variable child
+  location: class CodexTest_0_9_2

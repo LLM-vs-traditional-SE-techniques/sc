@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_7_43.java:21: error: cannot find symbol
+        int size = list.size();
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:23: error: cannot find symbol
+        Object obj = list.remove(0);
+                     ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:24: error: cannot find symbol
+        assertEquals("Failed to remove first element", obj, list.get(0));
+                                                            ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:26: error: cannot find symbol
+                size - 1, list.size());
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:27: error: cannot find symbol
+        obj = list.remove(list.size() - 1);
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:27: error: cannot find symbol
+        obj = list.remove(list.size() - 1);
+              ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:28: error: cannot find symbol
+        assertEquals("Failed to remove last element", obj, list.get(list.size() - 1));
+                                                                    ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:28: error: cannot find symbol
+        assertEquals("Failed to remove last element", obj, list.get(list.size() - 1));
+                                                           ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:30: error: cannot find symbol
+                size - 2, list.size());
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:32: error: cannot find symbol
+        obj = list.remove(list.size() / 2);
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:32: error: cannot find symbol
+        obj = list.remove(list.size() / 2);
+              ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:34: error: cannot find symbol
+                list.get(list.size() / 2));
+                         ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:34: error: cannot find symbol
+                list.get(list.size() / 2));
+                ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:36: error: cannot find symbol
+                size - 3, list.size());
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_7_43

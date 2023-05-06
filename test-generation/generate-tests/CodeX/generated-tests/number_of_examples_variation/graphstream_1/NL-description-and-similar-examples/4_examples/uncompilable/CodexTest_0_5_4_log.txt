@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_4.java:22: error: cannot find symbol
+        underTest.addEdge(graph.getEdge("ab"));
+                          ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:23: error: cannot find symbol
+        underTest.addEdge(graph.getEdge("bc"));
+                          ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:24: error: cannot find symbol
+        underTest.addEdge(graph.getEdge("cd"));
+                          ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:26: error: cannot find symbol
+        boolean result = underTest.contains(graph.getEdge("bc"));
+                                            ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_4

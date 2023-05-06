@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_92.java:26: error: cannot find symbol
+    assertEquals(5, new BitArray(new boolean[] { false, true, false, false, true }).writeBytesTo(dest, 0, 5));
+                        ^
+  symbol:   class BitArray
+  location: class CodexTest_0_5_92

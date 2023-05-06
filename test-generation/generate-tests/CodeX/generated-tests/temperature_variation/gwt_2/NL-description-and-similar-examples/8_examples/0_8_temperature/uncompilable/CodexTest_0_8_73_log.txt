@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_73.java:16: error: cannot find symbol
+            Database.add(null);
+            ^
+  symbol:   variable Database
+  location: class CodexTest_0_8_73

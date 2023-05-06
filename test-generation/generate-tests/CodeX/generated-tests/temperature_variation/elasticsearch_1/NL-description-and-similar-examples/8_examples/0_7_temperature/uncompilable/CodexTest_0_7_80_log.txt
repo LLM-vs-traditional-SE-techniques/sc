@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_80.java:65: error: cannot find symbol
+        project.setParent("");
+        ^
+  symbol:   variable project
+  location: class CodexTest_0_7_80
+CodexTest_0_7_80.java:66: error: cannot find symbol
+        assertNotNull(project.getParent());
+                      ^
+  symbol:   variable project
+  location: class CodexTest_0_7_80

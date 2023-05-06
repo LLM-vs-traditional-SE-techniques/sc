@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_20.java:31: error: cannot find symbol
+        if (index < 0 || size <= index) {
+                         ^
+  symbol:   variable size
+  location: class CodexTest_0_6_20
+CodexTest_0_6_20.java:32: error: cannot find symbol
+            checkIndex(index);
+            ^
+  symbol:   method checkIndex(int)
+  location: class CodexTest_0_6_20
+CodexTest_0_6_20.java:34: error: cannot find symbol
+        elements[index(index)] = value;
+        ^
+  symbol:   variable elements
+  location: class CodexTest_0_6_20
+CodexTest_0_6_20.java:34: error: cannot find symbol
+        elements[index(index)] = value;
+                 ^
+  symbol:   method index(int)
+  location: class CodexTest_0_6_20

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_16.java:70: error: cannot find symbol
+        ParentRequest request = new ParentRequest(index, type, id, parent);
+        ^
+  symbol:   class ParentRequest
+  location: class CodexTest_0_4_16
+CodexTest_0_4_16.java:70: error: cannot find symbol
+        ParentRequest request = new ParentRequest(index, type, id, parent);
+                                    ^
+  symbol:   class ParentRequest
+  location: class CodexTest_0_4_16
+CodexTest_0_4_16.java:71: error: cannot find symbol
+        assertEquals(endpoint, request.getURI(ElasticsearchVersion.UNKNOWN));
+                                              ^
+  symbol:   variable ElasticsearchVersion
+  location: class CodexTest_0_4_16

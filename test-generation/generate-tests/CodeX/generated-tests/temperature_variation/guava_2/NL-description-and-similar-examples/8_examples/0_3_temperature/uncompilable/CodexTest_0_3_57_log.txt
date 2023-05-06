@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_57.java:79: error: <identifier> expected
+    bits.
+         ^
+CodexTest_0_3_57.java:79: error: not a statement
+    bits.
+        ^
+CodexTest_0_3_57.java:80: error: reached end of file while parsing
+}
+ ^

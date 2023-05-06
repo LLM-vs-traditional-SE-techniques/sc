@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_8_84.java:14: error: invalid method declaration; return type required
+    assertEquals(FakeErrorHandler.class.getName(), GWT.getUncaughtExceptionHandler().getClass().getName());
+    ^
+CodexTest_0_8_84.java:14: error: <identifier> expected
+    assertEquals(FakeErrorHandler.class.getName(), GWT.getUncaughtExceptionHandler().getClass().getName());
+                                  ^
+CodexTest_0_8_84.java:14: error: ')' expected
+    assertEquals(FakeErrorHandler.class.getName(), GWT.getUncaughtExceptionHandler().getClass().getName());
+                                               ^
+CodexTest_0_8_84.java:14: error: illegal start of type
+    assertEquals(FakeErrorHandler.class.getName(), GWT.getUncaughtExceptionHandler().getClass().getName());
+                                                ^
+CodexTest_0_8_84.java:14: error: <identifier> expected
+    assertEquals(FakeErrorHandler.class.getName(), GWT.getUncaughtExceptionHandler().getClass().getName());
+                                                 ^
+CodexTest_0_8_84.java:14: error: ';' expected
+    assertEquals(FakeErrorHandler.class.getName(), GWT.getUncaughtExceptionHandler().getClass().getName());
+                                                  ^
+CodexTest_0_8_84.java:14: error: illegal start of type
+    assertEquals(FakeErrorHandler.class.getName(), GWT.getUncaughtExceptionHandler().getClass().getName());
+                                                      ^
+CodexTest_0_8_84.java:14: error: ';' expected
+    assertEquals(FakeErrorHandler.class.getName(), GWT.getUncaughtExceptionHandler().getClass().getName());
+                                                                                    ^

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_96.java:26: error: cannot find symbol
+        MutableBitArray b = new MutableBitArray(new byte[] { (byte) 0x81, 0x29 });
+        ^
+  symbol:   class MutableBitArray
+  location: class CodexTest_0_8_96
+CodexTest_0_8_96.java:26: error: cannot find symbol
+        MutableBitArray b = new MutableBitArray(new byte[] { (byte) 0x81, 0x29 });
+                                ^
+  symbol:   class MutableBitArray
+  location: class CodexTest_0_8_96

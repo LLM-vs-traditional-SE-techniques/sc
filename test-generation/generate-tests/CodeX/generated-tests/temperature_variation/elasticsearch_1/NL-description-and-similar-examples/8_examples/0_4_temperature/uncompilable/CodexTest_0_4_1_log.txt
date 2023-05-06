@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_1.java:65: error: cannot find symbol
+        assertEquals("parent", new GetIndexRequest().parent());
+                                   ^
+  symbol:   class GetIndexRequest
+  location: class CodexTest_0_4_1

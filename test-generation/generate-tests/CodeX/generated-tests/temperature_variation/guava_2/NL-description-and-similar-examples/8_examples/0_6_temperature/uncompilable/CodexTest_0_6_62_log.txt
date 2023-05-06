@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_6_62.java:41: error: <identifier> expected
+Input: public static final HashCode fromLong(long hash) {
+     ^
+CodexTest_0_6_62.java:55: error: <identifier> expected
+Output: public void testRoundTripHashCodeUsingBaseEncoding() {
+      ^
+CodexTest_0_6_62.java:58: error: ')' expected
+    assertEquals(hash
+                     ^
+CodexTest_0_6_62.java:59: error: reached end of file while parsing
+}
+ ^

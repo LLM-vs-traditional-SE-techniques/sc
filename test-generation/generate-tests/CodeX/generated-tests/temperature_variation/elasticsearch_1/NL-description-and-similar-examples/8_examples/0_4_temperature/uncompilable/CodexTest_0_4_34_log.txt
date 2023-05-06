@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_34.java:67: error: cannot find symbol
+        actual.parent();
+              ^
+  symbol:   method parent()
+  location: variable actual of type java.lang.String

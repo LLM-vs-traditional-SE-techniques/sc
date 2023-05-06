@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_8.java:55: error: ';' expected
+    for (int i = numNumeric; i < numNumeric + numN
+                                                  ^
+CodexTest_0_3_8.java:56: error: illegal start of expression
+}
+^
+CodexTest_0_3_8.java:56: error: reached end of file while parsing
+}
+ ^

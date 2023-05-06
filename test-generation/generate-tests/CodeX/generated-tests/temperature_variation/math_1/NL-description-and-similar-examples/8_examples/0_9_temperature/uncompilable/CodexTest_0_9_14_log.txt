@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_14.java:38: error: <identifier> expected
+Input: public void onModule(final DynamicModuleRegistry.ModuleData moduleData) {
+     ^
+CodexTest_0_9_14.java:41: error: <identifier> expected
+Output: public void testChecks() { // TODO
+      ^
+CodexTest_0_9_14.java:50: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_22.java:66: error: package TypeDescriptor does not exist
+        String actual = TypeDescriptor.PARENT.parent();
+                                      ^
+CodexTest_0_8_22.java:67: error: cannot find symbol
+        assertThat(actual, is(expected));
+                           ^
+  symbol:   method is(java.lang.String)
+  location: class CodexTest_0_8_22

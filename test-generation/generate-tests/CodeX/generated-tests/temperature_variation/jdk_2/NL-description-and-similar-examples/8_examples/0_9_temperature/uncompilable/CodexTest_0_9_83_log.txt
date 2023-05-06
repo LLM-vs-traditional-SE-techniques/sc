@@ -1,0 +1,91 @@
+isCompilable => false
+CodexTest_0_9_83.java:21: error: invalid method declaration; return type required
+		assertTrue(underTest.contains(true));
+		^
+CodexTest_0_9_83.java:21: error: <identifier> expected
+		assertTrue(underTest.contains(true));
+		                             ^
+CodexTest_0_9_83.java:21: error: ';' expected
+		assertTrue(underTest.contains(true));
+		                              ^
+CodexTest_0_9_83.java:21: error: illegal start of type
+		assertTrue(underTest.contains(true));
+		                                  ^
+CodexTest_0_9_83.java:21: error: <identifier> expected
+		assertTrue(underTest.contains(true));
+		                                   ^
+CodexTest_0_9_83.java:22: error: invalid method declaration; return type required
+		assertFalse(underTest.contains(false));
+		^
+CodexTest_0_9_83.java:22: error: <identifier> expected
+		assertFalse(underTest.contains(false));
+		                              ^
+CodexTest_0_9_83.java:22: error: ';' expected
+		assertFalse(underTest.contains(false));
+		                               ^
+CodexTest_0_9_83.java:22: error: illegal start of type
+		assertFalse(underTest.contains(false));
+		                                    ^
+CodexTest_0_9_83.java:22: error: <identifier> expected
+		assertFalse(underTest.contains(false));
+		                                     ^
+CodexTest_0_9_83.java:23: error: invalid method declaration; return type required
+		assertFalse(underTest.contains(true));
+		^
+CodexTest_0_9_83.java:23: error: <identifier> expected
+		assertFalse(underTest.contains(true));
+		                              ^
+CodexTest_0_9_83.java:23: error: ';' expected
+		assertFalse(underTest.contains(true));
+		                               ^
+CodexTest_0_9_83.java:23: error: illegal start of type
+		assertFalse(underTest.contains(true));
+		                                   ^
+CodexTest_0_9_83.java:23: error: <identifier> expected
+		assertFalse(underTest.contains(true));
+		                                    ^
+CodexTest_0_9_83.java:24: error: invalid method declaration; return type required
+		assertTrue(underTest.contains(false));
+		^
+CodexTest_0_9_83.java:24: error: <identifier> expected
+		assertTrue(underTest.contains(false));
+		                             ^
+CodexTest_0_9_83.java:24: error: ';' expected
+		assertTrue(underTest.contains(false));
+		                              ^
+CodexTest_0_9_83.java:24: error: illegal start of type
+		assertTrue(underTest.contains(false));
+		                                   ^
+CodexTest_0_9_83.java:24: error: <identifier> expected
+		assertTrue(underTest.contains(false));
+		                                    ^
+CodexTest_0_9_83.java:25: error: invalid method declaration; return type required
+		assertFalse(underTest.contains(true));
+		^
+CodexTest_0_9_83.java:25: error: <identifier> expected
+		assertFalse(underTest.contains(true));
+		                              ^
+CodexTest_0_9_83.java:25: error: ';' expected
+		assertFalse(underTest.contains(true));
+		                               ^
+CodexTest_0_9_83.java:25: error: illegal start of type
+		assertFalse(underTest.contains(true));
+		                                   ^
+CodexTest_0_9_83.java:25: error: <identifier> expected
+		assertFalse(underTest.contains(true));
+		                                    ^
+CodexTest_0_9_83.java:26: error: invalid method declaration; return type required
+		assertTrue(underTest.contains(false));
+		^
+CodexTest_0_9_83.java:26: error: <identifier> expected
+		assertTrue(underTest.contains(false));
+		                             ^
+CodexTest_0_9_83.java:26: error: ';' expected
+		assertTrue(underTest.contains(false));
+		                              ^
+CodexTest_0_9_83.java:26: error: illegal start of type
+		assertTrue(underTest.contains(false));
+		                                   ^
+CodexTest_0_9_83.java:26: error: <identifier> expected
+		assertTrue(underTest.contains(false));
+		                                    ^

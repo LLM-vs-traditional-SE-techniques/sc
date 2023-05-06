@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_3.java:16: error: cannot find symbol
+        Assert.assertFalse(defaultValue.fromString(""));
+                           ^
+  symbol:   variable defaultValue
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:17: error: cannot find symbol
+        Assert.assertTrue(!defaultValue.fromString(""));
+                           ^
+  symbol:   variable defaultValue
+  location: class CodexTest_0_9_3

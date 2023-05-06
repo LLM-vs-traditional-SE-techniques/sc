@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_33.java:65: error: cannot find symbol
+        new IndexRequestWithParent().parent(null);
+            ^
+  symbol:   class IndexRequestWithParent
+  location: class CodexTest_0_7_33

@@ -1,0 +1,86 @@
+isCompilable => false
+CodexTest_0_9_4.java:21: error: cannot find symbol
+        EasyMock.expect(c.removeRange(1, 1)).andReturn(null);
+                        ^
+  symbol:   variable c
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:21: error: cannot find symbol
+        EasyMock.expect(c.removeRange(1, 1)).andReturn(null);
+        ^
+  symbol:   variable EasyMock
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:22: error: cannot find symbol
+        EasyMock.expect(c.add(0, "a2")).andReturn(true);
+                        ^
+  symbol:   variable c
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:22: error: cannot find symbol
+        EasyMock.expect(c.add(0, "a2")).andReturn(true);
+        ^
+  symbol:   variable EasyMock
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:23: error: cannot find symbol
+        EasyMock.expect(c.add(3, "a3")).andReturn(true);
+                        ^
+  symbol:   variable c
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:23: error: cannot find symbol
+        EasyMock.expect(c.add(3, "a3")).andReturn(true);
+        ^
+  symbol:   variable EasyMock
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:24: error: cannot find symbol
+        c.removeRange(4, 4);
+        ^
+  symbol:   variable c
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:25: error: cannot find symbol
+        EasyMock.expect(c.add(2, "a4")).andReturn(true);
+                        ^
+  symbol:   variable c
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:25: error: cannot find symbol
+        EasyMock.expect(c.add(2, "a4")).andReturn(true);
+        ^
+  symbol:   variable EasyMock
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:26: error: cannot find symbol
+        EasyMock.expect(c.add(4, "a5")).andReturn(true);
+                        ^
+  symbol:   variable c
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:26: error: cannot find symbol
+        EasyMock.expect(c.add(4, "a5")).andReturn(true);
+        ^
+  symbol:   variable EasyMock
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:27: error: cannot find symbol
+        control.replay();
+        ^
+  symbol:   variable control
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:28: error: cannot find symbol
+        assertTrue(alg.removeAll(c));
+                                 ^
+  symbol:   variable c
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:28: error: cannot find symbol
+        assertTrue(alg.removeAll(c));
+                   ^
+  symbol:   variable alg
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:29: error: cannot find symbol
+        assertListsEqual(alg, Arrays.asList("a5", "a3", "a4"));
+                         ^
+  symbol:   variable alg
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:30: error: cannot find symbol
+        assertListsEqual(c, Arrays.asList("a2", "a5", "a3", "a4"));
+                         ^
+  symbol:   variable c
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:31: error: cannot find symbol
+        control.verify();
+        ^
+  symbol:   variable control
+  location: class CodexTest_0_9_4

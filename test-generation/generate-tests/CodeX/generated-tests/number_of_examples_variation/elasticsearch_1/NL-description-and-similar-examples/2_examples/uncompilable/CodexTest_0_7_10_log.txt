@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_10.java:65: error: cannot find symbol
+        assertEquals("parent", sut.parent());
+                               ^
+  symbol:   variable sut
+  location: class CodexTest_0_7_10

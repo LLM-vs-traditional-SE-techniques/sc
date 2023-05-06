@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_3.java:20: error: class BooleanToShortConverterTest is public, should be declared in a file named BooleanToShortConverterTest.java
+public class BooleanToShortConverterTest {
+       ^
+CodexTest_0_8_3.java:19: error: cannot find symbol
+@RunWith( JUnitParamsRunner.class )
+ ^
+  symbol: class RunWith
+CodexTest_0_8_3.java:16: error: cannot find symbol
+		return (short) toInt( value );
+		               ^
+  symbol:   method toInt(java.lang.Boolean)
+  location: class CodexTest_0_8_3

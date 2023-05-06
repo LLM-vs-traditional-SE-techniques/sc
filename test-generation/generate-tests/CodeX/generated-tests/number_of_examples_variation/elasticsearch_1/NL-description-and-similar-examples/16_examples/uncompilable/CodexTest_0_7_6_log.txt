@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_6.java:65: error: cannot find symbol
+        assertEquals("#", new RelativeLocation("$(#)").parent());
+                              ^
+  symbol:   class RelativeLocation
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:66: error: cannot find symbol
+        assertEquals("#.a", new RelativeLocation("$(#.a)").parent());
+                                ^
+  symbol:   class RelativeLocation
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:67: error: cannot find symbol
+        assertEquals("#.a", new RelativeLocation("$(#.a.b)").parent());
+                                ^
+  symbol:   class RelativeLocation
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:68: error: cannot find symbol
+        assertEquals("#.a.b", new RelativeLocation("$(#.a.b.c)").parent());
+                                  ^
+  symbol:   class RelativeLocation
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:69: error: cannot find symbol
+        assertEquals("#.a.b.c", new RelativeLocation("$(#.a.b.c.d)").parent());
+                                    ^
+  symbol:   class RelativeLocation
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:70: error: cannot find symbol
+        assertEquals("#.a.b.c.d", new RelativeLocation("$(#.a.b.c.d.e)").parent());
+                                      ^
+  symbol:   class RelativeLocation
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:71: error: cannot find symbol
+        assertEquals("#.a.b.c.d.e", new RelativeLocation("$(#.a.b.c.d.e.f)").parent());
+                                        ^
+  symbol:   class RelativeLocation
+  location: class CodexTest_0_7_6

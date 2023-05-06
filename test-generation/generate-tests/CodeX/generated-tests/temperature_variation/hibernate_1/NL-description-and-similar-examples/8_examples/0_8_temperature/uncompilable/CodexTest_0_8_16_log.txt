@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_8_16.java:22: error: <identifier> expected
+Input: public static String getModuleName() {
+     ^
+CodexTest_0_8_16.java:25: error: <identifier> expected
+Output: public void testGetModuleName() {
+      ^
+CodexTest_0_8_16.java:28: error: <identifier> expected
+Input: public static final Integer NULL = null;
+     ^
+CodexTest_0_8_16.java:29: error: <identifier> expected
+Output: public void testGetModuleName() {
+      ^
+CodexTest_0_8_16.java:32: error: <identifier> expected
+Input: public static final Integer NULL = null;
+     ^
+CodexTest_0_8_16.java:33: error: <identifier> expected
+Output: public void testGetModuleName() {
+      ^
+CodexTest_0_8_16.java:36: error: <identifier> expected
+Input: public static final Integer NULL = null;
+     ^
+CodexTest_0_8_16.java:37: error: <identifier> expected
+Output: public void testGetModuleName() {
+      ^

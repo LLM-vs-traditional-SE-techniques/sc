@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_38.java:16: error: cannot find symbol
+    final CountDownLatch latch = new CountDownLatch(1);
+          ^
+  symbol:   class CountDownLatch
+  location: class CodexTest_0_7_38
+CodexTest_0_7_38.java:16: error: cannot find symbol
+    final CountDownLatch latch = new CountDownLatch(1);
+                                     ^
+  symbol:   class CountDownLatch
+  location: class CodexTest_0_7_38
+CodexTest_0_7_38.java:17: error: cannot find symbol
+    GWT.setUncaughtExceptionHandler(new UncaughtExceptionHandler() {
+                                        ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_7_38
+CodexTest_0_7_38.java:29: error: cannot find symbol
+    latch.await(1, TimeUnit.SECONDS);
+                   ^
+  symbol:   variable TimeUnit
+  location: class CodexTest_0_7_38

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_3.java:43: error: <identifier> expected
+Input: public static double distanceSq(Vector1D p1, Vector1D p2) {
+     ^
+CodexTest_0_8_3.java:46: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_3.java:60: error: <identifier> expected
+Input: public static double distanceSq(Vector2D p1, Vector2D p2) {
+     ^
+CodexTest_0_8_3.java:65: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_3.java:68: error: reached end of file while parsing
+}
+ ^

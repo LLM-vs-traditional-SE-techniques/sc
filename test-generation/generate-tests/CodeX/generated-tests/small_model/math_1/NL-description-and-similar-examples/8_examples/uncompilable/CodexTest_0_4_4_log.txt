@@ -1,0 +1,32 @@
+isCompilable => false
+CodexTest_0_4_4.java:33: error: no suitable method found for assertEquals(int,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,int)
+        Assert.assertEquals(2, v.scalarMultiply(2), 0);
+              ^
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be converted to double)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be converted to float)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+CodexTest_0_4_4.java:34: error: no suitable method found for assertEquals(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double)
+        Assert.assertEquals(v.subtract(v2).getNorm(), v.scalarMultiply(2), 1.0e-12);
+              ^
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be converted to double)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; possible lossy conversion from double to float)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; double cannot be converted to java.lang.String)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

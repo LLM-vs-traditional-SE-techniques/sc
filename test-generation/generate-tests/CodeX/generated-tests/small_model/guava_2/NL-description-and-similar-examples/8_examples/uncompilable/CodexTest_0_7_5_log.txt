@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_5.java:26: error: cannot find symbol
+      int result = numElements().writeBytesTo(buf, 0, buf.length);
+                   ^
+  symbol:   method numElements()
+  location: class CodexTest_0_7_5

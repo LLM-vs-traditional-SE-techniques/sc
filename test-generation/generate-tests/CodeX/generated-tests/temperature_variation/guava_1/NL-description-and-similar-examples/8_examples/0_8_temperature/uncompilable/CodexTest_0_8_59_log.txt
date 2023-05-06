@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_59.java:26: error: cannot find symbol
+        new HashCodeBuilder(17, 37).append(hashableObject).hashCode(),
+                                           ^
+  symbol:   variable hashableObject
+  location: class CodexTest_0_8_59
+CodexTest_0_8_59.java:26: error: cannot find symbol
+        new HashCodeBuilder(17, 37).append(hashableObject).hashCode(),
+            ^
+  symbol:   class HashCodeBuilder
+  location: class CodexTest_0_8_59
+CodexTest_0_8_59.java:27: error: cannot find symbol
+        hashableObject.hashCode());
+        ^
+  symbol:   variable hashableObject
+  location: class CodexTest_0_8_59

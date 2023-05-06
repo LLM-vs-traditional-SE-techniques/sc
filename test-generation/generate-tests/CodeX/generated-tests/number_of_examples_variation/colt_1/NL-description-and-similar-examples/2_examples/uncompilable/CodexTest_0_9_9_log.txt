@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_9.java:37: error: no suitable method found for assign(cern.colt.matrix.impl.DenseDoubleMatrix2D)
+		  res.assign(v2);
+		     ^
+    method cern.colt.matrix.DoubleMatrix1D.assign(double[]) is not applicable
+      (argument mismatch; cern.colt.matrix.impl.DenseDoubleMatrix2D cannot be converted to double[])
+    method cern.colt.matrix.DoubleMatrix1D.assign(double) is not applicable
+      (argument mismatch; cern.colt.matrix.impl.DenseDoubleMatrix2D cannot be converted to double)
+    method cern.colt.matrix.DoubleMatrix1D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; cern.colt.matrix.impl.DenseDoubleMatrix2D cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.DoubleMatrix1D.assign(cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (argument mismatch; cern.colt.matrix.impl.DenseDoubleMatrix2D cannot be converted to cern.colt.matrix.DoubleMatrix1D)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

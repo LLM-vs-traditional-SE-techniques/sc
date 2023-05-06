@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_2_1.java:23: error: cannot find symbol
+    Instances model = new Instances("test", new ArrayList<Attribute>(), numInstances);
+                                                ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_2_1
+CodexTest_0_2_1.java:28: error: cannot find symbol
+	model.insertAttributeAt(new Attribute("nominal" + i, Arrays.asList("0", "1")), i);
+	                                                     ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_2_1
+CodexTest_0_2_1.java:38: error: cannot find symbol
+      assertEquals("Wrong number of missing values", numNominal, newInst.numMissingValues());
+                                                                        ^
+  symbol:   method numMissingValues()
+  location: variable newInst of type weka.core.Instance

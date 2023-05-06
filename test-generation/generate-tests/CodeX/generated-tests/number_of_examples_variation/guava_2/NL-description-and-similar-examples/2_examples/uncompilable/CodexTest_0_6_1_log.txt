@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_1.java:29: error: cannot find symbol
+    assertEquals(bytes, filter.writeBytesTo(dest, 0, bytes));
+                              ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.Integer>
+CodexTest_0_6_1.java:30: error: cannot find symbol
+    assertEquals(bytes, filter.writeBytesTo(dest, 0, bytes * 2));
+                              ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.Integer>
+CodexTest_0_6_1.java:31: error: cannot find symbol
+    assertEquals(bytes, filter.writeBytesTo(dest, 0, bytes * 3));
+                              ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.Integer>
+CodexTest_0_6_1.java:33: error: cannot find symbol
+      filter.writeBytesTo(dest, 0, 3);
+            ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.Integer>

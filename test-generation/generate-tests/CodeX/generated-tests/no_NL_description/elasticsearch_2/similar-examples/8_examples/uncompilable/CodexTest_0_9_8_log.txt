@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_8.java:68: error: cannot find symbol
+        indexRequest = Requests.indexRequest("test").source("{ \"body\" : \"foo\" }", XContentType.JSON).dropStoredFields("body");
+                                                                                                        ^
+  symbol:   method dropStoredFields(java.lang.String)
+  location: class org.elasticsearch.action.index.IndexRequest

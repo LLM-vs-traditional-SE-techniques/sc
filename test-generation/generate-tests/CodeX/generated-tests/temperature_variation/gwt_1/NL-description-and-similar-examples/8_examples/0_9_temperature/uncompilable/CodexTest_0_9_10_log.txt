@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_10.java:16: error: cannot find symbol
+     boolean isClient = this.isClient();
+                            ^
+  symbol: method isClient()
+CodexTest_0_9_10.java:17: error: incompatible types: unexpected return value
+     return enummap.containsKey(isClient);
+                               ^
+CodexTest_0_9_10.java:17: error: cannot find symbol
+     return enummap.containsKey(isClient);
+            ^
+  symbol:   variable enummap
+  location: class CodexTest_0_9_10

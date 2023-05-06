@@ -1,0 +1,106 @@
+isCompilable => false
+CodexTest_0_9_32.java:26: error: illegal character: '`'
+```
+^
+CodexTest_0_9_32.java:26: error: illegal character: '`'
+```
+ ^
+CodexTest_0_9_32.java:26: error: illegal character: '`'
+```
+  ^
+CodexTest_0_9_32.java:27: error: illegal character: '#'
+#### Use 3
+^
+CodexTest_0_9_32.java:27: error: illegal character: '#'
+#### Use 3
+ ^
+CodexTest_0_9_32.java:27: error: illegal character: '#'
+#### Use 3
+  ^
+CodexTest_0_9_32.java:27: error: illegal character: '#'
+#### Use 3
+   ^
+CodexTest_0_9_32.java:27: error: illegal start of type
+#### Use 3
+         ^
+CodexTest_0_9_32.java:27: error: ';' expected
+#### Use 3
+          ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+             ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                       ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                 ^
+CodexTest_0_9_32.java:28: error: <identifier> expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                       ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                            ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                     ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                               ^
+CodexTest_0_9_32.java:28: error: <identifier> expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                   ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                  ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                                             ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                                                       ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                                                                   ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                                                                             ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                                                                                     ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                                                                                                        ^
+CodexTest_0_9_32.java:28: error: <identifier> expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                                                                                                              ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                                                                                                                    ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                                                                                                                            ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                                                                                                                                       ^
+CodexTest_0_9_32.java:28: error: ';' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                                                                                                                                                ^
+CodexTest_0_9_32.java:28: error: '{' expected
+When you have a program with unit tests, but you want to change the interface of a method. Targeting specific unit test inputs will allow you to find corresponding unit tests, that have to be adapted when the interface will change.
+                                                                                                                                                                                                                               ^
+CodexTest_0_9_32.java:29: error: illegal character: '#'
+#### Proposal
+^
+CodexTest_0_9_32.java:29: error: illegal character: '#'
+#### Proposal
+ ^
+CodexTest_0_9_32.java:29: error: illegal character: '#'
+#### Proposal
+  ^
+CodexTest_0_9_32.java:29: error: illegal character: '#'
+#### Proposal
+   ^
+CodexTest_0_9_32.java:30: error: reached end of file while parsing
+}
+ ^

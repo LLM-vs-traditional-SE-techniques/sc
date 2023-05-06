@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_6_8.java:49: error: ')' expected
+          assertTrue(inst2.dataset().attribute(i).numValues() == data.attribute(i).numValues
+                                                                                            ^
+CodexTest_0_6_8.java:50: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_6_8.java:18: error: 'try' without 'catch', 'finally' or resource declarations
+    try {
+    ^

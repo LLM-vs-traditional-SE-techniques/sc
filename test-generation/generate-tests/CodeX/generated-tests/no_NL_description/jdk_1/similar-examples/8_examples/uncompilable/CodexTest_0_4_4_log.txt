@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_4_4.java:21: error: cannot find symbol
+        Object[] a = new Object[SIZE];
+                                ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:22: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++)
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:26: error: cannot find symbol
+        assertEquals(SIZE-1, list.size());
+                     ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:29: error: cannot find symbol
+        assertEquals(SIZE-2, list.size());
+                     ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:32: error: cannot find symbol
+        assertEquals(SIZE-3, list.size());
+                     ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:35: error: cannot find symbol
+        assertEquals(SIZE-4, list.size());
+                     ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:37: error: cannot find symbol
+        assertTrue(list.remove(new Integer(SIZE-1)));
+                                           ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:38: error: cannot find symbol
+        assertEquals(SIZE-5, list.size());
+                     ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:39: error: cannot find symbol
+        assertFalse(list.contains(new Integer(SIZE-1)));
+                                              ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:40: error: cannot find symbol
+        assertTrue(list.remove(new Integer(SIZE-2)));
+                                           ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:41: error: cannot find symbol
+        assertEquals(SIZE-6, list.size());
+                     ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:42: error: cannot find symbol
+        assertFalse(list.contains(new Integer(SIZE-2)));
+                                              ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_4

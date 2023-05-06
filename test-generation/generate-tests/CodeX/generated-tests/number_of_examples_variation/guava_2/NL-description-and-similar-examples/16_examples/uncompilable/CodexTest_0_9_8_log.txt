@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_8.java:25: error: ';' expected
+    byte[] output
+                 ^
+CodexTest_0_9_8.java:26: error: reached end of file while parsing
+}
+ ^

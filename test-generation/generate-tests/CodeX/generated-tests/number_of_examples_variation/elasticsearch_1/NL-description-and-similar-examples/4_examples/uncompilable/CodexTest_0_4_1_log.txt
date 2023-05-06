@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_4_1.java:65: error: cannot find symbol
+        assertEquals("parent", this.node.parent());
+                                   ^
+  symbol: variable node

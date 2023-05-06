@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_7.java:24: error: cannot find symbol
+  private static void _writeLong(long value, int numBytes, DataOutput out) throws IOException {
+                                                           ^
+  symbol:   class DataOutput
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:24: error: cannot find symbol
+  private static void _writeLong(long value, int numBytes, DataOutput out) throws IOException {
+                                                                                  ^
+  symbol:   class IOException
+  location: class CodexTest_0_9_7

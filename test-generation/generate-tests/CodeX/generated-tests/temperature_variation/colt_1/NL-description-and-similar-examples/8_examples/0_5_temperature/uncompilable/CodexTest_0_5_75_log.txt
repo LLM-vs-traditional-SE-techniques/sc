@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_5_75.java:30: error: method testAssignDoubleArray in class CodexTest_0_5_75 cannot be applied to given types;
+        testAssignDoubleArray(0);
+        ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+CodexTest_0_5_75.java:31: error: method testAssignDoubleArray in class CodexTest_0_5_75 cannot be applied to given types;
+        testAssignDoubleArray(1);
+        ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+CodexTest_0_5_75.java:32: error: method testAssignDoubleArray in class CodexTest_0_5_75 cannot be applied to given types;
+        testAssignDoubleArray(5);
+        ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length

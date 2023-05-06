@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_8.java:16: error: cannot find symbol
+               sUncaughtExceptionHandler.getClass().getSuperclass());
+               ^
+  symbol:   variable sUncaughtExceptionHandler
+  location: class CodexTest_0_9_8

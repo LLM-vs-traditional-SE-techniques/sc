@@ -1,0 +1,139 @@
+isCompilable => false
+CodexTest_0_8_93.java:17: error: invalid method declaration; return type required
+    assertEquals("numAttributes incorrect",
+    ^
+CodexTest_0_8_93.java:17: error: illegal start of type
+    assertEquals("numAttributes incorrect",
+                 ^
+CodexTest_0_8_93.java:18: error: illegal start of type
+		3, inst.numAttributes());
+		^
+CodexTest_0_8_93.java:18: error: <identifier> expected
+		3, inst.numAttributes());
+		                     ^
+CodexTest_0_8_93.java:18: error: ';' expected
+		3, inst.numAttributes());
+		                      ^
+CodexTest_0_8_93.java:18: error: illegal start of type
+		3, inst.numAttributes());
+		                       ^
+CodexTest_0_8_93.java:18: error: <identifier> expected
+		3, inst.numAttributes());
+		                        ^
+CodexTest_0_8_93.java:18: error: ';' expected
+		3, inst.numAttributes());
+		                         ^
+CodexTest_0_8_93.java:19: error: illegal start of type
+    assertEquals("weight incorrect",
+                ^
+CodexTest_0_8_93.java:19: error: <identifier> expected
+    assertEquals("weight incorrect",
+                 ^
+CodexTest_0_8_93.java:19: error: <identifier> expected
+    assertEquals("weight incorrect",
+                                    ^
+CodexTest_0_8_93.java:20: error: illegal start of type
+		1, inst.weight(), EPSILON);
+		 ^
+CodexTest_0_8_93.java:20: error: ';' expected
+		1, inst.weight(), EPSILON);
+		       ^
+CodexTest_0_8_93.java:20: error: invalid method declaration; return type required
+		1, inst.weight(), EPSILON);
+		        ^
+CodexTest_0_8_93.java:20: error: ';' expected
+		1, inst.weight(), EPSILON);
+		                ^
+CodexTest_0_8_93.java:21: error: invalid method declaration; return type required
+    assertEquals("value incorrect",
+    ^
+CodexTest_0_8_93.java:21: error: illegal start of type
+    assertEquals("value incorrect",
+                 ^
+CodexTest_0_8_93.java:22: error: illegal start of type
+		0, inst.value(0), EPSILON);
+		^
+CodexTest_0_8_93.java:22: error: <identifier> expected
+		0, inst.value(0), EPSILON);
+		             ^
+CodexTest_0_8_93.java:22: error: ';' expected
+		0, inst.value(0), EPSILON);
+		              ^
+CodexTest_0_8_93.java:22: error: illegal start of type
+		0, inst.value(0), EPSILON);
+		               ^
+CodexTest_0_8_93.java:22: error: <identifier> expected
+		0, inst.value(0), EPSILON);
+		                ^
+CodexTest_0_8_93.java:22: error: ';' expected
+		0, inst.value(0), EPSILON);
+		                 ^
+CodexTest_0_8_93.java:22: error: illegal start of type
+		0, inst.value(0), EPSILON);
+		                         ^
+CodexTest_0_8_93.java:22: error: <identifier> expected
+		0, inst.value(0), EPSILON);
+		                          ^
+CodexTest_0_8_93.java:22: error: ';' expected
+		0, inst.value(0), EPSILON);
+		                           ^
+CodexTest_0_8_93.java:23: error: illegal start of type
+    assertEquals("value incorrect",
+                ^
+CodexTest_0_8_93.java:23: error: <identifier> expected
+    assertEquals("value incorrect",
+                 ^
+CodexTest_0_8_93.java:23: error: <identifier> expected
+    assertEquals("value incorrect",
+                                   ^
+CodexTest_0_8_93.java:24: error: illegal start of type
+		1, inst.value(1), EPSILON);
+		 ^
+CodexTest_0_8_93.java:24: error: ';' expected
+		1, inst.value(1), EPSILON);
+		       ^
+CodexTest_0_8_93.java:24: error: invalid method declaration; return type required
+		1, inst.value(1), EPSILON);
+		        ^
+CodexTest_0_8_93.java:24: error: illegal start of type
+		1, inst.value(1), EPSILON);
+		              ^
+CodexTest_0_8_93.java:24: error: ';' expected
+		1, inst.value(1), EPSILON);
+		                ^
+CodexTest_0_8_93.java:25: error: invalid method declaration; return type required
+    assertEquals("value incorrect",
+    ^
+CodexTest_0_8_93.java:25: error: illegal start of type
+    assertEquals("value incorrect",
+                 ^
+CodexTest_0_8_93.java:26: error: illegal start of type
+		0, inst.value(2), EPSILON);
+		^
+CodexTest_0_8_93.java:26: error: <identifier> expected
+		0, inst.value(2), EPSILON);
+		             ^
+CodexTest_0_8_93.java:26: error: ';' expected
+		0, inst.value(2), EPSILON);
+		              ^
+CodexTest_0_8_93.java:26: error: illegal start of type
+		0, inst.value(2), EPSILON);
+		               ^
+CodexTest_0_8_93.java:26: error: <identifier> expected
+		0, inst.value(2), EPSILON);
+		                ^
+CodexTest_0_8_93.java:26: error: ';' expected
+		0, inst.value(2), EPSILON);
+		                 ^
+CodexTest_0_8_93.java:26: error: illegal start of type
+		0, inst.value(2), EPSILON);
+		                         ^
+CodexTest_0_8_93.java:26: error: <identifier> expected
+		0, inst.value(2), EPSILON);
+		                          ^
+CodexTest_0_8_93.java:26: error: ';' expected
+		0, inst.value(2), EPSILON);
+		                           ^
+CodexTest_0_8_93.java:28: error: reached end of file while parsing
+}
+ ^

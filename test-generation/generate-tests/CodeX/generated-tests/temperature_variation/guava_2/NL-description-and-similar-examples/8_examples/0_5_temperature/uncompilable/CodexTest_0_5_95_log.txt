@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_5_95.java:31: error: cannot find symbol
+      new BigInteger("1234567890987654321").toString(),
+          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_5_95
+CodexTest_0_5_95.java:32: error: cannot find symbol
+      new BigInteger("-1234567890987654321").toString(),
+          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_5_95
+CodexTest_0_5_95.java:33: error: cannot find symbol
+      new BigInteger(
+          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_5_95
+CodexTest_0_5_95.java:35: error: cannot find symbol
+      new BigInteger(
+          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_5_95
+CodexTest_0_5_95.java:39: error: cannot find symbol
+      assertEquals(s, UnsignedInteger.valueOf(s).toString());
+                      ^
+  symbol:   variable UnsignedInteger
+  location: class CodexTest_0_5_95

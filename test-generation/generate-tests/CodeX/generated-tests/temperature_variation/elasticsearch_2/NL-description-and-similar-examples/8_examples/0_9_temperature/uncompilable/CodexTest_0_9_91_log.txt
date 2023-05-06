@@ -1,0 +1,20 @@
+isCompilable => false
+CodexTest_0_9_91.java:65: error: cannot find symbol
+        XContentType xContentType = randomFrom(XContentType.values());
+                                    ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_9_91
+CodexTest_0_9_91.java:67: error: cannot find symbol
+        byte[] source = RandomObjects.randomSource(random(), xContentType);
+                                                   ^
+  symbol:   method random()
+  location: class CodexTest_0_9_91
+CodexTest_0_9_91.java:67: error: cannot find symbol
+        byte[] source = RandomObjects.randomSource(random(), xContentType);
+                        ^
+  symbol:   variable RandomObjects
+  location: class CodexTest_0_9_91
+CodexTest_0_9_91.java:70: error: incompatible types: org.elasticsearch.common.xcontent.XContentType cannot be converted to boolean
+        assertEquals(XContentHelper.convertToJson(sourceBinary, xContentType), indexRequest.source().utf8ToString());
+                                                                ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_6_19.java:65: error: cannot find symbol
+        assertEquals("", new Empty().parent());
+                             ^
+  symbol:   class Empty
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:66: error: cannot find symbol
+        assertEquals("a", new A().parent());
+                              ^
+  symbol:   class A
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:67: error: cannot find symbol
+        assertEquals("a", new B().parent());
+                              ^
+  symbol:   class B
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:68: error: cannot find symbol
+        assertEquals("b", new C().parent());
+                              ^
+  symbol:   class C
+  location: class CodexTest_0_6_19
+CodexTest_0_6_19.java:69: error: cannot find symbol
+        assertEquals("b", new D().parent());
+                              ^
+  symbol:   class D
+  location: class CodexTest_0_6_19

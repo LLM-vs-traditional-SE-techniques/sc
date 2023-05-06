@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_8.java:19: error: cannot find symbol
+      Instances model = new Instances(new BufferedReader(new StringReader(
+                                          ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:19: error: cannot find symbol
+      Instances model = new Instances(new BufferedReader(new StringReader(
+                                                             ^
+  symbol:   class StringReader
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:20: error: cannot find symbol
+					      m_Instances.toString())));
+					      ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:21: error: cannot find symbol
+      Instance inst = m_AlgVector.getAsInstance(model, new Random(1));
+                      ^
+  symbol:   variable m_AlgVector
+  location: class CodexTest_0_5_8

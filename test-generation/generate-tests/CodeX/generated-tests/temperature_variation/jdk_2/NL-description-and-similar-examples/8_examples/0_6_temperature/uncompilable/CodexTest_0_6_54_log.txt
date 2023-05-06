@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_54.java:22: error: cannot find symbol
+        List<Integer> underTest = newArrayList(1, 2, 3);
+                                  ^
+  symbol:   method newArrayList(int,int,int)
+  location: class CodexTest_0_6_54

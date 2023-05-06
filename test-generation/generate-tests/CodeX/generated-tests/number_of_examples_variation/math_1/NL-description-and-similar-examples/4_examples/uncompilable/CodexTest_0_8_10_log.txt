@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_8_10.java:34: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(v1.scalarMultiply(a).x, a, 0);
+                                                ^
+CodexTest_0_8_10.java:35: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(v2.scalarMultiply(a).x, 2 * a, 0);
+                                                ^
+CodexTest_0_8_10.java:36: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(v1.scalarMultiply(a).x, a * v1.x, 0);
+                                                ^
+CodexTest_0_8_10.java:36: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(v1.scalarMultiply(a).x, a * v1.x, 0);
+                                                          ^
+CodexTest_0_8_10.java:37: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(v2.scalarMultiply(a).x, a * v2.x, 0);
+                                                ^
+CodexTest_0_8_10.java:37: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(v2.scalarMultiply(a).x, a * v2.x, 0);
+                                                          ^

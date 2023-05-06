@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_7_9.java:20: error: cannot find symbol
+      inst = m_Instance.getAsInstance(m_Instances, new Random(1));
+                                      ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:20: error: cannot find symbol
+      inst = m_Instance.getAsInstance(m_Instances, new Random(1));
+             ^
+  symbol:   variable m_Instance
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:27: error: cannot find symbol
+		 m_ClassValue, m_Delta);
+		 ^
+  symbol:   variable m_ClassValue
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:27: error: cannot find symbol
+		 m_ClassValue, m_Delta);
+		               ^
+  symbol:   variable m_Delta
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:28: error: cannot find symbol
+    assertEquals("Weight differs", inst.weight(), m_Weight, m_Delta);
+                                                  ^
+  symbol:   variable m_Weight
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:28: error: cannot find symbol
+    assertEquals("Weight differs", inst.weight(), m_Weight, m_Delta);
+                                                            ^
+  symbol:   variable m_Delta
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:30: error: cannot find symbol
+		 m_Instances.numAttributes());
+		 ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:33: error: cannot find symbol
+		   m_Values[i], m_Delta);
+		   ^
+  symbol:   variable m_Values
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:33: error: cannot find symbol
+		   m_Values[i], m_Delta);
+		                ^
+  symbol:   variable m_Delta
+  location: class CodexTest_0_7_9

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_18.java:70: error: <identifier> expected
+Input: public long lastDumpDurationInMillis() {
+     ^
+CodexTest_0_9_18.java:73: error: <identifier> expected
+Output: public void testClearDoesNotResetGeneralCacheStats() {
+      ^

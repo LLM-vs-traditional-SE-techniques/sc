@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_1.java:65: error: cannot find symbol
+                  Assert.assertEquals("Harvest", tree.getParentName());
+                                                 ^
+  symbol:   variable tree
+  location: class CodexTest_0_9_1

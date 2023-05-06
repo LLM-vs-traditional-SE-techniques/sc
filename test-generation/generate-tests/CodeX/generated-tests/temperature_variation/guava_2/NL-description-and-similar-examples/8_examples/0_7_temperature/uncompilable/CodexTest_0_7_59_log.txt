@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_59.java:26: error: cannot find symbol
+    int numBytes = bloomFilter.writeBytesTo(dest, 0, dest.length);
+                   ^
+  symbol:   variable bloomFilter
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:27: error: cannot find symbol
+    assertEquals(bloomFilter.bits() / 8, numBytes);
+                 ^
+  symbol:   variable bloomFilter
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:29: error: cannot find symbol
+        new ByteArrayInputStream(dest), Funnel.from(StringFunnel.INSTANCE), numBytes, 0.03);
+            ^
+  symbol:   class ByteArrayInputStream
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:29: error: cannot find symbol
+        new ByteArrayInputStream(dest), Funnel.from(StringFunnel.INSTANCE), numBytes, 0.03);
+                                                    ^
+  symbol:   variable StringFunnel
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:30: error: cannot find symbol
+    assertTrue(newBloomFilter.equals(bloomFilter));
+                                     ^
+  symbol:   variable bloomFilter
+  location: class CodexTest_0_7_59

@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_9_5.java:19: error: non-static method fromString(java.lang.String) cannot be referenced from a static context
+      (BooleanTypeDescriptor.fromString("Y"), true);
+                            ^
+CodexTest_0_9_5.java:17: error: cannot find symbol
+    falsePositiveFalseNegativeActualVsAssertion
+    ^
+  symbol:   method falsePositiveFalseNegativeActualVsAssertion(java.lang.Boolean,boolean)
+  location: class CodexTest_0_9_5

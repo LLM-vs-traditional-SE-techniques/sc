@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_8.java:26: error: cannot find symbol
+    assertEquals(2, Bits.padRight().writeBytesTo(dest, 0, 2));
+                    ^
+  symbol:   variable Bits
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:27: error: cannot find symbol
+    assertEquals(1, Bits.padRight().writeBytesTo(dest, 1, 1));
+                    ^
+  symbol:   variable Bits
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:28: error: cannot find symbol
+    assertEquals(0, Bits.padRight().writeBytesTo(dest, 2, 0));
+                    ^
+  symbol:   variable Bits
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:29: error: cannot find symbol
+    assertEquals(0, Bits.padRight().writeBytesTo(dest, 3, 0));
+                    ^
+  symbol:   variable Bits
+  location: class CodexTest_0_7_8

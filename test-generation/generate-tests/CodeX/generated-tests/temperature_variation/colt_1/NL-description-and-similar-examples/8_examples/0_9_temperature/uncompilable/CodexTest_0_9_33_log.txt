@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_33.java:39: error: ';' expected
+	public void testSum_2x2_from2D() {
+	                              ^
+CodexTest_0_9_33.java:49: error: illegal start of expression
+Input: public double getElement(int i) {
+       ^
+CodexTest_0_9_33.java:49: error: ';' expected
+Input: public double getElement(int i) {
+                               ^
+CodexTest_0_9_33.java:49: error: ';' expected
+Input: public double getElement(int i) {
+                                     ^
+CodexTest_0_9_33.java:52: error: illegal start of expression
+Output: public void testGetElements2D() {
+        ^
+CodexTest_0_9_33.java:52: error: illegal start of expression
+Output: public void testGetElements2D() {
+               ^
+CodexTest_0_9_33.java:52: error: ';' expected
+Output: public void testGetElements2D() {
+                                     ^
+CodexTest_0_9_33.java:59: error: <identifier> expected
+		double[] ye = y.
+		                ^
+CodexTest_0_9_33.java:60: error: reached end of file while parsing
+}
+ ^

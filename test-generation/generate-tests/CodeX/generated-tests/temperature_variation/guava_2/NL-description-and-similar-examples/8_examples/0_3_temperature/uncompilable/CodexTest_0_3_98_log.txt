@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_98.java:29: error: cannot find symbol
+    Longs.writeLong(dest, offset, value);
+    ^
+  symbol:   variable Longs
+  location: class CodexTest_0_3_98
+CodexTest_0_3_98.java:30: error: cannot find symbol
+    assertEquals(value, Longs.fromBytes(dest[0], dest[1], dest[2], dest[3], dest[4], dest[5], dest[6], dest[7]));
+                        ^
+  symbol:   variable Longs
+  location: class CodexTest_0_3_98

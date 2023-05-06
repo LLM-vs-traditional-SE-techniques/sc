@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_5_2.java:28: error: cannot find symbol
+    int bytesWritten = hashCode.writeBytesTo(dest, offset, maxLength);
+                       ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_5_2
+CodexTest_0_5_2.java:29: error: cannot find symbol
+    assertThat(bytesWritten, equalTo(2));
+                             ^
+  symbol:   method equalTo(int)
+  location: class CodexTest_0_5_2
+CodexTest_0_5_2.java:30: error: cannot find symbol
+    assertThat(dest[offset], equalTo((byte) 0xbc));
+                             ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_5_2
+CodexTest_0_5_2.java:31: error: cannot find symbol
+    assertThat(dest[offset + 1], equalTo((byte) 0x9a));
+                                 ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_5_2
+CodexTest_0_5_2.java:32: error: cannot find symbol
+    assertThat(dest[offset + 2], equalTo((byte) 0));
+                                 ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_5_2
+CodexTest_0_5_2.java:33: error: cannot find symbol
+    assertThat(dest[offset + 3], equalTo((byte) 0));
+                                 ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_5_2
+CodexTest_0_5_2.java:34: error: cannot find symbol
+    assertThat(dest[offset + 4], equalTo((byte) 0));
+                                 ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_5_2
+CodexTest_0_5_2.java:35: error: cannot find symbol
+    assertThat(dest[offset + 5], equalTo((byte) 0));
+                                 ^
+  symbol:   method equalTo(byte)
+  location: class CodexTest_0_5_2

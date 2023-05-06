@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_95.java:23: error: cannot find symbol
+        list.add(obj);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_7_95
+CodexTest_0_7_95.java:24: error: cannot find symbol
+        list.add("");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_7_95
+CodexTest_0_7_95.java:25: error: cannot find symbol
+        list.add("");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_7_95
+CodexTest_0_7_95.java:26: error: cannot find symbol
+        list.add("");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_7_95
+CodexTest_0_7_95.java:27: error: cannot find symbol
+        list.remove(1);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_7_95
+CodexTest_0_7_95.java:28: error: cannot find symbol
+        assertSame(obj, list.get(0));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_7_95
+CodexTest_0_7_95.java:29: error: cannot find symbol
+        assertEquals(3, list.size());
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_7_95

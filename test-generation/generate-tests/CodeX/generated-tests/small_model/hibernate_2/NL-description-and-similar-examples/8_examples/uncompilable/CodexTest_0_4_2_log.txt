@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_4_2.java:16: error: non-static method fromString(java.lang.String) cannot be referenced from a static context
+    assertTrue(BooleanTypeDescriptor.fromString("true"));
+                                    ^
+CodexTest_0_4_2.java:17: error: non-static method fromString(java.lang.String) cannot be referenced from a static context
+    assertFalse(BooleanTypeDescriptor.fromString("false"));
+                                     ^
+CodexTest_0_4_2.java:18: error: non-static method fromString(java.lang.String) cannot be referenced from a static context
+    assertNull(BooleanTypeDescriptor.fromString(null));
+                                    ^

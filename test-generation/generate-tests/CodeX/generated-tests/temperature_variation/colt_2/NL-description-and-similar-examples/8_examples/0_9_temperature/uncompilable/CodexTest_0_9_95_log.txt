@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_95.java:37: error: <identifier> expected
+Input: public static <T> T[] toArray(Collection<T> c) {
+     ^
+CodexTest_0_9_95.java:40: error: <identifier> expected
+Output: public void testToArrayIntArray() {
+      ^

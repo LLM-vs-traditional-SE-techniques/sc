@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_7_86.java:58: error: cannot find symbol
+        list.addElement("bbb");
+            ^
+  symbol:   method addElement(java.lang.String)
+  location: variable list of type java.util.ArrayList
+Note: CodexTest_0_7_86.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

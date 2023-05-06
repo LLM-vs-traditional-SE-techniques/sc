@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_1.java:65: error: cannot find symbol
+        final String parent = randomAlphaOfLength(5);
+                              ^
+  symbol:   method randomAlphaOfLength(int)
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:66: error: cannot find symbol
+        final IndicesSegmentsRequest request = new IndicesSegmentsRequest(parent);
+              ^
+  symbol:   class IndicesSegmentsRequest
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:66: error: cannot find symbol
+        final IndicesSegmentsRequest request = new IndicesSegmentsRequest(parent);
+                                                   ^
+  symbol:   class IndicesSegmentsRequest
+  location: class CodexTest_0_6_1

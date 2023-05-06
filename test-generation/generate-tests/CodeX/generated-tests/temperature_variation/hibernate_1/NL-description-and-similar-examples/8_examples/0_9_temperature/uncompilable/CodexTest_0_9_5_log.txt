@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_5.java:16: error: cannot find symbol
+    assertNull(underTest.toShort(null));
+               ^
+  symbol:   variable underTest
+  location: class CodexTest_0_9_5

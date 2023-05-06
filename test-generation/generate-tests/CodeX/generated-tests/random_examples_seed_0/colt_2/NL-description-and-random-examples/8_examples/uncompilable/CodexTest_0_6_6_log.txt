@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_6_6.java:30: error: cannot find symbol
+            data = new DenseDoubleMatrix2D(rows, columns);
+            ^
+  symbol:   variable data
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:30: error: cannot find symbol
+            data = new DenseDoubleMatrix2D(rows, columns);
+                                           ^
+  symbol:   variable rows
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:30: error: cannot find symbol
+            data = new DenseDoubleMatrix2D(rows, columns);
+                                                 ^
+  symbol:   variable columns
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:31: error: cannot find symbol
+            for (int row = 0; row < rows; row++) {
+                                    ^
+  symbol:   variable rows
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:32: error: cannot find symbol
+                for (int column = 0; column < columns; column++) {
+                                              ^
+  symbol:   variable columns
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:33: error: cannot find symbol
+                    data.set(row, column, 1d / (row + 1) / (column + 1));
+                    ^
+  symbol:   variable data
+  location: class CodexTest_0_6_6

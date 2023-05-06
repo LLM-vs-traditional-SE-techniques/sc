@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_5.java:38: error: ';' expected
+The similar tests are generated for the Vector3D class.
+           ^
+CodexTest_0_9_5.java:38: error: ';' expected
+The similar tests are generated for the Vector3D class.
+                     ^
+CodexTest_0_9_5.java:38: error: <identifier> expected
+The similar tests are generated for the Vector3D class.
+                               ^
+CodexTest_0_9_5.java:38: error: ';' expected
+The similar tests are generated for the Vector3D class.
+                                                ^
+CodexTest_0_9_5.java:38: error: <identifier> expected
+The similar tests are generated for the Vector3D class.
+                                                      ^
+CodexTest_0_9_5.java:39: error: reached end of file while parsing
+}
+ ^

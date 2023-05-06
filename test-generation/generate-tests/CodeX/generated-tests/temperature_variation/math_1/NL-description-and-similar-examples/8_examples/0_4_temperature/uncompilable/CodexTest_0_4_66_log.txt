@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_66.java:35: error: bad operand types for binary operator '*'
+        Assert.assertEquals(2 * v, v.add(v));
+                              ^
+  first type:  int
+  second type: org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_4_66.java:36: error: bad operand types for binary operator '*'
+        Assert.assertEquals(0.5 * v, v.scalarMultiply(0.5));
+                                ^
+  first type:  double
+  second type: org.apache.commons.math3.geometry.euclidean.oned.Vector1D

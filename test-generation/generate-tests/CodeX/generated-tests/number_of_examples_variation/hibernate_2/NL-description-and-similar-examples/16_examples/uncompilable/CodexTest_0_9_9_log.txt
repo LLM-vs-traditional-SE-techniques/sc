@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_9.java:16: error: cannot find symbol
+        assertEquals(fromString("false"), Boolean.FALSE);
+                     ^
+  symbol:   method fromString(java.lang.String)
+  location: class CodexTest_0_9_9

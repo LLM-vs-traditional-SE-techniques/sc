@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_6.java:18: error: cannot find symbol
+			return m_Matrix.columns();
+			       ^
+  symbol:   variable m_Matrix
+  location: class CodexTest_0_8_6

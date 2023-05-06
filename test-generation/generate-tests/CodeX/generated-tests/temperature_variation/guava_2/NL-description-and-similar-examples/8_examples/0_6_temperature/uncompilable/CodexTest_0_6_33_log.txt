@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_6_33.java:31: error: cannot find symbol
+      BitArray bits = BitArray.create(bytes);
+      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_6_33
+CodexTest_0_6_33.java:31: error: cannot find symbol
+      BitArray bits = BitArray.create(bytes);
+                      ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_6_33
+CodexTest_0_6_33.java:36: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                      ^
+CodexTest_0_6_33.java:36: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                            ^
+CodexTest_0_6_33.java:36: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                  ^
+CodexTest_0_6_33.java:36: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                        ^
+CodexTest_0_6_33.java:36: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                              ^
+CodexTest_0_6_33.java:36: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                                    ^
+CodexTest_0_6_33.java:36: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                                          ^
+CodexTest_0_6_33.java:36: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                                                ^
+CodexTest_0_6_33.java:36: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                                                      ^
+CodexTest_0_6_33.java:36: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                                                            ^
+CodexTest_0_6_33.java:39: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                      ^
+CodexTest_0_6_33.java:39: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                            ^
+CodexTest_0_6_33.java:39: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                  ^
+CodexTest_0_6_33.java:39: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                        ^
+CodexTest_0_6_33.java:39: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                              ^
+CodexTest_0_6_33.java:39: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                                    ^
+CodexTest_0_6_33.java:39: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                                          ^
+CodexTest_0_6_33.java:39: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                                                ^
+CodexTest_0_6_33.java:39: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                                                      ^
+CodexTest_0_6_33.java:39: error: incompatible types: possible lossy conversion from int to byte
+          new byte[] {0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB, 0xAB},
+                                                                            ^

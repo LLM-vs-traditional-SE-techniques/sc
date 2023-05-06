@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_15.java:26: error: cannot find symbol
+    assertEquals(Hashing.sha256().hashBytes(ByteBuffer.allocate(8).putLong(42).array()), hash);
+                                            ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_6_15

@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_77.java:26: error: cannot find symbol
+    ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+    ^
+  symbol:   class ByteArrayOutputStream
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:26: error: cannot find symbol
+    ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+                                             ^
+  symbol:   class ByteArrayOutputStream
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:30: error: cannot find symbol
+    BitStream bitStream = new BitStream(numberToWrite, expectedLength);
+    ^
+  symbol:   class BitStream
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:30: error: cannot find symbol
+    BitStream bitStream = new BitStream(numberToWrite, expectedLength);
+                              ^
+  symbol:   class BitStream
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:33: error: cannot find symbol
+    assertEquals(numberToWrite, BitStream.byteArrayToLong(outputStream.toByteArray(), 0,
+                                ^
+  symbol:   variable BitStream
+  location: class CodexTest_0_8_77

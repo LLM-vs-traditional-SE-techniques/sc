@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_35.java:21: error: <identifier> expected
+Input: public int getByte(int index) {
+     ^
+CodexTest_0_9_35.java:27: error: <identifier> expected
+Output: public void testSetChar() {
+      ^

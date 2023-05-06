@@ -1,0 +1,301 @@
+isCompilable => false
+CodexTest_0_9_3.java:23: error: <identifier> expected
+ExampleRefactorings:
+                   ^
+CodexTest_0_9_3.java:24: error: ';' expected
+	a. Remove the first line (if it is a return expression)
+	             ^
+CodexTest_0_9_3.java:24: error: illegal start of type
+	a. Remove the first line (if it is a return expression)
+	                          ^
+CodexTest_0_9_3.java:24: error: ')' expected
+	a. Remove the first line (if it is a return expression)
+	                            ^
+CodexTest_0_9_3.java:24: error: ';' expected
+	a. Remove the first line (if it is a return expression)
+	                               ^
+CodexTest_0_9_3.java:24: error: <identifier> expected
+	a. Remove the first line (if it is a return expression)
+	                                    ^
+CodexTest_0_9_3.java:24: error: <identifier> expected
+	a. Remove the first line (if it is a return expression)
+	                                                      ^
+CodexTest_0_9_3.java:25: error: <identifier> expected
+	b. Make "underTest" or "foo" or "bar" or "baz"
+	       ^
+CodexTest_0_9_3.java:25: error: <identifier> expected
+	b. Make "underTest" or "foo" or "bar" or "baz"
+	                      ^
+CodexTest_0_9_3.java:25: error: <identifier> expected
+	b. Make "underTest" or "foo" or "bar" or "baz"
+	                               ^
+CodexTest_0_9_3.java:25: error: <identifier> expected
+	b. Make "underTest" or "foo" or "bar" or "baz"
+	                                        ^
+CodexTest_0_9_3.java:26: error: ';' expected
+	c. Change the return type to the type of the return expression, outside that method
+	             ^
+CodexTest_0_9_3.java:26: error: ';' expected
+	c. Change the return type to the type of the return expression, outside that method
+	                            ^
+CodexTest_0_9_3.java:26: error: ';' expected
+	c. Change the return type to the type of the return expression, outside that method
+	                                     ^
+CodexTest_0_9_3.java:26: error: ';' expected
+	c. Change the return type to the type of the return expression, outside that method
+	                                            ^
+CodexTest_0_9_3.java:26: error: <identifier> expected
+	c. Change the return type to the type of the return expression, outside that method
+	                                                              ^
+CodexTest_0_9_3.java:26: error: ';' expected
+	c. Change the return type to the type of the return expression, outside that method
+	                                                                       ^
+CodexTest_0_9_3.java:26: error: ';' expected
+	c. Change the return type to the type of the return expression, outside that method
+	                                                                                   ^
+CodexTest_0_9_3.java:27: error: ';' expected
+	d. Put the content of try-catch in the test
+	          ^
+CodexTest_0_9_3.java:27: error: ';' expected
+	d. Put the content of try-catch in the test
+	                     ^
+CodexTest_0_9_3.java:27: error: ';' expected
+	d. Put the content of try-catch in the test
+	                                      ^
+CodexTest_0_9_3.java:28: error: ';' expected
+	e. Use the variable instead of a literal
+	 ^
+CodexTest_0_9_3.java:28: error: ';' expected
+	e. Use the variable instead of a literal
+	          ^
+CodexTest_0_9_3.java:28: error: ';' expected
+	e. Use the variable instead of a literal
+	                           ^
+CodexTest_0_9_3.java:28: error: ';' expected
+	e. Use the variable instead of a literal
+	                                ^
+CodexTest_0_9_3.java:29: error: ';' expected
+	f. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	 ^
+CodexTest_0_9_3.java:29: error: ';' expected
+	f. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	             ^
+CodexTest_0_9_3.java:29: error: ';' expected
+	f. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                           ^
+CodexTest_0_9_3.java:29: error: <identifier> expected
+	f. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                              ^
+CodexTest_0_9_3.java:29: error: <identifier> expected
+	f. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                             ^
+CodexTest_0_9_3.java:29: error: <identifier> expected
+	f. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                                      ^
+CodexTest_0_9_3.java:29: error: <identifier> expected
+	f. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                                               ^
+CodexTest_0_9_3.java:30: error: ';' expected
+	g. Put the variable into a new array (if it is the only variable)
+	          ^
+CodexTest_0_9_3.java:30: error: ';' expected
+	g. Put the variable into a new array (if it is the only variable)
+	                        ^
+CodexTest_0_9_3.java:30: error: <identifier> expected
+	g. Put the variable into a new array (if it is the only variable)
+	                          ^
+CodexTest_0_9_3.java:30: error: invalid method declaration; return type required
+	g. Put the variable into a new array (if it is the only variable)
+	                               ^
+CodexTest_0_9_3.java:30: error: illegal start of type
+	g. Put the variable into a new array (if it is the only variable)
+	                                      ^
+CodexTest_0_9_3.java:30: error: ')' expected
+	g. Put the variable into a new array (if it is the only variable)
+	                                        ^
+CodexTest_0_9_3.java:30: error: ';' expected
+	g. Put the variable into a new array (if it is the only variable)
+	                                           ^
+CodexTest_0_9_3.java:30: error: ';' expected
+	g. Put the variable into a new array (if it is the only variable)
+	                                                       ^
+CodexTest_0_9_3.java:30: error: <identifier> expected
+	g. Put the variable into a new array (if it is the only variable)
+	                                                                ^
+CodexTest_0_9_3.java:31: error: ';' expected
+	h. Use the variable from the block
+	          ^
+CodexTest_0_9_3.java:31: error: ';' expected
+	h. Use the variable from the block
+	                        ^
+CodexTest_0_9_3.java:31: error: ';' expected
+	h. Use the variable from the block
+	                                  ^
+CodexTest_0_9_3.java:32: error: ';' expected
+	i. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	             ^
+CodexTest_0_9_3.java:32: error: ';' expected
+	i. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                           ^
+CodexTest_0_9_3.java:32: error: <identifier> expected
+	i. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                              ^
+CodexTest_0_9_3.java:32: error: <identifier> expected
+	i. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                             ^
+CodexTest_0_9_3.java:32: error: <identifier> expected
+	i. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                                      ^
+CodexTest_0_9_3.java:32: error: <identifier> expected
+	i. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                                               ^
+CodexTest_0_9_3.java:33: error: ';' expected
+	j. Change the type to the type of the variable
+	             ^
+CodexTest_0_9_3.java:33: error: ';' expected
+	j. Change the type to the type of the variable
+	                     ^
+CodexTest_0_9_3.java:33: error: ';' expected
+	j. Change the type to the type of the variable
+	                              ^
+CodexTest_0_9_3.java:33: error: ';' expected
+	j. Change the type to the type of the variable
+	                                     ^
+CodexTest_0_9_3.java:34: error: ';' expected
+	k. Put the variable from the block in a new array
+	 ^
+CodexTest_0_9_3.java:34: error: ';' expected
+	k. Put the variable from the block in a new array
+	          ^
+CodexTest_0_9_3.java:34: error: ';' expected
+	k. Put the variable from the block in a new array
+	                        ^
+CodexTest_0_9_3.java:34: error: ';' expected
+	k. Put the variable from the block in a new array
+	                                  ^
+CodexTest_0_9_3.java:34: error: ';' expected
+	k. Put the variable from the block in a new array
+	                                       ^
+CodexTest_0_9_3.java:35: error: ';' expected
+	l. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	 ^
+CodexTest_0_9_3.java:35: error: ';' expected
+	l. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	             ^
+CodexTest_0_9_3.java:35: error: ';' expected
+	l. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                           ^
+CodexTest_0_9_3.java:35: error: <identifier> expected
+	l. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                              ^
+CodexTest_0_9_3.java:35: error: <identifier> expected
+	l. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                             ^
+CodexTest_0_9_3.java:35: error: <identifier> expected
+	l. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                                      ^
+CodexTest_0_9_3.java:35: error: <identifier> expected
+	l. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                                               ^
+CodexTest_0_9_3.java:36: error: ';' expected
+	m. Use the variable instead of a literal
+	          ^
+CodexTest_0_9_3.java:36: error: ';' expected
+	m. Use the variable instead of a literal
+	                           ^
+CodexTest_0_9_3.java:36: error: ';' expected
+	m. Use the variable instead of a literal
+	                                ^
+CodexTest_0_9_3.java:37: error: ';' expected
+	n. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	 ^
+CodexTest_0_9_3.java:37: error: ';' expected
+	n. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	             ^
+CodexTest_0_9_3.java:37: error: ';' expected
+	n. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                           ^
+CodexTest_0_9_3.java:37: error: <identifier> expected
+	n. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                              ^
+CodexTest_0_9_3.java:37: error: <identifier> expected
+	n. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                             ^
+CodexTest_0_9_3.java:37: error: <identifier> expected
+	n. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                                      ^
+CodexTest_0_9_3.java:37: error: <identifier> expected
+	n. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                                               ^
+CodexTest_0_9_3.java:38: error: ';' expected
+	o. Put the variable (if it is the only variable) to a new array
+	          ^
+CodexTest_0_9_3.java:38: error: invalid method declaration; return type required
+	o. Put the variable (if it is the only variable) to a new array
+	           ^
+CodexTest_0_9_3.java:38: error: illegal start of type
+	o. Put the variable (if it is the only variable) to a new array
+	                     ^
+CodexTest_0_9_3.java:38: error: ')' expected
+	o. Put the variable (if it is the only variable) to a new array
+	                       ^
+CodexTest_0_9_3.java:38: error: ';' expected
+	o. Put the variable (if it is the only variable) to a new array
+	                          ^
+CodexTest_0_9_3.java:38: error: ';' expected
+	o. Put the variable (if it is the only variable) to a new array
+	                                      ^
+CodexTest_0_9_3.java:38: error: <identifier> expected
+	o. Put the variable (if it is the only variable) to a new array
+	                                               ^
+CodexTest_0_9_3.java:38: error: ';' expected
+	o. Put the variable (if it is the only variable) to a new array
+	                                                     ^
+CodexTest_0_9_3.java:39: error: ';' expected
+	p. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	 ^
+CodexTest_0_9_3.java:39: error: ';' expected
+	p. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	             ^
+CodexTest_0_9_3.java:39: error: ';' expected
+	p. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                           ^
+CodexTest_0_9_3.java:39: error: <identifier> expected
+	p. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                              ^
+CodexTest_0_9_3.java:39: error: <identifier> expected
+	p. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                             ^
+CodexTest_0_9_3.java:39: error: <identifier> expected
+	p. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                                      ^
+CodexTest_0_9_3.java:39: error: <identifier> expected
+	p. Change the variable name to "underTest" or "foo" or "bar" or "baz"
+	                                                               ^
+CodexTest_0_9_3.java:40: error: ';' expected
+	q. Change the type to the type of the variable
+	             ^
+CodexTest_0_9_3.java:40: error: ';' expected
+	q. Change the type to the type of the variable
+	                     ^
+CodexTest_0_9_3.java:40: error: ';' expected
+	q. Change the type to the type of the variable
+	                              ^
+CodexTest_0_9_3.java:40: error: ';' expected
+	q. Change the type to the type of the variable
+	                                     ^
+CodexTest_0_9_3.java:41: error: ';' expected
+	r. Put the variable in a new array (if it is the only variable)
+	 ^
+CodexTest_0_9_3.java:41: error: ';' expected
+	r. Put the variable in a new array (if it is the only variable)
+	          ^
+CodexTest_0_9_3.java:41: error: ';' expected
+	r. Put the variable in a new array (if it is the only variable)
+	                      ^
+CodexTest_0_9_3.java:41: error: <identifier> expected
+	r. Put the variable in a new array (if it is the only variable)
+	                        ^
+CodexTest_0_9_3.java:41: error: invalid method declaration; return type required
+	r. Put the variable in a new array (if it is the only variable)
+	                             ^

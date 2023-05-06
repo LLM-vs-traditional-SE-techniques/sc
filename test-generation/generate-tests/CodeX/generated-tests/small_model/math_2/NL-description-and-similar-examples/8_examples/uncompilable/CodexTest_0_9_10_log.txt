@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_10.java:35: error: cannot find symbol
+        Assert.assertEquals(v1.subtract(v2).getNormSqr(), Vector1D.distanceSq(v1, v2), 1.0e-12);
+                                           ^
+  symbol:   method getNormSqr()
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D

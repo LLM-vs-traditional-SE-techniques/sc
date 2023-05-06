@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_43.java:16: error: setUp() has protected access in com.google.gwt.junit.client.GWTTestCase
+      GWTTestCase.setUp();
+                 ^
+CodexTest_0_9_43.java:18: error: tearDown() has protected access in com.google.gwt.junit.client.GWTTestCase
+      GWTTestCase.tearDown();
+                 ^

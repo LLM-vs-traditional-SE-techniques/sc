@@ -1,0 +1,21 @@
+{
+	"project": "Guava",
+	"package": "com.google.common.hash",
+	"class": "HashCode",
+	"method_signature": "HashCode fromLong(long hash)",
+	"method": "public static HashCode fromLong(long hash) {\n    return new LongHashCode(hash);\n  }",
+	"helpers": ["HashCode()", "long padToLong()"],
+	"example_same_class": {
+		"method_signature": "HashCode fromBytes(byte[] bytes)",
+		"method": "public static HashCode fromBytes(byte[] bytes) {\n    checkArgument(bytes.length >= 1, \"A HashCode must contain at least 1 byte.\");\n    return fromBytesNoCopy(bytes.clone());\n  }",
+		"test": "public void testRoundTripHashCodeUsingBaseEncoding() {\n    HashCode hash1 = Hashing.sha1().hashString(\"foo\", Charsets.US_ASCII);\n    HashCode hash2 = HashCode.fromBytes(BaseEncoding.base16().lowerCase().decode(hash1.toString()));\n    assertEquals(hash1, hash2);\n  }"
+	},
+	"example_different_project": {
+		"id": "math_1",
+		"method_signature": "double distance(Vector1D p1, Vector1D p2)",
+		"method": "public static double distance(Vector1D p1, Vector1D p2) {\n        return p1.distance(p2);\n    }",
+		"test": "public void testDistance() {\n        Vector1D v1 = new Vector1D(1);\n        Vector1D v2 = new Vector1D(-4);\n        Assert.assertEquals(0.0, Vector1D.distance(new Vector1D(-1), new Vector1D(-1)), 0);\n        Assert.assertEquals(5.0, Vector1D.distance(v1, v2), 1.0e-12);\n        Assert.assertEquals(v1.subtract(v2).getNorm(), Vector1D.distance(v1, v2), 1.0e-12);\n    }"
+	},
+	"method_class_imports": "import com.google.common.hash.*;\nimport static com.google.common.base.Preconditions.checkArgument;\nimport static com.google.common.base.Preconditions.checkNotNull;\nimport static com.google.common.base.Preconditions.checkState;\nimport com.google.common.annotations.Beta;\nimport com.google.common.base.Preconditions;\nimport com.google.common.primitives.Ints;\nimport com.google.common.primitives.UnsignedInts;\nimport java.io.Serializable;",
+	"test_class_imports": "import static com.google.common.io.BaseEncoding.base16;\nimport com.google.common.base.Charsets;\nimport com.google.common.collect.ImmutableList;\nimport com.google.common.io.BaseEncoding;\nimport java.util.Arrays;"
+}

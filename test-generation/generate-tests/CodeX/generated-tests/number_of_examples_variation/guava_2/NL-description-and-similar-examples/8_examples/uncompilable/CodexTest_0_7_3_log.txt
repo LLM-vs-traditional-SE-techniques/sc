@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_3.java:31: error: cannot find symbol
+        BigInteger i = BigInteger.valueOf(0x5A5A5A5A5A5A5A5AL)
+        ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:31: error: cannot find symbol
+        BigInteger i = BigInteger.valueOf(0x5A5A5A5A5A5A5A5AL)
+                       ^
+  symbol:   variable BigInteger
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:35: error: cannot find symbol
+        BitArray bits = BitArray.fromBitArray(i, n);
+        ^
+  symbol:   class BitArray
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:35: error: cannot find symbol
+        BitArray bits = BitArray.fromBitArray(i, n);
+                        ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_7_3

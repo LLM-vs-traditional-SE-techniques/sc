@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_0_2.java:28: error: cannot find symbol
+    int bits = bits();
+               ^
+  symbol:   method bits()
+  location: class CodexTest_0_0_2
+CodexTest_0_0_2.java:37: error: cannot find symbol
+    int expectedLastByte = expectedRemainder == 0 ? 0 : (int) (getLongInternal(expectedBytes) & expectedRemainderMask);
+                                                               ^
+  symbol:   method getLongInternal(int)
+  location: class CodexTest_0_0_2
+CodexTest_0_0_2.java:38: error: cannot find symbol
+    int actualLength = writeBytesTo(dest, offset, maxLength);
+                       ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_0_2
+CodexTest_0_0_2.java:41: error: cannot find symbol
+    assertEquals(expectedBits, bits());
+                               ^
+  symbol:   method bits()
+  location: class CodexTest_0_0_2
+CodexTest_0_0_2.java:42: error: cannot find symbol
+    assertEquals(expectedBytes, bytes());
+                                ^
+  symbol:   method bytes()
+  location: class CodexTest_0_0_2
+CodexTest_0_0_2.java:43: error: cannot find symbol
+    assertEquals(expectedRemainder, remainder());
+                                    ^
+  symbol:   method remainder()
+  location: class CodexTest_0_0_2
+CodexTest_0_0_2.java:44: error: cannot find symbol
+    assertEquals(expectedRemainderMask, remainderMask());
+                                        ^
+  symbol:   method remainderMask()
+  location: class CodexTest_0_0_2
+CodexTest_0_0_2.java:45: error: cannot find symbol
+    assertEquals(expectedLastByte, lastByte());
+                                   ^
+  symbol:   method lastByte()
+  location: class CodexTest_0_0_2

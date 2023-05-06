@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_10.java:22: error: cannot find symbol
+        for (Iterator<String> it = list.iterator(); it.hasNext(); ) {
+                                   ^
+  symbol:   variable list
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:24: error: cannot find symbol
+            assertEquals(o, dups.get(i++));
+                            ^
+  symbol:   variable dups
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:26: error: cannot find symbol
+            dups.remove(o);
+            ^
+  symbol:   variable dups
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:28: error: cannot find symbol
+        assertEquals(0, list.size());
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_10

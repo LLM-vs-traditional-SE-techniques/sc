@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_12.java:64: error: ';' expected
+    Suggest a test for a method with the IndexRequest source(Map source, XContentType contentType) signature.
+             ^
+CodexTest_0_7_12.java:64: error: <identifier> expected
+    Suggest a test for a method with the IndexRequest source(Map source, XContentType contentType) signature.
+                  ^
+CodexTest_0_7_12.java:64: error: ';' expected
+    Suggest a test for a method with the IndexRequest source(Map source, XContentType contentType) signature.
+                               ^
+CodexTest_0_7_12.java:64: error: ';' expected
+    Suggest a test for a method with the IndexRequest source(Map source, XContentType contentType) signature.
+                                        ^
+CodexTest_0_7_12.java:64: error: ';' expected
+    Suggest a test for a method with the IndexRequest source(Map source, XContentType contentType) signature.
+                                                                                                  ^

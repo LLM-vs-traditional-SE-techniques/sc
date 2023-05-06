@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_39.java:19: error: cannot find symbol
+    AlgMatrix m = new AlgMatrix(15, 2);
+    ^
+  symbol:   class AlgMatrix
+  location: class CodexTest_0_9_39
+CodexTest_0_9_39.java:19: error: cannot find symbol
+    AlgMatrix m = new AlgMatrix(15, 2);
+                      ^
+  symbol:   class AlgMatrix
+  location: class CodexTest_0_9_39

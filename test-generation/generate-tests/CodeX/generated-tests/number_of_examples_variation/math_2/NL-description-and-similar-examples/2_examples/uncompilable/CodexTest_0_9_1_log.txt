@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_1.java:39: error: illegal start of type
+ */
+ ^
+CodexTest_0_9_1.java:39: error: ';' expected
+ */
+  ^
+CodexTest_0_9_1.java:40: error: <identifier> expected
+function methodWithExponentialBehavior(n, x) {
+                                        ^
+CodexTest_0_9_1.java:40: error: <identifier> expected
+function methodWithExponentialBehavior(n, x) {
+                                           ^

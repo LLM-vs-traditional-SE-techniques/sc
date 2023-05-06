@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_5.java:18: error: cannot find symbol
+		m_Elements = new double[] { 1.0, 2.0, 3.0 };
+		^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:21: error: cannot find symbol
+			Instances model = new Instances(new StringReader(IRIS_DATASET));
+			                                    ^
+  symbol:   class StringReader
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:21: error: cannot find symbol
+			Instances model = new Instances(new StringReader(IRIS_DATASET));
+			                                                 ^
+  symbol:   variable IRIS_DATASET
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:22: error: cannot find symbol
+			Instance instance = getAsInstance(model, random);
+			                    ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: class CodexTest_0_6_5

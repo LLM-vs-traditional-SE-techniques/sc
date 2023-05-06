@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_26.java:28: error: cannot find symbol
+    HashCode hashCode = fromBytes(orig);
+                        ^
+  symbol:   method fromBytes(byte[])
+  location: class CodexTest_0_6_26

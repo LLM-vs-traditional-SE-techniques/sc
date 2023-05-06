@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_5.java:22: error: cannot find symbol
+        Iterable<Integer> copy = List.copyOf(iter);   // shortcut if possible
+                                     ^
+  symbol:   method copyOf(java.lang.Iterable<java.lang.Integer>)
+  location: interface java.util.List
+CodexTest_0_9_5.java:23: error: cannot find symbol
+        assertIterableEquals(iter, copy);
+        ^
+  symbol:   method assertIterableEquals(java.lang.Iterable<java.lang.Integer>,java.lang.Iterable<java.lang.Integer>)
+  location: class CodexTest_0_9_5

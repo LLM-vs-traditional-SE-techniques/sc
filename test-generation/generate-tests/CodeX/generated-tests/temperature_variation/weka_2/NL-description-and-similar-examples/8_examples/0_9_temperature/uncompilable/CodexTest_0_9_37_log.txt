@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_37.java:18: error: cannot find symbol
+        DataSource source = new DataSource(
+        ^
+  symbol:   class DataSource
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:18: error: cannot find symbol
+        DataSource source = new DataSource(
+                                ^
+  symbol:   class DataSource
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:23: error: cannot find symbol
+        m_Tester = new DenseInstance(instances.numAttributes());
+        ^
+  symbol:   variable m_Tester
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:24: error: cannot find symbol
+        m_Tester.setDataset(instances);
+        ^
+  symbol:   variable m_Tester
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:27: error: cannot find symbol
+            0.5, m_Tester.value(0), PRECISION);
+                 ^
+  symbol:   variable m_Tester
+  location: class CodexTest_0_9_37
+CodexTest_0_9_37.java:27: error: cannot find symbol
+            0.5, m_Tester.value(0), PRECISION);
+                                    ^
+  symbol:   variable PRECISION
+  location: class CodexTest_0_9_37

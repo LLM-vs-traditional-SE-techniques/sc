@@ -1,0 +1,124 @@
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+public class RegressionTest32 {
+
+    public static boolean debug = false;
+
+    @Test
+    public void test33() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest32.test33");
+        weka.core.AlgVector algVector1 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector3 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector4 = algVector1.add(algVector3);
+        weka.core.AlgVector algVector6 = new weka.core.AlgVector(97);
+        weka.core.AlgVector algVector7 = algVector1.add(algVector6);
+        weka.core.AlgVector algVector9 = new weka.core.AlgVector(1);
+        int int10 = algVector9.numElements();
+        weka.core.AlgVector algVector12 = new weka.core.AlgVector(97);
+        weka.core.AlgVector algVector13 = algVector9.add(algVector12);
+        weka.core.AlgVector algVector14 = algVector1.add(algVector12);
+        int int15 = algVector12.numElements();
+        weka.core.AlgVector algVector17 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector19 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector20 = algVector17.add(algVector19);
+        weka.core.AlgVector algVector22 = new weka.core.AlgVector(97);
+        weka.core.AlgVector algVector23 = algVector17.add(algVector22);
+        int int24 = algVector22.numElements();
+        weka.core.AlgVector algVector26 = new weka.core.AlgVector(97);
+        weka.core.AlgVector algVector27 = algVector22.add(algVector26);
+        int int28 = algVector22.numElements();
+        weka.core.AlgVector algVector29 = algVector12.add(algVector22);
+        weka.core.AlgVector algVector31 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector33 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector34 = algVector31.add(algVector33);
+        weka.core.AlgVector algVector36 = new weka.core.AlgVector(97);
+        weka.core.AlgVector algVector37 = algVector31.add(algVector36);
+        weka.core.AlgVector algVector39 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector41 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector42 = algVector39.add(algVector41);
+        weka.core.AlgVector algVector44 = new weka.core.AlgVector(97);
+        weka.core.AlgVector algVector45 = algVector39.add(algVector44);
+        weka.core.AlgVector algVector47 = new weka.core.AlgVector(1);
+        int int48 = algVector47.numElements();
+        weka.core.AlgVector algVector50 = new weka.core.AlgVector(97);
+        weka.core.AlgVector algVector51 = algVector47.add(algVector50);
+        weka.core.AlgVector algVector52 = algVector39.add(algVector50);
+        weka.core.AlgVector algVector53 = algVector37.add(algVector39);
+        weka.core.AlgVector algVector54 = algVector12.add(algVector53);
+        weka.core.AlgVector algVector56 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector58 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector59 = algVector56.add(algVector58);
+        int int60 = algVector58.numElements();
+        weka.core.AlgVector algVector62 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector64 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector65 = algVector62.add(algVector64);
+        weka.core.AlgVector algVector67 = new weka.core.AlgVector(97);
+        weka.core.AlgVector algVector68 = algVector62.add(algVector67);
+        weka.core.AlgVector algVector69 = algVector58.add(algVector62);
+        int int70 = algVector69.numElements();
+        weka.core.AlgVector algVector72 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector74 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector75 = algVector72.add(algVector74);
+        weka.core.AlgVector algVector77 = new weka.core.AlgVector(97);
+        weka.core.AlgVector algVector78 = algVector72.add(algVector77);
+        weka.core.AlgVector algVector80 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector82 = new weka.core.AlgVector((int) 'a');
+        weka.core.AlgVector algVector83 = algVector80.add(algVector82);
+        weka.core.AlgVector algVector85 = new weka.core.AlgVector(97);
+        weka.core.AlgVector algVector86 = algVector80.add(algVector85);
+        weka.core.AlgVector algVector88 = new weka.core.AlgVector(1);
+        int int89 = algVector88.numElements();
+        weka.core.AlgVector algVector91 = new weka.core.AlgVector(97);
+        weka.core.AlgVector algVector92 = algVector88.add(algVector91);
+        weka.core.AlgVector algVector93 = algVector80.add(algVector91);
+        weka.core.AlgVector algVector94 = algVector78.add(algVector80);
+        weka.core.AlgVector algVector95 = algVector69.add(algVector80);
+        int int96 = algVector95.numElements();
+        weka.core.AlgVector algVector97 = algVector12.add(algVector95);
+        int int98 = algVector95.numElements();
+        org.junit.Assert.assertNotNull(algVector4);
+        org.junit.Assert.assertNotNull(algVector7);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 1 + "'", int10 == 1);
+        org.junit.Assert.assertNotNull(algVector13);
+        org.junit.Assert.assertNotNull(algVector14);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 97 + "'", int15 == 97);
+        org.junit.Assert.assertNotNull(algVector20);
+        org.junit.Assert.assertNotNull(algVector23);
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 97 + "'", int24 == 97);
+        org.junit.Assert.assertNotNull(algVector27);
+        org.junit.Assert.assertTrue("'" + int28 + "' != '" + 97 + "'", int28 == 97);
+        org.junit.Assert.assertNotNull(algVector29);
+        org.junit.Assert.assertNotNull(algVector34);
+        org.junit.Assert.assertNotNull(algVector37);
+        org.junit.Assert.assertNotNull(algVector42);
+        org.junit.Assert.assertNotNull(algVector45);
+        org.junit.Assert.assertTrue("'" + int48 + "' != '" + 1 + "'", int48 == 1);
+        org.junit.Assert.assertNotNull(algVector51);
+        org.junit.Assert.assertNotNull(algVector52);
+        org.junit.Assert.assertNotNull(algVector53);
+        org.junit.Assert.assertNotNull(algVector54);
+        org.junit.Assert.assertNotNull(algVector59);
+        org.junit.Assert.assertTrue("'" + int60 + "' != '" + 97 + "'", int60 == 97);
+        org.junit.Assert.assertNotNull(algVector65);
+        org.junit.Assert.assertNotNull(algVector68);
+        org.junit.Assert.assertNotNull(algVector69);
+        org.junit.Assert.assertTrue("'" + int70 + "' != '" + 97 + "'", int70 == 97);
+        org.junit.Assert.assertNotNull(algVector75);
+        org.junit.Assert.assertNotNull(algVector78);
+        org.junit.Assert.assertNotNull(algVector83);
+        org.junit.Assert.assertNotNull(algVector86);
+        org.junit.Assert.assertTrue("'" + int89 + "' != '" + 1 + "'", int89 == 1);
+        org.junit.Assert.assertNotNull(algVector92);
+        org.junit.Assert.assertNotNull(algVector93);
+        org.junit.Assert.assertNotNull(algVector94);
+        org.junit.Assert.assertNotNull(algVector95);
+        org.junit.Assert.assertTrue("'" + int96 + "' != '" + 97 + "'", int96 == 97);
+        org.junit.Assert.assertNotNull(algVector97);
+        org.junit.Assert.assertTrue("'" + int98 + "' != '" + 97 + "'", int98 == 97);
+    }
+}
+

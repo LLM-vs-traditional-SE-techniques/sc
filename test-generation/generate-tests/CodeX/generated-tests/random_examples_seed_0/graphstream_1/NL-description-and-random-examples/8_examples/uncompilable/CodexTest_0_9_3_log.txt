@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_3.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    edgeList.add(new Edge(4,7));
+                 ^
+CodexTest_0_9_3.java:21: error: cannot find symbol
+    edgeList.add(new Edge(4,7));
+    ^
+  symbol:   variable edgeList
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    edgeList.add(new Edge(2,3));
+                 ^
+CodexTest_0_9_3.java:22: error: cannot find symbol
+    edgeList.add(new Edge(2,3));
+    ^
+  symbol:   variable edgeList
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:23: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    edgeList.add(new Edge(1,2));
+                 ^
+CodexTest_0_9_3.java:23: error: cannot find symbol
+    edgeList.add(new Edge(1,2));
+    ^
+  symbol:   variable edgeList
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:24: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    assertTrue(set1.contains(new Edge(1,2)));
+                             ^
+CodexTest_0_9_3.java:24: error: cannot find symbol
+    assertTrue(set1.contains(new Edge(1,2)));
+               ^
+  symbol:   variable set1
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:25: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    assertFalse(set1.contains(new Edge(1,7)));
+                              ^
+CodexTest_0_9_3.java:25: error: cannot find symbol
+    assertFalse(set1.contains(new Edge(1,7)));
+                ^
+  symbol:   variable set1
+  location: class CodexTest_0_9_3

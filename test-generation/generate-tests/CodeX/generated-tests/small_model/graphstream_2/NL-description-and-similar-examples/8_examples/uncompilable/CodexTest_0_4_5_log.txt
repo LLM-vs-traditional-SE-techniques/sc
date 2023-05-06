@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_4_5.java:26: error: ')' expected
+        assertFalse(p.equals(new Path("a", "b"))
+                                                ^
+CodexTest_0_4_5.java:27: error: reached end of file while parsing
+}
+ ^

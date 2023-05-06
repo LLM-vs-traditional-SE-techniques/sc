@@ -1,0 +1,34 @@
+isCompilable => false
+CodexTest_0_9_55.java:30: error: <identifier> expected
+Input: public ArrayList() {
+     ^
+CodexTest_0_9_55.java:30: error: invalid method declaration; return type required
+Input: public ArrayList() {
+              ^
+CodexTest_0_9_55.java:33: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_55.java:36: error: <identifier> expected
+Input: public final int numElements() {
+     ^
+CodexTest_0_9_55.java:39: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_9_55.java:41: error: <identifier> expected
+Input: public DoubleMatrix1D like(int size) {
+     ^
+CodexTest_0_9_55.java:44: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_9_55.java:46: error: <identifier> expected
+Input: public DenseDoubleMatrix1D(double[] values) {
+     ^
+CodexTest_0_9_55.java:46: error: invalid method declaration; return type required
+Input: public DenseDoubleMatrix1D(double[] values) {
+              ^
+CodexTest_0_9_55.java:50: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_9_55.java:62: error: reached end of file while parsing
+}
+ ^

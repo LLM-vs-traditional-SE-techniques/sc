@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_2.java:31: error: cannot find symbol
+        assertEquals(5.0, Point2D.distance(3, 4, 0, 0), 0.0);
+                          ^
+  symbol:   variable Point2D
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:32: error: cannot find symbol
+        assertEquals(5.0, Point2D.distance(-3, -4, 0, 0), 0.0);
+                          ^
+  symbol:   variable Point2D
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:33: error: cannot find symbol
+        assertEquals(5.0, Point2D.distance(3, -4, 0, 0), 0.0);
+                          ^
+  symbol:   variable Point2D
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:34: error: cannot find symbol
+        assertEquals(5.0, Point2D.distance(-3, 4, 0, 0), 0.0);
+                          ^
+  symbol:   variable Point2D
+  location: class CodexTest_0_9_2

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_12.java:26: error: cannot infer type arguments for com.google.common.hash.BloomFilter<>
+    int bytesWritten = new BloomFilter<>(Funnels.unencodedCharsFunnel(), 1000, 0.01).writeBytesTo(dest, 1, 6);
+                       ^
+  reason: cannot infer type-variable(s) T
+    (actual and formal argument lists differ in length)

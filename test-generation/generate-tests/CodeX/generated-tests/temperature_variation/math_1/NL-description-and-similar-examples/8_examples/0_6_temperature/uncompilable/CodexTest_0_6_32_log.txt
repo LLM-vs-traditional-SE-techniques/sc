@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_32.java:35: error: cannot find symbol
+        double cos = v1.cosine(v2);
+                       ^
+  symbol:   method cosine(org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: variable v1 of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_6_32.java:36: error: cannot find symbol
+        double theta = v1.angle(v2);
+                         ^
+  symbol:   method angle(org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: variable v1 of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D

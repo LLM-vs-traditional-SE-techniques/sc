@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_84.java:28: error: <identifier> expected
+Input: @Id
+     ^
+CodexTest_0_9_84.java:40: error: <identifier> expected
+Output: @Test
+      ^
+CodexTest_0_9_84.java:53: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,3 @@
+cern.colt.matrix.impl.DenseDoubleMatrix1D(int)
+cern.colt.matrix.impl.DenseDoubleMatrix1D.assign(double)
+cern.colt.matrix.impl.DenseDoubleMatrix1D.assign(cern.colt.matrix.DoubleMatrix1D)

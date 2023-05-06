@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_58.java:38: error: <identifier> expected
+Input: public void testLike4D() {
+     ^
+CodexTest_0_9_58.java:44: error: ';' expected
+		matrix2D = matr
+		               ^
+CodexTest_0_9_58.java:45: error: reached end of file while parsing
+}
+ ^

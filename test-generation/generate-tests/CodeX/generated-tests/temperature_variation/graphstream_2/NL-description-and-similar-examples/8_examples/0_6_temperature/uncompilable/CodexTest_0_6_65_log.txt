@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_65.java:23: error: cannot find symbol
+        path1.add(new DefaultEdge());
+                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_65

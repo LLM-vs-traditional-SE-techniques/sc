@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_3.java:21: error: cannot find symbol
+        assertFalse(emptyList1.contains(null));
+                    ^
+  symbol:   variable emptyList1
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:22: error: cannot find symbol
+        assertTrue(shortList.contains(null));
+                   ^
+  symbol:   variable shortList
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:23: error: cannot find symbol
+        assertTrue(longerList.contains(null));
+                   ^
+  symbol:   variable longerList
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:24: error: cannot find symbol
+        assertFalse(list1.contains(null));
+                    ^
+  symbol:   variable list1
+  location: class CodexTest_0_8_3

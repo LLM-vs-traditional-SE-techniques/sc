@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_42.java:33: error: <identifier> expected
+Input: public byte byteValue() {
+     ^
+CodexTest_0_9_42.java:36: error: <identifier> expected
+Output: public void testByteValue() {
+      ^

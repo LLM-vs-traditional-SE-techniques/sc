@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_1.java:31: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D v = new Vector1D(1, 2);
+                                     ^
+CodexTest_0_3_1.java:34: error: cannot find symbol
+        assertEquals(v2.getY(), 4, 0);
+                       ^
+  symbol:   method getY()
+  location: variable v2 of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

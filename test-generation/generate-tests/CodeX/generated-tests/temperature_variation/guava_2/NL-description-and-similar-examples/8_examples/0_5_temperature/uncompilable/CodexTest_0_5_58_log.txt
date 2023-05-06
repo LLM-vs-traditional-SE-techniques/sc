@@ -1,0 +1,15 @@
+isCompilable => false
+CodexTest_0_5_58.java:29: error: cannot find symbol
+    new Random().nextBytes(bytes);
+        ^
+  symbol:   class Random
+  location: class CodexTest_0_5_58
+CodexTest_0_5_58.java:30: error: fromBytesNoCopy(byte[]) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+    HashCode hashCode = HashCode.fromBytesNoCopy(bytes);
+                                ^
+CodexTest_0_5_58.java:32: error: com.google.common.hash.HashCode is abstract; cannot be instantiated
+    assertEquals(new HashCode(Arrays.copyOfRange(bytes, 0, maxLength)),
+                 ^
+CodexTest_0_5_58.java:33: error: fromBytesNoCopy(byte[]) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+        HashCode.fromBytesNoCopy(Arrays.copyOfRange(dest, offset, offset + maxLength)));
+                ^

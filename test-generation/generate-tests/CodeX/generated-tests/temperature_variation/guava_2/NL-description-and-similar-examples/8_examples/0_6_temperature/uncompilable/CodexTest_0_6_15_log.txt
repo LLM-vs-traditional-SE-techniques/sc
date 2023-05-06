@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_15.java:25: error: method join in class com.google.common.primitives.Ints cannot be applied to given types;
+    assertEquals("2", Ints.join(",", Ints.asList(1, 2)));
+                          ^
+  required: java.lang.String,int[]
+  found: java.lang.String,java.util.List<java.lang.Integer>
+  reason: varargs mismatch; java.util.List<java.lang.Integer> cannot be converted to int

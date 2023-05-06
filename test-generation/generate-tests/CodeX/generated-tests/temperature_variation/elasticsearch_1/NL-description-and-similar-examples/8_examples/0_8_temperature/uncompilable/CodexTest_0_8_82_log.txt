@@ -1,0 +1,86 @@
+isCompilable => false
+CodexTest_0_8_82.java:67: error: cannot find symbol
+        PlainActionFuture<PutMappingResponse> future = new PlainActionFuture<>();
+        ^
+  symbol:   class PlainActionFuture
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:67: error: cannot find symbol
+        PlainActionFuture<PutMappingResponse> future = new PlainActionFuture<>();
+                          ^
+  symbol:   class PutMappingResponse
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:67: error: cannot find symbol
+        PlainActionFuture<PutMappingResponse> future = new PlainActionFuture<>();
+                                                           ^
+  symbol:   class PlainActionFuture
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:68: error: cannot find symbol
+        MetaDataPutMappingResponse response = new MetaDataPutMappingResponse(false);
+        ^
+  symbol:   class MetaDataPutMappingResponse
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:68: error: cannot find symbol
+        MetaDataPutMappingResponse response = new MetaDataPutMappingResponse(false);
+                                                  ^
+  symbol:   class MetaDataPutMappingResponse
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:70: error: cannot find symbol
+        when(client.admin().indices().preparePutMapping(child).setType("child").setSource(mapping("child")).execute()).thenReturn(future);
+                                                                                          ^
+  symbol:   method mapping(java.lang.String)
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:70: error: cannot find symbol
+        when(client.admin().indices().preparePutMapping(child).setType("child").setSource(mapping("child")).execute()).thenReturn(future);
+             ^
+  symbol:   variable client
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:72: error: cannot find symbol
+        TransportPutMappingAction action = new TransportPutMappingAction(Settings.EMPTY, threadPool, transportService, clusterService, client);
+        ^
+  symbol:   class TransportPutMappingAction
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:72: error: cannot find symbol
+        TransportPutMappingAction action = new TransportPutMappingAction(Settings.EMPTY, threadPool, transportService, clusterService, client);
+                                               ^
+  symbol:   class TransportPutMappingAction
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:72: error: cannot find symbol
+        TransportPutMappingAction action = new TransportPutMappingAction(Settings.EMPTY, threadPool, transportService, clusterService, client);
+                                                                         ^
+  symbol:   variable Settings
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:72: error: cannot find symbol
+        TransportPutMappingAction action = new TransportPutMappingAction(Settings.EMPTY, threadPool, transportService, clusterService, client);
+                                                                                         ^
+  symbol:   variable threadPool
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:72: error: cannot find symbol
+        TransportPutMappingAction action = new TransportPutMappingAction(Settings.EMPTY, threadPool, transportService, clusterService, client);
+                                                                                                     ^
+  symbol:   variable transportService
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:72: error: cannot find symbol
+        TransportPutMappingAction action = new TransportPutMappingAction(Settings.EMPTY, threadPool, transportService, clusterService, client);
+                                                                                                                       ^
+  symbol:   variable clusterService
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:72: error: cannot find symbol
+        TransportPutMappingAction action = new TransportPutMappingAction(Settings.EMPTY, threadPool, transportService, clusterService, client);
+                                                                                                                                       ^
+  symbol:   variable client
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:73: error: cannot find symbol
+        PutMappingResponse putMappingResponse = action.execute(new PutMappingRequest().indices(child).type("child").source("{}", XContentType.JSON)).actionGet();
+        ^
+  symbol:   class PutMappingResponse
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:73: error: cannot find symbol
+        PutMappingResponse putMappingResponse = action.execute(new PutMappingRequest().indices(child).type("child").source("{}", XContentType.JSON)).actionGet();
+                                                                   ^
+  symbol:   class PutMappingRequest
+  location: class CodexTest_0_8_82
+CodexTest_0_8_82.java:74: error: cannot find symbol
+        assertThat(putMappingResponse.parent(), equalTo(parent));
+                                                ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_82

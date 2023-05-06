@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_8.java:21: error: cannot find symbol
+        assertTrue(new String[] { "a", "b", "c" }.contains("b"));
+                                                 ^
+  symbol:   method contains(java.lang.String)
+  location: class java.lang.String[]
+CodexTest_0_4_8.java:22: error: cannot find symbol
+        assertFalse(new String[] { "a", "b", "c" }.contains("d"));
+                                                  ^
+  symbol:   method contains(java.lang.String)
+  location: class java.lang.String[]

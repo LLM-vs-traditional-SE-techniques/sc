@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_73.java:21: error: cannot find symbol
+        List<String> list = new LinkedList<>(List.of("a", "b", "c", "d"));
+                                                 ^
+  symbol:   method of(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  location: interface java.util.List

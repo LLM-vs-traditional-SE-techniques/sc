@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_6.java:28: error: cannot find symbol
+    int bits = bits();
+               ^
+  symbol:   method bits()
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:31: error: cannot find symbol
+    HashCode hashCode = newHashCode(bits);
+                        ^
+  symbol:   method newHashCode(int)
+  location: class CodexTest_0_3_6

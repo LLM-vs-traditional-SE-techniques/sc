@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_10.java:62: error: <identifier> expected
+	  new
+	     ^
+CodexTest_0_8_10.java:63: error: '(' or '[' expected
+}
+^
+CodexTest_0_8_10.java:63: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_8_10.java:26: error: 'try' without 'catch', 'finally' or resource declarations
+    try {
+    ^

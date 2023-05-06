@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_90.java:72: error: cannot find symbol
+            assertThat(e.status(), equalTo(RestStatus.BAD_REQUEST));
+                                   ^
+  symbol:   method equalTo(org.elasticsearch.rest.RestStatus)
+  location: class CodexTest_0_9_90

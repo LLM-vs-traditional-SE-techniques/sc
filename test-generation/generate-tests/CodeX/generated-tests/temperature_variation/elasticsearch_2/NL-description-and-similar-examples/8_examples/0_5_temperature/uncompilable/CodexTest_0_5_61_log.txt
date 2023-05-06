@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_61.java:69: error: cannot find symbol
+        XContentType xContentType = randomFrom(XContentType.values());
+                                    ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_5_61
+CodexTest_0_5_61.java:72: error: cannot find symbol
+        assertToXContentEquivalent(mapString, indexRequest.source(), xContentType);
+        ^
+  symbol:   method assertToXContentEquivalent(java.lang.String,org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.xcontent.XContentType)
+  location: class CodexTest_0_5_61

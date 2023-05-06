@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_1.java:21: error: cannot find symbol
+    assertEquals(false, new AlgVector(new double[] {1}).contains(new Double(2)));
+                            ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:22: error: cannot find symbol
+    assertEquals(true, new AlgVector(new double[] {1}).contains(new Double(1)));
+                           ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_6_1

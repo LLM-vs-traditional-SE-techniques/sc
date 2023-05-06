@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_9.java:26: error: cannot find symbol
+    int numBytesWritten = Bits.putInt(dest, 1, 2 * Integer.MAX_VALUE + 1);
+                          ^
+  symbol:   variable Bits
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:28: error: cannot find symbol
+    assertEquals(2 * Integer.MAX_VALUE + 1, Bits.getInt(dest, 1));
+                                            ^
+  symbol:   variable Bits
+  location: class CodexTest_0_7_9

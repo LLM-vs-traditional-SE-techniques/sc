@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_47.java:86: error: <identifier> expected
+        client().prepareIndex().setIndex(parent).setType(parent).
+                                                                 ^
+CodexTest_0_9_47.java:86: error: not a statement
+        client().prepareIndex().setIndex(parent).setType(parent).
+                                                                ^
+CodexTest_0_9_47.java:87: error: reached end of file while parsing
+}
+ ^

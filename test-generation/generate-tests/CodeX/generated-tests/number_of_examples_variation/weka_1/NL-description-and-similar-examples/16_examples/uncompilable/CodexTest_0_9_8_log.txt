@@ -1,0 +1,27 @@
+isCompilable => false
+CodexTest_0_9_8.java:16: error: type weka.core.AlgVector does not take parameters
+  public static <T> AlgVector<T> sum(AlgVector<T> a, AlgVector<T> b) {
+                                              ^
+CodexTest_0_9_8.java:16: error: type weka.core.AlgVector does not take parameters
+  public static <T> AlgVector<T> sum(AlgVector<T> a, AlgVector<T> b) {
+                                                              ^
+CodexTest_0_9_8.java:16: error: type weka.core.AlgVector does not take parameters
+  public static <T> AlgVector<T> sum(AlgVector<T> a, AlgVector<T> b) {
+                             ^
+CodexTest_0_9_8.java:21: error: type weka.core.AlgVector does not take parameters
+    AlgVector<Integer> a = new AlgVector<>();
+             ^
+CodexTest_0_9_8.java:21: error: cannot infer type arguments for weka.core.AlgVector
+    AlgVector<Integer> a = new AlgVector<>();
+                                        ^
+  reason: cannot use '<>' with non-generic class weka.core.AlgVector
+CodexTest_0_9_8.java:22: error: type weka.core.AlgVector does not take parameters
+    AlgVector<Integer> b = new AlgVector<>();
+             ^
+CodexTest_0_9_8.java:22: error: cannot infer type arguments for weka.core.AlgVector
+    AlgVector<Integer> b = new AlgVector<>();
+                                        ^
+  reason: cannot use '<>' with non-generic class weka.core.AlgVector
+CodexTest_0_9_8.java:23: error: type weka.core.AlgVector does not take parameters
+    AlgVector<Integer> sum = sum(a, b);
+             ^

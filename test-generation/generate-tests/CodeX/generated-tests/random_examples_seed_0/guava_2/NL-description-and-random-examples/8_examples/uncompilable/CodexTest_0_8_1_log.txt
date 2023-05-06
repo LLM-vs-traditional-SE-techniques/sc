@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_8_1.java:26: error: cannot find symbol
+    this.test_writeBytesTo.writeBytesTo(dest, 0, 2);
+        ^
+  symbol: variable test_writeBytesTo

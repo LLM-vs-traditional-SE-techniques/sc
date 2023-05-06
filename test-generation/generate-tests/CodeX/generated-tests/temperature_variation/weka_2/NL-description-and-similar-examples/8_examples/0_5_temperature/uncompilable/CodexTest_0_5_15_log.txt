@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_5_15.java:20: error: incompatible types: weka.core.Instance cannot be converted to weka.core.Instances
+            result = (new AlgVector(new double[]{3.0, 4.0, 5.0})).getAsInstance(null, new Random(1));
+                                                                               ^
+CodexTest_0_5_15.java:26: error: cannot find symbol
+        assertEquals(3.0, result.instance(0).value(0), EPSILON);
+                                                       ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_5_15
+CodexTest_0_5_15.java:27: error: cannot find symbol
+        assertEquals(4.0, result.instance(0).value(1), EPSILON);
+                                                       ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_5_15
+CodexTest_0_5_15.java:28: error: cannot find symbol
+        assertEquals(5.0, result.instance(0).value(2), EPSILON);
+                                                       ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_5_15

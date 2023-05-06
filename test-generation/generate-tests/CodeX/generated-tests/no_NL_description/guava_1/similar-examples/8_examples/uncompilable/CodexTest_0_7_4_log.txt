@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_4.java:25: error: cannot find symbol
+    assertEquals("8dd7c1fcb607cbd9", hashLongWith(Hashing.murmur3_32(), 0).toString());
+                                     ^
+  symbol:   method hashLongWith(com.google.common.hash.HashFunction,int)
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:26: error: cannot find symbol
+    assertEquals("dd7c1fcb", hashLongWith(Hashing.murmur3_128(), 0).toString());
+                             ^
+  symbol:   method hashLongWith(com.google.common.hash.HashFunction,int)
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:27: error: cannot find symbol
+    assertEquals("3a7bd3e2360a3d29ee", hashLongWith(Hashing.sipHash24(), 0).toString());
+                                       ^
+  symbol:   method hashLongWith(com.google.common.hash.HashFunction,int)
+  location: class CodexTest_0_7_4

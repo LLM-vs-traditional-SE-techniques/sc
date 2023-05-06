@@ -1,0 +1,193 @@
+prompt,output
+"Suggest a test for a method with the DoubleMatrix1D assign(DoubleMatrix1D source) signature.
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnFalseWhenFStringGiven() {
+			// given
+			BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+			// when
+			Boolean result = underTest.wrap('N', null);
+			// then
+			assertFalse(result);
+		}
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnTrueWhenYStringGiven() {
+        // given
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+        // when
+        Boolean result = underTest.wrap(""Y"", null);
+        // then
+        assertTrue(result);
+    }
+
+Input: public ArrayList() {
+        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+    }
+Output: public void emptyArraysAreShared() {        assertSame(new ArrayList<Object>(), new ArrayList<Object>());
+    }
+
+Input: public ArrayList() {
+        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+    }
+Output: public void emptyArraysDifferBetweenDefaultAndExplicit() {
+			assertNotSame(elementData(new ArrayList<Object>()),
+						  elementData(new ArrayList<Object>(0)));
+		}
+
+Input: public static HashCode fromInt(int hash) {
+			return new IntHashCode(hash);
+		  }
+Output: public void testObjectHashCode() {
+			HashCode hashCode42 = HashCode.fromInt(42);
+			assertEquals(42, hashCode42.hashCode());
+		  }
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public double getX() {
+			return x;
+		}
+Output: public void testCoordinates() {
+			Vector1D v = new Vector1D(1);
+			Assert.assertTrue(FastMath.abs(v.getX() - 1) < 1.0e-12);
+		}
+
+Input: public void setRoot(Node root) {
+			if (this.root == null) {
+				this.root = root;
+				nodePath.push(root);
+			} else {
+				logger.warning('Root node is not null - first use the clear method.');
+			}
+		}
+Output: @Test(expected = IllegalArgumentException.class)
+		public void add_nodeHeadMustBeInEdge() {
+			Graph graph = createSimpleGraph();
+			Path path = new Path();
+				path.setRoot(graph.getNode('a'));
+				// this has to fail as there is no edge between nodes 'a' and 'c'
+			path.add(graph.getEdge('cd'));
+		}
+
+
+Input: public DoubleMatrix1D assign(DoubleMatrix1D source) {
+		// overriden for performance only
+		if (! (source instanceof DenseDoubleMatrix1D)) {
+			return super.assign(source);
+		}
+		DenseDoubleMatrix1D other = (DenseDoubleMatrix1D) source;
+		if (other==this) return this;
+		checkSize(other);
+		if (isNoView && other.isNoView) { // quickest
+			System.arraycopy(other.elements, 0, this.elements, 0, this.elements.length);
+			return this;
+		}
+		if (haveSharedCells(other)) {
+			DoubleMatrix1D c = other.copy();
+			if (! (c instanceof DenseDoubleMatrix1D)) { // should not happen
+				return super.assign(source);
+			}
+			other = (DenseDoubleMatrix1D) c;
+		}
+
+			final double[] elems = this.elements;
+		final double[] otherElems = other.elements;
+		if (elements==null || otherElems==null) throw new InternalError();
+		int s = this.stride;
+		int ys = other.stride;
+
+			int index = index(0);
+		int otherIndex = other.index(0);
+		for (int k=size; --k >= 0; ) {
+			elems[index] = otherElems[otherIndex];
+			index += s;
+			otherIndex += ys;
+		}
+		return this;
+	}
+Output:
+  ","import cern.colt.matrix.*;
+import cern.colt.list.DoubleArrayList;
+import cern.colt.list.IntArrayList;
+import cern.colt.matrix.impl.AbstractMatrix1D;
+
+import hep.aida.bin.*;
+import cern.colt.matrix.impl.*;
+import cern.colt.function.DoubleDoubleFunction;
+import cern.colt.function.DoubleFunction;
+import cern.colt.list.IntArrayList;
+import cern.colt.map.AbstractIntDoubleMap;
+import cern.colt.map.OpenIntDoubleHashMap;
+import cern.colt.matrix.DoubleFactory2D;
+import cern.colt.matrix.DoubleMatrix1D;
+import cern.colt.matrix.DoubleMatrix2D;
+import cern.colt.matrix.DoubleMatrix3D;
+import cern.colt.matrix.doublealgo.DoubleMatrix2DComparator;
+import cern.colt.matrix.linalg.Algebra;
+import cern.colt.matrix.linalg.LUDecompositionQuick;
+import cern.colt.matrix.linalg.SeqBlas;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_9_9 { 
+  @Test
+	public void testAssignDenseMatrix() {
+		DenseDoubleMatrix2D dm = new DenseDoubleMatrix2D(2,2);
+		dm.set(0, 0, 0);
+		dm.set(0, 1, 1);
+		dm.set(1, 0, 2);
+		dm.set(1, 1, 3);
+		Vector v = new DenseVector(2);
+		v.assign(dm);
+		Assert.assertEquals(v.getQuick(0), 0, .01);
+		Assert.assertEquals(v.getQuick(1), 2, .01);
+}"

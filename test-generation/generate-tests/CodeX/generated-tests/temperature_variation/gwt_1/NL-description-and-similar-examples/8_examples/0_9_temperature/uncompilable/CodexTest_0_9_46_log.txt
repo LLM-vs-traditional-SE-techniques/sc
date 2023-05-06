@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_46.java:16: error: cannot find symbol
+        LiveDataState state = new LiveDataState();
+        ^
+  symbol:   class LiveDataState
+  location: class CodexTest_0_9_46
+CodexTest_0_9_46.java:16: error: cannot find symbol
+        LiveDataState state = new LiveDataState();
+                                  ^
+  symbol:   class LiveDataState
+  location: class CodexTest_0_9_46
+CodexTest_0_9_46.java:17: error: cannot find symbol
+        LiveData liveData = new LiveData(1000);
+        ^
+  symbol:   class LiveData
+  location: class CodexTest_0_9_46
+CodexTest_0_9_46.java:17: error: cannot find symbol
+        LiveData liveData = new LiveData(1000);
+                                ^
+  symbol:   class LiveData
+  location: class CodexTest_0_9_46

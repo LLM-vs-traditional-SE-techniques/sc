@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_61.java:22: error: cannot find symbol
+    assertEquals("0. value differs", 5.0, c.getElement(0), EPSILON);
+                                                           ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_6_61
+CodexTest_0_6_61.java:23: error: cannot find symbol
+    assertEquals("1. value differs", 7.0, c.getElement(1), EPSILON);
+                                                           ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_6_61

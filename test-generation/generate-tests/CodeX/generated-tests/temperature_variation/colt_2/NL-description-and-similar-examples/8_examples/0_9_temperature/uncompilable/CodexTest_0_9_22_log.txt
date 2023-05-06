@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_22.java:30: error: cannot find symbol
+        DoubleMatrix2D l2 = new DenseDoubleMatrix2D(0, 0).like2D(2, 3);
+                                                         ^
+  symbol:   method like2D(int,int)
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix2D
+CodexTest_0_9_22.java:33: error: cannot find symbol
+        DoubleMatrix2DTest.assertEquals(l2, t);
+        ^
+  symbol:   variable DoubleMatrix2DTest
+  location: class CodexTest_0_9_22

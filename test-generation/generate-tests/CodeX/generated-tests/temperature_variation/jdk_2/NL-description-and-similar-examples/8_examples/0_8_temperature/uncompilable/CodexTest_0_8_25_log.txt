@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_25.java:21: error: cannot find symbol
+        SingleLinkedList<String> list = new SingleLinkedList<String>();
+        ^
+  symbol:   class SingleLinkedList
+  location: class CodexTest_0_8_25
+CodexTest_0_8_25.java:21: error: cannot find symbol
+        SingleLinkedList<String> list = new SingleLinkedList<String>();
+                                            ^
+  symbol:   class SingleLinkedList
+  location: class CodexTest_0_8_25

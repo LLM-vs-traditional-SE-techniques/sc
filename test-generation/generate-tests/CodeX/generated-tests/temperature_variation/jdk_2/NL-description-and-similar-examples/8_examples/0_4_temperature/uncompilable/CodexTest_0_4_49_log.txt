@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_4_49.java:21: error: cannot find symbol
+        for (int i = 0; i < data.length; i++) {
+                            ^
+  symbol:   variable data
+  location: class CodexTest_0_4_49
+CodexTest_0_4_49.java:22: error: cannot find symbol
+            assertTrue(list.contains(data[i]));
+                                     ^
+  symbol:   variable data
+  location: class CodexTest_0_4_49
+CodexTest_0_4_49.java:22: error: cannot find symbol
+            assertTrue(list.contains(data[i]));
+                       ^
+  symbol:   variable list
+  location: class CodexTest_0_4_49
+CodexTest_0_4_49.java:24: error: cannot find symbol
+        assertFalse(list.contains(new Integer(0)));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_4_49

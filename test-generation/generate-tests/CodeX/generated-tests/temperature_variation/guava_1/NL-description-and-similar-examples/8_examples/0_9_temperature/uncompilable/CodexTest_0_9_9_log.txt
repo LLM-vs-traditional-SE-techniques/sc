@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_9.java:25: error: cannot find symbol
+        LongHashCode h1 = LongHashCode.fromLong(0x1234567887654321L);
+        ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:25: error: cannot find symbol
+        LongHashCode h1 = LongHashCode.fromLong(0x1234567887654321L);
+                          ^
+  symbol:   variable LongHashCode
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:26: error: cannot find symbol
+        LongHashCode h2 = LongHashCode.fromLong(0x1234567887654321L);
+        ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:26: error: cannot find symbol
+        LongHashCode h2 = LongHashCode.fromLong(0x1234567887654321L);
+                          ^
+  symbol:   variable LongHashCode
+  location: class CodexTest_0_9_9

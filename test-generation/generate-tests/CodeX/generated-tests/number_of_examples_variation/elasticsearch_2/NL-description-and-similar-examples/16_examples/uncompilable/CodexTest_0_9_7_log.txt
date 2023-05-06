@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_7.java:68: error: cannot find symbol
+            request.opType(randomFrom(OpType.values()));
+                                      ^
+  symbol:   variable OpType
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:69: error: cannot find symbol
+            request.routing(randomAsciiOfLengthBetween(0, 30));
+                            ^
+  symbol:   method randomAsciiOfLengthBetween(int,int)
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:70: error: cannot find symbol
+            out.writeTo(request);
+               ^
+  symbol:   method writeTo(org.elasticsearch.action.index.IndexRequest)
+  location: variable out of type org.elasticsearch.common.io.stream.BytesStreamOutput
+CodexTest_0_9_7.java:74: error: cannot find symbol
+            out.writeTo(request);
+               ^
+  symbol:   method writeTo(org.elasticsearch.action.index.IndexRequest)
+  location: variable out of type org.elasticsearch.common.io.stream.BytesStreamOutput

@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_7_3.java:21: error: cannot find symbol
+        AList l = new AList();
+        ^
+  symbol:   class AList
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:21: error: cannot find symbol
+        AList l = new AList();
+                      ^
+  symbol:   class AList
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:22: error: cannot find symbol
+        l.addAll(Arrays.asList(a,b,c));
+                               ^
+  symbol:   variable a
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:22: error: cannot find symbol
+        l.addAll(Arrays.asList(a,b,c));
+                                 ^
+  symbol:   variable b
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:22: error: cannot find symbol
+        l.addAll(Arrays.asList(a,b,c));
+                                   ^
+  symbol:   variable c
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:23: error: cannot find symbol
+        l.removeAll(Arrays.asList(b,c));
+                                  ^
+  symbol:   variable b
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:23: error: cannot find symbol
+        l.removeAll(Arrays.asList(b,c));
+                                    ^
+  symbol:   variable c
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:25: error: cannot find symbol
+        Assert.assertEquals(a, l.get(0));
+                            ^
+  symbol:   variable a
+  location: class CodexTest_0_7_3

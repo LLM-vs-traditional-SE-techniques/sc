@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_83.java:21: error: cannot find symbol
+        Instances test = new Instances(new BufferedReader(new StringReader(InstancesTest.DATATYPE_HEADER + InstancesTest.DATATYPE_DATA_NOMINAL_INTEGER)));
+                                           ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_9_83
+CodexTest_0_9_83.java:21: error: cannot find symbol
+        Instances test = new Instances(new BufferedReader(new StringReader(InstancesTest.DATATYPE_HEADER + InstancesTest.DATATYPE_DATA_NOMINAL_INTEGER)));
+                                                              ^
+  symbol:   class StringReader
+  location: class CodexTest_0_9_83
+CodexTest_0_9_83.java:21: error: cannot find symbol
+        Instances test = new Instances(new BufferedReader(new StringReader(InstancesTest.DATATYPE_HEADER + InstancesTest.DATATYPE_DATA_NOMINAL_INTEGER)));
+                                                                           ^
+  symbol:   variable InstancesTest
+  location: class CodexTest_0_9_83
+CodexTest_0_9_83.java:21: error: cannot find symbol
+        Instances test = new Instances(new BufferedReader(new StringReader(InstancesTest.DATATYPE_HEADER + InstancesTest.DATATYPE_DATA_NOMINAL_INTEGER)));
+                                                                                                           ^
+  symbol:   variable InstancesTest
+  location: class CodexTest_0_9_83

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_45.java:22: error: cannot find symbol
+        Set<String> underTest = createSetWithElements("one", "two", "three");
+                                ^
+  symbol:   method createSetWithElements(java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_8_45

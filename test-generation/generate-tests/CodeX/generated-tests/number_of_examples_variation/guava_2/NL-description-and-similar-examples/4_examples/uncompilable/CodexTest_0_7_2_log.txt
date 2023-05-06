@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_2.java:26: error: cannot find symbol
+    int length = new BigInteger(1, EXPECTED_BYTES).bitLength() / 8;
+                     ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:26: error: cannot find symbol
+    int length = new BigInteger(1, EXPECTED_BYTES).bitLength() / 8;
+                                   ^
+  symbol:   variable EXPECTED_BYTES
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:28: error: cannot find symbol
+    int written = HashCode.fromBytes(EXPECTED_BYTES).writeBytesTo(dest, offset, length);
+                                     ^
+  symbol:   variable EXPECTED_BYTES
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:30: error: cannot find symbol
+    assertTrue(Arrays.equals(Arrays.copyOfRange(EXPECTED_BYTES, 0, length),
+                                                ^
+  symbol:   variable EXPECTED_BYTES
+  location: class CodexTest_0_7_2

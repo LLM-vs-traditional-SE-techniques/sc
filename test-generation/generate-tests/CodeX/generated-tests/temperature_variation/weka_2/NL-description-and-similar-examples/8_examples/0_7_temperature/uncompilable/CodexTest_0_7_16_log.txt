@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_7_16.java:18: error: cannot find symbol
+        Vector v = new Vector(new double[] {5,5,5,5,5});
+        ^
+  symbol:   class Vector
+  location: class CodexTest_0_7_16
+CodexTest_0_7_16.java:18: error: cannot find symbol
+        Vector v = new Vector(new double[] {5,5,5,5,5});
+                       ^
+  symbol:   class Vector
+  location: class CodexTest_0_7_16
+CodexTest_0_7_16.java:19: error: cannot find symbol
+        Instances insts = getIrisInstances();
+                          ^
+  symbol:   method getIrisInstances()
+  location: class CodexTest_0_7_16
+Note: CodexTest_0_7_16.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

@@ -1,0 +1,45 @@
+isCompilable => false
+CodexTest_0_8_1.java:36: error: cannot find symbol
+			assertEquals(new DenseDoubleMatrix2D(expected), DoubleFactory2D.diagonal(4).assign(DoubleFunctions.chain(DoubleFunctions.plus(1), DoubleFunctions.square)));
+			                                                                                                         ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:36: error: cannot find symbol
+			assertEquals(new DenseDoubleMatrix2D(expected), DoubleFactory2D.diagonal(4).assign(DoubleFunctions.chain(DoubleFunctions.plus(1), DoubleFunctions.square)));
+			                                                                                                                                  ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:36: error: cannot find symbol
+			assertEquals(new DenseDoubleMatrix2D(expected), DoubleFactory2D.diagonal(4).assign(DoubleFunctions.chain(DoubleFunctions.plus(1), DoubleFunctions.square)));
+			                                                                                   ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:36: error: no suitable method found for diagonal(int)
+			assertEquals(new DenseDoubleMatrix2D(expected), DoubleFactory2D.diagonal(4).assign(DoubleFunctions.chain(DoubleFunctions.plus(1), DoubleFunctions.square)));
+			                                                               ^
+    method cern.colt.matrix.DoubleFactory2D.diagonal(cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (argument mismatch; int cannot be converted to cern.colt.matrix.DoubleMatrix1D)
+    method cern.colt.matrix.DoubleFactory2D.diagonal(cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; int cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+CodexTest_0_8_1.java:37: error: cannot find symbol
+			assertEquals(new DenseDoubleMatrix1D(new double[] { 0, 1, 4, 9 }), DoubleFactory2D.diagonal(4).assign(DoubleFunctions.chain(DoubleFunctions.plus(1), DoubleFunctions.square)).diagonal().viewDice());
+			                                                                                                                            ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:37: error: cannot find symbol
+			assertEquals(new DenseDoubleMatrix1D(new double[] { 0, 1, 4, 9 }), DoubleFactory2D.diagonal(4).assign(DoubleFunctions.chain(DoubleFunctions.plus(1), DoubleFunctions.square)).diagonal().viewDice());
+			                                                                                                                                                     ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:37: error: cannot find symbol
+			assertEquals(new DenseDoubleMatrix1D(new double[] { 0, 1, 4, 9 }), DoubleFactory2D.diagonal(4).assign(DoubleFunctions.chain(DoubleFunctions.plus(1), DoubleFunctions.square)).diagonal().viewDice());
+			                                                                                                      ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:37: error: no suitable method found for diagonal(int)
+			assertEquals(new DenseDoubleMatrix1D(new double[] { 0, 1, 4, 9 }), DoubleFactory2D.diagonal(4).assign(DoubleFunctions.chain(DoubleFunctions.plus(1), DoubleFunctions.square)).diagonal().viewDice());
+			                                                                                  ^
+    method cern.colt.matrix.DoubleFactory2D.diagonal(cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (argument mismatch; int cannot be converted to cern.colt.matrix.DoubleMatrix1D)
+    method cern.colt.matrix.DoubleFactory2D.diagonal(cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; int cannot be converted to cern.colt.matrix.DoubleMatrix2D)

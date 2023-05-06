@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_7_45.java:19: error: invalid method declaration; return type required
+  assertTrue(path.contains(graph.getEdge("ab")));
+  ^
+CodexTest_0_7_45.java:19: error: <identifier> expected
+  assertTrue(path.contains(graph.getEdge("ab")));
+                          ^
+CodexTest_0_7_45.java:19: error: ';' expected
+  assertTrue(path.contains(graph.getEdge("ab")));
+                           ^
+CodexTest_0_7_45.java:19: error: illegal start of type
+  assertTrue(path.contains(graph.getEdge("ab")));
+                                ^
+CodexTest_0_7_45.java:19: error: illegal start of type
+  assertTrue(path.contains(graph.getEdge("ab")));
+                                         ^
+CodexTest_0_7_45.java:19: error: ';' expected
+  assertTrue(path.contains(graph.getEdge("ab")));
+                                              ^

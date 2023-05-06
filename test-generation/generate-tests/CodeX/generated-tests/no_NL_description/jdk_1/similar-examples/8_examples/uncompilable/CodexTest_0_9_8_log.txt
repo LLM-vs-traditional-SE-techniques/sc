@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_8.java:24: error: cannot find symbol
+            for (int index = 0; index < size; index++)
+                                        ^
+  symbol:   variable size
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:25: error: cannot find symbol
+                if (elementData[index] == o) return removeElement(index) != null;
+                    ^
+  symbol:   variable elementData
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:25: error: cannot find symbol
+                if (elementData[index] == o) return removeElement(index) != null;
+                                                    ^
+  symbol:   method removeElement(int)
+  location: class CodexTest_0_9_8

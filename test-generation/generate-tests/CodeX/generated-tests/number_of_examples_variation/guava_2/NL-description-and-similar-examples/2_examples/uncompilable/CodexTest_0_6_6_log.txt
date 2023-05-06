@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_6.java:39: error: array dimension missing
+}
+^
+CodexTest_0_6_6.java:39: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_9.java:65: error: illegal initializer for org.elasticsearch.common.xcontent.XContentType
+        XContentType xContentType={XContentType.values()[0]};
+                                  ^
+CodexTest_0_8_9.java:72: error: cannot find symbol
+        System.out.println(indexRequest.source().toUtf8());
+                                                ^
+  symbol:   method toUtf8()
+  location: class org.elasticsearch.common.bytes.BytesReference

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_1_21.java:26: error: cannot find symbol
+    int written = new BitArray(new byte[] {0x12, 0x34, 0x56, 0x78}, 32).writeBytesTo(dest, 0, 5);
+                      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_1_21

@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_9_77.java:21: error: cannot find symbol
+        Assert.assertTrue(this.connector.contains("A"));
+                              ^
+  symbol: variable connector
+CodexTest_0_9_77.java:22: error: cannot find symbol
+        Assert.assertFalse(this.connector.contains("ABC"));
+                               ^
+  symbol: variable connector

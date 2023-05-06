@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_57.java:65: error: cannot find symbol
+        assertEquals(INDEX, INDEX.parent());
+                     ^
+  symbol:   variable INDEX
+  location: class CodexTest_0_6_57
+CodexTest_0_6_57.java:65: error: cannot find symbol
+        assertEquals(INDEX, INDEX.parent());
+                            ^
+  symbol:   variable INDEX
+  location: class CodexTest_0_6_57

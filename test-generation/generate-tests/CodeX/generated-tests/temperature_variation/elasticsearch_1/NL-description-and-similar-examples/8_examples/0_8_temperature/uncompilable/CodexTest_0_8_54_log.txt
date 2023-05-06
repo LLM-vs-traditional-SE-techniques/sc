@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_54.java:65: error: cannot find symbol
+        assertEquals("org.apache.maven.model.ModelBaseTest.class", modelBase.getParent());
+                                                                   ^
+  symbol:   variable modelBase
+  location: class CodexTest_0_8_54

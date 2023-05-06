@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_10.java:65: error: <identifier> expected
+Input: public Object[] setItems() {
+     ^
+CodexTest_0_9_10.java:68: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_9_10.java:70: error: <identifier> expected
+Input: public int next() {
+     ^
+CodexTest_0_9_10.java:75: error: <identifier> expected
+Output: public static void doubleTest6() {
+      ^
+CodexTest_0_9_10.java:87: error: reached end of file while parsing
+}
+ ^

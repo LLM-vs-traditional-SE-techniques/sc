@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_3.java:30: error: cannot find symbol
+		DoubleMatrix2D square = m010.like2D(3,3);
+		                        ^
+  symbol:   variable m010
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:33: error: cannot find symbol
+		DoubleMatrix2D rectangle = m010.like2D(10,3);
+		                           ^
+  symbol:   variable m010
+  location: class CodexTest_0_8_3

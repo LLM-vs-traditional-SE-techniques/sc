@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_37.java:65: error: cannot find symbol
+        assertEquals("0f3d9f", new Idea("0f3d9f").parent());
+                                   ^
+  symbol:   class Idea
+  location: class CodexTest_0_8_37

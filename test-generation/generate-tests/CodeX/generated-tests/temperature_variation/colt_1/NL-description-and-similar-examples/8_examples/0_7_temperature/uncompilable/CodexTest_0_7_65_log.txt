@@ -1,0 +1,30 @@
+isCompilable => false
+CodexTest_0_7_65.java:33: error: cannot find symbol
+		if (this.size < size) {
+		        ^
+  symbol: variable size
+CodexTest_0_7_65.java:34: error: cannot find symbol
+			if (size > this.data.length) {
+			               ^
+  symbol: variable data
+CodexTest_0_7_65.java:35: error: cannot find symbol
+				EnsureCapacity(size);
+				^
+  symbol:   method EnsureCapacity(int)
+  location: class CodexTest_0_7_65
+CodexTest_0_7_65.java:37: error: cannot find symbol
+			for (int i = this.size; i < size; i++) {
+			                 ^
+  symbol: variable size
+CodexTest_0_7_65.java:38: error: cannot find symbol
+				this.data[i] = this.defaultValue;
+				    ^
+  symbol: variable data
+CodexTest_0_7_65.java:38: error: cannot find symbol
+				this.data[i] = this.defaultValue;
+				                   ^
+  symbol: variable defaultValue
+CodexTest_0_7_65.java:41: error: cannot find symbol
+		this.size = size;
+		    ^
+  symbol: variable size

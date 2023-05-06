@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_7_3.java:67: error: cannot find symbol
+                QueryParseContext context = createParseContext();
+                ^
+  symbol:   class QueryParseContext
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:67: error: cannot find symbol
+                QueryParseContext context = createParseContext();
+                                            ^
+  symbol:   method createParseContext()
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:68: error: cannot find symbol
+                context.parseFieldMatcher(randomFrom(ParseFieldMatcher.EMPTY, ParseFieldMatcher.STRICT));
+                                                     ^
+  symbol:   variable ParseFieldMatcher
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:68: error: cannot find symbol
+                context.parseFieldMatcher(randomFrom(ParseFieldMatcher.EMPTY, ParseFieldMatcher.STRICT));
+                                                                              ^
+  symbol:   variable ParseFieldMatcher
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:69: error: cannot find symbol
+                XContentBuilder builder = XContentFactory.contentBuilder(randomFrom(XContentType.values()));
+                                                                         ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:70: error: cannot find symbol
+                if (randomBoolean()) {
+                    ^
+  symbol:   method randomBoolean()
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:74: error: cannot find symbol
+                toXContent(builder);
+                ^
+  symbol:   method toXContent(org.elasticsearch.common.xcontent.XContentBuilder)
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:77: error: cannot find symbol
+                assertEquals(parseQuery(context), parseQuery(new JsonXContentParser(context.indexVersionCreated(), BytesReference.bytes(builder).streamInput())));
+                                                                 ^
+  symbol:   class JsonXContentParser
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:77: error: cannot find symbol
+                assertEquals(parseQuery(context), parseQuery(new JsonXContentParser(context.indexVersionCreated(), BytesReference.bytes(builder).streamInput())));
+                                                                                                                                 ^
+  symbol:   method bytes(org.elasticsearch.common.xcontent.XContentBuilder)
+  location: class org.elasticsearch.common.bytes.BytesReference

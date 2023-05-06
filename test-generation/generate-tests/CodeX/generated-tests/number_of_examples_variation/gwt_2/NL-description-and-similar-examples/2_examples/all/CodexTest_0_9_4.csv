@@ -1,0 +1,59 @@
+prompt,output
+"Suggest a test for a method with the UncaughtExceptionHandler getUncaughtExceptionHandler() signature.
+
+Input: public static String getModuleName() {
+    return Impl.getModuleName();
+  }
+Output: public void testGetModuleName() {
+    assertEquals(""com.google.gwt.core.Core.JUnit"", GWT.getModuleName());
+  }
+
+Input: public static HashCode fromInt(int hash) {
+			return new IntHashCode(hash);
+		  }
+Output: public void testObjectHashCode() {
+			HashCode hashCode42 = HashCode.fromInt(42);
+			assertEquals(42, hashCode42.hashCode());
+		  }
+
+Input: public static UncaughtExceptionHandler getUncaughtExceptionHandler() {
+    return sUncaughtExceptionHandler;
+  }
+Output:
+  ","import com.google.gwt.core.client.*;
+import com.google.gwt.core.client.impl.Impl;
+
+import com.google.gwt.core.client.*;
+import com.google.gwt.junit.client.GWTTestCase;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_9_4 { 
+  @Test
+    public void testGetUncaughtExceptionHandler() {
+        UncaughtExceptionHandler sUncaughtExceptionHandler = GWT.getUncaughtExceptionHandler();
+        assertEquals(GWT.getUncaughtExceptionHandler()
+                     , sUncaughtExceptionHandler);
+    }
+    
+Input:public static String makeUrlHash(String moduleName, String strongName)
+Output: public void makeUrlHashStringString() {
+        String moduleName = ""foo"";
+        String strongName = ""strongname"";
+        String ret = makeUrlHash(moduleName, strongName);
+        assertNotNull(ret);
+    }
+#2. Suggest a test for a method with the signature:
+String getSimpleName()
+Input:
+public static String getSimpleName() {    
+ return ""gwt.junit.JUnit"";
+}
+Output:
+public void getSimpleName() {
+        assertEquals(""gwt.junit.JUnit"", getSimpleName());
+    }
+}"

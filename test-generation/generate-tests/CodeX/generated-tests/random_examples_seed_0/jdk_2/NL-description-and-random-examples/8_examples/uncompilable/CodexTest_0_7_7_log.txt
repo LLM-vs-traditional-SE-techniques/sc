@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_7.java:21: error: cannot find symbol
+        assertEquals(0, queue.size());
+                        ^
+  symbol:   variable queue
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:22: error: cannot find symbol
+        assertFalse(queue.contains(update));
+                                   ^
+  symbol:   variable update
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:22: error: cannot find symbol
+        assertFalse(queue.contains(update));
+                    ^
+  symbol:   variable queue
+  location: class CodexTest_0_7_7

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_5.java:26: error: cannot find symbol
+        assertEquals(0, ByteString.wrap(bytes).writeBytesTo(bytes, 0, 2));
+                        ^
+  symbol:   variable ByteString
+  location: class CodexTest_0_7_5

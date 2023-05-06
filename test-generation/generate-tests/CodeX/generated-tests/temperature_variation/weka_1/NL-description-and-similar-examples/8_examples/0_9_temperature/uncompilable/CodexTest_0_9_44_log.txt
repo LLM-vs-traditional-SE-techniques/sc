@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_44.java:33: error: <identifier> expected
+Input: private static <T> Set<T> asSet(T... elements) {
+     ^
+CodexTest_0_9_44.java:36: error: <identifier> expected
+Output: public void testAsSet() {
+      ^

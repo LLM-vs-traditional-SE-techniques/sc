@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_20.java:65: error: cannot find symbol
+        IndexRequestBuilder indexRequestBuilder = new IndexRequestBuilder(client()).setId("1").setIndex("test").setType("type1").setSource("{}");
+                                                                          ^
+  symbol:   method client()
+  location: class CodexTest_0_7_20

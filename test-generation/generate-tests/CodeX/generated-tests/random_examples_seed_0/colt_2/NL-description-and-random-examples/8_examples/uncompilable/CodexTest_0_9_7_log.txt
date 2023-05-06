@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_9_7.java:30: error: <anonymous CodexTest_0_9_7$1> is not abstract and does not override abstract method format(cern.colt.matrix.impl.AbstractMatrix2D) in cern.colt.matrix.impl.AbstractFormatter
+        AbstractFormatter formatter = new AbstractFormatter() {
+                                                              ^
+CodexTest_0_9_7.java:32: error: cannot find symbol
+        System.out.println(formatter.like2D(0, 0));
+                                    ^
+  symbol:   method like2D(int,int)
+  location: variable formatter of type cern.colt.matrix.impl.AbstractFormatter

@@ -1,0 +1,97 @@
+isCompilable => false
+CodexTest_0_7_3.java:23: error: <identifier> expected
+		edgePath.add(e1);
+		            ^
+CodexTest_0_7_3.java:23: error: <identifier> expected
+		edgePath.add(e1);
+		               ^
+CodexTest_0_7_3.java:24: error: <identifier> expected
+		edgePath.add(e2);
+		            ^
+CodexTest_0_7_3.java:24: error: <identifier> expected
+		edgePath.add(e2);
+		               ^
+CodexTest_0_7_3.java:25: error: <identifier> expected
+		edgePath.add(e3);
+		            ^
+CodexTest_0_7_3.java:25: error: <identifier> expected
+		edgePath.add(e3);
+		               ^
+CodexTest_0_7_3.java:26: error: <identifier> expected
+		edgePath.add(e4);
+		            ^
+CodexTest_0_7_3.java:26: error: <identifier> expected
+		edgePath.add(e4);
+		               ^
+CodexTest_0_7_3.java:27: error: invalid method declaration; return type required
+		assertTrue(edgePath.contains(e1));
+		^
+CodexTest_0_7_3.java:27: error: <identifier> expected
+		assertTrue(edgePath.contains(e1));
+		                            ^
+CodexTest_0_7_3.java:27: error: ';' expected
+		assertTrue(edgePath.contains(e1));
+		                             ^
+CodexTest_0_7_3.java:27: error: illegal start of type
+		assertTrue(edgePath.contains(e1));
+		                               ^
+CodexTest_0_7_3.java:27: error: <identifier> expected
+		assertTrue(edgePath.contains(e1));
+		                                ^
+CodexTest_0_7_3.java:28: error: invalid method declaration; return type required
+		assertTrue(edgePath.contains(e2));
+		^
+CodexTest_0_7_3.java:28: error: <identifier> expected
+		assertTrue(edgePath.contains(e2));
+		                            ^
+CodexTest_0_7_3.java:28: error: ';' expected
+		assertTrue(edgePath.contains(e2));
+		                             ^
+CodexTest_0_7_3.java:28: error: illegal start of type
+		assertTrue(edgePath.contains(e2));
+		                               ^
+CodexTest_0_7_3.java:28: error: <identifier> expected
+		assertTrue(edgePath.contains(e2));
+		                                ^
+CodexTest_0_7_3.java:29: error: invalid method declaration; return type required
+		assertTrue(edgePath.contains(e3));
+		^
+CodexTest_0_7_3.java:29: error: <identifier> expected
+		assertTrue(edgePath.contains(e3));
+		                            ^
+CodexTest_0_7_3.java:29: error: ';' expected
+		assertTrue(edgePath.contains(e3));
+		                             ^
+CodexTest_0_7_3.java:29: error: illegal start of type
+		assertTrue(edgePath.contains(e3));
+		                               ^
+CodexTest_0_7_3.java:29: error: <identifier> expected
+		assertTrue(edgePath.contains(e3));
+		                                ^
+CodexTest_0_7_3.java:30: error: invalid method declaration; return type required
+		assertTrue(edgePath.contains(e4));
+		^
+CodexTest_0_7_3.java:30: error: <identifier> expected
+		assertTrue(edgePath.contains(e4));
+		                            ^
+CodexTest_0_7_3.java:30: error: ';' expected
+		assertTrue(edgePath.contains(e4));
+		                             ^
+CodexTest_0_7_3.java:30: error: illegal start of type
+		assertTrue(edgePath.contains(e4));
+		                               ^
+CodexTest_0_7_3.java:30: error: <identifier> expected
+		assertTrue(edgePath.contains(e4));
+		                                ^
+CodexTest_0_7_3.java:31: error: illegal character: '`'
+```
+^
+CodexTest_0_7_3.java:31: error: illegal character: '`'
+```
+ ^
+CodexTest_0_7_3.java:31: error: illegal character: '`'
+```
+  ^
+CodexTest_0_7_3.java:32: error: reached end of file while parsing
+}
+ ^

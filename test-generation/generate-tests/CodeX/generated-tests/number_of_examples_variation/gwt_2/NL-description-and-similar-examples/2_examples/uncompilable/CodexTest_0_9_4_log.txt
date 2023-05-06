@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_4.java:20: error: <identifier> expected
+Input:public static String makeUrlHash(String moduleName, String strongName)
+     ^
+CodexTest_0_9_4.java:20: error: ';' expected
+Input:public static String makeUrlHash(String moduleName, String strongName)
+                                                                            ^
+CodexTest_0_9_4.java:27: error: illegal character: '#'
+#2. Suggest a test for a method with the signature:
+^
+CodexTest_0_9_4.java:27: error: ';' expected
+#2. Suggest a test for a method with the signature:
+             ^
+CodexTest_0_9_4.java:27: error: <identifier> expected
+#2. Suggest a test for a method with the signature:
+                  ^
+CodexTest_0_9_4.java:27: error: ';' expected
+#2. Suggest a test for a method with the signature:
+                               ^
+CodexTest_0_9_4.java:27: error: ';' expected
+#2. Suggest a test for a method with the signature:
+                                        ^
+CodexTest_0_9_4.java:27: error: <identifier> expected
+#2. Suggest a test for a method with the signature:
+                                                  ^
+CodexTest_0_9_4.java:28: error: ';' expected
+String getSimpleName()
+                      ^
+CodexTest_0_9_4.java:33: error: <identifier> expected
+Output:
+      ^

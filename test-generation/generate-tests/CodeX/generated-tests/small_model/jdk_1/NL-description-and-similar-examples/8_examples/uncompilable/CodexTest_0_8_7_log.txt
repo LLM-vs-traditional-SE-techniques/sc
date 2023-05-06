@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_7.java:35: error: cannot find symbol
+        assertArrayEquals("remove(2)", newArray, remove(2));
+                                                 ^
+  symbol:   method remove(int)
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:38: error: cannot find symbol
+        assertArrayEquals("remove(1)", newArray, remove(1));
+                                                 ^
+  symbol:   method remove(int)
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:41: error: cannot find symbol
+        assertArrayEquals("remove(0)", newArray, remove(0));
+                                                 ^
+  symbol:   method remove(int)
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:43: error: cannot find symbol
+        assertEquals("after last removal", nNewArray, remove(0).length);
+                                                      ^
+  symbol:   method remove(int)
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:44: error: cannot find symbol
+        assertEquals("after last removal", nNewArray, remove(1).length);
+                                                      ^
+  symbol:   method remove(int)
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:45: error: cannot find symbol
+        assertEquals("after last removal", nNewArray, remove(2).length);
+                                                      ^
+  symbol:   method remove(int)
+  location: class CodexTest_0_8_7

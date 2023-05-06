@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_3.java:30: error: ';' expected
+Suggest a test for a method with the void forEachNonZero(IntIntDoubleFunction function) signature.
+         ^
+CodexTest_0_9_3.java:30: error: <identifier> expected
+Suggest a test for a method with the void forEachNonZero(IntIntDoubleFunction function) signature.
+              ^
+CodexTest_0_9_3.java:30: error: ';' expected
+Suggest a test for a method with the void forEachNonZero(IntIntDoubleFunction function) signature.
+                           ^
+CodexTest_0_9_3.java:30: error: ';' expected
+Suggest a test for a method with the void forEachNonZero(IntIntDoubleFunction function) signature.
+                                    ^
+CodexTest_0_9_3.java:30: error: ';' expected
+Suggest a test for a method with the void forEachNonZero(IntIntDoubleFunction function) signature.
+                                                                                       ^

@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_9_3.java:16: error: illegal start of type
+     * (non-Javadoc)
+     ^
+CodexTest_0_9_3.java:16: error: <identifier> expected
+     * (non-Javadoc)
+           ^
+CodexTest_0_9_3.java:16: error: ';' expected
+     * (non-Javadoc)
+            ^
+CodexTest_0_9_3.java:16: error: illegal start of type
+     * (non-Javadoc)
+                   ^
+CodexTest_0_9_3.java:16: error: <identifier> expected
+     * (non-Javadoc)
+                    ^
+CodexTest_0_9_3.java:17: error: ';' expected
+      *
+       ^
+CodexTest_0_9_3.java:18: error: illegal character: '#'
+      * @see weka.core.DenseInstance#getAsInstance(weka.core.Instances, java.util.Random)
+                                    ^
+CodexTest_0_9_3.java:18: error: invalid method declaration; return type required
+      * @see weka.core.DenseInstance#getAsInstance(weka.core.Instances, java.util.Random)
+                                     ^
+CodexTest_0_9_3.java:18: error: <identifier> expected
+      * @see weka.core.DenseInstance#getAsInstance(weka.core.Instances, java.util.Random)
+                                                                      ^
+CodexTest_0_9_3.java:18: error: <identifier> expected
+      * @see weka.core.DenseInstance#getAsInstance(weka.core.Instances, java.util.Random)
+                                                                                        ^
+CodexTest_0_9_3.java:18: error: ';' expected
+      * @see weka.core.DenseInstance#getAsInstance(weka.core.Instances, java.util.Random)
+                                                                                         ^
+CodexTest_0_9_3.java:29: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_6_83.java:19: error: 'void' type not allowed here
+        assertEquals(e, GWT.getUncaughtExceptionHandler().onUncaughtException(e));
+                                                                             ^

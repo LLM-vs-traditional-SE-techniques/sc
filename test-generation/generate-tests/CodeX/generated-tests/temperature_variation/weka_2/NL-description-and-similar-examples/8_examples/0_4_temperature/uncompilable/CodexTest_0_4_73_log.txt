@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_4_73.java:55: error: ')' expected
+		     (inst.value(j) >= 0)
+		                         ^
+CodexTest_0_4_73.java:56: error: reached end of file while parsing
+}
+ ^

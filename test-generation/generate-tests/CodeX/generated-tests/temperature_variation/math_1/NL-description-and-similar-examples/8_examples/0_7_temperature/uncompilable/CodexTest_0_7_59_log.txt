@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_59.java:36: error: cannot find symbol
+        FieldVector<DerivativeStructure> fvU = new ArrayFieldVector<DerivativeStructure>(u);
+        ^
+  symbol:   class FieldVector
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:36: error: cannot find symbol
+        FieldVector<DerivativeStructure> fvU = new ArrayFieldVector<DerivativeStructure>(u);
+                    ^
+  symbol:   class DerivativeStructure
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:36: error: cannot find symbol
+        FieldVector<DerivativeStructure> fvU = new ArrayFieldVector<DerivativeStructure>(u);
+                                                   ^
+  symbol:   class ArrayFieldVector
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:36: error: cannot find symbol
+        FieldVector<DerivativeStructure> fvU = new ArrayFieldVector<DerivativeStructure>(u);
+                                                                    ^
+  symbol:   class DerivativeStructure
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:37: error: cannot find symbol
+        FieldVector<DerivativeStructure> fvV = fvU.mapMultiplyToSelf(4);
+        ^
+  symbol:   class FieldVector
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:37: error: cannot find symbol
+        FieldVector<DerivativeStructure> fvV = fvU.mapMultiplyToSelf(4);
+                    ^
+  symbol:   class DerivativeStructure
+  location: class CodexTest_0_7_59

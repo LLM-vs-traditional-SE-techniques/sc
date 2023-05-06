@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_7.java:80: error: ')' expected
+    			new XContentBuilder(YamlXContent.yamlX
+    			                                      ^
+CodexTest_0_9_7.java:81: error: reached end of file while parsing
+}
+ ^

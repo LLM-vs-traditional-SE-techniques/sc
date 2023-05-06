@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_17.java:20: error: cannot find symbol
+        new Path().contains(mock(Edge.class));
+                            ^
+  symbol:   method mock(java.lang.Class<org.graphstream.graph.Edge>)
+  location: class CodexTest_0_9_17

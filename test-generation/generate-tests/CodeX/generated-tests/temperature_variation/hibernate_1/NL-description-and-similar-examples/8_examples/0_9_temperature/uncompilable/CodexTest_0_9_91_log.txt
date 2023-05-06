@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_91.java:15: error: <identifier> expected
+  maybe class name?
+       ^
+CodexTest_0_9_91.java:15: error: <identifier> expected
+  maybe class name?
+                  ^

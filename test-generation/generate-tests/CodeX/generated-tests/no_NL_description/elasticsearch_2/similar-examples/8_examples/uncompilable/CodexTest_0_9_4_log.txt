@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_4.java:64: error: invalid method declaration; return type required
+    public GET_NODES_STATS_INSTANCE(Settings settings) {
+           ^

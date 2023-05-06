@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_32.java:15: error: cannot find symbol
+    UncaughtExceptionHandler ueh = mock(UncaughtExceptionHandler.class);
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:15: error: cannot find symbol
+    UncaughtExceptionHandler ueh = mock(UncaughtExceptionHandler.class);
+                                        ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:16: error: cannot find symbol
+    UncaughtException.setUncaughtExceptionHandler(ueh);
+    ^
+  symbol:   variable UncaughtException
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:17: error: cannot find symbol
+    UncaughtException.caughtException(new Exception());
+    ^
+  symbol:   variable UncaughtException
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:18: error: cannot find symbol
+    verify(ueh, times(1)).uncaughtException(any());
+                                            ^
+  symbol:   method any()
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:18: error: cannot find symbol
+    verify(ueh, times(1)).uncaughtException(any());
+                ^
+  symbol:   method times(int)
+  location: class CodexTest_0_9_32

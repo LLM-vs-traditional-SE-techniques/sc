@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_99.java:22: error: unreported exception java.lang.Exception; must be caught or declared to be thrown
+			Instance newInst = v.getAsInstance(null, null);
+			                                  ^

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_23.java:66: error: cannot find symbol
+        StringNode sn = new StringNode(s);
+        ^
+  symbol:   class StringNode
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:66: error: cannot find symbol
+        StringNode sn = new StringNode(s);
+                            ^
+  symbol:   class StringNode
+  location: class CodexTest_0_9_23

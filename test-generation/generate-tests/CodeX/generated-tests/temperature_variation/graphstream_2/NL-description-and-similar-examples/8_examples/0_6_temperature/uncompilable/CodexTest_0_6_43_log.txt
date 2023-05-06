@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_43.java:32: error: <identifier> expected
+Input: public boolean equals(Path p) {
+     ^
+CodexTest_0_6_43.java:44: error: <identifier> expected
+Output:
+      ^

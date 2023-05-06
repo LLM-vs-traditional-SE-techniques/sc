@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_5_84.java:41: error: ')' expected
+							+ "15,16,17,18,19\n"
+							                    ^
+CodexTest_0_5_84.java:43: error: reached end of file while parsing
+}
+ ^

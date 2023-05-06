@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_9.java:18: error: cannot find symbol
+    Instances data = getData();
+                     ^
+  symbol:   method getData()
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:19: error: cannot find symbol
+    ArrayList<Attribute> atts = new ArrayList<>();
+    ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:19: error: cannot find symbol
+    ArrayList<Attribute> atts = new ArrayList<>();
+                                    ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:30: error: cannot find symbol
+    Instance newInst = data.get(0).getAsInstance(data, r);
+                                  ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: interface weka.core.Instance

@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_8_61.java:19: error: cannot find symbol
+		Instances model = new Instances(new Instances(mock(Instances.class),0));
+		                                              ^
+  symbol:   method mock(java.lang.Class<weka.core.Instances>)
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:20: error: cannot find symbol
+		m_Dataset = model;
+		^
+  symbol:   variable m_Dataset
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:21: error: cannot find symbol
+		m_Attribute = new Attribute("dummy");
+		^
+  symbol:   variable m_Attribute
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:22: error: cannot find symbol
+		m_Attribute.setWeight(3);
+		^
+  symbol:   variable m_Attribute
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:23: error: cannot find symbol
+		m_Dataset.insertAttributeAt(m_Attribute, 0);
+		                            ^
+  symbol:   variable m_Attribute
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:23: error: cannot find symbol
+		m_Dataset.insertAttributeAt(m_Attribute, 0);
+		^
+  symbol:   variable m_Dataset
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:24: error: cannot find symbol
+		m_Attribute = new Attribute("dummy");
+		^
+  symbol:   variable m_Attribute
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:25: error: cannot find symbol
+		m_Attribute.setWeight(4);
+		^
+  symbol:   variable m_Attribute
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:26: error: cannot find symbol
+		m_Dataset.insertAttributeAt(m_Attribute, 1);
+		                            ^
+  symbol:   variable m_Attribute
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:26: error: cannot find symbol
+		m_Dataset.insertAttributeAt(m_Attribute, 1);
+		^
+  symbol:   variable m_Dataset
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:28: error: cannot find symbol
+			Instance newInst = v.getAsInstance(m_Dataset, m_Random);
+			                                   ^
+  symbol:   variable m_Dataset
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:28: error: cannot find symbol
+			Instance newInst = v.getAsInstance(m_Dataset, m_Random);
+			                                              ^
+  symbol:   variable m_Random
+  location: class CodexTest_0_8_61

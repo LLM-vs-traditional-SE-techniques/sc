@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_51.java:68: error: cannot find symbol
+        Path path = new Path("/parent/name");
+        ^
+  symbol:   class Path
+  location: class CodexTest_0_7_51
+CodexTest_0_7_51.java:68: error: cannot find symbol
+        Path path = new Path("/parent/name");
+                        ^
+  symbol:   class Path
+  location: class CodexTest_0_7_51

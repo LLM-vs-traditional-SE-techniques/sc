@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_1_9.java:37: error: unclosed string literal
+      assertEquals("Number
+                   ^
+CodexTest_0_1_9.java:37: error: ';' expected
+      assertEquals("Number
+                          ^
+CodexTest_0_1_9.java:38: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_1_9.java:18: error: 'try' without 'catch', 'finally' or resource declarations
+    try {
+    ^

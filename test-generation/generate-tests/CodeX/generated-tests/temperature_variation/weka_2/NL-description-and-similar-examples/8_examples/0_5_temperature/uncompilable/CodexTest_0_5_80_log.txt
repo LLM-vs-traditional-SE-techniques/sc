@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_5_80.java:18: error: cannot find symbol
+		Instances d = new Instances(new BufferedReader(new StringReader(data)));
+		                                ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_5_80
+CodexTest_0_5_80.java:18: error: cannot find symbol
+		Instances d = new Instances(new BufferedReader(new StringReader(data)));
+		                                                   ^
+  symbol:   class StringReader
+  location: class CodexTest_0_5_80
+CodexTest_0_5_80.java:18: error: cannot find symbol
+		Instances d = new Instances(new BufferedReader(new StringReader(data)));
+		                                                                ^
+  symbol:   variable data
+  location: class CodexTest_0_5_80
+Note: CodexTest_0_5_80.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

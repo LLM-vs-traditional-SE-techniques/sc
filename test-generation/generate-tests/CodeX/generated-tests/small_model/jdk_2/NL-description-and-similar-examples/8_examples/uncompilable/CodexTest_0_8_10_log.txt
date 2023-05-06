@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_8_10.java:20: error: invalid method declaration; return type required
+    assertTrue("indexOf(0) failed", list.contains(0));
+    ^
+CodexTest_0_8_10.java:20: error: illegal start of type
+    assertTrue("indexOf(0) failed", list.contains(0));
+               ^
+CodexTest_0_8_10.java:20: error: <identifier> expected
+    assertTrue("indexOf(0) failed", list.contains(0));
+                                                 ^
+CodexTest_0_8_10.java:20: error: ';' expected
+    assertTrue("indexOf(0) failed", list.contains(0));
+                                                  ^
+CodexTest_0_8_10.java:20: error: illegal start of type
+    assertTrue("indexOf(0) failed", list.contains(0));
+                                                   ^
+CodexTest_0_8_10.java:20: error: <identifier> expected
+    assertTrue("indexOf(0) failed", list.contains(0));
+                                                    ^
+CodexTest_0_8_10.java:21: error: invalid method declaration; return type required
+    assertFalse("indexOf(1) failed", list.contains(1));
+    ^
+CodexTest_0_8_10.java:21: error: illegal start of type
+    assertFalse("indexOf(1) failed", list.contains(1));
+                ^
+CodexTest_0_8_10.java:21: error: <identifier> expected
+    assertFalse("indexOf(1) failed", list.contains(1));
+                                                  ^
+CodexTest_0_8_10.java:21: error: ';' expected
+    assertFalse("indexOf(1) failed", list.contains(1));
+                                                   ^
+CodexTest_0_8_10.java:21: error: illegal start of type
+    assertFalse("indexOf(1) failed", list.contains(1));
+                                                    ^
+CodexTest_0_8_10.java:21: error: <identifier> expected
+    assertFalse("indexOf(1) failed", list.contains(1));
+                                                     ^

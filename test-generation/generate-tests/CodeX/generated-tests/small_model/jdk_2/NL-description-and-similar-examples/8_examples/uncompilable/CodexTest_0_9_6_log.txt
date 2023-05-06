@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_9_6.java:21: error: -> expected
+        List<Integer> list = newjava.util.ArrayList<Integer>();
+                                                              ^
+CodexTest_0_9_6.java:21: error: ';' expected
+        List<Integer> list = newjava.util.ArrayList<Integer>();
+                                                               ^
+CodexTest_0_9_6.java:22: error: illegal start of expression
+        list.add(1);
+            ^
+CodexTest_0_9_6.java:22: error: ';' expected
+        list.add(1);
+                ^
+CodexTest_0_9_6.java:27: error: -> expected
+        List<Integer> list = newjava.util.ArrayList<Integer>();
+                                                              ^
+CodexTest_0_9_6.java:27: error: ';' expected
+        List<Integer> list = newjava.util.ArrayList<Integer>();
+                                                               ^
+CodexTest_0_9_6.java:28: error: illegal start of expression
+        list.add(1);
+            ^
+CodexTest_0_9_6.java:28: error: ';' expected
+        list.add(1);
+                ^

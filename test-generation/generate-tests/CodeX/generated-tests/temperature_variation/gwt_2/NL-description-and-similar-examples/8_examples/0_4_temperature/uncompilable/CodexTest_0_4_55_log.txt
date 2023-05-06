@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_55.java:15: error: cannot find symbol
+    UncaughtExceptionHandler testHandler = new UncaughtExceptionHandler() {
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_55
+CodexTest_0_4_55.java:15: error: cannot find symbol
+    UncaughtExceptionHandler testHandler = new UncaughtExceptionHandler() {
+                                               ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_55

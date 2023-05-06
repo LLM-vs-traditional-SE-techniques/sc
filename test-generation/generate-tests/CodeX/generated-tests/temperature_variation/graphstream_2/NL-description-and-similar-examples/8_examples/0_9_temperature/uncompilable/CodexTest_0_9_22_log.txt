@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_22.java:24: error: cannot find symbol
+        DoubleFactory2D f = DoubleFactory2D.dense;
+        ^
+  symbol:   class DoubleFactory2D
+  location: class CodexTest_0_9_22
+CodexTest_0_9_22.java:24: error: cannot find symbol
+        DoubleFactory2D f = DoubleFactory2D.dense;
+                            ^
+  symbol:   variable DoubleFactory2D
+  location: class CodexTest_0_9_22
+CodexTest_0_9_22.java:25: error: cannot find symbol
+        DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+        ^
+  symbol:   class DoubleMatrix1D
+  location: class CodexTest_0_9_22
+CodexTest_0_9_22.java:25: error: cannot find symbol
+        DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+                                    ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_9_22
+CodexTest_0_9_22.java:26: error: cannot find symbol
+        DoubleMatrix2D matrix = f.make(arrMatrix);
+        ^
+  symbol:   class DoubleMatrix2D
+  location: class CodexTest_0_9_22
+CodexTest_0_9_22.java:27: error: cannot find symbol
+        DoubleMatrix1D res = vector.like(matrix.rows());
+        ^
+  symbol:   class DoubleMatrix1D
+  location: class CodexTest_0_9_22
+CodexTest_0_9_22.java:29: error: cannot find symbol
+        Vector myVector = new Vector(10);
+        ^
+  symbol:   class Vector
+  location: class CodexTest_0_9_22
+CodexTest_0_9_22.java:29: error: cannot find symbol
+        Vector myVector = new Vector(10);
+                              ^
+  symbol:   class Vector
+  location: class CodexTest_0_9_22

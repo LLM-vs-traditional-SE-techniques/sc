@@ -1,0 +1,179 @@
+prompt,output
+"Suggest a test for a method with the AlgVector add(AlgVector other) signature.
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public void add(Edge edge) {
+		if (nodePath.isEmpty()) {
+			add(null, edge);
+		} else {
+			add(nodePath.peek(), edge);
+		}	}
+Output: @Test(expected = IllegalArgumentException.class)
+	public void add_whenAddingEdgeRootMustBeSet() {
+		Graph graph = new DefaultGraph(""test"");
+		graph.setStrict(false);
+		graph.setAutoCreate(true);
+
+		graph.addEdge(""ab"", ""a"", ""b"");
+		graph.addEdge(""bc"", ""b"", ""c"");
+		graph.addEdge(""cd"", ""c"", ""d"");
+		Path path = new Path();
+
+		// this has to fail as root of the path is not set
+		path.add(graph.getEdge(""ab""));
+	}
+
+Input: public DoubleMatrix1D like(int size) {
+			return new DenseDoubleMatrix1D(size);
+		}
+Output: public static void doubleTest28() {
+			double[] data={1,2,3,4,5,6};
+			double[][] arrMatrix = 
+			{ 
+				{ 1, 2, 3, 4, 5, 6},
+				{ 2, 3, 4, 5, 6, 7}
+			};
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			DoubleMatrix2D matrix = f.make(arrMatrix);
+			DoubleMatrix1D res = vector.like(matrix.rows());
+
+						matrix.zMult(vector,res);
+
+					System.out.println(res);
+		}
+
+Input: public static HashCode fromInt(int hash) {
+			return new IntHashCode(hash);
+		  }
+Output: public void testObjectHashCode() {
+			HashCode hashCode42 = HashCode.fromInt(42);
+			assertEquals(42, hashCode42.hashCode());
+		  }
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnFalseWhenFStringGiven() {
+			// given
+			BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+			// when
+			Boolean result = underTest.wrap('N', null);
+			// then
+			assertFalse(result);
+		}
+
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+		if ( value == null ) {
+			return null;
+		}
+		if ( Boolean.class.isInstance( value ) ) {
+			return (Boolean) value;
+		}
+		if ( Number.class.isInstance( value ) ) {
+			final int intValue = ( (Number) value ).intValue();
+			return intValue == 0 ? FALSE : TRUE;
+		}
+		if ( Character.class.isInstance( value ) ) {
+			return isTrue( (Character) value ) ? TRUE : FALSE;
+		}
+		if ( String.class.isInstance( value ) ) {
+			return isTrue((String) value) ? TRUE : FALSE;
+		}
+		throw unknownWrap( value.getClass() );
+	}
+Output: public void testWrapShouldReturnTrueWhenYStringGiven() {
+        // given
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+        // when
+        Boolean result = underTest.wrap(""Y"", null);
+        // then
+        assertTrue(result);
+    }
+
+Input: public static HashCode fromBytes(byte[] bytes) {
+    checkArgument(bytes.length >= 1, ""A HashCode must contain at least 1 byte."");
+    return fromBytesNoCopy(bytes.clone());
+  }
+Output: public void testRoundTripHashCodeUsingBaseEncoding() {
+    HashCode hash1 = Hashing.sha1().hashString(""foo"", Charsets.US_ASCII);
+    HashCode hash2 = HashCode.fromBytes(BaseEncoding.base16().lowerCase().decode(hash1.toString()));
+    assertEquals(hash1, hash2);
+  }
+
+Input: public final AlgVector add(AlgVector other) {
+     AlgVector b = null;
+    if (m_Elements != null) {
+      int n = m_Elements.length;
+       try {
+	b = (AlgVector)clone();
+      } catch (CloneNotSupportedException ex) {
+	b = new AlgVector(n);
+      }
+          for(int i = 0; i < n; i++) {
+	b.m_Elements[i] = m_Elements[i] + other.m_Elements[i];
+      }
+    }
+       return b;
+  }
+Output:
+  ","import weka.core.*;
+import java.io.Serializable;
+import java.util.Random;
+
+import weka.core.*;
+import java.util.Random;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_4_1 { 
+  @Test
+  public void testAdd() {
+    AlgVector a = new AlgVector(new double[] {1, 2, 3});
+    AlgVector b = new AlgVector(new double[] {4, 5, 6});
+    AlgVector c = a.add(b);
+    assertEquals(5.0, c.getElement(0));
+    assertEquals(7.0, c.getElement(1));
+    assertEquals(9.0, c.getElement(2));
+  }
+}"

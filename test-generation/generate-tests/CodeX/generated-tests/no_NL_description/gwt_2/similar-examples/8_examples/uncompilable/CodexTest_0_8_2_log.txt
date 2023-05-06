@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_2.java:15: error: cannot find symbol
+    Looper.prepareMainLooper();
+    ^
+  symbol:   variable Looper
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:16: error: cannot find symbol
+    Looper.myLooper().setUncaughtExceptionHandler(null);
+    ^
+  symbol:   variable Looper
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:17: error: cannot find symbol
+    new ConcurrentExceptionTest() {
+        ^
+  symbol:   class ConcurrentExceptionTest
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:22: error: cannot find symbol
+    assertNull(Looper.myLooper().getUncaughtExceptionHandler());
+               ^
+  symbol:   variable Looper
+  location: class CodexTest_0_8_2

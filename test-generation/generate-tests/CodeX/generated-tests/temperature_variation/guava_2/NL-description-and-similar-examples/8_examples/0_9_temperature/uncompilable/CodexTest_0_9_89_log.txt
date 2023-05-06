@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_89.java:25: error: cannot find symbol
+    byte[] destArray = new byte[getLastIntegralMultipleOfEightBits()];
+                                ^
+  symbol:   method getLastIntegralMultipleOfEightBits()
+  location: class CodexTest_0_9_89
+CodexTest_0_9_89.java:26: error: cannot find symbol
+    int numBytesWritten = hashBits.writeBytesTo(destArray, 0, 9);
+                          ^
+  symbol:   variable hashBits
+  location: class CodexTest_0_9_89

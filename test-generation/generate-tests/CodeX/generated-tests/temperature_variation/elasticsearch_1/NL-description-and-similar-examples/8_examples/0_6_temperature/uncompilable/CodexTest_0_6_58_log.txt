@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_58.java:114: error: unclosed string literal
+                String pattern1 = "pattern1
+                                  ^
+CodexTest_0_6_58.java:115: error: reached end of file while parsing
+}
+ ^

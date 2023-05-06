@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_6_39.java:65: error: cannot find symbol
+        XContentParser parser = XContentFactory.xContent(XContentType.JSON).createParser(xContentRegistry(),
+        ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_6_39
+CodexTest_0_6_39.java:65: error: cannot find symbol
+        XContentParser parser = XContentFactory.xContent(XContentType.JSON).createParser(xContentRegistry(),
+                                                                                         ^
+  symbol:   method xContentRegistry()
+  location: class CodexTest_0_6_39
+CodexTest_0_6_39.java:66: error: cannot find symbol
+                DeprecationHandler.THROW_UNSUPPORTED_OPERATION,
+                ^
+  symbol:   variable DeprecationHandler
+  location: class CodexTest_0_6_39
+CodexTest_0_6_39.java:68: error: cannot find symbol
+        IllegalArgumentException e = expectThrows(IllegalArgumentException.class,
+                                     ^
+  symbol:   method expectThrows(java.lang.Class<java.lang.IllegalArgumentException>,()->IndexR[...]"id"))
+  location: class CodexTest_0_6_39
+CodexTest_0_6_39.java:70: error: cannot find symbol
+        assertThat(e.getMessage(), containsString("unknown parameter [unknown_parameter]"));
+                                   ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_6_39

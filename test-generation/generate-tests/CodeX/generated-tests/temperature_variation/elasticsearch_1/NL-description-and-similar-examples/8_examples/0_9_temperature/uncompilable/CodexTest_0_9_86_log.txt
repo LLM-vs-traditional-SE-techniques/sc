@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_86.java:65: error: <identifier> expected
+      final IndexReq
+                    ^
+CodexTest_0_9_86.java:66: error: reached end of file while parsing
+}
+ ^

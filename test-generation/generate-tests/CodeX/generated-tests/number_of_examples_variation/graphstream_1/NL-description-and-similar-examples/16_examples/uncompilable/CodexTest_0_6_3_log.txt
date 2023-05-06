@@ -1,0 +1,57 @@
+isCompilable => false
+CodexTest_0_6_3.java:21: error: cannot find symbol
+		Path<V> path = new Path<V>();
+		     ^
+  symbol:   class V
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:21: error: type org.graphstream.graph.Path does not take parameters
+		Path<V> path = new Path<V>();
+		    ^
+CodexTest_0_6_3.java:21: error: cannot find symbol
+		Path<V> path = new Path<V>();
+		                        ^
+  symbol:   class V
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:21: error: type org.graphstream.graph.Path does not take parameters
+		Path<V> path = new Path<V>();
+		                       ^
+CodexTest_0_6_3.java:22: error: cannot find symbol
+		path.add(new DefaultEdge<V>(new V("A"), new V("B")));
+		             ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:22: error: cannot find symbol
+		path.add(new DefaultEdge<V>(new V("A"), new V("B")));
+		                         ^
+  symbol:   class V
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:22: error: cannot find symbol
+		path.add(new DefaultEdge<V>(new V("A"), new V("B")));
+		                                ^
+  symbol:   class V
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:22: error: cannot find symbol
+		path.add(new DefaultEdge<V>(new V("A"), new V("B")));
+		                                            ^
+  symbol:   class V
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:24: error: cannot find symbol
+		boolean result = path.contains(new DefaultEdge<V>(new V("A"), new V("C")));
+		                                   ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:24: error: cannot find symbol
+		boolean result = path.contains(new DefaultEdge<V>(new V("A"), new V("C")));
+		                                               ^
+  symbol:   class V
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:24: error: cannot find symbol
+		boolean result = path.contains(new DefaultEdge<V>(new V("A"), new V("C")));
+		                                                      ^
+  symbol:   class V
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:24: error: cannot find symbol
+		boolean result = path.contains(new DefaultEdge<V>(new V("A"), new V("C")));
+		                                                                  ^
+  symbol:   class V
+  location: class CodexTest_0_6_3

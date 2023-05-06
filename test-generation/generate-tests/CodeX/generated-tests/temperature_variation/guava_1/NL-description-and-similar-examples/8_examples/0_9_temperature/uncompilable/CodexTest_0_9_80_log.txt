@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_80.java:25: error: cannot find symbol
+    hashTest("foo", HashCodes.fromString("0beec7b5ea3f0fdbc95d0dd47f3c5bc275da8a33"));
+                    ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:26: error: cannot find symbol
+    hashTest("bar", HashCodes.fromString("62cdb7020ff920e5aa642c3d4066950dd1f01f4d"));
+                    ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:27: error: cannot find symbol
+    hashTest("baz", HashCodes.fromString("7ddf2a9573c2ab2ee1ba238498a59b55ade809c3"));
+                    ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:28: error: cannot find symbol
+    hashTest("bazbarfoo", HashCodes.fromString("8c52d016696ae7876c5cf383408ec5c5edbb2511"));
+                          ^
+  symbol:   variable HashCodes
+  location: class CodexTest_0_9_80

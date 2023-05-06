@@ -1,0 +1,129 @@
+isCompilable => false
+CodexTest_0_4_2.java:22: error: cannot find symbol
+        path1.add(new Node(a));
+                           ^
+  symbol:   variable a
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:22: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path1.add(new Node(a));
+                  ^
+CodexTest_0_4_2.java:23: error: cannot find symbol
+        path1.add(new Node(b));
+                           ^
+  symbol:   variable b
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:23: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path1.add(new Node(b));
+                  ^
+CodexTest_0_4_2.java:24: error: cannot find symbol
+        path2.add(new Node(a));
+                           ^
+  symbol:   variable a
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:24: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path2.add(new Node(a));
+                  ^
+CodexTest_0_4_2.java:25: error: cannot find symbol
+        path2.add(new Node(b));
+                           ^
+  symbol:   variable b
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:25: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path2.add(new Node(b));
+                  ^
+CodexTest_0_4_2.java:31: error: cannot find symbol
+        path1.add(new Node(a));
+                           ^
+  symbol:   variable a
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:31: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path1.add(new Node(a));
+                  ^
+CodexTest_0_4_2.java:32: error: cannot find symbol
+        path1.add(new Node(b));
+                           ^
+  symbol:   variable b
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:32: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path1.add(new Node(b));
+                  ^
+CodexTest_0_4_2.java:33: error: cannot find symbol
+        path2.add(new Node(a));
+                           ^
+  symbol:   variable a
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:33: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path2.add(new Node(a));
+                  ^
+CodexTest_0_4_2.java:34: error: cannot find symbol
+        path2.add(new Node(c));
+                           ^
+  symbol:   variable c
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:34: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path2.add(new Node(c));
+                  ^
+CodexTest_0_4_2.java:40: error: cannot find symbol
+        path1.add(new Node(a));
+                           ^
+  symbol:   variable a
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:40: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path1.add(new Node(a));
+                  ^
+CodexTest_0_4_2.java:41: error: cannot find symbol
+        path1.add(new Node(b));
+                           ^
+  symbol:   variable b
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:41: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path1.add(new Node(b));
+                  ^
+CodexTest_0_4_2.java:42: error: cannot find symbol
+        path2.add(new Node(a));
+                           ^
+  symbol:   variable a
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:42: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path2.add(new Node(a));
+                  ^
+CodexTest_0_4_2.java:48: error: cannot find symbol
+        path1.add(new Node(a));
+                           ^
+  symbol:   variable a
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:48: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path1.add(new Node(a));
+                  ^
+CodexTest_0_4_2.java:49: error: cannot find symbol
+        path1.add(new Node(b));
+                           ^
+  symbol:   variable b
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:49: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path1.add(new Node(b));
+                  ^
+CodexTest_0_4_2.java:50: error: cannot find symbol
+        path2.add(new Node(a));
+                           ^
+  symbol:   variable a
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:50: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path2.add(new Node(a));
+                  ^
+CodexTest_0_4_2.java:51: error: cannot find symbol
+        path2.add(new Node(b));
+                           ^
+  symbol:   variable b
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:51: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path2.add(new Node(b));
+                  ^
+CodexTest_0_4_2.java:52: error: cannot find symbol
+        path2.add(new Node(c));
+                           ^
+  symbol:   variable c
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:52: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path2.add(new Node(c));
+                  ^

@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_8_56.java:40: error: <identifier> expected
+Input: public DoubleMatrix2D like2D(int rows, int columns) {
+     ^
+CodexTest_0_8_56.java:43: error: <identifier> expected
+Output: public void test46() {
+      ^
+CodexTest_0_8_56.java:53: error: <identifier> expected
+Input: public DoubleMatrix2D like2D(int rows, int columns) {
+     ^
+CodexTest_0_8_56.java:56: error: <identifier> expected
+Output: public void test47() {
+      ^
+CodexTest_0_8_56.java:59: error: '[' expected
+      DoubleMatrix2D m3 = new DenseDoubleMatrix2D(new double
+                                                            ^
+CodexTest_0_8_56.java:60: error: illegal start of expression
+}
+^
+CodexTest_0_8_56.java:60: error: reached end of file while parsing
+}
+ ^

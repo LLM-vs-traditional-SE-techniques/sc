@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_79.java:65: error: illegal start of expression
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                     ^
+CodexTest_0_9_79.java:65: error: ';' expected
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                      ^
+CodexTest_0_9_79.java:65: error: illegal start of expression
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                          ^
+CodexTest_0_9_79.java:65: error: ';' expected
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                                      ^
+CodexTest_0_9_79.java:65: error: not a statement
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                                       ^
+CodexTest_0_9_79.java:65: error: ';' expected
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                                             ^
+CodexTest_0_9_79.java:65: error: not a statement
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                                                   ^
+CodexTest_0_9_79.java:65: error: ';' expected
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                                                         ^
+CodexTest_0_9_79.java:65: error: illegal start of type
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                                                          ^
+CodexTest_0_9_79.java:65: error: ';' expected
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                                                           ^
+CodexTest_0_9_79.java:65: error: illegal start of type
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                                                                        ^
+CodexTest_0_9_79.java:65: error: ';' expected
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                                                                             ^
+CodexTest_0_9_79.java:65: error: invalid method declaration; return type required
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                                                                               ^
+CodexTest_0_9_79.java:65: error: ';' expected
+        val bundle = Request.newBuilder().withSource({key1:value1,key2:value2,key3:value3}, XContentType.JSON).get()
+                                                                                                                    ^
+CodexTest_0_9_79.java:71: error: class, interface, or enum expected
+}
+^

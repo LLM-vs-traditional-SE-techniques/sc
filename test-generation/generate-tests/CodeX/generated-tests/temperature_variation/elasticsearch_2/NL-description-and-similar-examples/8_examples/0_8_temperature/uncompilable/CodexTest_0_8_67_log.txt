@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_67.java:66: error: cannot find symbol
+        Field xContentField = xContentTypeClass.getField("JSON");
+        ^
+  symbol:   class Field
+  location: class CodexTest_0_8_67
+CodexTest_0_8_67.java:73: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("Failed to generate [{\"foo\":\"bar\"}]"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_67

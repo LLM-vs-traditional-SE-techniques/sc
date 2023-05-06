@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_52.java:33: error: cannot find symbol
+        matrix.assign(other, 5, 0, 10);
+        ^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_52
+CodexTest_0_7_52.java:34: error: cannot find symbol
+        for (int i = 0; i < matrix.size(); i++) {
+                            ^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_52
+CodexTest_0_7_52.java:35: error: cannot find symbol
+            assertEquals(expected[i], matrix.get(i), TOLERANCE);
+                                      ^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_52
+CodexTest_0_7_52.java:35: error: cannot find symbol
+            assertEquals(expected[i], matrix.get(i), TOLERANCE);
+                                                     ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_7_52

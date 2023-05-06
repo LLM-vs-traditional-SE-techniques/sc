@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_8.java:33: error: incompatible types: cern.colt.matrix.DoubleMatrix1D cannot be converted to cern.colt.matrix.DoubleMatrix2D
+			DoubleMatrix2D res = f.diagonal(matrix);
+			                               ^

@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_4.java:20: error: cannot find symbol
+    Instances instances = Instances.attributeBuilder().build();
+                                   ^
+  symbol:   method attributeBuilder()
+  location: class weka.core.Instances
+CodexTest_0_9_4.java:30: error: cannot find symbol
+    Attribute attribute = Attribute.attributeBuilder().setName("weight").setContinuous(true).build();
+                                   ^
+  symbol:   method attributeBuilder()
+  location: class weka.core.Attribute
+CodexTest_0_9_4.java:31: error: cannot find symbol
+    Instances instances = Instances.attributeBuilder().addAttributes(attribute).setClassName("weight").build();
+                                   ^
+  symbol:   method attributeBuilder()
+  location: class weka.core.Instances
+CodexTest_0_9_4.java:42: error: cannot find symbol
+    Instance instance = algVector.getAsInstance(instances, new Random());
+                                                ^
+  symbol:   variable instances
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:44: error: cannot find symbol
+    assertThat(instance.classIndex(), is(not(0)));
+                                         ^
+  symbol:   method not(int)
+  location: class CodexTest_0_9_4

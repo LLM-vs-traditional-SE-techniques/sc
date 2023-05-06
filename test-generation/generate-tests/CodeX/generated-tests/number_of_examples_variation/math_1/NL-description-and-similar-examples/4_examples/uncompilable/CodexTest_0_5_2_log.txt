@@ -1,0 +1,97 @@
+isCompilable => false
+CodexTest_0_5_2.java:32: error: <identifier> expected
+Input: public Vector1D add(Vector1D v) {
+     ^
+CodexTest_0_5_2.java:35: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:38: error: <identifier> expected
+Input: public Vector1D subtract(Vector1D v) {
+     ^
+CodexTest_0_5_2.java:41: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:44: error: <identifier> expected
+Input: public double dotProduct(Vector1D v) {
+     ^
+CodexTest_0_5_2.java:47: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:50: error: <identifier> expected
+Input: public Vector1D getUnitVector() {
+     ^
+CodexTest_0_5_2.java:53: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:56: error: <identifier> expected
+Input: public boolean isNaN() {
+     ^
+CodexTest_0_5_2.java:59: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:62: error: <identifier> expected
+Input: public boolean isInfinite() {
+     ^
+CodexTest_0_5_2.java:65: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:68: error: <identifier> expected
+Input: public Vector1D negate() {
+     ^
+CodexTest_0_5_2.java:71: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:74: error: <identifier> expected
+Input: public double getNorm() {
+     ^
+CodexTest_0_5_2.java:77: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:80: error: <identifier> expected
+Input: public double getNormSq() {
+     ^
+CodexTest_0_5_2.java:83: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:86: error: <identifier> expected
+Input: public double getNormInf() {
+     ^
+CodexTest_0_5_2.java:89: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:92: error: <identifier> expected
+Input: public double getDistance(Vector1D v) {
+     ^
+CodexTest_0_5_2.java:95: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:98: error: <identifier> expected
+Input: public double getDistanceSq(Vector1D v) {
+     ^
+CodexTest_0_5_2.java:101: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:104: error: <identifier> expected
+Input: public double getDistanceInf(Vector1D v) {
+     ^
+CodexTest_0_5_2.java:107: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:110: error: <identifier> expected
+Input: public double getAlpha() {
+     ^
+CodexTest_0_5_2.java:113: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:116: error: <identifier> expected
+Input: public double getLinearCombination(double[] a) {
+     ^
+CodexTest_0_5_2.java:119: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_5_2.java:122: error: <identifier> expected
+Input: public Vector1D get
+     ^
+CodexTest_0_5_2.java:122: error: ';' expected
+Input: public Vector1D get
+                          ^

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_18.java:16: error: <identifier> expected
+Input: public Endpoint getEndpoint() {
+     ^
+CodexTest_0_9_18.java:19: error: <identifier> expected
+Output: public void test_clear_smoke() {
+      ^

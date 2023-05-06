@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_10.java:65: error: cannot find symbol
+        assertNull(new ArrayList<String>().parent());
+                                          ^
+  symbol:   method parent()
+  location: class java.util.ArrayList<java.lang.String>

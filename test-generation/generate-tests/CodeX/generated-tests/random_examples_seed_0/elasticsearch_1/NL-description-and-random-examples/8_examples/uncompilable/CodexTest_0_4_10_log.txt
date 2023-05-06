@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_10.java:68: error: cannot find symbol
+        HierarchicalConfiguration conf = new HierarchicalConfiguration();
+        ^
+  symbol:   class HierarchicalConfiguration
+  location: class CodexTest_0_4_10
+CodexTest_0_4_10.java:68: error: cannot find symbol
+        HierarchicalConfiguration conf = new HierarchicalConfiguration();
+                                             ^
+  symbol:   class HierarchicalConfiguration
+  location: class CodexTest_0_4_10

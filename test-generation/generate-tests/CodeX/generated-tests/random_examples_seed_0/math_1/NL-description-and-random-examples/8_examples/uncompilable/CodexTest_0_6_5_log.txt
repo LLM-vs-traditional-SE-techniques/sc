@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_6_5.java:31: error: incompatible types: double cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D vector = new Vector1D(1.0, 2.0);
+                                            ^
+CodexTest_0_6_5.java:32: error: cannot find symbol
+        assertEquals(vector.multiply(2.0), new Vector1D(2.0, 4.0));
+                           ^
+  symbol:   method multiply(double)
+  location: variable vector of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_6_5.java:32: error: incompatible types: double cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        assertEquals(vector.multiply(2.0), new Vector1D(2.0, 4.0));
+                                                             ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

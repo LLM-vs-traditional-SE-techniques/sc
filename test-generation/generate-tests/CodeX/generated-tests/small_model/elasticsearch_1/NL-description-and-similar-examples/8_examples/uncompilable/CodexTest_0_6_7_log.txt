@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_6_7.java:65: error: cannot find symbol
+        return this.size() == 0;
+                   ^
+  symbol: method size()

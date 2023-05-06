@@ -1,0 +1,44 @@
+isCompilable => false
+CodexTest_0_5_69.java:27: error: cannot find symbol
+        BigInteger value = BigInteger.valueOf(TestUtil.nextLong());
+        ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_5_69
+CodexTest_0_5_69.java:27: error: cannot find symbol
+        BigInteger value = BigInteger.valueOf(TestUtil.nextLong());
+                                              ^
+  symbol:   variable TestUtil
+  location: class CodexTest_0_5_69
+CodexTest_0_5_69.java:27: error: cannot find symbol
+        BigInteger value = BigInteger.valueOf(TestUtil.nextLong());
+                           ^
+  symbol:   variable BigInteger
+  location: class CodexTest_0_5_69
+CodexTest_0_5_69.java:28: error: cannot find symbol
+        value = value.and(BigInteger.ONE.shiftLeft(bits).subtract(BigInteger.ONE));
+                                                                  ^
+  symbol:   variable BigInteger
+  location: class CodexTest_0_5_69
+CodexTest_0_5_69.java:28: error: package BigInteger does not exist
+        value = value.and(BigInteger.ONE.shiftLeft(bits).subtract(BigInteger.ONE));
+                                    ^
+CodexTest_0_5_69.java:29: error: cannot find symbol
+        BigIntegerHashCode hashCode = BigIntegerHashCode.fromBytes(value.toByteArray());
+        ^
+  symbol:   class BigIntegerHashCode
+  location: class CodexTest_0_5_69
+CodexTest_0_5_69.java:29: error: cannot find symbol
+        BigIntegerHashCode hashCode = BigIntegerHashCode.fromBytes(value.toByteArray());
+                                      ^
+  symbol:   variable BigIntegerHashCode
+  location: class CodexTest_0_5_69
+CodexTest_0_5_69.java:35: error: cannot find symbol
+        assertEquals(new BigInteger(1, expected), new BigInteger(1, dest));
+                         ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_5_69
+CodexTest_0_5_69.java:35: error: cannot find symbol
+        assertEquals(new BigInteger(1, expected), new BigInteger(1, dest));
+                                                      ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_5_69

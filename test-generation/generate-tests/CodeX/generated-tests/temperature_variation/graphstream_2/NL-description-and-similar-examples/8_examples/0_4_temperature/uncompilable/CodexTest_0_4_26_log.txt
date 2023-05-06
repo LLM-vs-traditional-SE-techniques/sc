@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_4_26.java:22: error: cannot find symbol
+        p1.add(null, new DefaultEdge("A"));
+                         ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:23: error: cannot find symbol
+        p2.add(null, new DefaultEdge("A"));
+                         ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:26: error: cannot find symbol
+        p1.add(new DefaultEdge("A"), new DefaultEdge("B"));
+                   ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:26: error: cannot find symbol
+        p1.add(new DefaultEdge("A"), new DefaultEdge("B"));
+                                         ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:29: error: cannot find symbol
+        p2.add(new DefaultEdge("A"), new DefaultEdge("B"));
+                   ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_26
+CodexTest_0_4_26.java:29: error: cannot find symbol
+        p2.add(new DefaultEdge("A"), new DefaultEdge("B"));
+                                         ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_26

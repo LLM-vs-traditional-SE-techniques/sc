@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_6_61.java:33: error: cannot find symbol
+			double[] vals = matrix.getValues();
+			                      ^
+  symbol:   method getValues()
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix1D
+Note: CodexTest_0_6_61.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

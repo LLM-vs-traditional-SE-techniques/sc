@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_9.java:15: error: illegal start of type
+  if (handler != null) {
+  ^
+CodexTest_0_9_9.java:15: error: <identifier> expected
+  if (handler != null) {
+             ^
+CodexTest_0_9_9.java:15: error: ';' expected
+  if (handler != null) {
+                ^
+CodexTest_0_9_9.java:15: error: illegal start of type
+  if (handler != null) {
+                     ^
+CodexTest_0_9_9.java:15: error: <identifier> expected
+  if (handler != null) {
+                      ^
+CodexTest_0_9_9.java:15: error: ';' expected
+  if (handler != null) {
+                        ^

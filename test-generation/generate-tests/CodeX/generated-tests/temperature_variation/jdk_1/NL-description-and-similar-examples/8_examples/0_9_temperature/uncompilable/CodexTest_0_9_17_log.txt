@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_17.java:21: error: cannot find symbol
+        empty.checkIndex(-1);
+        ^
+  symbol:   variable empty
+  location: class CodexTest_0_9_17

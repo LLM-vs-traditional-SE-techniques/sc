@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_9_17.java:20: error: type org.graphstream.graph.Graph does not take parameters
+        Graph<Integer> circle = createCircularGraph(1);
+             ^
+CodexTest_0_9_17.java:20: error: cannot find symbol
+        Graph<Integer> circle = createCircularGraph(1);
+                                ^
+  symbol:   method createCircularGraph(int)
+  location: class CodexTest_0_9_17
+CodexTest_0_9_17.java:21: error: cannot find symbol
+        Iterator<? extends Integer> it = circle.getNodeIterator();
+        ^
+  symbol:   class Iterator
+  location: class CodexTest_0_9_17
+CodexTest_0_9_17.java:29: error: type org.graphstream.graph.Path does not take parameters
+        Path<Integer> path = new Path<>(circle, previous);
+            ^
+CodexTest_0_9_17.java:29: error: cannot infer type arguments for org.graphstream.graph.Path
+        Path<Integer> path = new Path<>(circle, previous);
+                                     ^
+  reason: cannot use '<>' with non-generic class org.graphstream.graph.Path
+CodexTest_0_9_17.java:32: error: type org.graphstream.graph.Path does not take parameters
+        Path<Integer> copy = path.clone();
+            ^

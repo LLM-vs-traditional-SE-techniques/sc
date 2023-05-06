@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_4_4.java:45: error: unclosed string literal
+		model.insertAttributeAt(new Attribute("
+		                                      ^
+CodexTest_0_4_4.java:45: error: ')' expected
+		model.insertAttributeAt(new Attribute("
+		                                       ^
+CodexTest_0_4_4.java:46: error: reached end of file while parsing
+}
+ ^

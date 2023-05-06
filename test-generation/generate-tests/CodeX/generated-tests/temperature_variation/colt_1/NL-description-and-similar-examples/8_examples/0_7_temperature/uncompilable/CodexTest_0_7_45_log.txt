@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_45.java:37: error: cannot find symbol
+            assertEquals(values2[r], m1.get(r), TOL);
+                                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_45
+CodexTest_0_7_45.java:38: error: cannot find symbol
+            assertEquals(values2[r], m2.get(r), TOL);
+                                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_45
+CodexTest_0_7_45.java:39: error: cannot find symbol
+            assertEquals(values2[r], m3.get(r), TOL);
+                                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_45

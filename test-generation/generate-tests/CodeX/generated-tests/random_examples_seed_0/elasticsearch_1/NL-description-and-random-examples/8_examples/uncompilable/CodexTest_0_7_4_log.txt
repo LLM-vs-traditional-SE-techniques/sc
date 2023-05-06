@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_7_4.java:66: error: cannot find symbol
+        ConfigurationBuilder builder = new ConfigurationBuilder();
+        ^
+  symbol:   class ConfigurationBuilder
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:66: error: cannot find symbol
+        ConfigurationBuilder builder = new ConfigurationBuilder();
+                                           ^
+  symbol:   class ConfigurationBuilder
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:67: error: cannot find symbol
+        Configuration configuration = builder.build();
+        ^
+  symbol:   class Configuration
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:69: error: variable parent is already defined in method testParent()
+        String parent = configuration.parent();
+               ^

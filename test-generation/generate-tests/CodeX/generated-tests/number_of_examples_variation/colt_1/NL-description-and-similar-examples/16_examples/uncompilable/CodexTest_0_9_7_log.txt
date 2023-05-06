@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_7.java:41: error: cannot find symbol
+        DenseDoubleMatrix2D ddm = DenseDoubleMatrix2D.wrap(dmData);
+                                                     ^
+  symbol:   method wrap(double[][])
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix2D
+CodexTest_0_9_7.java:42: error: cannot find symbol
+        DenseDoubleMatrix2D dd  = DenseDoubleMatrix2D.wrap(denseData);
+                                                     ^
+  symbol:   method wrap(double[][])
+  location: class cern.colt.matrix.impl.DenseDoubleMatrix2D
+CodexTest_0_9_7.java:43: error: cannot find symbol
+		assertEquals(true, ddm.isDiagonal());
+		                      ^
+  symbol:   method isDiagonal()
+  location: variable ddm of type cern.colt.matrix.impl.DenseDoubleMatrix2D
+CodexTest_0_9_7.java:44: error: cannot find symbol
+		assertEquals(false, dd.isDiagonal());
+		                      ^
+  symbol:   method isDiagonal()
+  location: variable dd of type cern.colt.matrix.impl.DenseDoubleMatrix2D

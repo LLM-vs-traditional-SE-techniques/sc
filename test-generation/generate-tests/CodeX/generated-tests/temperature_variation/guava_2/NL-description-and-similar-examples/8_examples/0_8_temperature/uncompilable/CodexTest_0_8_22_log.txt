@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_22.java:25: error: cannot find symbol
+    byte[] bytes = BitArray.fromHexString("f0e0d0c0").toByteArray();
+                   ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_8_22
+CodexTest_0_8_22.java:29: error: cannot find symbol
+    assertEquals(4, BitArray.fromHexString("f0e0d0c0").writeBytesTo(dest, 0, 4));
+                    ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_8_22
+CodexTest_0_8_22.java:30: error: cannot find symbol
+    assertHexEquals("f0e0d0c0", dest);
+    ^
+  symbol:   method assertHexEquals(java.lang.String,byte[])
+  location: class CodexTest_0_8_22

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_1.java:16: error: ';' expected
+Suggest a test for a method with the Boolean toBoolean(Boolean value) signature.
+         ^
+CodexTest_0_7_1.java:16: error: <identifier> expected
+Suggest a test for a method with the Boolean toBoolean(Boolean value) signature.
+              ^
+CodexTest_0_7_1.java:16: error: ';' expected
+Suggest a test for a method with the Boolean toBoolean(Boolean value) signature.
+                           ^
+CodexTest_0_7_1.java:16: error: ';' expected
+Suggest a test for a method with the Boolean toBoolean(Boolean value) signature.
+                                    ^
+CodexTest_0_7_1.java:16: error: ';' expected
+Suggest a test for a method with the Boolean toBoolean(Boolean value) signature.
+                                                                     ^

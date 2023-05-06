@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_4_2.java:65: error: cannot find symbol
+        assertEquals(this.parent, this.parent());
+                         ^
+  symbol: variable parent
+CodexTest_0_4_2.java:65: error: 'void' type not allowed here
+        assertEquals(this.parent, this.parent());
+                                             ^

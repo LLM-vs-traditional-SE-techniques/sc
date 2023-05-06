@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_21.java:19: error: cannot find symbol
+        TestNumber<Integer> b = TestObjectBuilder.getTestInteger();
+        ^
+  symbol:   class TestNumber
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:19: error: cannot find symbol
+        TestNumber<Integer> b = TestObjectBuilder.getTestInteger();
+                                ^
+  symbol:   variable TestObjectBuilder
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:20: error: cannot find symbol
+        Property<Integer> p = TestObjectBuilder.createNumberElementProperty(TestObjectBuilder.NUMBER_0_NAME, b, TestObjectBuilder.TOKEN0_KEY);
+        ^
+  symbol:   class Property
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:20: error: cannot find symbol
+        Property<Integer> p = TestObjectBuilder.createNumberElementProperty(TestObjectBuilder.NUMBER_0_NAME, b, TestObjectBuilder.TOKEN0_KEY);
+                                                                            ^
+  symbol:   variable TestObjectBuilder
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:20: error: cannot find symbol
+        Property<Integer> p = TestObjectBuilder.createNumberElementProperty(TestObjectBuilder.NUMBER_0_NAME, b, TestObjectBuilder.TOKEN0_KEY);
+                                                                                                                ^
+  symbol:   variable TestObjectBuilder
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:20: error: cannot find symbol
+        Property<Integer> p = TestObjectBuilder.createNumberElementProperty(TestObjectBuilder.NUMBER_0_NAME, b, TestObjectBuilder.TOKEN0_KEY);
+                              ^
+  symbol:   variable TestObjectBuilder
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:21: error: cannot find symbol
+        Assert.assertEquals(p.getName(), TestObjectBuilder.NUMBER_0_NAME);
+                                         ^
+  symbol:   variable TestObjectBuilder
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:22: error: cannot find symbol
+        Assert.assertEquals(p.getDefaultValue(), TestObjectBuilder.TOKEN0_KEY);
+                                                 ^
+  symbol:   variable TestObjectBuilder
+  location: class CodexTest_0_9_21

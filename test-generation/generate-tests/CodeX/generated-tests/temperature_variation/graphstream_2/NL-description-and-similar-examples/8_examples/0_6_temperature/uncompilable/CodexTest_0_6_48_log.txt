@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_6_48.java:21: error: cannot find symbol
+        p.add(graph.getEdge(ab));
+                            ^
+  symbol:   variable ab
+  location: class CodexTest_0_6_48
+CodexTest_0_6_48.java:21: error: cannot find symbol
+        p.add(graph.getEdge(ab));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_48
+CodexTest_0_6_48.java:22: error: cannot find symbol
+        p.add(graph.getEdge(bc));
+                            ^
+  symbol:   variable bc
+  location: class CodexTest_0_6_48
+CodexTest_0_6_48.java:22: error: cannot find symbol
+        p.add(graph.getEdge(bc));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_48
+CodexTest_0_6_48.java:23: error: cannot find symbol
+        p.add(graph.getEdge(cd));
+                            ^
+  symbol:   variable cd
+  location: class CodexTest_0_6_48
+CodexTest_0_6_48.java:23: error: cannot find symbol
+        p.add(graph.getEdge(cd));
+              ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_48
+CodexTest_0_6_48.java:24: error: cannot find symbol
+        assertEquals(path, p);
+                     ^
+  symbol:   variable path
+  location: class CodexTest_0_6_48

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_92.java:33: error: cannot find symbol
+        Assert.assertEquals(v.scalarMultiply(2), v.sum(v));
+                                                  ^
+  symbol:   method sum(org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D

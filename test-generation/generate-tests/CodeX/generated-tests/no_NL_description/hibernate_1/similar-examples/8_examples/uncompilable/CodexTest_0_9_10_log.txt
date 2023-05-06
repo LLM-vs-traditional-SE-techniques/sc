@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_9_10.java:16: error: cannot find symbol
+        BasicTypeRegistry basicTypeRegistry = new BasicTypeRegistry();
+        ^
+  symbol:   class BasicTypeRegistry
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:16: error: cannot find symbol
+        BasicTypeRegistry basicTypeRegistry = new BasicTypeRegistry();
+                                                  ^
+  symbol:   class BasicTypeRegistry
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:17: error: cannot find symbol
+        CompositeCustomType<EnumFixture> enumFixtureType = basicTypeRegistry.getRegisteredCompositeType( EnumFixture.class );
+        ^
+  symbol:   class CompositeCustomType
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:17: error: cannot find symbol
+        CompositeCustomType<EnumFixture> enumFixtureType = basicTypeRegistry.getRegisteredCompositeType( EnumFixture.class );
+                            ^
+  symbol:   class EnumFixture
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:17: error: cannot find symbol
+        CompositeCustomType<EnumFixture> enumFixtureType = basicTypeRegistry.getRegisteredCompositeType( EnumFixture.class );
+                                                                                                         ^
+  symbol:   class EnumFixture
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:18: error: cannot find symbol
+        CompositeAttributeConverter<EnumFixture> converter = buildAttributeConverter( basicTypeRegistry, EnumFixture.class );
+        ^
+  symbol:   class CompositeAttributeConverter
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:18: error: cannot find symbol
+        CompositeAttributeConverter<EnumFixture> converter = buildAttributeConverter( basicTypeRegistry, EnumFixture.class );
+                                    ^
+  symbol:   class EnumFixture
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:18: error: cannot find symbol
+        CompositeAttributeConverter<EnumFixture> converter = buildAttributeConverter( basicTypeRegistry, EnumFixture.class );
+                                                                                                         ^
+  symbol:   class EnumFixture
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:19: error: cannot find symbol
+        EnumFixture original = new EnumFixture( SomeEnum.ONE );
+        ^
+  symbol:   class EnumFixture
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:19: error: cannot find symbol
+        EnumFixture original = new EnumFixture( SomeEnum.ONE );
+                                   ^
+  symbol:   class EnumFixture
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:19: error: cannot find symbol
+        EnumFixture original = new EnumFixture( SomeEnum.ONE );
+                                                ^
+  symbol:   variable SomeEnum
+  location: class CodexTest_0_9_10

@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_9_68.java:67: error: package MultiGetResponse does not exist
+        MultiGetResponse.Item item = new MultiGetResponse.Item(null, null);
+                        ^
+CodexTest_0_9_68.java:67: error: package MultiGetResponse does not exist
+        MultiGetResponse.Item item = new MultiGetResponse.Item(null, null);
+                                                         ^
+CodexTest_0_9_68.java:70: error: cannot find symbol
+        assertThat(actual, equalTo(expected));
+                           ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_68

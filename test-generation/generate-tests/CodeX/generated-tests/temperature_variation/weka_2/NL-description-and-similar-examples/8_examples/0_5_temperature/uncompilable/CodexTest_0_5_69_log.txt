@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_5_69.java:32: error: <identifier> expected
+Input: public void add(Edge edge) {
+     ^
+CodexTest_0_5_69.java:39: error: <identifier> expected
+Output: @Test(expected = IllegalArgumentException.class)
+      ^
+CodexTest_0_5_69.java:44: error: reached end of file while parsing
+}
+ ^

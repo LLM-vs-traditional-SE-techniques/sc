@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_0_1.java:57: error: ')' expected
+        Edge edge38 = new Edge(38, 39
+                                     ^
+CodexTest_0_0_1.java:58: error: reached end of file while parsing
+}
+ ^

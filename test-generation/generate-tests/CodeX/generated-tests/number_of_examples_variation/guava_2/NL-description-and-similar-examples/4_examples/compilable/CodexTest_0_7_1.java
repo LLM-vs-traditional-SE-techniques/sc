@@ -1,0 +1,33 @@
+import com.google.common.hash.*;
+import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.common.base.Preconditions.checkState;
+import com.google.common.annotations.Beta;
+import com.google.common.base.Preconditions;
+import com.google.common.primitives.Ints;
+import com.google.common.primitives.UnsignedInts;
+import java.io.Serializable;
+
+import static com.google.common.io.BaseEncoding.base16;
+import com.google.common.base.Charsets;
+import com.google.common.collect.ImmutableList;
+import com.google.common.io.BaseEncoding;
+import java.util.Arrays;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_7_1 { 
+  @Test
+  public static void testWriteBytesTo() {
+    int numBytes = 42;
+    byte[] bytes = new byte[numBytes];
+    HashCode hash = Hashing.crc32().hashBytes(bytes);
+    assertEquals(32, hash.bits());
+    byte[] expected = new byte[numBytes];
+    hash.writeBytesTo(expected, 0, numBytes);
+    assertArrayEquals(expected, bytes);
+  }
+}

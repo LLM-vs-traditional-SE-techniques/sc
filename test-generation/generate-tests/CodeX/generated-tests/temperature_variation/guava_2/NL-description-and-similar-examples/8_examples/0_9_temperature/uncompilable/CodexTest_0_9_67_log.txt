@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_67.java:26: error: cannot find symbol
+	  fBitVector.writeBytesTo(null, fIndex, fNumberOfBits > 8 ? 8 : 1);
+	                                ^
+  symbol:   variable fIndex
+  location: class CodexTest_0_9_67
+CodexTest_0_9_67.java:26: error: cannot find symbol
+	  fBitVector.writeBytesTo(null, fIndex, fNumberOfBits > 8 ? 8 : 1);
+	                                        ^
+  symbol:   variable fNumberOfBits
+  location: class CodexTest_0_9_67
+CodexTest_0_9_67.java:26: error: cannot find symbol
+	  fBitVector.writeBytesTo(null, fIndex, fNumberOfBits > 8 ? 8 : 1);
+	  ^
+  symbol:   variable fBitVector
+  location: class CodexTest_0_9_67

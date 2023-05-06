@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_4.java:70: error: cannot find symbol
+            ToXContent.EMPTY_PARAMS);
+            ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_7_4

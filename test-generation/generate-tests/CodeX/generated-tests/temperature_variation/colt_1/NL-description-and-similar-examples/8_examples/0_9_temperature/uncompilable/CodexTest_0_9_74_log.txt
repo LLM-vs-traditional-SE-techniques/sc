@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_74.java:41: error: incompatible types: double[] cannot be converted to double
+			DoubleMatrix3D m1 = DoubleFactory3D.dense.make(4,4,4,temp);
+			                                                     ^
+CodexTest_0_9_74.java:44: error: cannot find symbol
+			m1.viewSlice(0).zAssign(m2);
+			               ^
+  symbol:   method zAssign(cern.colt.matrix.DoubleMatrix2D)
+  location: class cern.colt.matrix.DoubleMatrix2D
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

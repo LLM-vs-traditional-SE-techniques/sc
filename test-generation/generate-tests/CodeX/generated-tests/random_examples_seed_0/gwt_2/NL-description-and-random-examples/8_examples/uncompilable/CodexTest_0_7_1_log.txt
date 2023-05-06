@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_7_1.java:15: error: cannot find symbol
+    UncaughtExceptionHandler handler = Thread.getUncaughtExceptionHandler();
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:15: error: non-static method getUncaughtExceptionHandler() cannot be referenced from a static context
+    UncaughtExceptionHandler handler = Thread.getUncaughtExceptionHandler();
+                                             ^
+CodexTest_0_7_1.java:16: error: cannot find symbol
+    assertSame(UncaughtExceptionHandler.class, handler.getClass());
+               ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_7_1

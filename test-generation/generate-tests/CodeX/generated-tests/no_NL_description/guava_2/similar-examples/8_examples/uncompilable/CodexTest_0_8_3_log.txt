@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_3.java:36: error: cannot find symbol
+    checkPositionIndexes(offset, offset + 8, dest.length);
+    ^
+  symbol:   method checkPositionIndexes(int,int,int)
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:37: error: cannot find symbol
+    writeLong(dest, offset, value);
+    ^
+  symbol:   method writeLong(byte[],int,long)
+  location: class CodexTest_0_8_3

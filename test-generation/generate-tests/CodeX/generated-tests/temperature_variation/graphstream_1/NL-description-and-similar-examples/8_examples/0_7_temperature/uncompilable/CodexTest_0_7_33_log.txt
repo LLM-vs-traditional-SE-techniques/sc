@@ -1,0 +1,60 @@
+isCompilable => false
+CodexTest_0_7_33.java:20: error: cannot find symbol
+                DirectedGraph<Vertex, Edge> graph = new DirectedSparseMultigraph<Vertex, Edge>();
+                ^
+  symbol:   class DirectedGraph
+  location: class CodexTest_0_7_33
+CodexTest_0_7_33.java:20: error: cannot find symbol
+                DirectedGraph<Vertex, Edge> graph = new DirectedSparseMultigraph<Vertex, Edge>();
+                              ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_33
+CodexTest_0_7_33.java:20: error: cannot find symbol
+                DirectedGraph<Vertex, Edge> graph = new DirectedSparseMultigraph<Vertex, Edge>();
+                                                        ^
+  symbol:   class DirectedSparseMultigraph
+  location: class CodexTest_0_7_33
+CodexTest_0_7_33.java:20: error: cannot find symbol
+                DirectedGraph<Vertex, Edge> graph = new DirectedSparseMultigraph<Vertex, Edge>();
+                                                                                 ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_33
+CodexTest_0_7_33.java:21: error: cannot find symbol
+                Vertex v1 = new Vertex("1");
+                ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_33
+CodexTest_0_7_33.java:21: error: cannot find symbol
+                Vertex v1 = new Vertex("1");
+                                ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_33
+CodexTest_0_7_33.java:22: error: cannot find symbol
+                Vertex v2 = new Vertex("2");
+                ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_33
+CodexTest_0_7_33.java:22: error: cannot find symbol
+                Vertex v2 = new Vertex("2");
+                                ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_33
+CodexTest_0_7_33.java:23: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+                Edge e = new Edge("ab", v1, v2);
+                         ^
+CodexTest_0_7_33.java:25: error: cannot find symbol
+                Path<Vertex, Edge> path = new Path<Vertex, Edge>();
+                     ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_33
+CodexTest_0_7_33.java:25: error: type org.graphstream.graph.Path does not take parameters
+                Path<Vertex, Edge> path = new Path<Vertex, Edge>();
+                    ^
+CodexTest_0_7_33.java:25: error: cannot find symbol
+                Path<Vertex, Edge> path = new Path<Vertex, Edge>();
+                                                   ^
+  symbol:   class Vertex
+  location: class CodexTest_0_7_33
+CodexTest_0_7_33.java:25: error: type org.graphstream.graph.Path does not take parameters
+                Path<Vertex, Edge> path = new Path<Vertex, Edge>();
+                                                  ^

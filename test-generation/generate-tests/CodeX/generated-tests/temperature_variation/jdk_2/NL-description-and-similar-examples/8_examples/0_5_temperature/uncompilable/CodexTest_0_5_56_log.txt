@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_5_56.java:21: error: cannot find symbol
+        assertFalse(set.contains(1));
+                    ^
+  symbol:   variable set
+  location: class CodexTest_0_5_56
+CodexTest_0_5_56.java:22: error: cannot find symbol
+        assertFalse(set.contains(2));
+                    ^
+  symbol:   variable set
+  location: class CodexTest_0_5_56
+CodexTest_0_5_56.java:23: error: cannot find symbol
+        set.add(1);
+        ^
+  symbol:   variable set
+  location: class CodexTest_0_5_56
+CodexTest_0_5_56.java:24: error: cannot find symbol
+        assertTrue(set.contains(1));
+                   ^
+  symbol:   variable set
+  location: class CodexTest_0_5_56
+CodexTest_0_5_56.java:25: error: cannot find symbol
+        assertFalse(set.contains(2));
+                    ^
+  symbol:   variable set
+  location: class CodexTest_0_5_56
+CodexTest_0_5_56.java:26: error: cannot find symbol
+        set.add(2);
+        ^
+  symbol:   variable set
+  location: class CodexTest_0_5_56
+CodexTest_0_5_56.java:27: error: cannot find symbol
+        assertTrue(set.contains(1));
+                   ^
+  symbol:   variable set
+  location: class CodexTest_0_5_56
+CodexTest_0_5_56.java:28: error: cannot find symbol
+        assertTrue(set.contains(2));
+                   ^
+  symbol:   variable set
+  location: class CodexTest_0_5_56

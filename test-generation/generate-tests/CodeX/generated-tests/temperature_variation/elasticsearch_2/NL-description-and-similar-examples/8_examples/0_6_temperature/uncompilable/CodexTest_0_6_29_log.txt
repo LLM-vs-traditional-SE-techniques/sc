@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_29.java:67: error: cannot find symbol
+        String defaultSource = Strings.toString(indexRequest.source());
+                               ^
+  symbol:   variable Strings
+  location: class CodexTest_0_6_29
+CodexTest_0_6_29.java:71: error: cannot find symbol
+        assertEquals("{}", Strings.toString(indexRequest.source()));
+                           ^
+  symbol:   variable Strings
+  location: class CodexTest_0_6_29
+CodexTest_0_6_29.java:74: error: cannot find symbol
+        assertEquals("{}", Strings.toString(indexRequest.source()));
+                           ^
+  symbol:   variable Strings
+  location: class CodexTest_0_6_29

@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_5_2.java:16: error: reference to assertEquals is ambiguous
+    assertEquals(0, BooleanTypeDescriptor.INSTANCE.toShort(false));
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_5_2.java:19: error: reference to assertEquals is ambiguous
+    assertEquals(1, BooleanTypeDescriptor.INSTANCE.toShort(true));
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_5_2.java:22: error: reference to assertEquals is ambiguous
+    assertEquals(0, BooleanTypeDescriptor.INSTANCE.toShort(null));
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_5_2.java:25: error: incompatible types: java.lang.Object cannot be converted to java.lang.Boolean
+    assertEquals(1, BooleanTypeDescriptor.INSTANCE.toShort(new Object()));
+                                                           ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

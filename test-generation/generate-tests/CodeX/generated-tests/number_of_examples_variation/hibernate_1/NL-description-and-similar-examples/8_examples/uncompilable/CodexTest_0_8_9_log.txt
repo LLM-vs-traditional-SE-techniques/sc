@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_8_9.java:16: error: package TestUtil does not exist
+    TestUtil.runAndVerifyTest(new TestUtil.Function() {
+                                          ^
+CodexTest_0_8_9.java:16: error: cannot find symbol
+    TestUtil.runAndVerifyTest(new TestUtil.Function() {
+    ^
+  symbol:   variable TestUtil
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:22: error: package TestUtil does not exist
+    TestUtil.runAndVerifyTest(new TestUtil.Function() {
+                                          ^
+CodexTest_0_8_9.java:22: error: cannot find symbol
+    TestUtil.runAndVerifyTest(new TestUtil.Function() {
+    ^
+  symbol:   variable TestUtil
+  location: class CodexTest_0_8_9

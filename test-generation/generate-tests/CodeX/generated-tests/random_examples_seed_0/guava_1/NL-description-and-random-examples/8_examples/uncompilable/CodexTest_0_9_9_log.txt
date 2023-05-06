@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_9.java:25: error: cannot find symbol
+    assertEquals(32, LONG_HASH_CODE.bits());
+                     ^
+  symbol:   variable LONG_HASH_CODE
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:26: error: cannot find symbol
+    assertEquals(0, fromLong(0).asLong());
+                    ^
+  symbol:   method fromLong(int)
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:27: error: cannot find symbol
+    assertEquals(15, fromLong(15).asLong());
+                     ^
+  symbol:   method fromLong(int)
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:28: error: cannot find symbol
+    assertEquals(0x1234567890ABCDEFL, fromLong(0x1234567890ABCDEFL).asLong());
+                                      ^
+  symbol:   method fromLong(long)
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:29: error: cannot find symbol
+    assertEquals(0xFFFFFFFFFFFFFFFFL, fromLong(0xFFFFFFFFFFFFFFFFL).asLong());
+                                      ^
+  symbol:   method fromLong(long)
+  location: class CodexTest_0_9_9

@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_91.java:65: error: cannot find symbol
+        Builder builder = ImmutableList.builder();
+        ^
+  symbol:   class Builder
+  location: class CodexTest_0_9_91
+CodexTest_0_9_91.java:65: error: cannot find symbol
+        Builder builder = ImmutableList.builder();
+                          ^
+  symbol:   variable ImmutableList
+  location: class CodexTest_0_9_91
+CodexTest_0_9_91.java:66: error: cannot find symbol
+        builder.add(Requests.deleteByQueryRequest("twitter").query("name:drew"));
+                            ^
+  symbol:   method deleteByQueryRequest(java.lang.String)
+  location: class org.elasticsearch.client.Requests
+CodexTest_0_9_91.java:67: error: cannot find symbol
+        builder.add(Requests.deleteByQueryRequest("megacorp").query("name:drew").parent("drew"));
+                            ^
+  symbol:   method deleteByQueryRequest(java.lang.String)
+  location: class org.elasticsearch.client.Requests
+CodexTest_0_9_91.java:68: error: cannot find symbol
+        DeleteByQueryRequest dbqr = Requests.deleteByQueryRequest("twitter,megacorp").types("tweet", "employee").query("name:drew").parent("drew");
+        ^
+  symbol:   class DeleteByQueryRequest
+  location: class CodexTest_0_9_91
+CodexTest_0_9_91.java:68: error: cannot find symbol
+        DeleteByQueryRequest dbqr = Requests.deleteByQueryRequest("twitter,megacorp").types("tweet", "employee").query("name:drew").parent("drew");
+                                            ^
+  symbol:   method deleteByQueryRequest(java.lang.String)
+  location: class org.elasticsearch.client.Requests
+CodexTest_0_9_91.java:69: error: cannot find symbol
+        BulkRequest bulkRequest = new BulkRequest();
+        ^
+  symbol:   class BulkRequest
+  location: class CodexTest_0_9_91
+CodexTest_0_9_91.java:69: error: cannot find symbol
+        BulkRequest bulkRequest = new BulkRequest();
+                                      ^
+  symbol:   class BulkRequest
+  location: class CodexTest_0_9_91

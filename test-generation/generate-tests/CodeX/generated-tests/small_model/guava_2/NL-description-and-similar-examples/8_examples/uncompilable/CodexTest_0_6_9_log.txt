@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_9.java:26: error: cannot find symbol
+    ByteBuffer buf = ByteBuffer.wrap(bytes);
+    ^
+  symbol:   class ByteBuffer
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:26: error: cannot find symbol
+    ByteBuffer buf = ByteBuffer.wrap(bytes);
+                     ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_6_9

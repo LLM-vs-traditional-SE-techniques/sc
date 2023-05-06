@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_9.java:65: error: cannot find symbol
+        ParentJoinFieldMapper parentJoinFieldMapper = new ParentJoinFieldMapper(
+        ^
+  symbol:   class ParentJoinFieldMapper
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:65: error: cannot find symbol
+        ParentJoinFieldMapper parentJoinFieldMapper = new ParentJoinFieldMapper(
+                                                          ^
+  symbol:   class ParentJoinFieldMapper
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:66: error: cannot find symbol
+                "parentFieldMapper", "type", new FieldType(Defaults.FIELD_TYPE),
+                                                 ^
+  symbol:   class FieldType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:66: error: cannot find symbol
+                "parentFieldMapper", "type", new FieldType(Defaults.FIELD_TYPE),
+                                                           ^
+  symbol:   variable Defaults
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:67: error: cannot find symbol
+                createIndexSettings(), multiFieldsBuilder(), copyTo());
+                ^
+  symbol:   method createIndexSettings()
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:67: error: cannot find symbol
+                createIndexSettings(), multiFieldsBuilder(), copyTo());
+                                       ^
+  symbol:   method multiFieldsBuilder()
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:67: error: cannot find symbol
+                createIndexSettings(), multiFieldsBuilder(), copyTo());
+                                                             ^
+  symbol:   method copyTo()
+  location: class CodexTest_0_8_9

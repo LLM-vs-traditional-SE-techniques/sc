@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_15.java:18: error: cannot find symbol
+            Instances data = makeTestInstances();;
+                             ^
+  symbol:   method makeTestInstances()
+  location: class CodexTest_0_9_15
+CodexTest_0_9_15.java:20: error: cannot find symbol
+            Vector v = new Vector(new double[]{1, 2, 3, 4});
+            ^
+  symbol:   class Vector
+  location: class CodexTest_0_9_15
+CodexTest_0_9_15.java:20: error: cannot find symbol
+            Vector v = new Vector(new double[]{1, 2, 3, 4});
+                           ^
+  symbol:   class Vector
+  location: class CodexTest_0_9_15

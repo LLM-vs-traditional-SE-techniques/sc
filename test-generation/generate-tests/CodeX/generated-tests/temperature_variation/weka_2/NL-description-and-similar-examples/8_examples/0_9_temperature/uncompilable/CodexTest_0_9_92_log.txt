@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_92.java:47: error: ')' expected
+                newInst
+                       ^
+CodexTest_0_9_92.java:48: error: reached end of file while parsing
+}
+ ^

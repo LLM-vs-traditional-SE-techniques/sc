@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_6_63.java:66: error: cannot find symbol
+        XContentParser parser = JsonXContent.jsonXContent.createParser(json);
+        ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_6_63
+CodexTest_0_6_63.java:66: error: package JsonXContent does not exist
+        XContentParser parser = JsonXContent.jsonXContent.createParser(json);
+                                            ^

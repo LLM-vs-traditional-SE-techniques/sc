@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_3.java:67: error: ';' expected
+    int numT
+            ^
+CodexTest_0_2_3.java:68: error: reached end of file while parsing
+}
+ ^

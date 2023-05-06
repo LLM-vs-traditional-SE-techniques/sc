@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_5_83.java:75: error: ';' expected
+        Object o
+                ^
+CodexTest_0_5_83.java:76: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_6.java:15: error: cannot find symbol
+    final UncaughtExceptionHandler handler = mock(UncaughtExceptionHandler.class);
+          ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:15: error: cannot find symbol
+    final UncaughtExceptionHandler handler = mock(UncaughtExceptionHandler.class);
+                                                  ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:17: error: cannot find symbol
+    final UncaughtExceptionHandler h = ThreadConfiguration.getUncaughtExceptionHandler();
+          ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:17: error: cannot find symbol
+    final UncaughtExceptionHandler h = ThreadConfiguration.getUncaughtExceptionHandler();
+                                       ^
+  symbol:   variable ThreadConfiguration
+  location: class CodexTest_0_9_6

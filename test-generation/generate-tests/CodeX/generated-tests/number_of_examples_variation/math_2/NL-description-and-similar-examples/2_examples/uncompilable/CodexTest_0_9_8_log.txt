@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_8.java:38: error: <identifier> expected
+Input: public Vector1D add(Vector1D v) {
+     ^
+CodexTest_0_9_8.java:41: error: <identifier> expected
+Output: 
+      ^
+CodexTest_0_9_8.java:48: error: <identifier> expected
+Input: public Vector1D multiply(double a) {
+     ^
+CodexTest_0_9_8.java:49: error: ')' expected
+        return new Vector1D(a
+                             ^
+CodexTest_0_9_8.java:50: error: reached end of file while parsing
+}
+ ^

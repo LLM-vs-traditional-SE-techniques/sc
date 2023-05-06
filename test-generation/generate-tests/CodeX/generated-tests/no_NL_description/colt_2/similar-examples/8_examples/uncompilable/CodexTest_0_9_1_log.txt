@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_1.java:38: error: <identifier> expected
+Input: public abstract double getY();
+     ^
+CodexTest_0_9_1.java:39: error: <identifier> expected
+Output: @Test
+      ^
+CodexTest_0_9_1.java:44: error: <identifier> expected
+Input: 	public abstract double getZ();
+     ^
+CodexTest_0_9_1.java:45: error: <identifier> expected
+Output: 	@Test
+      ^
+CodexTest_0_9_1.java:50: error: <identifier> expected
+Input:  public Numeric getNumericContent() {
+     ^
+CodexTest_0_9_1.java:59: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_1.java:67: error: <identifier> expected
+Input:		 public static DoubleMatrix2D add(DoubleMatrix
+     ^
+CodexTest_0_9_1.java:67: error: <identifier> expected
+Input:		 public static DoubleMatrix2D add(DoubleMatrix
+      		                                              ^
+CodexTest_0_9_1.java:68: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_59.java:34: error: <identifier> expected
+Input: public void setElement(int index, double value) {
+     ^
+CodexTest_0_8_59.java:37: error: <identifier> expected
+Output: public void testSetElement() {
+      ^
+CodexTest_0_8_59.java:51: error: <identifier> expected
+Input: public void write(int b) throws IOException {
+     ^
+CodexTest_0_8_59.java:58: error: <identifier> expected
+Output: public void testCharBufferOverflow() {
+      ^
+CodexTest_0_8_59.java:67: error: reached end of file while parsing
+}
+ ^

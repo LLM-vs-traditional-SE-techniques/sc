@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_48.java:66: error: cannot find symbol
+        ParentMetric parentMetric = new ParentMetric(my_parent);
+        ^
+  symbol:   class ParentMetric
+  location: class CodexTest_0_8_48
+CodexTest_0_8_48.java:66: error: cannot find symbol
+        ParentMetric parentMetric = new ParentMetric(my_parent);
+                                        ^
+  symbol:   class ParentMetric
+  location: class CodexTest_0_8_48

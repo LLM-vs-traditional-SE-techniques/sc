@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_8_2.java:22: error: cannot find symbol
+        ComponentCollection underTest = new ComponentCollection(2);
+        ^
+  symbol:   class ComponentCollection
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:22: error: cannot find symbol
+        ComponentCollection underTest = new ComponentCollection(2);
+                                            ^
+  symbol:   class ComponentCollection
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:23: error: cannot find symbol
+        Component component = new Component();
+        ^
+  symbol:   class Component
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:23: error: cannot find symbol
+        Component component = new Component();
+                                  ^
+  symbol:   class Component
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:27: error: incompatible types: int cannot be converted to boolean
+        assertTrue(result);
+                   ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

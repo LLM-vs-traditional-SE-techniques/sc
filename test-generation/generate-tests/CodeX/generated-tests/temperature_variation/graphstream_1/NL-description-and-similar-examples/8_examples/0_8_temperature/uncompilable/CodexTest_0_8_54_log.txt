@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_54.java:21: error: cannot find symbol
+    	graph.addEdge(new DefaultEdge());
+    	                  ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_54
+CodexTest_0_8_54.java:22: error: cannot find symbol
+    	DefaultPath p = new DefaultPath(graph.getEdgeSet());
+    	^
+  symbol:   class DefaultPath
+  location: class CodexTest_0_8_54
+CodexTest_0_8_54.java:22: error: cannot find symbol
+    	DefaultPath p = new DefaultPath(graph.getEdgeSet());
+    	                    ^
+  symbol:   class DefaultPath
+  location: class CodexTest_0_8_54

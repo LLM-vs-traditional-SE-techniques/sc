@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_13.java:30: error: cannot find symbol
+        assertEquals(1, am.like2D(1, 1).rows());
+                        ^
+  symbol:   variable am
+  location: class CodexTest_0_7_13
+CodexTest_0_7_13.java:31: error: cannot find symbol
+        assertEquals(1, am.like2D(1, 1).columns());
+                        ^
+  symbol:   variable am
+  location: class CodexTest_0_7_13

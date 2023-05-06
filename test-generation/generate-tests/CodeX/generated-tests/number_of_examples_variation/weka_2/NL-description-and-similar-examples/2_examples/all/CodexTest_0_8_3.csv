@@ -1,0 +1,96 @@
+prompt,output
+"Suggest a test for a method with the Instance getAsInstance(Instances model, Random random) signature.
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public Instance getAsInstance(Instances model, Random random) 
+    throws Exception {
+    Instance newInst = null;
+    if (m_Elements != null) {
+      newInst = new DenseInstance(model.numAttributes());
+      newInst.setDataset(model);
+            for (int i = 0, j = 0; i < model.numAttributes(); i++) {
+	if (model.attribute(i).isNumeric()) {
+	  if (j >= m_Elements.length)
+	    throw new Exception(""Datatypes are not compatible.""); 
+	  newInst.setValue(i, m_Elements[j++]);
+	}
+	if (model.attribute(i).isNominal()) {
+	  int newVal = (int) 
+	    (random.nextDouble() * (double) (model.attribute(i).numValues()));
+	  if (newVal == (int) model.attribute(i).numValues())
+	    newVal -= 1;
+	  newInst.setValue(i, newVal);
+	}
+      }
+    }
+    return newInst;
+  }
+Output:
+  ","import weka.core.*;
+import java.io.Serializable;
+import java.util.Random;
+
+import weka.core.*;
+import java.util.Random;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_8_3 { 
+  @Test
+  public void testGetAsInstance() throws Exception {
+    int len = 10;
+    AlgVector v = createRandomVector(len);
+    Instances m = getRandomInstances(len);
+    
+    // Create random instance
+    Instance i = createRandomInstance(m);
+    Instance i2 = v.getAsInstance(m, new Random(1));
+    
+    assertEquals(i, i2);
+  }
+  
+  private AlgVector createRandomVector(int length) {
+    double[] data = new double[length];
+    for (int i = 0; i < length; i++)
+      data[i] = Math.random();
+    
+    AlgVector v = new AlgVector(data);
+    return v;
+  }
+  
+  private Instances getRandomInstances(int length) {
+    Instances data = new Instances(new FastVector(), new FastVector());
+    for (int i = 0; i < length; i++) {
+      Attribute a = new Attribute(""Attribute-"" + i);
+      data.insertAttributeAt(a, data.numAttributes());
+    }
+    data.setClassIndex(data.numAttributes()-1);
+    return data;
+  }
+  
+  private Instance createRandomInstance(Instances data) {
+}"

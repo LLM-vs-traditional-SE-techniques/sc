@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_5_53.java:32: error: no suitable method found for assign(double[])
+        A.assign(values);
+         ^
+    method cern.colt.matrix.DoubleMatrix2D.assign(double[][]) is not applicable
+      (argument mismatch; double[] cannot be converted to double[][])
+    method cern.colt.matrix.DoubleMatrix2D.assign(double) is not applicable
+      (argument mismatch; double[] cannot be converted to double)
+    method cern.colt.matrix.DoubleMatrix2D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.DoubleMatrix2D.assign(cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+CodexTest_0_5_53.java:36: error: cannot find symbol
+                assertEquals(values[r * 3 + c], B[r][c], TOL);
+                                                         ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_53
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

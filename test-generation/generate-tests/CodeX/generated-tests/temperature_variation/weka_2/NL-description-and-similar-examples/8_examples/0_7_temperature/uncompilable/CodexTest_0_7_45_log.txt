@@ -1,0 +1,15 @@
+isCompilable => false
+CodexTest_0_7_45.java:21: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                                            ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_7_45
+CodexTest_0_7_45.java:21: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                                                               ^
+  symbol:   class StringReader
+  location: class CodexTest_0_7_45
+CodexTest_0_7_45.java:30: error: incompatible types: possible lossy conversion from double to int
+                newInst.classAttribute().value(newInst.classValue()));
+                                                                 ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

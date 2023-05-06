@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_8.java:20: error: cannot find symbol
+        boolean result = edgePath.contains(edgeOne);
+                                           ^
+  symbol:   variable edgeOne
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:20: error: cannot find symbol
+        boolean result = edgePath.contains(edgeOne);
+                         ^
+  symbol:   variable edgePath
+  location: class CodexTest_0_9_8

@@ -1,0 +1,141 @@
+isCompilable => false
+CodexTest_0_5_36.java:21: error: cannot find symbol
+        list.add("1");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:22: error: cannot find symbol
+        list.add("2");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:23: error: cannot find symbol
+        list.add("3");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:24: error: cannot find symbol
+        list.add("4");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:25: error: cannot find symbol
+        list.add("5");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:26: error: cannot find symbol
+        list.add("6");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:27: error: cannot find symbol
+        list.add("7");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:28: error: cannot find symbol
+        list.add("8");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:29: error: cannot find symbol
+        list.add("9");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:30: error: cannot find symbol
+        list.add("10");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:31: error: cannot find symbol
+        list.add("11");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:32: error: cannot find symbol
+        list.add("12");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:33: error: cannot find symbol
+        list.add("13");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:34: error: cannot find symbol
+        list.add("14");
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:35: error: cannot find symbol
+        assertEquals("1", list.remove(0));
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:36: error: cannot find symbol
+        assertEquals("3", list.remove(1));
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:37: error: cannot find symbol
+        assertEquals("5", list.remove(2));
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:38: error: cannot find symbol
+        assertEquals("7", list.remove(3));
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:39: error: cannot find symbol
+        assertEquals("9", list.remove(4));
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:40: error: cannot find symbol
+        assertEquals("11", list.remove(5));
+                           ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:41: error: cannot find symbol
+        assertEquals("13", list.remove(6));
+                           ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:42: error: cannot find symbol
+        assertEquals("2", list.get(0));
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:43: error: cannot find symbol
+        assertEquals("4", list.get(1));
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:44: error: cannot find symbol
+        assertEquals("6", list.get(2));
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:45: error: cannot find symbol
+        assertEquals("8", list.get(3));
+                          ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:46: error: cannot find symbol
+        assertEquals("10", list.get(4));
+                           ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:47: error: cannot find symbol
+        assertEquals("12", list.get(5));
+                           ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36
+CodexTest_0_5_36.java:48: error: cannot find symbol
+        assertEquals("14", list.get(6));
+                           ^
+  symbol:   variable list
+  location: class CodexTest_0_5_36

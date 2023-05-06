@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_9_28.java:65: error: no suitable method found for assertEquals(java.lang.Class<java.lang.Exception>,java.io.IOException,java.lang.Class<capture#1 of ? extends java.io.IOException>)
+    assertEquals(Exception.class,  new IOException(),
+    ^
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; java.lang.Class<java.lang.Exception> cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; java.lang.Class<java.lang.Exception> cannot be converted to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; java.lang.Class<java.lang.Exception> cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; java.lang.Class<java.lang.Exception> cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; java.lang.Class<java.lang.Exception> cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; java.lang.Class<java.lang.Exception> cannot be converted to java.lang.String)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

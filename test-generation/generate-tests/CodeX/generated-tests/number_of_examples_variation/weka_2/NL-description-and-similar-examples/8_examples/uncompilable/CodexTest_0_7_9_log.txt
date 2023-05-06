@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_9.java:20: error: cannot find symbol
+    Instances model = new Instances(new BufferedReader(
+                                        ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:21: error: cannot find symbol
+				       new FileReader(new File(data.arff))));
+				           ^
+  symbol:   class FileReader
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:21: error: cannot find symbol
+				       new FileReader(new File(data.arff))));
+				                          ^
+  symbol:   class File
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:21: error: cannot find symbol
+				       new FileReader(new File(data.arff))));
+				                                   ^
+  symbol:   variable arff
+  location: variable data of type double[]

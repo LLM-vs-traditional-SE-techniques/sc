@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_3.java:30: error: cannot find symbol
+    return values;
+           ^
+  symbol:   variable values
+  location: class CodexTest_0_8_3

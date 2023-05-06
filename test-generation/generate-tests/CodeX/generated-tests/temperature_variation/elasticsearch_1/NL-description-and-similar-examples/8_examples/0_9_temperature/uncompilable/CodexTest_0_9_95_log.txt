@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_95.java:65: error: cannot find symbol
+        Settings settings = Settings.builder().put("cluster.name", "foo").build();
+        ^
+  symbol:   class Settings
+  location: class CodexTest_0_9_95
+CodexTest_0_9_95.java:65: error: cannot find symbol
+        Settings settings = Settings.builder().put("cluster.name", "foo").build();
+                            ^
+  symbol:   variable Settings
+  location: class CodexTest_0_9_95

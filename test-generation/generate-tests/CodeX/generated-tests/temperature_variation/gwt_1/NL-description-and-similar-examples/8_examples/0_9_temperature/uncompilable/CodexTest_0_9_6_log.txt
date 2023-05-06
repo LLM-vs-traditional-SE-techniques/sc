@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_6.java:17: error: cannot find symbol
+      double d = seven / zero;
+                 ^
+  symbol:   variable seven
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:17: error: cannot find symbol
+      double d = seven / zero;
+                         ^
+  symbol:   variable zero
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:19: error: cannot find symbol
+        failExpectedArithmeticException();
+        ^
+  symbol:   method failExpectedArithmeticException()
+  location: class CodexTest_0_9_6

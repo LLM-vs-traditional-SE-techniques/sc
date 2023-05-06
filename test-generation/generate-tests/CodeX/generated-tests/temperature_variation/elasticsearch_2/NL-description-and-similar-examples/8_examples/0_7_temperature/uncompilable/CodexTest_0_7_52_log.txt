@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_52.java:66: error: cannot find symbol
+            client().admin().indices().preparePutMapping("test")
+            ^
+  symbol:   method client()
+  location: class CodexTest_0_7_52

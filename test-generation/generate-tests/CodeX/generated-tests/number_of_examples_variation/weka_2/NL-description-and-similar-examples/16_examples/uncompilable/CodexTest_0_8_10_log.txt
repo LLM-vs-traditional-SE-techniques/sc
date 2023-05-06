@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_8_10.java:18: error: illegal character: '#'
+    Instances orig = new Instances(new BufferedReader(new FileReader(#TEST_ARFF#)));
+                                                                     ^
+CodexTest_0_8_10.java:18: error: ')' expected
+    Instances orig = new Instances(new BufferedReader(new FileReader(#TEST_ARFF#)));
+                                                                      ^
+CodexTest_0_8_10.java:18: error: illegal character: '#'
+    Instances orig = new Instances(new BufferedReader(new FileReader(#TEST_ARFF#)));
+                                                                               ^
+CodexTest_0_8_10.java:18: error: ';' expected
+    Instances orig = new Instances(new BufferedReader(new FileReader(#TEST_ARFF#)));
+                                                                                ^
+CodexTest_0_8_10.java:18: error: illegal start of expression
+    Instances orig = new Instances(new BufferedReader(new FileReader(#TEST_ARFF#)));
+                                                                                 ^
+CodexTest_0_8_10.java:18: error: ';' expected
+    Instances orig = new Instances(new BufferedReader(new FileReader(#TEST_ARFF#)));
+                                                                                  ^

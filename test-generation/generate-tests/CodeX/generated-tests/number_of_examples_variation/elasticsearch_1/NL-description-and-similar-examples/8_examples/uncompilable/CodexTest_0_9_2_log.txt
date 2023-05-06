@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_2.java:65: error: cannot find symbol
+        String random = randomAsciiOfLength(4).toLowerCase(Locale.ROOT);
+                        ^
+  symbol:   method randomAsciiOfLength(int)
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:66: error: cannot find symbol
+        PutIndexTemplateRequestBuilder builder = new PutIndexTemplateRequestBuilder(client());
+        ^
+  symbol:   class PutIndexTemplateRequestBuilder
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:66: error: cannot find symbol
+        PutIndexTemplateRequestBuilder builder = new PutIndexTemplateRequestBuilder(client());
+                                                     ^
+  symbol:   class PutIndexTemplateRequestBuilder
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:66: error: cannot find symbol
+        PutIndexTemplateRequestBuilder builder = new PutIndexTemplateRequestBuilder(client());
+                                                                                    ^
+  symbol:   method client()
+  location: class CodexTest_0_9_2

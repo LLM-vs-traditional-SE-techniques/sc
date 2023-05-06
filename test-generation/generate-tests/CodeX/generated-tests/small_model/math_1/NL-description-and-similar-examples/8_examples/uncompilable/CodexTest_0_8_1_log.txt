@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_8_1.java:32: error: cannot find symbol
+        Vector1D v2 = new Vector1D(x);
+                                   ^
+  symbol:   variable x
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:33: error: no suitable method found for assertEquals(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double)
+        assertEquals(v1.scalarMultiply(2), v2.scalarMultiply(2), 1.0e-12);
+        ^
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object[],java.lang.Object[]) is not applicable
+      (argument mismatch; org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(float,float,float) is not applicable
+      (argument mismatch; org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be converted to float)
+    method org.junit.Assert.assertEquals(double,double,double) is not applicable
+      (argument mismatch; org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be converted to double)
+    method org.junit.Assert.assertEquals(java.lang.String,double,double) is not applicable
+      (argument mismatch; org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,long,long) is not applicable
+      (argument mismatch; org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be converted to java.lang.String)
+    method org.junit.Assert.assertEquals(java.lang.String,java.lang.Object,java.lang.Object) is not applicable
+      (argument mismatch; org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be converted to java.lang.String)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

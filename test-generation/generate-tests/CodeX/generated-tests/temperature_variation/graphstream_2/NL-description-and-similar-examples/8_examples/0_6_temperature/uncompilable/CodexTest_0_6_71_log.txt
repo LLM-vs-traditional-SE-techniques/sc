@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_6_71.java:23: error: cannot find symbol
+        Node node1 = new DefaultNode(a);
+                         ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_71
+CodexTest_0_6_71.java:23: error: cannot find symbol
+        Node node1 = new DefaultNode(a);
+                                     ^
+  symbol:   variable a
+  location: class CodexTest_0_6_71
+CodexTest_0_6_71.java:24: error: cannot find symbol
+        Node node2 = new DefaultNode(b);
+                         ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_71
+CodexTest_0_6_71.java:24: error: cannot find symbol
+        Node node2 = new DefaultNode(b);
+                                     ^
+  symbol:   variable b
+  location: class CodexTest_0_6_71
+CodexTest_0_6_71.java:25: error: cannot find symbol
+        Node node3 = new DefaultNode(c);
+                         ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_71
+CodexTest_0_6_71.java:25: error: cannot find symbol
+        Node node3 = new DefaultNode(c);
+                                     ^
+  symbol:   variable c
+  location: class CodexTest_0_6_71
+CodexTest_0_6_71.java:26: error: cannot find symbol
+        Node node4 = new DefaultNode(d);
+                         ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_71
+CodexTest_0_6_71.java:26: error: cannot find symbol
+        Node node4 = new DefaultNode(d);
+                                     ^
+  symbol:   variable d
+  location: class CodexTest_0_6_71
+CodexTest_0_6_71.java:27: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        path1.add(node1);
+                  ^
+CodexTest_0_6_71.java:28: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        path1.add(node2);
+                  ^
+CodexTest_0_6_71.java:29: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        path1.add(node3);
+                  ^
+CodexTest_0_6_71.java:30: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        path1.add(node4);
+                  ^
+CodexTest_0_6_71.java:31: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        path2.add(node1);
+                  ^
+CodexTest_0_6_71.java:32: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        path2.add(node2);
+                  ^
+CodexTest_0_6_71.java:33: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        path2.add(node3);
+                  ^
+CodexTest_0_6_71.java:34: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        path2.add(node4);
+                  ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

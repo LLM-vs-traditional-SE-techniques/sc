@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_36.java:24: error: cannot find symbol
+    byte[] expected = new BigInteger(1, bigEndian).toByteArray();
+                          ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:24: error: cannot find symbol
+    byte[] expected = new BigInteger(1, bigEndian).toByteArray();
+                                        ^
+  symbol:   variable bigEndian
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:25: error: cannot find symbol
+    byte[] actual = bigEndianBytes.toByteArray();
+                    ^
+  symbol:   variable bigEndianBytes
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:27: error: cannot find symbol
+    assertEquals(new BigInteger(1, littleEndian),
+                     ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:27: error: cannot find symbol
+    assertEquals(new BigInteger(1, littleEndian),
+                                   ^
+  symbol:   variable littleEndian
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:28: error: cannot find symbol
+                 Bytes.toBigInteger(littleEndianBytes));
+                                    ^
+  symbol:   variable littleEndianBytes
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:28: error: cannot find symbol
+                 Bytes.toBigInteger(littleEndianBytes));
+                 ^
+  symbol:   variable Bytes
+  location: class CodexTest_0_8_36

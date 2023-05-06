@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_50.java:32: error: cannot find symbol
+    	assertEquals("Wrong vector element", values[i]*2, result.getElement(i), DEFAULT_DELTA);
+    	                                                                        ^
+  symbol:   variable DEFAULT_DELTA
+  location: class CodexTest_0_9_50

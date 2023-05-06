@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_18.java:21: error: cannot find symbol
+        assertEquals(false, list.contains(null));
+                            ^
+  symbol:   variable list
+  location: class CodexTest_0_9_18
+CodexTest_0_9_18.java:22: error: cannot find symbol
+        list.add(null);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_18
+CodexTest_0_9_18.java:23: error: cannot find symbol
+        assertEquals(true, list.contains(null));
+                           ^
+  symbol:   variable list
+  location: class CodexTest_0_9_18
+CodexTest_0_9_18.java:24: error: cannot find symbol
+        assertEquals(-1, list.indexOf(null));
+                         ^
+  symbol:   variable list
+  location: class CodexTest_0_9_18

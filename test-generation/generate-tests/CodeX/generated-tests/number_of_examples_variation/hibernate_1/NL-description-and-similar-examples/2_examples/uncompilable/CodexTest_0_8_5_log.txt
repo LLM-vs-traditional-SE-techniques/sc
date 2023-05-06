@@ -1,0 +1,64 @@
+isCompilable => false
+CodexTest_0_8_5.java:15: error: illegal start of type
+  |Size|Method|
+  ^
+CodexTest_0_8_5.java:15: error: ';' expected
+  |Size|Method|
+   ^
+CodexTest_0_8_5.java:15: error: illegal start of type
+  |Size|Method|
+       ^
+CodexTest_0_8_5.java:15: error: ';' expected
+  |Size|Method|
+              ^
+CodexTest_0_8_5.java:17: error: <identifier> expected
+  |   6|wrap  |
+            ^
+CodexTest_0_8_5.java:18: error: illegal start of type
+  |   4|unwrap|
+  ^
+CodexTest_0_8_5.java:18: error: <identifier> expected
+  |   4|unwrap|
+   ^
+CodexTest_0_8_5.java:18: error: ';' expected
+  |   4|unwrap|
+       ^
+CodexTest_0_8_5.java:18: error: <identifier> expected
+  |   4|unwrap|
+              ^
+CodexTest_0_8_5.java:19: error: illegal start of type
+  |   3|toInt |
+  ^
+CodexTest_0_8_5.java:19: error: <identifier> expected
+  |   3|toInt |
+   ^
+CodexTest_0_8_5.java:19: error: ';' expected
+  |   3|toInt |
+       ^
+CodexTest_0_8_5.java:19: error: <identifier> expected
+  |   3|toInt |
+             ^
+CodexTest_0_8_5.java:20: error: illegal start of type
+  |   0|toShort|
+  ^
+CodexTest_0_8_5.java:20: error: <identifier> expected
+  |   0|toShort|
+   ^
+CodexTest_0_8_5.java:20: error: ';' expected
+  |   0|toShort|
+       ^
+CodexTest_0_8_5.java:20: error: <identifier> expected
+  |   0|toShort|
+               ^
+CodexTest_0_8_5.java:21: error: illegal start of type
+ */
+ ^
+CodexTest_0_8_5.java:21: error: <identifier> expected
+ */
+  ^
+CodexTest_0_8_5.java:21: error: ';' expected
+ */
+   ^
+CodexTest_0_8_5.java:22: error: reached end of file while parsing
+}
+ ^

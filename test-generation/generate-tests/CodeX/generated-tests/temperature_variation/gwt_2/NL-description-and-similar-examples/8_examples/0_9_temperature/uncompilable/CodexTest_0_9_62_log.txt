@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_62.java:14: error: invalid method declaration; return type required
+  fails(new Runnable() {
+  ^
+CodexTest_0_9_62.java:14: error: illegal start of type
+  fails(new Runnable() {
+        ^
+CodexTest_0_9_62.java:14: error: ')' expected
+  fails(new Runnable() {
+           ^
+CodexTest_0_9_62.java:14: error: ';' expected
+  fails(new Runnable() {
+                    ^
+CodexTest_0_9_62.java:14: error: illegal start of type
+  fails(new Runnable() {
+                     ^
+CodexTest_0_9_62.java:14: error: <identifier> expected
+  fails(new Runnable() {
+                      ^
+CodexTest_0_9_62.java:14: error: ';' expected
+  fails(new Runnable() {
+                        ^
+CodexTest_0_9_62.java:18: error: class, interface, or enum expected
+  }, NullPointerException.class);
+   ^
+CodexTest_0_9_62.java:18: error: <identifier> expected
+  }, NullPointerException.class);
+                               ^

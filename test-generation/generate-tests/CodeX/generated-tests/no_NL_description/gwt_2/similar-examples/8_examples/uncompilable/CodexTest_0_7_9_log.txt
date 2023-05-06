@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_9.java:15: error: cannot find symbol
+    UncaughtExceptionHandler defaultHandler = Thread.getDefaultUncaughtExceptionHandler();
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_7_9

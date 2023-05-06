@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_2.java:64: error: cannot find symbol
+   public void testSourceParsing() throws ElasticsearchException, IOException {
+                                          ^
+  symbol:   class ElasticsearchException
+  location: class CodexTest_0_9_2

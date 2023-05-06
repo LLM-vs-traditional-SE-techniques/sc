@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_9_6.java:65: error: cannot find symbol
+        Mockito.when(mockQuery.parent()).thenReturn("1");
+                     ^
+  symbol:   variable mockQuery
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:65: error: cannot find symbol
+        Mockito.when(mockQuery.parent()).thenReturn("1");
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:66: error: cannot find symbol
+        assertEquals("1", mockQuery.parent());
+                          ^
+  symbol:   variable mockQuery
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:67: error: cannot find symbol
+        Mockito.verify(mockQuery).parent();
+                       ^
+  symbol:   variable mockQuery
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:67: error: cannot find symbol
+        Mockito.verify(mockQuery).parent();
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:68: error: cannot find symbol
+        Mockito.verifyNoMoreInteractions(mockQuery);
+                                         ^
+  symbol:   variable mockQuery
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:68: error: cannot find symbol
+        Mockito.verifyNoMoreInteractions(mockQuery);
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_9_6

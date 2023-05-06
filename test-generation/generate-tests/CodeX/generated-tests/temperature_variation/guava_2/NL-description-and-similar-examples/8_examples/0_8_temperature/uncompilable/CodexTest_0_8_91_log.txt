@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_91.java:25: error: cannot find symbol
+    GuavaBitArray b = new GuavaBitArray();
+    ^
+  symbol:   class GuavaBitArray
+  location: class CodexTest_0_8_91
+CodexTest_0_8_91.java:25: error: cannot find symbol
+    GuavaBitArray b = new GuavaBitArray();
+                          ^
+  symbol:   class GuavaBitArray
+  location: class CodexTest_0_8_91

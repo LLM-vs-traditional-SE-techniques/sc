@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_79.java:67: error: cannot find symbol
+        SearchRequestBuilder builder = client.prepareSearch(name);
+        ^
+  symbol:   class SearchRequestBuilder
+  location: class CodexTest_0_7_79
+CodexTest_0_7_79.java:67: error: cannot find symbol
+        SearchRequestBuilder builder = client.prepareSearch(name);
+                                       ^
+  symbol:   variable client
+  location: class CodexTest_0_7_79

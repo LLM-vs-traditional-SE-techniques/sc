@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_95.java:18: error: cannot find symbol
+    RaisableInstances test = Data.getRaisableDataSet();
+    ^
+  symbol:   class RaisableInstances
+  location: class CodexTest_0_8_95
+CodexTest_0_8_95.java:18: error: cannot find symbol
+    RaisableInstances test = Data.getRaisableDataSet();
+                             ^
+  symbol:   variable Data
+  location: class CodexTest_0_8_95
+CodexTest_0_8_95.java:21: error: cannot find symbol
+    assertEquals(Data.getOptimalInstance(), vector.getAsInstance(test, new OptimalRandom(0L)));
+                 ^
+  symbol:   variable Data
+  location: class CodexTest_0_8_95
+CodexTest_0_8_95.java:21: error: cannot find symbol
+    assertEquals(Data.getOptimalInstance(), vector.getAsInstance(test, new OptimalRandom(0L)));
+                                                                           ^
+  symbol:   class OptimalRandom
+  location: class CodexTest_0_8_95
+CodexTest_0_8_95.java:22: error: cannot find symbol
+    assertEquals(Data.getRandomInstance(), vector.getAsInstance(test, new OptimalRandom(0L)));
+                 ^
+  symbol:   variable Data
+  location: class CodexTest_0_8_95
+CodexTest_0_8_95.java:22: error: cannot find symbol
+    assertEquals(Data.getRandomInstance(), vector.getAsInstance(test, new OptimalRandom(0L)));
+                                                                          ^
+  symbol:   class OptimalRandom
+  location: class CodexTest_0_8_95
+CodexTest_0_8_95.java:23: error: cannot find symbol
+    assertEquals(Data.getRandomInstance(), vector.getAsInstance(test, new OptimalRandom(0L)));
+                 ^
+  symbol:   variable Data
+  location: class CodexTest_0_8_95
+CodexTest_0_8_95.java:23: error: cannot find symbol
+    assertEquals(Data.getRandomInstance(), vector.getAsInstance(test, new OptimalRandom(0L)));
+                                                                          ^
+  symbol:   class OptimalRandom
+  location: class CodexTest_0_8_95

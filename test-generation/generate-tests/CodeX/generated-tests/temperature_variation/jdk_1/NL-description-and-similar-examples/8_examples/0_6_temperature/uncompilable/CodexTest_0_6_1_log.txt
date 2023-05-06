@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_1.java:22: error: cannot find symbol
+        List<Integer> list = createList(data);
+                             ^
+  symbol:   method createList(java.lang.Integer[])
+  location: class CodexTest_0_6_1

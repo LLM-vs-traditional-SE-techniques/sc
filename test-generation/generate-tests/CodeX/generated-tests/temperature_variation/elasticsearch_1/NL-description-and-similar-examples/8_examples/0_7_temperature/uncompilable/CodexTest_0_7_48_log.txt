@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_48.java:66: error: package HttpEntity does not exist
+        assertEquals(testParent, new HttpEntity.Strict(null, null, null).parent());
+                                               ^

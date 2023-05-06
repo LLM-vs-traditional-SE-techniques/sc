@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_9.java:18: error: cannot find symbol
+        Short result = underTest.toShort(value);
+                       ^
+  symbol:   variable underTest
+  location: class CodexTest_0_8_9

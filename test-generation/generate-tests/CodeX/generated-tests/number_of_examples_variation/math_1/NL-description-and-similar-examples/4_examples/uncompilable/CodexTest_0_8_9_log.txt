@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_9.java:31: error: cannot find symbol
+        Assert.assertEquals(0.0, one.scalarMultiply(2.0).getX(), 0.0);
+                                 ^
+  symbol:   variable one
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:32: error: cannot find symbol
+        Assert.assertEquals(3.0, one.scalarMultiply(3.0).getX(), 1.0e-12);
+                                 ^
+  symbol:   variable one
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:33: error: cannot find symbol
+        Assert.assertEquals(4.0, one.scalarMultiply(4.0).getX(), 1.0e-12);
+                                 ^
+  symbol:   variable one
+  location: class CodexTest_0_8_9

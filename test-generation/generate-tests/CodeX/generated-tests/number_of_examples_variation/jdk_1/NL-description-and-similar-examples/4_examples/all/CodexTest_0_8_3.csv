@@ -1,0 +1,136 @@
+prompt,output
+"Suggest a test for a method with the Object remove(int index) signature.
+
+Input: public final double getElement(int index) {
+			return m_Elements[index];
+		  }
+Output: public void testArrayConstructor() {
+			double[] data = {2.3, 1.2, 5.0};
+			AlgVector v = new AlgVector(data);
+			assertEquals('Length differs', data.length, v.numElements());
+			for (int i = 0; i < data.length; i++)
+			  assertEquals((i+1) + '. value differs', data[i], v.getElement(i));
+		  }
+
+Input: public DoubleMatrix1D like(int size) {
+			return new DenseDoubleMatrix1D(size);
+		}
+Output: public static void doubleTest28() {
+			double[] data={1,2,3,4,5,6};
+			double[][] arrMatrix = 
+			{ 
+				{ 1, 2, 3, 4, 5, 6},
+				{ 2, 3, 4, 5, 6, 7}
+			};
+			DoubleFactory2D f = DoubleFactory2D.dense;
+			DoubleMatrix1D vector = new DenseDoubleMatrix1D(data);
+			DoubleMatrix2D matrix = f.make(arrMatrix);
+			DoubleMatrix1D res = vector.like(matrix.rows());
+
+						matrix.zMult(vector,res);
+
+					System.out.println(res);
+		}
+
+Input: public IndexRequest opType(String opType) {
+        String op = opType.toLowerCase(Locale.ROOT);
+        if (op.equals(""create"")) {
+            opType(OpType.CREATE);
+        } else if (op.equals(""index"")) {
+            opType(OpType.INDEX);
+        } else {
+            throw new IllegalArgumentException(""opType must be 'create' or 'index', found: ["" + opType + ""]"");
+        }
+        return this;
+    }
+Output: public void testReadBogusString() {
+        try {
+            IndexRequest indexRequest = new IndexRequest("""");
+            indexRequest.opType(""foobar"");
+            fail(""Expected IllegalArgumentException"");
+        } catch (IllegalArgumentException e) {
+            assertThat(e.getMessage(), equalTo(""opType must be 'create' or 'index', found: [foobar]""));
+        }    }
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public Object remove(int index) {
+        Objects.checkIndex(index, size);
+        final Object[] es = elementData;
+        @SuppressWarnings(""unchecked"") Object oldValue = (Object) es[index];
+        fastRemove(es, index);
+        return oldValue;
+    }
+Output:
+  ","import java.util.*;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+import java.util.function.UnaryOperator;
+
+import java.lang.reflect.Field;
+import java.util.AbstractList;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.SplittableRandom;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_8_3 { 
+  @Test
+  public void testRemove() {
+      final Object o1 = new Object();
+      final Object o2 = new Object();
+      MyVector<Object> v1 = new MyVector<Object>();
+      v1.add(o1);
+      v1.add(o2);
+      assertEquals(2, v1.size());
+      assertEquals(o1, v1.remove(0));
+      assertEquals(1, v1.size());
+      assertTrue(v1.contains(o2));
+      assertEquals(o2, v1.remove(0));
+      assertEquals(0, v1.size());
+      v1.add(o1);
+      assertEquals(o1, v1.remove(0));
+      assertEquals(0, v1.size());
+  }
+Input: public Object[] get(int... indexes) {
+        Object[] result = new Object[indexes.length];
+        for (int i = 0; i < indexes.length; i++) {
+            result[i] = get(indexes[i]);
+        }
+        return result;
+    }
+Output: public void testRemove2() {
+      final Object o1 = new Object();
+      final Object o2 = new Object();
+      final Object o3 = new Object();
+      MyVector<Object> v1 = new MyVector<Object>();
+      v1.add(o1);
+      v1.add(o2);
+      v1.add(o3);
+      assertEquals(3, v1.size());
+      v1.remove(new int[] {0, 2});
+      assertEquals(1, v1.size());
+      assertTrue(v1.contains(o2));
+      v1.add(o1);
+      v1.add(o3);
+      assertEquals(3, v1.size());
+      v1.remove(new int[] {0, 1, 2});
+      assertEquals(0, v1.size());
+  }
+Input:  public Object remove(int index) {
+            return removeRange(index, 1);
+        }
+Output: public void test
+}"

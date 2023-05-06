@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_5_13.java:25: error: <identifier> expected
+Input: public boolean isEmpty() {
+     ^
+CodexTest_0_5_13.java:28: error: <identifier> expected
+Output: @Test
+      ^
+CodexTest_0_5_13.java:33: error: reached end of file while parsing
+}
+ ^

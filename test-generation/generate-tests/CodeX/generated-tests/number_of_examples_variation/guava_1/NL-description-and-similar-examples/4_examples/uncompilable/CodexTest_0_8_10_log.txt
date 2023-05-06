@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_10.java:25: error: ')' expected
+    assertEquals(hash:11, new LongHashCode(11).toString());
+                     ^
+CodexTest_0_8_10.java:25: error: not a statement
+    assertEquals(hash:11, new LongHashCode(11).toString());
+                      ^
+CodexTest_0_8_10.java:25: error: ';' expected
+    assertEquals(hash:11, new LongHashCode(11).toString());
+                        ^
+CodexTest_0_8_10.java:25: error: ';' expected
+    assertEquals(hash:11, new LongHashCode(11).toString());
+                                                         ^

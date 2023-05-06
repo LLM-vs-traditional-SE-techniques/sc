@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_83.java:21: error: cannot find symbol
+        assertFalse(new ListAdapter<String>(new EmptyList<String>()).contains("test"));
+                        ^
+  symbol:   class ListAdapter
+  location: class CodexTest_0_7_83
+CodexTest_0_7_83.java:21: error: cannot find symbol
+        assertFalse(new ListAdapter<String>(new EmptyList<String>()).contains("test"));
+                                                ^
+  symbol:   class EmptyList
+  location: class CodexTest_0_7_83
+CodexTest_0_7_83.java:22: error: cannot find symbol
+        assertTrue(new ListAdapter<String>(Arrays.asList("test")).contains("test"));
+                       ^
+  symbol:   class ListAdapter
+  location: class CodexTest_0_7_83
+CodexTest_0_7_83.java:23: error: cannot find symbol
+        assertFalse(new ListAdapter<String>(Arrays.asList("test", "test2")).contains("test3"));
+                        ^
+  symbol:   class ListAdapter
+  location: class CodexTest_0_7_83

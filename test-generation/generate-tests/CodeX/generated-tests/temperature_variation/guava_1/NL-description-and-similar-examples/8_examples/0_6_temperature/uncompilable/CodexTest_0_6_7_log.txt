@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_7.java:26: error: cannot find symbol
+      long value = new Random().nextLong();
+                       ^
+  symbol:   class Random
+  location: class CodexTest_0_6_7

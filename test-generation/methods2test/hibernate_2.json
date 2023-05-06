@@ -1,0 +1,21 @@
+{
+	"project": "Hibernate",
+	"package": "org.hibernate.type.descriptor.java",
+	"class": "BooleanTypeDescriptor",
+	"method_signature": "Boolean fromString(String string)",
+	"method": "public Boolean fromString(String string) {\n		return Boolean.valueOf( string );\n	}",
+	"helpers": ["BooleanTypeDescriptor()", "java.lang.String()"],
+	"example_same_class": {
+		"method_signature": "",
+		"method": "public <X> Boolean wrap(X value, WrapperOptions options) {\n		if ( value == null ) {\n			return null;\n		}\n		if ( Boolean.class.isInstance( value ) ) {\n			return (Boolean) value;\n		}\n		if ( Number.class.isInstance( value ) ) {\n			final int intValue = ( (Number) value ).intValue();\n			return intValue == 0 ? FALSE : TRUE;\n		}\n		if ( Character.class.isInstance( value ) ) {\n			return isTrue( (Character) value ) ? TRUE : FALSE;\n		}\n		if ( String.class.isInstance( value ) ) {\n			return isTrue((String) value) ? TRUE : FALSE;\n		}\n		throw unknownWrap( value.getClass() );\n	}",
+		"test": "public void testWrapShouldReturnTrueWhenYStringGiven() {\n        // given\n        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();\n        // when\n        Boolean result = underTest.wrap(\"Y\", null);\n        // then\n        assertTrue(result);\n    }"
+	},
+	"example_different_project": {
+		"id": "math_2",
+		"method_signature": "double distance(Vector1D p1, Vector1D p2)",
+		"method": "public static double distance(Vector1D p1, Vector1D p2) {\n        return p1.distance(p2);\n    }",
+		"test": "public void testDistance() {\n        Vector1D v1 = new Vector1D(1);\n        Vector1D v2 = new Vector1D(-4);\n        Assert.assertEquals(0.0, Vector1D.distance(new Vector1D(-1), new Vector1D(-1)), 0);\n        Assert.assertEquals(5.0, Vector1D.distance(v1, v2), 1.0e-12);\n        Assert.assertEquals(v1.subtract(v2).getNorm(), Vector1D.distance(v1, v2), 1.0e-12);\n    }"
+	},
+	"method_class_imports": "import org.hibernate.type.descriptor.java.*;\nimport org.hibernate.type.descriptor.WrapperOptions;\nimport static java.lang.Boolean.FALSE;\nimport static java.lang.Boolean.TRUE;",
+	"test_class_imports": ""
+}

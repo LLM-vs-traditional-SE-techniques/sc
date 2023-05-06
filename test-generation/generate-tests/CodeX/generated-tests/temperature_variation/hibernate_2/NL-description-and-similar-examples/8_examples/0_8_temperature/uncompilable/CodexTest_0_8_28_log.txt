@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_28.java:16: error: cannot find symbol
+			assertFalse(BooleanHelper.isFalse(Boolean.FALSE));
+			            ^
+  symbol:   variable BooleanHelper
+  location: class CodexTest_0_8_28
+CodexTest_0_8_28.java:17: error: cannot find symbol
+			assertFalse(BooleanHelper.isFalse(Boolean.TRUE));
+			            ^
+  symbol:   variable BooleanHelper
+  location: class CodexTest_0_8_28

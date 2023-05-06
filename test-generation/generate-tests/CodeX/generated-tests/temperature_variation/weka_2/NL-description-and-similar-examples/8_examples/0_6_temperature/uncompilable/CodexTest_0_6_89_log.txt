@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_89.java:21: error: cannot find symbol
+			Instances model = new Instances(Test, attInfo, numAtts);
+			                                ^
+  symbol:   variable Test
+  location: class CodexTest_0_6_89
+CodexTest_0_6_89.java:21: error: cannot find symbol
+			Instances model = new Instances(Test, attInfo, numAtts);
+			                                      ^
+  symbol:   variable attInfo
+  location: class CodexTest_0_6_89

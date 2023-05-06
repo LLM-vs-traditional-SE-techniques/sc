@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_9.java:31: error: <identifier> expected
+Input: public Vector1D scalarMultiply(double a) {
+     ^
+CodexTest_0_9_9.java:34: error: <identifier> expected
+Output: public void testScalarMultiply() {
+      ^
+CodexTest_0_9_9.java:38: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_5.java:65: error: cannot find symbol
+        assertEquals("foo", new ParentTask("foo").parent());
+                                ^
+  symbol:   class ParentTask
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:66: error: cannot find symbol
+        assertEquals("", new ParentTask("").parent());
+                             ^
+  symbol:   class ParentTask
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:67: error: cannot find symbol
+        assertEquals(null, new ParentTask(null).parent());
+                               ^
+  symbol:   class ParentTask
+  location: class CodexTest_0_5_5

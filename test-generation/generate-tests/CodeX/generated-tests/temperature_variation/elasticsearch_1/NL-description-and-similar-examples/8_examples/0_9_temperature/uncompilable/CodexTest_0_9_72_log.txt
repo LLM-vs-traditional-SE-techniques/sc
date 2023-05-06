@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_72.java:64: error: cannot find symbol
+    public void testMethodReturn() { assertNotNull(getMethodParent()); }
+                                                   ^
+  symbol:   method getMethodParent()
+  location: class CodexTest_0_9_72

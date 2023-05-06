@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_87.java:21: error: cannot find symbol
+        string word = "fly";
+        ^
+  symbol:   class string
+  location: class CodexTest_0_9_87
+CodexTest_0_9_87.java:22: error: cannot find symbol
+        NAryTree st = new NAryTree();
+        ^
+  symbol:   class NAryTree
+  location: class CodexTest_0_9_87
+CodexTest_0_9_87.java:22: error: cannot find symbol
+        NAryTree st = new NAryTree();
+                          ^
+  symbol:   class NAryTree
+  location: class CodexTest_0_9_87

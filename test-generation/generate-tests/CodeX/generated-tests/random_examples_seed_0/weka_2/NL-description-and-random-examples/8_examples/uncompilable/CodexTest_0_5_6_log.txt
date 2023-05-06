@@ -1,0 +1,54 @@
+isCompilable => false
+CodexTest_0_5_6.java:20: error: cannot find symbol
+        Instances model = mock(Instances.class);
+                          ^
+  symbol:   method mock(java.lang.Class<weka.core.Instances>)
+  location: class CodexTest_0_5_6
+CodexTest_0_5_6.java:21: error: cannot find symbol
+        when(model.numAttributes()).thenReturn(3);
+        ^
+  symbol:   method when(int)
+  location: class CodexTest_0_5_6
+CodexTest_0_5_6.java:22: error: cannot find symbol
+        Attribute attribute = mock(Attribute.class);
+                              ^
+  symbol:   method mock(java.lang.Class<weka.core.Attribute>)
+  location: class CodexTest_0_5_6
+CodexTest_0_5_6.java:23: error: cannot find symbol
+        when(model.attribute(anyInt())).thenReturn(attribute);
+                             ^
+  symbol:   method anyInt()
+  location: class CodexTest_0_5_6
+CodexTest_0_5_6.java:24: error: cannot find symbol
+        when(attribute.isNumeric()).thenReturn(true);
+        ^
+  symbol:   method when(boolean)
+  location: class CodexTest_0_5_6
+CodexTest_0_5_6.java:25: error: cannot find symbol
+        Random random = mock(Random.class);
+                        ^
+  symbol:   method mock(java.lang.Class<java.util.Random>)
+  location: class CodexTest_0_5_6
+CodexTest_0_5_6.java:26: error: cannot find symbol
+        when(random.nextDouble()).thenReturn(0.5);
+        ^
+  symbol:   method when(double)
+  location: class CodexTest_0_5_6
+CodexTest_0_5_6.java:27: error: cannot find symbol
+        when(attribute.numValues()).thenReturn(2);
+        ^
+  symbol:   method when(int)
+  location: class CodexTest_0_5_6
+CodexTest_0_5_6.java:28: error: no suitable constructor found for DenseInstance(double[])
+        DenseInstance d1 = new DenseInstance(elements);
+                           ^
+    constructor weka.core.DenseInstance.DenseInstance(weka.core.Instance) is not applicable
+      (argument mismatch; double[] cannot be converted to weka.core.Instance)
+    constructor weka.core.DenseInstance.DenseInstance(int) is not applicable
+      (argument mismatch; double[] cannot be converted to int)
+CodexTest_0_5_6.java:30: error: cannot find symbol
+        Instance result = d1.getAsInstance(model, random);
+                            ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable d1 of type weka.core.DenseInstance
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

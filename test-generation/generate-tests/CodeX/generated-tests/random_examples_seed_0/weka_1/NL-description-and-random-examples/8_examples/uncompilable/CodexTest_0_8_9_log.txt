@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_8_9.java:19: error: cannot find symbol
+         final AlgVector a = nextRandomVector(random);
+                             ^
+  symbol:   method nextRandomVector(java.util.Random)
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:20: error: cannot find symbol
+         final AlgVector b = nextRandomVector(random);
+                             ^
+  symbol:   method nextRandomVector(java.util.Random)
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:22: error: cannot find symbol
+         assertEquals(a.size(), b.size());
+                       ^
+  symbol:   method size()
+  location: variable a of type weka.core.AlgVector
+CodexTest_0_8_9.java:22: error: cannot find symbol
+         assertEquals(a.size(), b.size());
+                                 ^
+  symbol:   method size()
+  location: variable b of type weka.core.AlgVector
+CodexTest_0_8_9.java:23: error: cannot find symbol
+         assertEquals(a.size(), c.size());
+                       ^
+  symbol:   method size()
+  location: variable a of type weka.core.AlgVector
+CodexTest_0_8_9.java:23: error: cannot find symbol
+         assertEquals(a.size(), c.size());
+                                 ^
+  symbol:   method size()
+  location: variable c of type weka.core.AlgVector
+CodexTest_0_8_9.java:24: error: cannot find symbol
+         for (int k = 0; k < a.size(); ++k) {
+                              ^
+  symbol:   method size()
+  location: variable a of type weka.core.AlgVector
+CodexTest_0_8_9.java:25: error: cannot find symbol
+             assertEquals(a.get(k) + b.get(k), c.get(k), 1.0e-15);
+                           ^
+  symbol:   method get(int)
+  location: variable a of type weka.core.AlgVector
+CodexTest_0_8_9.java:25: error: cannot find symbol
+             assertEquals(a.get(k) + b.get(k), c.get(k), 1.0e-15);
+                                      ^
+  symbol:   method get(int)
+  location: variable b of type weka.core.AlgVector
+CodexTest_0_8_9.java:25: error: cannot find symbol
+             assertEquals(a.get(k) + b.get(k), c.get(k), 1.0e-15);
+                                                ^
+  symbol:   method get(int)
+  location: variable c of type weka.core.AlgVector

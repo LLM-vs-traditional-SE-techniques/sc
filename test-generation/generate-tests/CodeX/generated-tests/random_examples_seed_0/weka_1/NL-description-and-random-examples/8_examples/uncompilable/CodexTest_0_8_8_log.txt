@@ -1,0 +1,39 @@
+isCompilable => false
+CodexTest_0_8_8.java:21: error: cannot find symbol
+      System.out.println(className + ".testAdd");
+                         ^
+  symbol:   variable className
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:25: error: no suitable constructor found for AlgVector(int,int,int)
+      AlgVector v1 = new AlgVector(x,y,z);
+                     ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instances,java.util.Random) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_8_8.java:26: error: no suitable constructor found for AlgVector(int,int,int)
+      AlgVector v2 = new AlgVector(x*2,y*2,z*2);
+                     ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instances,java.util.Random) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_8_8.java:28: error: no suitable constructor found for AlgVector(int,int,int)
+      assertEquals(add, new AlgVector(x*3,y*3,z*3));
+                        ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instances,java.util.Random) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (actual and formal argument lists differ in length)

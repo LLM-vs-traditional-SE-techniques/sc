@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_74.java:65: error: cannot find symbol
+        Translation expectedTranslation = new Translation();
+        ^
+  symbol:   class Translation
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:65: error: cannot find symbol
+        Translation expectedTranslation = new Translation();
+                                              ^
+  symbol:   class Translation
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:67: error: cannot find symbol
+        Translation actualTranslation = new Translation();
+        ^
+  symbol:   class Translation
+  location: class CodexTest_0_9_74
+CodexTest_0_9_74.java:67: error: cannot find symbol
+        Translation actualTranslation = new Translation();
+                                            ^
+  symbol:   class Translation
+  location: class CodexTest_0_9_74

@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_6_72.java:30: error: writeBytesToImpl(byte[],int,int) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+    hc.writeBytesToImpl(dest, offset, length);
+      ^

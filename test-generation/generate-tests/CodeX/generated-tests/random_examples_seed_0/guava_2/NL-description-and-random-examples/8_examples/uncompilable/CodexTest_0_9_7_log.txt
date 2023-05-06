@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_7.java:24: error: invalid method declaration; return type required
+    assertTrue(original.indexOf(output) >= 0);
+    ^
+CodexTest_0_9_7.java:24: error: <identifier> expected
+    assertTrue(original.indexOf(output) >= 0);
+                               ^
+CodexTest_0_9_7.java:24: error: ';' expected
+    assertTrue(original.indexOf(output) >= 0);
+                                ^
+CodexTest_0_9_7.java:24: error: illegal start of type
+    assertTrue(original.indexOf(output) >= 0);
+                                      ^
+CodexTest_0_9_7.java:24: error: <identifier> expected
+    assertTrue(original.indexOf(output) >= 0);
+                                       ^
+CodexTest_0_9_7.java:24: error: ';' expected
+    assertTrue(original.indexOf(output) >= 0);
+                                          ^
+CodexTest_0_9_7.java:24: error: illegal start of type
+    assertTrue(original.indexOf(output) >= 0);
+                                            ^
+CodexTest_0_9_7.java:24: error: <identifier> expected
+    assertTrue(original.indexOf(output) >= 0);
+                                             ^
+CodexTest_0_9_7.java:24: error: ';' expected
+    assertTrue(original.indexOf(output) >= 0);
+                                              ^

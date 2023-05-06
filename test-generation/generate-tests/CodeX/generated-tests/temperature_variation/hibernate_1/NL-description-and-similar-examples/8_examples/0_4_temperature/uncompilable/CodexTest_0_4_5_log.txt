@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_4_5.java:21: error: incompatible types: java.lang.Short cannot be converted to boolean
+        assertTrue(result);
+                   ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

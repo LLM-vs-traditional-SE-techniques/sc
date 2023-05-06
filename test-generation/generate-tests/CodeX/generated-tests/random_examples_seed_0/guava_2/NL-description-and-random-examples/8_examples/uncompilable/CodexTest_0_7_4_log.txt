@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_4.java:25: error: cannot find symbol
+    Random random = new Random(0);
+    ^
+  symbol:   class Random
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:25: error: cannot find symbol
+    Random random = new Random(0);
+                        ^
+  symbol:   class Random
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:32: error: cannot find symbol
+        for (int i = 0; i < numBits(); i++) {
+                            ^
+  symbol:   method numBits()
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:33: error: cannot find symbol
+          BitArray bitArray = createInstance(i);
+          ^
+  symbol:   class BitArray
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:33: error: cannot find symbol
+          BitArray bitArray = createInstance(i);
+                              ^
+  symbol:   method createInstance(int)
+  location: class CodexTest_0_7_4

@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_9.java:17: error: <identifier> expected
+    priority
+            ^
+CodexTest_0_9_9.java:20: error: '{' expected
+    wl.WekaUtils
+      ^
+CodexTest_0_9_9.java:48: error: <identifier> expected
+output:
+      ^
+CodexTest_0_9_9.java:49: error: <identifier> expected
+    priority
+            ^
+CodexTest_0_9_9.java:52: error: '{' expected
+    wl.WekaUtils
+      ^
+CodexTest_0_9_9.java:57: error: reached end of file while parsing
+}
+ ^

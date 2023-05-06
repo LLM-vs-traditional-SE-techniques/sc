@@ -1,0 +1,106 @@
+isCompilable => false
+CodexTest_0_9_34.java:20: error: illegal start of type
+    [com.sun.source.tree.CompilationUnitTree]
+    ^
+CodexTest_0_9_34.java:20: error: ';' expected
+    [com.sun.source.tree.CompilationUnitTree]
+     ^
+CodexTest_0_9_34.java:20: error: illegal start of type
+    [com.sun.source.tree.CompilationUnitTree]
+        ^
+CodexTest_0_9_34.java:20: error: ';' expected
+    [com.sun.source.tree.CompilationUnitTree]
+            ^
+CodexTest_0_9_34.java:20: error: <identifier> expected
+    [com.sun.source.tree.CompilationUnitTree]
+                                            ^
+CodexTest_0_9_34.java:24: error: illegal start of type
+    [com.sun.source.tree.CompilationUnitTree]
+    ^
+CodexTest_0_9_34.java:24: error: ';' expected
+    [com.sun.source.tree.CompilationUnitTree]
+     ^
+CodexTest_0_9_34.java:24: error: illegal start of type
+    [com.sun.source.tree.CompilationUnitTree]
+        ^
+CodexTest_0_9_34.java:24: error: ';' expected
+    [com.sun.source.tree.CompilationUnitTree]
+            ^
+CodexTest_0_9_34.java:24: error: <identifier> expected
+    [com.sun.source.tree.CompilationUnitTree]
+                                            ^
+CodexTest_0_9_34.java:28: error: illegal start of type
+    [com.sun.source.tree.CompilationUnitTree]
+    ^
+CodexTest_0_9_34.java:28: error: ';' expected
+    [com.sun.source.tree.CompilationUnitTree]
+     ^
+CodexTest_0_9_34.java:28: error: illegal start of type
+    [com.sun.source.tree.CompilationUnitTree]
+        ^
+CodexTest_0_9_34.java:28: error: ';' expected
+    [com.sun.source.tree.CompilationUnitTree]
+            ^
+CodexTest_0_9_34.java:28: error: <identifier> expected
+    [com.sun.source.tree.CompilationUnitTree]
+                                            ^
+CodexTest_0_9_34.java:32: error: illegal start of type
+    [javax.lang.model.element.TypeElement]
+    ^
+CodexTest_0_9_34.java:32: error: ';' expected
+    [javax.lang.model.element.TypeElement]
+     ^
+CodexTest_0_9_34.java:32: error: illegal start of type
+    [javax.lang.model.element.TypeElement]
+          ^
+CodexTest_0_9_34.java:32: error: ';' expected
+    [javax.lang.model.element.TypeElement]
+               ^
+CodexTest_0_9_34.java:32: error: <identifier> expected
+    [javax.lang.model.element.TypeElement]
+                                         ^
+CodexTest_0_9_34.java:36: error: illegal start of type
+    [javax.lang.model.element.TypeElement]
+    ^
+CodexTest_0_9_34.java:36: error: ';' expected
+    [javax.lang.model.element.TypeElement]
+     ^
+CodexTest_0_9_34.java:36: error: illegal start of type
+    [javax.lang.model.element.TypeElement]
+          ^
+CodexTest_0_9_34.java:36: error: ';' expected
+    [javax.lang.model.element.TypeElement]
+               ^
+CodexTest_0_9_34.java:36: error: <identifier> expected
+    [javax.lang.model.element.TypeElement]
+                                         ^
+CodexTest_0_9_34.java:40: error: illegal start of type
+    [javax.lang.model.element.TypeElement]
+    ^
+CodexTest_0_9_34.java:40: error: ';' expected
+    [javax.lang.model.element.TypeElement]
+     ^
+CodexTest_0_9_34.java:40: error: illegal start of type
+    [javax.lang.model.element.TypeElement]
+          ^
+CodexTest_0_9_34.java:40: error: ';' expected
+    [javax.lang.model.element.TypeElement]
+               ^
+CodexTest_0_9_34.java:40: error: <identifier> expected
+    [javax.lang.model.element.TypeElement]
+                                         ^
+CodexTest_0_9_34.java:44: error: illegal start of type
+    [javax.lang.model.element.TypeElement]
+    ^
+CodexTest_0_9_34.java:44: error: ';' expected
+    [javax.lang.model.element.TypeElement]
+     ^
+CodexTest_0_9_34.java:44: error: illegal start of type
+    [javax.lang.model.element.TypeElement]
+          ^
+CodexTest_0_9_34.java:44: error: ';' expected
+    [javax.lang.model.element.TypeElement]
+               ^
+CodexTest_0_9_34.java:44: error: <identifier> expected
+    [javax.lang.model.element.TypeElement]
+                                         ^

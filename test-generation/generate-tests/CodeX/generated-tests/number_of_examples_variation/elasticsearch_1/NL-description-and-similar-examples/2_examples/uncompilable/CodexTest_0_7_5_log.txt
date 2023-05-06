@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_5.java:65: error: cannot find symbol
+        assertEquals(new File("."), new File("..").getParentFile());
+                         ^
+  symbol:   class File
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:65: error: cannot find symbol
+        assertEquals(new File("."), new File("..").getParentFile());
+                                        ^
+  symbol:   class File
+  location: class CodexTest_0_7_5

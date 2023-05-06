@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_1.java:22: error: cannot find symbol
+        path.add(e1);
+                 ^
+  symbol:   variable e1
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:23: error: cannot find symbol
+        path.add(e2);
+                 ^
+  symbol:   variable e2
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:24: error: cannot find symbol
+        path.add(e1);
+                 ^
+  symbol:   variable e1
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:26: error: cannot find symbol
+        assertTrue(path.contains(e1));
+                                 ^
+  symbol:   variable e1
+  location: class CodexTest_0_6_1

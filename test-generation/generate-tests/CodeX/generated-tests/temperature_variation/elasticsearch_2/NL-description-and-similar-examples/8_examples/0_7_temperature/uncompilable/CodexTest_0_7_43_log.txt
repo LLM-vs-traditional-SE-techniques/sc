@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_43.java:64: error: cannot find symbol
+    public void testSourceWithXContentType() throws ElasticsearchParseException {
+                                                    ^
+  symbol:   class ElasticsearchParseException
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:68: error: cannot find symbol
+        assertEquals(XContentType.JSON.mediaTypeWithoutParameters(), request.contentType());
+                                                                            ^
+  symbol:   method contentType()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_7_43.java:69: error: cannot find symbol
+        assertTrue(request.sourceRef() instanceof BytesReference);
+                          ^
+  symbol:   method sourceRef()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_7_43.java:72: error: cannot find symbol
+        assertEquals(XContentType.SMILE.mediaTypeWithoutParameters(), request.contentType());
+                                                                             ^
+  symbol:   method contentType()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_7_43.java:73: error: cannot find symbol
+        assertTrue(request.sourceRef() instanceof BytesReference);
+                          ^
+  symbol:   method sourceRef()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_7_43.java:75: error: cannot find symbol
+        Tuple<XContentType, Map<String, Object>> tuple = XContentHelper.convertToMap(request.sourceRef(), true);
+        ^
+  symbol:   class Tuple
+  location: class CodexTest_0_7_43
+CodexTest_0_7_43.java:75: error: cannot find symbol
+        Tuple<XContentType, Map<String, Object>> tuple = XContentHelper.convertToMap(request.sourceRef(), true);
+                                                                                            ^
+  symbol:   method sourceRef()
+  location: variable request of type org.elasticsearch.action.index.IndexRequest

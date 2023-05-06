@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_60.java:28: error: cannot find symbol
+            Ints.copyBytes(0x01020304, dest, 0, 5);
+                ^
+  symbol:   method copyBytes(int,byte[],int,int)
+  location: class com.google.common.primitives.Ints

@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_9.java:65: error: cannot find symbol
+			String jsonMimetype = randomFrom(XContentType.json().mimeType(), XContentType.CBOR.mimeType());
+			                                             ^
+  symbol:   method json()
+  location: class org.elasticsearch.common.xcontent.XContentType
+CodexTest_0_9_9.java:65: error: cannot find symbol
+			String jsonMimetype = randomFrom(XContentType.json().mimeType(), XContentType.CBOR.mimeType());
+			                                                                                  ^
+  symbol:   method mimeType()
+  location: variable CBOR of type org.elasticsearch.common.xcontent.XContentType
+CodexTest_0_9_9.java:66: error: cannot find symbol
+			BinaryXContentBuilder builder = jsonBuilder().value(randomAlphaOfLength(10));
+			^
+  symbol:   class BinaryXContentBuilder
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:66: error: cannot find symbol
+			BinaryXContentBuilder builder = jsonBuilder().value(randomAlphaOfLength(10));
+			                                                    ^
+  symbol:   method randomAlphaOfLength(int)
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:66: error: cannot find symbol
+			BinaryXContentBuilder builder = jsonBuilder().value(randomAlphaOfLength(10));
+			                                ^
+  symbol:   method jsonBuilder()
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:68: error: cannot find symbol
+					.source(Strings.toString(builder), builder.contentType());
+					        ^
+  symbol:   variable Strings
+  location: class CodexTest_0_9_9

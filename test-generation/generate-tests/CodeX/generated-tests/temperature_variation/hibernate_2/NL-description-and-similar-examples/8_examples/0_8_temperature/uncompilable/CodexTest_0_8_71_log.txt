@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_8_71.java:16: error: cannot find symbol
+        assertTrue(BooleanUtils.toBoolean("true"));
+                   ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_8_71
+CodexTest_0_8_71.java:20: error: cannot find symbol
+        assertFalse(BooleanUtils.toBoolean("false"));
+                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_8_71
+CodexTest_0_8_71.java:24: error: cannot find symbol
+        assertTrue(BooleanUtils.toBoolean("yes"));
+                   ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_8_71
+CodexTest_0_8_71.java:28: error: cannot find symbol
+        assertFalse(BooleanUtils.toBoolean("no"));
+                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_8_71
+CodexTest_0_8_71.java:32: error: cannot find symbol
+        assertTrue(BooleanUtils.toBoolean("y"));
+                   ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_8_71
+CodexTest_0_8_71.java:36: error: cannot find symbol
+        assertFalse(BooleanUtils.toBoolean("n"));
+                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_8_71
+CodexTest_0_8_71.java:40: error: cannot find symbol
+        assertTrue(BooleanUtils.toBoolean("1"));
+                   ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_8_71
+CodexTest_0_8_71.java:44: error: cannot find symbol
+        assertFalse(BooleanUtils.toBoolean("0"));
+                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_8_71
+CodexTest_0_8_71.java:48: error: cannot find symbol
+        assertTrue(BooleanUtils.toBoolean("on"));
+                   ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_8_71
+CodexTest_0_8_71.java:52: error: cannot find symbol
+        assertFalse(BooleanUtils.toBoolean("off"));
+                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_8_71

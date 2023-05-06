@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_79.java:22: error: cannot find symbol
+			Object o = Objects.checkIndex(1, elements.length);
+			                  ^
+  symbol:   method checkIndex(int,int)
+  location: class java.util.Objects
+CodexTest_0_8_79.java:25: error: cannot find symbol
+			Objects.checkIndex(3, elements.length);
+			       ^
+  symbol:   method checkIndex(int,int)
+  location: class java.util.Objects

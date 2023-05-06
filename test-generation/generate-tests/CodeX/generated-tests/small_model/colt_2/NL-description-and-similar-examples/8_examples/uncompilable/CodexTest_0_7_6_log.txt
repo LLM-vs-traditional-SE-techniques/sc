@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_7_6.java:32: error: no suitable method found for make(int[],int[])
+			DoubleMatrix2D matrix2 = f.make(new int[] {3,2}, new int[] {0,0});
+			                          ^
+    method cern.colt.matrix.DoubleFactory2D.make(double[],int) is not applicable
+      (argument mismatch; int[] cannot be converted to double[])
+    method cern.colt.matrix.DoubleFactory2D.make(int,int) is not applicable
+      (argument mismatch; int[] cannot be converted to int)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

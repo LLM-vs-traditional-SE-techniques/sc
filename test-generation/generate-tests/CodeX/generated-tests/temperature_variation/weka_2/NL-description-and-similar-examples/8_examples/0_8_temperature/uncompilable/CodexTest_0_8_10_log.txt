@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_10.java:17: error: invalid method declaration; return type required
+    assertThrows(Exception.class, () -> {
+    ^
+CodexTest_0_8_10.java:17: error: <identifier> expected
+    assertThrows(Exception.class, () -> {
+                           ^
+CodexTest_0_8_10.java:17: error: illegal start of type
+    assertThrows(Exception.class, () -> {
+                                  ^
+CodexTest_0_8_10.java:17: error: ';' expected
+    assertThrows(Exception.class, () -> {
+                                    ^
+CodexTest_0_8_10.java:20: error: illegal start of type
+    });
+     ^

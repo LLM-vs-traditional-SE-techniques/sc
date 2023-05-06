@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_8.java:65: error: <identifier> expected
+Input: public Vector1D getVector() {
+     ^
+CodexTest_0_9_8.java:68: error: <identifier> expected
+Output: public void testCoordinates() {
+      ^

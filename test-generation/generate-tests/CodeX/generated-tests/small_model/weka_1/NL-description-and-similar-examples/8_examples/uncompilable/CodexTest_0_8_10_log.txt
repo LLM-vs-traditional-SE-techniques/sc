@@ -1,0 +1,29 @@
+isCompilable => false
+CodexTest_0_8_10.java:17: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+CodexTest_0_8_10.java:19: error: cannot find symbol
+    if (row < 0 || column < 0 || row >= m_RowCount || column >= m_ColumnCount) {
+                                        ^
+  symbol:   variable m_RowCount
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:19: error: cannot find symbol
+    if (row < 0 || column < 0 || row >= m_RowCount || column >= m_ColumnCount) {
+                                                                ^
+  symbol:   variable m_ColumnCount
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:21: error: cannot find symbol
+    } else if (column == m_ColumnCount - 1) {
+                         ^
+  symbol:   variable m_ColumnCount
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:22: error: cannot find symbol
+      m_RowCounts[row] = ((Integer) value).intValue();
+      ^
+  symbol:   variable m_RowCounts
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:24: error: cannot find symbol
+      m_Data[row][column] = (Object) value;
+      ^
+  symbol:   variable m_Data
+  location: class CodexTest_0_8_10

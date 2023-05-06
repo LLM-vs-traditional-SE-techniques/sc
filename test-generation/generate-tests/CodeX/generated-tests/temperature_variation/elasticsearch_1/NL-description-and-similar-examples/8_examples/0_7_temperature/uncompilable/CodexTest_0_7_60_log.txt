@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_60.java:65: error: cannot find symbol
+        assertEquals("org.eclipse.jdt.core.tests.model", new Path("org.eclipse.jdt.core.tests.model").parent().toString());
+                                                             ^
+  symbol:   class Path
+  location: class CodexTest_0_7_60
+CodexTest_0_7_60.java:66: error: cannot find symbol
+        assertEquals("org.eclipse.jdt.core.tests.model", new Path("org.eclipse.jdt.core.tests.model/").parent().toString());
+                                                             ^
+  symbol:   class Path
+  location: class CodexTest_0_7_60
+CodexTest_0_7_60.java:67: error: cannot find symbol
+        assertEquals("org.eclipse.jdt.core.tests.model/tests", new Path("org.eclipse.jdt.core.tests.model/tests/").parent().toString());
+                                                                   ^
+  symbol:   class Path
+  location: class CodexTest_0_7_60

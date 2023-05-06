@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_31.java:25: error: cannot find symbol
+    RandoopTestUtils.divideIntegralLongHelper(0);
+    ^
+  symbol:   variable RandoopTestUtils
+  location: class CodexTest_0_8_31
+CodexTest_0_8_31.java:26: error: cannot find symbol
+    RandoopTestUtils.divideIntegralLongHelper(1);
+    ^
+  symbol:   variable RandoopTestUtils
+  location: class CodexTest_0_8_31
+CodexTest_0_8_31.java:27: error: cannot find symbol
+    RandoopTestUtils.divideIntegralLongHelper(1337);
+    ^
+  symbol:   variable RandoopTestUtils
+  location: class CodexTest_0_8_31
+CodexTest_0_8_31.java:28: error: cannot find symbol
+    RandoopTestUtils.divideIntegralLongHelper(-1);
+    ^
+  symbol:   variable RandoopTestUtils
+  location: class CodexTest_0_8_31
+CodexTest_0_8_31.java:29: error: cannot find symbol
+    RandoopTestUtils.divideIntegralLongHelper(-1337);
+    ^
+  symbol:   variable RandoopTestUtils
+  location: class CodexTest_0_8_31

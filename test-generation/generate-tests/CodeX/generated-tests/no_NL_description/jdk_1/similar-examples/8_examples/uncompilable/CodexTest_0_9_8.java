@@ -1,0 +1,28 @@
+import java.util.*;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+import java.util.function.UnaryOperator;
+
+import java.lang.reflect.Field;
+import java.util.AbstractList;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.SplittableRandom;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_9_8 { 
+  @Test
+        public boolean remove(Object o) {
+            // ArrayList.contains uses != not !.equals so we must do
+            // the same; otherwise we get in trouble when remove is
+            // called on an element in the list.
+            for (int index = 0; index < size; index++)
+                if (elementData[index] == o) return removeElement(index) != null;
+            return false;
+        }
+}

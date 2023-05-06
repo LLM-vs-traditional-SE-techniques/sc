@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_7_8.java:30: error: cannot find symbol
+      byte[] bytes = new byte[filter.expectedFpp() == 0 ? (i * 64) / 8 : filter.expectedDataLength()];
+                                                                               ^
+  symbol:   method expectedDataLength()
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.String>
+CodexTest_0_7_8.java:31: error: cannot find symbol
+      filter.writeTo(ByteBuffer.wrap(bytes, 0, bytes.length));
+                     ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:33: error: cannot find symbol
+          ByteBuffer.wrap(bytes, 0, bytes.length), Funnels.unencodedCharsFunnel());
+          ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:35: error: cannot find symbol
+      assertEquals(filter.expectedNumEntries(), deserialized.expectedNumEntries());
+                         ^
+  symbol:   method expectedNumEntries()
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.String>
+CodexTest_0_7_8.java:35: error: cannot find symbol
+      assertEquals(filter.expectedNumEntries(), deserialized.expectedNumEntries());
+                                                            ^
+  symbol:   method expectedNumEntries()
+  location: variable deserialized of type com.google.common.hash.BloomFilter<java.lang.String>
+CodexTest_0_7_8.java:36: error: cannot find symbol
+      assertEquals(filter.expectedDataLength(), deserialized.expectedDataLength());
+                         ^
+  symbol:   method expectedDataLength()
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.String>
+CodexTest_0_7_8.java:36: error: cannot find symbol
+      assertEquals(filter.expectedDataLength(), deserialized.expectedDataLength());
+                                                            ^
+  symbol:   method expectedDataLength()
+  location: variable deserialized of type com.google.common.hash.BloomFilter<java.lang.String>
+CodexTest_0_7_8.java:37: error: cannot find symbol
+      assertEquals(filter.approximateElementCount(), deserialized.approximateElementCount());
+                         ^
+  symbol:   method approximateElementCount()
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.String>
+CodexTest_0_7_8.java:37: error: cannot find symbol
+      assertEquals(filter.approximateElementCount(), deserialized.approximateElementCount());
+                                                                 ^
+  symbol:   method approximateElementCount()
+  location: variable deserialized of type com.google.common.hash.BloomFilter<java.lang.String>

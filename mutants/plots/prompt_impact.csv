@@ -1,0 +1,7 @@
+prompt,compilable mutants
+n=2,41
+n=4,504
+n=8,1198
+n=16,1409
+Similar \n(n=8),908
++ NL \n(n=8),1149

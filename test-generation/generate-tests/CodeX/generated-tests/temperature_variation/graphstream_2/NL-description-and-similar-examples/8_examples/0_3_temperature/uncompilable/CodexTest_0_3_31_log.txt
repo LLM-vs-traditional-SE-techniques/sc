@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_3_31.java:21: error: cannot find symbol
+        p.add(null, new DefaultEdge(ab));
+                        ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_3_31
+CodexTest_0_3_31.java:21: error: cannot find symbol
+        p.add(null, new DefaultEdge(ab));
+                                    ^
+  symbol:   variable ab
+  location: class CodexTest_0_3_31
+CodexTest_0_3_31.java:22: error: cannot find symbol
+        p.add(new DefaultNode(b), new DefaultEdge(bc));
+                  ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_3_31
+CodexTest_0_3_31.java:22: error: cannot find symbol
+        p.add(new DefaultNode(b), new DefaultEdge(bc));
+                              ^
+  symbol:   variable b
+  location: class CodexTest_0_3_31
+CodexTest_0_3_31.java:22: error: cannot find symbol
+        p.add(new DefaultNode(b), new DefaultEdge(bc));
+                                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_3_31
+CodexTest_0_3_31.java:22: error: cannot find symbol
+        p.add(new DefaultNode(b), new DefaultEdge(bc));
+                                                  ^
+  symbol:   variable bc
+  location: class CodexTest_0_3_31
+CodexTest_0_3_31.java:24: error: cannot find symbol
+        p2.add(null, new DefaultEdge(ab));
+                         ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_3_31
+CodexTest_0_3_31.java:24: error: cannot find symbol
+        p2.add(null, new DefaultEdge(ab));
+                                     ^
+  symbol:   variable ab
+  location: class CodexTest_0_3_31
+CodexTest_0_3_31.java:25: error: cannot find symbol
+        p2.add(new DefaultNode(b), new DefaultEdge(bc));
+                   ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_3_31
+CodexTest_0_3_31.java:25: error: cannot find symbol
+        p2.add(new DefaultNode(b), new DefaultEdge(bc));
+                               ^
+  symbol:   variable b
+  location: class CodexTest_0_3_31
+CodexTest_0_3_31.java:25: error: cannot find symbol
+        p2.add(new DefaultNode(b), new DefaultEdge(bc));
+                                       ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_3_31
+CodexTest_0_3_31.java:25: error: cannot find symbol
+        p2.add(new DefaultNode(b), new DefaultEdge(bc));
+                                                   ^
+  symbol:   variable bc
+  location: class CodexTest_0_3_31

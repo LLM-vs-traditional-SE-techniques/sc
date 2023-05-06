@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_55.java:32: error: cannot find symbol
+        Assert.assertEquals(new Vector1D(scalar * vector1.getX()), vector1.scalarMultiply(scalar));
+                                                  ^
+  symbol:   variable vector1
+  location: class CodexTest_0_9_55
+CodexTest_0_9_55.java:32: error: cannot find symbol
+        Assert.assertEquals(new Vector1D(scalar * vector1.getX()), vector1.scalarMultiply(scalar));
+                                                                   ^
+  symbol:   variable vector1
+  location: class CodexTest_0_9_55
+CodexTest_0_9_55.java:33: error: cannot find symbol
+        Assert.assertEquals(new Vector1D(scalar * vector2.getX()), vector2.scalarMultiply(scalar));
+                                                  ^
+  symbol:   variable vector2
+  location: class CodexTest_0_9_55
+CodexTest_0_9_55.java:33: error: cannot find symbol
+        Assert.assertEquals(new Vector1D(scalar * vector2.getX()), vector2.scalarMultiply(scalar));
+                                                                   ^
+  symbol:   variable vector2
+  location: class CodexTest_0_9_55

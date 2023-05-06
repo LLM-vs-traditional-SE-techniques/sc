@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_8_79.java:21: error: cannot find symbol
+        DummyEdge edge = new DummyEdge("a", "b");
+        ^
+  symbol:   class DummyEdge
+  location: class CodexTest_0_8_79
+CodexTest_0_8_79.java:21: error: cannot find symbol
+        DummyEdge edge = new DummyEdge("a", "b");
+                             ^
+  symbol:   class DummyEdge
+  location: class CodexTest_0_8_79
+CodexTest_0_8_79.java:23: error: edgePath is not public in org.graphstream.graph.Path; cannot be accessed from outside package
+        path.edgePath.add(edge);
+            ^

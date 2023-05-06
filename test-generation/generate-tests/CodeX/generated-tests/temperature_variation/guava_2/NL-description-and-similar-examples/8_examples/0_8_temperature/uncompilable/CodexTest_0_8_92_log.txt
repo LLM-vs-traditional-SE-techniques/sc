@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_92.java:33: error: <identifier> expected
+Input: public static void main(String[] args) {
+     ^
+CodexTest_0_8_92.java:44: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_75.java:20: error: cannot find symbol
+        Path path = createSimplePath();
+                    ^
+  symbol:   method createSimplePath()
+  location: class CodexTest_0_6_75
+CodexTest_0_6_75.java:21: error: cannot find symbol
+        Path anotherPath = createSimplePath();
+                           ^
+  symbol:   method createSimplePath()
+  location: class CodexTest_0_6_75
+CodexTest_0_6_75.java:23: error: cannot find symbol
+        path.add(graph.getEdge(bc));
+                               ^
+  symbol:   variable bc
+  location: class CodexTest_0_6_75
+CodexTest_0_6_75.java:23: error: cannot find symbol
+        path.add(graph.getEdge(bc));
+                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_6_75

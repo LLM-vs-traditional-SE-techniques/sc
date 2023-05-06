@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_54.java:21: error: package StdDeserializerTest does not exist
+        StdDeserializerTest.Types v = StdDeserializerTest.Values.A;
+                           ^
+CodexTest_0_9_54.java:21: error: package StdDeserializerTest does not exist
+        StdDeserializerTest.Types v = StdDeserializerTest.Values.A;
+                                                         ^
+CodexTest_0_9_54.java:22: error: package StdDeserializerTest does not exist
+        assertTrue(StdDeserializerTest.AnEnum.contains(v));
+                                      ^
+CodexTest_0_9_54.java:25: error: package StdDeserializerTest does not exist
+        StdDeserializerTest.Types v = StdDeserializerTest.Values.A;
+                           ^
+CodexTest_0_9_54.java:25: error: package StdDeserializerTest does not exist
+        StdDeserializerTest.Types v = StdDeserializerTest.Values.A;
+                                                         ^
+CodexTest_0_9_54.java:26: error: package StdDeserializerTest does not exist
+        assertTrue(StdDeserializerTest.AnEnumSet.contains(v));
+                                      ^
+CodexTest_0_9_54.java:29: error: package StdDeserializerTest does not exist
+        StdDeserializerTest.Types v = StdDeserializerTest.Values.A;
+                           ^
+CodexTest_0_9_54.java:29: error: package StdDeserializerTest does not exist
+        StdDeserializerTest.Types v = StdDeserializerTest.Values.A;
+                                                         ^
+CodexTest_0_9_54.java:30: error: package StdDeserializerTest does not exist
+        assertTrue(StdDeserializerTest.EnumAsList.contains(v));
+                                      ^

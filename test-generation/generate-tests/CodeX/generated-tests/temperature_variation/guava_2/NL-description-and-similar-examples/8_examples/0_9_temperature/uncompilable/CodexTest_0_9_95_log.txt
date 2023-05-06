@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_95.java:30: error: cannot find symbol
+			byte[] bytes = one.toByteArray();
+			                  ^
+  symbol:   method toByteArray()
+  location: variable one of type com.google.common.hash.BloomFilter<java.lang.String>

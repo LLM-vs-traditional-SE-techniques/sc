@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_58.java:26: error: cannot find symbol
+    int len = bits() / 8;
+              ^
+  symbol:   method bits()
+  location: class CodexTest_0_6_58
+CodexTest_0_6_58.java:27: error: cannot find symbol
+    assertEquals(len, hc.writeBytesTo(dest, 0, dest.length));
+                      ^
+  symbol:   variable hc
+  location: class CodexTest_0_6_58
+CodexTest_0_6_58.java:29: error: cannot find symbol
+    writeBytesToImpl(expected, 0, len);
+    ^
+  symbol:   method writeBytesToImpl(byte[],int,int)
+  location: class CodexTest_0_6_58

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_8.java:31: error: cannot find symbol
+        Assert.assertEquals(0.0, distanceSq(new Vector1D(-2), new Vector1D(-2)), 0);
+                                 ^
+  symbol:   method distanceSq(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:34: error: cannot find symbol
+        Assert.assertEquals((v2.subtract(v1).scalarMultiply(2)).distanceSq(toSubtract), distanceSq(v1, v2), 1.0e-12);
+                                                                                        ^
+  symbol:   method distanceSq(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:34: error: cannot find symbol
+        Assert.assertEquals((v2.subtract(v1).scalarMultiply(2)).distanceSq(toSubtract), distanceSq(v1, v2), 1.0e-12);
+                                                                           ^
+  symbol:   variable toSubtract
+  location: class CodexTest_0_9_8

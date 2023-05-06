@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_19.java:18: error: cannot find symbol
+        Classifier c = createVotingModel();
+        ^
+  symbol:   class Classifier
+  location: class CodexTest_0_8_19
+CodexTest_0_8_19.java:18: error: cannot find symbol
+        Classifier c = createVotingModel();
+                       ^
+  symbol:   method createVotingModel()
+  location: class CodexTest_0_8_19
+CodexTest_0_8_19.java:20: error: cannot find symbol
+        Instances model = createTestDataset();
+                          ^
+  symbol:   method createTestDataset()
+  location: class CodexTest_0_8_19

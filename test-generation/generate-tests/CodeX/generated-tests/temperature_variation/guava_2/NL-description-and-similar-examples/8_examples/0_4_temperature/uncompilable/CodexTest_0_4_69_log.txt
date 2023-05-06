@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_4_69.java:41: error: ')' expected
+    assertEquals(4
+                  ^
+CodexTest_0_4_69.java:42: error: reached end of file while parsing
+}
+ ^

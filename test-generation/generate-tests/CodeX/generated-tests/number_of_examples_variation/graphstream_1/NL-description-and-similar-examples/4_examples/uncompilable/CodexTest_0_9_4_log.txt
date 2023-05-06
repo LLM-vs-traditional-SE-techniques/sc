@@ -1,0 +1,33 @@
+isCompilable => false
+CodexTest_0_9_4.java:22: error: nodePath is not public in org.graphstream.graph.Path; cannot be accessed from outside package
+        path.nodePath = getNodePath();
+            ^
+CodexTest_0_9_4.java:22: error: cannot find symbol
+        path.nodePath = getNodePath();
+                        ^
+  symbol:   method getNodePath()
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:23: error: edgePath is not public in org.graphstream.graph.Path; cannot be accessed from outside package
+        path.edgePath = getEdgePath();
+            ^
+CodexTest_0_9_4.java:23: error: cannot find symbol
+        path.edgePath = getEdgePath();
+                        ^
+  symbol:   method getEdgePath()
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:24: error: cannot find symbol
+        Edge edge = Edge.from("start");
+                        ^
+  symbol:   method from(java.lang.String)
+  location: interface org.graphstream.graph.Edge
+CodexTest_0_9_4.java:25: error: cannot find symbol
+        Edge edge2 = Edge.from("end");
+                         ^
+  symbol:   method from(java.lang.String)
+  location: interface org.graphstream.graph.Edge
+CodexTest_0_9_4.java:26: error: edgePath is not public in org.graphstream.graph.Path; cannot be accessed from outside package
+        path.edgePath.add(edge);
+            ^
+CodexTest_0_9_4.java:27: error: edgePath is not public in org.graphstream.graph.Path; cannot be accessed from outside package
+        path.edgePath.add(edge2);
+            ^

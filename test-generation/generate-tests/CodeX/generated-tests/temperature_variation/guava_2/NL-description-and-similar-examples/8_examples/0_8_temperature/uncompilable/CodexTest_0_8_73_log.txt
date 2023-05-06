@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_73.java:26: error: cannot find symbol
+        assertFalse(Ints.isEmpty(array));
+                        ^
+  symbol:   method isEmpty(int[])
+  location: class com.google.common.primitives.Ints

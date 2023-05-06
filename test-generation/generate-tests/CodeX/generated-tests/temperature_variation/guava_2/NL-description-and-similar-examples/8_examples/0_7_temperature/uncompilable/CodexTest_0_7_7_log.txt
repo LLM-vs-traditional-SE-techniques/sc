@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_7.java:26: error: cannot find symbol
+    BitArray bits = BitArray.create(new byte[] { (byte) 0x56, 0x34, 0x12 }, 32);
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:26: error: cannot find symbol
+    BitArray bits = BitArray.create(new byte[] { (byte) 0x56, 0x34, 0x12 }, 32);
+                    ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_7_7

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_2.java:65: error: cannot find symbol
+        System.out.println(new ObjectMapper().readValue("{ \"foo\" : 1 }", IndexRequest.class).source);
+                               ^
+  symbol:   class ObjectMapper
+  location: class CodexTest_0_9_2

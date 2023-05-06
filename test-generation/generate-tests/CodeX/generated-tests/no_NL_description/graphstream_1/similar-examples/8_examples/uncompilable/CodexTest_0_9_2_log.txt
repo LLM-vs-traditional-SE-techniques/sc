@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_2.java:22: error: cannot find symbol
+		assertFalse(path.contains(graph.addEdge("ab", "a", "b").getEdge()));
+		                                                       ^
+  symbol:   method getEdge()
+  location: interface org.graphstream.graph.Edge

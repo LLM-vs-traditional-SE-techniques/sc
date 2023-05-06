@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_7_5.java:26: error: cannot find symbol
+    int written = bitArray.writeBytesTo(dest, 0, 2);
+                  ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:28: error: incompatible types: possible lossy conversion from int to byte
+    assertEquals(new byte[] { 0b1010_1010, 0b1111_1111, 0 }, dest);
+                              ^
+CodexTest_0_7_5.java:28: error: incompatible types: possible lossy conversion from int to byte
+    assertEquals(new byte[] { 0b1010_1010, 0b1111_1111, 0 }, dest);
+                                           ^

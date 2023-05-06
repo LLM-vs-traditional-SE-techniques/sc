@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_80.java:102: error: cannot find symbol
+        Query itemQuery = new TermQuery();
+        ^
+  symbol:   class Query
+  location: class CodexTest_0_8_80
+CodexTest_0_8_80.java:102: error: cannot find symbol
+        Query itemQuery = new TermQuery();
+                              ^
+  symbol:   class TermQuery
+  location: class CodexTest_0_8_80
+CodexTest_0_8_80.java:103: error: cannot find symbol
+        MatcherAssert.assertThat(itemQuery.parent(), Matchers.notNullValue());
+                                                     ^
+  symbol:   variable Matchers
+  location: class CodexTest_0_8_80
+CodexTest_0_8_80.java:103: error: cannot find symbol
+        MatcherAssert.assertThat(itemQuery.parent(), Matchers.notNullValue());
+        ^
+  symbol:   variable MatcherAssert
+  location: class CodexTest_0_8_80

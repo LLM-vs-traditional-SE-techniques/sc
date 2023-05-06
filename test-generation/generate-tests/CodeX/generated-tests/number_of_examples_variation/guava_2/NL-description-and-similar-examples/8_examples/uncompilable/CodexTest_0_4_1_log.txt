@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_4_1.java:26: error: cannot find symbol
+    assertEquals(4, hashCode.writeBytesTo(dest, 0, 4));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:27: error: cannot find symbol
+    assertEquals(0, hashCode.writeBytesTo(dest, 0, 0));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:28: error: cannot find symbol
+    assertEquals(0, hashCode.writeBytesTo(dest, 0, -1));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:29: error: cannot find symbol
+    assertEquals(0, hashCode.writeBytesTo(dest, -1, 0));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:30: error: cannot find symbol
+    assertEquals(0, hashCode.writeBytesTo(dest, -1, -1));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:31: error: cannot find symbol
+    assertEquals(0, hashCode.writeBytesTo(dest, 4, 0));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:32: error: cannot find symbol
+    assertEquals(0, hashCode.writeBytesTo(dest, 4, -1));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:33: error: cannot find symbol
+    assertEquals(0, hashCode.writeBytesTo(dest, 5, 0));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:34: error: cannot find symbol
+    assertEquals(0, hashCode.writeBytesTo(dest, 5, -1));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:35: error: cannot find symbol
+    assertEquals(0, hashCode.writeBytesTo(dest, 3, 2));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:36: error: cannot find symbol
+    assertEquals(0, hashCode.writeBytesTo(dest, 2, 3));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:37: error: cannot find symbol
+    assertEquals(0, hashCode.writeBytesTo(dest, 0, 5));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:38: error: cannot find symbol
+    assertEquals(0, hashCode.writeBytesTo(dest, 0, 6));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_1

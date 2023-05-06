@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_8_3.java:30: error: cannot find symbol
+      assertEquals(i, Longs.toByteArray(value).length);
+                      ^
+  symbol:   variable Longs
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:32: error: cannot find symbol
+      BigInteger bigValue = BigInteger.valueOf(value);
+      ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:32: error: cannot find symbol
+      BigInteger bigValue = BigInteger.valueOf(value);
+                            ^
+  symbol:   variable BigInteger
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:33: error: cannot find symbol
+      MutableBooleanArithmetic.writeBytesTo(bigValue, dest, 0, i);
+      ^
+  symbol:   variable MutableBooleanArithmetic
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:34: error: cannot find symbol
+      assertEquals(bigValue, new BigInteger(1, dest));
+                                 ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:37: error: cannot find symbol
+      MutableBooleanArithmetic.writeBytesTo(bigValue, dest, 0, i + 1);
+      ^
+  symbol:   variable MutableBooleanArithmetic
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:38: error: cannot find symbol
+      assertEquals(bigValue, new BigInteger(1, dest));
+                                 ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:41: error: cannot find symbol
+      MutableBooleanArithmetic.writeBytesTo(bigValue, dest, 10, i + 10);
+      ^
+  symbol:   variable MutableBooleanArithmetic
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:42: error: cannot find symbol
+      assertEquals(bigValue, new BigInteger(1, Arrays.copyOfRange(dest, 10, 20)));
+                                 ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_8_3

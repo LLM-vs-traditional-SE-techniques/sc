@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_7.java:18: error: cannot find symbol
+    assertEquals("1", "1", 1, m_TestHelper.toString(testList.randomAccess()));
+                                                    ^
+  symbol:   variable testList
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:18: error: cannot find symbol
+    assertEquals("1", "1", 1, m_TestHelper.toString(testList.randomAccess()));
+                              ^
+  symbol:   variable m_TestHelper
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:19: error: cannot find symbol
+    assertEquals("1", "1", 1, m_TestHelper.toString(testList.randomAccess()));
+                                                    ^
+  symbol:   variable testList
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:19: error: cannot find symbol
+    assertEquals("1", "1", 1, m_TestHelper.toString(testList.randomAccess()));
+                              ^
+  symbol:   variable m_TestHelper
+  location: class CodexTest_0_7_7

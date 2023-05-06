@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_55.java:24: error: cannot find symbol
+  public void writeBytesTo2() throws IOException {
+                                     ^
+  symbol:   class IOException
+  location: class CodexTest_0_8_55
+CodexTest_0_8_55.java:29: error: cannot find symbol
+    new TestReader(new byte[]{1, 2, 3, 4, 5}).writeBytesToImpl(dest, offset, maxLength);
+        ^
+  symbol:   class TestReader
+  location: class CodexTest_0_8_55

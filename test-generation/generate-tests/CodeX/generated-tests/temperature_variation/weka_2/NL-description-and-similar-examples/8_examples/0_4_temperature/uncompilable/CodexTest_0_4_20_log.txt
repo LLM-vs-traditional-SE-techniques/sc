@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_20.java:19: error: cannot find symbol
+        Instances inst = new Instances(new MockInstances(data.length));
+                                           ^
+  symbol:   class MockInstances
+  location: class CodexTest_0_4_20

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_6.java:73: error: cannot find symbol
+            fail("Failed to generate [" + source + "]");
+                                          ^
+  symbol:   variable source
+  location: class CodexTest_0_6_6

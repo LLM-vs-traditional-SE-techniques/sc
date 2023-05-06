@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_15.java:24: error: cannot find symbol
+        assertThat(removed, is("2"));
+                            ^
+  symbol:   method is(java.lang.String)
+  location: class CodexTest_0_5_15
+CodexTest_0_5_15.java:25: error: cannot find symbol
+        assertThat(list, hasSize(3));
+                         ^
+  symbol:   method hasSize(int)
+  location: class CodexTest_0_5_15
+CodexTest_0_5_15.java:26: error: cannot find symbol
+        assertThat(list, hasItems(data[0], data[2], data[3]));
+                         ^
+  symbol:   method hasItems(java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_5_15

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_23.java:29: error: cannot find symbol
+    public DoubleDouble2DFunction like2D(int rows, int columns) {
+           ^
+  symbol:   class DoubleDouble2DFunction
+  location: class CodexTest_0_9_23
+CodexTest_0_9_23.java:30: error: cannot find symbol
+        return new DenseDoubleDouble2DFunction(rows,columns);
+                   ^
+  symbol:   class DenseDoubleDouble2DFunction
+  location: class CodexTest_0_9_23

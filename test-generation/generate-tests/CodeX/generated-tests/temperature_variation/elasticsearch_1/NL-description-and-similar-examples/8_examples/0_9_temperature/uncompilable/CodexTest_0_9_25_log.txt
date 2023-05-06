@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_25.java:65: error: package DummyData does not exist
+        String expResult = DummyData.DummyCategories.getCategoryParent();
+                                    ^
+CodexTest_0_9_25.java:66: error: package DummyData does not exist
+        String result = DummyData.DummyCategories.getCategory().parent();
+                                 ^

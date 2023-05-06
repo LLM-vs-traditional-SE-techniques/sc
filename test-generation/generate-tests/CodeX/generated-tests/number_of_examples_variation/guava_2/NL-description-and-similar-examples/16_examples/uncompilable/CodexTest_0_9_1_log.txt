@@ -1,0 +1,72 @@
+isCompilable => false
+CodexTest_0_9_1.java:25: error: cannot find symbol
+    byte[] dest = new byte[bits() / 8];
+                           ^
+  symbol:   method bits()
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:28: error: cannot find symbol
+    bitArray.writeBytesTo(dest, offset, bits() / 8);
+                                        ^
+  symbol:   method bits()
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:28: error: cannot find symbol
+    bitArray.writeBytesTo(dest, offset, bits() / 8);
+    ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:29: error: no suitable method found for assertThat(byte)
+    assertThat(dest[0]).isEqualTo((byte) 0);
+    ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+CodexTest_0_9_1.java:30: error: no suitable method found for assertThat(byte)
+    assertThat(dest[1]).isEqualTo((byte) 0);
+    ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+CodexTest_0_9_1.java:31: error: no suitable method found for assertThat(byte)
+    assertThat(dest[2]).isEqualTo((byte) 0);
+    ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+CodexTest_0_9_1.java:32: error: cannot find symbol
+    assertThat(dest[3]).isEqualTo((byte) bits());
+                                         ^
+  symbol:   method bits()
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:32: error: no suitable method found for assertThat(byte)
+    assertThat(dest[3]).isEqualTo((byte) bits());
+    ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+CodexTest_0_9_1.java:36: error: cannot find symbol
+            bitArray);
+            ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:34: error: cannot find symbol
+            bitArray.readBytesFrom(dest, offset, bits() / 8))
+                                                 ^
+  symbol:   method bits()
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:34: error: cannot find symbol
+            bitArray.readBytesFrom(dest, offset, bits() / 8))
+            ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_9_1

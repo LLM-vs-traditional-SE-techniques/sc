@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_89.java:22: error: cannot find symbol
+    assertEquals(v1.multiply(v2), 33.0, 0.0);
+                   ^
+  symbol:   method multiply(weka.core.AlgVector)
+  location: variable v1 of type weka.core.AlgVector
+CodexTest_0_8_89.java:23: error: cannot find symbol
+    assertArrayEquals(v1.toArray(), data1, 0.0);
+                        ^
+  symbol:   method toArray()
+  location: variable v1 of type weka.core.AlgVector

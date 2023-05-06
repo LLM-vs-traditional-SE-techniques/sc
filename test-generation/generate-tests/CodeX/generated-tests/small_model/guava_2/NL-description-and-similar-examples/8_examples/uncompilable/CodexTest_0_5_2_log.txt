@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_5_2.java:24: error: <identifier> expected
+  Input: public int writeBytesTo(byte[] dest, int offset, int maxLength) {
+       ^
+CodexTest_0_5_2.java:30: error: <identifier> expected
+Output: public int writeBytesTo(byte[] dest, int offset, int maxLength) {
+      ^

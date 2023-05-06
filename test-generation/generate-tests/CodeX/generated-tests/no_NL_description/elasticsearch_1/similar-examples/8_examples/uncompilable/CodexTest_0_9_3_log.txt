@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_3.java:65: error: cannot find symbol
+        PutMappingRequest request = Requests.putMappingRequest("test").parent("foo");
+        ^
+  symbol:   class PutMappingRequest
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:65: error: cannot find symbol
+        PutMappingRequest request = Requests.putMappingRequest("test").parent("foo");
+                                                                      ^
+  symbol:   method parent(java.lang.String)
+  location: class org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest
+CodexTest_0_9_3.java:66: error: cannot find symbol
+        assertThat(request.parent(), equalTo("foo"));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_3

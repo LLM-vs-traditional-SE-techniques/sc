@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_85.java:25: error: cannot find symbol
+    assertEquals(0, Ints.checkedCast(LongMath.factorial(0)));
+                                     ^
+  symbol:   variable LongMath
+  location: class CodexTest_0_7_85

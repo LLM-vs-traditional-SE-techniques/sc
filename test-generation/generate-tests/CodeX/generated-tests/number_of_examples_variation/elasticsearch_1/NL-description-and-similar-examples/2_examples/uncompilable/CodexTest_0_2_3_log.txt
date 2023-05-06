@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_2_3.java:65: error: cannot find symbol
+        assertNull(new Directory("root").parent());
+                       ^
+  symbol:   class Directory
+  location: class CodexTest_0_2_3

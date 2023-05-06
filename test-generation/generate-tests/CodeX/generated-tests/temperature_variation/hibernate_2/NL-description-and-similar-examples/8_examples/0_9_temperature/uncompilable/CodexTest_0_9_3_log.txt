@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_9_3.java:16: error: cannot find symbol
+        assertNull(this.<Boolean>createData().fromString(null));
+                       ^
+  symbol: method <java.lang.Boolean>createData()
+CodexTest_0_9_3.java:17: error: cannot find symbol
+        assertEquals(Boolean.FALSE, this.createData().fromString(Boolean.FALSE.toString()));
+                                        ^
+  symbol: method createData()

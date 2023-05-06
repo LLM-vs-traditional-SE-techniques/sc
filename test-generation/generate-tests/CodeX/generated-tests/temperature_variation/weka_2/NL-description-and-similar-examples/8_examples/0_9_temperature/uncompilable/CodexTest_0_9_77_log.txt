@@ -1,0 +1,43 @@
+isCompilable => false
+CodexTest_0_9_77.java:34: error: illegal start of type
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+^
+CodexTest_0_9_77.java:34: error: ';' expected
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+ ^
+CodexTest_0_9_77.java:34: error: illegal start of type
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+   ^
+CodexTest_0_9_77.java:34: error: ';' expected
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+           ^
+CodexTest_0_9_77.java:34: error: ';' expected
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+                  ^
+CodexTest_0_9_77.java:34: error: ';' expected
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+                               ^
+CodexTest_0_9_77.java:34: error: ';' expected
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+                                        ^
+CodexTest_0_9_77.java:34: error: illegal start of type
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+                                                                                       ^
+CodexTest_0_9_77.java:34: error: ')' expected
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+                                                                                        ^
+CodexTest_0_9_77.java:34: error: ';' expected
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+                                                                                                ^
+CodexTest_0_9_77.java:34: error: <identifier> expected
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+                                                                                                             ^
+CodexTest_0_9_77.java:34: error: illegal start of type
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+                                                                                                               ^
+CodexTest_0_9_77.java:34: error: '(' expected
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+                                                                                                                         ^
+CodexTest_0_9_77.java:34: error: ';' expected
+- **Suggest a test for a method with the public static void walkFileSystem(Path start, ? extends FileVisitor<? super Path>) throws IOException signature.**
+                                                                                                                                                        ^

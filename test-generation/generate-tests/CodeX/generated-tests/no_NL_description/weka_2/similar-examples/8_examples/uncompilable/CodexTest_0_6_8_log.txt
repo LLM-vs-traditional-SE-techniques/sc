@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_8.java:42: error: ')' expected
+			assertEquals("class", 0, instance.value(7), 0
+			                                             ^
+CodexTest_0_6_8.java:43: error: reached end of file while parsing
+}
+ ^

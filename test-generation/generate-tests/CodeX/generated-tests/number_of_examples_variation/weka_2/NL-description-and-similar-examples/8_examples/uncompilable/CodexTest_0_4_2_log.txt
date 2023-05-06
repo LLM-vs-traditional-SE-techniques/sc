@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_2.java:18: error: cannot find symbol
+    Instances model = new Instances(m_Instances, 0);
+                                    ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:22: error: cannot find symbol
+      inst = m_AlgVector.getAsInstance(model, new Random(1));
+             ^
+  symbol:   variable m_AlgVector
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:28: error: cannot find symbol
+    assertEquals("Class value differs", m_Instances.instance(0).classValue(), 
+                                        ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_4_2

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_30.java:16: error: cannot find symbol
+        com.google.gwt.dom.client.AnchorElement e = Document.get().createAnchorElement();
+                                                    ^
+  symbol:   variable Document
+  location: class CodexTest_0_9_30

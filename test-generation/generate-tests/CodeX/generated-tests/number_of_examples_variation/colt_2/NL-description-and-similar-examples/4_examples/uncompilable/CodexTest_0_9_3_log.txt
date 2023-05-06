@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_3.java:42: error: <identifier> expected
+Input: public void set(int row, int column, double value) {
+     ^
+CodexTest_0_9_3.java:45: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_3.java:55: error: reached end of file while parsing
+}
+ ^

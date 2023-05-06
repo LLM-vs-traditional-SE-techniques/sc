@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_8.java:32: error: cannot find symbol
+    ByteBuffer.wrap(expectedBytes).putLong(42).position(12);
+    ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_3_8

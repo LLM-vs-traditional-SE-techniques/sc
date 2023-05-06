@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_42.java:30: error: cannot find symbol
+  final Random random = new Random();
+        ^
+  symbol:   class Random
+  location: class CodexTest_0_9_42
+CodexTest_0_9_42.java:30: error: cannot find symbol
+  final Random random = new Random();
+                            ^
+  symbol:   class Random
+  location: class CodexTest_0_9_42
+CodexTest_0_9_42.java:33: error: cannot find symbol
+  BigInteger probablePrime = ProbablePrimeFinder.find(bitLengthBound, random);
+  ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_9_42
+CodexTest_0_9_42.java:33: error: cannot find symbol
+  BigInteger probablePrime = ProbablePrimeFinder.find(bitLengthBound, random);
+                             ^
+  symbol:   variable ProbablePrimeFinder
+  location: class CodexTest_0_9_42

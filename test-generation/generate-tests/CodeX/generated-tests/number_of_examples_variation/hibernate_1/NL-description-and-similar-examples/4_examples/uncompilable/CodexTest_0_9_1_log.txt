@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_1.java:19: error: cannot find symbol
+        assertEquals(BooleanConversions.booleanToShort(true), (short) 1);
+                     ^
+  symbol:   variable BooleanConversions
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:20: error: cannot find symbol
+        assertEquals(BooleanConversions.booleanToShort(false), (short) 0);
+                     ^
+  symbol:   variable BooleanConversions
+  location: class CodexTest_0_9_1

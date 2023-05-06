@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_12.java:110: error: cannot find symbol
+        assertEquals(expected, tester.getClassForInput(t));
+                               ^
+  symbol:   variable tester
+  location: class CodexTest_0_8_12

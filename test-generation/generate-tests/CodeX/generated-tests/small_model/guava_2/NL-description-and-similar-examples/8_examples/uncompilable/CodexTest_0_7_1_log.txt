@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_1.java:26: error: cannot find symbol
+    AlgVector v = new AlgVector(data);
+    ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:26: error: cannot find symbol
+    AlgVector v = new AlgVector(data);
+                      ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:27: error: cannot find symbol
+    ByteBuffer b = ByteBuffer.allocate(16);
+    ^
+  symbol:   class ByteBuffer
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:27: error: cannot find symbol
+    ByteBuffer b = ByteBuffer.allocate(16);
+                   ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_7_1

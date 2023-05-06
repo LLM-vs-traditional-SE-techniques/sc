@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_6_7.java:24: error: illegal character: '`'
+  ```
+  ^
+CodexTest_0_6_7.java:24: error: illegal character: '`'
+  ```
+   ^
+CodexTest_0_6_7.java:24: error: illegal character: '`'
+  ```
+    ^
+CodexTest_0_6_7.java:25: error: illegal character: '#'
+### Pick a random test for a method
+^
+CodexTest_0_6_7.java:25: error: illegal character: '#'
+### Pick a random test for a method
+ ^
+CodexTest_0_6_7.java:25: error: illegal character: '#'
+### Pick a random test for a method
+  ^
+CodexTest_0_6_7.java:25: error: ';' expected
+### Pick a random test for a method
+          ^
+CodexTest_0_6_7.java:25: error: ';' expected
+### Pick a random test for a method
+                      ^
+CodexTest_0_6_7.java:25: error: ';' expected
+### Pick a random test for a method
+                                   ^

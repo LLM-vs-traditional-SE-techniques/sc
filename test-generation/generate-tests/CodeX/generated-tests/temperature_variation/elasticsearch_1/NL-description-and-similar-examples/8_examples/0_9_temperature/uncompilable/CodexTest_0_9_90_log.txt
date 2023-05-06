@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_90.java:65: error: cannot find symbol
+        var d = new Domain();
+        ^
+  symbol:   class var
+  location: class CodexTest_0_9_90
+CodexTest_0_9_90.java:65: error: cannot find symbol
+        var d = new Domain();
+                    ^
+  symbol:   class Domain
+  location: class CodexTest_0_9_90
+CodexTest_0_9_90.java:66: error: cannot find symbol
+        Element e1 = new Element(d, 1, null);
+        ^
+  symbol:   class Element
+  location: class CodexTest_0_9_90
+CodexTest_0_9_90.java:66: error: cannot find symbol
+        Element e1 = new Element(d, 1, null);
+                         ^
+  symbol:   class Element
+  location: class CodexTest_0_9_90

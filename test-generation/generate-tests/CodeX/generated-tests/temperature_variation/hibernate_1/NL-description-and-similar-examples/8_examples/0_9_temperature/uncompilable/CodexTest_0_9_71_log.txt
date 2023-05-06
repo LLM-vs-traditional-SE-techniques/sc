@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_9_71.java:19: error: incompatible types: java.lang.Short cannot be converted to java.lang.Boolean
+        Boolean result = underTest.toShort(true);
+                                          ^
+CodexTest_0_9_71.java:21: error: cannot find symbol
+        assertEquals(1, result.shortValue());
+                              ^
+  symbol:   method shortValue()
+  location: variable result of type java.lang.Boolean

@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_9_48.java:25: error: cannot find symbol
+  static class Reporter implements UncaughtExceptionHandler {
+                                   ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:16: error: incompatible types: CodexTest_0_9_48.Reporter cannot be converted to com.google.gwt.core.client.GWT.UncaughtExceptionHandler
+    GWT.setUncaughtExceptionHandler(new Reporter(e));
+                                    ^
+CodexTest_0_9_48.java:22: error: cannot find symbol
+      Tester.foo();
+      ^
+  symbol:   variable Tester
+  location: class CodexTest_0_9_48
+CodexTest_0_9_48.java:30: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

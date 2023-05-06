@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_4_5.java:32: error: cannot find symbol
+		DoubleMatrix2D n = m.like2D(2,3);
+		                    ^
+  symbol:   method like2D(int,int)
+  location: variable m of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_4_5.java:34: error: cannot find symbol
+		assertEquals(1,m.getQuick(0,0),TOL);
+		                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:35: error: cannot find symbol
+		assertEquals(1,m.getQuick(1,2),TOL);
+		                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:36: error: cannot find symbol
+		assertEquals(2,n.getQuick(0,0),TOL);
+		                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_5
+CodexTest_0_4_5.java:37: error: cannot find symbol
+		assertEquals(2,n.getQuick(1,2),TOL);
+		                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_5

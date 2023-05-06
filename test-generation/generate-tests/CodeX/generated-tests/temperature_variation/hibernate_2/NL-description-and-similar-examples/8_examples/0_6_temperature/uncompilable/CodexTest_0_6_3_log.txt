@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_3.java:16: error: cannot find symbol
+        assertTrue(new BooleanType().fromString("true"));
+                       ^
+  symbol:   class BooleanType
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:17: error: cannot find symbol
+        assertFalse(new BooleanType().fromString("false"));
+                        ^
+  symbol:   class BooleanType
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:18: error: cannot find symbol
+        assertNull(new BooleanType().fromString(null));
+                       ^
+  symbol:   class BooleanType
+  location: class CodexTest_0_6_3

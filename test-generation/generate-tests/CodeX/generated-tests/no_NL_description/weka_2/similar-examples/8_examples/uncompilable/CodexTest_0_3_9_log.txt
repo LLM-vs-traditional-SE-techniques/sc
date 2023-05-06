@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_3_9.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                                            ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                                                               ^
+  symbol:   class StringReader
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:25: error: cannot find symbol
+        assertEquals(1, inst.value(0), EPSILON);
+                                       ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:26: error: cannot find symbol
+        assertEquals(2, inst.value(1), EPSILON);
+                                       ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_3_9
+CodexTest_0_3_9.java:27: error: cannot find symbol
+        assertEquals(3, inst.value(2), EPSILON);
+                                       ^
+  symbol:   variable EPSILON
+  location: class CodexTest_0_3_9

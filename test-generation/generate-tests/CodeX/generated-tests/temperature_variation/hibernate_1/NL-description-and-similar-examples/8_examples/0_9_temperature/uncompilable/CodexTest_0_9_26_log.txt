@@ -1,0 +1,55 @@
+isCompilable => false
+CodexTest_0_9_26.java:16: error: invalid method declaration; return type required
+      assertEquals((short) 1, new BooleanTypeDescriptor().toShort(b1));
+      ^
+CodexTest_0_9_26.java:16: error: illegal start of type
+      assertEquals((short) 1, new BooleanTypeDescriptor().toShort(b1));
+                   ^
+CodexTest_0_9_26.java:16: error: ')' expected
+      assertEquals((short) 1, new BooleanTypeDescriptor().toShort(b1));
+                    ^
+CodexTest_0_9_26.java:16: error: ';' expected
+      assertEquals((short) 1, new BooleanTypeDescriptor().toShort(b1));
+                         ^
+CodexTest_0_9_26.java:16: error: illegal start of type
+      assertEquals((short) 1, new BooleanTypeDescriptor().toShort(b1));
+                           ^
+CodexTest_0_9_26.java:16: error: <identifier> expected
+      assertEquals((short) 1, new BooleanTypeDescriptor().toShort(b1));
+                            ^
+CodexTest_0_9_26.java:16: error: ';' expected
+      assertEquals((short) 1, new BooleanTypeDescriptor().toShort(b1));
+                             ^
+CodexTest_0_9_26.java:16: error: invalid method declaration; return type required
+      assertEquals((short) 1, new BooleanTypeDescriptor().toShort(b1));
+                                  ^
+CodexTest_0_9_26.java:16: error: ';' expected
+      assertEquals((short) 1, new BooleanTypeDescriptor().toShort(b1));
+                                                         ^
+CodexTest_0_9_26.java:18: error: invalid method declaration; return type required
+      assertEquals((short) 0, new BooleanTypeDescriptor().toShort(b2));
+      ^
+CodexTest_0_9_26.java:18: error: illegal start of type
+      assertEquals((short) 0, new BooleanTypeDescriptor().toShort(b2));
+                   ^
+CodexTest_0_9_26.java:18: error: ')' expected
+      assertEquals((short) 0, new BooleanTypeDescriptor().toShort(b2));
+                    ^
+CodexTest_0_9_26.java:18: error: ';' expected
+      assertEquals((short) 0, new BooleanTypeDescriptor().toShort(b2));
+                         ^
+CodexTest_0_9_26.java:18: error: illegal start of type
+      assertEquals((short) 0, new BooleanTypeDescriptor().toShort(b2));
+                           ^
+CodexTest_0_9_26.java:18: error: <identifier> expected
+      assertEquals((short) 0, new BooleanTypeDescriptor().toShort(b2));
+                            ^
+CodexTest_0_9_26.java:18: error: ';' expected
+      assertEquals((short) 0, new BooleanTypeDescriptor().toShort(b2));
+                             ^
+CodexTest_0_9_26.java:18: error: invalid method declaration; return type required
+      assertEquals((short) 0, new BooleanTypeDescriptor().toShort(b2));
+                                  ^
+CodexTest_0_9_26.java:18: error: ';' expected
+      assertEquals((short) 0, new BooleanTypeDescriptor().toShort(b2));
+                                                         ^

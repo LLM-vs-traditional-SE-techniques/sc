@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_51.java:26: error: cannot find symbol
+    assertEquals(hashCode, hashCode.asBytes().asLong());
+                                             ^
+  symbol:   method asLong()
+  location: class byte[]

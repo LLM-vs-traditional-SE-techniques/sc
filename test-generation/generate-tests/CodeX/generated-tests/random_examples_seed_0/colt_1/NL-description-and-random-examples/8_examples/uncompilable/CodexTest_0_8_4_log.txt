@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_4.java:34: error: cannot find symbol
+        final RealMatrix m = MatrixUtils.createColumnRealMatrix(data);
+              ^
+  symbol:   class RealMatrix
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:34: error: cannot find symbol
+        final RealMatrix m = MatrixUtils.createColumnRealMatrix(data);
+                             ^
+  symbol:   variable MatrixUtils
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:37: error: cannot find symbol
+        final RealMatrix matrix = new OpenMapRealMatrix(nRows, nCols);
+              ^
+  symbol:   class RealMatrix
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:37: error: cannot find symbol
+        final RealMatrix matrix = new OpenMapRealMatrix(nRows, nCols);
+                                      ^
+  symbol:   class OpenMapRealMatrix
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:38: error: cannot find symbol
+        final RealMatrix m2 = m.copy();
+              ^
+  symbol:   class RealMatrix
+  location: class CodexTest_0_8_4

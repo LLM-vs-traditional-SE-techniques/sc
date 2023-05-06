@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_4.java:17: error: cannot find symbol
+    Assert.assertNull(underTest.toShort(null));
+                               ^
+  symbol:   method toShort(<nulltype>)
+  location: variable underTest of type org.hibernate.type.descriptor.java.ShortTypeDescriptor

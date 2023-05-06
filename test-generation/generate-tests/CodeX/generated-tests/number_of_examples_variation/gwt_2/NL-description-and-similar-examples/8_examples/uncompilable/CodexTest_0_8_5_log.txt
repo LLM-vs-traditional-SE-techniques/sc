@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_5.java:15: error: cannot find symbol
+		assertTrue(GWT.getUncaughtExceptionHandler() instanceof UncaughtExceptionHandler);
+		                                                        ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_5

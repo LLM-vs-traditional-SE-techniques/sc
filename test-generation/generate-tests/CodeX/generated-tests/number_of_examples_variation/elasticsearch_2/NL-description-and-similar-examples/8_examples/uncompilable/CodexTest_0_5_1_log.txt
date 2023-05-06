@@ -1,0 +1,30 @@
+isCompilable => false
+CodexTest_0_5_1.java:66: error: cannot find symbol
+        indexRequest.source(singletonMap("field", "value"));
+                            ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_5_1
+CodexTest_0_5_1.java:67: error: incompatible types: org.elasticsearch.action.index.IndexRequest cannot be converted to java.lang.String
+        IndexRequest copy = new IndexRequest(indexRequest);
+                                             ^
+CodexTest_0_5_1.java:72: error: cannot find symbol
+        assertEquals(indexRequest.timestamp(), copy.timestamp());
+                                 ^
+  symbol:   method timestamp()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_5_1.java:72: error: cannot find symbol
+        assertEquals(indexRequest.timestamp(), copy.timestamp());
+                                                   ^
+  symbol:   method timestamp()
+  location: variable copy of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_5_1.java:73: error: cannot find symbol
+        assertEquals(indexRequest.ttl(), copy.ttl());
+                                 ^
+  symbol:   method ttl()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_5_1.java:73: error: cannot find symbol
+        assertEquals(indexRequest.ttl(), copy.ttl());
+                                             ^
+  symbol:   method ttl()
+  location: variable copy of type org.elasticsearch.action.index.IndexRequest
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

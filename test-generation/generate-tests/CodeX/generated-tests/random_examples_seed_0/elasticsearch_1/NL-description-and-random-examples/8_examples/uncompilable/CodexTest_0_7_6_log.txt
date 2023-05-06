@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_6.java:66: error: cannot find symbol
+        DenseDoubleMatrix1D d1DenseDoubleMatrix1D = new DenseDoubleMatrix1D(parent);
+        ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_7_6
+CodexTest_0_7_6.java:66: error: cannot find symbol
+        DenseDoubleMatrix1D d1DenseDoubleMatrix1D = new DenseDoubleMatrix1D(parent);
+                                                        ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_7_6

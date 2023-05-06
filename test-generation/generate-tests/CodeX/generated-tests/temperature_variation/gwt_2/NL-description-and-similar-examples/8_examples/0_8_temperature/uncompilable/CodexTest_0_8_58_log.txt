@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_58.java:14: error: illegal start of type
+  */
+  ^
+CodexTest_0_8_58.java:14: error: ';' expected
+  */
+   ^
+CodexTest_0_8_58.java:37: error: illegal start of expression
+					signature = line.substring(0, line.indexOf({));
+					                                           ^
+CodexTest_0_8_58.java:37: error: ';' expected
+					signature = line.substring(0, line.indexOf({));
+					                                             ^
+CodexTest_0_8_58.java:44: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_32.java:65: error: cannot find symbol
+        assertEquals("parent", entity.getParentName());
+                               ^
+  symbol:   variable entity
+  location: class CodexTest_0_8_32

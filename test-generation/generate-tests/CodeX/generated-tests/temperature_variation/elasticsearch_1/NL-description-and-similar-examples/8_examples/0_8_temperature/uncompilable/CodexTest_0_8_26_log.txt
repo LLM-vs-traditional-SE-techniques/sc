@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_26.java:66: error: cannot find symbol
+        ParentPeerQuery parentPeerQuery = new ParentPeerQuery(parent, null);
+        ^
+  symbol:   class ParentPeerQuery
+  location: class CodexTest_0_8_26
+CodexTest_0_8_26.java:66: error: cannot find symbol
+        ParentPeerQuery parentPeerQuery = new ParentPeerQuery(parent, null);
+                                              ^
+  symbol:   class ParentPeerQuery
+  location: class CodexTest_0_8_26

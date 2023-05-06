@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_98.java:66: error: cannot find symbol
+        Map<String, String> params = singletonMap("pretty", "true");
+                                     ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_8_98
+CodexTest_0_8_98.java:70: error: cannot find symbol
+        assertEquals(prettyRequest, indexRequest.sourceAsString());
+                                                ^
+  symbol:   method sourceAsString()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest

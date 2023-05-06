@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_9_77.java:65: error: cannot find symbol
+        List<SimilarityProvider> providers = Lists.newArrayList(
+             ^
+  symbol:   class SimilarityProvider
+  location: class CodexTest_0_9_77
+CodexTest_0_9_77.java:66: error: cannot find symbol
+            new SimilarityProvider("foobar", new DefaultSimilarityProvider("foobar", org.apache.lucene.search.similarities.TFIDFSimilarity.class)));
+                ^
+  symbol:   class SimilarityProvider
+  location: class CodexTest_0_9_77
+CodexTest_0_9_77.java:66: error: cannot find symbol
+            new SimilarityProvider("foobar", new DefaultSimilarityProvider("foobar", org.apache.lucene.search.similarities.TFIDFSimilarity.class)));
+                                                 ^
+  symbol:   class DefaultSimilarityProvider
+  location: class CodexTest_0_9_77
+CodexTest_0_9_77.java:65: error: cannot find symbol
+        List<SimilarityProvider> providers = Lists.newArrayList(
+                                             ^
+  symbol:   variable Lists
+  location: class CodexTest_0_9_77
+CodexTest_0_9_77.java:67: error: cannot find symbol
+        SimilarityService similarityService = new SimilarityService("index_name", providers, null);
+        ^
+  symbol:   class SimilarityService
+  location: class CodexTest_0_9_77
+CodexTest_0_9_77.java:67: error: cannot find symbol
+        SimilarityService similarityService = new SimilarityService("index_name", providers, null);
+                                                  ^
+  symbol:   class SimilarityService
+  location: class CodexTest_0_9_77
+CodexTest_0_9_77.java:68: error: cannot find symbol
+        List<SimilarityProvider> descriptors = similarityService.getSimilarityDescriptors();
+             ^
+  symbol:   class SimilarityProvider
+  location: class CodexTest_0_9_77

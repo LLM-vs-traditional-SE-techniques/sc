@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_3.java:21: error: cannot find symbol
+        assertFalse(Contains.contains(null, null));
+                    ^
+  symbol:   variable Contains
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:22: error: cannot find symbol
+        assertFalse(Contains.contains(null, new Object()));
+                    ^
+  symbol:   variable Contains
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:23: error: cannot find symbol
+        assertFalse(Contains.contains(new Object(), null));
+                    ^
+  symbol:   variable Contains
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:24: error: cannot find symbol
+        assertTrue(Contains.contains(42, 42));
+                   ^
+  symbol:   variable Contains
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:25: error: cannot find symbol
+        assertTrue(Contains.contains(42L, 42L));
+                   ^
+  symbol:   variable Contains
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:26: error: cannot find symbol
+        assertTrue(Contains.contains(42d, 42d));
+                   ^
+  symbol:   variable Contains
+  location: class CodexTest_0_9_3

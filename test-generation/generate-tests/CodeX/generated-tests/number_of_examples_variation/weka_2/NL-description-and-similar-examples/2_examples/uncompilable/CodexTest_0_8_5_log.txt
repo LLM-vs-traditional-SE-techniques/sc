@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_8_5.java:17: error: ';' expected
+   None as the method signature is not compatible with the framework. Therefore, it will be ignored.
+          ^
+CodexTest_0_8_5.java:17: error: ';' expected
+   None as the method signature is not compatible with the framework. Therefore, it will be ignored.
+                     ^
+CodexTest_0_8_5.java:17: error: ';' expected
+   None as the method signature is not compatible with the framework. Therefore, it will be ignored.
+                                  ^
+CodexTest_0_8_5.java:17: error: ';' expected
+   None as the method signature is not compatible with the framework. Therefore, it will be ignored.
+                                                 ^
+CodexTest_0_8_5.java:17: error: ';' expected
+   None as the method signature is not compatible with the framework. Therefore, it will be ignored.
+                                                          ^
+CodexTest_0_8_5.java:17: error: <identifier> expected
+   None as the method signature is not compatible with the framework. Therefore, it will be ignored.
+                                                                               ^
+CodexTest_0_8_5.java:17: error: ';' expected
+   None as the method signature is not compatible with the framework. Therefore, it will be ignored.
+                                                                                   ^
+CodexTest_0_8_5.java:17: error: ';' expected
+   None as the method signature is not compatible with the framework. Therefore, it will be ignored.
+                                                                                           ^
+CodexTest_0_8_5.java:18: error: illegal character: '`'
+```
+^
+CodexTest_0_8_5.java:18: error: illegal character: '`'
+```
+ ^
+CodexTest_0_8_5.java:18: error: illegal character: '`'
+```
+  ^
+CodexTest_0_8_5.java:19: error: reached end of file while parsing
+}
+ ^

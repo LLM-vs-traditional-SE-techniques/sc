@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_10.java:26: error: cannot find symbol
+    int writtenBytes = new BitArray(new boolean[] {true, false, false, true, false, true, true, true})
+                           ^
+  symbol:   class BitArray
+  location: class CodexTest_0_3_10

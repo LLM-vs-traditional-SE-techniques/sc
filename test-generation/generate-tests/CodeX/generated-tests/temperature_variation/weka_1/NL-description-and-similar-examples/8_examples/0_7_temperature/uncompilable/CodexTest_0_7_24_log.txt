@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_24.java:19: error: cannot find symbol
+        AlgVector vector1 = new AlgVector(Arrays.asList(10.0, 20.0));
+                                          ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_7_24
+CodexTest_0_7_24.java:20: error: cannot find symbol
+        AlgVector vector2 = new AlgVector(Arrays.asList(10.0, 20.0, 30.0));
+                                          ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_7_24
+CodexTest_0_7_24.java:22: error: cannot find symbol
+        expectedException.expect(IllegalArgumentException.class);
+        ^
+  symbol:   variable expectedException
+  location: class CodexTest_0_7_24
+CodexTest_0_7_24.java:23: error: cannot find symbol
+        expectedException.expectMessage("Vectors are not of the same size.");
+        ^
+  symbol:   variable expectedException
+  location: class CodexTest_0_7_24

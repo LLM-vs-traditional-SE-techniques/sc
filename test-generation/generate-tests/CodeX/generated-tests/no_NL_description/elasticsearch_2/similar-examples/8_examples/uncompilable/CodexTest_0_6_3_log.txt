@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_3.java:69: error: cannot find symbol
+        XContentParser parser = createParser(XContentType.JSON.xContent(), BytesReference.bytes(indexRequest).streamInput());
+        ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:69: error: cannot find symbol
+        XContentParser parser = createParser(XContentType.JSON.xContent(), BytesReference.bytes(indexRequest).streamInput());
+                                                                                         ^
+  symbol:   method bytes(org.elasticsearch.action.index.IndexRequest)
+  location: class org.elasticsearch.common.bytes.BytesReference
+CodexTest_0_6_3.java:71: error: cannot find symbol
+        assertThat(serialized, equalTo(source));
+                               ^
+  symbol:   method equalTo(java.util.Map<java.lang.String,java.lang.Object>)
+  location: class CodexTest_0_6_3

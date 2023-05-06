@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_21.java:28: error: cannot find symbol
+    assertEquals("1. value differs", 6.0, v3.getElement(0), TOL);
+                                                            ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_21
+CodexTest_0_6_21.java:29: error: cannot find symbol
+    assertEquals("2. value differs", 8.0, v3.getElement(1), TOL);
+                                                            ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_21
+CodexTest_0_6_21.java:30: error: cannot find symbol
+    assertEquals("3. value differs", 10.0, v3.getElement(2), TOL);
+                                                             ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_21

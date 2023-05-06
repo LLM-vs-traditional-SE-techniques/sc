@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_6_2.java:22: error: cannot find symbol
+        for (int i = 0; i < elements.length; i++) {
+                            ^
+  symbol:   variable elements
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:23: error: cannot find symbol
+            list.add(elements[i]);
+                     ^
+  symbol:   variable elements
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:23: error: cannot find symbol
+            list.add(elements[i]);
+            ^
+  symbol:   variable list
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:26: error: cannot find symbol
+        list.remove(elements[0]);
+                    ^
+  symbol:   variable elements
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:26: error: cannot find symbol
+        list.remove(elements[0]);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:27: error: cannot find symbol
+        list.remove(elements[2]);
+                    ^
+  symbol:   variable elements
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:27: error: cannot find symbol
+        list.remove(elements[2]);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:28: error: cannot find symbol
+        list.remove(elements[5]);
+                    ^
+  symbol:   variable elements
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:28: error: cannot find symbol
+        list.remove(elements[5]);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:30: error: cannot find symbol
+        assertEquals(elements.length - 3, list.size());
+                     ^
+  symbol:   variable elements
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:30: error: cannot find symbol
+        assertEquals(elements.length - 3, list.size());
+                                          ^
+  symbol:   variable list
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:32: error: cannot find symbol
+        for (int i = 0; i < elements.length; i++) {
+                            ^
+  symbol:   variable elements
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:36: error: cannot find symbol
+            assertEquals(elements[i], list.get(index));
+                         ^
+  symbol:   variable elements
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:36: error: cannot find symbol
+            assertEquals(elements[i], list.get(index));
+                                      ^
+  symbol:   variable list
+  location: class CodexTest_0_6_2

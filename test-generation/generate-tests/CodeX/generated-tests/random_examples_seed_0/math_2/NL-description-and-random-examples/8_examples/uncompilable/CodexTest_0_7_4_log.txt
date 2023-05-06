@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_4.java:52: error: <identifier> expected
+Input: public static boolean lessThan(double a, double b, double eps) {
+     ^
+CodexTest_0_7_4.java:55: error: <identifier> expected
+Output: public static void test1() {
+      ^
+CodexTest_0_7_4.java:59: error: <identifier> expected
+Input: public static boolean equals(double a, double b, double eps) {
+     ^
+CodexTest_0_7_4.java:62: error: <identifier> expected
+Output: public static void test1() {
+      ^
+CodexTest_0_7_4.java:66: error: <identifier> expected
+Input: public static boolean greaterThan(double a, double b, double eps) {
+     ^
+CodexTest_0_7_4.java:69: error: <identifier> expected
+Output: public static void test1() {
+      ^
+CodexTest_0_7_4.java:73: error: <identifier> expected
+Input: public static double[][] exchangeColumns(double[][] A, int i, int j) {
+     ^
+CodexTest_0_7_4.java:76: error: ')' expected
+        if (i >= 0 && i < nCols && j >= 0 && j < n
+                                                  ^
+CodexTest_0_7_4.java:77: error: illegal start of statement
+}
+^
+CodexTest_0_7_4.java:77: error: reached end of file while parsing
+}
+ ^

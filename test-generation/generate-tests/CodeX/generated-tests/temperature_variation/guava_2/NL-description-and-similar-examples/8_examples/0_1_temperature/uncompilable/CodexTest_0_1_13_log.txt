@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_1_13.java:31: error: int cannot be dereferenced
+    assertEquals(length, bits.writeBytesTo(dest, offset, maxLength));
+                             ^

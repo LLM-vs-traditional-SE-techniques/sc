@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_5_4.java:20: error: cannot find symbol
+        Graph<Integer, DefaultEdge> g = new SimpleGraph<>(DefaultEdge.class);
+                       ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:20: error: type org.graphstream.graph.Graph does not take parameters
+        Graph<Integer, DefaultEdge> g = new SimpleGraph<>(DefaultEdge.class);
+             ^
+CodexTest_0_5_4.java:20: error: cannot find symbol
+        Graph<Integer, DefaultEdge> g = new SimpleGraph<>(DefaultEdge.class);
+                                            ^
+  symbol:   class SimpleGraph
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:20: error: cannot find symbol
+        Graph<Integer, DefaultEdge> g = new SimpleGraph<>(DefaultEdge.class);
+                                                          ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_5_4
+CodexTest_0_5_4.java:23: error: cannot find symbol
+        DefaultEdge e = g.addEdge(1, 2);
+        ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_5_4

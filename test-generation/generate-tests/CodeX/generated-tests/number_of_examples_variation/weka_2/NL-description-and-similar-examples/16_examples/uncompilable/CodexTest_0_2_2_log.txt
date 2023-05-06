@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_2.java:34: error: ')' expected
+																	   + "43,44,45\n"
+																	                 ^
+CodexTest_0_2_2.java:36: error: reached end of file while parsing
+}
+ ^

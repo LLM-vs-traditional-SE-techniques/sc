@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_34.java:40: error: <identifier> expected
+Input: public boolean equals(Object o) {
+     ^
+CodexTest_0_7_34.java:55: error: <identifier> expected
+Output: public static void testBig() {
+      ^

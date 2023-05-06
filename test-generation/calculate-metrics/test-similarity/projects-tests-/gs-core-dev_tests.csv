@@ -1,0 +1,4855 @@
+test,file,project
+"@Test
+	public void testGetId() {
+		final String id = String.format(""test-%x"", System.currentTimeMillis());
+
+		AbstractElement e = new LocalAbstractElement(id);
+		assertEquals(id, e.getId());
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testGetIndex() {
+		AbstractElement e = new LocalAbstractElement(1337);
+		assertEquals(1337, e.getIndex());
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testGetAttribute() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+		Object o = new Object();
+
+		e.setAttribute(""A"", o);
+		e.setAttribute(""C"", ""TEST"");
+		e.setAttribute(""D"");
+		e.setAttribute(""E"", (Object) null);
+
+		assertSame(o, e.getAttribute(""A""));
+		assertNull(e.getAttribute(""B""));
+		assertNull(e.getAttribute(""A"", String.class));
+		assertEquals(""TEST"", e.getAttribute(""C"", String.class));
+		assertEquals(true, e.getAttribute(""D""));
+		assertNull(e.getAttribute(""E""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testGetFirstAttributeOf() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+
+		e.setAttribute(""A"", ""A"");
+		e.setAttribute(""C"", ""C"");
+		e.setAttribute(""D"", 13.37);
+
+		assertEquals(""C"", e.getFirstAttributeOf(""B"", ""C"", ""A""));
+		assertEquals(13.37, e.getFirstAttributeOf(Number.class, ""B"", ""C"", ""D"", ""A""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testGetLabel() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+
+		e.setAttribute(""A"", ""A"");
+		e.setAttribute(""B"", 13.37);
+
+		assertEquals(""A"", e.getLabel(""A""));
+		assertNull(e.getLabel(""B""));
+		assertNull(e.getLabel(""C""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testGetNumber() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+
+		e.setAttribute(""A"", ""A"");
+		e.setAttribute(""B"", 13.37);
+
+		assertEquals(13.37, e.getNumber(""B""), 0);
+		assertTrue(Double.isNaN(e.getNumber(""A"")));
+		assertTrue(Double.isNaN(e.getNumber(""C"")));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testGetVector() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+		List<Number> vec1 = new LinkedList<>();
+		List<Number> vec2 = new ArrayList<>();
+		List<Number> vec3 = new Vector<>();
+		List<Object> vec4 = new Vector<>();
+		List<Object> vec5 = new Vector<>();
+
+		for (int i = 0; i < 10; i++) {
+			vec1.add(Math.random());
+			vec2.add((int) (Math.random() * 100));
+			vec3.add(Math.random());
+			vec4.add(new Object());
+		}
+
+		e.setAttribute(""vec1"", vec1);
+		e.setAttribute(""vec2"", vec2);
+		e.setAttribute(""vec3"", vec3);
+		e.setAttribute(""vec4"", vec4);
+		e.setAttribute(""vec5"", vec5);
+		e.setAttribute(""vec6"", new Object());
+
+		assertNotNull(e.getVector(""vec1""));
+		assertNotNull(e.getVector(""vec2""));
+		assertNotNull(e.getVector(""vec3""));
+		assertNull(e.getVector(""vec4""));
+		assertNull(e.getVector(""vec5""));
+		assertNull(e.getVector(""vec6""));
+		assertNull(e.getVector(""vec7""));
+
+		assertEquals(vec1, e.getVector(""vec1""));
+		assertEquals(vec2, e.getVector(""vec2""));
+		assertEquals(vec3, e.getVector(""vec3""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testGetArray() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+
+		e.setAttribute(""array1"", 1, 2, 3);
+		e.setAttribute(""array2"", (Object) new Integer[] { 1, 2, 3 });
+		e.setAttribute(""array3"", (Object) new Integer[] {});
+		e.setAttribute(""attr1"", new Object());
+
+		assertNotNull(e.getArray(""array1""));
+		assertNotNull(e.getArray(""array2""));
+		assertNotNull(e.getArray(""array3""));
+		assertNull(e.getArray(""attr1""));
+
+		assertArrayEquals(new Integer[] { 1, 2, 3 }, e.getArray(""array1""));
+		assertArrayEquals(new Integer[] { 1, 2, 3 }, e.getArray(""array2""));
+		assertArrayEquals(new Integer[] {}, e.getArray(""array3""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testGetMap() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+		Map<String, Integer> map = new HashMap<>();
+
+		map.put(""T"", 1);
+		map.put(""E"", 2);
+		map.put(""S"", 3);
+		map.put(""T"", 4);
+
+		e.setAttribute(""map"", map);
+
+		assertTrue(e.hasMap(""map""));
+		assertEquals(map, e.getAttribute(""map""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testHasAttribute() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+
+		e.setAttribute(""A"", new Object());
+		e.setAttribute(""B"", new Object());
+
+		assertTrue(e.hasAttribute(""A""));
+		assertTrue(e.hasAttribute(""B""));
+		assertFalse(e.hasAttribute(""C""));
+
+		e.setAttribute(""C"", e);
+
+		assertTrue(e.hasAttribute(""C""));
+		assertTrue(e.hasAttribute(""C"", LocalAbstractElement.class));
+		assertFalse(e.hasAttribute(""C"", String.class));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testHasLabel() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+
+		e.setAttribute(""A"", new Object());
+		e.setAttribute(""B"", ""LABEL"");
+
+		assertTrue(e.hasLabel(""B""));
+		assertFalse(e.hasLabel(""A""));
+		assertFalse(e.hasLabel(""C""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testHasNumber() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+
+		e.setAttribute(""A"", new Object());
+		e.setAttribute(""B"", 13.37);
+		e.setAttribute(""C"", Double.valueOf(13.37));
+		e.setAttribute(""D"", 1337);
+		e.setAttribute(""E"", Integer.valueOf(1337));
+		e.setAttribute(""G"", ""13.37"");
+		e.setAttribute(""H"", ""AD3.37"");
+
+		assertFalse(e.hasNumber(""A""));
+		assertTrue(e.hasNumber(""B""));
+		assertTrue(e.hasNumber(""C""));
+		assertTrue(e.hasNumber(""D""));
+		assertTrue(e.hasNumber(""E""));
+		assertFalse(e.hasNumber(""F""));
+		assertTrue(e.hasNumber(""G""));
+		assertFalse(e.hasNumber(""H""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testHasVector() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+		List<Number> vec1 = new LinkedList<>();
+		List<Number> vec2 = new ArrayList<>();
+		List<Number> vec3 = new Vector<>();
+		List<Object> vec4 = new Vector<>();
+		List<Object> vec5 = new Vector<>();
+
+		for (int i = 0; i < 10; i++) {
+			vec1.add(Math.random());
+			vec2.add((int) (Math.random() * 100));
+			vec3.add(Math.random());
+			vec4.add(new Object());
+		}
+
+		e.setAttribute(""vec1"", vec1);
+		e.setAttribute(""vec2"", vec2);
+		e.setAttribute(""vec3"", vec3);
+		e.setAttribute(""vec4"", vec4);
+		e.setAttribute(""vec5"", vec5);
+		e.setAttribute(""vec6"", new Object());
+
+		assertTrue(e.hasVector(""vec1""));
+		assertTrue(e.hasVector(""vec2""));
+		assertTrue(e.hasVector(""vec3""));
+		assertFalse(e.hasVector(""vec4""));
+		assertFalse(e.hasVector(""vec5""));
+		assertFalse(e.hasVector(""vec6""));
+		assertFalse(e.hasVector(""vec7""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testHasArray() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+
+		e.setAttribute(""array1"", 1, 2, 3);
+		e.setAttribute(""array2"", (Object) new Integer[] { 1, 2, 3 });
+		e.setAttribute(""array3"", (Object) new Integer[] {});
+		e.setAttribute(""array4"", (Object) new int[] { 1, 2, 3 });
+		e.setAttribute(""attr1"", new Object());
+
+		assertTrue(e.hasArray(""array1""));
+		assertTrue(e.hasArray(""array2""));
+		assertTrue(e.hasArray(""array3""));
+		assertFalse(e.hasArray(""array4""));
+		assertFalse(e.hasArray(""attr1""));
+		assertFalse(e.hasArray(""attr2""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testHasMap() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+
+		e.setAttribute(""map"", new HashMap<String, Object>());
+		e.setAttribute(""attr"", new Object());
+
+		assertTrue(e.hasMap(""map""));
+		assertFalse(e.hasMap(""attr1""));
+		assertFalse(e.hasMap(""attr2""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testAttributeKeys() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+		final int count = 10 + (int) (Math.random() * 90);
+		List<String> keys = new LinkedList<>();
+
+		for (int j = 0; j < count; j++) {
+			String key = String.format(""attribute%d"", j);
+			e.setAttribute(key, new Object());
+			keys.add(key);
+		}
+
+		assertEquals(count, keys.size());
+
+		e.attributeKeys().forEach(keys::remove);
+
+		assertEquals(0, keys.size());
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testGetAttributeCount() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+		final int count = 10 + (int) (Math.random() * 90);
+
+		for (int j = 0; j < count; j++) {
+			e.setAttribute(String.format(""attribute%d"", j), new Object());
+		}
+
+		assertEquals(count, e.getAttributeCount());
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testClearAttributes() {
+		AbstractElement e = new LocalAbstractElement(""test"");
+		final int count = 10 + (int) (Math.random() * 90);
+
+		for (int j = 0; j < count; j++) {
+			e.setAttribute(String.format(""attribute%d"", j), new Object());
+		}
+
+		e.clearAttributes();
+		assertEquals(0, e.getAttributeCount());
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testAddAttribute() {
+		LocalAbstractElement e = new LocalAbstractElement(""test"");
+		Object o = new Object();
+
+		e.setAttribute(""A"", o);
+
+		assertEquals(1, e.getTheMap().size());
+		assertTrue(e.getTheMap().containsKey(""A""));
+		assertSame(o, e.getTheMap().get(""A""));
+
+		e.setAttribute(""B"");
+
+		assertTrue(e.hasAttribute(""B""));
+		assertEquals(true, e.getAttribute(""B""));
+
+		e.setAttribute(""C"", (Object) null);
+
+		assertTrue(e.hasAttribute(""C""));
+		assertNull(e.getAttribute(""C""));
+
+		e.setAttribute(""D"", ""T"", ""E"", ""S"", ""T"");
+
+		assertTrue(e.hasAttribute(""D""));
+		assertTrue(e.hasArray(""D""));
+		assertArrayEquals(new String[] { ""T"", ""E"", ""S"", ""T"" }, e.getArray(""D""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testAddAttributes() {
+		Map<String, Object> attributes = new HashMap<>();
+
+		for (int i = 0; i < 100; i++)
+			attributes.put(String.format(""attr%d"", i), new Object());
+
+		AbstractElement e = new LocalAbstractElement(""test"");
+		e.setAttributes(attributes);
+
+		e.attributeKeys().forEach(key -> {
+			assertNotNull(attributes.get(key));
+			assertEquals(attributes.get(key), e.getAttribute(key));
+
+			attributes.remove(key);
+		});
+
+		assertEquals(0, attributes.size());
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void testRemoveAttribute() {
+		LocalAbstractElement e = new LocalAbstractElement(""test"");
+		Object o = new Object();
+
+		e.setAttribute(""A"", o);
+		assertTrue(e.getTheMap() != null && e.getTheMap().containsKey(""A""));
+
+		e.removeAttribute(""A"");
+		assertFalse(e.getTheMap() != null && e.getTheMap().containsKey(""A""));
+	}",./src-test/org/graphstream/graph/test/TestAbstractElement.java,gs-core-dev
+"@Test
+	public void TestNoExceptionElementConcurrency(){
+		Graph graph = new SingleGraph(""Graph"");
+		Node s = graph.addNode(""s"");
+		Node t = graph.addNode(""t"");
+		Node v = graph.addNode(""v"");
+		
+		graph.addEdge(""st"", ""s"", ""t"", true);
+		graph.addEdge(""tv"", ""t"", ""v"", true);
+		
+		Graph graphSynchro = Graphs.synchronizedGraph(graph);		
+
+		for (int i=0; i < 10 ; i++) {
+			//System.out.println(""start thread ""+i);
+			TestRunnable r = new TestRunnable(i, graphSynchro) ;
+			threads.add(r);
+
+			Thread th = new Thread(r, ""Thread ""+i);
+			th.start();
+		}
+		
+		while(!threads.isEmpty()) {
+			for (int i=0; i < threads.size() ; i++) {
+				if (threads.get(i).getResult() != null) {
+					assertTrue(threads.get(i).getResult());			
+					threads.remove(i);
+				}
+			}
+		}
+	}",./src-test/org/graphstream/graph/test/TestElementAttributeConcurrency.java,gs-core-dev
+"@Test
+	public void testElementSimpleAttributes() {
+		Graph graph = new MultiGraph(""g1"");
+
+		Node A = graph.addNode(""A"");
+
+		assertEquals(""A"", A.getId());
+		assertEquals(0, A.getAttributeCount());
+
+		// Simple attributes.
+
+		A.setAttribute(""foo"");
+
+		assertEquals(1, A.getAttributeCount());
+		assertTrue(A.hasAttribute(""foo""));
+		assertTrue(A.hasAttribute(""foo"", Boolean.class));
+		assertFalse(A.hasLabel(""foo""));
+		assertFalse(A.hasNumber(""foo""));
+		assertFalse(A.hasVector(""foo""));
+		assertFalse(A.hasArray(""foo""));
+		assertFalse(A.hasMap(""foo""));
+		assertNotNull(A.getAttribute(""foo""));
+		assertEquals(true, A.getAttribute(""foo""));
+		assertEquals(Boolean.TRUE, A.getAttribute(""foo""));
+
+		// Change.
+
+		A.setAttribute(""foo"", false);
+
+		assertEquals(1, A.getAttributeCount());
+		assertTrue(A.hasAttribute(""foo""));
+		assertTrue(A.hasAttribute(""foo"", Boolean.class));
+		assertFalse(A.hasLabel(""foo""));
+		assertFalse(A.hasNumber(""foo""));
+		assertFalse(A.hasVector(""foo""));
+		assertFalse(A.hasArray(""foo""));
+		assertFalse(A.hasMap(""foo""));
+		assertNotNull(A.getAttribute(""foo""));
+		assertEquals(false, A.getAttribute(""foo""));
+		assertEquals(Boolean.FALSE, A.getAttribute(""foo""));
+
+		// Removal.
+
+		A.removeAttribute(""foo"");
+		assertEquals(0, A.getAttributeCount());
+		assertFalse(A.hasAttribute(""foo""));
+		assertNull(A.getAttribute(""foo""));
+	}",./src-test/org/graphstream/graph/test/TestElement.java,gs-core-dev
+"@Test
+	public void testElementValueAttributes() {
+		Graph graph = new MultiGraph(""g1"");
+
+		Node A = graph.addNode(""A"");
+
+		assertEquals(""A"", A.getId());
+		assertEquals(0, A.getAttributeCount());
+
+		// Label attributes.
+
+		A.setAttribute(""foo"", ""bar"");
+
+		assertEquals(1, A.getAttributeCount());
+		assertTrue(A.hasAttribute(""foo""));
+		assertTrue(A.hasAttribute(""foo"", String.class));
+		assertTrue(A.hasLabel(""foo""));
+		assertFalse(A.hasNumber(""foo""));
+		assertFalse(A.hasVector(""foo""));
+		assertFalse(A.hasArray(""foo""));
+		assertFalse(A.hasMap(""foo""));
+		assertNotNull(A.getAttribute(""foo""));
+		assertEquals(""bar"", A.getAttribute(""foo""));
+
+		// Number attributes.
+
+		A.setAttribute(""pi"", 3.1415);
+
+		assertEquals(2, A.getAttributeCount());
+		assertTrue(A.hasAttribute(""pi""));
+		assertTrue(A.hasAttribute(""pi"", Number.class));
+		assertFalse(A.hasLabel(""pi""));
+		assertTrue(A.hasNumber(""pi""));
+		assertFalse(A.hasVector(""pi""));
+		assertFalse(A.hasArray(""pi""));
+		assertFalse(A.hasMap(""pi""));
+		assertNotNull(A.getAttribute(""pi""));
+		assertEquals(3.1415, A.getNumber(""pi""), 0);
+		assertEquals(3.1415, A.getAttribute(""pi""));
+
+		A.setAttribute(""pi"", ""3.1415"");
+
+		assertEquals(3.1415, A.getNumber(""pi""), 0);
+
+		// Vector of numbers.
+
+		ArrayList<Number> numbers = new ArrayList<>();
+
+		numbers.add(3);
+		numbers.add(1.4);
+		numbers.add(1.5f);
+
+		A.setAttribute(""v"", numbers);
+
+		assertEquals(3, A.getAttributeCount());
+		assertTrue(A.hasAttribute(""v""));
+		assertTrue(A.hasAttribute(""v"", ArrayList.class));
+		assertFalse(A.hasLabel(""v""));
+		assertFalse(A.hasNumber(""v""));
+		assertTrue(A.hasVector(""v""));
+		assertFalse(A.hasArray(""v""));
+		assertFalse(A.hasMap(""v""));
+		assertNotNull(A.getAttribute(""v""));
+		assertEquals(numbers, A.getAttribute(""v""));
+		assertEquals(numbers, A.getVector(""v""));
+
+		// Hashes 1.
+
+		HashMap<String, String> map = new HashMap<>();
+
+		map.put(""A"", ""a"");
+		map.put(""B"", ""b"");
+		map.put(""C"", ""c"");
+
+		A.setAttribute(""map"", map);
+
+		assertEquals(4, A.getAttributeCount());
+		assertTrue(A.hasAttribute(""map""));
+		assertTrue(A.hasAttribute(""map"", HashMap.class));
+		assertFalse(A.hasLabel(""map""));
+		assertFalse(A.hasNumber(""map""));
+		assertFalse(A.hasVector(""map""));
+		assertFalse(A.hasArray(""map""));
+		assertTrue(A.hasMap(""map""));
+		assertNotNull(A.getAttribute(""map""));
+		assertEquals(map, A.getAttribute(""map""));
+		assertEquals(map, A.getMap(""map""));
+
+		// Hashes 2.
+
+		HashMap<String, String> attr = new HashMap<>();
+
+		attr.put(""A"", ""a"");
+		attr.put(""B"", ""b"");
+		attr.put(""C"", ""c"");
+
+		A.setAttribute(""ca"", attr);
+
+		assertEquals(5, A.getAttributeCount());
+		assertTrue(A.hasAttribute(""ca""));
+		assertTrue(A.hasAttribute(""ca"", HashMap.class));
+		assertFalse(A.hasLabel(""ca""));
+		assertFalse(A.hasNumber(""ca""));
+		assertFalse(A.hasVector(""ca""));
+		assertFalse(A.hasArray(""ca""));
+		assertTrue(A.hasMap(""ca""));
+		assertNotNull(A.getAttribute(""ca""));
+		assertEquals(attr, A.getAttribute(""ca""));
+		assertEquals(attr, A.getMap(""ca""));
+
+		// Clear
+
+		A.clearAttributes();
+
+		assertEquals(0, A.getAttributeCount());
+	}",./src-test/org/graphstream/graph/test/TestElement.java,gs-core-dev
+"@Test
+	public void testElementMultiAttributes() {
+		Graph graph = new MultiGraph(""g1"");
+
+		Node A = graph.addNode(""A"");
+
+		assertEquals(""A"", A.getId());
+		assertEquals(0, A.getAttributeCount());
+
+		// Arrays
+
+		A.setAttribute(""array"", 0, 1.1, 1.3f, ""foo"");
+
+		Object expected[] = { 0, 1.1, 1.3f, ""foo"" };
+
+		assertEquals(1, A.getAttributeCount());
+		assertTrue(A.hasAttribute(""array""));
+		assertTrue(A.hasAttribute(""array"", Object[].class));
+		assertFalse(A.hasLabel(""array""));
+		assertFalse(A.hasNumber(""array""));
+		assertFalse(A.hasVector(""array""));
+		assertTrue(A.hasArray(""array""));
+		assertFalse(A.hasMap(""array""));
+		assertArrayEquals(expected, (Object[]) A.getAttribute(""array""));
+		assertArrayEquals(expected, A.getArray(""array""));
+		assertNotNull(A.getAttribute(""array""));
+	}",./src-test/org/graphstream/graph/test/TestElement.java,gs-core-dev
+"@Test
+	public void testElementUtilityMethods() {
+		Graph graph = new MultiGraph(""g1"");
+
+		Node A = graph.addNode(""A"");
+
+		assertEquals(""A"", A.getId());
+		assertEquals(0, A.getAttributeCount());
+
+		// First attribute of.
+
+		A.setAttribute(""C"", ""c"");
+		A.setAttribute(""I"", ""i"");
+		A.setAttribute(""Z"", ""z"");
+
+		String s = A.getFirstAttributeOf(String.class, ""A"", ""B"", ""C"", ""I"", ""Z"");
+
+		assertNotNull(s);
+		assertEquals(""c"", s);
+
+		// First attribute of 2.
+
+		A.setAttribute(""J"", 1);
+		A.setAttribute(""X"", 2);
+
+		Number n = A.getFirstAttributeOf(Number.class, ""A"", ""B"", ""C"", ""I"", ""J"", ""X"", ""Z"");
+
+		assertNotNull(n);
+		assertEquals(1, n);
+	}",./src-test/org/graphstream/graph/test/TestElement.java,gs-core-dev
+"@Test
+	public void testElementIterables() {
+		Graph graph = new MultiGraph(""g1"");
+
+		Node A = graph.addNode(""A"");
+
+		assertEquals(""A"", A.getId());
+		assertEquals(0, A.getAttributeCount());
+
+		// First attribute of.
+
+		A.setAttribute(""A"", ""a"");
+		A.setAttribute(""B"", ""b"");
+		A.setAttribute(""C"", ""c"");
+
+		assertEquals(3, A.getAttributeCount());
+
+		Set<String> keys = A.attributeKeys().collect(Collectors.toSet());
+
+		assertEquals(3, keys.size());
+		assertTrue(keys.contains(""A""));
+		assertTrue(keys.contains(""B""));
+		assertTrue(keys.contains(""C""));
+	}",./src-test/org/graphstream/graph/test/TestElement.java,gs-core-dev
+"@Test
+	public void testNullAttributes() {
+		Graph graph = new MultiGraph(""g1"");
+
+		graph.setAttribute(""foo"");
+		graph.setAttribute(""bar"", (Object) null); // Yes an attribute with a
+													// null value, You can !
+
+		assertTrue(graph.hasAttribute(""foo""));
+		assertTrue(graph.hasAttribute(""bar""));
+
+		graph.removeAttribute(""foo"");
+		graph.removeAttribute(""bar"");
+
+		assertFalse(graph.hasAttribute(""foo""));
+		assertFalse(graph.hasAttribute(""bar""));
+	}",./src-test/org/graphstream/graph/test/TestElement.java,gs-core-dev
+"@Test
+	public void testBasic() {
+		testBasic(new SingleGraph(""sg""));
+		testBasic(new MultiGraph(""mg""));
+		testBasic(new AdjacencyListGraph(""alg""));
+		testBasic(new AdjacencyListGraph(""AL"")); // XXX
+		testBasic(new SingleGraph(""S"")); // XXX
+		testBasic(new MultiGraph(""M"")); // XXX
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"@Test
+	public void testReplay() {
+		AbstractGraph g1 = new AdjacencyListGraph(""g1"");
+		Graph g2 = new AdjacencyListGraph(""g2"");
+
+		Node A1 = g1.addNode(""A"");
+		Node B1 = g1.addNode(""B"");
+		Node C1 = g1.addNode(""C"");
+
+		Edge AB1 = g1.addEdge(""AB"", ""A"", ""B"");
+		Edge BC1 = g1.addEdge(""BC"", ""B"", ""C"");
+		Edge CA1 = g1.addEdge(""CA"", ""C"", ""A"");
+
+		A1.setAttribute(""string"", ""an example"");
+		B1.setAttribute(""double"", 42.0);
+		C1.setAttribute(""array"", new int[] { 1, 2, 3 });
+
+		AB1.setAttribute(""string"", ""an example"");
+		BC1.setAttribute(""double"", 42.0);
+		CA1.setAttribute(""array"", new int[] { 1, 2, 3 });
+
+		Replayable.Controller controller = g1.getReplayController();
+		controller.addSink(g2);
+		controller.replay();
+
+		Node A2 = g2.getNode(""A"");
+		Node B2 = g2.getNode(""B"");
+		Node C2 = g2.getNode(""C"");
+
+		assertNotNull(A2);
+		assertNotNull(B2);
+		assertNotNull(C2);
+
+		checkAttribute(A1, A2);
+		checkAttribute(B1, B2);
+		checkAttribute(C1, C2);
+
+		Edge AB2 = g2.getEdge(""AB"");
+		Edge BC2 = g2.getEdge(""BC"");
+		Edge CA2 = g2.getEdge(""CA"");
+
+		assertNotNull(AB2);
+		assertNotNull(BC2);
+		assertNotNull(CA2);
+
+		checkAttribute(AB1, AB2);
+		checkAttribute(BC1, BC2);
+		checkAttribute(CA1, CA2);
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"protected void testBasic(Graph graph) {
+		Node A = graph.addNode(""A"");
+		Node B = graph.addNode(""B"");
+		Node C = graph.addNode(""C"");
+
+		Edge AB = graph.addEdge(""AB"", ""A"", ""B"");
+		Edge BC = graph.addEdge(""BC"", ""B"", ""C"");
+		Edge CA = graph.addEdge(""CA"", ""C"", ""A"");
+
+		assertEquals(3, graph.getNodeCount());
+		assertEquals(3, graph.getEdgeCount());
+
+		assertNotNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+		assertNotNull(AB);
+		assertNotNull(BC);
+		assertNotNull(CA);
+
+		assertEquals(""A"", A.getId());
+		assertEquals(""B"", B.getId());
+		assertEquals(""C"", C.getId());
+		assertEquals(""AB"", AB.getId());
+		assertEquals(""BC"", BC.getId());
+		assertEquals(""CA"", CA.getId());
+
+		assertEquals(A, graph.getNode(""A""));
+		assertEquals(B, graph.getNode(""B""));
+		assertEquals(C, graph.getNode(""C""));
+		assertEquals(AB, graph.getEdge(""AB""));
+		assertEquals(BC, graph.getEdge(""BC""));
+		assertEquals(CA, graph.getEdge(""CA""));
+
+		assertFalse(AB.isDirected());
+		assertFalse(BC.isDirected());
+		assertFalse(CA.isDirected());
+
+		assertEquals(A, AB.getNode0());
+		assertEquals(B, AB.getNode1());
+		assertEquals(A, AB.getSourceNode());
+		assertEquals(B, AB.getTargetNode());
+		assertEquals(B, BC.getNode0());
+		assertEquals(C, BC.getNode1());
+		assertEquals(B, BC.getSourceNode());
+		assertEquals(C, BC.getTargetNode());
+		assertEquals(C, CA.getNode0());
+		assertEquals(A, CA.getNode1());
+		assertEquals(C, CA.getSourceNode());
+		assertEquals(A, CA.getTargetNode());
+
+		assertEquals(B, AB.getOpposite(A));
+		assertEquals(A, AB.getOpposite(B));
+		assertEquals(C, BC.getOpposite(B));
+		assertEquals(B, BC.getOpposite(C));
+		assertEquals(A, CA.getOpposite(C));
+		assertEquals(C, CA.getOpposite(A));
+
+		assertEquals(2, A.getDegree());
+		assertEquals(2, B.getDegree());
+		assertEquals(2, C.getDegree());
+
+		assertEquals(2, A.getInDegree());
+		assertEquals(2, A.getOutDegree());
+		assertEquals(2, B.getInDegree());
+		assertEquals(2, B.getOutDegree());
+		assertEquals(2, C.getInDegree());
+		assertEquals(2, C.getOutDegree());
+
+		assertTrue(A.hasEdgeFrom(""B""));
+		assertTrue(A.hasEdgeFrom(""C""));
+		assertTrue(B.hasEdgeFrom(""A""));
+		assertTrue(B.hasEdgeFrom(""C""));
+		assertTrue(C.hasEdgeFrom(""A""));
+		assertTrue(C.hasEdgeFrom(""B""));
+
+		assertEquals(AB, A.getEdgeFrom(""B""));
+		assertEquals(CA, A.getEdgeFrom(""C""));
+		assertEquals(AB, B.getEdgeFrom(""A""));
+		assertEquals(BC, B.getEdgeFrom(""C""));
+		assertEquals(CA, C.getEdgeFrom(""A""));
+		assertEquals(BC, C.getEdgeFrom(""B""));
+
+		assertTrue(A.hasEdgeToward(""B""));
+		assertTrue(A.hasEdgeToward(""C""));
+		assertTrue(B.hasEdgeToward(""A""));
+		assertTrue(B.hasEdgeToward(""C""));
+		assertTrue(C.hasEdgeToward(""A""));
+		assertTrue(C.hasEdgeToward(""B""));
+
+		assertEquals(AB, A.getEdgeToward(""B""));
+		assertEquals(CA, A.getEdgeToward(""C""));
+		assertEquals(AB, B.getEdgeToward(""A""));
+		assertEquals(BC, B.getEdgeToward(""C""));
+		assertEquals(CA, C.getEdgeToward(""A""));
+		assertEquals(BC, C.getEdgeToward(""B""));
+
+		assertNull(A.getEdgeFrom(""Z""));
+		assertNull(B.getEdgeFrom(""Z""));
+		assertNull(C.getEdgeFrom(""Z""));
+		assertNull(A.getEdgeToward(""Z""));
+		assertNull(B.getEdgeToward(""Z""));
+		assertNull(C.getEdgeToward(""Z""));
+
+		// Loop edges
+		assertFalse(A.hasEdgeBetween(A));
+		assertFalse(A.hasEdgeToward(A));
+		assertFalse(A.hasEdgeFrom(A));
+		assertNull(A.getEdgeBetween(A));
+		assertNull(A.getEdgeToward(A));
+		assertNull(A.getEdgeFrom(A));
+		Edge AA = graph.addEdge(""AA"", ""A"", ""A"");
+		assertEquals(4, graph.getEdgeCount());
+		assertEquals(3, A.getDegree());
+		assertEquals(3, A.getInDegree());
+		assertEquals(3, A.getOutDegree());
+		assertTrue(A.hasEdgeBetween(A));
+		assertTrue(A.hasEdgeToward(A));
+		assertTrue(A.hasEdgeFrom(A));
+		assertEquals(AA, A.getEdgeBetween(A));
+		assertEquals(AA, A.getEdgeToward(A));
+		assertEquals(AA, A.getEdgeFrom(A));
+		assertEquals(A, AA.getSourceNode());
+		assertEquals(A, AA.getTargetNode());
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"@Test
+	public void testDirected() {
+		testDirected(new SingleGraph(""sg""));
+		testDirected(new MultiGraph(""mg""));
+		// testDirected( new AdjacencyListGraph( ""alg"" ) );
+		testDirected(new AdjacencyListGraph(""AL"")); // XXX
+		testDirected(new SingleGraph(""S"")); // XXX
+		testDirected(new MultiGraph(""M"")); // XXX
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"protected void testDirected(Graph graph) {
+		Node A = graph.addNode(""A"");
+		Node B = graph.addNode(""B"");
+		Node C = graph.addNode(""C"");
+
+		Edge AB = graph.addEdge(""AB"", ""A"", ""B"");
+		Edge BC = graph.addEdge(""BC"", ""B"", ""C"", true);
+		Edge CA = graph.addEdge(""CA"", ""C"", ""A"", false);
+
+		// A
+		// |\
+		// | \
+		// | \
+		// | \
+		// B--->C
+
+		assertFalse(AB.isDirected());
+		assertTrue(BC.isDirected());
+		assertFalse(CA.isDirected());
+
+		assertEquals(2, A.getDegree());
+		assertEquals(2, B.getDegree());
+		assertEquals(2, C.getDegree());
+
+		assertEquals(2, A.getInDegree());
+		assertEquals(2, A.getOutDegree());
+		assertEquals(1, B.getInDegree());
+		assertEquals(2, B.getOutDegree());
+		assertEquals(2, C.getInDegree());
+		assertEquals(1, C.getOutDegree());
+
+		assertEquals(AB, A.getEdgeFrom(""B""));
+		assertEquals(CA, A.getEdgeFrom(""C""));
+		assertEquals(AB, B.getEdgeFrom(""A""));
+		assertNull(B.getEdgeFrom(""C""));
+		assertEquals(CA, C.getEdgeFrom(""A""));
+		assertEquals(BC, C.getEdgeFrom(""B""));
+
+		assertEquals(AB, A.getEdgeToward(""B""));
+		assertEquals(CA, A.getEdgeToward(""C""));
+		assertEquals(AB, B.getEdgeToward(""A""));
+		assertEquals(BC, B.getEdgeToward(""C""));
+		assertEquals(CA, C.getEdgeToward(""A""));
+		assertNull(C.getEdgeToward(""B""));
+
+		// Now change things a little :
+		//
+		// A
+		// |\
+		// | \
+		// | \
+		// v \
+		// B<---C
+		//
+		// BC changes its direction, and AB becomes directed.
+
+		graph.removeEdge(""BC"");
+		BC = graph.addEdge(""BC"", ""C"", ""B"", true);
+		graph.removeEdge(""AB"");
+		AB = graph.addEdge(""AB"", ""A"", ""B"", true);
+
+		assertTrue(AB.isDirected());
+		assertTrue(BC.isDirected());
+		assertFalse(CA.isDirected());
+
+		assertEquals(2, A.getDegree());
+		assertEquals(2, B.getDegree());
+		assertEquals(2, C.getDegree());
+
+		assertEquals(1, A.getInDegree());
+		assertEquals(2, A.getOutDegree());
+		assertEquals(2, B.getInDegree());
+		assertEquals(0, B.getOutDegree());
+		assertEquals(1, C.getInDegree());
+		assertEquals(2, C.getOutDegree());
+
+		assertNull(A.getEdgeFrom(""B""));
+		assertEquals(CA, A.getEdgeFrom(""C""));
+		assertEquals(AB, B.getEdgeFrom(""A""));
+		assertEquals(BC, B.getEdgeFrom(""C""));
+		assertEquals(CA, C.getEdgeFrom(""A""));
+		assertNull(C.getEdgeFrom(""B""));
+
+		assertEquals(AB, A.getEdgeToward(""B""));
+		assertEquals(CA, A.getEdgeToward(""C""));
+		assertNull(B.getEdgeToward(""A""));
+		assertNull(B.getEdgeToward(""C""));
+		assertEquals(CA, C.getEdgeToward(""A""));
+		assertEquals(BC, C.getEdgeToward(""B""));
+
+		// Directed loop edges
+		assertFalse(A.hasEdgeBetween(A));
+		assertFalse(A.hasEdgeToward(A));
+		assertFalse(A.hasEdgeFrom(A));
+		assertNull(A.getEdgeBetween(A));
+		assertNull(A.getEdgeToward(A));
+		assertNull(A.getEdgeFrom(A));
+		Edge AA = graph.addEdge(""AA"", ""A"", ""A"", true);
+		assertEquals(4, graph.getEdgeCount());
+		assertEquals(3, A.getDegree());
+		assertEquals(2, A.getInDegree());
+		assertEquals(3, A.getOutDegree());
+		assertTrue(A.hasEdgeBetween(A));
+		assertTrue(A.hasEdgeToward(A));
+		assertTrue(A.hasEdgeFrom(A));
+		assertEquals(AA, A.getEdgeBetween(A));
+		assertEquals(AA, A.getEdgeToward(A));
+		assertEquals(AA, A.getEdgeFrom(A));
+		assertEquals(A, AA.getSourceNode());
+		assertEquals(A, AA.getTargetNode());
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"@Test
+	public void testMulti() {
+		MultiGraph graph = new MultiGraph(""g"");
+		MultiNode A = (MultiNode) graph.addNode(""A"");
+		MultiNode B = (MultiNode) graph.addNode(""B"");
+
+		graph.addEdge(""AB1"", ""A"", ""B"");
+		graph.addEdge(""AB2"", ""A"", ""B"");
+
+		assertEquals(2, A.getDegree());
+		assertEquals(2, B.getDegree());
+
+		// loop edges
+		graph.addEdge(""AA1"", ""A"", ""B"");
+		graph.addEdge(""AA2"", ""A"", ""B"", true);
+
+		assertEquals(4, A.getDegree());
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"@Test
+	public void testSingle() {
+		SingleGraph graph = new SingleGraph(""g"");
+		Node A = graph.addNode(""A"");
+		Node B = graph.addNode(""B"");
+
+		graph.addEdge(""AB1"", ""A"", ""B"");
+
+		try {
+			graph.addEdge(""AB2"", ""A"", ""B"");
+			fail();
+		} catch (Exception e) {
+			// Ok !
+		}
+
+		assertEquals(1, A.getDegree());
+		assertEquals(1, B.getDegree());
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"@Test
+	public void testIterables() {
+		testIterables(new SingleGraph(""sg""));
+		testIterables(new MultiGraph(""mg""));
+		// testIterables( new AdjacencyListGraph( ""alg"" ) );
+		testIterables(new AdjacencyListGraph(""AL"")); // XXX
+		testIterables(new SingleGraph(""S"")); // XXX
+		testIterables(new MultiGraph(""M"")); // XXX
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"protected void testIterables(Graph graph) {
+		Node A = graph.addNode(""A"");
+		Node B = graph.addNode(""B"");
+		Node C = graph.addNode(""C"");
+
+		Edge AB = graph.addEdge(""AB"", ""A"", ""B"");
+		Edge BC = graph.addEdge(""BC"", ""B"", ""C"");
+		Edge CA = graph.addEdge(""CA"", ""C"", ""A"");
+
+		// Test graph iterables.
+
+		HashSet<Node> nodes = new HashSet<Node>();
+		HashSet<Edge> edges = new HashSet<Edge>();
+
+		for (Node node : graph)
+			nodes.add(node);
+
+		assertEquals(3, nodes.size());
+		assertTrue(nodes.contains(A));
+		assertTrue(nodes.contains(B));
+		assertTrue(nodes.contains(C));
+		nodes.clear();
+
+		graph.nodes().forEach(node -> nodes.add(node));
+
+		assertEquals(3, nodes.size());
+		assertTrue(nodes.contains(A));
+		assertTrue(nodes.contains(B));
+		assertTrue(nodes.contains(C));
+		nodes.clear();
+
+		graph.edges().forEach(edge -> edges.add(edge));
+
+		assertEquals(3, edges.size());
+		assertTrue(edges.contains(AB));
+		assertTrue(edges.contains(BC));
+		assertTrue(edges.contains(CA));
+		edges.clear();
+
+		// Test node iterables.
+
+		for (Edge edge : A)
+			edges.add(edge);
+
+		assertEquals(2, edges.size());
+		assertTrue(edges.contains(AB));
+		assertTrue(edges.contains(CA));
+		edges.clear();
+
+		A.edges().forEach(edge -> edges.add(edge));
+
+		assertEquals(2, edges.size());
+		assertTrue(edges.contains(AB));
+		assertTrue(edges.contains(CA));
+		edges.clear();
+
+		B.edges().forEach(edge -> edges.add(edge));
+
+		assertEquals(2, edges.size());
+		assertTrue(edges.contains(AB));
+		assertTrue(edges.contains(BC));
+		edges.clear();
+
+		C.edges().forEach(edge -> edges.add(edge));
+
+		assertEquals(2, edges.size());
+		assertTrue(edges.contains(BC));
+		assertTrue(edges.contains(CA));
+		edges.clear();
+
+		graph.removeEdge(""AB"");
+		AB = graph.addEdge(""AB"", ""A"", ""B"", true);
+
+		graph.removeEdge(""BC"");
+		BC = graph.addEdge(""BC"", ""B"", ""C"", true);
+
+		// A
+		// |\
+		// | \
+		// | \
+		// v \
+		// B--->C
+
+		A.enteringEdges().forEach(edge -> edges.add(edge));
+
+		assertEquals(1, edges.size());
+		assertTrue(edges.contains(CA));
+		edges.clear();
+
+		B.enteringEdges().forEach(edge -> edges.add(edge));
+
+		assertEquals(1, edges.size());
+		assertTrue(edges.contains(AB));
+		edges.clear();
+
+		C.enteringEdges().forEach(edge -> edges.add(edge));
+
+		assertEquals(2, edges.size());
+		assertTrue(edges.contains(BC));
+		assertTrue(edges.contains(CA));
+		edges.clear();
+
+		A.leavingEdges().forEach(edge -> edges.add(edge));
+
+		assertEquals(2, edges.size());
+		assertTrue(edges.contains(AB));
+		assertTrue(edges.contains(CA));
+		edges.clear();
+
+		B.leavingEdges().forEach(edge -> edges.add(edge));
+
+		assertEquals(1, edges.size());
+		assertTrue(edges.contains(BC));
+		edges.clear();
+
+		C.leavingEdges().forEach(edge -> edges.add(edge));
+
+		assertEquals(1, edges.size());
+		assertTrue(edges.contains(CA));
+		edges.clear();
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"@Test
+	public void testRemoval() {
+		testRemoval(new AdjacencyListGraph(""AL"")); // XXX
+		testRemoval(new SingleGraph(""S"")); // XXX
+		testRemoval(new MultiGraph(""M"")); // XXX
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"public void testRemoval(Graph graph) {
+		Node A = graph.addNode(""A"");
+		graph.addNode(""B"");
+		graph.addNode(""C"");
+
+		Edge AB = graph.addEdge(""AB"", ""A"", ""B"");
+		graph.addEdge(""BC"", ""B"", ""C"");
+		Edge CA = graph.addEdge(""CA"", ""C"", ""A"");
+
+		assertEquals(3, graph.getNodeCount());
+		assertEquals(3, graph.getEdgeCount());
+
+		// Remove a node. This should also remove two edges.
+
+		Node n = graph.removeNode(""A"");
+
+		assertEquals(2, graph.getNodeCount());
+		assertEquals(1, graph.getEdgeCount());
+
+		assertEquals(n, A);
+		assertNull(graph.getEdge(""AB""));
+		assertNull(graph.getEdge(""CA""));
+		assertNull(graph.getNode(""A""));
+
+		assertNotNull(graph.getEdge(""BC""));
+		assertNotNull(graph.getNode(""B""));
+		assertNotNull(graph.getNode(""C""));
+
+		// Rebuild the graph and remove an edge.
+
+		A = graph.addNode(""A"");
+		AB = graph.addEdge(""AB"", ""A"", ""B"");
+		CA = graph.addEdge(""CA"", ""C"", ""A"");
+
+		assertEquals(3, graph.getNodeCount());
+		assertEquals(3, graph.getEdgeCount());
+
+		Edge e = graph.removeEdge(""A"", ""B"");
+
+		assertEquals(3, graph.getNodeCount());
+		assertEquals(2, graph.getEdgeCount());
+
+		assertEquals(e, AB);
+		assertNull(graph.getEdge(""AB""));
+
+		assertNotNull(graph.getNode(""A""));
+		assertNotNull(graph.getNode(""B""));
+		assertNotNull(graph.getNode(""C""));
+		assertNotNull(graph.getEdge(""BC""));
+		assertNotNull(graph.getEdge(""CA""));
+
+		// Now remove another edge in another way.
+
+		e = graph.removeEdge(""CA"");
+
+		assertEquals(3, graph.getNodeCount());
+		assertEquals(1, graph.getEdgeCount());
+
+		assertEquals(e, CA);
+		assertNull(graph.getEdge(""AB""));
+		assertNull(graph.getEdge(""CA""));
+
+		assertNotNull(graph.getNode(""A""));
+		assertNotNull(graph.getNode(""B""));
+		assertNotNull(graph.getNode(""C""));
+		assertNotNull(graph.getEdge(""BC""));
+
+		// loop edges
+		Edge AA = graph.addEdge(""AA"", ""A"", ""A"");
+		assertEquals(2, graph.getEdgeCount());
+		e = graph.removeEdge(""AA"");
+		assertEquals(1, graph.getEdgeCount());
+		assertEquals(AA, e);
+		assertEquals(0, A.getDegree());
+		assertNull(graph.getEdge(""AA""));
+
+		Edge BB = graph.addEdge(""BB"", ""B"", ""B"", true);
+		assertEquals(2, graph.getEdgeCount());
+		e = graph.removeEdge(""BB"");
+		assertEquals(BB, e);
+		assertEquals(1, graph.getNode(""B"").getDegree());
+		assertNull(graph.getEdge(""BB""));
+		BB = graph.addEdge(""BB"", ""B"", ""B"");
+		graph.removeNode(""B"");
+		assertNull(graph.getEdge(""BB""));
+		assertEquals(0, graph.getEdgeCount());
+
+		graph.addEdge(""AC"", ""A"", ""C"");
+		graph.addEdge(""AA"", ""A"", ""A"");
+
+		// Test the whole graph erasing.
+
+		graph.clear();
+
+		assertEquals(0, graph.getNodeCount());
+		assertEquals(0, graph.getEdgeCount());
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"@Test
+	public void testForeignEdgeRemoval(){
+		try{
+			foreignEdgeRemoval(new SingleGraph(""sg""), new SingleGraph(""sg""));
+			fail();
+		} catch (ElementNotFoundException e){ /* ALL GOOD */}
+		try {
+			foreignEdgeRemoval(new MultiGraph(""mg""), new MultiGraph(""mg""));
+			fail();
+		} catch (ElementNotFoundException e){ /* ALL GOOD */}
+		try {
+			foreignEdgeRemoval(new AdjacencyListGraph(""AL""), new AdjacencyListGraph(""AL"")); // XXX
+			fail();
+		} catch (ElementNotFoundException e){ /* ALL GOOD */}
+		try {
+			foreignEdgeRemoval(new SingleGraph(""S""), new MultiGraph(""M"")); // XXX
+			fail();
+		} catch (ElementNotFoundException e){ /* ALL GOOD */}
+		try {
+			foreignEdgeRemoval(new AdjacencyListGraph(""AL""), new MultiGraph(""M"")); // XXX
+			fail();
+		} catch (ElementNotFoundException e){ /* ALL GOOD */}
+
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"@Test(expected = ElementNotFoundException.class)
+	public void testForeignNodeRemoval(){
+		Graph g1 = new AdjacencyListGraph(""1"");
+		Graph g2 = new AdjacencyListGraph(""2"");
+
+		g1.addNode(""A"");
+		g1.addNode(""B"");
+		Node ng1 = g1.addNode(""C"");
+		g1.addEdge(""AB"", ""A"", ""B"");
+		g1.addEdge(""BC"", ""B"", ""C"");
+		g1.addEdge(""CA"", ""C"", ""A"");
+
+		g2.addNode(""A"");
+		g2.addNode(""B"");
+		g2.addNode(""C"");
+		g2.addEdge(""AB"", ""A"", ""B"");
+		g2.addEdge(""BC"", ""B"", ""C"");
+		g2.addEdge(""CA"", ""C"", ""A"");
+
+		g2.removeNode(ng1);
+
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"@Test
+	public void TestAddEdgeWithForeignNode(){
+		Graph g1 = new AdjacencyListGraph(""1"");
+		Graph g2 = new AdjacencyListGraph(""2"");
+
+		g1.addNode(""A"");
+		Node b1 = g1.addNode(""B"");
+		Node c1 = g1.addNode(""C"");
+		g1.addEdge(""AB"", ""A"", ""B"");
+		g1.addEdge(""BC"", ""B"", ""C"");
+		g1.addEdge(""CA"", ""C"", ""A"");
+
+		
+		g2.addNode(""A"");
+		Node b2 = g2.addNode(""B"");
+		Node c2 = g2.addNode(""C"");
+		
+		try{
+			g2.addEdge(""BC"", b1, c1);
+			fail();
+		} catch (ElementNotFoundException e){ /* ALL GOOD */}
+		try{
+			g2.addEdge(""BC"", b1, c2);
+			fail();
+		} catch (ElementNotFoundException e){ /* ALL GOOD */}
+		try{
+			g2.addEdge(""BC"", b2, c1);
+			fail();
+		} catch (ElementNotFoundException e){ /* ALL GOOD */}
+
+		
+		
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"@Test
+	public void testGraphListener() {
+		testGraphListener(new SingleGraph(""sg""));
+		testGraphListener(new MultiGraph(""mg""));
+		// testGraphListener( new AdjacencyListGraph( ""alg"" ) );
+		testGraphListener(new AdjacencyListGraph(""AL"")); // XXX
+		testGraphListener(new SingleGraph(""S"")); // XXX
+		testGraphListener(new MultiGraph(""M"")); // XXX
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"protected void testGraphListener(Graph input) {
+		// We create a second graph (output) to receive the events of the first
+		// (input).
+		// We populate (or remove elements from) the input and check the output
+		// to see
+		// if it is a copy of the input.
+
+		Graph output = new MultiGraph(""outout"");
+
+		input.addSink(output);
+
+		Node A = input.addNode(""A"");
+		input.addNode(""B"");
+		input.addNode(""C"");
+
+		input.addEdge(""AB"", ""A"", ""B"");
+		Edge BC = input.addEdge(""BC"", ""B"", ""C"");
+		input.addEdge(""CA"", ""C"", ""A"");
+
+		A.setAttribute(""foo"", ""bar"");
+		BC.setAttribute(""foo"", ""bar"");
+
+		assertEquals(3, input.getNodeCount());
+		assertEquals(3, output.getNodeCount());
+		assertEquals(3, input.getEdgeCount());
+		assertEquals(3, output.getEdgeCount());
+
+		assertNotNull(output.getNode(""A""));
+		assertNotNull(output.getNode(""B""));
+		assertNotNull(output.getNode(""C""));
+		assertNotNull(output.getEdge(""AB""));
+		assertNotNull(output.getEdge(""BC""));
+		assertNotNull(output.getEdge(""CA""));
+
+		assertEquals(""bar"", output.getNode(""A"").getAttribute(""foo""));
+		assertEquals(""bar"", output.getEdge(""BC"").getAttribute(""foo""));
+
+		// Now remove an attribute.
+
+		A.removeAttribute(""foo"");
+
+		assertFalse(output.hasAttribute(""foo""));
+
+		// Now remove a node.
+
+		input.removeNode(""A"");
+
+		assertEquals(2, input.getNodeCount());
+		assertEquals(1, input.getEdgeCount());
+		assertEquals(2, output.getNodeCount());
+		assertEquals(1, output.getEdgeCount());
+
+		// Now check that attribute change works.
+
+		BC.setAttribute(""foo"", ""truc"");
+
+		assertEquals(""truc"", BC.getAttribute(""foo""));
+		assertEquals(""truc"", output.getEdge(""BC"").getAttribute(""foo""));
+	}",./src-test/org/graphstream/graph/test/TestGraph.java,gs-core-dev
+"@Test
+	public void testGraphSyncBase() {
+		// Simple test with two graphs that mutually listen at themselves.
+		//
+		// /-------> g2
+		// | |
+		// g1 <-------/
+
+		testGraphSyncBase(new MultiGraph(""g1""), new MultiGraph(""g2""));
+		testGraphSyncBase(new SingleGraph(""g1""), new SingleGraph(""g2""));
+		testGraphSyncBase(new AdjacencyListGraph(""g1""), new AdjacencyListGraph(""g2""));
+		testGraphSyncBase(new MultiGraph(""g1""), new AdjacencyListGraph(""g2""));
+
+	}",./src-test/org/graphstream/graph/test/TestGraphSynchronisation.java,gs-core-dev
+"protected void testGraphSyncBase(Graph g1, Graph g2) {
+		g2.addNode(""Z""); // Allows to offset the internal ""time"" of source g2
+		g2.removeNode(""Z""); // (see implementation of synchronisation).
+
+		g1.addSink(g2); // These two lines seem simple but introduce an eventual
+		g2.addSink(g1); // recursive loop between the two graphs. Graph
+						// synchronisation
+						// is all about avoiding this loop.
+
+		// Test with element addition.
+		// We add elements in both graphs alternatively. At the end, the two
+		// graphs must be
+		// the same.
+
+		g1.addNode(""A"");
+		g2.addNode(""B"");
+		g1.addNode(""C"");
+		g2.addEdge(""AB"", ""A"", ""B"", false);
+		g1.addEdge(""BC"", ""B"", ""C"", true);
+		g2.addEdge(""CA"", ""C"", ""A"", true);
+
+		assertEquals(3, g1.getNodeCount());
+		assertEquals(3, g2.getNodeCount());
+		assertEquals(3, g1.getEdgeCount());
+		assertEquals(3, g2.getEdgeCount());
+
+		assertNotNull(g1.getNode(""A""));
+		assertNotNull(g2.getNode(""A""));
+		assertNotNull(g1.getNode(""B""));
+		assertNotNull(g2.getNode(""B""));
+		assertNotNull(g1.getNode(""C""));
+		assertNotNull(g2.getNode(""C""));
+
+		assertNotNull(g1.getEdge(""AB""));
+		assertNotNull(g2.getEdge(""AB""));
+		assertNotNull(g1.getEdge(""BC""));
+		assertNotNull(g2.getEdge(""BC""));
+		assertNotNull(g1.getEdge(""CA""));
+		assertNotNull(g2.getEdge(""CA""));
+
+		// Test with attribute addition.
+
+		g1.getNode(""A"").setAttribute(""foo"", ""bar"");
+		g2.getEdge(""AB"").setAttribute(""foo"", ""bar"");
+
+		assertEquals(1, g1.getNode(""A"").getAttributeCount());
+		assertEquals(1, g2.getNode(""A"").getAttributeCount());
+		assertEquals(1, g1.getEdge(""AB"").getAttributeCount());
+		assertEquals(1, g2.getEdge(""AB"").getAttributeCount());
+		assertEquals(""bar"", g1.getNode(""A"").getAttribute(""foo""));
+		assertEquals(""bar"", g2.getNode(""A"").getAttribute(""foo""));
+		assertEquals(""bar"", g1.getEdge(""AB"").getAttribute(""foo""));
+		assertEquals(""bar"", g2.getEdge(""AB"").getAttribute(""foo""));
+
+		// Test attribute change.
+
+		g1.getNode(""A"").setAttribute(""foo"", ""truc"");
+		g2.getEdge(""AB"").setAttribute(""foo"", ""truc"");
+
+		assertEquals(""truc"", g1.getNode(""A"").getAttribute(""foo""));
+		assertEquals(""truc"", g2.getNode(""A"").getAttribute(""foo""));
+		assertEquals(""truc"", g1.getEdge(""AB"").getAttribute(""foo""));
+		assertEquals(""truc"", g2.getEdge(""AB"").getAttribute(""foo""));
+
+		// Test attribute removal.
+
+		g2.getNode(""A"").removeAttribute(""foo"");
+		g1.getEdge(""AB"").removeAttribute(""foo"");
+
+		assertEquals(0, g1.getNode(""A"").getAttributeCount());
+		assertEquals(0, g2.getNode(""A"").getAttributeCount());
+		assertEquals(0, g1.getEdge(""AB"").getAttributeCount());
+		assertEquals(0, g2.getEdge(""AB"").getAttributeCount());
+		assertFalse(g1.getNode(""A"").hasAttribute(""foo""));
+		assertFalse(g2.getNode(""A"").hasAttribute(""foo""));
+		assertFalse(g1.getEdge(""AB"").hasAttribute(""foo""));
+		assertFalse(g2.getEdge(""AB"").hasAttribute(""foo""));
+
+		// Test edge removal
+
+		g1.removeEdge(""CA"");
+
+		assertEquals(2, g1.getEdgeCount());
+		assertEquals(2, g2.getEdgeCount());
+		assertNull(g1.getEdge(""CA""));
+		assertNull(g2.getEdge(""CA""));
+
+		// Test node removal and automatic edge removal (edge ""AB"" is
+		// automatically removed).
+
+		g2.removeNode(""A"");
+
+		assertEquals(2, g2.getNodeCount());
+		assertEquals(2, g1.getNodeCount());
+		assertEquals(1, g1.getEdgeCount());
+		assertEquals(1, g2.getEdgeCount());
+		assertNull(g1.getNode(""A""));
+		assertNull(g2.getNode(""A""));
+		assertNull(g1.getEdge(""AB""));
+		assertNull(g2.getEdge(""AB""));
+	}",./src-test/org/graphstream/graph/test/TestGraphSynchronisation.java,gs-core-dev
+"@Test
+	public void testGraphSyncCycleSimple() {
+		// More advanced test where three graphs mutually listen at themselves.
+		//
+		// /--------> g3
+		// | |
+		// /--------> g2 |
+		// | |
+		// g1 <--------------------/
+
+		testGraphSyncCycleSimple(new MultiGraph(""g1""), new MultiGraph(""g2""), new MultiGraph(""g3""));
+		testGraphSyncCycleSimple(new SingleGraph(""g1""), new SingleGraph(""g2""), new SingleGraph(""g3""));
+		testGraphSyncCycleSimple(new AdjacencyListGraph(""g1""), new AdjacencyListGraph(""g2""),
+				new AdjacencyListGraph(""g3""));
+		testGraphSyncCycleSimple(new MultiGraph(""g1""), new SingleGraph(""g2""), new AdjacencyListGraph(""g3""));
+	}",./src-test/org/graphstream/graph/test/TestGraphSynchronisation.java,gs-core-dev
+"protected void testGraphSyncCycleSimple(Graph g1, Graph g2, Graph g3) {
+		g1.addSink(g2);
+		g2.addSink(g3);
+		g3.addSink(g1);
+		testGraphSyncCycle(g1, g2, g3);
+	}",./src-test/org/graphstream/graph/test/TestGraphSynchronisation.java,gs-core-dev
+"@Test
+	public void testGraphSyncCycleProblem() {
+		// More advanced test where three graphs mutually listen at themselves.
+		//
+		// /--------> g3
+		// | |
+		// /--------> g2 <---------+
+		// | |
+		// g1 <--------------------/
+
+		testGraphSyncCycleProblem(new MultiGraph(""g1""), new MultiGraph(""g2""), new MultiGraph(""g3""));
+		testGraphSyncCycleProblem(new SingleGraph(""g1""), new SingleGraph(""g2""), new SingleGraph(""g3""));
+		testGraphSyncCycleProblem(new AdjacencyListGraph(""g1""), new AdjacencyListGraph(""g2""),
+				new AdjacencyListGraph(""g3""));
+		testGraphSyncCycleProblem(new MultiGraph(""g1""), new SingleGraph(""g2""), new AdjacencyListGraph(""g3""));
+	}",./src-test/org/graphstream/graph/test/TestGraphSynchronisation.java,gs-core-dev
+"protected void testGraphSyncCycleProblem(Graph g1, Graph g2, Graph g3) {
+		g1.addSink(g2);
+		g2.addSink(g3);
+		g3.addSink(g1);
+		g3.addSink(g2); // Exactly the same test as above with this line
+						// added... :-)
+		testGraphSyncCycle(g1, g2, g3);
+	}",./src-test/org/graphstream/graph/test/TestGraphSynchronisation.java,gs-core-dev
+"protected void testGraphSyncCycle(Graph g1, Graph g2, Graph g3) {
+		g1.addNode(""A"");
+		g2.addNode(""B"");
+		g3.addNode(""C"");
+
+		assertEquals(3, g1.getNodeCount());
+		assertEquals(3, g2.getNodeCount());
+		assertEquals(3, g3.getNodeCount());
+
+		assertNotNull(g1.getNode(""A""));
+		assertNotNull(g2.getNode(""A""));
+		assertNotNull(g3.getNode(""A""));
+		assertNotNull(g1.getNode(""B""));
+		assertNotNull(g2.getNode(""B""));
+		assertNotNull(g3.getNode(""B""));
+		assertNotNull(g1.getNode(""C""));
+		assertNotNull(g2.getNode(""C""));
+		assertNotNull(g3.getNode(""C""));
+
+		g1.addEdge(""AB"", ""A"", ""B"");
+		g2.addEdge(""BC"", ""B"", ""C"", true);
+		g3.addEdge(""CA"", ""C"", ""A"", false);
+
+		assertEquals(3, g1.getEdgeCount());
+		assertEquals(3, g2.getEdgeCount());
+		assertEquals(3, g3.getEdgeCount());
+
+		assertNotNull(g1.getEdge(""AB""));
+		assertNotNull(g2.getEdge(""AB""));
+		assertNotNull(g3.getEdge(""AB""));
+		assertNotNull(g1.getEdge(""BC""));
+		assertNotNull(g2.getEdge(""BC""));
+		assertNotNull(g3.getEdge(""BC""));
+		assertNotNull(g1.getEdge(""CA""));
+		assertNotNull(g2.getEdge(""CA""));
+		assertNotNull(g3.getEdge(""CA""));
+
+		// Now attributes.
+
+		g1.setAttribute(""foo"", ""bar"");
+		g2.getNode(""A"").setAttribute(""foo"", ""bar"");
+		g3.getEdge(""AB"").setAttribute(""foo"", ""bar"");
+
+		assertEquals(""bar"", g1.getAttribute(""foo""));
+		assertEquals(""bar"", g2.getAttribute(""foo""));
+		assertEquals(""bar"", g3.getAttribute(""foo""));
+		assertEquals(""bar"", g1.getNode(""A"").getAttribute(""foo""));
+		assertEquals(""bar"", g2.getNode(""A"").getAttribute(""foo""));
+		assertEquals(""bar"", g3.getNode(""A"").getAttribute(""foo""));
+		assertEquals(""bar"", g1.getEdge(""AB"").getAttribute(""foo""));
+		assertEquals(""bar"", g2.getEdge(""AB"").getAttribute(""foo""));
+		assertEquals(""bar"", g3.getEdge(""AB"").getAttribute(""foo""));
+
+		// Attributes change.
+
+		g1.setAttribute(""foo"", ""truc"");
+		g2.getNode(""A"").setAttribute(""foo"", ""truc"");
+		g3.getEdge(""AB"").setAttribute(""foo"", ""truc"");
+
+		assertEquals(""truc"", g1.getAttribute(""foo""));
+		assertEquals(""truc"", g2.getAttribute(""foo""));
+		assertEquals(""truc"", g3.getAttribute(""foo""));
+		assertEquals(""truc"", g1.getNode(""A"").getAttribute(""foo""));
+		assertEquals(""truc"", g2.getNode(""A"").getAttribute(""foo""));
+		assertEquals(""truc"", g3.getNode(""A"").getAttribute(""foo""));
+		assertEquals(""truc"", g1.getEdge(""AB"").getAttribute(""foo""));
+		assertEquals(""truc"", g2.getEdge(""AB"").getAttribute(""foo""));
+		assertEquals(""truc"", g3.getEdge(""AB"").getAttribute(""foo""));
+
+		// Attribute removal.
+
+		g1.removeAttribute(""foo"");
+		g2.getNode(""A"").removeAttribute(""foo"");
+		g3.getEdge(""AB"").removeAttribute(""foo"");
+
+		assertFalse(g1.hasAttribute(""foo""));
+		assertFalse(g2.hasAttribute(""foo""));
+		assertFalse(g3.hasAttribute(""foo""));
+		assertFalse(g1.getNode(""A"").hasAttribute(""foo""));
+		assertFalse(g2.getNode(""A"").hasAttribute(""foo""));
+		assertFalse(g3.getNode(""A"").hasAttribute(""foo""));
+		assertFalse(g1.getEdge(""AB"").hasAttribute(""foo""));
+		assertFalse(g2.getEdge(""AB"").hasAttribute(""foo""));
+		assertFalse(g3.getEdge(""AB"").hasAttribute(""foo""));
+
+		// Edge removal.
+
+		g1.removeEdge(""AB"");
+
+		assertEquals(2, g1.getEdgeCount());
+		assertEquals(2, g2.getEdgeCount());
+		assertEquals(2, g3.getEdgeCount());
+		assertNull(g1.getEdge(""AB""));
+		assertNull(g2.getEdge(""AB""));
+		assertNull(g3.getEdge(""AB""));
+
+		// Node removal and automatic edge removal.
+
+		g2.removeNode(""A"");
+
+		assertEquals(2, g1.getNodeCount());
+		assertEquals(2, g2.getNodeCount());
+		assertEquals(2, g3.getNodeCount());
+		assertEquals(1, g1.getEdgeCount());
+		assertEquals(1, g2.getEdgeCount());
+		assertEquals(1, g3.getEdgeCount());
+		assertNull(g1.getNode(""A""));
+		assertNull(g2.getNode(""A""));
+		assertNull(g3.getNode(""A""));
+		assertNull(g1.getEdge(""CA""));
+		assertNull(g2.getEdge(""CA""));
+		assertNull(g3.getEdge(""CA""));
+	}",./src-test/org/graphstream/graph/test/TestGraphSynchronisation.java,gs-core-dev
+"@Test
+	public void testInitialParsing() {
+		assertEquals(0, stylesheet.getGraphStyleNameSpace().getIdRulesCount());
+		assertEquals(0, stylesheet.getGraphStyleNameSpace().getClassRulesCount());
+
+		assertEquals(1, stylesheet.getNodeStyleNameSpace().getIdRulesCount());
+		assertEquals(2, stylesheet.getNodeStyleNameSpace().getClassRulesCount());
+
+		assertEquals(1, stylesheet.getEdgeStyleNameSpace().getIdRulesCount());
+		assertEquals(0, stylesheet.getEdgeStyleNameSpace().getClassRulesCount());
+
+		assertEquals(0, stylesheet.getSpriteStyleNameSpace().getIdRulesCount());
+		assertEquals(0, stylesheet.getSpriteStyleNameSpace().getClassRulesCount());
+	}",./src-test/org/graphstream/ui/graphicGraph/parser/test/TestStyleSheet.java,gs-core-dev
+"@Test
+	public void testRuleQuery() {
+		ArrayList<Rule> rulesA = stylesheet.getRulesFor(A);
+		String idA = stylesheet.getStyleGroupIdFor(A, rulesA);
+		ArrayList<Rule> rulesB = stylesheet.getRulesFor(B);
+		String idB = stylesheet.getStyleGroupIdFor(B, rulesB);
+		ArrayList<Rule> rulesC = stylesheet.getRulesFor(C);
+		String idC = stylesheet.getStyleGroupIdFor(C, rulesC);
+		ArrayList<Rule> rulesD = stylesheet.getRulesFor(D);
+		String idD = stylesheet.getStyleGroupIdFor(D, rulesD);
+
+		ArrayList<Rule> rulesAB = stylesheet.getRulesFor(AB);
+		String idAB = stylesheet.getStyleGroupIdFor(AB, rulesAB);
+		ArrayList<Rule> rulesBC = stylesheet.getRulesFor(BC);
+		String idBC = stylesheet.getStyleGroupIdFor(BC, rulesBC);
+		ArrayList<Rule> rulesCD = stylesheet.getRulesFor(CD);
+		String idCD = stylesheet.getStyleGroupIdFor(CD, rulesCD);
+		ArrayList<Rule> rulesDA = stylesheet.getRulesFor(DA);
+		String idDA = stylesheet.getStyleGroupIdFor(DA, rulesDA);
+
+		assertTrue(idA.equals(""n_A""));
+		assertTrue(idB.equals(""n(foo)""));
+		assertTrue(idC.equals(""n(foo)""));
+		assertTrue(idD.equals(""n(bar,foo)""));
+		assertTrue(idAB.equals(""e_AB""));
+		assertTrue(idBC.equals(""e""));
+		assertTrue(idCD.equals(""e""));
+		assertTrue(idDA.equals(""e""));
+
+		System.err.printf(""----%n"");
+		System.err.printf(""A %s%n"", displayGroup(idA, rulesA));
+		System.err.printf(""B %s%n"", displayGroup(idB, rulesB));
+		System.err.printf(""C %s%n"", displayGroup(idC, rulesC));
+		System.err.printf(""D %s%n"", displayGroup(idD, rulesD));
+		System.err.printf(""----%n"");
+		System.err.printf(""AB %s%n"", displayGroup(idAB, rulesAB));
+		System.err.printf(""BC %s%n"", displayGroup(idBC, rulesBC));
+		System.err.printf(""CD %s%n"", displayGroup(idCD, rulesCD));
+		System.err.printf(""DA %s%n"", displayGroup(idDA, rulesDA));
+	}",./src-test/org/graphstream/ui/graphicGraph/parser/test/TestStyleSheet.java,gs-core-dev
+"@Test
+	public void testStyleGroups() {
+		StyleGroupSet sgs = new StyleGroupSet(stylesheet);
+
+		populateGroupSet(sgs);
+
+		System.err.printf(""There are %d groups !!%n"", sgs.getGroupCount());
+		Iterator<? extends StyleGroup> i = sgs.getGroupIterator();
+		while (i.hasNext())
+			System.err.printf(""  %s"", i.next().toString());
+
+		assertTrue(sgs.getGroupCount() == 6);
+
+		System.err.printf(""----%n"");
+		System.err.printf(sgs.toString());
+
+		Style sG = sgs.getStyleForElement(graph);
+		Style sA = sgs.getStyleForElement(A);
+		Style sB = sgs.getStyleForElement(B);
+		Style sC = sgs.getStyleForElement(C);
+		Style sD = sgs.getStyleForElement(D);
+
+		Style sAB = sgs.getStyleForElement(AB);
+		Style sBC = sgs.getStyleForElement(BC);
+		Style sCD = sgs.getStyleForElement(CD);
+		Style sDA = sgs.getStyleForElement(DA);
+
+		assertEquals(2, sG.getFillColorCount());
+		assertEquals(1, sA.getFillColorCount());
+		assertEquals(1, sB.getFillColorCount());
+		assertEquals(1, sC.getFillColorCount());
+		assertEquals(1, sD.getFillColorCount());
+		assertTrue(sG.getFillColor(0).getRed() == 255 && sG.getFillColor(0).getGreen() == 255
+				&& sG.getFillColor(0).getBlue() == 255);
+		assertTrue(sG.getFillColor(1).getRed() == 0 && sG.getFillColor(1).getGreen() == 0
+				&& sG.getFillColor(1).getBlue() == 0);
+		assertTrue(sA.getFillColor(0).getRed() == 255 && sA.getFillColor(0).getGreen() == 0
+				&& sA.getFillColor(0).getBlue() == 255);
+		assertTrue(sB.getFillColor(0).getRed() == 255 && sB.getFillColor(0).getGreen() == 165
+				&& sB.getFillColor(0).getBlue() == 0);
+		assertTrue(sC.getFillColor(0).getRed() == 255 && sC.getFillColor(0).getGreen() == 165
+				&& sC.getFillColor(0).getBlue() == 0);
+		assertTrue(sD.getFillColor(0).getRed() == 190 && sD.getFillColor(0).getGreen() == 190
+				&& sD.getFillColor(0).getBlue() == 190);
+
+		assertEquals(1, sA.getStrokeWidth().value, 0);
+		assertEquals(1, sB.getStrokeWidth().value, 0);
+		assertEquals(1, sC.getStrokeWidth().value, 0);
+		assertEquals(1, sD.getStrokeWidth().value, 0);
+
+		assertTrue(sAB.getFillColor(0).getRed() == 255 && sAB.getFillColor(0).getGreen() == 255
+				&& sAB.getFillColor(0).getBlue() == 0);
+		assertTrue(sBC.getFillColor(0).getRed() == 0 && sBC.getFillColor(0).getGreen() == 255
+				&& sBC.getFillColor(0).getBlue() == 0);
+		assertTrue(sCD.getFillColor(0).getRed() == 0 && sCD.getFillColor(0).getGreen() == 255
+				&& sCD.getFillColor(0).getBlue() == 0);
+		assertTrue(sDA.getFillColor(0).getRed() == 0 && sDA.getFillColor(0).getGreen() == 255
+				&& sDA.getFillColor(0).getBlue() == 0);
+
+		sgs.release();
+	}",./src-test/org/graphstream/ui/graphicGraph/parser/test/TestStyleSheet.java,gs-core-dev
+"@Test
+	public void testStyleEvents() {
+		StyleGroupSet sgs = new StyleGroupSet(stylesheet);
+
+		populateGroupSet(sgs);
+
+		StyleGroup sA = sgs.getStyleForElement(A);
+		StyleGroup sB = sgs.getStyleForElement(B);
+		StyleGroup sC = sgs.getStyleForElement(C);
+		StyleGroup sD = sgs.getStyleForElement(D);
+
+		assertEquals(1, sA.getStrokeWidth().value, 0);
+		assertEquals(1, sB.getStrokeWidth().value, 0);
+		assertEquals(1, sC.getStrokeWidth().value, 0);
+		assertEquals(1, sD.getStrokeWidth().value, 0);
+
+		// Test global events (events that apply to a whole group or groups).
+
+		sgs.pushEvent(""clicked""); // This is normally done automatically by the
+									// GraphicElement
+
+		sA = sgs.getStyleForElement(A);
+		sB = sgs.getStyleForElement(B);
+		sC = sgs.getStyleForElement(C);
+		sD = sgs.getStyleForElement(D);
+
+		assertEquals(2, sA.getStrokeWidth().value, 0);
+		assertEquals(3, sB.getStrokeWidth().value, 0);
+		assertEquals(3, sC.getStrokeWidth().value, 0);
+		assertEquals(3, sD.getStrokeWidth().value, 0);
+
+		// Ensure that inherited styles are still correct
+		assertTrue(sA.getFillColor(0).getRed() == 255 && sA.getFillColor(0).getGreen() == 0
+				&& sA.getFillColor(0).getBlue() == 255);
+		assertTrue(sB.getFillColor(0).getRed() == 255 && sB.getFillColor(0).getGreen() == 165
+				&& sB.getFillColor(0).getBlue() == 0);
+		assertTrue(sC.getFillColor(0).getRed() == 255 && sC.getFillColor(0).getGreen() == 165
+				&& sC.getFillColor(0).getBlue() == 0);
+		assertTrue(sD.getFillColor(0).getRed() == 190 && sD.getFillColor(0).getGreen() == 190
+				&& sD.getFillColor(0).getBlue() == 190);
+
+		sgs.popEvent(""clicked""); // This is normally done automatically by the
+									// GraphicElement
+
+		sA = sgs.getStyleForElement(A);
+		sB = sgs.getStyleForElement(B);
+		sC = sgs.getStyleForElement(C);
+		sD = sgs.getStyleForElement(D);
+
+		assertEquals(1, sA.getStrokeWidth().value, 0);
+		assertEquals(1, sB.getStrokeWidth().value, 0);
+		assertEquals(1, sC.getStrokeWidth().value, 0);
+		assertEquals(1, sD.getStrokeWidth().value, 0);
+
+		sgs.pushEvent(""clicked""); // Both events at a time.
+		sgs.pushEvent(""selected""); // They should cascade.
+
+		sA = sgs.getStyleForElement(A);
+		sB = sgs.getStyleForElement(B);
+		sC = sgs.getStyleForElement(C);
+		sD = sgs.getStyleForElement(D);
+
+		assertEquals(4, sA.getStrokeWidth().value, 0);
+		assertEquals(3, sB.getStrokeWidth().value, 0);
+		assertEquals(3, sC.getStrokeWidth().value, 0);
+		assertEquals(3, sD.getStrokeWidth().value, 0);
+
+		// Ensure that inherited styles are still correct
+		assertTrue(sA.getFillColor(0).getRed() == 255 && sA.getFillColor(0).getGreen() == 0
+				&& sA.getFillColor(0).getBlue() == 255);
+		assertTrue(sB.getFillColor(0).getRed() == 255 && sB.getFillColor(0).getGreen() == 165
+				&& sB.getFillColor(0).getBlue() == 0);
+		assertTrue(sC.getFillColor(0).getRed() == 255 && sC.getFillColor(0).getGreen() == 165
+				&& sC.getFillColor(0).getBlue() == 0);
+		assertTrue(sD.getFillColor(0).getRed() == 190 && sD.getFillColor(0).getGreen() == 190
+				&& sD.getFillColor(0).getBlue() == 190);
+
+		sgs.popEvent(""clicked""); // This is normally done automatically by the
+									// GraphicElement
+		sgs.popEvent(""selected""); // This is normally done automatically by the
+									// GraphicElement
+
+		// Now test individual events, that is events that apply to
+		// an individual element only.
+
+		sA = sgs.getStyleForElement(A);
+
+		assertFalse(sA.hasEventElements());
+
+		sgs.pushEventFor(A, ""clicked""); // This is normally done automatically
+										// by the GraphicElement
+		sgs.pushEventFor(B, ""clicked""); // This is normally done automatically
+										// by the GraphicElement
+
+		sA = sgs.getStyleForElement(A);
+		sB = sgs.getStyleForElement(B);
+		sC = sgs.getStyleForElement(C);
+		sD = sgs.getStyleForElement(D);
+
+		assertTrue(sA.hasEventElements());
+
+		assertEquals(1, sA.getStrokeWidth().value, 0); // Individual events must be
+														// activated
+		assertEquals(1, sB.getStrokeWidth().value, 0); // to work, so just pushing
+														// them is not
+		assertEquals(1, sC.getStrokeWidth().value, 0); // sufficient.
+		assertEquals(1, sD.getStrokeWidth().value, 0);
+
+		sA.activateEventsFor(A);
+		assertEquals(2, sA.getStrokeWidth().value, 0); // Only A should change.
+		assertEquals(1, sB.getStrokeWidth().value, 0);
+		assertEquals(1, sC.getStrokeWidth().value, 0);
+		assertEquals(1, sD.getStrokeWidth().value, 0);
+		sA.deactivateEvents();
+		sB.activateEventsFor(B);
+		assertEquals(1, sA.getStrokeWidth().value, 0);
+		assertEquals(3, sB.getStrokeWidth().value, 0); // B and all its group
+														// change.
+		assertEquals(3, sC.getStrokeWidth().value, 0); // Therefore C also changes.
+		assertEquals(1, sD.getStrokeWidth().value, 0);
+		sB.deactivateEvents();
+
+		sgs.popEventFor(A, ""clicked""); // This is normally done automatically by
+										// the GraphicElement
+		sgs.popEventFor(B, ""clicked""); // This is normally done automatically by
+										// the GraphicElement
+
+		// Now two individual events at a time.
+
+		sgs.pushEventFor(A, ""clicked""); // This is normally done automatically
+										// by the GraphicElement
+		sgs.pushEventFor(A, ""selected""); // This is normally done automatically
+											// by the GraphicElement
+
+		sA = sgs.getStyleForElement(A);
+		sB = sgs.getStyleForElement(B);
+		sC = sgs.getStyleForElement(C);
+		sD = sgs.getStyleForElement(D);
+
+		assertEquals(1, sA.getStrokeWidth().value, 0); // Individual events must be
+														// activated
+		assertEquals(1, sB.getStrokeWidth().value, 0); // to work, so just pushing
+														// them is not
+		assertEquals(1, sC.getStrokeWidth().value, 0); // sufficient.
+		assertEquals(1, sD.getStrokeWidth().value, 0);
+
+		sA.activateEventsFor(A);
+		assertEquals(4, sA.getStrokeWidth().value, 0); // Only A should change,
+														// ""selected"" has
+		assertEquals(1, sB.getStrokeWidth().value, 0); // precedence over ""clicked""
+														// since added
+		assertEquals(1, sC.getStrokeWidth().value, 0); // after.
+		assertEquals(1, sD.getStrokeWidth().value, 0);
+		sA.deactivateEvents();
+
+		sgs.popEventFor(A, ""clicked""); // This is normally done automatically by
+										// the GraphicElement
+		sgs.popEventFor(A, ""selected""); // This is normally done automatically
+										// by the GraphicElement
+
+		sgs.release();
+	}",./src-test/org/graphstream/ui/graphicGraph/parser/test/TestStyleSheet.java,gs-core-dev
+"@Test
+	public void testStyleChange() throws IOException {
+		StyleGroupSet sgs = new StyleGroupSet(stylesheet);
+
+		populateGroupSet(sgs);
+
+		assertTrue(sgs.getGroupCount() == 6);
+
+		// Augment the style sheet a new style sheet that change an existing
+		// style.
+
+		stylesheet.parseFromString(styleSheet2);
+
+		assertEquals(6, sgs.getGroupCount());
+		assertEquals(0, stylesheet.getGraphStyleNameSpace().getIdRulesCount());
+		assertEquals(0, stylesheet.getGraphStyleNameSpace().getClassRulesCount());
+		assertEquals(1, stylesheet.getNodeStyleNameSpace().getIdRulesCount());
+		assertEquals(2, stylesheet.getNodeStyleNameSpace().getClassRulesCount());
+		assertEquals(1, stylesheet.getEdgeStyleNameSpace().getIdRulesCount());
+		assertEquals(0, stylesheet.getEdgeStyleNameSpace().getClassRulesCount());
+		assertEquals(0, stylesheet.getSpriteStyleNameSpace().getIdRulesCount());
+		assertEquals(0, stylesheet.getSpriteStyleNameSpace().getClassRulesCount());
+
+		// All nodes should have a border of 10px except the clicked ones.
+
+		Style sA = sgs.getStyleForElement(A);
+		Style sB = sgs.getStyleForElement(B);
+		Style sC = sgs.getStyleForElement(C);
+		Style sD = sgs.getStyleForElement(D);
+
+		assertEquals(10, sA.getStrokeWidth().value, 0);
+		assertEquals(10, sB.getStrokeWidth().value, 0);
+		assertEquals(10, sC.getStrokeWidth().value, 0);
+		assertEquals(10, sD.getStrokeWidth().value, 0);
+
+		sgs.pushEvent(""clicked"");
+		sA = sgs.getStyleForElement(A);
+		sB = sgs.getStyleForElement(B);
+		sC = sgs.getStyleForElement(C);
+		sD = sgs.getStyleForElement(D);
+
+		assertEquals(2, sA.getStrokeWidth().value, 0);
+		assertEquals(3, sB.getStrokeWidth().value, 0);
+		assertEquals(3, sC.getStrokeWidth().value, 0);
+		assertEquals(3, sD.getStrokeWidth().value, 0);
+
+		sgs.popEvent(""clicked"");
+		sA = sgs.getStyleForElement(A);
+		sB = sgs.getStyleForElement(B);
+		sC = sgs.getStyleForElement(C);
+		sD = sgs.getStyleForElement(D);
+
+		assertEquals(10, sA.getStrokeWidth().value, 0);
+		assertEquals(10, sB.getStrokeWidth().value, 0);
+		assertEquals(10, sC.getStrokeWidth().value, 0);
+		assertEquals(10, sD.getStrokeWidth().value, 0);
+
+		// Now augment the style sheet with a change that applies only to node
+		// B.
+
+		stylesheet.parseFromString(styleSheet3);
+
+		assertEquals(7, sgs.getGroupCount());
+		assertEquals(0, stylesheet.getGraphStyleNameSpace().getIdRulesCount());
+		assertEquals(0, stylesheet.getGraphStyleNameSpace().getClassRulesCount());
+		assertEquals(2, stylesheet.getNodeStyleNameSpace().getIdRulesCount()); // <--
+																				// +1
+		assertEquals(2, stylesheet.getNodeStyleNameSpace().getClassRulesCount());
+		assertEquals(1, stylesheet.getEdgeStyleNameSpace().getIdRulesCount());
+		assertEquals(0, stylesheet.getEdgeStyleNameSpace().getClassRulesCount());
+		assertEquals(0, stylesheet.getSpriteStyleNameSpace().getIdRulesCount());
+		assertEquals(0, stylesheet.getSpriteStyleNameSpace().getClassRulesCount());
+
+		sA = sgs.getStyleForElement(A);
+		sB = sgs.getStyleForElement(B);
+		sC = sgs.getStyleForElement(C);
+		sD = sgs.getStyleForElement(D);
+
+		assertEquals(10, sA.getStrokeWidth().value, 0);
+		assertEquals(5, sB.getStrokeWidth().value, 0); // <-- The specific style
+														// changed.
+		assertEquals(10, sC.getStrokeWidth().value, 0);
+		assertEquals(10, sD.getStrokeWidth().value, 0);
+
+		// Now augment the style sheet with a change that applies to all edges
+		// with the "".foo"" class.
+
+		stylesheet.parseFromString(styleSheet4);
+
+		assertEquals(8, sgs.getGroupCount()); // (e_AB disappears, e_AB(foo) and
+												// e(foo) appear)
+		assertEquals(0, stylesheet.getGraphStyleNameSpace().getIdRulesCount());
+		assertEquals(0, stylesheet.getGraphStyleNameSpace().getClassRulesCount());
+		assertEquals(2, stylesheet.getNodeStyleNameSpace().getIdRulesCount());
+		assertEquals(2, stylesheet.getNodeStyleNameSpace().getClassRulesCount());
+		assertEquals(1, stylesheet.getEdgeStyleNameSpace().getIdRulesCount());
+		assertEquals(1, stylesheet.getEdgeStyleNameSpace().getClassRulesCount()); // <--
+																					// +1
+		assertEquals(0, stylesheet.getSpriteStyleNameSpace().getIdRulesCount());
+		assertEquals(0, stylesheet.getSpriteStyleNameSpace().getClassRulesCount());
+
+		Style sAB = sgs.getStyleForElement(AB);
+		Style sBC = sgs.getStyleForElement(BC);
+		Style sCD = sgs.getStyleForElement(CD);
+		Style sDA = sgs.getStyleForElement(DA);
+
+		assertEquals(2, sAB.getStrokeWidth().value, 0);
+		assertEquals(2, sBC.getStrokeWidth().value, 0);
+		assertEquals(1, sCD.getStrokeWidth().value, 0);
+		assertEquals(1, sDA.getStrokeWidth().value, 0);
+
+		System.err.printf(""After adding new style sheets, there are %d groups !!%n"", sgs.getGroupCount());
+		Iterator<? extends StyleGroup> i = sgs.getGroupIterator();
+		while (i.hasNext())
+			System.err.printf(""  %s"", i.next().toString());
+
+		sgs.release();
+	}",./src-test/org/graphstream/ui/graphicGraph/parser/test/TestStyleSheet.java,gs-core-dev
+"@Test
+	public void testZIndex() throws IOException {
+		StyleGroupSet sgs = new StyleGroupSet(stylesheet);
+
+		populateGroupSet(sgs);
+
+		assertTrue(sgs.getGroupCount() == 6);
+
+		// Now test the default Z index
+
+		Iterator<HashSet<StyleGroup>> zIndex = sgs.getZIterator();
+
+		// The groups we expect in order.
+		HashSet<String> groups1 = new HashSet<String>();
+		HashSet<String> groups2 = new HashSet<String>();
+		HashSet<String> groups3 = new HashSet<String>();
+		HashSet<String> groups4 = new HashSet<String>();
+		HashSet<String> groups5 = new HashSet<String>();
+		groups1.add(""g"");
+		groups2.add(""e"");
+		groups2.add(""e_AB"");
+		groups3.add(""n_A"");
+		groups3.add(""n(foo)"");
+		groups3.add(""n(bar,foo)"");
+
+		System.err.printf(""---- zIndex ----%n"");
+
+		assertTrue(zIndex.hasNext());
+		HashSet<StyleGroup> cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups1.contains(g.getId()));
+			assertTrue(g.getZIndex() == 0);
+		}
+
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups2.contains(g.getId()));
+			assertTrue(g.getZIndex() == 1);
+		}
+
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups3.contains(g.getId()));
+			assertTrue(g.getZIndex() == 2);
+		}
+
+		assertTrue(!zIndex.hasNext());
+
+		System.err.printf(""The Z index is :%n"");
+		System.err.printf(""%s"", sgs.getZIndex().toString());
+
+		// Now test the way the z-index is kept up to date when changing the
+		// style.
+		// The change affects styles that already exist.
+
+		System.err.printf(""---- zIndex 2 ----%n"");
+
+		stylesheet.parseFromString(styleSheet5);
+
+		assertTrue(sgs.getGroupCount() == 6);
+
+		zIndex = sgs.getZIterator();
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups1.contains(g.getId()));
+			assertTrue(g.getZIndex() == 0);
+		}
+
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups3.contains(g.getId()));
+			assertTrue(g.getZIndex() == 1);
+		}
+
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups2.contains(g.getId()));
+			assertTrue(g.getZIndex() == 2);
+		}
+
+		assertTrue(!zIndex.hasNext());
+
+		System.err.printf(""The Z index is : %n"");
+		System.err.printf(""%s"", sgs.getZIndex().toString());
+
+		// Now change only one specific (id) style.
+
+		System.err.printf(""---- zIndex 3 ----%n"");
+		stylesheet.parseFromString(styleSheet6);
+
+		assertTrue(sgs.getGroupCount() == 6);
+		groups2.clear();
+		groups3.clear();
+		groups2.add(""n_A"");
+		groups3.add(""e"");
+		groups3.add(""e_AB"");
+		groups4.add(""n(bar,foo)"");
+		groups4.add(""n(foo)"");
+
+		zIndex = sgs.getZIterator();
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups1.contains(g.getId()));
+			assertTrue(g.getZIndex() == 0);
+		}
+
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups2.contains(g.getId()));
+			assertTrue(g.getZIndex() == 1);
+		}
+
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups3.contains(g.getId()));
+			assertTrue(g.getZIndex() == 2);
+		}
+
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups4.contains(g.getId()));
+			assertTrue(g.getZIndex() == 5);
+		}
+
+		assertTrue(!zIndex.hasNext());
+
+		System.err.printf(""The Z index is : %n"");
+		System.err.printf(""%s"", sgs.getZIndex().toString());
+
+		// Now add a style with a Z index.s
+
+		System.err.printf(""---- zIndex 4 ----%n"");
+		stylesheet.parseFromString(styleSheet7);
+
+		assertTrue(sgs.getGroupCount() == 7);
+		groups5.add(""e_DA"");
+
+		zIndex = sgs.getZIterator();
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups1.contains(g.getId()));
+			assertTrue(g.getZIndex() == 0);
+		}
+
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups2.contains(g.getId()));
+			assertTrue(g.getZIndex() == 1);
+		}
+
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups3.contains(g.getId()));
+			assertTrue(g.getZIndex() == 2);
+		}
+
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups4.contains(g.getId()));
+			assertTrue(g.getZIndex() == 5);
+		}
+
+		assertTrue(zIndex.hasNext());
+		cell = zIndex.next();
+		for (StyleGroup g : cell) {
+			assertTrue(groups5.contains(g.getId()));
+			assertTrue(g.getZIndex() == 7);
+		}
+
+		System.err.printf(""The Z index is : %n"");
+		System.err.printf(""%s"", sgs.getZIndex().toString());
+	}",./src-test/org/graphstream/ui/graphicGraph/parser/test/TestStyleSheet.java,gs-core-dev
+"@Test
+	public void testShadow() throws IOException {
+		StyleGroupSet sgs = new StyleGroupSet(stylesheet);
+
+		populateGroupSet(sgs);
+
+		// First test with the default style sheet, no shadows.
+
+		Iterator<StyleGroup> shadow = sgs.getShadowIterator();
+		int count = 0;
+
+		while (shadow.hasNext()) {
+			shadow.next();
+			count++;
+		}
+
+		assertTrue(count == 0);
+
+		// Then we add a style that adds shadows to all nodes.
+
+		stylesheet.parseFromString(styleSheet8);
+		assertTrue(sgs.getGroupCount() == 6);
+		HashSet<String> groups = new HashSet<String>();
+		groups.add(""n_A"");
+		groups.add(""n(bar,foo)"");
+		groups.add(""n(foo)"");
+
+		shadow = sgs.getShadowIterator();
+		count = 0;
+
+		while (shadow.hasNext()) {
+			StyleGroup g = shadow.next();
+			assertTrue(groups.contains(g.getId()));
+			count++;
+		}
+
+		assertTrue(count == 3); // There are three node groups.
+
+		// Then we add a style that adds shadows to a specific edge.
+
+		stylesheet.parseFromString(styleSheet9);
+		assertTrue(sgs.getGroupCount() == 6);
+		groups.add(""e_AB"");
+
+		shadow = sgs.getShadowIterator();
+		count = 0;
+
+		while (shadow.hasNext()) {
+			StyleGroup g = shadow.next();
+			assertTrue(groups.contains(g.getId()));
+			count++;
+		}
+
+		assertTrue(count == 4); // Three node groups, plus one edge group (e_AB)
+	}",./src-test/org/graphstream/ui/graphicGraph/parser/test/TestStyleSheet.java,gs-core-dev
+"@Test
+	public void testStyleGroupIterators() {
+		try {
+			stylesheet.parseFromString(styleSheet10);
+		} catch (IOException e) {
+			assertFalse(true);
+		}
+
+		StyleGroupSet sgs = new StyleGroupSet(stylesheet);
+
+		populateGroupSet(sgs);
+
+		StyleGroup sA = sgs.getStyleForElement(A);
+		StyleGroup sB = sgs.getStyleForElement(B);
+		StyleGroup sC = sgs.getStyleForElement(C);
+		StyleGroup sD = sgs.getStyleForElement(D);
+
+		// First test the basic iterator. B and C should be in the same group.
+
+		assertTrue(sB == sC); // B and C are in the same group.
+		assertFalse(sA == sB);
+		assertFalse(sB == sD);
+
+		HashSet<String> expected = new HashSet<String>();
+
+		expected.add(""B"");
+		expected.add(""C"");
+
+		for (Element element : sB) {
+			assertTrue(expected.contains(element.getId()));
+			expected.remove(element.getId());
+		}
+
+		assertEquals(0, expected.size());
+
+		// Now test the fact
+
+		B.setAttribute(""ui.color"", 2);
+		sgs.pushEventFor(B, ""clicked""); // This is normally done automatically
+										// by the GraphicElement
+		sgs.pushElementAsDynamic(B); // This is normally done automatically by
+										// the GraphicElement
+		sA = sgs.getStyleForElement(A);
+		sB = sgs.getStyleForElement(B);
+		sC = sgs.getStyleForElement(C);
+		sD = sgs.getStyleForElement(D);
+		assertTrue(sB == sC); // B and C are still in the same group.
+		assertFalse(sA == sB);
+		assertFalse(sB == sD);
+		assertTrue(sB.elementHasEvents(B));
+		assertTrue(sB.elementIsDynamic(B));
+
+		expected.add(""B"");
+
+		for (Element element : sB.dynamicElements()) {
+			assertTrue(expected.contains(element.getId()));
+			expected.remove(element.getId());
+		}
+
+		assertEquals(0, expected.size());
+
+		expected.add(""B"");
+
+		for (ElementEvents events : sB.elementsEvents()) {
+			assertTrue(expected.contains(events.getElement().getId()));
+			assertEquals(1, events.events().length);
+			assertEquals(""clicked"", events.events()[0]);
+			expected.remove(events.getElement().getId());
+		}
+
+		assertEquals(0, expected.size());
+
+		expected.add(""C"");
+
+		for (Element element : sB.bulkElements()) {
+			assertTrue(expected.contains(element.getId()));
+			expected.remove(element.getId());
+		}
+
+		assertEquals(0, expected.size());
+
+		sgs.popEventFor(B, ""clicked"");
+	}",./src-test/org/graphstream/ui/graphicGraph/parser/test/TestStyleSheet.java,gs-core-dev
+"@Test
+	public void basicTest() {
+		// Test the class alone.
+
+		outGraph = new GraphicGraph(""GraphicGraph"");
+
+		// The usual triangle test.
+
+		outGraph.addNode(""A"");
+		outGraph.addNode(""B"");
+		outGraph.addNode(""C"");
+		outGraph.addEdge(""AB"", ""A"", ""B"", false);
+		outGraph.addEdge(""BC"", ""B"", ""C"", true);
+		outGraph.addEdge(""CA"", ""C"", ""A"", false);
+
+		assertEquals(3, outGraph.getNodeCount());
+		assertEquals(3, outGraph.getEdgeCount());
+		assertEquals(0, outGraph.getSpriteCount());
+
+		assertFalse(outGraph.getEdge(""AB"").isDirected());
+		assertTrue(outGraph.getEdge(""BC"").isDirected());
+		assertFalse(outGraph.getEdge(""CA"").isDirected());
+
+		// Test the case of multi-graphs.
+
+		outGraph.addEdge(""AB2"", ""A"", ""B"", true);
+
+		assertEquals(4, outGraph.getEdgeCount());
+		assertFalse(outGraph.getEdge(""AB"").isDirected());
+		assertTrue(outGraph.getEdge(""AB2"").isDirected());
+
+		outGraph.addEdge(""CA2"", ""C"", ""A"");
+		outGraph.removeEdge(""CA"");
+
+		assertEquals(4, outGraph.getEdgeCount());
+		assertEquals(null, outGraph.getEdge(""CA""));
+		assertTrue(outGraph.getEdge(""CA2"") != null);
+
+		outGraph.removeNode(""C"");
+
+		assertEquals(2, outGraph.getNodeCount());
+		assertEquals(2, outGraph.getEdgeCount());
+		assertEquals(null, outGraph.getNode(""C""));
+		assertEquals(null, outGraph.getEdge(""BC""));
+		assertEquals(null, outGraph.getEdge(""CA""));
+
+		outGraph.removeNode(""A"");
+
+		assertEquals(1, outGraph.getNodeCount());
+		assertEquals(0, outGraph.getEdgeCount());
+		assertEquals(null, outGraph.getNode(""A""));
+		assertEquals(null, outGraph.getEdge(""AB""));
+		assertEquals(null, outGraph.getEdge(""AB2""));
+
+		// And finally...
+
+		outGraph.clear();
+
+		assertEquals(0, outGraph.getNodeCount());
+		assertEquals(0, outGraph.getEdgeCount());
+		assertEquals(0, outGraph.getSpriteCount());
+	}",./src-test/org/graphstream/ui/graphicGraph/test/TestGraphicGraph.java,gs-core-dev
+"@Test
+	public void testStyleSheetLoading() {
+		// Test the style sheet loading capabilities of the graphic graph.
+		outGraph = new GraphicGraph(""GraphicGraph"");
+
+		outGraph.addNode(""A"");
+		outGraph.addNode(""B"");
+		outGraph.addNode(""C"");
+		outGraph.addEdge(""AB"", ""A"", ""B"");
+		outGraph.addEdge(""BC"", ""B"", ""C"");
+		outGraph.addEdge(""CA"", ""C"", ""A"");
+
+		// Look at the default style sheet.
+
+		assertNotNull(outGraph.getStyle());
+		assertNotNull(((GraphicNode) outGraph.getNode(""A"")).getStyle());
+		assertNotNull(((GraphicNode) outGraph.getNode(""B"")).getStyle());
+		assertNotNull(((GraphicNode) outGraph.getNode(""C"")).getStyle());
+
+		testStyle(outGraph.getStyle(), Color.WHITE);
+		testStyle(((GraphicNode) outGraph.getNode(""A"")).getStyle(), Color.BLACK);
+		testStyle(((GraphicNode) outGraph.getNode(""B"")).getStyle(), Color.BLACK);
+		testStyle(((GraphicNode) outGraph.getNode(""C"")).getStyle(), Color.BLACK);
+
+		// Load a style sheet by URL.
+
+		outGraph.setAttribute(""stylesheet"", styleSheet1);
+
+		assertNotNull(outGraph.getStyle());
+		assertNotNull(((GraphicNode) outGraph.getNode(""A"")).getStyle());
+		assertNotNull(((GraphicNode) outGraph.getNode(""B"")).getStyle());
+		assertNotNull(((GraphicNode) outGraph.getNode(""C"")).getStyle());
+
+		testStyle(outGraph.getStyle(), Color.BLACK);
+		testStyle(((GraphicNode) outGraph.getNode(""A"")).getStyle(), Color.RED);
+		testStyle(((GraphicNode) outGraph.getNode(""B"")).getStyle(), Color.BLUE);
+		testStyle(((GraphicNode) outGraph.getNode(""C"")).getStyle(), Color.WHITE);
+
+		// Cascade a style sheet by string.
+
+		outGraph.setAttribute(""stylesheet"", ""node#A { fill-color: green; }"");
+
+		assertNotNull(outGraph.getStyle());
+		assertNotNull(((GraphicNode) outGraph.getNode(""A"")).getStyle());
+		assertNotNull(((GraphicNode) outGraph.getNode(""B"")).getStyle());
+		assertNotNull(((GraphicNode) outGraph.getNode(""C"")).getStyle());
+
+		testStyle(outGraph.getStyle(), Color.BLACK);
+		testStyle(((GraphicNode) outGraph.getNode(""A"")).getStyle(), Color.GREEN);
+		testStyle(((GraphicNode) outGraph.getNode(""B"")).getStyle(), Color.BLUE);
+		testStyle(((GraphicNode) outGraph.getNode(""C"")).getStyle(), Color.WHITE);
+
+		// Cascade individual styles on elements.
+
+		outGraph.getNode(""A"").setAttribute(""ui.style"", ""fill-color: blue;"");
+
+		assertNotNull(((GraphicNode) outGraph.getNode(""A"")).getStyle());
+		testStyle(((GraphicNode) outGraph.getNode(""A"")).getStyle(), Color.BLUE);
+
+		// Clear style.
+
+		outGraph.getStyleSheet().clear();
+
+		assertNotNull(outGraph.getStyle());
+		assertNotNull(((GraphicNode) outGraph.getNode(""A"")).getStyle());
+		assertNotNull(((GraphicNode) outGraph.getNode(""B"")).getStyle());
+		assertNotNull(((GraphicNode) outGraph.getNode(""C"")).getStyle());
+
+		testStyle(outGraph.getStyle(), Color.WHITE);
+		testStyle(((GraphicNode) outGraph.getNode(""A"")).getStyle(), Color.BLACK);
+		testStyle(((GraphicNode) outGraph.getNode(""B"")).getStyle(), Color.BLACK);
+		testStyle(((GraphicNode) outGraph.getNode(""C"")).getStyle(), Color.BLACK);
+	}",./src-test/org/graphstream/ui/graphicGraph/test/TestGraphicGraph.java,gs-core-dev
+"protected void testStyle(Style style, Color colorBase) {
+		assertTrue(style.getFillColors() != null && style.getFillColors().size() == 1);
+		Color color = style.getFillColor(0);
+		assertEquals(StyleConstants.FillMode.PLAIN, style.getFillMode());
+		assertEquals(StyleConstants.StrokeMode.NONE, style.getStrokeMode());
+		assertEquals(colorBase, color);
+	}",./src-test/org/graphstream/ui/graphicGraph/test/TestGraphicGraph.java,gs-core-dev
+"@Test
+	public void testAsOutput() {
+		// Test the GraphicGraph as an output for another graph.
+		inGraph = new MultiGraph(""inputGraph"");
+		outGraph = new GraphicGraph(""GraphicGraph"");
+
+		// Simply put the graphic graph as listener of the input graph.
+
+		inGraph.addSink(outGraph);
+
+		// The usual triangle test : add some nodes and edges.
+
+		inGraph.addNode(""A"");
+		inGraph.addNode(""B"");
+		inGraph.addNode(""C"");
+		inGraph.addEdge(""AB"", ""A"", ""B"", false);
+		inGraph.addEdge(""BC"", ""B"", ""C"", true);
+		inGraph.addEdge(""CA"", ""C"", ""A"", false);
+
+		// Are they in the output graph ?
+
+		assertEquals(3, outGraph.getNodeCount());
+		assertEquals(3, outGraph.getEdgeCount());
+		assertEquals(0, outGraph.getSpriteCount());
+
+		assertFalse(outGraph.getEdge(""AB"").isDirected());
+		assertTrue(outGraph.getEdge(""BC"").isDirected());
+		assertFalse(outGraph.getEdge(""CA"").isDirected());
+
+		// Now try to remove some nodes and edges in the in graph.
+
+		inGraph.removeNode(""A""); // This also removes edge ""AB"" and ""CA"".
+		inGraph.removeEdge(""BC"");
+
+		// Are they removed from the out graph ?
+
+		assertEquals(2, outGraph.getNodeCount());
+		assertEquals(0, outGraph.getEdgeCount());
+		assertNull(outGraph.getNode(""A""));
+		assertNotNull(outGraph.getNode(""B""));
+		assertNotNull(outGraph.getNode(""C""));
+		assertNull(outGraph.getEdge(""AB""));
+		assertNull(outGraph.getEdge(""BC""));
+		assertNull(outGraph.getEdge(""CA""));
+	}",./src-test/org/graphstream/ui/graphicGraph/test/TestGraphicGraph.java,gs-core-dev
+"@Test
+	public void testAsOutputSprites() {
+		inGraph = new MultiGraph(""inputGraph"");
+		outGraph = new GraphicGraph(""GraphicGraph"");
+
+		inGraph.addSink(outGraph);
+
+		SpriteManager sman = new SpriteManager(inGraph);
+
+		inGraph.addNode(""A"");
+		inGraph.addNode(""B"");
+		inGraph.addNode(""C"");
+		inGraph.addEdge(""AB"", ""A"", ""B"", false);
+		inGraph.addEdge(""BC"", ""B"", ""C"", true);
+		inGraph.addEdge(""CA"", ""C"", ""A"", false);
+
+		assertEquals(3, outGraph.getNodeCount());
+		assertEquals(3, outGraph.getEdgeCount());
+		assertEquals(0, outGraph.getSpriteCount());
+
+		// Now test sprites.
+
+		Sprite s1 = sman.addSprite(""S1"");
+		Sprite s2 = sman.addSprite(""S2"");
+
+		// Test the sprite manager.
+
+		HashSet<String> spriteIds = new HashSet<String>();
+
+		assertTrue(sman.hasSprite(""S1""));
+		assertTrue(sman.hasSprite(""S2""));
+		assertEquals(s1, sman.getSprite(""S1""));
+		assertEquals(s2, sman.getSprite(""S2""));
+		assertEquals(2, sman.getSpriteCount());
+
+		spriteIds.add(""S1"");
+		spriteIds.add(""S2"");
+
+		for (Sprite sprite : sman) {
+			if (spriteIds.contains(sprite.getId()))
+				spriteIds.remove(sprite.getId());
+		}
+
+		assertTrue(spriteIds.isEmpty());
+
+		// Test the out graph for corresponding sprites.
+
+		assertEquals(2, outGraph.getSpriteCount());
+
+		spriteIds.add(""S1"");
+		spriteIds.add(""S2"");
+
+		outGraph.sprites().filter(sprite -> spriteIds.contains(sprite.getId()))
+				.forEach(sprite -> spriteIds.remove(sprite.getId()));
+
+		assertTrue(spriteIds.isEmpty());
+
+		// Now remove a sprite.
+
+		sman.removeSprite(""S2"");
+
+		assertEquals(1, sman.getSpriteCount());
+		assertEquals(1, outGraph.getSpriteCount());
+		assertNotNull(outGraph.getSprite(""S1""));
+		assertNull(outGraph.getSprite(""S2""));
+
+		// Now test adding attributes to a sprite.
+		// Look if they are transfered in the out graph. Only attributes
+		// beginning with
+		// ""ui."" are transfered. So we also check that a ""foo"" attribute does
+		// not pass.
+
+		s1.setAttribute(""ui.foo"", ""bar"");
+		s1.setAttribute(""ui.foo1"", 1, 2, 3);
+		s1.setAttribute(""foo"", ""bar"");
+
+		GraphicSprite gs1 = outGraph.getSprite(""S1"");
+
+		testSprite1(s1);
+		testSprite1(gs1);
+
+		assertTrue(s1.hasLabel(""foo""));
+		assertEquals(""bar"", s1.getLabel(""foo""));
+		assertFalse(gs1.hasLabel(""foo""));
+
+		// Now removing some attributes to a sprite.
+
+		s1.removeAttribute(""ui.foo1"");
+		s1.removeAttribute(""foo"");
+
+		assertFalse(s1.hasAttribute(""ui.foo1""));
+		assertFalse(gs1.hasAttribute(""ui.foo1""));
+		assertFalse(s1.hasAttribute(""foo""));
+		assertFalse(gs1.hasAttribute(""foo"")); // Would not pass the GraphicGraph
+												// filter anyway.
+
+		// Position a sprite.
+
+		assertEquals(0, gs1.getX(), 0);
+		assertEquals(0, gs1.getY(), 0);
+		assertEquals(0, gs1.getZ(), 0);
+
+		s1.setPosition(0.5f);
+
+		assertEquals(0.5f, gs1.getX(), 0);
+
+		s1.setPosition(0.5f, 0.5f, 0.5f);
+
+		assertEquals(0.5f, gs1.getX(), 0);
+		assertEquals(0.5f, gs1.getY(), 0);
+		assertEquals(0.5f, gs1.getZ(), 0);
+
+		// Now test removing the sprite manager and creating a new one to see if
+		// it gets sprites back. We first add some new sprites with attribute,
+		// Check all is here in the two graphs, then detach the manager.
+		// All sprites should stay in place since we did not removed them
+		// explicitly (the manager is only a view on sprites of a graph).
+
+		s2 = sman.addSprite(""S2"");
+		Sprite s3 = sman.addSprite(""S3"");
+
+		s2.setAttribute(""ui.foo"", ""bar"");
+		s3.setAttribute(""ui.foo"", ""bar"");
+
+		assertEquals(3, sman.getSpriteCount());
+		assertEquals(3, outGraph.getSpriteCount());
+		assertNotNull(sman.getSprite(""S1""));
+		assertNotNull(sman.getSprite(""S2""));
+		assertNotNull(sman.getSprite(""S3""));
+		assertNotNull(outGraph.getSprite(""S1""));
+		assertNotNull(outGraph.getSprite(""S2""));
+		assertNotNull(outGraph.getSprite(""S3""));
+
+		sman.detach();
+
+		SpriteManager sman2 = new SpriteManager(inGraph);
+
+		assertEquals(3, sman2.getSpriteCount());
+		assertEquals(3, outGraph.getSpriteCount());
+		assertNotNull(sman2.getSprite(""S1""));
+		assertNotNull(sman2.getSprite(""S2""));
+		assertNotNull(sman2.getSprite(""S3""));
+		assertNotNull(outGraph.getSprite(""S1""));
+		assertNotNull(outGraph.getSprite(""S2""));
+		assertNotNull(outGraph.getSprite(""S3""));
+
+		// Now test having two managers at the same time and see if they
+		// synchronise.
+
+		SpriteManager sman3 = new SpriteManager(inGraph);
+
+		assertEquals(3, sman3.getSpriteCount());
+		assertNotNull(sman3.getSprite(""S1""));
+		assertNotNull(sman3.getSprite(""S2""));
+		assertNotNull(sman3.getSprite(""S3""));
+
+		// If we add sprites in the graphic graph, the two sprite managers
+		// should be
+		// synchronised at the same time. We also check the old sprite manager 1
+		// we
+		// detached is not touched.
+		// outGraph.addSink(new org.graphstream.util.VerboseSink(System.out));
+		outGraph.addAttributeSink(inGraph);
+		outGraph.addSprite(""S4"");
+
+		assertNotNull(sman2.getSprite(""S4""));
+		assertNotNull(sman3.getSprite(""S4""));
+		assertNull(sman.getSprite(""S4""));
+
+		// Now test the removal synchronisation.
+
+		outGraph.removeAttributeSink(inGraph); // This is tested in another
+												// test.
+
+		sman2.removeSprite(""S4"");
+
+		assertNull(sman3.getSprite(""S4""));
+	}",./src-test/org/graphstream/ui/graphicGraph/test/TestGraphicGraph.java,gs-core-dev
+"protected void testSprite1(Element e) {
+		Object values[] = { 1, 2, 3 };
+
+		assertTrue(e.hasLabel(""ui.foo""));
+		assertTrue(e.hasAttribute(""ui.foo""));
+		assertEquals(""bar"", e.getLabel(""ui.foo""));
+		assertEquals(""bar"", e.getAttribute(""ui.foo""));
+		assertTrue(e.hasArray(""ui.foo1""));
+		assertTrue(e.hasAttribute(""ui.foo1""));
+		assertArrayEquals(values, e.getArray(""ui.foo1""));
+	}",./src-test/org/graphstream/ui/graphicGraph/test/TestGraphicGraph.java,gs-core-dev
+"@Test
+	public void testAsPipe() {
+		// Now test the graphic graph as a pipe loop.
+		// This allows to synchronise two graphs.
+		inGraph = new MultiGraph(""input graph"");
+		outGraph = new GraphicGraph(""GraphicGraph"");
+
+		inGraph.addSink(outGraph);
+		outGraph.addSink(inGraph); // You can do this !! We are careful to
+									// recursive calls !!!
+
+		// Add a nodes in one graph and check they are in the other.
+
+		inGraph.addNode(""A"");
+		outGraph.addNode(""B"");
+
+		assertNotNull(outGraph.getNode(""A""));
+		assertNotNull(inGraph.getNode(""B""));
+
+		// Do the same for other nodes and edges, the usual triangle graph.
+
+		inGraph.addNode(""C"");
+		outGraph.addEdge(""AB"", ""A"", ""B"");
+		inGraph.addEdge(""BC"", ""B"", ""C"");
+		outGraph.addEdge(""CA"", ""C"", ""A"");
+
+		assertNotNull(outGraph.getNode(""C""));
+		assertNotNull(inGraph.getEdge(""AB""));
+		assertNotNull(outGraph.getEdge(""BC""));
+		assertNotNull(inGraph.getEdge(""CA""));
+
+		// Now test the attributes.
+		// For this to work, we have to use attributes prefixed by ""ui."" since
+		// only these
+		// will pass toward the graphic graph.
+
+		inGraph.setAttribute(""ui.foo"", ""bar"");
+		outGraph.setAttribute(""ui.bar"", ""foo"");
+		inGraph.getNode(""A"").setAttribute(""ui.foo"", ""bar"");
+		outGraph.getNode(""A"").setAttribute(""ui.bar"", ""foo"");
+		inGraph.getEdge(""AB"").setAttribute(""ui.foo"", ""bar"");
+		outGraph.getEdge(""AB"").setAttribute(""ui.bar"", ""foo"");
+
+		assertEquals(""bar"", outGraph.getAttribute(""ui.foo""));
+		assertEquals(""foo"", inGraph.getAttribute(""ui.bar""));
+		assertEquals(""bar"", outGraph.getNode(""A"").getAttribute(""ui.foo""));
+		assertEquals(""foo"", inGraph.getNode(""A"").getAttribute(""ui.bar""));
+		assertEquals(""bar"", outGraph.getEdge(""AB"").getAttribute(""ui.foo""));
+		assertEquals(""foo"", inGraph.getEdge(""AB"").getAttribute(""ui.bar""));
+
+		// Now test the sprites as they are quite special attributes.
+
+		SpriteManager sman = new SpriteManager(inGraph);
+
+		Sprite s1 = sman.addSprite(""S1"");
+		GraphicSprite gs1 = outGraph.getSprite(""S1"");
+
+		assertNotNull(gs1);
+
+		s1.setAttribute(""ui.foo"", ""bar"");
+		gs1.setAttribute(""ui.bar"", ""foo"");
+
+		assertEquals(""bar"", gs1.getAttribute(""ui.foo""));
+		assertEquals(""foo"", s1.getAttribute(""ui.bar""));
+
+		s1.removeAttribute(""ui.foo"");
+		gs1.removeAttribute(""ui.bar"");
+
+		assertNull(gs1.getAttribute(""ui.foo""));
+		assertNull(s1.getAttribute(""ui.bar""));
+
+		// Test creating sprites in the graphic graph and retrieving them
+		// in the sprite manager.
+
+		GraphicSprite gs2 = outGraph.addSprite(""S2"");
+		Sprite s2 = sman.getSprite(""S2"");
+
+		assertNotNull(s2);
+
+		gs2.setAttribute(""ui.foo"", ""bar"");
+		s2.setAttribute(""ui.bar"", ""foo"");
+
+		assertEquals(""bar"", s2.getAttribute(""ui.foo""));
+		assertEquals(""foo"", gs2.getAttribute(""ui.bar""));
+
+		gs2.removeAttribute(""ui.foo"");
+		s2.removeAttribute(""ui.bar"");
+
+		assertNull(s2.getAttribute(""ui.foo""));
+		assertNull(gs2.getAttribute(""ui.bar""));
+
+		outGraph.removeSprite(""S2"");
+
+		assertNull(sman.getSprite(""S2""));
+	}",./src-test/org/graphstream/ui/graphicGraph/test/TestGraphicGraph.java,gs-core-dev
+"@Test
+	public void testGraphSynchronisation() {
+		// Here a Graph is created in this thread and another thread is created
+		// with a GraphicGraph.
+		// The two graphs being in separate threads we use thread proxies
+		// filters to pass
+		// informations between the two. Once again we will use synchronisation
+		// (the two graphs
+		// listen at each other). In the direction Graph -> GraphicGraph the
+		// graphic graph listens
+		// at ALL the events (elements + attributes). In the direction
+		// GraphicGraph -> Graph, the
+		// graph only listen at attributes since we do not intend to add
+		// elements directly in the
+		// graphic graph.
+
+		Graph main = new MultiGraph(""main"");
+		ThreadProxyPipe toGraphic = new ThreadProxyPipe();
+		toGraphic.init(main);
+
+		InTheSwingThread viewerThread = new InTheSwingThread(toGraphic);
+		ThreadProxyPipe toMain = viewerThread.getProxy();
+
+		toMain.addAttributeSink(main); // Get the graphic graph proxy.
+
+		// Now launch the graphic graph in the Swing thread using a Swing Timer.
+
+		viewerThread.start();
+
+		// We modify the graph in the main thread.
+
+		Node A = main.addNode(""A"");
+		Node B = main.addNode(""B"");
+		Node C = main.addNode(""C"");
+		main.addEdge(""AB"", ""A"", ""B"");
+		main.addEdge(""BC"", ""B"", ""C"");
+		main.addEdge(""CA"", ""C"", ""A"");
+
+		SpriteManager sman = new SpriteManager(main);
+		Sprite S1 = sman.addSprite(""S1"");
+		Sprite S2 = sman.addSprite(""S2"");
+		Sprite S3 = sman.addSprite(""S3"");
+
+		S3.setPosition(1, 2, 2);
+		S3.setPosition(2, 3, 2);
+		S3.setPosition(3, 2, 1);
+
+		A.setAttribute(""ui.foo"", ""bar"");
+		B.setAttribute(""ui.bar"", ""foo"");
+		C.setAttribute(""truc""); // Not prefixed by UI, will not pass.
+		S1.setAttribute(""ui.foo"", ""bar"");
+		main.stepBegins(1);
+
+		toMain.pump();
+
+		// We ask the Swing thread to modify the graphic graph.
+
+		main.stepBegins(2);
+		main.setAttribute(""ui.EQUIP""); // Remember GraphicGraph filters
+										// attributes.
+
+		// Wait and stop.
+
+		toMain.pump();
+		sleep(1000);
+		toMain.pump();
+
+		main.setAttribute(""ui.STOP"");
+
+		toMain.pump();
+		sleep(1000);
+		toMain.pump();
+
+		// ****************************************************************************************
+		// Now we can begin the real test. We ensure the timer in the Swing
+		// graph stopped and check
+		// If the two graphs (main and graphic) synchronized correctly.
+
+		GraphicGraph graphic = viewerThread.graphic;
+
+		assertTrue(viewerThread.isStopped());
+		assertFalse(main.hasAttribute(""ui.EQUIP""));
+		assertFalse(graphic.hasAttribute(""ui.EQUIP""));
+		assertTrue(main.hasAttribute(""ui.STOP""));
+		assertTrue(graphic.hasAttribute(""ui.STOP""));
+
+		assertEquals(3, graphic.getStep(), 0);
+		assertEquals(2, main.getStep(), 0); // We do not listen at elements events
+											// the step 3
+											// of the graphic graph did not
+											// reached us.
+		// Assert all events passed toward the graphic graph.
+
+		assertEquals(3, graphic.getNodeCount());
+		assertEquals(3, graphic.getEdgeCount());
+		assertEquals(3, graphic.getSpriteCount());
+		assertNotNull(graphic.getNode(""A""));
+		assertNotNull(graphic.getNode(""B""));
+		assertNotNull(graphic.getNode(""C""));
+		assertNotNull(graphic.getEdge(""AB""));
+		assertNotNull(graphic.getEdge(""BC""));
+		assertNotNull(graphic.getEdge(""CA""));
+		assertNotNull(graphic.getSprite(""S1""));
+		assertNotNull(graphic.getSprite(""S2""));
+		assertEquals(""bar"", graphic.getNode(""A"").getAttribute(""ui.foo""));
+		assertEquals(""foo"", graphic.getNode(""B"").getAttribute(""ui.bar""));
+		// assertNull( graphic.getNode(""C"").getAttribute( ""truc"" ) ); // Should
+		// not pass the attribute filter.
+		assertEquals(""bar"", graphic.getSprite(""S1"").getAttribute(""ui.foo""));
+		assertEquals(""bar"", sman.getSprite(""S1"").getAttribute(""ui.foo""));
+
+		// Assert attributes passed back to the graph from the graphic graph.
+
+		Object xyz1[] = { 4, 3, 2 };
+		Object xyz2[] = { 2, 1, 0 };
+		Object xyz3[] = { 3, 2, 1 };
+
+		assertArrayEquals(xyz1, (Object[]) main.getNode(""A"").getAttribute(""xyz""));
+		assertArrayEquals(xyz2, (Object[]) main.getNode(""B"").getAttribute(""xyz""));
+		assertArrayEquals(xyz3, (Object[]) main.getNode(""C"").getAttribute(""xyz""));
+
+		assertEquals(""foobar"", S2.getAttribute(""ui.foobar""));
+
+		GraphicSprite gs3 = graphic.getSprite(""S3"");
+
+		assertEquals(0.5f, S1.getX(), 0);
+		assertEquals(0, S1.getY(), 0);
+		assertEquals(0, S1.getZ(), 0);
+		assertEquals(1, S2.getX(), 0);
+		assertEquals(2, S2.getY(), 0);
+		assertEquals(3, S2.getZ(), 0);
+
+		assertEquals(3, gs3.getX(), 0);
+		assertEquals(2, gs3.getY(), 0);
+		assertEquals(1, gs3.getZ(), 0);
+	}",./src-test/org/graphstream/ui/graphicGraph/test/TestGraphSynchronisationProxyThread.java,gs-core-dev
+"@Test
+	public void testSync() {
+		TestSinkTime tst = new TestSinkTime();
+		SourceTime st = new SourceTime(""test"");
+
+		if (tst.isSynchEnable()) {
+			System.err.printf(""sync is enable%n"");
+
+			assertTrue(tst.isNewEvent(st.getSourceId(), st.newEvent()));
+			assertTrue(tst.isNewEvent(st.getSourceId(), st.newEvent()));
+			assertTrue(tst.isNewEvent(st.getSourceId(), st.newEvent()));
+
+			long timeId = st.newEvent();
+
+			assertTrue(tst.isNewEvent(st.getSourceId(), timeId));
+			assertFalse(tst.isNewEvent(st.getSourceId(), timeId));
+		} else {
+			System.err.printf(""sync is disable%n"");
+
+			assertTrue(tst.isNewEvent(st.getSourceId(), st.newEvent()));
+			assertTrue(tst.isNewEvent(st.getSourceId(), st.newEvent()));
+			assertTrue(tst.isNewEvent(st.getSourceId(), st.newEvent()));
+
+			long timeId = st.newEvent();
+
+			assertTrue(tst.isNewEvent(st.getSourceId(), timeId));
+			assertTrue(tst.isNewEvent(st.getSourceId(), timeId));
+		}
+	}",./src-test/org/graphstream/stream/sync/TestSync.java,gs-core-dev
+"public TestThreadProxyPipe() {
+
+	}",./src-test/org/graphstream/stream/thread/test/TestThreadProxyPipe.java,gs-core-dev
+"@Test
+	public void Test1_GraphToWardGraph() {
+		Graph source = new MultiGraph(""g1"");
+		Graph target = new MultiGraph(""g2"");
+
+		// Start to populate the graph to test the ""replay"" feature of the
+		// proxy.
+
+		source.addNode(""A"");
+		source.addNode(""B"");
+		source.addNode(""C"");
+		source.addEdge(""AB"", ""A"", ""B"");
+		source.addEdge(""BC"", ""B"", ""C"");
+		source.addEdge(""CA"", ""C"", ""A"");
+
+		source.getNode(""A"").setAttribute(""A1"", ""foo"");
+		source.getNode(""A"").setAttribute(""A2"", ""foo"");
+
+		ThreadProxyPipe proxy = new ThreadProxyPipe();
+		proxy.addSink(target);
+		proxy.init(source, true);
+
+		Thread other = new Thread(new AnotherThread(proxy, target) {
+			public void run() {
+				// The second part of the test starts
+				// in this target thread.
+
+				boolean loop = true;
+
+				do {
+					proxy.pump();
+
+					if (target.hasAttribute(""STOP!""))
+						loop = false;
+				} while (loop);
+			}
+
+		});
+
+		other.start();
+
+		// The first part of the test begins in this
+		// source thread.
+
+		source.addNode(""X"");
+		source.addNode(""Y"");
+		source.addNode(""Z"");
+		source.addEdge(""XY"", ""X"", ""Y"");
+		source.addEdge(""YZ"", ""Y"", ""Z"");
+		source.addEdge(""ZX"", ""Z"", ""X"");
+		source.addEdge(""XA"", ""X"", ""A"");
+		source.removeEdge(""AB"");
+		source.removeNode(""B"");
+		source.getNode(""X"").setAttribute(""X1"", ""foo"");
+		source.getNode(""X"").setAttribute(""X1"", ""bar"");
+		source.getNode(""A"").removeAttribute(""A1"");
+
+		source.setAttribute(""STOP!"");
+
+		// End of the test, wait for the other thread to terminate
+
+		try {
+			other.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+		// Now test the results in the target thread.
+	}",./src-test/org/graphstream/stream/thread/test/TestThreadProxyPipe.java,gs-core-dev
+"@Test
+	public void test() {
+		try {
+			for (int i = 0; i < 100; i++)
+				testOne();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}",./src-test/org/graphstream/stream/thread/test/TestThreadProxyPipe.java,gs-core-dev
+"public void testOne() throws IOException {
+		Graph g = new AdjacencyListGraph(""g"");
+		ThreadProxyPipe tpp = new ThreadProxyPipe();
+		tpp.init(g);
+
+		FileSinkDGS dgs1 = new FileSinkDGS();
+		FileSinkDGS dgs2 = new FileSinkDGS();
+		StringWriter w1 = new StringWriter();
+		StringWriter w2 = new StringWriter();
+
+		Actor a = new Actor(tpp);
+		Thread t = new Thread(a);
+
+		g.addSink(dgs1);
+		tpp.addSink(dgs2);
+
+		dgs1.begin(w1);
+		dgs2.begin(w2);
+
+		t.start();
+		generateRandom(g, 1000);
+
+		try {
+			Thread.yield();
+			a.alive = false;
+			t.join();
+		} catch (InterruptedException e) {
+		}
+
+		w1.close();
+		w2.close();
+
+		String str1 = w1.toString();
+		String str2 = w2.toString();
+
+		Assert.assertTrue(str1.length() > 0);
+		Assert.assertEquals(str1, str2);
+	}",./src-test/org/graphstream/stream/thread/test/TestThreadProxyPipe.java,gs-core-dev
+"@Test
+	public void testArrayAttribute() throws IOException {
+		Graph g = getGraph(""data/attributes_array.dgs"");
+		Node n = g.getNode(0);
+
+		if (!n.hasArray(""a1""))
+			fail();
+
+		if (!n.hasArray(""a2""))
+			fail();
+
+		Object[] a1 = n.getArray(""a1"");
+		Object[] a2 = n.getArray(""a2"");
+		Object[] expected = { ""A"", ""B"", ""C"" };
+
+		assertArrayEquals(expected, a1);
+		assertArrayEquals(expected, a2);
+	}",./src-test/org/graphstream/stream/file/dgs/test/TestDGSParser.java,gs-core-dev
+"@Test
+	public void testAttributes() throws IOException {
+		Graph g = getGraph(""data/attributes.dgs"");
+
+		HashMap<String, Integer> map = new HashMap<String, Integer>();
+		map.put(""a"", 1);
+		map.put(""b"", 2);
+		map.put(""c"", 3);
+
+		Object[][] aoa = { { 1, 2 }, { 3 }, { 4, 5 } };
+
+		Attribute[] attributes = { new Attribute(""int"", Integer.class, Integer.valueOf(123)),
+				new Attribute(""double"", Double.class, Double.valueOf(123.321)),
+				new Attribute(""string"", String.class, ""a string""), new Attribute(""word"", String.class, ""aWord""),
+				new Attribute(""color"", Color.class, Color.RED), new Attribute(""map"", Map.class, map),
+				new Attribute(""array"", Integer.class, new Object[] { 1, 2, 3 }),
+				new Attribute(""aoa"", Object[].class, aoa),
+				new Attribute(""big_sci"", Double.class, Double.valueOf(""1.27E+07"")),
+				new Attribute(""small_sci"", Double.class, Double.valueOf(""1.27E-07"")),
+				new Attribute(""neg_sci"", Double.class, Double.valueOf(""-1.27E-07"")) };
+
+		for (Node n : g) {
+			for (Attribute a : attributes)
+				a.check(n);
+		}
+	}",./src-test/org/graphstream/stream/file/dgs/test/TestDGSParser.java,gs-core-dev
+"@Test
+	public void testElements() throws IOException {
+		Graph g = getGraph(""data/elements.dgs"");
+
+		Node A, B, C;
+		Edge AB, AC, BC;
+
+		A = g.getNode(""A"");
+		B = g.getNode(""B"");
+		C = g.getNode(""C"");
+
+		assertEquals(g.getNodeCount(), 3);
+
+		assertNotNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+
+		AB = g.getEdge(""AB"");
+		AC = g.getEdge(""AC"");
+		BC = g.getEdge(""BC"");
+
+		assertEquals(g.getEdgeCount(), 3);
+
+		assertNotNull(AB);
+		assertNotNull(AC);
+		assertNotNull(BC);
+
+		assertFalse(AB.isDirected());
+		assertTrue(AC.isDirected());
+		assertTrue(BC.isDirected());
+
+		assertEquals(A, AB.getNode0());
+		assertEquals(B, AB.getNode1());
+		assertEquals(A, AC.getSourceNode());
+		assertEquals(C, AC.getTargetNode());
+		assertEquals(B, BC.getSourceNode());
+		assertEquals(C, BC.getTargetNode());
+	}",./src-test/org/graphstream/stream/file/dgs/test/TestDGSParser.java,gs-core-dev
+"@Test
+	public void testBadExamples() throws IOException {
+		String[] data = { ""bad1.dgs"", ""bad2.dgs"" };
+
+		for (int i = 0; i < data.length; i++) {
+			try {
+				getGraph(""data/"" + data[i]);
+				fail();
+			} catch (Exception e) {
+				if (!(e.getCause() instanceof ParseException)) {
+
+					if (e instanceof IOException)
+						throw (IOException) e;
+					else
+						fail();
+				}
+			}
+		}
+	}",./src-test/org/graphstream/stream/file/dgs/test/TestDGSParser.java,gs-core-dev
+"@Test
+	public void testEOL() throws IOException {
+		String base = ""DGS004%neol 0 0%n%nan A%n"";
+		String[] eols = { /* LF */ ""\n"", /* CR+LF */ ""\r\n"" };
+		FileSourceDGS source = new FileSourceDGS();
+		Graph g = new AdjacencyListGraph(""eol"");
+
+		source.addSink(g);
+
+		for (String eol : eols) {
+			String dgs = base.replace(""%n"", eol);
+			StringReader in = new StringReader(dgs);
+
+			try {
+				source.readAll(in);
+				assertNotNull(g.getNode(""A""));
+				g.clear();
+			} catch (IOException e) {
+				if (e.getCause() instanceof ParseException)
+					fail();
+				else
+					throw e;
+			}
+		}
+	}",./src-test/org/graphstream/stream/file/dgs/test/TestDGSParser.java,gs-core-dev
+"@Test
+	public void testAttributeRemoved() throws IOException {
+		FileSourceDGS source = new FileSourceDGS();
+		Graph g = new AdjacencyListGraph(""eol"");
+
+		source.addSink(g);
+		g.addSink(new TestAttributeRemoved(""A"", g));
+		g.addSink(new VerboseSink());
+
+		source.begin(getClass().getResourceAsStream(""data/removeAttribute.dgs""));
+
+		while (source.nextStep())
+			;
+
+		source.end();
+	}",./src-test/org/graphstream/stream/file/dgs/test/TestDGSParser.java,gs-core-dev
+"public void test(TestEntry entry) throws IOException {
+		System.out.printf(""> \""%s\""\n"", entry.ressourceName);
+
+		Graph graph = new MultiGraph(""foo"");
+		FileSourcePajek in = new FileSourcePajek();
+
+		graph.setAttribute(""ui.quality"");
+		if (!entry.veryLarge)
+			graph.setAttribute(""ui.antialias"");
+		if (entry.addLabels)
+			graph.setAttribute(""ui.stylesheet"", String.format(
+					""node { text-alignment: center; size: %dpx; fill-color: grey; %s } edge { fill-color: #333; }"",
+					entry.veryLarge ? 6 : 16, entry.veryLarge ? """" : ""stroke-mode: plain; stroke-color: #333;""));
+		else
+			graph.setAttribute(""ui.stylesheet"", String.format(
+					""node { text-alignment: at-right; size: %dpx; fill-color: grey; %s text-background-mode: plain; text-offset: 2px, 0px; text-padding: 2px; text-background-color: #FFFFFFAA; } edge { fill-color: #333; }"",
+					entry.veryLarge ? 6 : 16, entry.veryLarge ? """" : ""stroke-mode: plain; stroke-color: #333;""));
+
+		Viewer v = graph.display(entry.autoLayout);
+		v.setCloseFramePolicy(Viewer.CloseFramePolicy.CLOSE_VIEWER);
+
+		in.addSink(graph);
+		in.readAll(TestPajekParser.class.getResourceAsStream(entry.ressourceName));
+
+		if (entry.addLabels) {
+			for (Node node : graph) {
+				node.setAttribute(""ui.label"", node.getId());
+			}
+		}
+
+		try {
+			Thread.sleep(1000);
+		} catch (Exception e) {
+		}
+
+		v.close();
+	}",./src-test/org/graphstream/stream/file/pajek/test/TestPajekParser.java,gs-core-dev
+"public void test() throws IOException {
+		Graph graph = new MultiGraph(""test GML"");
+		FileSinkGML out1 = new FileSinkGML();
+		FileSinkDynamicGML out2 = new FileSinkDynamicGML();
+
+		out1.begin(""TestSinkGML.gml"");
+		out2.begin(""TestSinkGML.dgml"");
+
+		graph.addSink(out1);
+		graph.addSink(out2);
+
+		graph.addNode(""A"");
+		graph.getNode(""A"").setAttribute(""s"", ""foo bar"");
+		graph.addNode(""B"");
+		graph.stepBegins(1);
+		graph.addEdge(""AB"", ""A"", ""B"", true);
+		graph.getEdge(""AB"").setAttribute(""n"", 1);
+		graph.stepBegins(2);
+		graph.setAttribute(""b"", true);
+		graph.getNode(""B"").setAttribute(""c"", 'X');
+		graph.getNode(""B"").setAttribute(""d"", 'Y');
+		graph.stepBegins(3);
+		graph.getNode(""B"").removeAttribute(""c"");
+		graph.removeAttribute(""b"");
+		graph.removeNode(""A"");
+		graph.removeNode(""B"");
+
+		out1.end();
+		out2.end();
+	}",./src-test/org/graphstream/stream/file/gml/test/TestSinkGML.java,gs-core-dev
+"public TestSourceGML() {
+		testBigFile();
+		testDynFile();
+		testSmallFile();
+	}",./src-test/org/graphstream/stream/file/gml/test/TestSourceGML.java,gs-core-dev
+"public void testDynFile() {
+		try {
+			Graph graph = new MultiGraph(""Dynamic !"");
+			FileSourceGML source = new FileSourceGML();
+
+			graph.setAttribute(""ui.quality"");
+			graph.setAttribute(""ui.antialias"");
+			graph.display();
+			source.addSink(graph);
+			source.begin(TestSourceGML.class.getResourceAsStream(""dynamic.gml""));
+			int step = 0;
+			while (source.nextStep()) {
+				System.err.printf(""Step %d%n"", step);
+				step++;
+				sleep(1000);
+			}
+			source.end();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}",./src-test/org/graphstream/stream/file/gml/test/TestSourceGML.java,gs-core-dev
+"public void testBigFile() {
+		try {
+			Graph graph = new MultiGraph(""foo"");
+			FileSourceGML source = new FileSourceGML();
+
+			graph.setAttribute(""ui.quality"");
+			graph.setAttribute(""ui.antialias"");
+			graph.setAttribute(""ui.stylesheet"",
+					""node { text-size:8; text-color: #0008; text-alignment: at-right; } edge { text-size:8; text-color: #0008; }"");
+			graph.display(false);
+			source.addSink(graph);
+			source.begin(TestSourceGML.class.getResourceAsStream(""example2.sif.gml""));
+			while (source.nextEvents()) {
+			}
+			source.end();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}",./src-test/org/graphstream/stream/file/gml/test/TestSourceGML.java,gs-core-dev
+"public void testSmallFile() {
+		try {
+			Graph graph = new MultiGraph(""foo"");
+			FileSourceGML source = new FileSourceGML();
+
+			graph.setAttribute(""ui.quality"");
+			graph.setAttribute(""ui.antialias"");
+			// graph.setAttribute(""ui.stylesheet"", ""node { text-size:8; text-color: #0008;
+			// text-alignment: at-right; } edge { text-size:8; text-color: #0008; }"");
+			graph.display();
+			source.addSink(graph);
+			source.begin(TestSourceGML.class.getResourceAsStream(""SmallTest.gml""));
+			while (source.nextEvents()) {
+			}
+			source.end();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}",./src-test/org/graphstream/stream/file/gml/test/TestSourceGML.java,gs-core-dev
+"@Override
+	@Test
+	public void test_DirectedTriangle() {
+		((FileSinkDOT) output).setDirected(true);
+		super.test_DirectedTriangle();
+		((FileSinkDOT) output).setDirected(false);
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkDOT.java,gs-core-dev
+"@Test
+	public void test_UndirectedTriangle_WriteAll_FileName() {
+		createUndirectedTriangle();
+
+		try {
+			output.writeAll(outGraph, theFile.getAbsolutePath());
+			input.addSink(inGraph);
+			input.readAll(theFile.getAbsolutePath());
+			testUndirectedTriangle();
+		} catch (IOException e) {
+			e.printStackTrace();
+			fail(""Should not happen !"");
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"@Test
+	public void test_UndirectedTriangle_WriteAll_Stream() {
+		createUndirectedTriangle();
+
+		try {
+			output.writeAll(outGraph, new FileOutputStream(theFile.getAbsolutePath()));
+			input.addSink(inGraph);
+			input.readAll(theFile.getAbsolutePath());
+			testUndirectedTriangle();
+		} catch (IOException e) {
+			e.printStackTrace();
+			fail(""Should not happen !"");
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"@Test
+	public void test_UndirectedTriangle_ByEvent() {
+		try {
+			output.begin(theFile.getAbsolutePath());
+			output.nodeAdded(""?"", 1, ""A"");
+			output.nodeAdded(""?"", 2, ""B"");
+			output.nodeAdded(""?"", 3, ""C"");
+			output.edgeAdded(""?"", 4, ""AB"", ""A"", ""B"", false);
+			output.edgeAdded(""?"", 5, ""BC"", ""B"", ""C"", false);
+			output.edgeAdded(""?"", 6, ""CA"", ""C"", ""A"", false);
+			output.end();
+
+			input.addSink(inGraph);
+			input.readAll(theFile.getAbsolutePath());
+			testUndirectedTriangle();
+		} catch (IOException e) {
+			e.printStackTrace();
+			fail(""Should not happen !"");
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"@Test
+	public void test_DirectedTriangle() {
+		createDirectedTriangle();
+
+		try {
+			output.writeAll(outGraph, new FileOutputStream(theFile.getAbsolutePath()));
+			input.addSink(inGraph);
+			input.readAll(theFile.getAbsolutePath());
+			testDirectedTriangle();
+		} catch (IOException e) {
+			e.printStackTrace();
+			fail(""Should not happen !"");
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"@Test
+	public void test_Attributes() {
+		if (formatHandlesAttributes) {
+			createAttributedTriangle();
+
+			try {
+				output.writeAll(outGraph, new FileOutputStream(theFile.getAbsolutePath()));
+				input.addSink(inGraph);
+				input.readAll(theFile.getAbsolutePath());
+
+				testAttributedTriangle();
+			} catch (IOException e) {
+				e.printStackTrace();
+				fail(""Should not happen !"");
+			} finally {
+				// removeFile(theFile.getAbsolutePath());
+			}
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"@Test
+	public void test_Dynamic() {
+		if (formatHandleDynamics) {
+			try {
+				output.begin(new FileOutputStream(theFile.getAbsolutePath()));
+				outGraph.addSink(output);
+				outGraph.stepBegins(0);
+				outGraph.addNode(""A"");
+				outGraph.addNode(""B"");
+				outGraph.addNode(""C"");
+				outGraph.stepBegins(1);
+				outGraph.addEdge(""AB"", ""A"", ""B"");
+				outGraph.addEdge(""BC"", ""B"", ""C"");
+				outGraph.addEdge(""CA"", ""C"", ""A"");
+				outGraph.stepBegins(2);
+				outGraph.setAttribute(""a"", 1);
+				outGraph.setAttribute(""b"", ""foo"");
+				outGraph.getNode(""A"").setAttribute(""a"", 1);
+				outGraph.getNode(""B"").setAttribute(""b"", ""foo"");
+				outGraph.getNode(""C"").setAttribute(""c"", ""bar"");
+				outGraph.stepBegins(3);
+				outGraph.removeNode(""A"");
+				outGraph.stepBegins(4);
+				outGraph.removeEdge(""BC"");
+				output.end();
+
+				input.addSink(inGraph);
+				input.begin(theFile.getAbsolutePath());
+				testDynamicTriangleStep0();
+				input.nextStep();
+				testDynamicTriangleStep0_1();
+				input.nextStep();
+				testDynamicTriangleStep1_2();
+				input.nextStep();
+				testDynamicTriangleStep2_3();
+				input.nextStep();
+				testDynamicTriangleStep3_4();
+				input.nextStep();
+				testDynamicTriangleStep4();
+				input.end();
+			} catch (IOException e) {
+				e.printStackTrace();
+				fail(""Should not happen !"");
+			}
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"protected void testUndirectedTriangle() {
+		assertEquals(3, inGraph.getNodeCount());
+		assertEquals(3, inGraph.getEdgeCount());
+
+		Node A = inGraph.getNode(""A"");
+		Node B = inGraph.getNode(""B"");
+		Node C = inGraph.getNode(""C"");
+
+		assertNotNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+
+		if (formatHandlesEdgesIDs) {
+			assertNotNull(inGraph.getEdge(""AB""));
+			assertNotNull(inGraph.getEdge(""BC""));
+			assertNotNull(inGraph.getEdge(""CA""));
+		}
+
+		assertTrue(A.hasEdgeToward(""B""));
+		assertTrue(B.hasEdgeToward(""C""));
+		assertTrue(C.hasEdgeToward(""A""));
+		assertTrue(A.hasEdgeToward(""C""));
+		assertTrue(B.hasEdgeToward(""A""));
+		assertTrue(C.hasEdgeToward(""B""));
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"protected void testDirectedTriangle() {
+		assertEquals(3, inGraph.getNodeCount());
+		assertEquals(3, inGraph.getEdgeCount());
+
+		Node A = inGraph.getNode(""A"");
+		Node B = inGraph.getNode(""B"");
+		Node C = inGraph.getNode(""C"");
+
+		assertNotNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+
+		assertTrue(A.hasEdgeToward(""B""));
+		assertTrue(A.hasEdgeToward(""C""));
+		assertFalse(B.hasEdgeToward(""A""));
+		assertTrue(B.hasEdgeToward(""C""));
+		assertFalse(C.hasEdgeToward(""A""));
+		assertTrue(C.hasEdgeToward(""B""));
+
+		Edge AB = A.getEdgeToward(""B"");
+		Edge BC = B.getEdgeToward(""C"");
+		Edge CA = A.getEdgeToward(""C"");
+
+		assertTrue(AB.isDirected());
+		assertFalse(BC.isDirected());
+		assertTrue(CA.isDirected());
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"protected void testAttributedTriangle() {
+		assertEquals(3, inGraph.getNodeCount());
+		assertEquals(3, inGraph.getEdgeCount());
+
+		Node A = inGraph.getNode(""A"");
+		Node B = inGraph.getNode(""B"");
+		Node C = inGraph.getNode(""C"");
+
+		assertNotNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+
+		assertEquals(1.0, ((Number) inGraph.getAttribute(""a"")).doubleValue(), 1E-12);
+		assertEquals(""foo"", inGraph.getAttribute(""b""));
+
+		assertEquals(1.0, ((Number) A.getAttribute(""a"")).doubleValue(), 1E-12);
+		assertEquals(""foo"", B.getAttribute(""b""));
+		assertEquals(""bar"", C.getAttribute(""c""));
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"protected void testDynamicTriangleStep0() {
+		assertEquals(0, inGraph.getNodeCount());
+		assertEquals(0, inGraph.getEdgeCount());
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"protected void testDynamicTriangleStep0_1() {
+		assertEquals(3, inGraph.getNodeCount());
+		assertEquals(0, inGraph.getEdgeCount());
+
+		Node A = inGraph.getNode(""A"");
+		Node B = inGraph.getNode(""B"");
+		Node C = inGraph.getNode(""C"");
+
+		assertNotNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+
+		assertEquals(0, A.getAttributeCount());
+		assertEquals(0, B.getAttributeCount());
+		assertEquals(0, C.getAttributeCount());
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"protected void testDynamicTriangleStep1_2() {
+		assertEquals(3, inGraph.getNodeCount());
+		assertEquals(3, inGraph.getEdgeCount());
+
+		Node A = inGraph.getNode(""A"");
+		Node B = inGraph.getNode(""B"");
+		Node C = inGraph.getNode(""C"");
+
+		assertNotNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+
+		assertTrue(A.hasEdgeToward(""B""));
+		assertTrue(A.hasEdgeToward(""C""));
+		assertTrue(B.hasEdgeToward(""A""));
+		assertTrue(B.hasEdgeToward(""C""));
+		assertTrue(C.hasEdgeToward(""A""));
+		assertTrue(C.hasEdgeToward(""B""));
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"protected void testDynamicTriangleStep2_3() {
+		assertEquals(3, inGraph.getNodeCount());
+		assertEquals(3, inGraph.getEdgeCount());
+
+		Node A = inGraph.getNode(""A"");
+		Node B = inGraph.getNode(""B"");
+		Node C = inGraph.getNode(""C"");
+
+		assertNotNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+
+		assertTrue(inGraph.hasAttribute(""a""));
+		assertTrue(inGraph.hasAttribute(""b""));
+		assertTrue(A.hasAttribute(""a""));
+		assertTrue(B.hasAttribute(""b""));
+		assertTrue(C.hasAttribute(""c""));
+
+		assertEquals(Integer.valueOf(1), inGraph.getAttribute(""a""));
+		assertEquals(""foo"", inGraph.getAttribute(""b""));
+		assertEquals(Integer.valueOf(1), A.getAttribute(""a""));
+		assertEquals(""foo"", B.getAttribute(""b""));
+		assertEquals(""bar"", C.getAttribute(""c""));
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"protected void testDynamicTriangleStep3_4() {
+		assertEquals(2, inGraph.getNodeCount());
+		assertEquals(1, inGraph.getEdgeCount());
+
+		Node A = inGraph.getNode(""A"");
+		Node B = inGraph.getNode(""B"");
+		Node C = inGraph.getNode(""C"");
+
+		assertNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+
+		assertFalse(B.hasEdgeToward(""A""));
+		assertTrue(B.hasEdgeToward(""C""));
+		assertFalse(C.hasEdgeToward(""A""));
+		assertTrue(C.hasEdgeToward(""B""));
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"protected void testDynamicTriangleStep4() {
+		assertEquals(2, inGraph.getNodeCount());
+		assertEquals(0, inGraph.getEdgeCount());
+
+		Node A = inGraph.getNode(""A"");
+		Node B = inGraph.getNode(""B"");
+		Node C = inGraph.getNode(""C"");
+
+		assertNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+
+		assertFalse(B.hasEdgeToward(""A""));
+		assertFalse(B.hasEdgeToward(""C""));
+		assertFalse(C.hasEdgeToward(""A""));
+		assertFalse(C.hasEdgeToward(""B""));
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkBase.java,gs-core-dev
+"@Test
+	public void testBasic() {
+		Graph g = readRessource(""data/basic.gexf"");
+
+		assertNotNull(g.getNode(""0""));
+		assertNotNull(g.getNode(""1""));
+		assertNotNull(g.getEdge(""0""));
+
+		assertEquals(g.getEdge(""0"").getSourceNode().getId(), ""0"");
+		assertEquals(g.getEdge(""0"").getTargetNode().getId(), ""1"");
+
+		assertTrue(g.getNode(""0"").hasLabel(""label""));
+		assertTrue(g.getNode(""1"").hasLabel(""label""));
+
+		assertEquals(g.getNode(""0"").getLabel(""label""), ""Hello"");
+		assertEquals(g.getNode(""1"").getLabel(""label""), ""Word"");
+
+		assertTrue(g.getEdge(""0"").isDirected());
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceGEXF.java,gs-core-dev
+"@Test
+	public void testData() {
+		Graph g = readRessource(""data/data.gexf"");
+
+		String[] nodeLabels = { ""Gephi"", ""Webatlas"", ""RTGI"", ""BarabasiLab"" };
+		String[] edges = { ""0"", ""1"", ""0"", ""2"", ""1"", ""0"", ""2"", ""1"", ""0"", ""3"" };
+		String[] urlValues = { ""http://gephi.org"", ""http://webatlas.fr"", ""http://rtgi.fr"", ""http://barabasilab.com"" };
+		Float[] indegreeValues = { 1.0f, 2.0f, 1.0f, 1.0f };
+		Boolean[] frogValues = { true, true, true, false };
+
+		assertEquals(g.getAttribute(""lastmodifieddate""), ""2009-03-20"");
+		assertEquals(g.getAttribute(""creator""), ""Gephi.org"");
+		assertEquals(g.getAttribute(""description""), ""A Web network"");
+
+		for (int i = 0; i < 4; i++) {
+			String nid = Integer.toString(i);
+
+			assertNotNull(g.getNode(nid));
+			assertTrue(g.getNode(nid).hasLabel(""label""));
+			assertEquals(g.getNode(nid).getLabel(""label""), nodeLabels[i]);
+
+			assertEquals(g.getNode(nid).getAttribute(""url""), urlValues[i]);
+			assertEquals(g.getNode(nid).getAttribute(""indegree""), indegreeValues[i]);
+			assertEquals(g.getNode(nid).getAttribute(""frog""), frogValues[i]);
+		}
+
+		for (int i = 0; i < 5; i++) {
+			String eid = Integer.toString(i);
+
+			assertNotNull(g.getEdge(eid));
+			assertTrue(g.getEdge(eid).isDirected());
+
+			assertEquals(g.getEdge(eid).getSourceNode().getId(), edges[2 * i]);
+			assertEquals(g.getEdge(eid).getTargetNode().getId(), edges[2 * i + 1]);
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceGEXF.java,gs-core-dev
+"@Test
+	public void test_XmlContent() {
+		createXmlContent();
+
+		try {
+			output.writeAll(outGraph, new FileOutputStream(theFile.getAbsolutePath()));
+			input.addSink(inGraph);
+			input.readAll(theFile.getAbsolutePath());
+		} catch (IOException e) {
+			e.printStackTrace();
+			assertTrue(""Should not happen !"", false);
+		}
+
+		assertXmlContent();
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkGraphML.java,gs-core-dev
+"@Test
+	@Ignore
+	@Override
+	public void test_UndirectedTriangle_ByEvent() { // Not supported
+		super.test_UndirectedTriangle_ByEvent();
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkGraphML.java,gs-core-dev
+"@Test
+	@Ignore
+	@Override
+	public void test_Dynamic() { // Not supported
+		super.test_Dynamic();
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkGraphML.java,gs-core-dev
+"@Override
+	protected void testAttributedTriangle() {
+		assertEquals(3, inGraph.getNodeCount());
+		assertEquals(3, inGraph.getEdgeCount());
+
+		Node A = inGraph.getNode(""A"");
+		Node B = inGraph.getNode(""B"");
+		Node C = inGraph.getNode(""C"");
+
+		assertNotNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+
+		// assertEquals(1.0, ((Number) inGraph.getAttribute(""a"")).doubleValue(), 1E-12);
+		// Not supported by this format
+		// assertEquals(""foo"", inGraph.getAttribute(""b""));
+
+		assertEquals(1.0, ((Number) A.getAttribute(""a"")).doubleValue(), 1E-12);
+		assertEquals(""foo"", B.getAttribute(""b""));
+		assertEquals(""bar"", C.getAttribute(""c""));
+	}",./src-test/org/graphstream/stream/file/test/TestFileSinkGraphML.java,gs-core-dev
+"@Test
+	public void testBasic() {
+		Graph g = readRessource(""data/example.graphml"", true);
+
+		Node n1 = g.getNode(""1"");
+		Node n2 = g.getNode(""2"");
+		Node n3 = g.getNode(""3"");
+
+		assertNotNull(n1);
+		assertNotNull(n2);
+		assertNotNull(n3);
+
+		assertNotNull(n1.getEdgeToward(n2));
+		assertNotNull(n2.getEdgeToward(n3));
+		assertNotNull(n3.getEdgeToward(n1));
+
+		assertTrue(g.hasAttribute(""label""));
+		assertEquals(""This is a label"", g.getAttribute(""label""));
+
+		assertTrue(g.getNode(""1"").hasAttribute(""ordering""));
+		assertEquals(""1 2"", g.getNode(""1"").getAttribute(""ordering""));
+		assertTrue(g.getNode(""2"").hasAttribute(""ordering""));
+		assertEquals(""2 3"", g.getNode(""2"").getAttribute(""ordering""));
+		assertTrue(g.getNode(""3"").hasAttribute(""ordering""));
+		assertEquals(""3 1"", g.getNode(""3"").getAttribute(""ordering""));
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceGraphML.java,gs-core-dev
+"@Test
+	public void testUndeclaredAttributes() {
+		Graph g = readRessource(""data/example-extraattributes.graphml"", false);
+
+		Node n1 = g.getNode(""1"");
+		Node n2 = g.getNode(""2"");
+		Node n3 = g.getNode(""3"");
+
+		assertNotNull(n1);
+		assertNotNull(n2);
+		assertNotNull(n3);
+
+		assertTrue(g.getNode(""1"").hasAttribute(""label""));
+		assertEquals(""My label 1"", g.getNode(""1"").getAttribute(""label""));
+		assertTrue(g.getNode(""2"").hasAttribute(""other""));
+		assertEquals(""Other undeclared attribute"", g.getNode(""2"").getAttribute(""other""));
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceGraphML.java,gs-core-dev
+"@Test
+	@Override
+	public void test_DirectedTriangle() {
+		input = new FileSourceEdge(true);
+
+		try {
+			input.addSink(graph);
+			input.readAll(new StringReader(aDirectedTriangle()));
+			String BCid = graph.getNode(""B"").getEdgeToward(""C"").getId();
+			graph.removeEdge(BCid);
+			graph.addEdge(BCid, ""B"", ""C"", false);
+			directedTriangleTests();
+		} catch (IOException e) {
+			e.printStackTrace();
+			assertTrue(""IOException, should not happen"" + e.getMessage(), false);
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceEdge.java,gs-core-dev
+"@Test
+	@Override
+	public void test_Attributes() {
+		// NOP, edge format does not allow attributes.
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceEdge.java,gs-core-dev
+"@Test
+	public void test_Access_ReadAll_Reader() {
+		try {
+			input.addSink(graph);
+			input.readAll(new StringReader(anUndirectedTriangle()));
+			undirectedTriangleTests();
+		} catch (IOException e) {
+			assertTrue(""IOException, should not happen"" + e.getMessage(), false);
+			e.printStackTrace();
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceBase.java,gs-core-dev
+"@Test
+	public void test_Access_ByStep_Reader() {
+		try {
+			input.addSink(graph);
+			input.begin(new StringReader(anUndirectedTriangle()));
+			while (input.nextEvents())
+				;
+			input.end();
+
+			undirectedTriangleTests();
+		} catch (IOException e) {
+			assertTrue(""IOException, should not happen"" + e.getMessage(), false);
+			e.printStackTrace();
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceBase.java,gs-core-dev
+"@Test
+	public void test_Access_ReadAll_Stream() {
+		try {
+			input.addSink(graph);
+			input.readAll(new FileInputStream(anUndirectedTriangleFileName()));
+			undirectedTriangleTests();
+		} catch (IOException e) {
+			assertTrue(""IOException, should not happen"" + e.getMessage(), false);
+			e.printStackTrace();
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceBase.java,gs-core-dev
+"@Test
+	public void test_Access_ReadAll_URL() {
+		try {
+			URL url = new URL(anUndirectedTriangleHttpURL());
+
+			HttpURLConnection c = (HttpURLConnection)url.openConnection();
+			c.setDefaultUseCaches(false);
+			c.setReadTimeout(5000);
+			c.addRequestProperty(""Accept-Language"", ""en-US,en;q=0.8"");
+			c.addRequestProperty(""User-Agent"", ""Mozilla"");
+			c.addRequestProperty(""Referer"", ""google.com"");
+			boolean redirect = false;
+			int status = c.getResponseCode();
+			if (status != HttpURLConnection.HTTP_OK) {
+				if (status == HttpURLConnection.HTTP_MOVED_TEMP
+					|| status == HttpURLConnection.HTTP_MOVED_PERM
+					|| status == HttpURLConnection.HTTP_SEE_OTHER)
+			redirect = true;
+			if (redirect) {
+
+				// get redirect url from ""location"" header field
+				String newUrl = c.getHeaderField(""Location"");
+	
+				// get the cookie if need, for login
+				String cookies = c.getHeaderField(""Set-Cookie"");
+		
+				// open the new connection again
+				url = new URL(newUrl);
+				c = (HttpURLConnection) url.openConnection();
+				c.setRequestProperty(""Cookie"", cookies);
+				c.addRequestProperty(""Accept-Language"", ""en-US,en;q=0.8"");
+				c.addRequestProperty(""User-Agent"", ""Mozilla"");
+				c.addRequestProperty(""Referer"", ""google.com"");
+		
+				System.out.println(""Redirect to URL : "" + newUrl);
+		
+			}
+	
+		}
+
+			input.addSink(graph);
+			input.readAll(url);
+			undirectedTriangleTests();
+		} catch (IOException e) {
+			e.printStackTrace();
+			assertTrue(""IOException, should not happen"" + e.getMessage(), false);
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceBase.java,gs-core-dev
+"@Test
+	public void test_Access_ReadAll_FileName() {
+		try {
+			input.addSink(graph);
+			input.readAll(anUndirectedTriangleFileName());
+			undirectedTriangleTests();
+		} catch (IOException e) {
+			e.printStackTrace();
+			assertTrue(""IOException, should not happen"" + e.getMessage(), false);
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceBase.java,gs-core-dev
+"@Test
+	public void test_DirectedTriangle() {
+		try {
+			input.addSink(graph);
+			input.readAll(new StringReader(aDirectedTriangle()));
+			directedTriangleTests();
+		} catch (IOException e) {
+			e.printStackTrace();
+			assertTrue(""IOException, should not happen"" + e.getMessage(), false);
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceBase.java,gs-core-dev
+"@Test
+	public void test_Attributes() {
+		try {
+			input.addSink(graph);
+			input.readAll(new StringReader(basicAttributes()));
+			basicAttributesTests();
+		} catch (IOException e) {
+			e.printStackTrace();
+			assertTrue(""IOException, should not happen"" + e.getMessage(), true);
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceBase.java,gs-core-dev
+"protected void undirectedTriangleTests() {
+		assertEquals(3, graph.getEdgeCount());
+		assertEquals(3, graph.getNodeCount());
+		assertNotNull(graph.getNode(""A""));
+		assertNotNull(graph.getNode(""B""));
+		assertNotNull(graph.getNode(""C""));
+
+		if (testEdgeIds) {
+			assertNotNull(graph.getEdge(""AB""));
+			assertNotNull(graph.getEdge(""BC""));
+			assertNotNull(graph.getEdge(""CA""));
+		}
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceBase.java,gs-core-dev
+"protected void directedTriangleTests() {
+		assertEquals(3, graph.getEdgeCount());
+		assertEquals(3, graph.getNodeCount());
+
+		Node A = graph.getNode(""A"");
+		Node B = graph.getNode(""B"");
+		Node C = graph.getNode(""C"");
+
+		assertNotNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+
+		if (testEdgeIds) {
+			Edge AB = graph.getEdge(""AB"");
+			Edge BC = graph.getEdge(""BC"");
+			Edge CA = graph.getEdge(""CA"");
+
+			assertNotNull(AB);
+			assertNotNull(BC);
+			assertNotNull(CA);
+
+			assertTrue(AB.isDirected());
+			assertFalse(BC.isDirected());
+			assertTrue(CA.isDirected());
+
+			assertEquals(""A"", AB.getNode0().getId());
+			assertEquals(""B"", AB.getNode1().getId());
+			assertEquals(""B"", BC.getNode0().getId());
+			assertEquals(""C"", BC.getNode1().getId());
+			assertEquals(""A"", CA.getNode0().getId());
+			assertEquals(""C"", CA.getNode1().getId());
+		}
+
+		assertTrue(A.hasEdgeToward(""B""));
+		assertTrue(A.hasEdgeToward(""C""));
+		assertTrue(B.hasEdgeToward(""C""));
+		assertFalse(B.hasEdgeToward(""A""));
+		assertFalse(C.hasEdgeToward(""A""));
+		assertTrue(C.hasEdgeToward(""B""));
+
+		Edge AB = A.getEdgeToward(""B"");
+		Edge BC = B.getEdgeToward(""C"");
+		Edge CA = A.getEdgeToward(""C"");
+
+		assertNotNull(AB);
+		assertNotNull(BC);
+		assertNotNull(CA);
+
+		assertTrue(AB.isDirected());
+		assertFalse(BC.isDirected());
+		assertTrue(CA.isDirected());
+		assertEquals(""B"", AB.getNode1().getId());
+		assertEquals(""C"", BC.getNode1().getId());
+		assertEquals(""C"", CA.getNode1().getId());
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceBase.java,gs-core-dev
+"protected void basicAttributesTests() {
+		assertEquals(3, graph.getEdgeCount());
+		assertEquals(3, graph.getNodeCount());
+
+		Node A = graph.getNode(""A"");
+		Node B = graph.getNode(""B"");
+		Node C = graph.getNode(""C"");
+
+		assertNotNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+
+		assertTrue(A.hasAttribute(""a""));
+		assertTrue(A.hasAttribute(""b""));
+		assertTrue(A.hasAttribute(""c""));
+		assertTrue(B.hasAttribute(""aa""));
+		assertTrue(B.hasAttribute(""bb""));
+		assertTrue(B.hasAttribute(""cc""));
+		assertTrue(C.hasAttribute(""aaa""));
+
+		assertEquals(1.0, ((Number) A.getAttribute(""a"")).doubleValue(), 1E-12);
+		assertEquals(""truc"", A.getAttribute(""b""));
+		assertEquals(""true"", A.getAttribute(""c""));
+
+		assertNotNull(B.getAttribute(""aa""));
+		assertEquals(""foo"", B.getAttribute(""bb""));
+		assertEquals(""bar"", B.getAttribute(""cc""));
+
+		assertEquals(1.234, C.getNumber(""aaa""), 0);
+	}",./src-test/org/graphstream/stream/file/test/TestFileSourceBase.java,gs-core-dev
+"@Test
+	public void testSentEvents() {
+		LinkedList<Event> events = generateEventList(10000);
+		SourceBase source = new TestSource();
+		EventStack stack = new EventStack();
+
+		source.addSink(stack);
+
+		for (Event e : events)
+			send(source, e);
+
+		assertEquals(events.size(), stack.size());
+
+		for (int i = 0; i < events.size(); i++)
+			events.get(i).assertEventEquals(stack.get(i));
+	}",./src-test/org/graphstream/stream/test/TestSourceBase.java,gs-core-dev
+"@Test
+	public void testAutoCreate() {
+		Graph g = new AdjacencyListGraph(""ok"", false, true);
+
+		final LinkedList<String> an = new LinkedList<>();
+		final String[] expectedAn = { ""a"", ""b"", ""c"", ""d"", ""e"" };
+
+		Sink sink = new SinkAdapter() {
+			@Override
+			public void nodeAdded(String sourceId, long timeId, String nodeId) {
+				an.add(nodeId);
+			}
+		};
+		g.addSink(sink);
+
+		// event from the constructivist API
+		g.addEdge(""ab"", ""a"", ""b"");
+
+		// events from a pipe
+		FileSource fs = new FileSourceDGS();
+		try {
+			fs.begin(new ByteArrayInputStream(""DGS004\n0 0\nae bc b c\nae ac a c"".getBytes()));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		fs.addSink(g);
+		try {
+			while (fs.nextEvents())
+				;
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		// events from another pipe
+		fs = new FileSourceDGS();
+		try {
+			fs.begin(new ByteArrayInputStream(""DGS004\n0 0\nae dc d c\nae de d e"".getBytes()));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		fs.addSink(g);
+		try {
+			while (fs.nextEvents())
+				;
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		assertEquals(expectedAn.length, an.size());
+
+		for (String nId : expectedAn) {
+			assertEquals(nId, an.remove(0));
+		}
+	}",./src-test/org/graphstream/stream/test/TestAutoCreateInStreams.java,gs-core-dev
+"@Test
+	public void testAutoRemove() {
+		Graph g = new AdjacencyListGraph(""ok"");
+
+		final LinkedList<String> de = new LinkedList<>();
+		final String[] expectedDe = { ""ab"", ""ca"", ""bc"" };
+
+		Sink sink = new SinkAdapter() {
+			@Override
+			public void edgeRemoved(String sourceId, long timeId, String edgeId) {
+				de.add(edgeId);
+			}
+		};
+		g.addSink(sink);
+
+		g.addNode(""a"");
+		g.addNode(""b"");
+		g.addNode(""c"");
+
+		g.addEdge(""ab"", ""a"", ""b"");
+		g.addEdge(""bc"", ""b"", ""c"");
+		g.addEdge(""ca"", ""c"", ""a"");
+
+		// event from the constructivist API
+		g.removeNode(""a"");
+
+		// events from a pipe
+		FileSource fs = new FileSourceDGS();
+		try {
+			fs.begin(new ByteArrayInputStream(""DGS004\n0 0\ndn b"".getBytes()));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		fs.addSink(g);
+		try {
+			while (fs.nextEvents())
+				;
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		assertEquals(expectedDe.length, de.size());
+
+		for (String eId : expectedDe) {
+			assertEquals(eId, de.remove(0));
+		}
+	}",./src-test/org/graphstream/stream/test/TestAutoCreateInStreams.java,gs-core-dev
+"@Test
+	public void testEventNodeAdded() {
+		final String streamId = ""stream-test"";
+		final String sourceId = ""test"";
+		final String nodeId = ""node-test"";
+		final long timeId = 123;
+
+		final NetStreamDecoder dec = new NetStreamDecoder();
+
+		NetStreamEncoder enc = new NetStreamEncoder(""stream-test"", new ByteEncoder.Transport() {
+			@Override
+			public void send(ByteBuffer buffer) {
+				dec.decode(buffer);
+			}
+		});
+
+		FailSink sink = new FailSink() {
+			public void nodeAdded(String sourceIdDec, long timeIdDec, String nodeIdDec) {
+				triggered = true;
+
+				Assert.assertEquals(sourceId, sourceIdDec);
+				Assert.assertEquals(timeId, timeIdDec);
+				Assert.assertEquals(nodeId, nodeIdDec);
+			}
+		};
+
+		dec.addSink(sink);
+
+		enc.nodeAdded(sourceId, timeId, nodeId);
+
+		Assert.assertTrue(sink.triggered);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamDecoder.java,gs-core-dev
+"@Test
+	public void testEventNodeRemoved() {
+		final String streamId = ""stream-test"";
+		final String sourceId = ""test"";
+		final String nodeId = ""node-test"";
+		final long timeId = 123;
+
+		final NetStreamDecoder dec = new NetStreamDecoder();
+
+		NetStreamEncoder enc = new NetStreamEncoder(""stream-test"", new ByteEncoder.Transport() {
+			@Override
+			public void send(ByteBuffer buffer) {
+				dec.decode(buffer);
+			}
+		});
+
+		FailSink sink = new FailSink() {
+			public void nodeRemoved(String sourceIdDec, long timeIdDec, String nodeIdDec) {
+				triggered = true;
+
+				Assert.assertEquals(sourceId, sourceIdDec);
+				Assert.assertEquals(timeId, timeIdDec);
+				Assert.assertEquals(nodeId, nodeIdDec);
+			}
+		};
+
+		dec.addSink(sink);
+
+		enc.nodeRemoved(sourceId, timeId, nodeId);
+
+		Assert.assertTrue(sink.triggered);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamDecoder.java,gs-core-dev
+"@Test
+	public void testEventEdgeAdded() {
+		final String streamId = ""stream-test"";
+		final String sourceId = ""test"";
+		final String edgeId = ""edge-test"";
+		final String nodeA = ""node-a"";
+		final String nodeB = ""node-b"";
+		final long timeId = 123;
+
+		final NetStreamDecoder dec = new NetStreamDecoder();
+
+		NetStreamEncoder enc = new NetStreamEncoder(""stream-test"", new ByteEncoder.Transport() {
+			@Override
+			public void send(ByteBuffer buffer) {
+				dec.decode(buffer);
+			}
+		});
+
+		FailSink sink = new FailSink() {
+			public void edgeAdded(String sourceIdDec, long timeIdDec, String edgeIdDec, String fromNodeId,
+					String toNodeId, boolean directed) {
+				triggered = true;
+
+				Assert.assertEquals(sourceId, sourceIdDec);
+				Assert.assertEquals(timeId, timeIdDec);
+				Assert.assertEquals(edgeId, edgeIdDec);
+				Assert.assertEquals(nodeA, fromNodeId);
+				Assert.assertEquals(nodeB, toNodeId);
+				Assert.assertEquals(true, directed);
+			}
+		};
+
+		dec.addSink(sink);
+
+		enc.edgeAdded(sourceId, timeId, edgeId, nodeA, nodeB, true);
+
+		Assert.assertTrue(sink.triggered);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamDecoder.java,gs-core-dev
+"@Test
+	public void testEventEdgeRemoved() {
+		final String streamId = ""stream-test"";
+		final String sourceId = ""test"";
+		final String edgeId = ""edge-test"";
+		final long timeId = 123;
+
+		final NetStreamDecoder dec = new NetStreamDecoder();
+
+		NetStreamEncoder enc = new NetStreamEncoder(""stream-test"", new ByteEncoder.Transport() {
+			@Override
+			public void send(ByteBuffer buffer) {
+				dec.decode(buffer);
+			}
+		});
+
+		FailSink sink = new FailSink() {
+			public void edgeRemoved(String sourceIdDec, long timeIdDec, String edgeIdDec) {
+				triggered = true;
+
+				Assert.assertEquals(sourceId, sourceIdDec);
+				Assert.assertEquals(timeId, timeIdDec);
+				Assert.assertEquals(edgeId, edgeIdDec);
+			}
+		};
+
+		dec.addSink(sink);
+
+		enc.edgeRemoved(sourceId, timeId, edgeId);
+
+		Assert.assertTrue(sink.triggered);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamDecoder.java,gs-core-dev
+"@Test
+	public void testEventGraphCleared() {
+		final String streamId = ""stream-test"";
+		final String sourceId = ""test"";
+		final long timeId = 123;
+
+		final NetStreamDecoder dec = new NetStreamDecoder();
+
+		NetStreamEncoder enc = new NetStreamEncoder(""stream-test"", new ByteEncoder.Transport() {
+			@Override
+			public void send(ByteBuffer buffer) {
+				dec.decode(buffer);
+			}
+		});
+
+		FailSink sink = new FailSink() {
+			public void graphCleared(String sourceIdDec, long timeIdDec) {
+				triggered = true;
+
+				Assert.assertEquals(sourceId, sourceIdDec);
+				Assert.assertEquals(timeId, timeIdDec);
+			}
+		};
+
+		dec.addSink(sink);
+
+		enc.graphCleared(sourceId, timeId);
+
+		Assert.assertTrue(sink.triggered);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamDecoder.java,gs-core-dev
+"@Test
+	public void testEventNodeAdded() {
+		final String streamId = ""stream-test"";
+		final String sourceId = ""test"";
+		final String nodeId = ""node-test"";
+		final long timeId = 123;
+
+		NetStreamEncoder enc = new NetStreamEncoder(""stream-test"", new ByteEncoder.Transport() {
+			@Override
+			public void send(ByteBuffer buffer) {
+				byte[] streamBytes = streamId.getBytes(Charset.forName(""UTF-8""));
+				byte[] sourceBytes = sourceId.getBytes(Charset.forName(""UTF-8""));
+				byte[] nodeBytes = nodeId.getBytes(Charset.forName(""UTF-8""));
+
+				int expectedSize = 4 + getVarintSize(streamBytes.length) + streamBytes.length
+						+ getVarintSize(sourceBytes.length) + sourceBytes.length + 1 + getVarintSize(123)
+						+ getVarintSize(nodeBytes.length) + nodeBytes.length;
+
+				Assert.assertEquals(expectedSize, buffer.limit());
+				Assert.assertEquals(expectedSize, buffer.getInt());
+
+				Assert.assertEquals(streamId, decodeString(buffer));
+				Assert.assertEquals(NetStreamConstants.EVENT_ADD_NODE, buffer.get());
+				Assert.assertEquals(sourceId, decodeString(buffer));
+				Assert.assertEquals(timeId, decodeUnsignedVarint(buffer));
+				Assert.assertEquals(nodeId, decodeString(buffer));
+
+				Assert.assertEquals(0, buffer.remaining());
+			}
+		});
+
+		enc.nodeAdded(sourceId, timeId, nodeId);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamEncoder.java,gs-core-dev
+"@Test
+	public void testEventNodeRemoved() {
+		final String streamId = ""stream-test"";
+		final String sourceId = ""test"";
+		final String nodeId = ""node-test"";
+		final long timeId = 123;
+
+		NetStreamEncoder enc = new NetStreamEncoder(""stream-test"", new ByteEncoder.Transport() {
+			@Override
+			public void send(ByteBuffer buffer) {
+				byte[] streamBytes = streamId.getBytes(Charset.forName(""UTF-8""));
+				byte[] sourceBytes = sourceId.getBytes(Charset.forName(""UTF-8""));
+				byte[] nodeBytes = nodeId.getBytes(Charset.forName(""UTF-8""));
+
+				int expectedSize = 4 + getVarintSize(streamBytes.length) + streamBytes.length
+						+ getVarintSize(sourceBytes.length) + sourceBytes.length + 1 + getVarintSize(123)
+						+ getVarintSize(nodeBytes.length) + nodeBytes.length;
+
+				Assert.assertEquals(expectedSize, buffer.limit());
+				Assert.assertEquals(expectedSize, buffer.getInt());
+
+				Assert.assertEquals(streamId, decodeString(buffer));
+				Assert.assertEquals(NetStreamConstants.EVENT_DEL_NODE, buffer.get());
+				Assert.assertEquals(sourceId, decodeString(buffer));
+				Assert.assertEquals(timeId, decodeUnsignedVarint(buffer));
+				Assert.assertEquals(nodeId, decodeString(buffer));
+
+				Assert.assertEquals(0, buffer.remaining());
+			}
+		});
+
+		enc.nodeRemoved(sourceId, timeId, nodeId);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamEncoder.java,gs-core-dev
+"@Test
+	public void testEventEdgeAdded() {
+		final String streamId = ""stream-test"";
+		final String sourceId = ""test"";
+		final String edgeId = ""edge-test"";
+		final String nodeA = ""node-a"";
+		final String nodeB = ""node-b"";
+		final long timeId = 123;
+
+		NetStreamEncoder enc = new NetStreamEncoder(""stream-test"", new ByteEncoder.Transport() {
+			@Override
+			public void send(ByteBuffer buffer) {
+				byte[] streamBytes = streamId.getBytes(Charset.forName(""UTF-8""));
+				byte[] sourceBytes = sourceId.getBytes(Charset.forName(""UTF-8""));
+				byte[] edgeBytes = edgeId.getBytes(Charset.forName(""UTF-8""));
+				byte[] nodeABytes = nodeA.getBytes(Charset.forName(""UTF-8""));
+				byte[] nodeBBytes = nodeB.getBytes(Charset.forName(""UTF-8""));
+
+				int expectedSize = 4 + getVarintSize(streamBytes.length) + streamBytes.length
+						+ getVarintSize(sourceBytes.length) + sourceBytes.length + 1 + getVarintSize(123)
+						+ getVarintSize(edgeBytes.length) + edgeBytes.length + getVarintSize(nodeABytes.length)
+						+ nodeABytes.length + getVarintSize(nodeBBytes.length) + nodeBBytes.length + 1;
+
+				Assert.assertEquals(expectedSize, buffer.limit());
+				Assert.assertEquals(expectedSize, buffer.getInt());
+
+				Assert.assertEquals(streamId, decodeString(buffer));
+				Assert.assertEquals(NetStreamConstants.EVENT_ADD_EDGE, buffer.get());
+				Assert.assertEquals(sourceId, decodeString(buffer));
+				Assert.assertEquals(timeId, decodeUnsignedVarint(buffer));
+				Assert.assertEquals(edgeId, decodeString(buffer));
+				Assert.assertEquals(nodeA, decodeString(buffer));
+				Assert.assertEquals(nodeB, decodeString(buffer));
+				Assert.assertEquals(1, buffer.get());
+
+				Assert.assertEquals(0, buffer.remaining());
+			}
+		});
+
+		enc.edgeAdded(sourceId, timeId, edgeId, nodeA, nodeB, true);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamEncoder.java,gs-core-dev
+"@Test
+	public void testEventEdgeRemoved() {
+		final String streamId = ""stream-test"";
+		final String sourceId = ""test"";
+		final String edgeId = ""edge-test"";
+		final long timeId = 123;
+
+		NetStreamEncoder enc = new NetStreamEncoder(""stream-test"", new ByteEncoder.Transport() {
+			@Override
+			public void send(ByteBuffer buffer) {
+				byte[] streamBytes = streamId.getBytes(Charset.forName(""UTF-8""));
+				byte[] sourceBytes = sourceId.getBytes(Charset.forName(""UTF-8""));
+				byte[] edgeBytes = edgeId.getBytes(Charset.forName(""UTF-8""));
+
+				int expectedSize = 4 + getVarintSize(streamBytes.length) + streamBytes.length
+						+ getVarintSize(sourceBytes.length) + sourceBytes.length + 1 + getVarintSize(123)
+						+ getVarintSize(edgeBytes.length) + edgeBytes.length;
+
+				Assert.assertEquals(expectedSize, buffer.limit());
+				Assert.assertEquals(expectedSize, buffer.getInt());
+
+				Assert.assertEquals(streamId, decodeString(buffer));
+				Assert.assertEquals(NetStreamConstants.EVENT_DEL_EDGE, buffer.get());
+				Assert.assertEquals(sourceId, decodeString(buffer));
+				Assert.assertEquals(timeId, decodeUnsignedVarint(buffer));
+				Assert.assertEquals(edgeId, decodeString(buffer));
+
+				Assert.assertEquals(0, buffer.remaining());
+			}
+		});
+
+		enc.edgeRemoved(sourceId, timeId, edgeId);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamEncoder.java,gs-core-dev
+"@Test
+	public void testEventGraphCleared() {
+		final String streamId = ""stream-test"";
+		final String sourceId = ""test"";
+		final long timeId = 123;
+
+		NetStreamEncoder enc = new NetStreamEncoder(""stream-test"", new ByteEncoder.Transport() {
+			@Override
+			public void send(ByteBuffer buffer) {
+				byte[] streamBytes = streamId.getBytes(Charset.forName(""UTF-8""));
+				byte[] sourceBytes = sourceId.getBytes(Charset.forName(""UTF-8""));
+
+				int expectedSize = 4 + getVarintSize(streamBytes.length) + streamBytes.length
+						+ getVarintSize(sourceBytes.length) + sourceBytes.length + 1 + getVarintSize(123);
+
+				Assert.assertEquals(expectedSize, buffer.limit());
+				Assert.assertEquals(expectedSize, buffer.getInt());
+
+				Assert.assertEquals(streamId, decodeString(buffer));
+				Assert.assertEquals(NetStreamConstants.EVENT_CLEARED, buffer.get());
+				Assert.assertEquals(sourceId, decodeString(buffer));
+				Assert.assertEquals(timeId, decodeUnsignedVarint(buffer));
+
+				Assert.assertEquals(0, buffer.remaining());
+			}
+		});
+
+		enc.graphCleared(sourceId, timeId);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamEncoder.java,gs-core-dev
+"@Test
+	public void testVarintSize() {
+		int p = 7;
+
+		for (int i = 1; i < 9; i++) {
+			long l = (1L << p) - 1;
+
+			Assert.assertEquals(i, NetStreamUtils.getVarintSize(l));
+			Assert.assertEquals(i + 1, NetStreamUtils.getVarintSize(l + 1));
+
+			p += 7;
+		}
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamUtils.java,gs-core-dev
+"@Test
+	public void testEncodeDecodeString() {
+		for (int i = 0; i < 100; i++) {
+			String s = getRandomString(64);
+			ByteBuffer bb = NetStreamUtils.encodeString(s);
+			String r = NetStreamUtils.decodeString(bb);
+
+			Assert.assertEquals(s, r);
+		}
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamUtils.java,gs-core-dev
+"@Test
+	public void testEncodeStringArray() {
+		String[] strings = {""OK"", ""notOK""};
+		ByteBuffer buffer = encodeStringArray(strings);
+		String[] decodedStrings = decodeStringArray(buffer);
+		for (int i = 0 ; i < strings.length ; i++) {
+			Assert.assertEquals(strings[i], decodedStrings[i]);
+		}
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamUtils.java,gs-core-dev
+"@Test
+	public void testGetValueType() {
+		Assert.assertEquals(NetStreamConstants.TYPE_ARRAY, getType(new Object[] {}));
+		Assert.assertEquals(NetStreamConstants.TYPE_BOOLEAN, getType(true));
+		Assert.assertEquals(NetStreamConstants.TYPE_BOOLEAN_ARRAY, getType(new boolean[] { true, false }));
+		Assert.assertEquals(NetStreamConstants.TYPE_BOOLEAN_ARRAY, getType(new Boolean[] { true, false }));
+		Assert.assertEquals(NetStreamConstants.TYPE_BYTE, getType((byte) 0x0A));
+		Assert.assertEquals(NetStreamConstants.TYPE_BYTE_ARRAY, getType(new byte[] { 0x0B }));
+		Assert.assertEquals(NetStreamConstants.TYPE_BYTE_ARRAY, getType(new Byte[] { 0x0B }));
+		Assert.assertEquals(NetStreamConstants.TYPE_DOUBLE, getType(3.14));
+		Assert.assertEquals(NetStreamConstants.TYPE_DOUBLE_ARRAY, getType(new double[] { 3.14 }));
+		Assert.assertEquals(NetStreamConstants.TYPE_DOUBLE_ARRAY, getType(new Double[] { 3.14 }));
+		Assert.assertEquals(NetStreamConstants.TYPE_FLOAT, getType(3.14f));
+		Assert.assertEquals(NetStreamConstants.TYPE_FLOAT_ARRAY, getType(new float[] { 3.14f }));
+		Assert.assertEquals(NetStreamConstants.TYPE_FLOAT_ARRAY, getType(new Float[] { 3.14f }));
+		Assert.assertEquals(NetStreamConstants.TYPE_INT, getType(314));
+		Assert.assertEquals(NetStreamConstants.TYPE_INT_ARRAY, getType(new int[] { 314 }));
+		Assert.assertEquals(NetStreamConstants.TYPE_INT_ARRAY, getType(new Integer[] { 314 }));
+		Assert.assertEquals(NetStreamConstants.TYPE_LONG, getType(314L));
+		Assert.assertEquals(NetStreamConstants.TYPE_LONG_ARRAY, getType(new long[] { 314L }));
+		Assert.assertEquals(NetStreamConstants.TYPE_LONG_ARRAY, getType(new Long[] { 314L }));
+		Assert.assertEquals(NetStreamConstants.TYPE_NULL, getType(null));
+		Assert.assertEquals(NetStreamConstants.TYPE_SHORT, getType((short) 314));
+		Assert.assertEquals(NetStreamConstants.TYPE_SHORT_ARRAY, getType(new short[] { 314 }));
+		Assert.assertEquals(NetStreamConstants.TYPE_SHORT_ARRAY, getType(new Short[] { 314 }));
+		Assert.assertEquals(NetStreamConstants.TYPE_STRING, getType(getRandomString(16)));
+		Assert.assertEquals(NetStreamConstants.TYPE_STRING_ARRAY, getType(new String[] {getRandomString(16),getRandomString(11)}));
+		Assert.assertEquals(NetStreamConstants.TYPE_UNKNOWN, getType(this));
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamUtils.java,gs-core-dev
+"@Test
+	public void testEncodeFloat() {
+		float f = 3.14f;
+
+		ByteBuffer buffer = encodeFloat(f);
+		buffer.rewind();
+
+		float r = decodeFloat(buffer);
+
+		Assert.assertEquals(f, r, 0);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamUtils.java,gs-core-dev
+"@Test
+	public void testEncodeDouble() {
+		double d = 3.14;
+
+		ByteBuffer buffer = encodeDouble(d);
+		buffer.rewind();
+
+		double r = decodeDouble(buffer);
+
+		Assert.assertEquals(d, r, 0);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamUtils.java,gs-core-dev
+"@Test
+	public void testEncodeInt() {
+		int i = 314;
+
+		ByteBuffer buffer = encodeInt(i);
+		buffer.rewind();
+
+		int r = decodeInt(buffer);
+
+		Assert.assertEquals(i, r);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamUtils.java,gs-core-dev
+"@Test
+	public void testEncodeLong() {
+		long i = 314L;
+
+		ByteBuffer buffer = encodeLong(i);
+		buffer.rewind();
+
+		long r = decodeLong(buffer);
+
+		Assert.assertEquals(i, r);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamUtils.java,gs-core-dev
+"@Test
+	public void testEncodeShort() {
+		short i = 314;
+
+		ByteBuffer buffer = encodeShort(i);
+		buffer.rewind();
+
+		short r = decodeShort(buffer);
+
+		Assert.assertEquals(i, r);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamUtils.java,gs-core-dev
+"@Test
+	public void testEncodeByte() {
+		byte i = (byte) 0x0A;
+
+		ByteBuffer buffer = encodeByte(i);
+		buffer.rewind();
+
+		byte r = decodeByte(buffer);
+
+		Assert.assertEquals(i, r);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamUtils.java,gs-core-dev
+"@Test
+	public void testEncodeBoolean() {
+		boolean i = true;
+
+		ByteBuffer buffer = encodeBoolean(i);
+		buffer.rewind();
+
+		boolean r = decodeBoolean(buffer);
+
+		Assert.assertEquals(i, r);
+	}",./src-test/org/graphstream/stream/netstream/test/TestNetStreamUtils.java,gs-core-dev
+"@Test
+	public void test() {
+		RMISink sink;
+		RMISource source;
+
+		Graph g1 = new DefaultGraph(""g1"");
+		Graph g2 = new DefaultGraph(""g2"");
+
+		try {
+			LocateRegistry.createRegistry(1099);
+		} catch (Exception e) {
+
+		}
+
+		try {
+			String name = ""__test_rmi_source"";
+
+			sink = new RMISink();
+			g1.addSink(sink);
+
+			source = new RMISource();
+			source.addSink(g2);
+
+			source.bind(name);
+			sink.register(""//localhost/"" + name);
+		} catch (RemoteException e) {
+			fail();
+		}
+
+		Node A = g1.addNode(""A"");
+		Node B = g1.addNode(""B"");
+		Node C = g1.addNode(""C"");
+
+		Edge AB = g1.addEdge(""AB"", ""A"", ""B"", false);
+		Edge AC = g1.addEdge(""AC"", ""A"", ""C"", true);
+		Edge BC = g1.addEdge(""BC"", ""B"", ""C"", false);
+
+		A.setAttribute(""int"", 1);
+		B.setAttribute(""string"", ""test"");
+		C.setAttribute(""double"", 2.0);
+
+		AB.setAttribute(""points"", (Object) (new double[][] { { 1, 1 }, { 2, 2 } }));
+		LinkedList<Integer> list = new LinkedList<Integer>();
+		list.add(1);
+		list.add(2);
+		AC.setAttribute(""list"", list);
+		BC.setAttribute(""boolean"", true);
+
+		// -----
+
+		A = g2.getNode(""A"");
+		B = g2.getNode(""B"");
+		C = g2.getNode(""C"");
+
+		assertNotNull(A);
+		assertNotNull(B);
+		assertNotNull(C);
+		assertEquals(g2.getNodeCount(), 3);
+
+		AB = g2.getEdge(""AB"");
+		AC = g2.getEdge(""AC"");
+		BC = g2.getEdge(""BC"");
+
+		assertNotNull(AB);
+		assertNotNull(AC);
+		assertNotNull(BC);
+		assertEquals(g2.getEdgeCount(), 3);
+
+		assertEquals(""A"", AB.getNode0().getId());
+		assertEquals(""B"", AB.getNode1().getId());
+		assertEquals(""A"", AC.getNode0().getId());
+		assertEquals(""C"", AC.getNode1().getId());
+		assertEquals(""B"", BC.getNode0().getId());
+		assertEquals(""C"", BC.getNode1().getId());
+
+		assertTrue(!AB.isDirected());
+		assertTrue(AC.isDirected());
+		assertTrue(!BC.isDirected());
+
+		assertEquals(A.getAttribute(""int""), Integer.valueOf(1));
+		assertEquals(B.getAttribute(""string""), ""test"");
+		assertEquals(C.getNumber(""double""), 2.0, 0);
+
+		try {
+			double[][] points = (double[][]) AB.getAttribute(""points"");
+
+			assertEquals(points.length, 2);
+			assertEquals(points[0].length, 2);
+			assertEquals(points[1].length, 2);
+			assertEquals(1.0, points[0][0], 1E-12);
+			assertEquals(1.0, points[0][1], 1E-12);
+			assertEquals(2.0, points[1][0], 1E-12);
+			assertEquals(2.0, points[1][1], 1E-12);
+		} catch (ClassCastException e) {
+			fail();
+		} catch (NullPointerException e) {
+			fail();
+		}
+
+		assertEquals(list, AC.getAttribute(""list""));
+		assertTrue((Boolean) BC.getAttribute(""boolean""));
+	}",./src-test/org/graphstream/stream/net/test/TestRMI.java,gs-core-dev
+"@Test
+	public void testDisplayLoadingByClassName() {
+		checkDisplay(Display.class.getName());
+	}",./src-test/org/graphstream/util/test/TestDisplay.java,gs-core-dev
+"@Test
+	public void testDisplayLoadingByPackageName() {
+		checkDisplay(""org.graphstream.ui.test"");
+	}",./src-test/org/graphstream/util/test/TestDisplay.java,gs-core-dev
+"@Test
+	public void testDisplayLoadingByModuleName() {
+		checkDisplay(""test"");
+	}",./src-test/org/graphstream/util/test/TestDisplay.java,gs-core-dev
+"@Test
+	public void testMissingDisplayExceptionIfPropertyNotSet() {
+		System.clearProperty(""org.graphstream.ui"");
+
+		try {
+			getDefault();
+		} catch (MissingDisplayException e) {
+			Assert.assertTrue(e.getMessage().startsWith(""No UI package detected!""));
+		} catch (Exception e) {
+			Assert.fail();
+		}
+	}",./src-test/org/graphstream/util/test/TestDisplay.java,gs-core-dev
+"@Test
+	public void testMissingDisplayExceptionIfNoValidCandidate() {
+		System.setProperty(""org.graphstream.ui"", TestDisplay.class.getName());
+
+		try {
+			getDefault();
+		} catch (MissingDisplayException e) {
+			Assert.assertTrue(e.getMessage().startsWith(""No valid display found.""));
+		} catch (Exception e) {
+			Assert.fail();
+		}
+	}",./src-test/org/graphstream/util/test/TestDisplay.java,gs-core-dev
+"public TestEnvironment(String args[]) {
+		firstTest(args);
+		secondTest();
+		thirdTest();
+		fourthTest();
+	}",./src-test/org/graphstream/util/test/TestEnvironment.java,gs-core-dev
+"protected void firstTest(String args[]) {
+		env = Environment.getGlobalEnvironment();
+
+		ArrayList<String> trashcan = new ArrayList<String>();
+
+		env.readCommandLine(args, trashcan);
+
+		System.out.printf(""Test1: I read the command line and here is my state :%n\t"");
+		env.printParameters();
+		System.out.printf(""Test1: Here are the unparsed parameters in the command line:%n"");
+		System.out.printf(""\t%s%n"", trashcan.toString());
+	}",./src-test/org/graphstream/util/test/TestEnvironment.java,gs-core-dev
+"protected void secondTest() {
+		Environment env2 = new Environment();
+
+		env2.setParameter(""param1"", ""val1"");
+		env2.setParameter(""param2"", ""value2"");
+		env2.setParameter(""param3"", ""value3"");
+		env2.lockEnvironment(true);
+		env2.setParameter(""param1"", ""value1"");
+		env2.setParameter(""param4"", ""value4"");
+
+		if (!env2.getParameter(""param1"").equals(""value1""))
+			System.err.printf(""test2: error 1%n"");
+		if (!env2.getParameter(""param2"").equals(""value2""))
+			System.err.printf(""test2: error 2%n"");
+		if (!env2.getParameter(""param3"").equals(""value3""))
+			System.err.printf(""test2: error 3%n"");
+		if (!env2.getParameter(""param4"").equals(""""))
+			System.err.printf(""test2: error 4%n"");
+
+		System.out.printf(""Test2: env = %s%n"", env2.toString());
+
+		try {
+			env2.writeParameterFile(""TOTO"");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}",./src-test/org/graphstream/util/test/TestEnvironment.java,gs-core-dev
+"protected void thirdTest() {
+		Environment env3 = new Environment();
+
+		try {
+			env3.readParameterFile(""TOTO"");
+
+			System.out.printf(""Test3: env = %s%n"", env3.toString());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		File file = new File(""TOTO"");
+		file.delete();
+	}",./src-test/org/graphstream/util/test/TestEnvironment.java,gs-core-dev
+"protected void fourthTest() {
+		Environment env4 = new Environment();
+		TestContainer tc = new TestContainer();
+
+		env4.setParameter(""param1"", ""value1"");
+		env4.setParameter(""param2"", ""12345678"");
+		env4.setParameter(""param3"", ""12345678"");
+		env4.setParameter(""param4"", ""1234.5678"");
+		env4.setParameter(""param5"", ""1234.5678"");
+		env4.setParameter(""param6"", ""true"");
+		env4.setParameter(""param7"", ""invalid!!"");
+
+		env4.initializeFieldsOf(tc);
+
+		System.out.printf(""Test4: env = %s%n"", env4.toString());
+		System.out.printf(""Test4: tc  = %s%n"", tc.toString());
+	}",./src-test/org/graphstream/util/test/TestEnvironment.java,gs-core-dev

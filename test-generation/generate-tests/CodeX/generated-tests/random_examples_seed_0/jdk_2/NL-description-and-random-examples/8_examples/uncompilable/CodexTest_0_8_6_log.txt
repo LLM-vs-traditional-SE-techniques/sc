@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_6.java:21: error: cannot find symbol
+        DenseIntMatrix1D d1enseIntMatrix1D = new DenseIntMatrix1D(new int[]{1, 2, 3});
+        ^
+  symbol:   class DenseIntMatrix1D
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:21: error: cannot find symbol
+        DenseIntMatrix1D d1enseIntMatrix1D = new DenseIntMatrix1D(new int[]{1, 2, 3});
+                                                 ^
+  symbol:   class DenseIntMatrix1D
+  location: class CodexTest_0_8_6

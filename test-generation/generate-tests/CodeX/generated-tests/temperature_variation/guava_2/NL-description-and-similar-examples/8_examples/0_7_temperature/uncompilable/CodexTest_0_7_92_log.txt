@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_92.java:26: error: cannot find symbol
+    int actual = hashCode.writeBytesTo(dest, 0, 3);
+                 ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_7_92
+CodexTest_0_7_92.java:28: error: cannot find symbol
+    assertEquals("0th byte written", dest[0], hashCode.asBytes()[0]);
+                                              ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_7_92
+CodexTest_0_7_92.java:29: error: cannot find symbol
+    assertEquals("1st byte written", dest[1], hashCode.asBytes()[1]);
+                                              ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_7_92
+CodexTest_0_7_92.java:30: error: cannot find symbol
+    assertEquals("2nd byte written", dest[2], hashCode.asBytes()[2]);
+                                              ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_7_92

@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_4.java:30: error: cannot find symbol
+        cern.colt.matrix.doublealgo.Transpose.transpose(matrix).zAssign(matrix);
+                                                                        ^
+  symbol:   variable matrix
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:30: error: cannot find symbol
+        cern.colt.matrix.doublealgo.Transpose.transpose(matrix).zAssign(matrix);
+                                                        ^
+  symbol:   variable matrix
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:30: error: cannot find symbol
+        cern.colt.matrix.doublealgo.Transpose.transpose(matrix).zAssign(matrix);
+                                   ^
+  symbol:   class Transpose
+  location: package cern.colt.matrix.doublealgo
+CodexTest_0_8_4.java:31: error: cannot find symbol
+        System.out.println(matrix);
+                           ^
+  symbol:   variable matrix
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:34: error: cannot find symbol
+        cern.colt.matrix.doublealgo.Transpose.transpose(matrix).zAssign(matrix);
+                                                                        ^
+  symbol:   variable matrix
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:34: error: cannot find symbol
+        cern.colt.matrix.doublealgo.Transpose.transpose(matrix).zAssign(matrix);
+                                                        ^
+  symbol:   variable matrix
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:34: error: cannot find symbol
+        cern.colt.matrix.doublealgo.Transpose.transpose(matrix).zAssign(matrix);
+                                   ^
+  symbol:   class Transpose
+  location: package cern.colt.matrix.doublealgo
+CodexTest_0_8_4.java:35: error: cannot find symbol
+        System.out.println(matrix);
+                           ^
+  symbol:   variable matrix
+  location: class CodexTest_0_8_4

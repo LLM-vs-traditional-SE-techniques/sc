@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_8_4.java:18: error: cannot find symbol
+    AlgVector v = new AlgVector(l);
+                                ^
+  symbol:   variable l
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:20: error: cannot find symbol
+    for (int i = 0; i < l; i++) {
+                        ^
+  symbol:   variable l
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:21: error: m_Elements has protected access in weka.core.AlgVector
+      v.m_Elements[i] = (double)(i+1);
+       ^
+CodexTest_0_8_4.java:23: error: cannot find symbol
+    for (int i = 0; i < l; i++) {
+                        ^
+  symbol:   variable l
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:24: error: m_Elements has protected access in weka.core.AlgVector
+      assertEquals(i+1, v.m_Elements[i], 1e-10);
+                         ^

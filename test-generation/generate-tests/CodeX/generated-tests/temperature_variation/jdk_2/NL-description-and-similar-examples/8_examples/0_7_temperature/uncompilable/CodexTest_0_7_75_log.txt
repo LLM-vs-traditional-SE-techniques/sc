@@ -1,0 +1,101 @@
+isCompilable => false
+CodexTest_0_7_75.java:21: error: cannot find symbol
+        RealDistribution distribution = new UniformRealDistribution();
+        ^
+  symbol:   class RealDistribution
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:21: error: cannot find symbol
+        RealDistribution distribution = new UniformRealDistribution();
+                                            ^
+  symbol:   class UniformRealDistribution
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:23: error: cannot find symbol
+        RealFieldUnivariateFunction f = new RealFieldUnivariateFunction() {
+        ^
+  symbol:   class RealFieldUnivariateFunction
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:23: error: cannot find symbol
+        RealFieldUnivariateFunction f = new RealFieldUnivariateFunction() {
+                                            ^
+  symbol:   class RealFieldUnivariateFunction
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:28: error: cannot find symbol
+        RealFieldUnivariateFunction g = compose(f, new RealFieldUnivariateFunction() {
+        ^
+  symbol:   class RealFieldUnivariateFunction
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:28: error: cannot find symbol
+        RealFieldUnivariateFunction g = compose(f, new RealFieldUnivariateFunction() {
+                                                       ^
+  symbol:   class RealFieldUnivariateFunction
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:33: error: cannot find symbol
+        FieldSinCos<Dfp> sinCos = new FieldSinCos<>(new Dfp(value));
+        ^
+  symbol:   class FieldSinCos
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:33: error: cannot find symbol
+        FieldSinCos<Dfp> sinCos = new FieldSinCos<>(new Dfp(value));
+                    ^
+  symbol:   class Dfp
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:33: error: cannot find symbol
+        FieldSinCos<Dfp> sinCos = new FieldSinCos<>(new Dfp(value));
+                                      ^
+  symbol:   class FieldSinCos
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:33: error: cannot find symbol
+        FieldSinCos<Dfp> sinCos = new FieldSinCos<>(new Dfp(value));
+                                                        ^
+  symbol:   class Dfp
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:34: error: cannot find symbol
+        Dfp sin = sinCos.getSin();
+        ^
+  symbol:   class Dfp
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:35: error: cannot find symbol
+        Dfp cos = sinCos.getCos();
+        ^
+  symbol:   class Dfp
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:36: error: cannot find symbol
+        Dfp expected = sin.add(cos);
+        ^
+  symbol:   class Dfp
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:37: error: cannot find symbol
+        Dfp actual = g.value(new Dfp(value));
+        ^
+  symbol:   class Dfp
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:37: error: cannot find symbol
+        Dfp actual = g.value(new Dfp(value));
+                                 ^
+  symbol:   class Dfp
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:38: error: cannot find symbol
+        Dfp zero = new Dfp(0);
+        ^
+  symbol:   class Dfp
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:38: error: cannot find symbol
+        Dfp zero = new Dfp(0);
+                       ^
+  symbol:   class Dfp
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:39: error: cannot find symbol
+        Dfp epsilon = new Dfp(1, 100);
+        ^
+  symbol:   class Dfp
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:39: error: cannot find symbol
+        Dfp epsilon = new Dfp(1, 100);
+                          ^
+  symbol:   class Dfp
+  location: class CodexTest_0_7_75
+CodexTest_0_7_75.java:40: error: cannot find symbol
+        Dfp delta = expected.subtract(actual).abs().divide(epsilon);
+        ^
+  symbol:   class Dfp
+  location: class CodexTest_0_7_75

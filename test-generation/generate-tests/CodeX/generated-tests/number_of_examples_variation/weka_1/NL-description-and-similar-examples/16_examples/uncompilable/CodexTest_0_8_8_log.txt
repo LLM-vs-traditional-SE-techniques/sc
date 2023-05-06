@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_8.java:19: error: cannot find symbol
+    DoubleMatrix2D A = new SparseDoubleMatrix2D(data);
+    ^
+  symbol:   class DoubleMatrix2D
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:19: error: cannot find symbol
+    DoubleMatrix2D A = new SparseDoubleMatrix2D(data);
+                           ^
+  symbol:   class SparseDoubleMatrix2D
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:20: error: cannot find symbol
+    DoubleMatrix2D B = new SparseDoubleMatrix2D(data);
+    ^
+  symbol:   class DoubleMatrix2D
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:20: error: cannot find symbol
+    DoubleMatrix2D B = new SparseDoubleMatrix2D(data);
+                           ^
+  symbol:   class SparseDoubleMatrix2D
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:32: error: cannot find symbol
+    assertEquals(new SparseDoubleMatrix2D(expected),A);
+                     ^
+  symbol:   class SparseDoubleMatrix2D
+  location: class CodexTest_0_8_8

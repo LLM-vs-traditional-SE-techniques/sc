@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_6_81.java:20: error: cannot find symbol
+        Assert.assertTrue(v.equals(v));
+                                   ^
+  symbol:   variable v
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:20: error: cannot find symbol
+        Assert.assertTrue(v.equals(v));
+                          ^
+  symbol:   variable v
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:21: error: cannot find symbol
+        Assert.assertFalse(v.equals(null));
+                           ^
+  symbol:   variable v
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:22: error: cannot find symbol
+        Assert.assertFalse(v.equals(Double.valueOf(0)));
+                           ^
+  symbol:   variable v
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:23: error: cannot find symbol
+        Assert.assertFalse(v.equals(new Vector1D(2)));
+                                        ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:23: error: cannot find symbol
+        Assert.assertFalse(v.equals(new Vector1D(2)));
+                           ^
+  symbol:   variable v
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:24: error: cannot find symbol
+        Assert.assertTrue(v.equals(new Vector1D(1)));
+                                       ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_81
+CodexTest_0_6_81.java:24: error: cannot find symbol
+        Assert.assertTrue(v.equals(new Vector1D(1)));
+                          ^
+  symbol:   variable v
+  location: class CodexTest_0_6_81

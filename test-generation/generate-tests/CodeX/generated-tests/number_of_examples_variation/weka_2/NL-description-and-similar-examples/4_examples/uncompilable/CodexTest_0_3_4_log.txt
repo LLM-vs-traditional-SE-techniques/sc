@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_4.java:46: error: ')' expected
+    model.insertAttributeAt(new Attribute("a28"), 27
+                                                    ^
+CodexTest_0_3_4.java:47: error: reached end of file while parsing
+}
+ ^

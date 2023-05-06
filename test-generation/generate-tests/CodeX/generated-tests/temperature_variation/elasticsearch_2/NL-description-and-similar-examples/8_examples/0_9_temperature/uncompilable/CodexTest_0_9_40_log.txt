@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_40.java:66: error: cannot find symbol
+        Request request = new Request();
+        ^
+  symbol:   class Request
+  location: class CodexTest_0_9_40
+CodexTest_0_9_40.java:66: error: cannot find symbol
+        Request request = new Request();
+                              ^
+  symbol:   class Request
+  location: class CodexTest_0_9_40
+CodexTest_0_9_40.java:69: error: cannot find symbol
+        assertThat(indexRequest.source(), nullValue());
+                                          ^
+  symbol:   method nullValue()
+  location: class CodexTest_0_9_40

@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_46.java:65: error: cannot find symbol
+        XContentBuilder builder = XContentFactory.contentBuilder(randomFrom(XContentType.values()));
+                                                                 ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_9_46
+CodexTest_0_9_46.java:66: error: cannot find symbol
+        if (randomBoolean()) {
+            ^
+  symbol:   method randomBoolean()
+  location: class CodexTest_0_9_46
+CodexTest_0_9_46.java:69: error: cannot find symbol
+        if (randomBoolean()) {
+            ^
+  symbol:   method randomBoolean()
+  location: class CodexTest_0_9_46
+CodexTest_0_9_46.java:70: error: cannot find symbol
+            builder.humanReadable(randomBoolean());
+                                  ^
+  symbol:   method randomBoolean()
+  location: class CodexTest_0_9_46
+CodexTest_0_9_46.java:73: error: cannot find symbol
+        testInstance.toXContent(builder, ToXContent.EMPTY_PARAMS);
+                                         ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_9_46
+CodexTest_0_9_46.java:73: error: cannot find symbol
+        testInstance.toXContent(builder, ToXContent.EMPTY_PARAMS);
+        ^
+  symbol:   variable testInstance
+  location: class CodexTest_0_9_46
+CodexTest_0_9_46.java:75: error: cannot find symbol
+        Map<String, Object> serializedMap = createParser(builder).map();
+                                            ^
+  symbol:   method createParser(org.elasticsearch.common.xcontent.XContentBuilder)
+  location: class CodexTest_0_9_46
+CodexTest_0_9_46.java:76: error: cannot find symbol
+        assertEquals(testInstance.sourceAsMap(), serializedMap);
+                     ^
+  symbol:   variable testInstance
+  location: class CodexTest_0_9_46

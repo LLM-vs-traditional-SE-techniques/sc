@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_3.java:21: error: cannot find symbol
+        checkNull();
+        ^
+  symbol:   method checkNull()
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:22: error: cannot find symbol
+        addAll(new Object[20]);
+        ^
+  symbol:   method addAll(java.lang.Object[])
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:23: error: cannot find symbol
+        assertTrue(list.containsAll(list));
+                                    ^
+  symbol:   variable list
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:23: error: cannot find symbol
+        assertTrue(list.containsAll(list));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:24: error: cannot find symbol
+        assertFalse(list.containsAll(Arrays.asList(new Object[20])));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_7_3

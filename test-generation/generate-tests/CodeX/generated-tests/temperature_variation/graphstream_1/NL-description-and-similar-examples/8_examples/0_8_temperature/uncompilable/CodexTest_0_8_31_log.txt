@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_8_31.java:20: error: type org.graphstream.graph.Path does not take parameters
+        Path<String> path = new Path<String>("a", "b", "c");
+            ^
+CodexTest_0_8_31.java:20: error: type org.graphstream.graph.Path does not take parameters
+        Path<String> path = new Path<String>("a", "b", "c");
+                                    ^
+CodexTest_0_8_31.java:21: error: cannot find symbol
+        StringToEdge stoe = StringToEdge.getInstance();
+        ^
+  symbol:   class StringToEdge
+  location: class CodexTest_0_8_31
+CodexTest_0_8_31.java:21: error: cannot find symbol
+        StringToEdge stoe = StringToEdge.getInstance();
+                            ^
+  symbol:   variable StringToEdge
+  location: class CodexTest_0_8_31

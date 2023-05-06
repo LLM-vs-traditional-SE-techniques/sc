@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_4.java:36: error: ';' expected
+    Instance inst = v
+                     ^
+CodexTest_0_7_4.java:37: error: reached end of file while parsing
+}
+ ^

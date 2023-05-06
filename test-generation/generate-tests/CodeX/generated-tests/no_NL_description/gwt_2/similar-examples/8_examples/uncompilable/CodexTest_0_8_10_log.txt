@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_10.java:18: error: cannot find symbol
+    try (LogVerifier verifier = new LogVerifier(
+         ^
+  symbol:   class LogVerifier
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:18: error: cannot find symbol
+    try (LogVerifier verifier = new LogVerifier(
+                                    ^
+  symbol:   class LogVerifier
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:19: error: cannot find symbol
+        UncaughtExceptionHandlerTest.class)) {
+        ^
+  symbol:   class UncaughtExceptionHandlerTest
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:20: error: cannot find symbol
+      UncaughtExceptionHandler ueh = new UncaughtExceptionHandler();
+      ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:20: error: cannot find symbol
+      UncaughtExceptionHandler ueh = new UncaughtExceptionHandler();
+                                         ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:22: error: cannot find symbol
+      Thread thread = new Thread(new UncaughtExceptionHandlerTest());
+                                     ^
+  symbol:   class UncaughtExceptionHandlerTest
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:25: error: cannot find symbol
+      assertEquals(0, thread.getUncaughtExceptionHandler().uncaughtExceptionCount());
+                                                          ^
+  symbol:   method uncaughtExceptionCount()
+  location: interface java.lang.Thread.UncaughtExceptionHandler

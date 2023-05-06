@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_18.java:18: error: cannot find symbol
+    Instances inst = new Instances(m_Instances, 0);
+                                   ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_5_18

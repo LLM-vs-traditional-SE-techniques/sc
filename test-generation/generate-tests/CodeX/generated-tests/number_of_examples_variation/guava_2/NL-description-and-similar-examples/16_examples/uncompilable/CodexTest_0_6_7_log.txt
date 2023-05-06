@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_7.java:25: error: cannot find symbol
+    byte[] dest = new byte[HashCode.BYTES];
+                                   ^
+  symbol:   variable BYTES
+  location: class com.google.common.hash.HashCode
+CodexTest_0_6_7.java:28: error: cannot find symbol
+    assertEquals(HashCode.BYTES, bytesWritten);
+                         ^
+  symbol:   variable BYTES
+  location: class com.google.common.hash.HashCode

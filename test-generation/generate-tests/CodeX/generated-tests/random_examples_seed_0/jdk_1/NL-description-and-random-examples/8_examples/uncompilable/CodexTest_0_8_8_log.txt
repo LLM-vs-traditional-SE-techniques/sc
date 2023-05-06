@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_8.java:22: error: cannot find symbol
+            Vector1D.angle(new Vector1D(0, 0, 1), new Vector1D(1, 1, 0));
+                               ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:22: error: cannot find symbol
+            Vector1D.angle(new Vector1D(0, 0, 1), new Vector1D(1, 1, 0));
+                                                      ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:22: error: cannot find symbol
+            Vector1D.angle(new Vector1D(0, 0, 1), new Vector1D(1, 1, 0));
+            ^
+  symbol:   variable Vector1D
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:24: error: cannot find symbol
+        } catch (MathIllegalArgumentException e) {
+                 ^
+  symbol:   class MathIllegalArgumentException
+  location: class CodexTest_0_8_8

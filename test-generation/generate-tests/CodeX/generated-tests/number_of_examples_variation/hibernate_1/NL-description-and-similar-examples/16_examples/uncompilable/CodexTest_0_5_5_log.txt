@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_5_5.java:16: error: package BooleanShortType does not exist
+        assertEquals(Short.valueOf((short) 0), BooleanShortType.INSTANCE.toShort(Boolean.FALSE));
+                                                               ^
+CodexTest_0_5_5.java:17: error: package BooleanShortType does not exist
+        assertEquals(Short.valueOf((short) 1), BooleanShortType.INSTANCE.toShort(Boolean.TRUE));
+                                                               ^
+CodexTest_0_5_5.java:18: error: package BooleanShortType does not exist
+        assertNull(BooleanShortType.INSTANCE.toShort(null));
+                                   ^

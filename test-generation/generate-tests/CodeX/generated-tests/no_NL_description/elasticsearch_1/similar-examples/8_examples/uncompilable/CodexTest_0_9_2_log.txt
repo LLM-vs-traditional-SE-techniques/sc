@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_2.java:65: error: cannot find symbol
+        HttpUriRequest request = new HttpGet("_percolator/my_index/my_type/my_id");
+        ^
+  symbol:   class HttpUriRequest
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:65: error: cannot find symbol
+        HttpUriRequest request = new HttpGet("_percolator/my_index/my_type/my_id");
+                                     ^
+  symbol:   class HttpGet
+  location: class CodexTest_0_9_2

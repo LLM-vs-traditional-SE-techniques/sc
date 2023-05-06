@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_10.java:66: error: cannot find symbol
+        FormElement parent = new FormElement("this.Parent");
+        ^
+  symbol:   class FormElement
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:66: error: cannot find symbol
+        FormElement parent = new FormElement("this.Parent");
+                                 ^
+  symbol:   class FormElement
+  location: class CodexTest_0_8_10

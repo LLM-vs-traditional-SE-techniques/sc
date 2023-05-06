@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_10.java:31: error: cannot find symbol
+        Vector1D p3 = p1.scalarMultiply(3.0);
+                      ^
+  symbol:   variable p1
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:33: error: cannot find symbol
+        Assert.assertEquals(0.0, p3.dotProduct(p2), 1.0e-12);
+                                               ^
+  symbol:   variable p2
+  location: class CodexTest_0_9_10

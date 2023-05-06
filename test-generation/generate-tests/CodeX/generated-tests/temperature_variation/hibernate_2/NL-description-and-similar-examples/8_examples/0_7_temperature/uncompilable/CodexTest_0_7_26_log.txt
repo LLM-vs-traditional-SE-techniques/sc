@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_26.java:16: error: cannot find symbol
+        NullableTypeDescriptor<Boolean> typeDescriptor = new NullableTypeDescriptor<Boolean>();
+        ^
+  symbol:   class NullableTypeDescriptor
+  location: class CodexTest_0_7_26
+CodexTest_0_7_26.java:16: error: cannot find symbol
+        NullableTypeDescriptor<Boolean> typeDescriptor = new NullableTypeDescriptor<Boolean>();
+                                                             ^
+  symbol:   class NullableTypeDescriptor
+  location: class CodexTest_0_7_26

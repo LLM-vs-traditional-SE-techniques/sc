@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_62.java:40: error: <identifier> expected
+Input: public DoubleMatrix2D forEachNonZero(DoubleIntIntFunction func) {
+     ^
+CodexTest_0_9_62.java:70: error: <identifier> expected
+Output:
+      ^

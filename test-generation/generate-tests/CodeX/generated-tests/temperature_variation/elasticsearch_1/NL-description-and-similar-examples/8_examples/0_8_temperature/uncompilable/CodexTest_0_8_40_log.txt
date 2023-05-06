@@ -1,0 +1,23 @@
+isCompilable => false
+CodexTest_0_8_40.java:88: error: cannot find symbol
+            InnerClass innerClass = new InnerClass();
+            ^
+  symbol:   class InnerClass
+  location: class CodexTest_0_8_40
+CodexTest_0_8_40.java:88: error: cannot find symbol
+            InnerClass innerClass = new InnerClass();
+                                        ^
+  symbol:   class InnerClass
+  location: class CodexTest_0_8_40
+CodexTest_0_8_40.java:92: error: package InnerClass does not exist
+            InnerClass.StaticInnerClass staticInnerClass = new InnerClass.StaticInnerClass();
+                      ^
+CodexTest_0_8_40.java:92: error: package InnerClass does not exist
+            InnerClass.StaticInnerClass staticInnerClass = new InnerClass.StaticInnerClass();
+                                                                         ^
+CodexTest_0_8_40.java:96: error: package InnerClass.StaticInnerClass does not exist
+            InnerClass.StaticInnerClass.StaticInnerClassInnerClass staticInnerClassInnerClass = new InnerClass.StaticInnerClass.StaticInnerClassInnerClass();
+                                       ^
+CodexTest_0_8_40.java:96: error: package InnerClass.StaticInnerClass does not exist
+            InnerClass.StaticInnerClass.StaticInnerClassInnerClass staticInnerClassInnerClass = new InnerClass.StaticInnerClass.StaticInnerClassInnerClass();
+                                                                                                                               ^

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_90.java:35: error: cannot find symbol
+            shouldThrow();
+            ^
+  symbol:   method shouldThrow()
+  location: class CodexTest_0_7_90
+CodexTest_0_7_90.java:39: error: cannot find symbol
+            shouldThrow();
+            ^
+  symbol:   method shouldThrow()
+  location: class CodexTest_0_7_90
+CodexTest_0_7_90.java:43: error: cannot find symbol
+            shouldThrow();
+            ^
+  symbol:   method shouldThrow()
+  location: class CodexTest_0_7_90

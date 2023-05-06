@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_36.java:74: error: cannot find symbol
+        assertThat(builder.string(), equalTo("{\"bool\":{\"must\":{\"term\":{\"user\":\"kimchy\"}},\"must_not\":[{\"term\":{\"tag\":\"wow\"}},{\"term\":{\"tag\":\"elasticsearch\"}}]}}"));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_36

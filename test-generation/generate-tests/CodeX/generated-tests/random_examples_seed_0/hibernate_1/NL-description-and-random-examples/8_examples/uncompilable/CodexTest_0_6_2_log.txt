@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_6_2.java:16: error: cannot find symbol
+        TestUtil.assertEquals(new Short((short) 1), BooleanUtils.toShort(Boolean.TRUE));
+                                                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:16: error: cannot find symbol
+        TestUtil.assertEquals(new Short((short) 1), BooleanUtils.toShort(Boolean.TRUE));
+        ^
+  symbol:   variable TestUtil
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:17: error: cannot find symbol
+        TestUtil.assertEquals(new Short((short) 0), BooleanUtils.toShort(Boolean.FALSE));
+                                                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:17: error: cannot find symbol
+        TestUtil.assertEquals(new Short((short) 0), BooleanUtils.toShort(Boolean.FALSE));
+        ^
+  symbol:   variable TestUtil
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:18: error: cannot find symbol
+        TestUtil.assertEquals(null, BooleanUtils.toShort(null));
+                                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:18: error: cannot find symbol
+        TestUtil.assertEquals(null, BooleanUtils.toShort(null));
+        ^
+  symbol:   variable TestUtil
+  location: class CodexTest_0_6_2

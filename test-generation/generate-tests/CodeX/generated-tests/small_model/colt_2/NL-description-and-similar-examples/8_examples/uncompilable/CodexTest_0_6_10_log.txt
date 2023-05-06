@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_10.java:31: error: cannot find symbol
+						is( instanceOf( DenseDoubleMatrix2D.class ) ) );
+						    ^
+  symbol:   method instanceOf(java.lang.Class<cern.colt.matrix.impl.DenseDoubleMatrix2D>)
+  location: class CodexTest_0_6_10

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_3.java:35: error: <identifier> expected
+        System.out.println(sc);
+                          ^
+CodexTest_0_9_3.java:35: error: <identifier> expected
+        System.out.println(sc);
+                             ^

@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_90.java:65: error: package ClassWithBuilder does not exist
+        ClassWithBuilder.Builder builder = ClassWithBuilder.builder();
+                        ^
+CodexTest_0_8_90.java:65: error: cannot find symbol
+        ClassWithBuilder.Builder builder = ClassWithBuilder.builder();
+                                           ^
+  symbol:   variable ClassWithBuilder
+  location: class CodexTest_0_8_90

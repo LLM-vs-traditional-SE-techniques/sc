@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_67.java:65: error: cannot find symbol
+        Mockito.when(indexRequest.parent()).thenReturn("test");
+                     ^
+  symbol:   variable indexRequest
+  location: class CodexTest_0_8_67
+CodexTest_0_8_67.java:65: error: cannot find symbol
+        Mockito.when(indexRequest.parent()).thenReturn("test");
+        ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_8_67
+CodexTest_0_8_67.java:66: error: cannot find symbol
+        assertEquals("test", indexRequest.parent());
+                             ^
+  symbol:   variable indexRequest
+  location: class CodexTest_0_8_67

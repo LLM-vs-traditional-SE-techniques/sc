@@ -1,0 +1,32 @@
+isCompilable => false
+CodexTest_0_5_5.java:21: error: cannot find symbol
+        Graph<String, DefaultEdge> graph = createSimpleGraph();
+                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:21: error: type org.graphstream.graph.Graph does not take parameters
+        Graph<String, DefaultEdge> graph = createSimpleGraph();
+             ^
+CodexTest_0_5_5.java:21: error: cannot find symbol
+        Graph<String, DefaultEdge> graph = createSimpleGraph();
+                                           ^
+  symbol:   method createSimpleGraph()
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:22: error: cannot find symbol
+        Path<String, DefaultEdge> path = new PathImpl<String, DefaultEdge>(graph);
+                     ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:22: error: type org.graphstream.graph.Path does not take parameters
+        Path<String, DefaultEdge> path = new PathImpl<String, DefaultEdge>(graph);
+            ^
+CodexTest_0_5_5.java:22: error: cannot find symbol
+        Path<String, DefaultEdge> path = new PathImpl<String, DefaultEdge>(graph);
+                                             ^
+  symbol:   class PathImpl
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:22: error: cannot find symbol
+        Path<String, DefaultEdge> path = new PathImpl<String, DefaultEdge>(graph);
+                                                              ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_5_5

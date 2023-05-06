@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_36.java:21: error: cannot find symbol
+    assertEquals(1.0, v.getElement(0), DELTA);
+                                       ^
+  symbol:   variable DELTA
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:22: error: cannot find symbol
+    assertEquals(0.0, v.getElement(1), DELTA);
+                                       ^
+  symbol:   variable DELTA
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:23: error: cannot find symbol
+    assertEquals(6.0, v.getElement(2), DELTA);
+                                       ^
+  symbol:   variable DELTA
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:24: error: cannot find symbol
+    assertEquals(0.0, v.getElement(3), DELTA);
+                                       ^
+  symbol:   variable DELTA
+  location: class CodexTest_0_8_36

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_58.java:28: error: cannot find symbol
+      data = getRandomInstances(numInstances, numAttributes, nameOfDataset);
+             ^
+  symbol:   method getRandomInstances(int,int,java.lang.String)
+  location: class CodexTest_0_8_58

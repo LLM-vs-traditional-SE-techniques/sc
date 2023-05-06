@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_1.java:16: error: cannot find symbol
+      assertEquals(Short.valueOf((short) 1), AlgVector.toShort(Boolean.TRUE));
+                                             ^
+  symbol:   variable AlgVector
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:17: error: cannot find symbol
+      assertEquals(Short.valueOf((short) 0), AlgVector.toShort(Boolean.FALSE));
+                                             ^
+  symbol:   variable AlgVector
+  location: class CodexTest_0_6_1
+CodexTest_0_6_1.java:18: error: cannot find symbol
+      assertEquals(Short.valueOf((short) 0), AlgVector.toShort(null));
+                                             ^
+  symbol:   variable AlgVector
+  location: class CodexTest_0_6_1

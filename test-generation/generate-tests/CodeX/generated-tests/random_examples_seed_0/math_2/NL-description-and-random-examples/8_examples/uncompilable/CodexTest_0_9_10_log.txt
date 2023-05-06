@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_10.java:31: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+    	assertEquals(0.0, Vector1D.distanceSq(new Vector1D(0, 0),
+    	                                                      ^
+CodexTest_0_9_10.java:32: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+                                              new Vector1D(0, 0)), 1.0e10);
+                                                              ^
+CodexTest_0_9_10.java:35: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        assertEquals(a * a, Vector1D.distanceSq(new Vector1D(0, 0),
+                                                                ^
+CodexTest_0_9_10.java:36: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+                                                new Vector1D(2, 2)), 1.0e-10);
+                                                                ^
+CodexTest_0_9_10.java:37: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        assertEquals(a * (a + b), Vector1D.distanceSq(new Vector1D(0, 0),
+                                                                      ^
+CodexTest_0_9_10.java:38: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+                                                      new Vector1D(2, 2)), 1.0e-10);
+                                                                      ^
+CodexTest_0_9_10.java:39: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        assertEquals((a + b) * b, Vector1D.distanceSq(new Vector1D(0, 0),
+                                                                      ^
+CodexTest_0_9_10.java:40: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+                                                      new Vector1D(2, 2)), 1.0e-10);
+                                                                      ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

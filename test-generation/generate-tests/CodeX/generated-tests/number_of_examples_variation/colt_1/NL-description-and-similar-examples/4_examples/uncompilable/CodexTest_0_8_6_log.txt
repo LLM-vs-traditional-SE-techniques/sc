@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_6.java:29: error: illegal start of type
+    */	
+    ^
+CodexTest_0_8_6.java:29: error: ';' expected
+    */	
+     ^
+CodexTest_0_8_6.java:78: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_8_6.java:61: error: 'try' without 'catch', 'finally' or resource declarations
+		try {
+		^

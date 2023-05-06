@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_9.java:19: error: cannot find symbol
+        assertThat(trueValue, is(Boolean.TRUE));
+                              ^
+  symbol:   method is(java.lang.Boolean)
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:20: error: cannot find symbol
+        assertThat(falseValue, is(Boolean.FALSE));
+                               ^
+  symbol:   method is(java.lang.Boolean)
+  location: class CodexTest_0_7_9

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_30.java:72: error: <identifier> expected
+Input: public static  Boolean isTrue(char value) {
+     ^
+CodexTest_0_8_30.java:90: error: <identifier> expected
+Output: public void testWrapShouldReturnTrueWhenLowerCaseTrueGiven() {
+      ^

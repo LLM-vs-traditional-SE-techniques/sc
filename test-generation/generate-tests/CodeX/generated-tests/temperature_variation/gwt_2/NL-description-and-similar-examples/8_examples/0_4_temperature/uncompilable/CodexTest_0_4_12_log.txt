@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_12.java:15: error: cannot find symbol
+    UncaughtExceptionHandler ueh = GWT.getUncaughtExceptionHandler();
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_12

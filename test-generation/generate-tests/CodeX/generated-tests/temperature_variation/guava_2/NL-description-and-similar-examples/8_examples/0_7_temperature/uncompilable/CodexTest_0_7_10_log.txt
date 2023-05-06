@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_10.java:26: error: cannot find symbol
+    new IntHashCode(0x12345678).writeBytesToImpl(dest, 1, 3);
+        ^
+  symbol:   class IntHashCode
+  location: class CodexTest_0_7_10

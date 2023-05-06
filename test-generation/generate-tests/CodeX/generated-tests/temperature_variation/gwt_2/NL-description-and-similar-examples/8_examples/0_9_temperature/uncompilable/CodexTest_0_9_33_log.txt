@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_33.java:17: error: cannot find symbol
+      assertEquals(0, threadWithUncaughtExceptionHandler.getUncaughtExceptions().size());
+                      ^
+  symbol:   variable threadWithUncaughtExceptionHandler
+  location: class CodexTest_0_9_33
+CodexTest_0_9_33.java:20: error: cannot find symbol
+      ueh.onUncaughtException(threadWithUncaughtExceptionHandler, new RuntimeException(
+                              ^
+  symbol:   variable threadWithUncaughtExceptionHandler
+  location: class CodexTest_0_9_33
+CodexTest_0_9_33.java:22: error: cannot find symbol
+      assertEquals(1, threadWithUncaughtExceptionHandler.getUncaughtExceptions().size());
+                      ^
+  symbol:   variable threadWithUncaughtExceptionHandler
+  location: class CodexTest_0_9_33
+CodexTest_0_9_33.java:23: error: cannot find symbol
+      assertEquals("This exception should be caught", threadWithUncaughtExceptionHandler
+                                                      ^
+  symbol:   variable threadWithUncaughtExceptionHandler
+  location: class CodexTest_0_9_33

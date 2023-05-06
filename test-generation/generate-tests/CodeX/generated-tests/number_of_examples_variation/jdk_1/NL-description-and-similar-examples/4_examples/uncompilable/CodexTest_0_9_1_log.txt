@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_1.java:21: error: cannot find symbol
+        list= makeFullList();
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:21: error: cannot find symbol
+        list= makeFullList();
+              ^
+  symbol:   method makeFullList()
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:23: error: cannot find symbol
+            list.remove(-1);
+            ^
+  symbol:   variable list
+  location: class CodexTest_0_9_1

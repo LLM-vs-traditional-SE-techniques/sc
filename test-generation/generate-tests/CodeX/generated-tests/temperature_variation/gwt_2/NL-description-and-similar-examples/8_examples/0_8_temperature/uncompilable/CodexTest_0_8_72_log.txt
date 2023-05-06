@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_72.java:15: error: cannot find symbol
+    UncaughtExceptionHandler mockHandler = mock(UncaughtExceptionHandler.class);
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_72
+CodexTest_0_8_72.java:15: error: cannot find symbol
+    UncaughtExceptionHandler mockHandler = mock(UncaughtExceptionHandler.class);
+                                                ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_8_72
+CodexTest_0_8_72.java:18: error: cannot find symbol
+    verify(mockHandler).onUncaughtException(any(Throwable.class));
+                                            ^
+  symbol:   method any(java.lang.Class<java.lang.Throwable>)
+  location: class CodexTest_0_8_72

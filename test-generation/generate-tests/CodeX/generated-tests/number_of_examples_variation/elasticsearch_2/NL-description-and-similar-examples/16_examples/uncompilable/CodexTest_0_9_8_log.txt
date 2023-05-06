@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_8.java:66: error: cannot find symbol
+                .source(singletonMap("field", "value"), XContentType.JSON);
+                        ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:67: error: cannot find symbol
+        assertEquals(singletonMap("field", "value"), indexRequest.sourceAsMap());
+                     ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:68: error: cannot find symbol
+        assertThat(indexRequest.source(), containsString("\"field\":\"value\""));
+                                          ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_9_8

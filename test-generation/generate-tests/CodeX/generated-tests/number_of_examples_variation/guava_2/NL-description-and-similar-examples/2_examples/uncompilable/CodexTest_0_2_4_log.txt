@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_2_4.java:60: error: <identifier> expected
+    ba.
+       ^
+CodexTest_0_2_4.java:60: error: not a statement
+    ba.
+      ^
+CodexTest_0_2_4.java:61: error: reached end of file while parsing
+}
+ ^

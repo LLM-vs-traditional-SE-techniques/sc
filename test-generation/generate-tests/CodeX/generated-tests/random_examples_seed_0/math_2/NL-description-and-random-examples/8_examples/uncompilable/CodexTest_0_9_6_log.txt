@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_6.java:33: error: cannot find symbol
+                        Cartesian1D.of(1, 0), Cartesian1D.of(0, 1)));
+                        ^
+  symbol:   variable Cartesian1D
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:33: error: cannot find symbol
+                        Cartesian1D.of(1, 0), Cartesian1D.of(0, 1)));
+                                              ^
+  symbol:   variable Cartesian1D
+  location: class CodexTest_0_9_6

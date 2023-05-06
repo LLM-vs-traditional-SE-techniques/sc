@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_76.java:16: error: cannot find symbol
+    	assertNull(underTest.toShort(null));
+    	           ^
+  symbol:   variable underTest
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:17: error: no suitable method found for valueOf(int)
+    	assertEquals(Short.valueOf(0), underTest.toShort(Boolean.FALSE));
+    	                  ^
+    method java.lang.Short.valueOf(java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+    method java.lang.Short.valueOf(short) is not applicable
+      (argument mismatch; possible lossy conversion from int to short)
+CodexTest_0_9_76.java:17: error: cannot find symbol
+    	assertEquals(Short.valueOf(0), underTest.toShort(Boolean.FALSE));
+    	                               ^
+  symbol:   variable underTest
+  location: class CodexTest_0_9_76
+CodexTest_0_9_76.java:18: error: no suitable method found for valueOf(int)
+    	assertEquals(Short.valueOf(1), underTest.toShort(Boolean.TRUE));
+    	                  ^
+    method java.lang.Short.valueOf(java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+    method java.lang.Short.valueOf(short) is not applicable
+      (argument mismatch; possible lossy conversion from int to short)
+CodexTest_0_9_76.java:18: error: cannot find symbol
+    	assertEquals(Short.valueOf(1), underTest.toShort(Boolean.TRUE));
+    	                               ^
+  symbol:   variable underTest
+  location: class CodexTest_0_9_76
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

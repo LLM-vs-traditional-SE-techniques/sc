@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_80.java:65: error: cannot find symbol
+        IndexRequest request = new IndexRequest(index, type, id);
+                                                ^
+  symbol:   variable index
+  location: class CodexTest_0_8_80
+CodexTest_0_8_80.java:65: error: cannot find symbol
+        IndexRequest request = new IndexRequest(index, type, id);
+                                                       ^
+  symbol:   variable type
+  location: class CodexTest_0_8_80
+CodexTest_0_8_80.java:65: error: cannot find symbol
+        IndexRequest request = new IndexRequest(index, type, id);
+                                                             ^
+  symbol:   variable id
+  location: class CodexTest_0_8_80
+CodexTest_0_8_80.java:71: error: cannot find symbol
+        assertThat((Map<String, Object>) request.sourceAsMap().get(type), hasEntry("field1", "value1"));
+                                                                   ^
+  symbol:   variable type
+  location: class CodexTest_0_8_80
+CodexTest_0_8_80.java:71: error: cannot find symbol
+        assertThat((Map<String, Object>) request.sourceAsMap().get(type), hasEntry("field1", "value1"));
+                                                                          ^
+  symbol:   method hasEntry(java.lang.String,java.lang.String)
+  location: class CodexTest_0_8_80
+CodexTest_0_8_80.java:72: error: cannot find symbol
+        assertThat((Map<String, Object>) request.sourceAsMap().get(type), hasEntry("field2", "value2"));
+                                                                   ^
+  symbol:   variable type
+  location: class CodexTest_0_8_80
+CodexTest_0_8_80.java:72: error: cannot find symbol
+        assertThat((Map<String, Object>) request.sourceAsMap().get(type), hasEntry("field2", "value2"));
+                                                                          ^
+  symbol:   method hasEntry(java.lang.String,java.lang.String)
+  location: class CodexTest_0_8_80

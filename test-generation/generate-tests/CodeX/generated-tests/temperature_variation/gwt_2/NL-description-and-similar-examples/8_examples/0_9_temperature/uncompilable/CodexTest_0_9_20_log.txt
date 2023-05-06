@@ -1,0 +1,30 @@
+isCompilable => false
+CodexTest_0_9_20.java:20: error: cannot find symbol
+        assertEveryoneHasSameException(e);
+        ^
+  symbol: method assertEveryoneHasSameException(java.lang.Throwable)
+CodexTest_0_9_20.java:24: error: cannot find symbol
+    RootPanel.get().add(new Button("Test", new ClickHandler() {
+                            ^
+  symbol:   class Button
+  location: class CodexTest_0_9_20
+CodexTest_0_9_20.java:24: error: cannot find symbol
+    RootPanel.get().add(new Button("Test", new ClickHandler() {
+                                               ^
+  symbol:   class ClickHandler
+  location: class CodexTest_0_9_20
+CodexTest_0_9_20.java:24: error: cannot find symbol
+    RootPanel.get().add(new Button("Test", new ClickHandler() {
+    ^
+  symbol:   variable RootPanel
+  location: class CodexTest_0_9_20
+CodexTest_0_9_20.java:31: error: cannot find symbol
+    RootPanel.get().getWidget(0).onBrowserEvent(Document.get().createClickEvent(1, 1, 1, 1, 1, false, false, false, false));
+                                                ^
+  symbol:   variable Document
+  location: class CodexTest_0_9_20
+CodexTest_0_9_20.java:31: error: cannot find symbol
+    RootPanel.get().getWidget(0).onBrowserEvent(Document.get().createClickEvent(1, 1, 1, 1, 1, false, false, false, false));
+    ^
+  symbol:   variable RootPanel
+  location: class CodexTest_0_9_20

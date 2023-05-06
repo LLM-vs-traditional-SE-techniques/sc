@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_7_57.java:21: error: cannot find symbol
+	double dot = v.dotProduct(w);
+	              ^
+  symbol:   method dotProduct(weka.core.AlgVector)
+  location: variable v of type weka.core.AlgVector
+Note: CodexTest_0_7_57.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

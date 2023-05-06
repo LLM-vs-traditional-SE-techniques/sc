@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_6_7.java:21: error: cannot find symbol
+        List<E> l = createEmptyList();
+             ^
+  symbol:   class E
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:21: error: cannot find symbol
+        List<E> l = createEmptyList();
+                    ^
+  symbol:   method createEmptyList()
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:22: error: cannot find symbol
+        l.add(createElement(0));
+              ^
+  symbol:   method createElement(int)
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:23: error: cannot find symbol
+        assertTrue(l.contains(createElement(0)));
+                              ^
+  symbol:   method createElement(int)
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:24: error: cannot find symbol
+        assertFalse(l.contains(createElement(1)));
+                               ^
+  symbol:   method createElement(int)
+  location: class CodexTest_0_6_7

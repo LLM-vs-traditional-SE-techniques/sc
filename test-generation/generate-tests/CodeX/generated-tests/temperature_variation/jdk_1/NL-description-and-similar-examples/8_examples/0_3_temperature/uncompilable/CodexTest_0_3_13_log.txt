@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_3_13.java:21: error: cannot find symbol
+        final Object[] es = elementData(list);
+                                        ^
+  symbol:   variable list
+  location: class CodexTest_0_3_13
+CodexTest_0_3_13.java:22: error: cannot find symbol
+        final int size = list.size();
+                         ^
+  symbol:   variable list
+  location: class CodexTest_0_3_13
+CodexTest_0_3_13.java:24: error: cannot find symbol
+            assertSame(es[i], list.remove(0));
+                              ^
+  symbol:   variable list
+  location: class CodexTest_0_3_13
+CodexTest_0_3_13.java:26: error: cannot find symbol
+        assertTrue(list.isEmpty());
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_3_13

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_52.java:30: error: cannot find symbol
+            ByteProcessor processor = new AssertProcessor((i % 8) + bitOffset);
+            ^
+  symbol:   class ByteProcessor
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:30: error: cannot find symbol
+            ByteProcessor processor = new AssertProcessor((i % 8) + bitOffset);
+                                          ^
+  symbol:   class AssertProcessor
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:31: error: cannot find symbol
+            Bits.forEachByte(value, i, processor);
+            ^
+  symbol:   variable Bits
+  location: class CodexTest_0_9_52

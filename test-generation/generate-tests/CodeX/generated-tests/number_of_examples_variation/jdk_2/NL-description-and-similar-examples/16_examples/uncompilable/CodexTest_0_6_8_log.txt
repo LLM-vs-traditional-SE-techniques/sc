@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_8.java:53: error: ')' expected
+        assertTrue(mat.contains
+                               ^
+CodexTest_0_6_8.java:54: error: reached end of file while parsing
+}
+ ^

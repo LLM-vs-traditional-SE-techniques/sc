@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_3.java:25: error: cannot find symbol
+    HashCode hash = Hashing.md5().asBytes().hashLong(42L);
+                                 ^
+  symbol:   method asBytes()
+  location: interface com.google.common.hash.HashFunction

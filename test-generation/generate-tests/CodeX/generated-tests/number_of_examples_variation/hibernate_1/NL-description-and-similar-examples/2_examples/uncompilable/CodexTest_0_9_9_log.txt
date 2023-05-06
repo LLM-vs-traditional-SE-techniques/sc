@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_9.java:22: error: cannot find symbol
+            asserEquals(1, result);
+            ^
+  symbol:   method asserEquals(int,java.lang.Short)
+  location: class CodexTest_0_9_9

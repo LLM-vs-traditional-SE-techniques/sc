@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_5.java:25: error: com.google.common.hash.HashCode is abstract; cannot be instantiated
+    assertEquals(new HashCode(new int[] {0x67452301, 0xefcdab89}), HashCode.fromInt(0x67452301));
+                 ^
+CodexTest_0_8_5.java:26: error: com.google.common.hash.HashCode is abstract; cannot be instantiated
+    assertEquals(new HashCode(new int[] {0x67452301, 0xefcdab89}), HashCode.fromLong(0x67452301L));
+                 ^

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_61.java:18: error: cannot find symbol
+		AlgVector v1 = AlgVector.random();
+		                        ^
+  symbol:   method random()
+  location: class weka.core.AlgVector
+CodexTest_0_9_61.java:19: error: cannot find symbol
+		AlgVector v2 = AlgVector.random();
+		                        ^
+  symbol:   method random()
+  location: class weka.core.AlgVector
+CodexTest_0_9_61.java:25: error: cannot find symbol
+			assertTrue("Value differs", DoubleMath.fuzzyEquals(x, v3.getElement(i), 0.0001));
+			                            ^
+  symbol:   variable DoubleMath
+  location: class CodexTest_0_9_61

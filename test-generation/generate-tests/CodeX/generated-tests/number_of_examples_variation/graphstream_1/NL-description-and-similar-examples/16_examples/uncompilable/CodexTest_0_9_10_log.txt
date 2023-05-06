@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_10.java:22: error: cannot find symbol
+		path.getEdge("ab");
+		    ^
+  symbol:   method getEdge(java.lang.String)
+  location: variable path of type org.graphstream.graph.Path

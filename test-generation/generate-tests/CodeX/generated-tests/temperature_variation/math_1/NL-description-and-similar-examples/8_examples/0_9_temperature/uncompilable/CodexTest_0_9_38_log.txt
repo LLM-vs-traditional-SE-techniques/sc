@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_38.java:53: error: <identifier> expected
+Input: public final double getError() {
+     ^
+CodexTest_0_9_38.java:56: error: <identifier> expected
+Output: public void testFixedCost() {
+      ^

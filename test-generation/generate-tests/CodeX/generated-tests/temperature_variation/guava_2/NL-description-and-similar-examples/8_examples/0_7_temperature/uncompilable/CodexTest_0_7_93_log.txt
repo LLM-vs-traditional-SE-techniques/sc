@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_93.java:26: error: cannot find symbol
+    assertEquals(5, BASE16.writeBytesTo(new byte[] {0, 1, 2, 3, 4}, 2, dest, 0, 5));
+                    ^
+  symbol:   variable BASE16
+  location: class CodexTest_0_7_93

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_85.java:21: error: cannot find symbol
+        int i = alist.size();
+                ^
+  symbol:   variable alist
+  location: class CodexTest_0_8_85
+CodexTest_0_8_85.java:23: error: cannot find symbol
+            Object o = alist.remove(i - 1);
+                       ^
+  symbol:   variable alist
+  location: class CodexTest_0_8_85
+CodexTest_0_8_85.java:25: error: cannot find symbol
+            assertTrue(alist.size() == (i - 1));
+                       ^
+  symbol:   variable alist
+  location: class CodexTest_0_8_85

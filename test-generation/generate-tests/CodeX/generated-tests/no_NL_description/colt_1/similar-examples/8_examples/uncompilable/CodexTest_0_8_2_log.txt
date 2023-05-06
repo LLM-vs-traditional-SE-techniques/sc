@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_2.java:45: error: ')' expected
+		assertEquals(v.copy().assign(Double
+		                                   ^
+CodexTest_0_8_2.java:46: error: reached end of file while parsing
+}
+ ^

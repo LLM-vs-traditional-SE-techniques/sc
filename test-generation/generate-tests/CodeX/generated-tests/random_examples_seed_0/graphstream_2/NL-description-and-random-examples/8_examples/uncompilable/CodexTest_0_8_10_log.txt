@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_10.java:20: error: cannot find symbol
+			Path p1 = new Path(new ArrayList<Integer>());
+			                       ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:21: error: cannot find symbol
+			p1.addNode(1);
+			  ^
+  symbol:   method addNode(int)
+  location: variable p1 of type org.graphstream.graph.Path
+CodexTest_0_8_10.java:22: error: cannot find symbol
+			p1.addNode(2);
+			  ^
+  symbol:   method addNode(int)
+  location: variable p1 of type org.graphstream.graph.Path
+CodexTest_0_8_10.java:23: error: cannot find symbol
+			Path p2 = new Path(new ArrayList<Integer>());
+			                       ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:24: error: cannot find symbol
+			p2.addNode(1);
+			  ^
+  symbol:   method addNode(int)
+  location: variable p2 of type org.graphstream.graph.Path
+CodexTest_0_8_10.java:25: error: cannot find symbol
+			p2.addNode(2);
+			  ^
+  symbol:   method addNode(int)
+  location: variable p2 of type org.graphstream.graph.Path

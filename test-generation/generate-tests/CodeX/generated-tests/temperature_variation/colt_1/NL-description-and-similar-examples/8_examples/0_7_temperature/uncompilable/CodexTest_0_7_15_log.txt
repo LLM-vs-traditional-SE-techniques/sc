@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_15.java:32: error: cannot find symbol
+    x.assign(Functions.tan);
+             ^
+  symbol:   variable Functions
+  location: class CodexTest_0_7_15

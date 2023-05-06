@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_8.java:36: error: bad operand type boolean for unary operator '---'
+        Assert.assertTrue(-v.equals(v.scalarMultiply(-1)));
+                          ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_2.java:65: error: cannot find symbol
+        assertNull(ROOT.parent());
+                   ^
+  symbol:   variable ROOT
+  location: class CodexTest_0_7_2

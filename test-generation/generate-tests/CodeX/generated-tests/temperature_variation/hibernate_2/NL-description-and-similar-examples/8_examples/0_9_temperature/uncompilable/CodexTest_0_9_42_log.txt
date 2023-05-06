@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_42.java:16: error: cannot find symbol
+    assertEquals("true", Boolean.TRUE, DescriptorUtils.fromString(BooleanDescriptor.INSTANCE, "true"));
+                                                                  ^
+  symbol:   variable BooleanDescriptor
+  location: class CodexTest_0_9_42
+CodexTest_0_9_42.java:16: error: cannot find symbol
+    assertEquals("true", Boolean.TRUE, DescriptorUtils.fromString(BooleanDescriptor.INSTANCE, "true"));
+                                       ^
+  symbol:   variable DescriptorUtils
+  location: class CodexTest_0_9_42

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_5.java:43: error: <identifier> expected
+		assertEquals(A.get(9), B.
+		                         ^
+CodexTest_0_6_5.java:44: error: reached end of file while parsing
+}
+ ^

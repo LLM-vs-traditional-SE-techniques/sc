@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_7.java:67: error: cannot find symbol
+            builder.map(ImmutableMap.of("field", "value"));
+                        ^
+  symbol:   variable ImmutableMap
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:71: error: cannot find symbol
+            throw new ElasticsearchGenerationException("Failed to generate [" + ImmutableMap.of("field", "value") + "]", e);
+                                                                                ^
+  symbol:   variable ImmutableMap
+  location: class CodexTest_0_6_7

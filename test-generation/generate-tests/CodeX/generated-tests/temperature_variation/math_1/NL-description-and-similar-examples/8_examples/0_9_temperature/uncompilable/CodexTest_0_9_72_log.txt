@@ -1,0 +1,27 @@
+isCompilable => false
+CodexTest_0_9_72.java:31: error: non-static method scalarMultiply(double) cannot be referenced from a static context
+        ArrayAsserts.assertEquals(new double[]{6}, Vector1D.scalarMultiply(3.0).operate(new double[]{2}), 1.0e-15);
+                                                           ^
+CodexTest_0_9_72.java:31: error: cannot find symbol
+        ArrayAsserts.assertEquals(new double[]{6}, Vector1D.scalarMultiply(3.0).operate(new double[]{2}), 1.0e-15);
+                                                                               ^
+  symbol:   method operate(double[])
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_72.java:31: error: cannot find symbol
+        ArrayAsserts.assertEquals(new double[]{6}, Vector1D.scalarMultiply(3.0).operate(new double[]{2}), 1.0e-15);
+        ^
+  symbol:   variable ArrayAsserts
+  location: class CodexTest_0_9_72
+CodexTest_0_9_72.java:32: error: non-static method scalarMultiply(double) cannot be referenced from a static context
+        ArrayAsserts.assertEquals(new double[]{-6}, Vector1D.scalarMultiply(-3.0).operate(new double[]{2}), 1.0e-15);
+                                                            ^
+CodexTest_0_9_72.java:32: error: cannot find symbol
+        ArrayAsserts.assertEquals(new double[]{-6}, Vector1D.scalarMultiply(-3.0).operate(new double[]{2}), 1.0e-15);
+                                                                                 ^
+  symbol:   method operate(double[])
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_72.java:32: error: cannot find symbol
+        ArrayAsserts.assertEquals(new double[]{-6}, Vector1D.scalarMultiply(-3.0).operate(new double[]{2}), 1.0e-15);
+        ^
+  symbol:   variable ArrayAsserts
+  location: class CodexTest_0_9_72

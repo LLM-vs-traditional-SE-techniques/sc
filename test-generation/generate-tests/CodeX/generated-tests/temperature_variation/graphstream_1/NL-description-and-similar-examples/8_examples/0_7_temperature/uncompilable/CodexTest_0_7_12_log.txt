@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_12.java:26: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+		Path path = new Path(graph, "A", "B", "C", "A");
+		            ^
+  required: no arguments
+  found: org.graphstream.graph.Graph,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+CodexTest_0_7_12.java:27: error: reference to contains is ambiguous
+		assertTrue("Path does not contain edge AB", path.contains(graph.getEdge("AB")));
+		                                                ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match

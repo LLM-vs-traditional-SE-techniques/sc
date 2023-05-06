@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_32.java:65: error: cannot find symbol
+    	Builder builder = new Builder();
+    	^
+  symbol:   class Builder
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:65: error: cannot find symbol
+    	Builder builder = new Builder();
+    	                      ^
+  symbol:   class Builder
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:66: error: cannot find symbol
+      String s = Strings.toString(XContentFactory.xContent(XContentType.JSON).createParser(NamedXContentRegistry.EMPTY,
+                                                                                           ^
+  symbol:   variable NamedXContentRegistry
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:67: error: cannot find symbol
+          DeprecationHandler.THROW_UNSUPPORTED_OPERATION, "{\"term_1\":1, \"term_2\":2, \"term_3\":3}").map());
+          ^
+  symbol:   variable DeprecationHandler
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:66: error: cannot find symbol
+      String s = Strings.toString(XContentFactory.xContent(XContentType.JSON).createParser(NamedXContentRegistry.EMPTY,
+                 ^
+  symbol:   variable Strings
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:69: error: cannot find symbol
+          new TermsQueryBuilder("field_1", s));
+              ^
+  symbol:   class TermsQueryBuilder
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:70: error: cannot find symbol
+      QueryBuilder queryBuilder = new ParentIdQueryBuilder("type", builder, false);
+      ^
+  symbol:   class QueryBuilder
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:70: error: cannot find symbol
+      QueryBuilder queryBuilder = new ParentIdQueryBuilder("type", builder, false);
+                                      ^
+  symbol:   class ParentIdQueryBuilder
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:75: error: cannot find symbol
+          + "\"type\":\"type\",\"ignore_unmapped\":false}}}}", queryBuilder.toQuery(createShardContext()).toString());
+                                                                                    ^
+  symbol:   method createShardContext()
+  location: class CodexTest_0_9_32

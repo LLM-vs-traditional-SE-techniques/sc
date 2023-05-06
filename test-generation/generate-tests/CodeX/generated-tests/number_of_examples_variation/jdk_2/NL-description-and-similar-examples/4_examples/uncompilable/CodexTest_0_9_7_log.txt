@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_7.java:25: error: <identifier> expected
+Input: public boolean containsAll(Collection c) {
+     ^
+CodexTest_0_9_7.java:28: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_7.java:32: error: reached end of file while parsing
+}
+ ^

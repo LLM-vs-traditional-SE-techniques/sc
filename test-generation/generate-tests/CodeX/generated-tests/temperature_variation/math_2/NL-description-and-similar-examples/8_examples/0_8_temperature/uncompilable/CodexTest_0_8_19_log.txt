@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_19.java:31: error: cannot find symbol
+        assertThat(distanceSq(new Vector1D(1), new Vector1D(2)), closeTo(1.0, 1.0e-12));
+                   ^
+  symbol:   method distanceSq(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_8_19
+CodexTest_0_8_19.java:31: error: cannot find symbol
+        assertThat(distanceSq(new Vector1D(1), new Vector1D(2)), closeTo(1.0, 1.0e-12));
+                                                                 ^
+  symbol:   method closeTo(double,double)
+  location: class CodexTest_0_8_19

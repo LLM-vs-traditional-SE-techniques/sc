@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_10.java:21: error: cannot find symbol
+        System.out.println(remove(new LinkedHashSet<Object>(), 4));
+                           ^
+  symbol:   method remove(java.util.LinkedHashSet<java.lang.Object>,int)
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:22: error: cannot find symbol
+        System.out.println(remove(new HashSet<Object>(), 4));
+                           ^
+  symbol:   method remove(java.util.HashSet<java.lang.Object>,int)
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:23: error: cannot find symbol
+        System.out.println(remove(new TreeSet<Object>(), 4));
+                           ^
+  symbol:   method remove(java.util.TreeSet<java.lang.Object>,int)
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:24: error: cannot find symbol
+        System.out.println(remove(new ArrayList<Object>(), 4));
+                           ^
+  symbol:   method remove(java.util.ArrayList<java.lang.Object>,int)
+  location: class CodexTest_0_7_10

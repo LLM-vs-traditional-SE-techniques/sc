@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_7.java:20: error: cannot find symbol
+			List<Edge> edgePath = new ArrayList<>();
+			                          ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:24: error: cannot find symbol
+				assertThat(e.getMessage(), is("value cannot be null"));
+				                           ^
+  symbol:   method is(java.lang.String)
+  location: class CodexTest_0_9_7

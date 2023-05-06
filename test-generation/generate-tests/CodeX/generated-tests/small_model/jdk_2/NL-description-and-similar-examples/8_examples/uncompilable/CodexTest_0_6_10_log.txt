@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_10.java:21: error: cannot find symbol
+    assertTrue("expected true but was false", contains("a"));
+                                              ^
+  symbol:   method contains(java.lang.String)
+  location: class CodexTest_0_6_10

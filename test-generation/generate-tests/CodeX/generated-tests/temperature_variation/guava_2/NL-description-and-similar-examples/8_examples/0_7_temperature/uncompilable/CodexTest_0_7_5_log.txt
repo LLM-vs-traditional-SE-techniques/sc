@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_5.java:26: error: cannot find symbol
+    int written = new ImmutableBitArray(new byte[] {(byte) 0xab}, 11).writeBytesTo(result, 1, 4);
+                      ^
+  symbol:   class ImmutableBitArray
+  location: class CodexTest_0_7_5

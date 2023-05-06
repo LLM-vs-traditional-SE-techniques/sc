@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_5.java:21: error: cannot find symbol
+        MyList list = new MyList();
+        ^
+  symbol:   class MyList
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:21: error: cannot find symbol
+        MyList list = new MyList();
+                          ^
+  symbol:   class MyList
+  location: class CodexTest_0_6_5

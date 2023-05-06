@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_3.java:31: error: org.apache.commons.math3.geometry.Vector is abstract; cannot be instantiated
+        Vector a = new Vector(new double[]{2, 3, 5});
+                   ^
+CodexTest_0_8_3.java:32: error: org.apache.commons.math3.geometry.Vector is abstract; cannot be instantiated
+        Assert.assertEquals(new Vector(new double[]{10, 15, 25}), a.scalarMultiply(5));
+                            ^
+CodexTest_0_8_3.java:33: error: org.apache.commons.math3.geometry.Vector is abstract; cannot be instantiated
+        Assert.assertEquals(new Vector(new double[]{2, 3, 5}), a.scalarMultiply(1));
+                            ^
+CodexTest_0_8_3.java:34: error: org.apache.commons.math3.geometry.Vector is abstract; cannot be instantiated
+        Assert.assertEquals(new Vector(new double[]{0, 0, 0}), a.scalarMultiply(0));
+                            ^

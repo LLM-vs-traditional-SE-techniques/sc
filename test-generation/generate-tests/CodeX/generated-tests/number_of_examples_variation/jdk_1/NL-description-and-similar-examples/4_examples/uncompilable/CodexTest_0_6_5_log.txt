@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_5.java:31: error: <identifier> expected
+Input: public boolean isEmpty() {
+     ^
+CodexTest_0_6_5.java:34: error: <identifier> expected
+Output: public void testIsEmpty() {
+      ^
+CodexTest_0_6_5.java:39: error: <identifier> expected
+Input: public void add(int index, E element) {
+     ^
+CodexTest_0_6_5.java:49: error: <identifier> expected
+Output: public void testAddIntE() {
+      ^
+CodexTest_0_6_5.java:58: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_28.java:70: error: <identifier> expected
+	Input: public String getId() {
+	     ^
+CodexTest_0_8_28.java:73: error: <identifier> expected
+Output:	public void testId() {
+      ^

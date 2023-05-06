@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_5.java:31: error: cannot find symbol
+        Vector2D p1 = new Vector2D(3,4);
+        ^
+  symbol:   class Vector2D
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:31: error: cannot find symbol
+        Vector2D p1 = new Vector2D(3,4);
+                          ^
+  symbol:   class Vector2D
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:34: error: cannot find symbol
+        assertEquals(expected,Spatial.distanceSq(p1, p2), tol);
+                              ^
+  symbol:   variable Spatial
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:34: error: cannot find symbol
+        assertEquals(expected,Spatial.distanceSq(p1, p2), tol);
+                                                          ^
+  symbol:   variable tol
+  location: class CodexTest_0_9_5

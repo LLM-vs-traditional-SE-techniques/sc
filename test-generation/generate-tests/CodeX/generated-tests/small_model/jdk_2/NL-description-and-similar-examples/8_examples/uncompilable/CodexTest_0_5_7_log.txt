@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_5_7.java:21: error: cannot find symbol
+        assertTrue(contains(new Integer(1)));
+                   ^
+  symbol:   method contains(java.lang.Integer)
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:22: error: cannot find symbol
+        assertTrue(contains(new Integer(2)));
+                   ^
+  symbol:   method contains(java.lang.Integer)
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:23: error: cannot find symbol
+        assertTrue(contains(new Integer(3)));
+                   ^
+  symbol:   method contains(java.lang.Integer)
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:24: error: cannot find symbol
+        assertFalse(contains(new Integer(4)));
+                    ^
+  symbol:   method contains(java.lang.Integer)
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:25: error: cannot find symbol
+        assertFalse(contains(new Integer(5)));
+                    ^
+  symbol:   method contains(java.lang.Integer)
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:26: error: cannot find symbol
+        assertFalse(contains(new Integer(6)));
+                    ^
+  symbol:   method contains(java.lang.Integer)
+  location: class CodexTest_0_5_7

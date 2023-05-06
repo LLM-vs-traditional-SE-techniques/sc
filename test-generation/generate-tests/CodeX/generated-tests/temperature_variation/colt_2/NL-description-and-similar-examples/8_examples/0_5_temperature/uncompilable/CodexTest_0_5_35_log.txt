@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_35.java:42: error: cannot find symbol
+        assertTrue(a.disjoint(b));
+                    ^
+  symbol:   method disjoint(cern.colt.matrix.DoubleMatrix2D)
+  location: variable a of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_5_35.java:43: error: cannot find symbol
+        assertTrue(b.disjoint(a));
+                    ^
+  symbol:   method disjoint(cern.colt.matrix.DoubleMatrix2D)
+  location: variable b of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_5_35.java:44: error: cannot find symbol
+        assertFalse(c.disjoint(d));
+                     ^
+  symbol:   method disjoint(cern.colt.matrix.DoubleMatrix2D)
+  location: variable c of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_5_35.java:45: error: cannot find symbol
+        assertFalse(d.disjoint(c));
+                     ^
+  symbol:   method disjoint(cern.colt.matrix.DoubleMatrix2D)
+  location: variable d of type cern.colt.matrix.DoubleMatrix2D

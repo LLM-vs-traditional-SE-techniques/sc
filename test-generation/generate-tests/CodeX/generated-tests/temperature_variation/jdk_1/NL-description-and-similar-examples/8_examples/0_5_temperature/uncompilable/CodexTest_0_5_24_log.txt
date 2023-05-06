@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_5_24.java:29: error: method testRemoveAtIndex() is already defined in class CodexTest_0_5_24
+    public void testRemoveAtIndex() {
+                ^

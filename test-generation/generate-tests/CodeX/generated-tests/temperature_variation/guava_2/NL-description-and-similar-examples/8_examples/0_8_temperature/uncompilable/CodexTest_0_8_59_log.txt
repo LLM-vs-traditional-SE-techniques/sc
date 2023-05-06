@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_8_59.java:26: error: package ByteArrayHashFunctionTest does not exist
+    int written = ByteArrayHashFunctionTest.HASH_CODE.asBytes().writeBytesTo(dest, 0, 2);
+                                           ^
+CodexTest_0_8_59.java:27: error: no suitable method found for assertThat(int)
+    assertThat(written).isEqualTo(2);
+    ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+CodexTest_0_8_59.java:28: error: no suitable method found for assertThat(byte[])
+    assertThat(dest).containsExactly((byte) 0xde, (byte) 0xad, (byte) 0x00);
+    ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))

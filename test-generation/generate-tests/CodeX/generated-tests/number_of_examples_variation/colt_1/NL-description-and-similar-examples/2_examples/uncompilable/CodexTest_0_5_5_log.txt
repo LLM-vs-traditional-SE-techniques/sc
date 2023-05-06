@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_5_5.java:33: error: cannot find symbol
+		assertEquals(0, vector.getQuick(0), TOL);
+		                                    ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:34: error: cannot find symbol
+		assertEquals(1, vector.getQuick(1), TOL);
+		                                    ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:35: error: cannot find symbol
+		assertEquals(2, vector.getQuick(2), TOL);
+		                                    ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:36: error: cannot find symbol
+		assertEquals(3, vector.getQuick(3), TOL);
+		                                    ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:37: error: cannot find symbol
+		assertEquals(4, vector.getQuick(4), TOL);
+		                                    ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_5
+CodexTest_0_5_5.java:38: error: cannot find symbol
+		assertEquals(5, vector.getQuick(5), TOL);
+		                                    ^
+  symbol:   variable TOL
+  location: class CodexTest_0_5_5

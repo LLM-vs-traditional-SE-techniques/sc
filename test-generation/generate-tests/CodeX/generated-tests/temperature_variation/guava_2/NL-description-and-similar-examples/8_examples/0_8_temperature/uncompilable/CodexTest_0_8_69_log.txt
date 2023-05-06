@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_69.java:28: error: cannot find symbol
+      MutableBloomFilter m =
+      ^
+  symbol:   class MutableBloomFilter
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:29: error: cannot find symbol
+          MutableBloomFilter.create(1000, Funnels.byteArrayFunnel(), values[i]);
+          ^
+  symbol:   variable MutableBloomFilter
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:32: error: cannot find symbol
+      MutableBloomFilter n = MutableBloomFilter.readFrom(bytes, Funnels.byteArrayFunnel());
+      ^
+  symbol:   class MutableBloomFilter
+  location: class CodexTest_0_8_69
+CodexTest_0_8_69.java:32: error: cannot find symbol
+      MutableBloomFilter n = MutableBloomFilter.readFrom(bytes, Funnels.byteArrayFunnel());
+                             ^
+  symbol:   variable MutableBloomFilter
+  location: class CodexTest_0_8_69

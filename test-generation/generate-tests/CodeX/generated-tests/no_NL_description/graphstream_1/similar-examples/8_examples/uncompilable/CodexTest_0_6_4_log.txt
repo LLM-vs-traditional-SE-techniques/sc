@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_6_4.java:20: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		Edge edge = new Edge("a", "b");
+		            ^
+CodexTest_0_6_4.java:21: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+		Path path = new Path(edge);
+		            ^
+  required: no arguments
+  found: org.graphstream.graph.Edge
+  reason: actual and formal argument lists differ in length

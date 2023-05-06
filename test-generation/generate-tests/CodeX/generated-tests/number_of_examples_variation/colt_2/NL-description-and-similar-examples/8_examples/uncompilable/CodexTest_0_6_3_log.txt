@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_3.java:36: error: cannot find symbol
+			vector.zAssign(res);
+			      ^
+  symbol:   method zAssign(cern.colt.matrix.DoubleMatrix2D)
+  location: variable vector of type cern.colt.matrix.DoubleMatrix1D

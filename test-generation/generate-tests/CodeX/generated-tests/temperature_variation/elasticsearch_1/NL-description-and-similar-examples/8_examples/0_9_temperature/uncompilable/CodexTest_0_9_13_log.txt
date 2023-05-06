@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_13.java:65: error: cannot find symbol
+        String actualParent = coAuthor.parent();
+                              ^
+  symbol:   variable coAuthor
+  location: class CodexTest_0_9_13
+CodexTest_0_9_13.java:66: error: cannot find symbol
+        assertEquals("Incorrect parent", coAuthorParent, actualParent);
+                                         ^
+  symbol:   variable coAuthorParent
+  location: class CodexTest_0_9_13

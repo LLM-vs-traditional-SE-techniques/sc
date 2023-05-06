@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_87.java:17: error: cannot find symbol
+                booleanTypeDescriptor.fromString("true"));
+                ^
+  symbol:   variable booleanTypeDescriptor
+  location: class CodexTest_0_9_87

@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_9_65.java:19: error: incompatible types: short cannot be converted to java.lang.Boolean
+        short result = underTest.toShort(Short.MAX_VALUE);
+                                              ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

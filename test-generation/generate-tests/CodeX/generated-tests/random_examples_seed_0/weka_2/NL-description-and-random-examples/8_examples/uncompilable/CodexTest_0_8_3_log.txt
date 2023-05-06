@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_3.java:19: error: cannot find symbol
+        Instances model = new Instances(new StringReader("@relation test\n\n@attribute a {a,b,c}\n@attribute b numeric\n@attribute c numeric\n\n@data\na,1.0,1.0\nb,2.0,2.0\nc,3.0,3.0"));
+                                            ^
+  symbol:   class StringReader
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:21: error: cannot find symbol
+        assertFalse(instance.getAsInstance(model, null).equals(instance));
+                            ^
+  symbol:   method getAsInstance(weka.core.Instances,<nulltype>)
+  location: variable instance of type weka.core.SparseInstance
+CodexTest_0_8_3.java:22: error: cannot find symbol
+        assertEquals(new SparseInstance(3), instance.getAsInstance(model, null));
+                                                    ^
+  symbol:   method getAsInstance(weka.core.Instances,<nulltype>)
+  location: variable instance of type weka.core.SparseInstance

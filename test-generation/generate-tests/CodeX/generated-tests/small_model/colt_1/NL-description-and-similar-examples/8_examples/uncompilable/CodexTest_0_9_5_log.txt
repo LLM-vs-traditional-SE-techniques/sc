@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_5.java:30: error: cannot find symbol
+      AlgVector v = new AlgVector(1);
+      ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:30: error: cannot find symbol
+      AlgVector v = new AlgVector(1);
+                        ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:32: error: cannot find symbol
+      AlgVector v2 = v.copy();
+      ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_9_5

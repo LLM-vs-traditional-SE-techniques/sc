@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_6_8.java:21: error: cannot find symbol
+        p1.add(e1);
+               ^
+  symbol:   variable e1
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:22: error: cannot find symbol
+        p1.add(e2);
+               ^
+  symbol:   variable e2
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:23: error: cannot find symbol
+        p1.add(e3);
+               ^
+  symbol:   variable e3
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:25: error: cannot find symbol
+        p2.add(e1);
+               ^
+  symbol:   variable e1
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:26: error: cannot find symbol
+        p2.add(e2);
+               ^
+  symbol:   variable e2
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:27: error: cannot find symbol
+        p2.add(e3);
+               ^
+  symbol:   variable e3
+  location: class CodexTest_0_6_8
+CodexTest_0_6_8.java:30: error: cannot find symbol
+        p2.add(e4);
+               ^
+  symbol:   variable e4
+  location: class CodexTest_0_6_8

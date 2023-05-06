@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_9.java:66: error: package MultiGetRequest does not exist
+        MultiGetRequest.Item item = new MultiGetRequest.Item(s, s);
+                       ^
+CodexTest_0_8_9.java:66: error: package MultiGetRequest does not exist
+        MultiGetRequest.Item item = new MultiGetRequest.Item(s, s);
+                                                       ^

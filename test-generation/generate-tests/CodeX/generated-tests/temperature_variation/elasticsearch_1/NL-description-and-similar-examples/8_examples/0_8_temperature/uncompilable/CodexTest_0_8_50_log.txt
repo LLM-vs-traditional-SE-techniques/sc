@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_50.java:66: error: cannot find symbol
+        String actual = value.parent();
+                        ^
+  symbol:   variable value
+  location: class CodexTest_0_8_50

@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_6.java:23: error: <identifier> expected
+Input: public static Path emptyPath() {
+     ^
+CodexTest_0_9_6.java:26: error: <identifier> expected
+Output:  
+      ^
+CodexTest_0_9_6.java:31: error: reached end of file while parsing
+}
+ ^

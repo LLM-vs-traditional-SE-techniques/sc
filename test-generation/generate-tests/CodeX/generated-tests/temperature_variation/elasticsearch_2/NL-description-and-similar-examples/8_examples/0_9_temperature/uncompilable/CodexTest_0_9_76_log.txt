@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_76.java:70: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("opType must be create or index, found: [foobar]"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_76

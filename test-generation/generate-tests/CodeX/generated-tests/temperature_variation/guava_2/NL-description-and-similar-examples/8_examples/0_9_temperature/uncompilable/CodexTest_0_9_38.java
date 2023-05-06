@@ -1,0 +1,40 @@
+import com.google.common.hash.*;
+import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.common.base.Preconditions.checkState;
+import com.google.common.annotations.Beta;
+import com.google.common.base.Preconditions;
+import com.google.common.primitives.Ints;
+import com.google.common.primitives.UnsignedInts;
+import java.io.Serializable;
+
+import static com.google.common.io.BaseEncoding.base16;
+import com.google.common.base.Charsets;
+import com.google.common.collect.ImmutableList;
+import com.google.common.io.BaseEncoding;
+import java.util.Arrays;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_9_38 { 
+  @Test
+    public void testReadBytes() throws IOException {
+      int numBytes = Ints.BYTES * 3;
+      byte[] bytes = new byte[numBytes];
+      for (int i = 0; i < numBytes; i++) {
+        bytes[i] = (byte) (i + 1);
+      }
+      ByteBuffer byteBuffer = ByteBuffer.wrap(bytes);
+      LongBuffer buffer = byteBuffer.asLongBuffer();
+      LongBuffer slice = buffer.slice();
+  ````
+    IntBuffer sliceAsIntBuffer = slice.asIntBuffer();
+    byte[] dest = new byte[numBytes];
+    int actual = sliceAsIntBuffer.getInt(1);
+      int read = sliceAsIntBuffer.readBytesTo(dest, 1, numBytes);
+    assertEquals(2, read);
+}`;
+}

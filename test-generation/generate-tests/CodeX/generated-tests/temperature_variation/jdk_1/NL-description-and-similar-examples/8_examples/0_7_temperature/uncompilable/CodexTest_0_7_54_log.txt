@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_7_54.java:21: error: cannot find symbol
+        Object[] a = new Object[DEFAULT_CAPACITY];
+                                ^
+  symbol:   variable DEFAULT_CAPACITY
+  location: class CodexTest_0_7_54
+CodexTest_0_7_54.java:22: error: cannot find symbol
+        for (int i = 0; i < DEFAULT_CAPACITY - 1; i++) {
+                            ^
+  symbol:   variable DEFAULT_CAPACITY
+  location: class CodexTest_0_7_54
+CodexTest_0_7_54.java:25: error: cannot find symbol
+        a[DEFAULT_CAPACITY - 1] = this;
+          ^
+  symbol:   variable DEFAULT_CAPACITY
+  location: class CodexTest_0_7_54
+CodexTest_0_7_54.java:26: error: cannot find symbol
+        a = new Object[DEFAULT_CAPACITY];
+                       ^
+  symbol:   variable DEFAULT_CAPACITY
+  location: class CodexTest_0_7_54
+CodexTest_0_7_54.java:27: error: cannot find symbol
+        for (int i = 0; i < DEFAULT_CAPACITY - 1; i++) {
+                            ^
+  symbol:   variable DEFAULT_CAPACITY
+  location: class CodexTest_0_7_54
+CodexTest_0_7_54.java:30: error: cannot find symbol
+        a[DEFAULT_CAPACITY - 1] = this;
+          ^
+  symbol:   variable DEFAULT_CAPACITY
+  location: class CodexTest_0_7_54
+CodexTest_0_7_54.java:32: error: cannot find symbol
+        for (int i = 0; i < DEFAULT_CAPACITY; i++) {
+                            ^
+  symbol:   variable DEFAULT_CAPACITY
+  location: class CodexTest_0_7_54
+CodexTest_0_7_54.java:35: error: cannot find symbol
+        al.remove(DEFAULT_CAPACITY - 1);
+                  ^
+  symbol:   variable DEFAULT_CAPACITY
+  location: class CodexTest_0_7_54
+CodexTest_0_7_54.java:36: error: cannot find symbol
+        assertEquals(a[DEFAULT_CAPACITY - 2], al.get(DEFAULT_CAPACITY - 2));
+                       ^
+  symbol:   variable DEFAULT_CAPACITY
+  location: class CodexTest_0_7_54
+CodexTest_0_7_54.java:36: error: cannot find symbol
+        assertEquals(a[DEFAULT_CAPACITY - 2], al.get(DEFAULT_CAPACITY - 2));
+                                                     ^
+  symbol:   variable DEFAULT_CAPACITY
+  location: class CodexTest_0_7_54
+CodexTest_0_7_54.java:37: error: cannot find symbol
+        assertEquals(DEFAULT_CAPACITY - 1, al.size());
+                     ^
+  symbol:   variable DEFAULT_CAPACITY
+  location: class CodexTest_0_7_54

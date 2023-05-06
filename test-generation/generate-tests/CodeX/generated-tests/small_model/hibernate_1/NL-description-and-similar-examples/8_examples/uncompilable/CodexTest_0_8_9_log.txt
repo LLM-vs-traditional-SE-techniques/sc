@@ -1,0 +1,96 @@
+isCompilable => false
+CodexTest_0_8_9.java:16: error: cannot find symbol
+    assertEquals(new Short((short)0), myType.wrap(null, null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:17: error: cannot find symbol
+    assertEquals(new Short((short)0), myType.wrap(FALSE, null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:18: error: cannot find symbol
+    assertEquals(new Short((short)1), myType.wrap(TRUE, null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:19: error: cannot find symbol
+    assertEquals(new Short((short)0), myType.wrap(new Boolean(false), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:20: error: cannot find symbol
+    assertEquals(new Short((short)1), myType.wrap(new Boolean(true), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+    assertEquals(new Short((short)0), myType.wrap(new Byte((byte)0), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:22: error: cannot find symbol
+    assertEquals(new Short((short)1), myType.wrap(new Byte((byte)1), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:23: error: cannot find symbol
+    assertEquals(new Short((short)0), myType.wrap(new Character((char)0), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:24: error: cannot find symbol
+    assertEquals(new Short((short)1), myType.wrap(new Character((char)1), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:25: error: cannot find symbol
+    assertEquals(new Short((short)0), myType.wrap(new Double(0), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:26: error: cannot find symbol
+    assertEquals(new Short((short)1), myType.wrap(new Double(1), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:27: error: cannot find symbol
+    assertEquals(new Short((short)0), myType.wrap(new Float(0), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:28: error: cannot find symbol
+    assertEquals(new Short((short)1), myType.wrap(new Float(1), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:29: error: cannot find symbol
+    assertEquals(new Short((short)0), myType.wrap(new Integer(0), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:30: error: cannot find symbol
+    assertEquals(new Short((short)1), myType.wrap(new Integer(1), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:31: error: cannot find symbol
+    assertEquals(new Short((short)0), myType.wrap(new Long(0), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:32: error: cannot find symbol
+    assertEquals(new Short((short)1), myType.wrap(new Long(1), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:33: error: cannot find symbol
+    assertEquals(new Short((short)0), myType.wrap(new Short((short)0), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:34: error: cannot find symbol
+    assertEquals(new Short((short)1), myType.wrap(new Short((short)1), null));
+                                      ^
+  symbol:   variable myType
+  location: class CodexTest_0_8_9

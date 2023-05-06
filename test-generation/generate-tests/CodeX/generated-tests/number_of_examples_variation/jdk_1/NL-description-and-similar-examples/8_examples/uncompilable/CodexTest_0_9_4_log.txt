@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_9_4.java:20: error: cannot find symbol
+    public voiDd removeIntHandler(LValue l, IRubyObject receiver, RubyFixnum off, RubyFixnum len) {
+                                  ^
+  symbol:   class LValue
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:20: error: cannot find symbol
+    public voiDd removeIntHandler(LValue l, IRubyObject receiver, RubyFixnum off, RubyFixnum len) {
+                                            ^
+  symbol:   class IRubyObject
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:20: error: cannot find symbol
+    public voiDd removeIntHandler(LValue l, IRubyObject receiver, RubyFixnum off, RubyFixnum len) {
+                                                                  ^
+  symbol:   class RubyFixnum
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:20: error: cannot find symbol
+    public voiDd removeIntHandler(LValue l, IRubyObject receiver, RubyFixnum off, RubyFixnum len) {
+                                                                                  ^
+  symbol:   class RubyFixnum
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:20: error: cannot find symbol
+    public voiDd removeIntHandler(LValue l, IRubyObject receiver, RubyFixnum off, RubyFixnum len) {
+           ^
+  symbol:   class voiDd
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:21: error: cannot find symbol
+        Ruby runtime = l.getRuntime();
+        ^
+  symbol:   class Ruby
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:23: error: cannot find symbol
+        if (obj == null) throw new LExc(l, runtime, "uninitialized stream");
+                                   ^
+  symbol:   class LExc
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:24: error: cannot find symbol
+        Stream o = (Stream) obj;
+        ^
+  symbol:   class Stream
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:24: error: cannot find symbol
+        Stream o = (Stream) obj;
+                    ^
+  symbol:   class Stream
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:27: error: cannot find symbol
+        } catch (IOException ex) {
+                 ^
+  symbol:   class IOException
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:28: error: cannot find symbol
+            throw new LExc(l, runtime, ex.toString());
+                      ^
+  symbol:   class LExc
+  location: class CodexTest_0_9_4

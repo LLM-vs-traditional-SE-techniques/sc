@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_3.java:31: error: package MatrixFactory does not exist
+        DoubleMatrix2D matrix = MatrixFactory.dense.make(1, 2);
+                                             ^

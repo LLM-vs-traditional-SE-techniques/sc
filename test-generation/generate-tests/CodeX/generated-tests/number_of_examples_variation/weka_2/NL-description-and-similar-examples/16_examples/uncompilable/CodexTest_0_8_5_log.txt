@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_5.java:18: error: cannot find symbol
+    Instances model = new Instances(new StringReader(
+                                        ^
+  symbol:   class StringReader
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:44: error: cannot find symbol
+    assertEquals(expected, inst.getAsInstance(model, new FixedRandom(1)));
+                                                         ^
+  symbol:   class FixedRandom
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:45: error: cannot find symbol
+    assertEquals(expected2, inst.getAsInstance(model, new FixedRandom(11)));
+                                                          ^
+  symbol:   class FixedRandom
+  location: class CodexTest_0_8_5

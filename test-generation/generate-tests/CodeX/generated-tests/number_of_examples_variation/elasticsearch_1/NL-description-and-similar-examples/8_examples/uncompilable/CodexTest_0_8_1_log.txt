@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_1.java:66: error: cannot find symbol
+        final IndexingBatchConfig indexingBatchConfig = new IndexingBatchConfig(expected);
+              ^
+  symbol:   class IndexingBatchConfig
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:66: error: cannot find symbol
+        final IndexingBatchConfig indexingBatchConfig = new IndexingBatchConfig(expected);
+                                                            ^
+  symbol:   class IndexingBatchConfig
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:67: error: cannot find symbol
+        assertThat(indexingBatchConfig.parent(), equalTo(expected));
+                                                 ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_1

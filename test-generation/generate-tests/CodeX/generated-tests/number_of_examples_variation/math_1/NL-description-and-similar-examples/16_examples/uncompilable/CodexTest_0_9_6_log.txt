@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_6.java:32: error: cannot find symbol
+      Assert.assertEquals(0.0, p.plus(p.scalarMultiply(-1)).getX(), 1.0e-16);
+                                ^
+  symbol:   method plus(org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: variable p of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_6.java:33: error: cannot find symbol
+      Assert.assertEquals(2.0, p.plus(Vector1D.PLUS_I).getX(), 1.0e-16);
+                                              ^
+  symbol:   variable PLUS_I
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D

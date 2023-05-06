@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_3_3.java:65: error: cannot find symbol
+        assertEquals(parent, new IndexRequest(index, type, id).parent());
+                     ^
+  symbol:   variable parent
+  location: class CodexTest_0_3_3
+CodexTest_0_3_3.java:65: error: cannot find symbol
+        assertEquals(parent, new IndexRequest(index, type, id).parent());
+                                              ^
+  symbol:   variable index
+  location: class CodexTest_0_3_3
+CodexTest_0_3_3.java:65: error: cannot find symbol
+        assertEquals(parent, new IndexRequest(index, type, id).parent());
+                                                     ^
+  symbol:   variable type
+  location: class CodexTest_0_3_3
+CodexTest_0_3_3.java:65: error: cannot find symbol
+        assertEquals(parent, new IndexRequest(index, type, id).parent());
+                                                           ^
+  symbol:   variable id
+  location: class CodexTest_0_3_3

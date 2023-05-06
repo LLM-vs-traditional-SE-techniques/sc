@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_43.java:22: error: cannot find symbol
+        MyCollection underTest = new MyCollection(1, 2, 3);
+        ^
+  symbol:   class MyCollection
+  location: class CodexTest_0_5_43
+CodexTest_0_5_43.java:22: error: cannot find symbol
+        MyCollection underTest = new MyCollection(1, 2, 3);
+                                     ^
+  symbol:   class MyCollection
+  location: class CodexTest_0_5_43

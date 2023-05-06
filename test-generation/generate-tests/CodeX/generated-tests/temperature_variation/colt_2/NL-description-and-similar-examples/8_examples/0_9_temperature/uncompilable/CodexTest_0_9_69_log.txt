@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_69.java:31: error: cannot find symbol
+        DoubleMatrix2D lu = initial.like2D(initial.rows(), initial.columns());
+                                   ^
+  symbol:   method like2D(int,int)
+  location: variable initial of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_9_69.java:32: error: cannot find symbol
+        lu.assign(initial, DoubleFunctions.multSecond(2.0));
+                           ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_9_69

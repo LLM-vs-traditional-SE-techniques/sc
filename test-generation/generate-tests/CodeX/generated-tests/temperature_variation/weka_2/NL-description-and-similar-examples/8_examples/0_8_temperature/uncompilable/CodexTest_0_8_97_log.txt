@@ -1,0 +1,301 @@
+isCompilable => false
+CodexTest_0_8_97.java:17: error: invalid method declaration; return type required
+    assertEquals("Instance size differs", 1, instance.numAttributes());
+    ^
+CodexTest_0_8_97.java:17: error: illegal start of type
+    assertEquals("Instance size differs", 1, instance.numAttributes());
+                 ^
+CodexTest_0_8_97.java:17: error: illegal start of type
+    assertEquals("Instance size differs", 1, instance.numAttributes());
+                                          ^
+CodexTest_0_8_97.java:17: error: <identifier> expected
+    assertEquals("Instance size differs", 1, instance.numAttributes());
+                                                                   ^
+CodexTest_0_8_97.java:17: error: ';' expected
+    assertEquals("Instance size differs", 1, instance.numAttributes());
+                                                                    ^
+CodexTest_0_8_97.java:17: error: illegal start of type
+    assertEquals("Instance size differs", 1, instance.numAttributes());
+                                                                     ^
+CodexTest_0_8_97.java:17: error: <identifier> expected
+    assertEquals("Instance size differs", 1, instance.numAttributes());
+                                                                      ^
+CodexTest_0_8_97.java:17: error: ';' expected
+    assertEquals("Instance size differs", 1, instance.numAttributes());
+                                                                       ^
+CodexTest_0_8_97.java:18: error: illegal start of type
+    assertEquals("Class index differs", 1, instance.classIndex());
+                ^
+CodexTest_0_8_97.java:18: error: <identifier> expected
+    assertEquals("Class index differs", 1, instance.classIndex());
+                 ^
+CodexTest_0_8_97.java:18: error: <identifier> expected
+    assertEquals("Class index differs", 1, instance.classIndex());
+                                       ^
+CodexTest_0_8_97.java:18: error: illegal start of type
+    assertEquals("Class index differs", 1, instance.classIndex());
+                                         ^
+CodexTest_0_8_97.java:18: error: ';' expected
+    assertEquals("Class index differs", 1, instance.classIndex());
+                                                   ^
+CodexTest_0_8_97.java:18: error: invalid method declaration; return type required
+    assertEquals("Class index differs", 1, instance.classIndex());
+                                                    ^
+CodexTest_0_8_97.java:18: error: ';' expected
+    assertEquals("Class index differs", 1, instance.classIndex());
+                                                                ^
+CodexTest_0_8_97.java:19: error: invalid method declaration; return type required
+    assertEquals("Class attribute differs", "class1", instance.classAttribute().toString());
+    ^
+CodexTest_0_8_97.java:19: error: illegal start of type
+    assertEquals("Class attribute differs", "class1", instance.classAttribute().toString());
+                 ^
+CodexTest_0_8_97.java:19: error: illegal start of type
+    assertEquals("Class attribute differs", "class1", instance.classAttribute().toString());
+                                            ^
+CodexTest_0_8_97.java:19: error: <identifier> expected
+    assertEquals("Class attribute differs", "class1", instance.classAttribute().toString());
+                                                                             ^
+CodexTest_0_8_97.java:19: error: ';' expected
+    assertEquals("Class attribute differs", "class1", instance.classAttribute().toString());
+                                                                              ^
+CodexTest_0_8_97.java:19: error: illegal start of type
+    assertEquals("Class attribute differs", "class1", instance.classAttribute().toString());
+                                                                               ^
+CodexTest_0_8_97.java:19: error: ';' expected
+    assertEquals("Class attribute differs", "class1", instance.classAttribute().toString());
+                                                                                          ^
+CodexTest_0_8_97.java:20: error: invalid method declaration; return type required
+    assertEquals("Class attribute not at index", instance.classAttribute(), instance.attribute(1));
+    ^
+CodexTest_0_8_97.java:20: error: illegal start of type
+    assertEquals("Class attribute not at index", instance.classAttribute(), instance.attribute(1));
+                 ^
+CodexTest_0_8_97.java:20: error: <identifier> expected
+    assertEquals("Class attribute not at index", instance.classAttribute(), instance.attribute(1));
+                                                                        ^
+CodexTest_0_8_97.java:20: error: ';' expected
+    assertEquals("Class attribute not at index", instance.classAttribute(), instance.attribute(1));
+                                                                         ^
+CodexTest_0_8_97.java:20: error: illegal start of type
+    assertEquals("Class attribute not at index", instance.classAttribute(), instance.attribute(1));
+                                                                          ^
+CodexTest_0_8_97.java:20: error: ';' expected
+    assertEquals("Class attribute not at index", instance.classAttribute(), instance.attribute(1));
+                                                                                    ^
+CodexTest_0_8_97.java:20: error: invalid method declaration; return type required
+    assertEquals("Class attribute not at index", instance.classAttribute(), instance.attribute(1));
+                                                                                     ^
+CodexTest_0_8_97.java:20: error: illegal start of type
+    assertEquals("Class attribute not at index", instance.classAttribute(), instance.attribute(1));
+                                                                                               ^
+CodexTest_0_8_97.java:20: error: ';' expected
+    assertEquals("Class attribute not at index", instance.classAttribute(), instance.attribute(1));
+                                                                                                 ^
+CodexTest_0_8_97.java:21: error: invalid method declaration; return type required
+    assertEquals("Weka class differs", "weka.core.DenseInstance", instance.getClass().getName());
+    ^
+CodexTest_0_8_97.java:21: error: illegal start of type
+    assertEquals("Weka class differs", "weka.core.DenseInstance", instance.getClass().getName());
+                 ^
+CodexTest_0_8_97.java:21: error: illegal start of type
+    assertEquals("Weka class differs", "weka.core.DenseInstance", instance.getClass().getName());
+                                       ^
+CodexTest_0_8_97.java:21: error: <identifier> expected
+    assertEquals("Weka class differs", "weka.core.DenseInstance", instance.getClass().getName());
+                                                                                   ^
+CodexTest_0_8_97.java:21: error: ';' expected
+    assertEquals("Weka class differs", "weka.core.DenseInstance", instance.getClass().getName());
+                                                                                    ^
+CodexTest_0_8_97.java:21: error: illegal start of type
+    assertEquals("Weka class differs", "weka.core.DenseInstance", instance.getClass().getName());
+                                                                                     ^
+CodexTest_0_8_97.java:21: error: ';' expected
+    assertEquals("Weka class differs", "weka.core.DenseInstance", instance.getClass().getName());
+                                                                                               ^
+CodexTest_0_8_97.java:22: error: invalid method declaration; return type required
+    assertTrue("Instance is missing first attribute", instance.attribute(0) != null);
+    ^
+CodexTest_0_8_97.java:22: error: illegal start of type
+    assertTrue("Instance is missing first attribute", instance.attribute(0) != null);
+               ^
+CodexTest_0_8_97.java:22: error: <identifier> expected
+    assertTrue("Instance is missing first attribute", instance.attribute(0) != null);
+                                                                        ^
+CodexTest_0_8_97.java:22: error: ';' expected
+    assertTrue("Instance is missing first attribute", instance.attribute(0) != null);
+                                                                         ^
+CodexTest_0_8_97.java:22: error: illegal start of type
+    assertTrue("Instance is missing first attribute", instance.attribute(0) != null);
+                                                                          ^
+CodexTest_0_8_97.java:22: error: <identifier> expected
+    assertTrue("Instance is missing first attribute", instance.attribute(0) != null);
+                                                                           ^
+CodexTest_0_8_97.java:22: error: ';' expected
+    assertTrue("Instance is missing first attribute", instance.attribute(0) != null);
+                                                                              ^
+CodexTest_0_8_97.java:22: error: illegal start of type
+    assertTrue("Instance is missing first attribute", instance.attribute(0) != null);
+                                                                                   ^
+CodexTest_0_8_97.java:22: error: <identifier> expected
+    assertTrue("Instance is missing first attribute", instance.attribute(0) != null);
+                                                                                    ^
+CodexTest_0_8_97.java:22: error: ';' expected
+    assertTrue("Instance is missing first attribute", instance.attribute(0) != null);
+                                                                                     ^
+CodexTest_0_8_97.java:23: error: illegal start of type
+    assertTrue("Instance is missing class attribute", instance.classAttribute() != null);
+              ^
+CodexTest_0_8_97.java:23: error: <identifier> expected
+    assertTrue("Instance is missing class attribute", instance.classAttribute() != null);
+               ^
+CodexTest_0_8_97.java:23: error: ';' expected
+    assertTrue("Instance is missing class attribute", instance.classAttribute() != null);
+                                                              ^
+CodexTest_0_8_97.java:23: error: invalid method declaration; return type required
+    assertTrue("Instance is missing class attribute", instance.classAttribute() != null);
+                                                               ^
+CodexTest_0_8_97.java:23: error: ';' expected
+    assertTrue("Instance is missing class attribute", instance.classAttribute() != null);
+                                                                               ^
+CodexTest_0_8_97.java:24: error: invalid method declaration; return type required
+    assertEquals("Name of first attribute differs", "first", instance.attribute(0).name());
+    ^
+CodexTest_0_8_97.java:24: error: illegal start of type
+    assertEquals("Name of first attribute differs", "first", instance.attribute(0).name());
+                 ^
+CodexTest_0_8_97.java:24: error: illegal start of type
+    assertEquals("Name of first attribute differs", "first", instance.attribute(0).name());
+                                                    ^
+CodexTest_0_8_97.java:24: error: <identifier> expected
+    assertEquals("Name of first attribute differs", "first", instance.attribute(0).name());
+                                                                               ^
+CodexTest_0_8_97.java:24: error: ';' expected
+    assertEquals("Name of first attribute differs", "first", instance.attribute(0).name());
+                                                                                ^
+CodexTest_0_8_97.java:24: error: illegal start of type
+    assertEquals("Name of first attribute differs", "first", instance.attribute(0).name());
+                                                                                 ^
+CodexTest_0_8_97.java:24: error: <identifier> expected
+    assertEquals("Name of first attribute differs", "first", instance.attribute(0).name());
+                                                                                  ^
+CodexTest_0_8_97.java:24: error: ';' expected
+    assertEquals("Name of first attribute differs", "first", instance.attribute(0).name());
+                                                                                   ^
+CodexTest_0_8_97.java:24: error: illegal start of type
+    assertEquals("Name of first attribute differs", "first", instance.attribute(0).name());
+                                                                                       ^
+CodexTest_0_8_97.java:24: error: <identifier> expected
+    assertEquals("Name of first attribute differs", "first", instance.attribute(0).name());
+                                                                                        ^
+CodexTest_0_8_97.java:24: error: ';' expected
+    assertEquals("Name of first attribute differs", "first", instance.attribute(0).name());
+                                                                                         ^
+CodexTest_0_8_97.java:25: error: invalid method declaration; return type required
+    assertEquals("Number of values of first attribute differs", 0, instance.attribute(0).numValues());
+    ^
+CodexTest_0_8_97.java:25: error: illegal start of type
+    assertEquals("Number of values of first attribute differs", 0, instance.attribute(0).numValues());
+                 ^
+CodexTest_0_8_97.java:25: error: illegal start of type
+    assertEquals("Number of values of first attribute differs", 0, instance.attribute(0).numValues());
+                                                                ^
+CodexTest_0_8_97.java:25: error: <identifier> expected
+    assertEquals("Number of values of first attribute differs", 0, instance.attribute(0).numValues());
+                                                                                     ^
+CodexTest_0_8_97.java:25: error: ';' expected
+    assertEquals("Number of values of first attribute differs", 0, instance.attribute(0).numValues());
+                                                                                      ^
+CodexTest_0_8_97.java:25: error: illegal start of type
+    assertEquals("Number of values of first attribute differs", 0, instance.attribute(0).numValues());
+                                                                                       ^
+CodexTest_0_8_97.java:25: error: <identifier> expected
+    assertEquals("Number of values of first attribute differs", 0, instance.attribute(0).numValues());
+                                                                                        ^
+CodexTest_0_8_97.java:25: error: ';' expected
+    assertEquals("Number of values of first attribute differs", 0, instance.attribute(0).numValues());
+                                                                                         ^
+CodexTest_0_8_97.java:25: error: illegal start of type
+    assertEquals("Number of values of first attribute differs", 0, instance.attribute(0).numValues());
+                                                                                                  ^
+CodexTest_0_8_97.java:25: error: <identifier> expected
+    assertEquals("Number of values of first attribute differs", 0, instance.attribute(0).numValues());
+                                                                                                   ^
+CodexTest_0_8_97.java:25: error: ';' expected
+    assertEquals("Number of values of first attribute differs", 0, instance.attribute(0).numValues());
+                                                                                                    ^
+CodexTest_0_8_97.java:26: error: invalid method declaration; return type required
+    assertEquals("First attribute is NOT numeric", Attribute.NUMERIC, instance.attribute(0).type());
+    ^
+CodexTest_0_8_97.java:26: error: illegal start of type
+    assertEquals("First attribute is NOT numeric", Attribute.NUMERIC, instance.attribute(0).type());
+                 ^
+CodexTest_0_8_97.java:26: error: <identifier> expected
+    assertEquals("First attribute is NOT numeric", Attribute.NUMERIC, instance.attribute(0).type());
+                                                                    ^
+CodexTest_0_8_97.java:26: error: <identifier> expected
+    assertEquals("First attribute is NOT numeric", Attribute.NUMERIC, instance.attribute(0).type());
+                                                                                        ^
+CodexTest_0_8_97.java:26: error: ';' expected
+    assertEquals("First attribute is NOT numeric", Attribute.NUMERIC, instance.attribute(0).type());
+                                                                                         ^
+CodexTest_0_8_97.java:26: error: illegal start of type
+    assertEquals("First attribute is NOT numeric", Attribute.NUMERIC, instance.attribute(0).type());
+                                                                                          ^
+CodexTest_0_8_97.java:26: error: <identifier> expected
+    assertEquals("First attribute is NOT numeric", Attribute.NUMERIC, instance.attribute(0).type());
+                                                                                           ^
+CodexTest_0_8_97.java:26: error: ';' expected
+    assertEquals("First attribute is NOT numeric", Attribute.NUMERIC, instance.attribute(0).type());
+                                                                                            ^
+CodexTest_0_8_97.java:26: error: illegal start of type
+    assertEquals("First attribute is NOT numeric", Attribute.NUMERIC, instance.attribute(0).type());
+                                                                                                ^
+CodexTest_0_8_97.java:26: error: <identifier> expected
+    assertEquals("First attribute is NOT numeric", Attribute.NUMERIC, instance.attribute(0).type());
+                                                                                                 ^
+CodexTest_0_8_97.java:26: error: ';' expected
+    assertEquals("First attribute is NOT numeric", Attribute.NUMERIC, instance.attribute(0).type());
+                                                                                                  ^
+CodexTest_0_8_97.java:27: error: invalid method declaration; return type required
+    assertEquals("Value of first attribute differs", 1.0, instance.value(0), EPSILON);
+    ^
+CodexTest_0_8_97.java:27: error: illegal start of type
+    assertEquals("Value of first attribute differs", 1.0, instance.value(0), EPSILON);
+                 ^
+CodexTest_0_8_97.java:27: error: illegal start of type
+    assertEquals("Value of first attribute differs", 1.0, instance.value(0), EPSILON);
+                                                     ^
+CodexTest_0_8_97.java:27: error: <identifier> expected
+    assertEquals("Value of first attribute differs", 1.0, instance.value(0), EPSILON);
+                                                                        ^
+CodexTest_0_8_97.java:27: error: ';' expected
+    assertEquals("Value of first attribute differs", 1.0, instance.value(0), EPSILON);
+                                                                         ^
+CodexTest_0_8_97.java:27: error: illegal start of type
+    assertEquals("Value of first attribute differs", 1.0, instance.value(0), EPSILON);
+                                                                          ^
+CodexTest_0_8_97.java:27: error: <identifier> expected
+    assertEquals("Value of first attribute differs", 1.0, instance.value(0), EPSILON);
+                                                                           ^
+CodexTest_0_8_97.java:27: error: ';' expected
+    assertEquals("Value of first attribute differs", 1.0, instance.value(0), EPSILON);
+                                                                            ^
+CodexTest_0_8_97.java:27: error: illegal start of type
+    assertEquals("Value of first attribute differs", 1.0, instance.value(0), EPSILON);
+                                                                                    ^
+CodexTest_0_8_97.java:27: error: <identifier> expected
+    assertEquals("Value of first attribute differs", 1.0, instance.value(0), EPSILON);
+                                                                                     ^
+CodexTest_0_8_97.java:27: error: ';' expected
+    assertEquals("Value of first attribute differs", 1.0, instance.value(0), EPSILON);
+                                                                                      ^
+CodexTest_0_8_97.java:28: error: illegal start of type
+    assertEquals("Missing value for first attribute", false, instance.isMissing(0));
+                ^
+CodexTest_0_8_97.java:28: error: <identifier> expected
+    assertEquals("Missing value for first attribute", false, instance.isMissing(0));
+                 ^
+CodexTest_0_8_97.java:28: error: <identifier> expected
+    assertEquals("Missing value for first attribute", false, instance.isMissing(0));
+                                                     ^

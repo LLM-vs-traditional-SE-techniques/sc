@@ -1,0 +1,23 @@
+isCompilable => false
+CodexTest_0_3_90.java:18: error: cannot find symbol
+    Instances model = new Instances(m_Instances, 0);
+                                    ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_3_90
+CodexTest_0_3_90.java:22: error: cannot find symbol
+    AlgVector v = new AlgVector(m_Instances.numAttributes());
+                                ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_3_90
+CodexTest_0_3_90.java:23: error: cannot find symbol
+    for (int i = 0; i < m_Instances.numAttributes(); i++) {
+                        ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_3_90
+CodexTest_0_3_90.java:24: error: cannot find symbol
+      v.setElement(i, m_Instances.instance(0).value(i));
+                      ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_3_90
+Note: CodexTest_0_3_90.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

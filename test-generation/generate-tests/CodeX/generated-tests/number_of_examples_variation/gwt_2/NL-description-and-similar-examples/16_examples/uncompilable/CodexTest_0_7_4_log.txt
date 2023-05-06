@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_4.java:15: error: incompatible types: com.google.gwt.core.client.GWT.UncaughtExceptionHandler cannot be converted to java.lang.Thread.UncaughtExceptionHandler
+    final Thread.UncaughtExceptionHandler initialHandler = GWT.getUncaughtExceptionHandler();
+                                                                                          ^
+CodexTest_0_7_4.java:20: error: incompatible types: <anonymous java.lang.Thread.UncaughtExceptionHandler> cannot be converted to com.google.gwt.core.client.GWT.UncaughtExceptionHandler
+      GWT.setUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
+                                      ^
+CodexTest_0_7_4.java:43: error: incompatible types: java.lang.Thread.UncaughtExceptionHandler cannot be converted to com.google.gwt.core.client.GWT.UncaughtExceptionHandler
+      GWT.setUncaughtExceptionHandler(initialHandler);
+                                      ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

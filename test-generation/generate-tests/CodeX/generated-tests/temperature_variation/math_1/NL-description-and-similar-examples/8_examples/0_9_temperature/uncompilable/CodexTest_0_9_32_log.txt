@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_9_32.java:32: error: cannot find symbol
+        DoubleMatrix2D matrix = DenseDoubleMatrix2D.Factory.make(arrMatrix);
+        ^
+  symbol:   class DoubleMatrix2D
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:32: error: package DenseDoubleMatrix2D does not exist
+        DoubleMatrix2D matrix = DenseDoubleMatrix2D.Factory.make(arrMatrix);
+                                                   ^
+CodexTest_0_9_32.java:34: error: cannot find symbol
+            Random r = new Random();
+            ^
+  symbol:   class Random
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:34: error: cannot find symbol
+            Random r = new Random();
+                           ^
+  symbol:   class Random
+  location: class CodexTest_0_9_32
+CodexTest_0_9_32.java:36: error: cannot find symbol
+            DoubleMatrix2D otherMatrix = matrix.scalarMultiply(x);
+            ^
+  symbol:   class DoubleMatrix2D
+  location: class CodexTest_0_9_32

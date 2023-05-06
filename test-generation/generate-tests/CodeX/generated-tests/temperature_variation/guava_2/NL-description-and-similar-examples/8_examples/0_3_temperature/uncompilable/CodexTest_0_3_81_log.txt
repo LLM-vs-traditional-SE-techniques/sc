@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_81.java:28: error: cannot find symbol
+      int writtenBytes = bitArray.writeBytesTo(dest, 0, maxLength);
+                         ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_3_81
+CodexTest_0_3_81.java:35: error: cannot find symbol
+              + bitArray.bits() / 8
+                ^
+  symbol:   variable bitArray
+  location: class CodexTest_0_3_81

@@ -1,0 +1,85 @@
+isCompilable => false
+CodexTest_0_9_35.java:16: error: <identifier> expected
+Input: public static boolean isClient() {
+     ^
+CodexTest_0_9_35.java:19: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_35.java:21: error: <identifier> expected
+Input: public static boolean isScript() {
+     ^
+CodexTest_0_9_35.java:24: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_35.java:26: error: <identifier> expected
+Input: public static String getModuleName() {
+     ^
+CodexTest_0_9_35.java:29: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_35.java:31: error: <identifier> expected
+Input: public static String getPermutationStrongName() {
+     ^
+CodexTest_0_9_35.java:34: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_35.java:36: error: <identifier> expected
+Input: public static String getVersion() {
+     ^
+CodexTest_0_9_35.java:39: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_35.java:41: error: <identifier> expected
+Input: public static <H, V> HashMap<H, V> createHashMap() {
+     ^
+CodexTest_0_9_35.java:44: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_35.java:46: error: <identifier> expected
+Input: public static <K, V> LinkedHashMap<K, V> createLinkedHashMap() {
+     ^
+CodexTest_0_9_35.java:49: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_35.java:51: error: <identifier> expected
+Input: public static <K, V> IdentityHashMap<K, V> createIdentityHashMap() {
+     ^
+CodexTest_0_9_35.java:54: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_35.java:56: error: <identifier> expected
+Input: public static <K, V> MapMaker().makeMap() {
+     ^
+CodexTest_0_9_35.java:56: error: invalid method declaration; return type required
+Input: public static <K, V> MapMaker().makeMap() {
+                            ^
+CodexTest_0_9_35.java:56: error: ';' expected
+Input: public static <K, V> MapMaker().makeMap() {
+                                      ^
+CodexTest_0_9_35.java:59: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_35.java:61: error: <identifier> expected
+Input: public static <K, V> ConcurrentMap<K, V> createConcurrentHashMap() {
+     ^
+CodexTest_0_9_35.java:64: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_35.java:66: error: <identifier> expected
+Input: public static <K, V> ConcurrentNavigableMap<K, V> createConcurrentSkipListMap() {
+     ^
+CodexTest_0_9_35.java:69: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_9_35.java:71: error: <identifier> expected
+Input: public static <K, V> boolean doEquals(Map<K, V> m1, Object o2) {
+     ^
+CodexTest_0_9_35.java:73: error: ')' expected
+    if (o2 == this
+                  ^
+CodexTest_0_9_35.java:74: error: illegal start of statement
+}
+^
+CodexTest_0_9_35.java:74: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_2.java:16: error: cannot find symbol
+        assertEquals(Boolean.TRUE, converter.fromString("true"));
+                                   ^
+  symbol:   variable converter
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:17: error: cannot find symbol
+        assertEquals(Boolean.FALSE, converter.fromString("false"));
+                                    ^
+  symbol:   variable converter
+  location: class CodexTest_0_6_2

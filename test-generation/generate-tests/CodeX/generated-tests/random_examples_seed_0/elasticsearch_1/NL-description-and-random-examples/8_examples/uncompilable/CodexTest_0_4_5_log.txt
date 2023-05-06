@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_4_5.java:114: error: ';' expected
+        String temp50
+                     ^
+CodexTest_0_4_5.java:115: error: reached end of file while parsing
+}
+ ^

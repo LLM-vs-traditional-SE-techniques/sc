@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_3_65.java:26: error: int cannot be dereferenced
+    int bytesWritten = Ints.MAX_POWER_OF_TWO.writeBytesTo(dest, 0, 4);
+                                            ^

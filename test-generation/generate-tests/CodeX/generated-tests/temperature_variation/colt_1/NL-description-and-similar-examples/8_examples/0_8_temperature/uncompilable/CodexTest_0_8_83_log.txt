@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_83.java:29: error: <identifier> expected
+   compactSelection.forEach(Receiver);
+                           ^
+CodexTest_0_8_83.java:29: error: <identifier> expected
+   compactSelection.forEach(Receiver);
+                                    ^

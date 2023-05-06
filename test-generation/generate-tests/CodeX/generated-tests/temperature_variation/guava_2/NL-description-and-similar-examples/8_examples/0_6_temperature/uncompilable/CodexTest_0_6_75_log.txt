@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_75.java:26: error: cannot find symbol
+    for (byte[] bytes : allBytes()) {
+                        ^
+  symbol:   method allBytes()
+  location: class CodexTest_0_6_75
+CodexTest_0_6_75.java:28: error: cannot find symbol
+      Bits bits2 = Bits.fromBytes(bytes);
+      ^
+  symbol:   class Bits
+  location: class CodexTest_0_6_75
+CodexTest_0_6_75.java:28: error: cannot find symbol
+      Bits bits2 = Bits.fromBytes(bytes);
+                   ^
+  symbol:   variable Bits
+  location: class CodexTest_0_6_75

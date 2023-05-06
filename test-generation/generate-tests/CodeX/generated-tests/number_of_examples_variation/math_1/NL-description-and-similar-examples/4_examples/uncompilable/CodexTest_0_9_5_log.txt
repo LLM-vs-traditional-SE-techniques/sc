@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_5.java:30: error: illegal start of type
+    [TestMethod, Test]
+    ^
+CodexTest_0_9_5.java:30: error: ';' expected
+    [TestMethod, Test]
+     ^
+CodexTest_0_9_5.java:30: error: illegal start of type
+    [TestMethod, Test]
+               ^
+CodexTest_0_9_5.java:30: error: ';' expected
+    [TestMethod, Test]
+                     ^

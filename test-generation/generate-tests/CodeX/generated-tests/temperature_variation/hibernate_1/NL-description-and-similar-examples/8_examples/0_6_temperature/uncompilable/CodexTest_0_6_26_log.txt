@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_6_26.java:20: error: invalid method declaration; return type required
+        assertEquals(Short.valueOf((short) 1), result);
+        ^
+CodexTest_0_6_26.java:20: error: <identifier> expected
+        assertEquals(Short.valueOf((short) 1), result);
+                                  ^
+CodexTest_0_6_26.java:20: error: ';' expected
+        assertEquals(Short.valueOf((short) 1), result);
+                                   ^
+CodexTest_0_6_26.java:20: error: <identifier> expected
+        assertEquals(Short.valueOf((short) 1), result);
+                                         ^
+CodexTest_0_6_26.java:20: error: illegal start of type
+        assertEquals(Short.valueOf((short) 1), result);
+                                           ^
+CodexTest_0_6_26.java:20: error: <identifier> expected
+        assertEquals(Short.valueOf((short) 1), result);
+                                            ^
+CodexTest_0_6_26.java:20: error: ';' expected
+        assertEquals(Short.valueOf((short) 1), result);
+                                                     ^

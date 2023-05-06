@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_6.java:32: error: cannot find symbol
+        DoubleFFT_1D fft = new DoubleFFT_1D(8);
+        ^
+  symbol:   class DoubleFFT_1D
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:32: error: cannot find symbol
+        DoubleFFT_1D fft = new DoubleFFT_1D(8);
+                               ^
+  symbol:   class DoubleFFT_1D
+  location: class CodexTest_0_8_6

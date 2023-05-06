@@ -1,0 +1,65 @@
+prompt,output
+"Suggest a test for a method with the int writeBytesTo(byte[] dest, int offset, int maxLength) signature.
+
+Input: public final int numElements() {
+      return m_Elements.length;
+  }
+Output: public void testLengthConstructor() {
+    int len = 22;
+    AlgVector v = new AlgVector(len);
+    assertEquals(""Length differs"", len, v.numElements());
+  }
+
+Input: public static HashCode fromBytes(byte[] bytes) {
+    checkArgument(bytes.length >= 1, ""A HashCode must contain at least 1 byte."");
+    return fromBytesNoCopy(bytes.clone());
+  }
+Output: public void testRoundTripHashCodeUsingBaseEncoding() {
+    HashCode hash1 = Hashing.sha1().hashString(""foo"", Charsets.US_ASCII);
+    HashCode hash2 = HashCode.fromBytes(BaseEncoding.base16().lowerCase().decode(hash1.toString()));
+    assertEquals(hash1, hash2);
+  }
+
+Input: public int writeBytesTo(byte[] dest, int offset, int maxLength) {
+    maxLength = Ints.min(maxLength, bits() / 8);
+    Preconditions.checkPositionIndexes(offset, offset + maxLength, dest.length);
+    writeBytesToImpl(dest, offset, maxLength);
+    return maxLength;
+  }
+Output:
+  ","import com.google.common.hash.*;
+import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.common.base.Preconditions.checkNotNull;
+import static com.google.common.base.Preconditions.checkState;
+import com.google.common.annotations.Beta;
+import com.google.common.base.Preconditions;
+import com.google.common.primitives.Ints;
+import com.google.common.primitives.UnsignedInts;
+import java.io.Serializable;
+
+import static com.google.common.io.BaseEncoding.base16;
+import com.google.common.base.Charsets;
+import com.google.common.collect.ImmutableList;
+import com.google.common.io.BaseEncoding;
+import java.util.Arrays;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_8_4 { 
+  @Test
+  public void testWriteBytesTo_destOverrun() {
+    byte[] bytes = new byte[2];
+    int written = bitArray.writeBytesTo(bytes, 1, 1);
+    assertEquals(1, written);
+    assertEquals(
+        0,
+        bytes[0]); // make sure we don't write past the last element, even though it's technically ok
+    assertEquals(
+        (byte) 0b0111,
+        bytes[1]); // next bit was already set, so make sure it doesn't get overwritten
+  }
+```
+}"

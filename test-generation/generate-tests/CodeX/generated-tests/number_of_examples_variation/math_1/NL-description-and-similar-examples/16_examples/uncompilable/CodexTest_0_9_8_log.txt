@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_8.java:31: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D v = new Vector1D(2, 3);
+                                     ^
+CodexTest_0_9_8.java:33: error: x has private access in org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Assert.assertEquals(4, v1.x, 1.0e-12);
+                                 ^
+CodexTest_0_9_8.java:34: error: cannot find symbol
+        Assert.assertEquals(6, v1.y, 1.0e-12);
+                                 ^
+  symbol:   variable y
+  location: variable v1 of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_11.java:21: error: cannot find symbol
+    EmptyClass emp = new EmptyClass();
+    ^
+  symbol:   class EmptyClass
+  location: class CodexTest_0_9_11
+CodexTest_0_9_11.java:21: error: cannot find symbol
+    EmptyClass emp = new EmptyClass();
+                         ^
+  symbol:   class EmptyClass
+  location: class CodexTest_0_9_11
+CodexTest_0_9_11.java:22: error: cannot find symbol
+    assertTrue(test.contains(emp));
+               ^
+  symbol:   variable test
+  location: class CodexTest_0_9_11
+CodexTest_0_9_11.java:23: error: cannot find symbol
+    assertFalse(test.contains(null));
+                ^
+  symbol:   variable test
+  location: class CodexTest_0_9_11

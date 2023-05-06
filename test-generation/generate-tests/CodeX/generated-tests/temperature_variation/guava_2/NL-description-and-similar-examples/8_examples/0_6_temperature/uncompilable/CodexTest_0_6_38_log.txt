@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_38.java:25: error: cannot find symbol
+    for (int i = 0; i < NUM_CYCLES; i++) {
+                        ^
+  symbol:   variable NUM_CYCLES
+  location: class CodexTest_0_6_38

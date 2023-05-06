@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_1_4.java:21: error: cannot find symbol
+        assertTrue(new AlgVector(1.0, 2.0, 3.0).contains(1.0));
+                       ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_1_4
+CodexTest_0_1_4.java:22: error: cannot find symbol
+        assertTrue(new AlgVector(1.0, 2.0, 3.0).contains(2.0));
+                       ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_1_4
+CodexTest_0_1_4.java:23: error: cannot find symbol
+        assertTrue(new AlgVector(1.0, 2.0, 3.0).contains(3.0));
+                       ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_1_4
+CodexTest_0_1_4.java:24: error: cannot find symbol
+        assertFalse(new AlgVector(1.0, 2.0, 3.0).contains(4.0));
+                        ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_1_4

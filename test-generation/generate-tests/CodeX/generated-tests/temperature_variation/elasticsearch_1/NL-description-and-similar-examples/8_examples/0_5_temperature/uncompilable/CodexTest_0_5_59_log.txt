@@ -1,0 +1,20 @@
+isCompilable => false
+CodexTest_0_5_59.java:65: error: package DocumentMapper does not exist
+        DocumentMapper.Builder builder = new DocumentMapper.Builder("type");
+                      ^
+CodexTest_0_5_59.java:65: error: package DocumentMapper does not exist
+        DocumentMapper.Builder builder = new DocumentMapper.Builder("type");
+                                                           ^
+CodexTest_0_5_59.java:67: error: cannot find symbol
+        DocumentMapper documentMapper = builder.build(new Mapper.TypeParser.ParserContext(null, null, null, null));
+        ^
+  symbol:   class DocumentMapper
+  location: class CodexTest_0_5_59
+CodexTest_0_5_59.java:67: error: package Mapper.TypeParser does not exist
+        DocumentMapper documentMapper = builder.build(new Mapper.TypeParser.ParserContext(null, null, null, null));
+                                                                           ^
+CodexTest_0_5_59.java:68: error: cannot find symbol
+        assertThat(documentMapper.parentFieldMapper().fieldType().fieldName(), equalTo("_parent#parent"));
+                                                                               ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_5_59

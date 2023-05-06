@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_9.java:14: error: <identifier> expected
+    UncaughtTestException.exception = new RuntimeException("exception");
+                                   ^
+CodexTest_0_9_9.java:15: error: illegal start of type
+    try {
+    ^
+CodexTest_0_9_9.java:15: error: ';' expected
+    try {
+       ^
+CodexTest_0_9_9.java:16: error: illegal start of type
+      throw UncaughtTestException.exception;
+      ^
+CodexTest_0_9_9.java:16: error: ';' expected
+      throw UncaughtTestException.exception;
+                                 ^
+CodexTest_0_9_9.java:16: error: <identifier> expected
+      throw UncaughtTestException.exception;
+                                           ^
+CodexTest_0_9_9.java:17: error: class, interface, or enum expected
+    } catch (Throwable t) {
+      ^
+CodexTest_0_9_9.java:19: error: class, interface, or enum expected
+    }
+    ^
+CodexTest_0_9_9.java:21: error: class, interface, or enum expected
+}
+^

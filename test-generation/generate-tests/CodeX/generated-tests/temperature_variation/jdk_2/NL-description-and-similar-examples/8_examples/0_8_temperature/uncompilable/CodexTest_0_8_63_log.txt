@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_8_63.java:22: error: cannot find symbol
+    list.add(new String(foo));
+                        ^
+  symbol:   variable foo
+  location: class CodexTest_0_8_63
+CodexTest_0_8_63.java:23: error: cannot find symbol
+    assertTrue(list.contains(foo));
+                             ^
+  symbol:   variable foo
+  location: class CodexTest_0_8_63
+CodexTest_0_8_63.java:24: error: cannot find symbol
+    assertFalse(list.contains(foobar));
+                              ^
+  symbol:   variable foobar
+  location: class CodexTest_0_8_63
+Note: CodexTest_0_8_63.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

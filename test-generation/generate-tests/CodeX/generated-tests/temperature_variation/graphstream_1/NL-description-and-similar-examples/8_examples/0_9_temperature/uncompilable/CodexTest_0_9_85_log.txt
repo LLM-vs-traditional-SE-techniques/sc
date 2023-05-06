@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_9_85.java:20: error: cannot find symbol
+        graph.setStrict(false);
+        ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_85
+CodexTest_0_9_85.java:21: error: cannot find symbol
+        graph.setAutoCreate(true);
+        ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_85
+CodexTest_0_9_85.java:22: error: cannot find symbol
+        graph.addEdge("ab", "a", "b");
+        ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_85
+CodexTest_0_9_85.java:23: error: cannot find symbol
+        graph.addEdge("bc", "b", "c");
+        ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_85
+CodexTest_0_9_85.java:24: error: cannot find symbol
+        graph.addEdge("cd", "c", "d");
+        ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_85
+CodexTest_0_9_85.java:25: error: cannot find symbol
+        Path path = new Path(graph.getEdge("ab"));
+                             ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_85
+CodexTest_0_9_85.java:26: error: cannot find symbol
+        assertTrue(path.contains(graph.getEdge("ab")));
+                                 ^
+  symbol:   variable graph
+  location: class CodexTest_0_9_85

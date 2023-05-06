@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_28.java:30: error: illegal start of type
+        if (elements[0] instanceof Object) {
+        ^
+CodexTest_0_8_28.java:30: error: ']' expected
+        if (elements[0] instanceof Object) {
+                     ^
+CodexTest_0_8_28.java:30: error: ')' expected
+        if (elements[0] instanceof Object) {
+                      ^
+CodexTest_0_8_28.java:30: error: ';' expected
+        if (elements[0] instanceof Object) {
+                       ^
+CodexTest_0_8_28.java:30: error: <identifier> expected
+        if (elements[0] instanceof Object) {
+                                         ^

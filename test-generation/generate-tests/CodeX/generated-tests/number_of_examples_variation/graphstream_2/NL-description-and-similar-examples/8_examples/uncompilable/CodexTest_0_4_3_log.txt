@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_4_3.java:22: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path1.add(new Node("a"));
+                  ^
+CodexTest_0_4_3.java:23: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path1.add(new Node("b"));
+                  ^
+CodexTest_0_4_3.java:24: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path2.add(new Node("a"));
+                  ^
+CodexTest_0_4_3.java:25: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+        path2.add(new Node("b"));
+                  ^

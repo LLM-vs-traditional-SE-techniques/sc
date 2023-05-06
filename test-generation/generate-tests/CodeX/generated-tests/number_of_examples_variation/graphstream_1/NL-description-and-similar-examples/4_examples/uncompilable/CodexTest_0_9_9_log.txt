@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_9.java:30: error: reference to contains is ambiguous
+		assertThat(path.contains(graph.getEdge("ab")), is(true));
+		               ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match
+CodexTest_0_9_9.java:30: error: cannot find symbol
+		assertThat(path.contains(graph.getEdge("ab")), is(true));
+		                                               ^
+  symbol:   method is(boolean)
+  location: class CodexTest_0_9_9

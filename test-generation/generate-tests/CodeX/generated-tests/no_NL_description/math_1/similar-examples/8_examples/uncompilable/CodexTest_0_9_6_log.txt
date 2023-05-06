@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_9_6.java:30: error: ']' expected
+    private Matrix33 [K_]x(Vector3 v) {
+                      ^
+CodexTest_0_9_6.java:30: error: ';' expected
+    private Matrix33 [K_]x(Vector3 v) {
+                        ^
+CodexTest_0_9_6.java:30: error: invalid method declaration; return type required
+    private Matrix33 [K_]x(Vector3 v) {
+                         ^
+CodexTest_0_9_6.java:32: error: illegal start of type
+    }*/
+     ^
+CodexTest_0_9_6.java:32: error: ';' expected
+    }*/
+      ^
+CodexTest_0_9_6.java:33: error: ']' expected
+    private Matrix33 [K_]y(Vector3 v) {
+                      ^
+CodexTest_0_9_6.java:33: error: ';' expected
+    private Matrix33 [K_]y(Vector3 v) {
+                        ^
+CodexTest_0_9_6.java:33: error: invalid method declaration; return type required
+    private Matrix33 [K_]y(Vector3 v) {
+                         ^
+CodexTest_0_9_6.java:36: error: ']' expected
+    private Matrix33 [K_]z(Vector3 v) {
+                      ^
+CodexTest_0_9_6.java:36: error: ';' expected
+    private Matrix33 [K_]z(Vector3 v) {
+                        ^
+CodexTest_0_9_6.java:36: error: invalid method declaration; return type required
+    private Matrix33 [K_]z(Vector3 v) {
+                         ^
+CodexTest_0_9_6.java:46: error: reached end of file while parsing
+}
+ ^

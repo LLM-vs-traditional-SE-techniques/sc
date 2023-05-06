@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_70.java:66: error: package DocumentMapper does not exist
+        DocumentMapper.Builder builder = new DocumentMapper.Builder("type");
+                      ^
+CodexTest_0_7_70.java:66: error: package DocumentMapper does not exist
+        DocumentMapper.Builder builder = new DocumentMapper.Builder("type");
+                                                           ^

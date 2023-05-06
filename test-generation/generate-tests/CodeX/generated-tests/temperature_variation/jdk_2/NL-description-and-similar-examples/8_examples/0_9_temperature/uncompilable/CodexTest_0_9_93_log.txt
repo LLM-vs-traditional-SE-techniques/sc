@@ -1,0 +1,42 @@
+isCompilable => false
+CodexTest_0_9_93.java:21: error: cannot find symbol
+        XmlObject s = XmlObject.Factory.parse("<a xmlns:w=\"http://www.example.org\"><b/></a>");
+        ^
+  symbol:   class XmlObject
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:21: error: package XmlObject does not exist
+        XmlObject s = XmlObject.Factory.parse("<a xmlns:w=\"http://www.example.org\"><b/></a>");
+                               ^
+CodexTest_0_9_93.java:22: error: cannot find symbol
+        XmlObject s2 = XmlObject.Factory.parse("<a xmlns:w=\"http://www.example.org\"><b/></a>");
+        ^
+  symbol:   class XmlObject
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:22: error: package XmlObject does not exist
+        XmlObject s2 = XmlObject.Factory.parse("<a xmlns:w=\"http://www.example.org\"><b/></a>");
+                                ^
+CodexTest_0_9_93.java:23: error: cannot find symbol
+        XmlCursor c = s.newCursor();
+        ^
+  symbol:   class XmlCursor
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:25: error: cannot find symbol
+        XmlCursor c2 = s2.newCursor();
+        ^
+  symbol:   class XmlCursor
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:29: error: cannot find symbol
+        c.setName(new QName("http://www.example.org", "x"));
+                      ^
+  symbol:   class QName
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:30: error: cannot find symbol
+        c2.setName(new QName("http://www.example.org", "y"));
+                       ^
+  symbol:   class QName
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:33: error: cannot find symbol
+        assertTrue(c.nameEquals(new QName("http://www.example.org", "x")));
+                                    ^
+  symbol:   class QName
+  location: class CodexTest_0_9_93

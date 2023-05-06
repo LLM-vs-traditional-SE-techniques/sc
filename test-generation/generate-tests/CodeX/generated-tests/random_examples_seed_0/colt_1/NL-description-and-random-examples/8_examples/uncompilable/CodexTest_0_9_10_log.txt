@@ -1,0 +1,53 @@
+isCompilable => false
+CodexTest_0_9_10.java:31: error: cannot find symbol
+        double[] values = new double[shape[1]];
+                                     ^
+  symbol:   variable shape
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:32: error: cannot find symbol
+        for (int i = 0; i < shape[1]; i++) {
+                            ^
+  symbol:   variable shape
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:35: error: cannot find symbol
+        DoubleMatrix1D source = new DenseDoubleMatrix1D(shape[1], values);
+                                                        ^
+  symbol:   variable shape
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:36: error: cannot find symbol
+        DenseDoubleMatrix1D matrix = new DenseDoubleMatrix1D(rows, columns);
+                                                             ^
+  symbol:   variable rows
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:36: error: cannot find symbol
+        DenseDoubleMatrix1D matrix = new DenseDoubleMatrix1D(rows, columns);
+                                                                   ^
+  symbol:   variable columns
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:37: error: cannot find symbol
+        matrix.assign(source, 0, size);
+                                 ^
+  symbol:   variable size
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:38: error: cannot find symbol
+        for (int r = 0; r < rows; r++) {
+                            ^
+  symbol:   variable rows
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:39: error: cannot find symbol
+            for (int c = 0; c < columns; c++) {
+                                ^
+  symbol:   variable columns
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:40: error: no suitable method found for getQuick(int,int)
+                assertEquals(d, matrix.getQuick(r, c), TOL);
+                                      ^
+    method cern.colt.matrix.DoubleMatrix1D.getQuick(int) is not applicable
+      (actual and formal argument lists differ in length)
+    method cern.colt.matrix.impl.DenseDoubleMatrix1D.getQuick(int) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_9_10.java:40: error: cannot find symbol
+                assertEquals(d, matrix.getQuick(r, c), TOL);
+                                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_9_10

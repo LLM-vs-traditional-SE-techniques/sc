@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_1.java:39: error: cannot find symbol
+        return diagonal(m,n,1,0);
+               ^
+  symbol:   method diagonal(int,int,int,int)
+  location: class CodexTest_0_8_1

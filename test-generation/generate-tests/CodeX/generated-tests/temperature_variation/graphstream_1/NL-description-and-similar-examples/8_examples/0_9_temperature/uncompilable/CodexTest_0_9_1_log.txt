@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_1.java:20: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		Edge a1 = new Edge("a1");
+		          ^
+CodexTest_0_9_1.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+		Edge a2 = new Edge("a2");
+		          ^

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_7.java:47: error: ')' expected
+    assertEquals("4th value differs", 4.4, i.value
+                                                  ^
+CodexTest_0_7_7.java:48: error: reached end of file while parsing
+}
+ ^

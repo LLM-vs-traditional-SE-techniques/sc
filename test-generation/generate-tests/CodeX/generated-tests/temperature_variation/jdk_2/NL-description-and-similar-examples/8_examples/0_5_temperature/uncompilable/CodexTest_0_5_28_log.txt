@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_5_28.java:21: error: cannot find symbol
+        assertTrue(l.contains(new Integer(0)));
+                   ^
+  symbol:   variable l
+  location: class CodexTest_0_5_28
+CodexTest_0_5_28.java:22: error: cannot find symbol
+        assertTrue(l.contains(new Integer(1)));
+                   ^
+  symbol:   variable l
+  location: class CodexTest_0_5_28
+CodexTest_0_5_28.java:23: error: cannot find symbol
+        assertTrue(l.contains(new Integer(2)));
+                   ^
+  symbol:   variable l
+  location: class CodexTest_0_5_28
+CodexTest_0_5_28.java:24: error: cannot find symbol
+        assertTrue(l.contains(new Integer(3)));
+                   ^
+  symbol:   variable l
+  location: class CodexTest_0_5_28
+CodexTest_0_5_28.java:25: error: cannot find symbol
+        assertTrue(l.contains(new Integer(4)));
+                   ^
+  symbol:   variable l
+  location: class CodexTest_0_5_28
+CodexTest_0_5_28.java:26: error: cannot find symbol
+        assertFalse(l.contains(new Integer(5)));
+                    ^
+  symbol:   variable l
+  location: class CodexTest_0_5_28
+CodexTest_0_5_28.java:27: error: cannot find symbol
+        assertFalse(l.contains(null));
+                    ^
+  symbol:   variable l
+  location: class CodexTest_0_5_28

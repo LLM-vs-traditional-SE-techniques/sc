@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_6.java:39: error: unclosed string literal
+"
+^
+CodexTest_0_9_6.java:40: error: illegal start of type
+</code>
+ ^
+CodexTest_0_9_6.java:40: error: ';' expected
+</code>
+  ^
+CodexTest_0_9_6.java:40: error: illegal start of type
+</code>
+      ^
+CodexTest_0_9_6.java:41: error: ';' expected
+How can I escape the special characters in the output text?
+   ^
+CodexTest_0_9_6.java:41: error: ';' expected
+How can I escape the special characters in the output text?
+         ^
+CodexTest_0_9_6.java:41: error: ';' expected
+How can I escape the special characters in the output text?
+                    ^
+CodexTest_0_9_6.java:41: error: ';' expected
+How can I escape the special characters in the output text?
+                                       ^
+CodexTest_0_9_6.java:41: error: ';' expected
+How can I escape the special characters in the output text?
+                                              ^
+CodexTest_0_9_6.java:41: error: ';' expected
+How can I escape the special characters in the output text?
+                                                          ^

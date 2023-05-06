@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_75.java:76: error: cannot find symbol
+        Assert.assertThat(builder.string(), is("{\"query\":{\"term\":{\"name\":\"value\"}}}"));
+                                            ^
+  symbol:   method is(java.lang.String)
+  location: class CodexTest_0_8_75

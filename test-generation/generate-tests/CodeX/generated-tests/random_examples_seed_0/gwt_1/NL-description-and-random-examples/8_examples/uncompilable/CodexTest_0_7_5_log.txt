@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_5.java:19: error: cannot find symbol
+    String result = HtmlUtils.escapeXml(xml, mimeType, charset, isClient());
+                                                                ^
+  symbol:   method isClient()
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:19: error: cannot find symbol
+    String result = HtmlUtils.escapeXml(xml, mimeType, charset, isClient());
+                    ^
+  symbol:   variable HtmlUtils
+  location: class CodexTest_0_7_5

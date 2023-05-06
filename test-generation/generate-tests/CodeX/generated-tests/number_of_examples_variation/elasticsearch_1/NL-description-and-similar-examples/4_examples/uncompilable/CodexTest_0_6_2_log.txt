@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_2.java:65: error: cannot find symbol
+        TreeNode root = new TreeNode("a");
+        ^
+  symbol:   class TreeNode
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:65: error: cannot find symbol
+        TreeNode root = new TreeNode("a");
+                            ^
+  symbol:   class TreeNode
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:66: error: cannot find symbol
+        TreeNode child = new TreeNode("b");
+        ^
+  symbol:   class TreeNode
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:66: error: cannot find symbol
+        TreeNode child = new TreeNode("b");
+                             ^
+  symbol:   class TreeNode
+  location: class CodexTest_0_6_2

@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_9_64.java:27: error: cannot find symbol
+	Entry<Object, Object> entry = Maps.immutableEntry("key", "value");
+	^
+  symbol:   class Entry
+  location: class CodexTest_0_9_64
+CodexTest_0_9_64.java:27: error: cannot find symbol
+	Entry<Object, Object> entry = Maps.immutableEntry("key", "value");
+	                              ^
+  symbol:   variable Maps
+  location: class CodexTest_0_9_64
+CodexTest_0_9_64.java:29: error: cannot find symbol
+	assertEquals(EntryObjectHashingTest.customEntry(0, "a").hashCode(),
+	             ^
+  symbol:   variable EntryObjectHashingTest
+  location: class CodexTest_0_9_64
+CodexTest_0_9_64.java:30: error: cannot find symbol
+	    EntryObjectHashingTest.customEntry(0, "a").hashCode());
+	    ^
+  symbol:   variable EntryObjectHashingTest
+  location: class CodexTest_0_9_64
+CodexTest_0_9_64.java:31: error: cannot find symbol
+	assertEquals(EntryObjectHashingTest.customEntry(0, null).hashCode(),
+	             ^
+  symbol:   variable EntryObjectHashingTest
+  location: class CodexTest_0_9_64
+CodexTest_0_9_64.java:32: error: cannot find symbol
+	    EntryObjectHashingTest.customEntry(0, null).hashCode());
+	    ^
+  symbol:   variable EntryObjectHashingTest
+  location: class CodexTest_0_9_64
+CodexTest_0_9_64.java:33: error: cannot find symbol
+	assertEquals(EntryObjectHashingTest.customEntry(0, null).hashCode(),
+	             ^
+  symbol:   variable EntryObjectHashingTest
+  location: class CodexTest_0_9_64
+CodexTest_0_9_64.java:34: error: cannot find symbol
+	    EntryObjectHashingTest.customEntry(0, "a").hashCode());
+	    ^
+  symbol:   variable EntryObjectHashingTest
+  location: class CodexTest_0_9_64

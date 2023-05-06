@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_90.java:26: error: cannot find symbol
+    assertEquals(3, hashCode.writeBytesTo(dest, 0, 3));
+                    ^
+  symbol:   variable hashCode
+  location: class CodexTest_0_4_90

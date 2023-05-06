@@ -1,0 +1,30 @@
+isCompilable => false
+CodexTest_0_9_7.java:21: error: no suitable constructor found for AlgVector(java.lang.String)
+    assertEquals("Result differs", new AlgVector("[0.0, 1.0]"), v.mul(0));
+                                   ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to weka.core.Instance)
+CodexTest_0_9_7.java:21: error: cannot find symbol
+    assertEquals("Result differs", new AlgVector("[0.0, 1.0]"), v.mul(0));
+                                                                 ^
+  symbol:   method mul(int)
+  location: variable v of type weka.core.AlgVector
+CodexTest_0_9_7.java:22: error: no suitable constructor found for AlgVector(java.lang.String)
+    assertEquals("Result differs", new AlgVector("[1.0, 0.0]"), v.mul(2));
+                                   ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to weka.core.Instance)
+CodexTest_0_9_7.java:22: error: cannot find symbol
+    assertEquals("Result differs", new AlgVector("[1.0, 0.0]"), v.mul(2));
+                                                                 ^
+  symbol:   method mul(int)
+  location: variable v of type weka.core.AlgVector
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

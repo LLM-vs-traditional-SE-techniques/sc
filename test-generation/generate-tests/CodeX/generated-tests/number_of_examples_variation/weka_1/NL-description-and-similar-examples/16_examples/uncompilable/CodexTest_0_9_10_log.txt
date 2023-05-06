@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_10.java:20: error: cannot find symbol
+        AlgVector vcopy = v.copy();
+                           ^
+  symbol:   method copy()
+  location: variable v of type weka.core.AlgVector
+CodexTest_0_9_10.java:21: error: cannot find symbol
+        v.scaleAddToSelf(2.0, vcopy);
+         ^
+  symbol:   method scaleAddToSelf(double,weka.core.AlgVector)
+  location: variable v of type weka.core.AlgVector
+CodexTest_0_9_10.java:26: error: cannot find symbol
+        assertEquals(1.0e-12, v.distance(new AlgVector(expected)), 1.0e-12);
+                               ^
+  symbol:   method distance(weka.core.AlgVector)
+  location: variable v of type weka.core.AlgVector

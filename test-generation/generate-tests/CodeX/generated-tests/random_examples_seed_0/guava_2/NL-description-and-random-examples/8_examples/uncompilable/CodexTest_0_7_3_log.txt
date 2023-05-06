@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_3.java:26: error: cannot find symbol
+      int len = empty.writeBytesTo(dest, 0, 10);
+                ^
+  symbol:   variable empty
+  location: class CodexTest_0_7_3

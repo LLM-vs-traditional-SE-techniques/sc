@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_64.java:66: error: cannot find symbol
+        TermQueryBuilder termQueryBuilder = new TermQueryBuilder("name", "value").parent(parent);
+        ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_4_64
+CodexTest_0_4_64.java:66: error: cannot find symbol
+        TermQueryBuilder termQueryBuilder = new TermQueryBuilder("name", "value").parent(parent);
+                                                ^
+  symbol:   class TermQueryBuilder
+  location: class CodexTest_0_4_64

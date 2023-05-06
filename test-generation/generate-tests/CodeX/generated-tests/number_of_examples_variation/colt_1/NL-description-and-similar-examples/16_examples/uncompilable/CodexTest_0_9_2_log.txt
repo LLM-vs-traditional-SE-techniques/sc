@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_2.java:29: error: cannot find symbol
+        public void test() throws IOException {
+                                  ^
+  symbol:   class IOException
+  location: class CodexTest_0_9_2

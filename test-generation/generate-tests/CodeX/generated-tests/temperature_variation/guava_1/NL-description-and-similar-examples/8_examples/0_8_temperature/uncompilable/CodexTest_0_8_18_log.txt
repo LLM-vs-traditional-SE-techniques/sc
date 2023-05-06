@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_8_18.java:25: error: cannot find symbol
+    long seed = new Random().nextLong();
+                    ^
+  symbol:   class Random
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:26: error: cannot find symbol
+    long value = new Random().nextLong();
+                     ^
+  symbol:   class Random
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:27: error: incompatible types: possible lossy conversion from long to int
+    HashCode one = Hashing.murmur3_128(seed).hashLong(value);
+                                       ^
+CodexTest_0_8_18.java:28: error: incompatible types: possible lossy conversion from long to int
+    HashCode two = Hashing.murmur3_128(seed).hashLong(value);
+                                       ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

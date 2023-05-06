@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_16.java:15: error: cannot find symbol
+        final List caught = new ArrayList();
+              ^
+  symbol:   class List
+  location: class CodexTest_0_8_16
+CodexTest_0_8_16.java:15: error: cannot find symbol
+        final List caught = new ArrayList();
+                                ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_8_16

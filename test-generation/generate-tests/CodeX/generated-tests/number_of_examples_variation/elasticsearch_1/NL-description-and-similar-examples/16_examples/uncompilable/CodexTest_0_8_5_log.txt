@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_5.java:66: error: cannot find symbol
+        Request request = new Request(index);
+        ^
+  symbol:   class Request
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:66: error: cannot find symbol
+        Request request = new Request(index);
+                              ^
+  symbol:   class Request
+  location: class CodexTest_0_8_5

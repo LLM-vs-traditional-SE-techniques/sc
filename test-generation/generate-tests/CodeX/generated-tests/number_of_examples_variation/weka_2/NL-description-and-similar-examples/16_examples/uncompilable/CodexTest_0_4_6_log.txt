@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_4_6.java:21: error: cannot find symbol
+			DenseDoubleMatrix1D v = new DenseDoubleMatrix1D(values);
+			^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:21: error: cannot find symbol
+			DenseDoubleMatrix1D v = new DenseDoubleMatrix1D(values);
+			                            ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:22: error: cannot find symbol
+			ArrayList<Attribute> attributes = new ArrayList<Attribute>();
+			^
+  symbol:   class ArrayList
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:22: error: cannot find symbol
+			ArrayList<Attribute> attributes = new ArrayList<Attribute>();
+			                                      ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:31: error: cannot find symbol
+				assertEquals(numInstances, inst.numInstances());
+				                               ^
+  symbol:   method numInstances()
+  location: variable inst of type weka.core.Instance

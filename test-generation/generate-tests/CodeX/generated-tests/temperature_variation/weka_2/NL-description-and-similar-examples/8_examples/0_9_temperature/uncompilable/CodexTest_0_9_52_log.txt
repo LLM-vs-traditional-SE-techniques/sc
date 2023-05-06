@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_52.java:20: error: cannot find symbol
+    Instances data = TestInstances.createNumericClassesDataset();
+                                  ^
+  symbol:   method createNumericClassesDataset()
+  location: class weka.core.TestInstances

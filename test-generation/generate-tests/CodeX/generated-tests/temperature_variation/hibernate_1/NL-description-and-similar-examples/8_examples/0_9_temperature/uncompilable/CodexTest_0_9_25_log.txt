@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_25.java:16: error: <identifier> expected
+Output: public void testToShortShouldReturnNullOnNull() {
+      ^

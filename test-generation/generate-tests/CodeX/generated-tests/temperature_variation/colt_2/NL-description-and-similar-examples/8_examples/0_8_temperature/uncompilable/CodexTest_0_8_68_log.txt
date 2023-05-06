@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_68.java:39: error: cannot find symbol
+		  	assertEquals("" + i, expected6[i], vector.get(i), TOL);
+		  	                                                  ^
+  symbol:   variable TOL
+  location: class CodexTest_0_8_68

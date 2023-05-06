@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_36.java:28: error: cannot find symbol
+    random.nextBytes(bytes);
+    ^
+  symbol:   variable random
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:29: error: cannot find symbol
+    BytesHashFunction hf = Hashing.md5();
+    ^
+  symbol:   class BytesHashFunction
+  location: class CodexTest_0_9_36
+CodexTest_0_9_36.java:33: error: cannot find symbol
+    checkNotZeros(bytes, result);
+    ^
+  symbol:   method checkNotZeros(byte[],byte[])
+  location: class CodexTest_0_9_36

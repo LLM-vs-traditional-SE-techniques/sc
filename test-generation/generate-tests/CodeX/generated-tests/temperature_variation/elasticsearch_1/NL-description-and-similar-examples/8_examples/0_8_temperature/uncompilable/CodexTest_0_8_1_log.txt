@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_1.java:65: error: cannot find symbol
+        TransportSearchAction searchAction = new TransportSearchAction();
+        ^
+  symbol:   class TransportSearchAction
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:65: error: cannot find symbol
+        TransportSearchAction searchAction = new TransportSearchAction();
+                                                 ^
+  symbol:   class TransportSearchAction
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:66: error: cannot find symbol
+        searchAction.setParent(parent);
+                               ^
+  symbol:   variable parent
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:67: error: cannot find symbol
+        assertEquals(parent, searchAction.parent());
+                     ^
+  symbol:   variable parent
+  location: class CodexTest_0_8_1

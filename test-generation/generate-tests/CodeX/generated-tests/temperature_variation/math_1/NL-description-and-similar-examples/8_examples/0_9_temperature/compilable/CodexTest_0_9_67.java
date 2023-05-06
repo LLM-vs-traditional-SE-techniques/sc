@@ -1,0 +1,37 @@
+import org.apache.commons.math3.geometry.euclidean.oned.*;
+import java.text.NumberFormat;
+import org.apache.commons.math3.exception.MathArithmeticException;
+import org.apache.commons.math3.exception.util.LocalizedFormats;
+import org.apache.commons.math3.geometry.Point;
+import org.apache.commons.math3.geometry.Space;
+import org.apache.commons.math3.geometry.Vector;
+import org.apache.commons.math3.util.FastMath;
+import org.apache.commons.math3.util.MathUtils;
+
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.text.NumberFormat;
+import java.util.Locale;
+import org.apache.commons.math3.exception.DimensionMismatchException;
+import org.apache.commons.math3.exception.MathArithmeticException;
+import org.apache.commons.math3.geometry.Space;
+import org.apache.commons.math3.util.FastMath;
+import org.apache.commons.math3.util.Precision;
+import org.junit.Assert;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import org.junit.*;
+
+
+public class CodexTest_0_9_67 { 
+  @Test
+    public void testTimes() {
+        Vector1D v1 = new Vector1D(1);
+        Vector1D v2 = new Vector1D(-2);
+        Assert.assertEquals(3.0, v2.scalarMultiply(3.0).getX(), 1.0e-7);
+        Assert.assertEquals(-v1.getX(), v1.scalarMultiply(-1).getX(), 1.0e-7);
+    }
+
+}

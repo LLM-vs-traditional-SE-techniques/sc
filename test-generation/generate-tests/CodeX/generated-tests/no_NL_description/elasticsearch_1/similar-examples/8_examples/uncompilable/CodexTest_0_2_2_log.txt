@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_2_2.java:65: error: package ParentJoinFieldMapper does not exist
+        assertEquals("parent", new ParentJoinFieldMapper.Builder("parent").parent("parent").build().parent());
+                                                        ^

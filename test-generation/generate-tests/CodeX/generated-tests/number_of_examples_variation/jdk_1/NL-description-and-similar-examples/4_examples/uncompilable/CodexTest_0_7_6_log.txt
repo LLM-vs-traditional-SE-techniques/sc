@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_7_6.java:42: error: <identifier> expected
+Input: public void removeRange(int fromIndex, int toIndex) {
+     ^
+CodexTest_0_7_6.java:57: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_6.java:73: error: 'try' without 'catch', 'finally' or resource declarations
+        try {
+        ^
+CodexTest_0_7_6.java:76: error: reached end of file while parsing
+}
+ ^

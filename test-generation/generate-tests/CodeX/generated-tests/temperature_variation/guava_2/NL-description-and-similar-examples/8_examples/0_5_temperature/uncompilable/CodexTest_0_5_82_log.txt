@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_5_82.java:25: error: cannot find symbol
+    byte[] dest = new byte[bits() / 8 + 1];
+                           ^
+  symbol:   method bits()
+  location: class CodexTest_0_5_82
+CodexTest_0_5_82.java:26: error: cannot find symbol
+    BitArray ba = new BitArray(bits());
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_5_82
+CodexTest_0_5_82.java:26: error: cannot find symbol
+    BitArray ba = new BitArray(bits());
+                      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_5_82
+CodexTest_0_5_82.java:26: error: cannot find symbol
+    BitArray ba = new BitArray(bits());
+                               ^
+  symbol:   method bits()
+  location: class CodexTest_0_5_82
+CodexTest_0_5_82.java:28: error: cannot find symbol
+    ba.set(bits() - 1);
+           ^
+  symbol:   method bits()
+  location: class CodexTest_0_5_82

@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_7_24.java:26: error: cannot find symbol
+    HashCode hashCode = new TestHashCode(new byte[] { (byte) 0xab, (byte) 0xcd, (byte) 0xef, (byte) 0x01 });
+                            ^
+  symbol:   class TestHashCode
+  location: class CodexTest_0_7_24
+CodexTest_0_7_24.java:27: error: no suitable method found for assertThat(int)
+    assertThat(hashCode.writeBytesTo(array, 0, 2)).isEqualTo(2);
+    ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+CodexTest_0_7_24.java:28: error: no suitable method found for assertThat(byte[])
+    assertThat(array).isEqualTo(new byte[] { (byte) 0xab, (byte) 0xcd });
+    ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))

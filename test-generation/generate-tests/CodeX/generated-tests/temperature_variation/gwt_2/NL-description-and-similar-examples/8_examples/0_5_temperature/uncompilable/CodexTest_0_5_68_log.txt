@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_68.java:15: error: cannot find symbol
+    GWTTestCase.addGwtCreateHandler(new GwtCreateHandler() {
+                                        ^
+  symbol:   class GwtCreateHandler
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:26: error: cannot find symbol
+    GWTTestCase.addTearDownHandler(new TearDownHandler() {
+                                       ^
+  symbol:   class TearDownHandler
+  location: class CodexTest_0_5_68
+CodexTest_0_5_68.java:33: error: cannot find symbol
+    UncaughtExceptionHandler handler = GWT.getUncaughtExceptionHandler();
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_5_68

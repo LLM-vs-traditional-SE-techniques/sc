@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_1.java:25: error: <identifier> expected
+Input: public Object get(Object name) {
+     ^
+CodexTest_0_9_1.java:28: error: <identifier> expected
+Output: public void testObjMissing() {
+      ^

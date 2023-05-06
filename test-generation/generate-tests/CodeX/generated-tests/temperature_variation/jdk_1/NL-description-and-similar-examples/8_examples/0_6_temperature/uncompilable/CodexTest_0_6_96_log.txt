@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_6_96.java:22: error: cannot find symbol
+        final Vector1D[] vectors = new Vector1D[size];
+              ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:22: error: cannot find symbol
+        final Vector1D[] vectors = new Vector1D[size];
+                                       ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:24: error: cannot find symbol
+            vectors[i] = new Vector1D(i);
+                             ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:26: error: cannot find symbol
+        final Vector1D[] originalVectors = new Vector1D[size];
+              ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:26: error: cannot find symbol
+        final Vector1D[] originalVectors = new Vector1D[size];
+                                               ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:28: error: cannot find symbol
+        final Vector1D removed = vectors[3];
+              ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:29: error: cannot find symbol
+        final Vector1D[] expected = new Vector1D[size - 1];
+              ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:29: error: cannot find symbol
+        final Vector1D[] expected = new Vector1D[size - 1];
+                                        ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:32: error: cannot find symbol
+        final Vector1D[] actual = new Vector1D[size - 1];
+              ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:32: error: cannot find symbol
+        final Vector1D[] actual = new Vector1D[size - 1];
+                                      ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_96
+CodexTest_0_6_96.java:35: error: cannot find symbol
+        final Vector1D[] subVectors = Arrays.copyOfRange(vectors, 0, size - 1);
+              ^
+  symbol:   class Vector1D
+  location: class CodexTest_0_6_96

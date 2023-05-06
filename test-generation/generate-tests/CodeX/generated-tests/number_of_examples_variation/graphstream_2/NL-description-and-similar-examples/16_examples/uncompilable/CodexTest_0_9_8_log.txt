@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_8.java:20: error: <identifier> expected
+        path1.add(graph.getNode(a));
+                 ^
+CodexTest_0_9_8.java:20: error: <identifier> expected
+        path1.add(graph.getNode(a));
+                               ^
+CodexTest_0_9_8.java:20: error: ';' expected
+        path1.add(graph.getNode(a));
+                                ^
+CodexTest_0_9_8.java:20: error: illegal start of type
+        path1.add(graph.getNode(a));
+                                 ^
+CodexTest_0_9_8.java:20: error: <identifier> expected
+        path1.add(graph.getNode(a));
+                                  ^
+CodexTest_0_9_8.java:21: error: <identifier> expected
+        path1.add(graph.getNode(b));
+                 ^
+CodexTest_0_9_8.java:21: error: <identifier> expected
+        path1.add(graph.getNode(b));
+                               ^
+CodexTest_0_9_8.java:21: error: ';' expected
+        path1.add(graph.getNode(b));
+                                ^
+CodexTest_0_9_8.java:21: error: illegal start of type
+        path1.add(graph.getNode(b));
+                                 ^
+CodexTest_0_9_8.java:21: error: <identifier> expected
+        path1.add(graph.getNode(b));
+                                  ^
+CodexTest_0_9_8.java:22: error: <identifier> expected
+        path1.add(graph.getNode(d));
+                 ^
+CodexTest_0_9_8.java:22: error: <identifier> expected
+        path1.add(graph.getNode(d));
+                               ^
+CodexTest_0_9_8.java:22: error: ';' expected
+        path1.add(graph.getNode(d));
+                                ^
+CodexTest_0_9_8.java:22: error: illegal start of type
+        path1.add(graph.getNode(d));
+                                 ^
+CodexTest_0_9_8.java:22: error: <identifier> expected
+        path1.add(graph.getNode(d));
+                                  ^

@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_7_3.java:30: error: cannot find symbol
+    		DoubleMatrix1D v = factory().make(new double[]{1,2,3,4,5,6});
+    		                   ^
+  symbol:   method factory()
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:31: error: cannot find symbol
+    		DoubleMatrix1D w = factory().make(new double[]{1,2,3,4,5,6});
+    		                   ^
+  symbol:   method factory()
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:34: error: cannot find symbol
+    		assertEquals(Math.sin(v.getQuick(0)), w.getQuick(0), TOL);
+    		                                                     ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:35: error: cannot find symbol
+    		assertEquals(Math.sin(v.getQuick(1)), w.getQuick(1), TOL);
+    		                                                     ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:36: error: cannot find symbol
+    		assertEquals(Math.sin(v.getQuick(2)), w.getQuick(2), TOL);
+    		                                                     ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:37: error: cannot find symbol
+    		assertEquals(Math.sin(v.getQuick(3)), w.getQuick(3), TOL);
+    		                                                     ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:38: error: cannot find symbol
+    		assertEquals(Math.sin(v.getQuick(4)), w.getQuick(4), TOL);
+    		                                                     ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:39: error: cannot find symbol
+    		assertEquals(Math.sin(v.getQuick(5)), w.getQuick(5), TOL);
+    		                                                     ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_5.java:27: error: cannot find symbol
+	assertThat(hashCode.padToLong(), equalTo(42L));
+	                                 ^
+  symbol:   method equalTo(long)
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:29: error: cannot find symbol
+	assertThat(bytes, equalTo(new byte[]{0, 0, 0, 0, 0, 0, 0, 42}));
+	                  ^
+  symbol:   method equalTo(byte[])
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:30: error: cannot find symbol
+	assertThat(HashCode.fromBytes(bytes).padToLong(), equalTo(42L));
+	                                                  ^
+  symbol:   method equalTo(long)
+  location: class CodexTest_0_9_5

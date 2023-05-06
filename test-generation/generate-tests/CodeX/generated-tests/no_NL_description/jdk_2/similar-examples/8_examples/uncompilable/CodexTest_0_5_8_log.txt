@@ -1,0 +1,131 @@
+isCompilable => false
+CodexTest_0_5_8.java:21: error: cannot find symbol
+        assertTrue("contains", list.contains("A"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:22: error: cannot find symbol
+        assertTrue("contains", list.contains("B"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:23: error: cannot find symbol
+        assertTrue("contains", list.contains("C"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:24: error: cannot find symbol
+        assertTrue("contains", list.contains("D"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:25: error: cannot find symbol
+        assertTrue("contains", list.contains("E"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:26: error: cannot find symbol
+        assertTrue("contains", list.contains("F"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:27: error: cannot find symbol
+        assertTrue("contains", list.contains("G"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:28: error: cannot find symbol
+        assertTrue("contains", list.contains("H"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:29: error: cannot find symbol
+        assertTrue("contains", list.contains("I"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:30: error: cannot find symbol
+        assertTrue("contains", list.contains("J"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:31: error: cannot find symbol
+        assertTrue("contains", list.contains("K"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:32: error: cannot find symbol
+        assertTrue("contains", list.contains("L"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:33: error: cannot find symbol
+        assertTrue("contains", list.contains("M"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:34: error: cannot find symbol
+        assertTrue("contains", list.contains("N"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:35: error: cannot find symbol
+        assertTrue("contains", list.contains("O"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:36: error: cannot find symbol
+        assertTrue("contains", list.contains("P"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:37: error: cannot find symbol
+        assertTrue("contains", list.contains("Q"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:38: error: cannot find symbol
+        assertTrue("contains", list.contains("R"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:39: error: cannot find symbol
+        assertTrue("contains", list.contains("S"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:40: error: cannot find symbol
+        assertTrue("contains", list.contains("T"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:41: error: cannot find symbol
+        assertTrue("contains", list.contains("U"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:42: error: cannot find symbol
+        assertTrue("contains", list.contains("V"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:43: error: cannot find symbol
+        assertTrue("contains", list.contains("W"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:44: error: cannot find symbol
+        assertTrue("contains", list.contains("X"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:45: error: cannot find symbol
+        assertTrue("contains", list.contains("Y"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:46: error: cannot find symbol
+        assertTrue("contains", list.contains("Z"));
+                               ^
+  symbol:   variable list
+  location: class CodexTest_0_5_8

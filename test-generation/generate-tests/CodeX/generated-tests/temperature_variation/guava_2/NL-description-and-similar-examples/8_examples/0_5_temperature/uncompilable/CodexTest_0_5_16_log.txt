@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_5_16.java:47: error: integer number too large: 1234567890
+      new BitArray(new long[] { 0x1234567890
+                                ^
+CodexTest_0_5_16.java:48: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_5_16.java:46: error: 'try' without 'catch', 'finally' or resource declarations
+    try {
+    ^

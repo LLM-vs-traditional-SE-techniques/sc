@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_64.java:21: error: cannot find symbol
+        assertTrue(instanceUnderTest.contains(Integer.valueOf(3)));
+                   ^
+  symbol:   variable instanceUnderTest
+  location: class CodexTest_0_9_64
+CodexTest_0_9_64.java:22: error: cannot find symbol
+        assertFalse(instanceUnderTest.contains(Integer.valueOf(1000)));
+                    ^
+  symbol:   variable instanceUnderTest
+  location: class CodexTest_0_9_64
+CodexTest_0_9_64.java:23: error: cannot find symbol
+        unmodifiableCollection.contains(Integer.valueOf(3));
+        ^
+  symbol:   variable unmodifiableCollection
+  location: class CodexTest_0_9_64
+CodexTest_0_9_64.java:25: error: cannot find symbol
+            unmodifiableCollection.contains(Integer.valueOf(1000));
+            ^
+  symbol:   variable unmodifiableCollection
+  location: class CodexTest_0_9_64

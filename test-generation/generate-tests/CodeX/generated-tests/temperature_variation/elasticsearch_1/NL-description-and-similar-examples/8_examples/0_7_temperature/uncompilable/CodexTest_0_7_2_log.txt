@@ -1,0 +1,116 @@
+isCompilable => false
+CodexTest_0_7_2.java:71: error: cannot find symbol
+        session.store(new Parent(parent));
+                          ^
+  symbol:   class Parent
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:71: error: cannot find symbol
+        session.store(new Parent(parent));
+        ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:72: error: cannot find symbol
+        session.store(new Child(child, parent));
+                          ^
+  symbol:   class Child
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:72: error: cannot find symbol
+        session.store(new Child(child, parent));
+        ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:73: error: cannot find symbol
+        session.store(new GrandChild(grandChild, child));
+                          ^
+  symbol:   class GrandChild
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:73: error: cannot find symbol
+        session.store(new GrandChild(grandChild, child));
+        ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:74: error: cannot find symbol
+        session.store(new GreatGrandChild(greatGrandChild, grandChild));
+                          ^
+  symbol:   class GreatGrandChild
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:74: error: cannot find symbol
+        session.store(new GreatGrandChild(greatGrandChild, grandChild));
+        ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:75: error: cannot find symbol
+        session.store(new GreatGrandChild(greatGreatGrandChild, grandChild));
+                          ^
+  symbol:   class GreatGrandChild
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:75: error: cannot find symbol
+        session.store(new GreatGrandChild(greatGreatGrandChild, grandChild));
+        ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:76: error: cannot find symbol
+        session.store(new GreatGreatGrandChild(greatGreatGreatGrandChild, greatGrandChild));
+                          ^
+  symbol:   class GreatGreatGrandChild
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:76: error: cannot find symbol
+        session.store(new GreatGreatGrandChild(greatGreatGreatGrandChild, greatGrandChild));
+        ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:77: error: cannot find symbol
+        session.saveChanges();
+        ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:78: error: cannot find symbol
+        session.delete(parent);
+        ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:79: error: cannot find symbol
+        session.saveChanges();
+        ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:80: error: cannot find symbol
+        assertNull(session.load(Parent.class, parent));
+                                ^
+  symbol:   class Parent
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:80: error: cannot find symbol
+        assertNull(session.load(Parent.class, parent));
+                   ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:83: error: cannot find symbol
+        assertNull(session.load(GreatGrandChild.class, greatGrandChild));
+                                ^
+  symbol:   class GreatGrandChild
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:83: error: cannot find symbol
+        assertNull(session.load(GreatGrandChild.class, greatGrandChild));
+                   ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:84: error: cannot find symbol
+        assertNull(session.load(GreatGrandChild.class, greatGreatGrandChild));
+                                ^
+  symbol:   class GreatGrandChild
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:84: error: cannot find symbol
+        assertNull(session.load(GreatGrandChild.class, greatGreatGrandChild));
+                   ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:85: error: cannot find symbol
+        assertNull(session.load(GreatGreatGrandChild.class, greatGreatGreatGrandChild));
+                                ^
+  symbol:   class GreatGreatGrandChild
+  location: class CodexTest_0_7_2
+CodexTest_0_7_2.java:85: error: cannot find symbol
+        assertNull(session.load(GreatGreatGrandChild.class, greatGreatGreatGrandChild));
+                   ^
+  symbol:   variable session
+  location: class CodexTest_0_7_2

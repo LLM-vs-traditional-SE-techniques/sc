@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_42.java:24: error: cannot find symbol
+        assertThat(list, contains(2, 3));
+                         ^
+  symbol:   method contains(int,int)
+  location: class CodexTest_0_7_42
+CodexTest_0_7_42.java:26: error: cannot find symbol
+        assertThat(list, contains(3));
+                         ^
+  symbol:   method contains(int)
+  location: class CodexTest_0_7_42
+CodexTest_0_7_42.java:28: error: cannot find symbol
+        assertThat(list, empty());
+                         ^
+  symbol:   method empty()
+  location: class CodexTest_0_7_42

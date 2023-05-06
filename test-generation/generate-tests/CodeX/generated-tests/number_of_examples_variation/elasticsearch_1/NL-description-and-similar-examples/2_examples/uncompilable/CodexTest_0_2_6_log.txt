@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_2_6.java:65: error: cannot find symbol
+        assertEquals(this.parent, new ArrayList<Object>().parent());
+                         ^
+  symbol: variable parent
+CodexTest_0_2_6.java:65: error: cannot find symbol
+        assertEquals(this.parent, new ArrayList<Object>().parent());
+                                                         ^
+  symbol:   method parent()
+  location: class java.util.ArrayList<java.lang.Object>

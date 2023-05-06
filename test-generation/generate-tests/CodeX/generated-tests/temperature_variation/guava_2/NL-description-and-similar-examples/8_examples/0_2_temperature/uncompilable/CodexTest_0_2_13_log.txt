@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_2_13.java:28: error: cannot find symbol
+    int bits = bits();
+               ^
+  symbol:   method bits()
+  location: class CodexTest_0_2_13
+CodexTest_0_2_13.java:32: error: cannot find symbol
+    writeBytesToImpl(expected, 0, length);
+    ^
+  symbol:   method writeBytesToImpl(byte[],int,int)
+  location: class CodexTest_0_2_13
+CodexTest_0_2_13.java:33: error: int cannot be dereferenced
+    int written = bits.writeBytesTo(dest, offset, maxLength);
+                      ^

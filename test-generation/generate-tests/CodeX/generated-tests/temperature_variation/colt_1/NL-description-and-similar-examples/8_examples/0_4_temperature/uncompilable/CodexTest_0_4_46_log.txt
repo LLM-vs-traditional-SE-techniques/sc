@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_4_46.java:33: error: cannot find symbol
+        assertEquals(11, m.get(0), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_46
+CodexTest_0_4_46.java:34: error: cannot find symbol
+        assertEquals(12, m.get(1), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_46
+CodexTest_0_4_46.java:35: error: cannot find symbol
+        assertEquals(13, m.get(2), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_46
+CodexTest_0_4_46.java:36: error: cannot find symbol
+        assertEquals(14, m.get(3), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_46
+CodexTest_0_4_46.java:37: error: cannot find symbol
+        assertEquals(15, m.get(4), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_46
+CodexTest_0_4_46.java:38: error: cannot find symbol
+        assertEquals(16, m.get(5), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_46
+CodexTest_0_4_46.java:39: error: cannot find symbol
+        assertEquals(17, m.get(6), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_46
+CodexTest_0_4_46.java:40: error: cannot find symbol
+        assertEquals(18, m.get(7), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_46
+CodexTest_0_4_46.java:41: error: cannot find symbol
+        assertEquals(19, m.get(8), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_46
+CodexTest_0_4_46.java:42: error: cannot find symbol
+        assertEquals(20, m.get(9), TOL);
+                                   ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_46
+CodexTest_0_4_46.java:43: error: cannot find symbol
+        assertEquals(21, m.get(10), TOL);
+                                    ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_46
+CodexTest_0_4_46.java:44: error: cannot find symbol
+        assertEquals(22, m.get(11), TOL);
+                                    ^
+  symbol:   variable TOL
+  location: class CodexTest_0_4_46

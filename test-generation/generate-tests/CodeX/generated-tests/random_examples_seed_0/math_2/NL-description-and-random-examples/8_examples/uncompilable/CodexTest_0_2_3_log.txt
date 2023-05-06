@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_2_3.java:31: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D p1 = new Vector1D(1, 2);
+                                      ^
+CodexTest_0_2_3.java:32: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D p2 = new Vector1D(3, 4);
+                                      ^
+CodexTest_0_2_3.java:33: error: cannot find symbol
+        double d = distanceSq(p1, p2);
+                   ^
+  symbol:   method distanceSq(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_2_3
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

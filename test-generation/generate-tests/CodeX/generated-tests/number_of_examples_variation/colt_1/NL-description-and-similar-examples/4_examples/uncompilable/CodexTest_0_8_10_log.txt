@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_8_10.java:43: error: incompatible types: cern.colt.matrix.DoubleMatrix1D cannot be converted to cern.colt.matrix.DoubleMatrix2D
+		mat.zMult(d1,d2,3,3,false,false);
+		          ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

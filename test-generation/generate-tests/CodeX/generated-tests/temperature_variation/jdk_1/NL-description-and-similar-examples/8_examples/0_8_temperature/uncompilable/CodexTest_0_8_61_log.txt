@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_61.java:22: error: cannot find symbol
+            IndexRequest indexRequest = new IndexRequest("");
+            ^
+  symbol:   class IndexRequest
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:22: error: cannot find symbol
+            IndexRequest indexRequest = new IndexRequest("");
+                                            ^
+  symbol:   class IndexRequest
+  location: class CodexTest_0_8_61
+CodexTest_0_8_61.java:26: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("Failed to parse request body"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_61

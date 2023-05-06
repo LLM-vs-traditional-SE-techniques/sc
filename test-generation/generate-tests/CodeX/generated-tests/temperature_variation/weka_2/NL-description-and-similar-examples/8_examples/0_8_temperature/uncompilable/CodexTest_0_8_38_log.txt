@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_38.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(InstancesTest.carRelation)), 0);
+                                            ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_8_38
+CodexTest_0_8_38.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(InstancesTest.carRelation)), 0);
+                                                               ^
+  symbol:   class StringReader
+  location: class CodexTest_0_8_38
+CodexTest_0_8_38.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(InstancesTest.carRelation)), 0);
+                                                                            ^
+  symbol:   variable InstancesTest
+  location: class CodexTest_0_8_38

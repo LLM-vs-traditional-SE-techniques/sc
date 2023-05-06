@@ -1,0 +1,2 @@
+org.graphstream.graph.Path()
+org.graphstream.graph.Path.equals(org.graphstream.graph.Path)

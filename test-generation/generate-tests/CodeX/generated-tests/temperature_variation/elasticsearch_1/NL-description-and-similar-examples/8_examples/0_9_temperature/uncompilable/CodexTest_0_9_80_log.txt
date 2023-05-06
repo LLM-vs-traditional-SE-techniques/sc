@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_80.java:65: error: cannot find symbol
+                Parent p = new Parent("1", "", "", "", "", "", "");
+                ^
+  symbol:   class Parent
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:65: error: cannot find symbol
+                Parent p = new Parent("1", "", "", "", "", "", "");
+                               ^
+  symbol:   class Parent
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:66: error: cannot find symbol
+                Child c = new Child("1", "", "", "", "", "", "", "", "", "", "", "");
+                ^
+  symbol:   class Child
+  location: class CodexTest_0_9_80
+CodexTest_0_9_80.java:66: error: cannot find symbol
+                Child c = new Child("1", "", "", "", "", "", "", "", "", "", "", "");
+                              ^
+  symbol:   class Child
+  location: class CodexTest_0_9_80

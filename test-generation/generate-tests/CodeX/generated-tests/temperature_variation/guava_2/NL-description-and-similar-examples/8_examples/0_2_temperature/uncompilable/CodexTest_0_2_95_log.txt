@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_2_95.java:28: error: cannot find symbol
+    int bits = bits();
+               ^
+  symbol:   method bits()
+  location: class CodexTest_0_2_95
+CodexTest_0_2_95.java:33: error: cannot find symbol
+      writeBytesTo(dest, offset, maxLength);
+      ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_2_95

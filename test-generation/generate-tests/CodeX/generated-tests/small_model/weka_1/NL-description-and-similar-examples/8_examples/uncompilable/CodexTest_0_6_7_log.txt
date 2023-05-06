@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_7.java:18: error: incompatible types: int cannot be converted to weka.core.Instances
+        AlgVector a = new AlgVector(5,2.5);
+                                    ^
+CodexTest_0_6_7.java:19: error: incompatible types: int cannot be converted to weka.core.Instances
+        AlgVector b = new AlgVector(5,1.5);
+                                    ^
+CodexTest_0_6_7.java:21: error: incompatible types: int cannot be converted to weka.core.Instances
+        assertEquals(new AlgVector(5,3.0), c);
+                                   ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

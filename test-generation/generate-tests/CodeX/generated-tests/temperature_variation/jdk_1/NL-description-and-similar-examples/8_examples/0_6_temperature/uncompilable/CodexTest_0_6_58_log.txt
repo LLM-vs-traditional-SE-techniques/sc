@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_58.java:21: error: cannot find symbol
+        SimpleArrayList<Integer> list = new SimpleArrayList<>();
+        ^
+  symbol:   class SimpleArrayList
+  location: class CodexTest_0_6_58
+CodexTest_0_6_58.java:21: error: cannot find symbol
+        SimpleArrayList<Integer> list = new SimpleArrayList<>();
+                                            ^
+  symbol:   class SimpleArrayList
+  location: class CodexTest_0_6_58

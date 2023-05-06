@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        assertFalse(c.contains(null));
+                    ^
+  symbol:   variable c
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:22: error: cannot find symbol
+        c.add(null);
+        ^
+  symbol:   variable c
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:23: error: cannot find symbol
+        assertTrue(c.contains(null));
+                   ^
+  symbol:   variable c
+  location: class CodexTest_0_8_9

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_3_2.java:69: error: cannot find symbol
+        assertThat(indexRequest.source(), equalTo(source));
+                                          ^
+  symbol:   method equalTo(java.util.Map<java.lang.String,java.lang.Object>)
+  location: class CodexTest_0_3_2
+CodexTest_0_3_2.java:70: error: cannot find symbol
+        assertThat(indexRequest.sourceAsMap(), equalTo(source));
+                                               ^
+  symbol:   method equalTo(java.util.Map<java.lang.String,java.lang.Object>)
+  location: class CodexTest_0_3_2
+CodexTest_0_3_2.java:71: error: cannot find symbol
+        assertToXContentEquivalent(source, indexRequest.source(), indexRequest.getContentType());
+        ^
+  symbol:   method assertToXContentEquivalent(java.util.Map<java.lang.String,java.lang.Object>,org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.xcontent.XContentType)
+  location: class CodexTest_0_3_2

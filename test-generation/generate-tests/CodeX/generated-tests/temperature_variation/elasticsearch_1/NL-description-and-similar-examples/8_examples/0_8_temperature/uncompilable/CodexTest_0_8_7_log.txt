@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_7.java:65: error: cannot find symbol
+					String asdf = path.parent().toString();
+					              ^
+  symbol:   variable path
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:66: error: cannot find symbol
+                    assertEquals(GSONPATH_IS, String.format(GSONPATH_IS, parent, asdf));				
+                                 ^
+  symbol:   variable GSONPATH_IS
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:66: error: cannot find symbol
+                    assertEquals(GSONPATH_IS, String.format(GSONPATH_IS, parent, asdf));				
+                                                            ^
+  symbol:   variable GSONPATH_IS
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:66: error: cannot find symbol
+                    assertEquals(GSONPATH_IS, String.format(GSONPATH_IS, parent, asdf));				
+                                                                         ^
+  symbol:   variable parent
+  location: class CodexTest_0_8_7

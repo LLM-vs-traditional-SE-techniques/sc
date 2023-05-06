@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_45.java:69: error: ')' expected
+        if (mtxA.get(ii, jj) != mtxB.get(ii
+                                           ^
+CodexTest_0_8_45.java:70: error: illegal start of statement
+}
+ ^

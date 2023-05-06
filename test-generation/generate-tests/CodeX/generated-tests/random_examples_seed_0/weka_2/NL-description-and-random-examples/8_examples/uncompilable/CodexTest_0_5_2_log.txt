@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_2.java:25: error: cannot find symbol
+        Assert.assertEquals(instance, instance.getAsInstance(model, random));
+                                                             ^
+  symbol:   variable model
+  location: class CodexTest_0_5_2

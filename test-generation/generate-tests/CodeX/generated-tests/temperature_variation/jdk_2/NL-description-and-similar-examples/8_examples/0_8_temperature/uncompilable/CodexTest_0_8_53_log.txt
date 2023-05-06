@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_53.java:21: error: cannot find symbol
+        assertTrue(new FixedSizeArrayList<>(1).contains(0));
+                       ^
+  symbol:   class FixedSizeArrayList
+  location: class CodexTest_0_8_53
+CodexTest_0_8_53.java:24: error: cannot find symbol
+        assertFalse(new FixedSizeArrayList<>(1).contains(1));
+                        ^
+  symbol:   class FixedSizeArrayList
+  location: class CodexTest_0_8_53

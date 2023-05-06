@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_9_10.java:67: error: cannot find symbol
+            Map source = new StringMap(3);
+                             ^
+  symbol:   class StringMap
+  location: class CodexTest_0_9_10
+Note: CodexTest_0_9_10.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

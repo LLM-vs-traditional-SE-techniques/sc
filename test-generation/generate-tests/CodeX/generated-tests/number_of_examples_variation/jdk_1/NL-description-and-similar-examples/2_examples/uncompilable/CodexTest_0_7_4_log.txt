@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_7_4.java:21: error: cannot find symbol
+			List<String> list = this.newList();
+			                        ^
+  symbol: method newList()

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_8.java:20: error: <identifier> expected
+Input: public double getX() {
+     ^
+CodexTest_0_7_8.java:23: error: <identifier> expected
+Output: public void testCoordinates() {
+      ^

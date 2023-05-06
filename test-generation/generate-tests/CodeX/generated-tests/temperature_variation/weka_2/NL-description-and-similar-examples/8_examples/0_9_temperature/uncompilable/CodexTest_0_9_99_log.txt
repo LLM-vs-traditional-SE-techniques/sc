@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_99.java:18: error: cannot find symbol
+    instance.setDataset(null);
+    ^
+  symbol:   variable instance
+  location: class CodexTest_0_9_99
+CodexTest_0_9_99.java:20: error: cannot find symbol
+      instance.getAsInstance(instanceWithNegativeClassIndex, null);
+                             ^
+  symbol:   variable instanceWithNegativeClassIndex
+  location: class CodexTest_0_9_99
+CodexTest_0_9_99.java:20: error: cannot find symbol
+      instance.getAsInstance(instanceWithNegativeClassIndex, null);
+      ^
+  symbol:   variable instance
+  location: class CodexTest_0_9_99

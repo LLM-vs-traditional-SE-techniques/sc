@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_7.java:18: error: cannot find symbol
+    List<String> list = emptyList();
+    ^
+  symbol:   class List
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:18: error: cannot find symbol
+    List<String> list = emptyList();
+                        ^
+  symbol:   method emptyList()
+  location: class CodexTest_0_8_7

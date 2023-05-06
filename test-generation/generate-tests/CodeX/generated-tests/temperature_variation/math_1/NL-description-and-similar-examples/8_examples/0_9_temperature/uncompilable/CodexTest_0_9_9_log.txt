@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_9.java:34: error: cannot find symbol
+                            new Vector1D(4).scalarAdd(-4));
+                                           ^
+  symbol:   method scalarAdd(int)
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D

@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_51.java:27: error: cannot find symbol
+      BitArray bitArray = new BitArray();
+      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:27: error: cannot find symbol
+      BitArray bitArray = new BitArray();
+                              ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:28: error: cannot find symbol
+      int item = r.nextInt();
+                 ^
+  symbol:   variable r
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:30: error: bad operand types for binary operator '&'
+        bitArray = bitArray.add(item & (1 << j) != 0);
+                                     ^
+  first type:  int
+  second type: boolean
+CodexTest_0_8_51.java:34: error: cannot find symbol
+        assertEquals(getByte(item, k), bytes[3 - k]);
+                     ^
+  symbol:   method getByte(int,int)
+  location: class CodexTest_0_8_51

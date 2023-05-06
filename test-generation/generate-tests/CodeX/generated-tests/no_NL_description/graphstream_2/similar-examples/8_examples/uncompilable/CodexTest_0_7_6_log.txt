@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_7_6.java:25: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+            p1.add(new Edge(new Node(String.valueOf(i)), new Node(String.valueOf(i + 1))));
+                            ^
+CodexTest_0_7_6.java:25: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+            p1.add(new Edge(new Node(String.valueOf(i)), new Node(String.valueOf(i + 1))));
+                                                         ^
+CodexTest_0_7_6.java:25: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+            p1.add(new Edge(new Node(String.valueOf(i)), new Node(String.valueOf(i + 1))));
+                   ^
+CodexTest_0_7_6.java:26: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+            p2.add(new Edge(new Node(String.valueOf(i)), new Node(String.valueOf(i + 1))));
+                            ^
+CodexTest_0_7_6.java:26: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+            p2.add(new Edge(new Node(String.valueOf(i)), new Node(String.valueOf(i + 1))));
+                                                         ^
+CodexTest_0_7_6.java:26: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+            p2.add(new Edge(new Node(String.valueOf(i)), new Node(String.valueOf(i + 1))));
+                   ^

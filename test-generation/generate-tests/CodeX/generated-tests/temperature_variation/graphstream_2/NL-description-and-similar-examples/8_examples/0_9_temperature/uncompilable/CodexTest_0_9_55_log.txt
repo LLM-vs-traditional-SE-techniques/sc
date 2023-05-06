@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_55.java:21: error: cannot find symbol
+            p.setRoot(new GraphNode());
+                          ^
+  symbol:   class GraphNode
+  location: class CodexTest_0_9_55
+CodexTest_0_9_55.java:22: error: cannot find symbol
+            GraphNode n = new GraphNode();
+            ^
+  symbol:   class GraphNode
+  location: class CodexTest_0_9_55
+CodexTest_0_9_55.java:22: error: cannot find symbol
+            GraphNode n = new GraphNode();
+                              ^
+  symbol:   class GraphNode
+  location: class CodexTest_0_9_55
+CodexTest_0_9_55.java:23: error: cannot find symbol
+            p.add(nv);
+                  ^
+  symbol:   variable nv
+  location: class CodexTest_0_9_55
+CodexTest_0_9_55.java:24: error: cannot find symbol
+            p.add(nv);
+                  ^
+  symbol:   variable nv
+  location: class CodexTest_0_9_55
+CodexTest_0_9_55.java:25: error: cannot find symbol
+            p.add(nv);
+                  ^
+  symbol:   variable nv
+  location: class CodexTest_0_9_55

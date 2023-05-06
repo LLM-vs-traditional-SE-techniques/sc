@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_88.java:21: error: unclosed string literal
+    }"
+     ^
+CodexTest_0_9_88.java:22: error: illegal start of type
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_9_88.java:22: error: ';' expected
+Input: public Boolean fromString(String string) {
+      ^
+CodexTest_0_9_88.java:25: error: <identifier> expected
+Output: @Test
+      ^
+CodexTest_0_9_88.java:28: error: illegal start of type
+	}"""
+	 ^
+CodexTest_0_9_88.java:28: error: unclosed string literal
+	}"""
+	   ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_7.java:36: error: cannot find symbol
+        Assert.assertEquals(v2.getX(), v3.getY(), 1.0e-12);
+                                         ^
+  symbol:   method getY()
+  location: variable v3 of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D

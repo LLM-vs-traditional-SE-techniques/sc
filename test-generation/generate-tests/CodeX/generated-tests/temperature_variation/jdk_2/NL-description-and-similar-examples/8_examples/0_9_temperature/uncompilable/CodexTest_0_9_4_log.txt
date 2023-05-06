@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_4.java:21: error: cannot find symbol
+        if (modCount != l.modCount)
+            ^
+  symbol:   variable modCount
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:21: error: cannot find symbol
+        if (modCount != l.modCount)
+                        ^
+  symbol:   variable l
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:23: error: cannot find symbol
+        int[] values = {white, 11, 12, 13, 14, 20, 30, white};
+                        ^
+  symbol:   variable white
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:23: error: cannot find symbol
+        int[] values = {white, 11, 12, 13, 14, 20, 30, white};
+                                                       ^
+  symbol:   variable white
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:24: error: cannot find symbol
+        MyList list = new MyList(values);
+        ^
+  symbol:   class MyList
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:24: error: cannot find symbol
+        MyList list = new MyList(values);
+                          ^
+  symbol:   class MyList
+  location: class CodexTest_0_9_4

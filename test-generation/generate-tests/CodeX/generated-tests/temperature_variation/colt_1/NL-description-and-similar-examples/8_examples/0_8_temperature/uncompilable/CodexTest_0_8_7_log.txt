@@ -1,0 +1,38 @@
+isCompilable => false
+CodexTest_0_8_7.java:32: error: incompatible types: double[] cannot be converted to double[][]
+		DoubleMatrix1D vector = f.make(values);
+		                               ^
+CodexTest_0_8_7.java:33: error: incompatible types: double[] cannot be converted to double[][]
+		DoubleMatrix1D vector2 = f.make(values);
+		                                ^
+CodexTest_0_8_7.java:34: error: cannot find symbol
+		vector2.assign(Functions.pow(2));
+		               ^
+  symbol:   variable Functions
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:38: error: cannot find symbol
+		vector.assign(vector2, Functions.pow(2));
+		                       ^
+  symbol:   variable Functions
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:42: error: cannot find symbol
+		vector2.assign(Functions.pow(2));
+		               ^
+  symbol:   variable Functions
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:43: error: cannot find symbol
+		vector.assign(vector2, Functions.pow(2));
+		                       ^
+  symbol:   variable Functions
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:47: error: cannot find symbol
+		vector.assign(Functions.tan(2));
+		              ^
+  symbol:   variable Functions
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:48: error: cannot find symbol
+		vector.assign(Functions.pow(vector));
+		              ^
+  symbol:   variable Functions
+  location: class CodexTest_0_8_7
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

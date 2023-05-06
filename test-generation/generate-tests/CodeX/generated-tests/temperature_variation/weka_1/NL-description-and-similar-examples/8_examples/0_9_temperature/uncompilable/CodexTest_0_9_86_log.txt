@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_86.java:18: error: ';' expected
+Suggest a test for a method with the boolean isEmpty() signature.
+         ^
+CodexTest_0_9_86.java:18: error: <identifier> expected
+Suggest a test for a method with the boolean isEmpty() signature.
+              ^
+CodexTest_0_9_86.java:18: error: ';' expected
+Suggest a test for a method with the boolean isEmpty() signature.
+                           ^
+CodexTest_0_9_86.java:18: error: ';' expected
+Suggest a test for a method with the boolean isEmpty() signature.
+                                    ^
+CodexTest_0_9_86.java:18: error: ';' expected
+Suggest a test for a method with the boolean isEmpty() signature.
+                                                      ^
+CodexTest_0_9_86.java:22: error: <identifier> expected
+Output: public void testIsEmpty() {
+      ^

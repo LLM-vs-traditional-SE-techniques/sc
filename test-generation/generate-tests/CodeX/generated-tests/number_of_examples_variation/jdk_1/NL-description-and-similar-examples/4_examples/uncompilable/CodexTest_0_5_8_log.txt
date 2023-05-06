@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_5_8.java:22: error: incompatible types: cannot infer type arguments for java.util.ArrayList<>
+        final ArrayList<String> list = new ArrayList<>(Arrays.asList(es));
+                                                    ^
+    reason: inference variable E has incompatible bounds
+      equality constraints: java.lang.String
+      lower bounds: T,java.lang.Object
+CodexTest_0_5_8.java:28: error: cannot find symbol
+        assertEquals(Arrays.asList(es).subList(1, 2).concat(Arrays.asList(es).subList(3, es.length - 1)), list);
+                                                    ^
+  symbol:   method concat(java.util.List<java.lang.Object>)
+  location: interface java.util.List<java.lang.Object>

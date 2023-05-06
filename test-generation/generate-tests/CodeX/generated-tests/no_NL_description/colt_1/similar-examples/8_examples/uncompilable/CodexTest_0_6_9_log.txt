@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_6_9.java:36: error: cannot find symbol
+        C.assign(A, Functions.chain(Functions.plus(1), Functions.square));
+                                    ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:36: error: cannot find symbol
+        C.assign(A, Functions.chain(Functions.plus(1), Functions.square));
+                                                       ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:36: error: cannot find symbol
+        C.assign(A, Functions.chain(Functions.plus(1), Functions.square));
+                    ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:37: error: cannot find symbol
+        assertEquals(B.assign(Functions.plus(1)), C);
+                              ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:39: error: cannot find symbol
+        D.assign(A, Functions.chain(Functions.plus(1), Functions.square), Functions.plus);
+                                    ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:39: error: cannot find symbol
+        D.assign(A, Functions.chain(Functions.plus(1), Functions.square), Functions.plus);
+                                                       ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:39: error: cannot find symbol
+        D.assign(A, Functions.chain(Functions.plus(1), Functions.square), Functions.plus);
+                    ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:39: error: cannot find symbol
+        D.assign(A, Functions.chain(Functions.plus(1), Functions.square), Functions.plus);
+                                                                          ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:40: error: cannot find symbol
+        assertEquals(B.assign(Functions.plus(1)), D);
+                              ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:42: error: cannot find symbol
+        E.assign(A, Functions.chain(Functions.plus(1), Functions.square), Functions.plus, B);
+                                    ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:42: error: cannot find symbol
+        E.assign(A, Functions.chain(Functions.plus(1), Functions.square), Functions.plus, B);
+                                                       ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:42: error: cannot find symbol
+        E.assign(A, Functions.chain(Functions.plus(1), Functions.square), Functions.plus, B);
+                    ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:42: error: cannot find symbol
+        E.assign(A, Functions.chain(Functions.plus(1), Functions.square), Functions.plus, B);
+                                                                          ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9
+CodexTest_0_6_9.java:43: error: cannot find symbol
+        assertEquals(B.assign(Functions.plus(1)), E);
+                              ^
+  symbol:   variable Functions
+  location: class CodexTest_0_6_9

@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_7_21.java:21: error: cannot find symbol
+        assertFalse(this.list.contains(3));
+                        ^
+  symbol: variable list
+CodexTest_0_7_21.java:22: error: cannot find symbol
+        this.list.add(3);
+            ^
+  symbol: variable list
+CodexTest_0_7_21.java:23: error: cannot find symbol
+        assertTrue(this.list.contains(3));
+                       ^
+  symbol: variable list

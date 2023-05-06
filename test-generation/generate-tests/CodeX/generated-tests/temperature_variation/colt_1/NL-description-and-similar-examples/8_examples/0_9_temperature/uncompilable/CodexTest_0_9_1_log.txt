@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_1.java:31: error: cannot find symbol
+            new DenseDoubleMatrix2D(COLUMNS,ROWS,
+                                    ^
+  symbol:   variable COLUMNS
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:31: error: cannot find symbol
+            new DenseDoubleMatrix2D(COLUMNS,ROWS,
+                                            ^
+  symbol:   variable ROWS
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:32: error: cannot find symbol
+                          new double[COLUMNS*ROWS]);
+                                     ^
+  symbol:   variable COLUMNS
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:32: error: cannot find symbol
+                          new double[COLUMNS*ROWS]);
+                                             ^
+  symbol:   variable ROWS
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:34: error: cannot find symbol
+            new DenseDoubleMatrix2D(COLUMNS,ROWS);
+                                    ^
+  symbol:   variable COLUMNS
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:34: error: cannot find symbol
+            new DenseDoubleMatrix2D(COLUMNS,ROWS);
+                                            ^
+  symbol:   variable ROWS
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:36: error: cannot find symbol
+        for (int c = 0; c < COLUMNS; ++c) {
+                            ^
+  symbol:   variable COLUMNS
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:37: error: cannot find symbol
+            for (int r = 0; r < ROWS; ++r) {
+                                ^
+  symbol:   variable ROWS
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:38: error: cannot find symbol
+                assertEquals(0,A.getQuick(c,r),TOL);
+                                               ^
+  symbol:   variable TOL
+  location: class CodexTest_0_9_1

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_81.java:24: error: cannot find symbol
+            path1.add(createNode("node1"));
+                      ^
+  symbol:   method createNode(java.lang.String)
+  location: class CodexTest_0_7_81
+CodexTest_0_7_81.java:25: error: cannot find symbol
+            path2.add(createNode("node1"));
+                      ^
+  symbol:   method createNode(java.lang.String)
+  location: class CodexTest_0_7_81
+CodexTest_0_7_81.java:26: error: cannot find symbol
+            path2.add(createNode("node2"));
+                      ^
+  symbol:   method createNode(java.lang.String)
+  location: class CodexTest_0_7_81

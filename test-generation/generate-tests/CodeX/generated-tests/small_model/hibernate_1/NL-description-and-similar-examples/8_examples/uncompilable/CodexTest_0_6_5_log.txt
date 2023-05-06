@@ -1,0 +1,77 @@
+isCompilable => false
+CodexTest_0_6_5.java:17: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 0, descriptor.wrap( false, null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:18: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 1, descriptor.wrap( true, null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:19: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 2, descriptor.wrap( "2", null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:20: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 3, descriptor.wrap( (short) 3, null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:21: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 4, descriptor.wrap( (byte) 4, null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:22: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 5, descriptor.wrap( (float) 5, null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:23: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 6, descriptor.wrap( (double) 6, null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:24: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 7, descriptor.wrap( "7", null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:25: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 8, descriptor.wrap( (long) 8, null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:26: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 9, descriptor.wrap( (char) 9, null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:27: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 10, descriptor.wrap( new Integer( 10 ), null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:28: error: no suitable constructor found for Byte(int)
+    assertEquals( (short) 11, descriptor.wrap( new Byte( 11 ), null ) );
+                                               ^
+    constructor java.lang.Byte.Byte(byte) is not applicable
+      (argument mismatch; possible lossy conversion from int to byte)
+    constructor java.lang.Byte.Byte(java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+CodexTest_0_6_5.java:29: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 12, descriptor.wrap( new Float( 12 ), null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:30: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 13, descriptor.wrap( new Double( 13 ), null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:31: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 14, descriptor.wrap( new Long( 14 ), null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:32: error: cannot find symbol
+    assertEquals( (short) 15, descriptor.wrap( new Character( u0015 ), null ) );
+                                                              ^
+  symbol:   variable u0015
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:32: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 15, descriptor.wrap( new Character( u0015 ), null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+CodexTest_0_6_5.java:33: error: reference to assertEquals is ambiguous
+    assertEquals( (short) 16, descriptor.wrap( new String( "16" ), null ) );
+    ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match

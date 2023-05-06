@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_8.java:16: error: incompatible types: possible lossy conversion from int to short
+		return value ? 1 : 0;
+		             ^

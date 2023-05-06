@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_6_8.java:30: error: cern.colt.matrix.DoubleMatrix2D is abstract; cannot be instantiated
+        assertEquals(new DenseDoubleMatrix2D(3, 2).rows(), new DoubleMatrix2D().like2D(3, 2).rows());
+                                                           ^

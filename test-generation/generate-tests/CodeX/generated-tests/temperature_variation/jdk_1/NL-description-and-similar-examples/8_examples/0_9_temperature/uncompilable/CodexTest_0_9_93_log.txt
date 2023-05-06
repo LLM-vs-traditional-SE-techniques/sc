@@ -1,0 +1,33 @@
+isCompilable => false
+CodexTest_0_9_93.java:21: error: package ActivityManager does not exist
+        ActivityManager.TaskDescription description = new ActivityManager.TaskDescription("title", null, 0);
+                       ^
+CodexTest_0_9_93.java:21: error: package ActivityManager does not exist
+        ActivityManager.TaskDescription description = new ActivityManager.TaskDescription("title", null, 0);
+                                                                         ^
+CodexTest_0_9_93.java:22: error: cannot find symbol
+        description.setPrimaryColor(Color.argb(1, 2, 3, 4));
+                                    ^
+  symbol:   variable Color
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:23: error: cannot find symbol
+        assertTrue(description.getPrimaryColor() == Color.argb(1, 2, 3, 4));
+                                                    ^
+  symbol:   variable Color
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:24: error: cannot find symbol
+        description.setPrimaryColor(Color.argb(5, 6, 7, 8));
+                                    ^
+  symbol:   variable Color
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:25: error: cannot find symbol
+        assertTrue(description.getPrimaryColor() == Color.argb(5, 6, 7, 8));
+                                                    ^
+  symbol:   variable Color
+  location: class CodexTest_0_9_93
+CodexTest_0_9_93.java:26: error: package ActivityManager does not exist
+        description.setPrimaryColor(ActivityManager.TaskDescription.DEFAULT_PRIMARY_COLOR);
+                                                   ^
+CodexTest_0_9_93.java:27: error: package ActivityManager does not exist
+        assertTrue(description.getPrimaryColor() == ActivityManager.TaskDescription.DEFAULT_PRIMARY_COLOR);
+                                                                   ^

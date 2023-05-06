@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_8_43.java:21: error: cannot find symbol
+		Graph graph = new SparseMultigraph<>();
+		                  ^
+  symbol:   class SparseMultigraph
+  location: class CodexTest_0_8_43
+CodexTest_0_8_43.java:23: error: package SparseMultigraph does not exist
+			pathA.setRoot(new SparseMultigraph.Node(0));
+			                                  ^
+CodexTest_0_8_43.java:24: error: package SparseMultigraph does not exist
+			pathA.add( new SparseMultigraph.Node(1));
+			                               ^
+CodexTest_0_8_43.java:26: error: package SparseMultigraph does not exist
+			pathB.setRoot(new SparseMultigraph.Node(0));
+			                                  ^
+CodexTest_0_8_43.java:27: error: package SparseMultigraph does not exist
+			pathB.add( new SparseMultigraph.Node(2));
+			                               ^

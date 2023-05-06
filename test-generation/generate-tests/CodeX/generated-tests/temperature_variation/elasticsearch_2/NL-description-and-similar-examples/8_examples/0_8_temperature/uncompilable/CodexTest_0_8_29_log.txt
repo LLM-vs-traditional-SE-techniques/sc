@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_29.java:67: error: cannot find symbol
+        assertThat(request.index(), equalTo("index"));
+                                    ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_29
+CodexTest_0_8_29.java:68: error: cannot find symbol
+        assertThat(request.type(), equalTo("type"));
+                                   ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_29
+CodexTest_0_8_29.java:69: error: cannot find symbol
+        assertThat(request.routing(), equalTo("routing"));
+                                      ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_29
+CodexTest_0_8_29.java:70: error: cannot find symbol
+        assertThat(request.source(), equalTo(builder.bytes()));
+                                     ^
+  symbol:   method equalTo(org.elasticsearch.common.bytes.BytesReference)
+  location: class CodexTest_0_8_29
+CodexTest_0_8_29.java:71: error: cannot find symbol
+        assertThat(request.opType(), equalTo(DocWriteRequest.OpType.INDEX));
+                                     ^
+  symbol:   method equalTo(org.elasticsearch.action.DocWriteRequest.OpType)
+  location: class CodexTest_0_8_29

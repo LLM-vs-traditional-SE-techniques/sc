@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_13.java:67: error: ';' expected
+    int numRelRel
+                 ^
+CodexTest_0_2_13.java:68: error: reached end of file while parsing
+}
+ ^

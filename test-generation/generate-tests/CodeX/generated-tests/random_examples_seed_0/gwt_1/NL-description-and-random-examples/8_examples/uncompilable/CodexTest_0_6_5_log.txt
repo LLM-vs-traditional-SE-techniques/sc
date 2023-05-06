@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_5.java:17: error: package Window does not exist
+    assertTrue(Window.Navigator.isClient());
+                     ^
+CodexTest_0_6_5.java:19: error: package Window does not exist
+    assertFalse(Window.Navigator.isServer());
+                      ^

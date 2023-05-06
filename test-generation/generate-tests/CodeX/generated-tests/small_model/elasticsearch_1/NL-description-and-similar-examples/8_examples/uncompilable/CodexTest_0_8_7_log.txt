@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_7.java:65: error: cannot find symbol
+    assertEquals(name, childNodes.get(0).getName());
+                 ^
+  symbol:   variable name
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:65: error: cannot find symbol
+    assertEquals(name, childNodes.get(0).getName());
+                       ^
+  symbol:   variable childNodes
+  location: class CodexTest_0_8_7

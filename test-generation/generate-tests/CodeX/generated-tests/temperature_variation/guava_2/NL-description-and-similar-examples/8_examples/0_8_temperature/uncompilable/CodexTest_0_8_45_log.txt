@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_45.java:26: error: package Longs does not exist
+        new Longs.LongHashCode(0x0000555555555555L).asInt(),
+                 ^
+CodexTest_0_8_45.java:29: error: package Longs does not exist
+        new Longs.LongHashCode(0x5555555555555555L).asInt(),
+                 ^

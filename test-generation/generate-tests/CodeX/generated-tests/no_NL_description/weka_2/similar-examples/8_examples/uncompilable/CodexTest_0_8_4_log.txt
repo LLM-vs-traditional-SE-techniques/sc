@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_4.java:20: error: cannot find symbol
+    Instances header = new Instances(m_Data,numAtts);
+                                     ^
+  symbol:   variable m_Data
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:24: error: cannot find symbol
+      empty = getAsInstance(header, new Random());
+              ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: class CodexTest_0_8_4

@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_10.java:15: error: cannot find symbol
+        assertNotNull("default handler", Log.getUncaughtExceptionHandler());
+                                         ^
+  symbol:   variable Log
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:16: error: cannot find symbol
+        Log.setUncaughtExceptionHandler(null);
+        ^
+  symbol:   variable Log
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:17: error: cannot find symbol
+        assertNull("null handler", Log.getUncaughtExceptionHandler());
+                                   ^
+  symbol:   variable Log
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:18: error: cannot find symbol
+        Log.setUncaughtExceptionHandler(sUncaughtExceptionHandler);
+                                        ^
+  symbol:   variable sUncaughtExceptionHandler
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:18: error: cannot find symbol
+        Log.setUncaughtExceptionHandler(sUncaughtExceptionHandler);
+        ^
+  symbol:   variable Log
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:19: error: cannot find symbol
+        assertEquals("restored handler", sUncaughtExceptionHandler, Log.getUncaughtExceptionHandler());
+                                         ^
+  symbol:   variable sUncaughtExceptionHandler
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:19: error: cannot find symbol
+        assertEquals("restored handler", sUncaughtExceptionHandler, Log.getUncaughtExceptionHandler());
+                                                                    ^
+  symbol:   variable Log
+  location: class CodexTest_0_8_10

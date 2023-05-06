@@ -1,0 +1,27 @@
+isCompilable => false
+CodexTest_0_9_1.java:15: error: cannot find symbol
+    final AtomicInteger handler1Calls = new AtomicInteger();
+          ^
+  symbol:   class AtomicInteger
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:15: error: cannot find symbol
+    final AtomicInteger handler1Calls = new AtomicInteger();
+                                            ^
+  symbol:   class AtomicInteger
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:16: error: cannot find symbol
+    final AtomicInteger handler2Calls = new AtomicInteger();
+          ^
+  symbol:   class AtomicInteger
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:16: error: cannot find symbol
+    final AtomicInteger handler2Calls = new AtomicInteger();
+                                            ^
+  symbol:   class AtomicInteger
+  location: class CodexTest_0_9_1
+CodexTest_0_9_1.java:18: error: method setUncaughtExceptionHandler in class com.google.gwt.core.client.GWT cannot be applied to given types;
+    GWT.setUncaughtExceptionHandler(
+       ^
+  required: com.google.gwt.core.client.GWT.UncaughtExceptionHandler
+  found: (e)->handl[...]Get(),java.lang.RuntimeException
+  reason: actual and formal argument lists differ in length

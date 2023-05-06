@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_3.java:21: error: cannot find symbol
+       Assert.assertEquals((short) BooleanTypeDescriptor.NumericBooleanTypeDescriptor.TRUE, result);
+                                                        ^
+  symbol:   variable NumericBooleanTypeDescriptor
+  location: class org.hibernate.type.descriptor.java.BooleanTypeDescriptor
+CodexTest_0_9_3.java:21: error: reference to assertEquals is ambiguous
+       Assert.assertEquals((short) BooleanTypeDescriptor.NumericBooleanTypeDescriptor.TRUE, result);
+             ^
+  both method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert and method assertEquals(long,long) in org.junit.Assert match

@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_8_7.java:18: error: cannot find symbol
+      this.weight = 1;
+          ^
+  symbol: variable weight

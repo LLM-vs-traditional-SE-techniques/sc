@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_2.java:67: error: cannot find symbol
+        ShardRouting shardRouting = new ShardRouting(shardId, "nodeId", true, ShardRoutingState.INITIALIZING, 1);
+        ^
+  symbol:   class ShardRouting
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:67: error: cannot find symbol
+        ShardRouting shardRouting = new ShardRouting(shardId, "nodeId", true, ShardRoutingState.INITIALIZING, 1);
+                                        ^
+  symbol:   class ShardRouting
+  location: class CodexTest_0_4_2
+CodexTest_0_4_2.java:67: error: cannot find symbol
+        ShardRouting shardRouting = new ShardRouting(shardId, "nodeId", true, ShardRoutingState.INITIALIZING, 1);
+                                                                              ^
+  symbol:   variable ShardRoutingState
+  location: class CodexTest_0_4_2

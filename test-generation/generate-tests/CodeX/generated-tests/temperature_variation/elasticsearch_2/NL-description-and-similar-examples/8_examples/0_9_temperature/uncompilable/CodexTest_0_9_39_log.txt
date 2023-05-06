@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_9_39.java:72: error: cannot find symbol
+            assertThat(e.getMessage(), containsString("contentType [CBOR] is not supported"));
+                                       ^
+  symbol:   method containsString(java.lang.String)
+  location: class CodexTest_0_9_39
+Note: CodexTest_0_9_39.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

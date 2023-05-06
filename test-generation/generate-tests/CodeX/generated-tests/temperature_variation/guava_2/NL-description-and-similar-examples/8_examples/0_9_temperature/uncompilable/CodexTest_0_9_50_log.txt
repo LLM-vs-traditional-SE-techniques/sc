@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_50.java:28: error: cannot find symbol
+        LongHashFunction hashFunction = LongHashFunction.xx_r39();
+        ^
+  symbol:   class LongHashFunction
+  location: class CodexTest_0_9_50
+CodexTest_0_9_50.java:28: error: cannot find symbol
+        LongHashFunction hashFunction = LongHashFunction.xx_r39();
+                                        ^
+  symbol:   variable LongHashFunction
+  location: class CodexTest_0_9_50
+CodexTest_0_9_50.java:29: error: cannot find symbol
+        LongAsBytesConverter converter = LongAsBytesConverter.INSTANCE;
+        ^
+  symbol:   class LongAsBytesConverter
+  location: class CodexTest_0_9_50
+CodexTest_0_9_50.java:29: error: cannot find symbol
+        LongAsBytesConverter converter = LongAsBytesConverter.INSTANCE;
+                                         ^
+  symbol:   variable LongAsBytesConverter
+  location: class CodexTest_0_9_50
+CodexTest_0_9_50.java:30: error: cannot find symbol
+        LongsHashFunctionWithGenericConverterTest.checkConversions(converter, hashFunction, input, expected, output);
+        ^
+  symbol:   variable LongsHashFunctionWithGenericConverterTest
+  location: class CodexTest_0_9_50

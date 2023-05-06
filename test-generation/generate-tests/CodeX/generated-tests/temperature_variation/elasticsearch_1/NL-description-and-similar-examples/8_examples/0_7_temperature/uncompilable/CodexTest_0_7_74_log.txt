@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_74.java:68: error: cannot find symbol
+        parent().returns(expected);
+        ^
+  symbol:   method parent()
+  location: class CodexTest_0_7_74
+CodexTest_0_7_74.java:69: error: cannot find symbol
+        output = parent();
+                 ^
+  symbol:   method parent()
+  location: class CodexTest_0_7_74

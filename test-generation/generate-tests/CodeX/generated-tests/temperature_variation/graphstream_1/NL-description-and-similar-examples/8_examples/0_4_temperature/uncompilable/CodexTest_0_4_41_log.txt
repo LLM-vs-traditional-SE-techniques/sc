@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_4_41.java:21: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    path.add(new Edge(new Node(0), new Node(1)));
+                      ^
+CodexTest_0_4_41.java:21: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    path.add(new Edge(new Node(0), new Node(1)));
+                                   ^
+CodexTest_0_4_41.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    path.add(new Edge(new Node(0), new Node(1)));
+             ^
+CodexTest_0_4_41.java:22: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    path.add(new Edge(new Node(1), new Node(2)));
+                      ^
+CodexTest_0_4_41.java:22: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    path.add(new Edge(new Node(1), new Node(2)));
+                                   ^
+CodexTest_0_4_41.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    path.add(new Edge(new Node(1), new Node(2)));
+             ^
+CodexTest_0_4_41.java:23: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    path.add(new Edge(new Node(2), new Node(3)));
+                      ^
+CodexTest_0_4_41.java:23: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    path.add(new Edge(new Node(2), new Node(3)));
+                                   ^
+CodexTest_0_4_41.java:23: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    path.add(new Edge(new Node(2), new Node(3)));
+             ^
+CodexTest_0_4_41.java:24: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    assertTrue(path.contains(new Edge(new Node(1), new Node(2))));
+                                      ^
+CodexTest_0_4_41.java:24: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    assertTrue(path.contains(new Edge(new Node(1), new Node(2))));
+                                                   ^
+CodexTest_0_4_41.java:24: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    assertTrue(path.contains(new Edge(new Node(1), new Node(2))));
+                             ^
+CodexTest_0_4_41.java:25: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    assertFalse(path.contains(new Edge(new Node(1), new Node(3))));
+                                       ^
+CodexTest_0_4_41.java:25: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    assertFalse(path.contains(new Edge(new Node(1), new Node(3))));
+                                                    ^
+CodexTest_0_4_41.java:25: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    assertFalse(path.contains(new Edge(new Node(1), new Node(3))));
+                              ^

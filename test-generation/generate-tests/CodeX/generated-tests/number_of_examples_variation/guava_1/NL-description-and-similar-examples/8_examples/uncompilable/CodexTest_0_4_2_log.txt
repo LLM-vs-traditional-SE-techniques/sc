@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_2.java:30: error: integer number too large: FFFFFFFFFFFFFFFFF
+      0x1000000000000001L, 0xFFFFFFFFFFFFFFFFFL, 0x10000000000000000L,
+                           ^
+CodexTest_0_4_2.java:30: error: integer number too large: 10000000000000000
+      0x1000000000000001L, 0xFFFFFFFFFFFFFFFFFL, 0x10000000000000000L,
+                                                 ^
+CodexTest_0_4_2.java:31: error: integer number too large: 10000000000000001
+      0x10000000000000001L, 0xFFFFFFFFFFFFFFFFFFL, 0x7FFFFFFFFFFFFFFFL,
+      ^
+CodexTest_0_4_2.java:31: error: integer number too large: FFFFFFFFFFFFFFFFFF
+      0x10000000000000001L, 0xFFFFFFFFFFFFFFFFFFL, 0x7FFFFFFFFFFFFFFFL,
+                            ^
+CodexTest_0_4_2.java:32: error: integer number too large: FFFFFFFFFFFFFFFFFF
+      0x8000000000000000L, 0x8000000000000001L, 0xFFFFFFFFFFFFFFFFFFL,
+                                                ^

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_64.java:25: error: cannot find symbol
+    byte[] buf = new byte[LittleEndianByteArrayOutputStream.MAX_BYTES_PER_LONG];
+                          ^
+  symbol:   variable LittleEndianByteArrayOutputStream
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:26: error: cannot find symbol
+    int numBytes = new LittleEndianByteArrayOutputStream(buf).writeLong(0x1234);
+                       ^
+  symbol:   class LittleEndianByteArrayOutputStream
+  location: class CodexTest_0_7_64

@@ -1,0 +1,32 @@
+isCompilable => false
+CodexTest_0_6_94.java:23: error: cannot find symbol
+        Node n1 = new DefaultNode();
+                      ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_94
+CodexTest_0_6_94.java:24: error: cannot find symbol
+        Node n2 = new DefaultNode();
+                      ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_94
+CodexTest_0_6_94.java:25: error: cannot find symbol
+        Node n3 = new DefaultNode();
+                      ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_6_94
+CodexTest_0_6_94.java:26: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        p1.add(n1);
+               ^
+CodexTest_0_6_94.java:27: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        p1.add(n2);
+               ^
+CodexTest_0_6_94.java:28: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        p2.add(n1);
+               ^
+CodexTest_0_6_94.java:29: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        p2.add(n2);
+               ^
+CodexTest_0_6_94.java:31: error: incompatible types: org.graphstream.graph.Node cannot be converted to org.graphstream.graph.Edge
+        p1.add(n3);
+               ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

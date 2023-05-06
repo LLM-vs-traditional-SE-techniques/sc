@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_4_6.java:15: error: cannot find symbol
+    final List<Throwable> uncaughtExceptions = new ArrayList<Throwable>();
+          ^
+  symbol:   class List
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:15: error: cannot find symbol
+    final List<Throwable> uncaughtExceptions = new ArrayList<Throwable>();
+                                                   ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:16: error: cannot find symbol
+    UncaughtExceptionHandler handler = new UncaughtExceptionHandler() {
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_6
+CodexTest_0_4_6.java:16: error: cannot find symbol
+    UncaughtExceptionHandler handler = new UncaughtExceptionHandler() {
+                                           ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_6

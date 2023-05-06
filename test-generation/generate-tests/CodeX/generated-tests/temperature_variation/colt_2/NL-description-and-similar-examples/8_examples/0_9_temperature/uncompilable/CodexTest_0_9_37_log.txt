@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_9_37.java:29: error: ';' expected
+    declare Matrix2DFactory2D mf;
+                             ^
+CodexTest_0_9_37.java:29: error: <identifier> expected
+    declare Matrix2DFactory2D mf;
+                                ^
+CodexTest_0_9_37.java:30: error: <identifier> expected
+    create new Matrix2DFactory2D;
+          ^
+CodexTest_0_9_37.java:30: error: <identifier> expected
+    create new Matrix2DFactory2D;
+                                ^
+CodexTest_0_9_37.java:31: error: ';' expected
+    declare Matrix2D m;
+                    ^
+CodexTest_0_9_37.java:31: error: <identifier> expected
+    declare Matrix2D m;
+                      ^
+CodexTest_0_9_37.java:32: error: <identifier> expected
+    m := mf.newInstance(3,4);
+     ^
+CodexTest_0_9_37.java:32: error: illegal start of type
+    m := mf.newInstance(3,4);
+       ^
+CodexTest_0_9_37.java:32: error: ';' expected
+    m := mf.newInstance(3,4);
+           ^
+CodexTest_0_9_37.java:32: error: invalid method declaration; return type required
+    m := mf.newInstance(3,4);
+            ^
+CodexTest_0_9_37.java:32: error: illegal start of type
+    m := mf.newInstance(3,4);
+                        ^
+CodexTest_0_9_37.java:32: error: illegal start of type
+    m := mf.newInstance(3,4);
+                          ^
+CodexTest_0_9_37.java:33: error: ';' expected
+    declare Matrix2D m2;
+                    ^
+CodexTest_0_9_37.java:33: error: <identifier> expected
+    declare Matrix2D m2;
+                       ^
+CodexTest_0_9_37.java:34: error: <identifier> expected
+    m2 := mf.newInstance(3,4);
+      ^
+CodexTest_0_9_37.java:34: error: illegal start of type
+    m2 := mf.newInstance(3,4);
+        ^
+CodexTest_0_9_37.java:34: error: ';' expected
+    m2 := mf.newInstance(3,4);
+            ^
+CodexTest_0_9_37.java:34: error: invalid method declaration; return type required
+    m2 := mf.newInstance(3,4);
+             ^
+CodexTest_0_9_37.java:34: error: illegal start of type
+    m2 := mf.newInstance(3,4);
+                         ^
+CodexTest_0_9_37.java:34: error: illegal start of type
+    m2 := mf.newInstance(3,4);
+                           ^

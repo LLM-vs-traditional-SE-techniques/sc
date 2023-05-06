@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_28.java:21: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("The string to be parsed should not be null."));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_6_28

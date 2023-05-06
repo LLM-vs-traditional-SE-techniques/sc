@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_6_64.java:21: error: cannot find symbol
+        assertTrue("contains(get(0))", list.contains(list.get(0)));
+                                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_6_64
+CodexTest_0_6_64.java:21: error: cannot find symbol
+        assertTrue("contains(get(0))", list.contains(list.get(0)));
+                                       ^
+  symbol:   variable list
+  location: class CodexTest_0_6_64
+CodexTest_0_6_64.java:22: error: cannot find symbol
+        assertTrue("contains(get(1))", list.contains(list.get(1)));
+                                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_6_64
+CodexTest_0_6_64.java:22: error: cannot find symbol
+        assertTrue("contains(get(1))", list.contains(list.get(1)));
+                                       ^
+  symbol:   variable list
+  location: class CodexTest_0_6_64
+CodexTest_0_6_64.java:23: error: cannot find symbol
+        assertTrue("contains(get(-1))", list.contains(list.get(list.size() - 1)));
+                                                               ^
+  symbol:   variable list
+  location: class CodexTest_0_6_64
+CodexTest_0_6_64.java:23: error: cannot find symbol
+        assertTrue("contains(get(-1))", list.contains(list.get(list.size() - 1)));
+                                                      ^
+  symbol:   variable list
+  location: class CodexTest_0_6_64
+CodexTest_0_6_64.java:23: error: cannot find symbol
+        assertTrue("contains(get(-1))", list.contains(list.get(list.size() - 1)));
+                                        ^
+  symbol:   variable list
+  location: class CodexTest_0_6_64
+CodexTest_0_6_64.java:24: error: cannot find symbol
+        assertTrue("contains(get(size/2))", list.contains(list.get(list.size() / 2)));
+                                                                   ^
+  symbol:   variable list
+  location: class CodexTest_0_6_64
+CodexTest_0_6_64.java:24: error: cannot find symbol
+        assertTrue("contains(get(size/2))", list.contains(list.get(list.size() / 2)));
+                                                          ^
+  symbol:   variable list
+  location: class CodexTest_0_6_64
+CodexTest_0_6_64.java:24: error: cannot find symbol
+        assertTrue("contains(get(size/2))", list.contains(list.get(list.size() / 2)));
+                                            ^
+  symbol:   variable list
+  location: class CodexTest_0_6_64
+CodexTest_0_6_64.java:25: error: cannot find symbol
+        assertFalse("contains(new Object())", list.contains(new Object()));
+                                              ^
+  symbol:   variable list
+  location: class CodexTest_0_6_64
+CodexTest_0_6_64.java:26: error: cannot find symbol
+        assertFalse("contains(null)", list.contains(null));
+                                      ^
+  symbol:   variable list
+  location: class CodexTest_0_6_64

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_4.java:20: error: cannot find symbol
+      assertTrue(path1.contains(edge1));
+                                ^
+  symbol:   variable edge1
+  location: class CodexTest_0_8_4
+CodexTest_0_8_4.java:20: error: cannot find symbol
+      assertTrue(path1.contains(edge1));
+                 ^
+  symbol:   variable path1
+  location: class CodexTest_0_8_4

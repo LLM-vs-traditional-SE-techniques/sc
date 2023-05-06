@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_29.java:30: error: cannot find symbol
+        int n = size();
+                ^
+  symbol:   method size()
+  location: class CodexTest_0_6_29
+CodexTest_0_6_29.java:36: error: cannot find symbol
+        DoubleMatrix1D A = make(n);
+                           ^
+  symbol:   method make(int)
+  location: class CodexTest_0_6_29
+CodexTest_0_6_29.java:39: error: cannot find symbol
+            assertEquals(v, B.getQuick(i), TOL);
+                                           ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_29

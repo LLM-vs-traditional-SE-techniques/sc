@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_4.java:66: error: cannot find symbol
+        String expectedParent = new Document(testParent).parent().equals(testParent);
+                                    ^
+  symbol:   class Document
+  location: class CodexTest_0_8_4

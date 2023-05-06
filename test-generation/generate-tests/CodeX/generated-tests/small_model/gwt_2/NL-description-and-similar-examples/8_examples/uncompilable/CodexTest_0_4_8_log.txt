@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_8.java:15: error: cannot find symbol
+    UncaughtExceptionHandler handler = UncaughtExceptionHandler.class.cast(GWT.create(UncaughtExceptionHandler.class));
+    ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_8
+CodexTest_0_4_8.java:15: error: cannot find symbol
+    UncaughtExceptionHandler handler = UncaughtExceptionHandler.class.cast(GWT.create(UncaughtExceptionHandler.class));
+                                       ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_8
+CodexTest_0_4_8.java:15: error: cannot find symbol
+    UncaughtExceptionHandler handler = UncaughtExceptionHandler.class.cast(GWT.create(UncaughtExceptionHandler.class));
+                                                                                      ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_4_8

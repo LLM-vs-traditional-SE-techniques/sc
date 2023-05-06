@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_4_86.java:33: error: illegal escape character
+																	   "@ATTRIBUTE l {a,b,c}\
+																	                         ^
+CodexTest_0_4_86.java:33: error: unclosed string literal
+																	   "@ATTRIBUTE l {a,b,c}\
+																	   ^
+CodexTest_0_4_86.java:34: error: reached end of file while parsing
+}
+ ^

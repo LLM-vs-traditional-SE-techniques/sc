@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_91.java:21: error: cannot find symbol
+        ZSet zset = redis.getZSet("test");
+        ^
+  symbol:   class ZSet
+  location: class CodexTest_0_9_91
+CodexTest_0_9_91.java:21: error: cannot find symbol
+        ZSet zset = redis.getZSet("test");
+                    ^
+  symbol:   variable redis
+  location: class CodexTest_0_9_91

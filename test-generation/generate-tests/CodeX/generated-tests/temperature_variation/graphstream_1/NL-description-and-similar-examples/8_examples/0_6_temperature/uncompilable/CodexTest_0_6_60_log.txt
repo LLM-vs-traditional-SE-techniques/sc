@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_60.java:21: error: cannot find symbol
+        Path path = Path.from("a", "b", "c");
+                        ^
+  symbol:   method from(java.lang.String,java.lang.String,java.lang.String)
+  location: class org.graphstream.graph.Path
+CodexTest_0_6_60.java:23: error: cannot find symbol
+        boolean result = path.contains(EdgeFixtures.e("b", "c"));
+                                       ^
+  symbol:   variable EdgeFixtures
+  location: class CodexTest_0_6_60

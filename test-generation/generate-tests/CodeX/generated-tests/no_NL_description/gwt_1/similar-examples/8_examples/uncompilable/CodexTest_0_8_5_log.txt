@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_8_5.java:18: error: <identifier> expected
+Input: public static boolean isServer() {
+     ^
+CodexTest_0_8_5.java:21: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_5.java:25: error: <identifier> expected
+Input: public static boolean isProdMode() {
+     ^
+CodexTest_0_8_5.java:28: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_5.java:32: error: <identifier> expected
+Input: public static boolean isDebugMode() {
+     ^
+CodexTest_0_8_5.java:35: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_5.java:40: error: class, interface, or enum expected
+}
+^

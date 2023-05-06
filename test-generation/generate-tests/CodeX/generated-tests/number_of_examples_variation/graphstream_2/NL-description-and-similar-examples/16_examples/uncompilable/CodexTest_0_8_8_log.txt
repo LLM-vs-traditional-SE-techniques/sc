@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_8.java:20: error: cannot find symbol
+        ArrayList<Object> a = new ArrayList<Object>();
+        ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:20: error: cannot find symbol
+        ArrayList<Object> a = new ArrayList<Object>();
+                                  ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:21: error: cannot find symbol
+        ArrayList<Object> b = new ArrayList<Object>();
+        ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:21: error: cannot find symbol
+        ArrayList<Object> b = new ArrayList<Object>();
+                                  ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_8_8

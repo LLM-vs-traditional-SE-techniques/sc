@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_27.java:21: error: cannot find symbol
+        assertTrue(list.contains(one));
+                                 ^
+  symbol:   variable one
+  location: class CodexTest_0_6_27
+CodexTest_0_6_27.java:21: error: cannot find symbol
+        assertTrue(list.contains(one));
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_6_27
+CodexTest_0_6_27.java:22: error: cannot find symbol
+        assertFalse(list.contains(zero));
+                                  ^
+  symbol:   variable zero
+  location: class CodexTest_0_6_27
+CodexTest_0_6_27.java:22: error: cannot find symbol
+        assertFalse(list.contains(zero));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_6_27

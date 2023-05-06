@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_25.java:16: error: cannot find symbol
+        for (String string : TRUE_STRINGS) {
+                             ^
+  symbol:   variable TRUE_STRINGS
+  location: class CodexTest_0_9_25
+CodexTest_0_9_25.java:19: error: cannot find symbol
+        for (String string : FALSE_STRINGS) {
+                             ^
+  symbol:   variable FALSE_STRINGS
+  location: class CodexTest_0_9_25
+CodexTest_0_9_25.java:26: error: cannot find symbol
+            final Pattern TRUE_FALSE_PATTERN = Pattern.compile("was expecting either \\[true\\] or \\[false\\]", Pattern.CASE_INSENSITIVE);
+                  ^
+  symbol:   class Pattern
+  location: class CodexTest_0_9_25
+CodexTest_0_9_25.java:26: error: cannot find symbol
+            final Pattern TRUE_FALSE_PATTERN = Pattern.compile("was expecting either \\[true\\] or \\[false\\]", Pattern.CASE_INSENSITIVE);
+                                                                                                                 ^
+  symbol:   variable Pattern
+  location: class CodexTest_0_9_25
+CodexTest_0_9_25.java:26: error: cannot find symbol
+            final Pattern TRUE_FALSE_PATTERN = Pattern.compile("was expecting either \\[true\\] or \\[false\\]", Pattern.CASE_INSENSITIVE);
+                                               ^
+  symbol:   variable Pattern
+  location: class CodexTest_0_9_25
+CodexTest_0_9_25.java:27: error: cannot find symbol
+            assertThat(e.getMessage(), Matchers.stringContainsInOrder(TRUE_FALSE_PATTERN));
+                                       ^
+  symbol:   variable Matchers
+  location: class CodexTest_0_9_25

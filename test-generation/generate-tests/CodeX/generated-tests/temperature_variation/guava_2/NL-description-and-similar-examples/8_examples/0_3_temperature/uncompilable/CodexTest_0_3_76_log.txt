@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_3_76.java:28: error: cannot find symbol
+    int bits = bits();
+               ^
+  symbol:   method bits()
+  location: class CodexTest_0_3_76
+CodexTest_0_3_76.java:34: error: com.google.common.hash.HashCode is abstract; cannot be instantiated
+    assertEquals(new HashCode(Arrays.copyOfRange(dest, offset, end)), hashCode);
+                 ^

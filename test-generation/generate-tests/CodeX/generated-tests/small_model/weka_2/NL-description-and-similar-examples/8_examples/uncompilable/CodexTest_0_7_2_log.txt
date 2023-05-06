@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_2.java:25: error: ';' expected
+      data[2] = m
+                 ^
+CodexTest_0_7_2.java:26: error: reached end of file while parsing
+}
+ ^

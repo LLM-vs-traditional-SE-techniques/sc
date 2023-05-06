@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_7.java:68: error: cannot find symbol
+    IndexRequest request = new IndexRequest(index, type, id).source(properties, XContentType.JSON);
+                                            ^
+  symbol:   variable index
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:68: error: cannot find symbol
+    IndexRequest request = new IndexRequest(index, type, id).source(properties, XContentType.JSON);
+                                                   ^
+  symbol:   variable type
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:68: error: cannot find symbol
+    IndexRequest request = new IndexRequest(index, type, id).source(properties, XContentType.JSON);
+                                                         ^
+  symbol:   variable id
+  location: class CodexTest_0_7_7

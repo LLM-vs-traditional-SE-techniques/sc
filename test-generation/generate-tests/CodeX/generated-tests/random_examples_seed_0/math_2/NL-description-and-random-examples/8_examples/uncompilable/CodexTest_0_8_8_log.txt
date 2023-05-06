@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_8_8.java:31: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D pt1 = new Vector1D(0, 0);
+                                       ^
+CodexTest_0_8_8.java:32: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D pt2 = new Vector1D(1, 1);
+                                       ^
+CodexTest_0_8_8.java:33: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D pt3 = new Vector1D(2, 2);
+                                       ^
+CodexTest_0_8_8.java:34: error: cannot find symbol
+        assertEquals(0, GeometryUtils.distanceSq(pt1, pt1), 1e-10);
+                        ^
+  symbol:   variable GeometryUtils
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:35: error: cannot find symbol
+        assertEquals(2, GeometryUtils.distanceSq(pt1, pt2), 1e-10);
+                        ^
+  symbol:   variable GeometryUtils
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:36: error: cannot find symbol
+        assertEquals(8, GeometryUtils.distanceSq(pt1, pt3), 1e-10);
+                        ^
+  symbol:   variable GeometryUtils
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:37: error: cannot find symbol
+        assertEquals(8, GeometryUtils.distanceSq(pt2, pt3), 1e-10);
+                        ^
+  symbol:   variable GeometryUtils
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:38: error: cannot find symbol
+        assertEquals(2, GeometryUtils.distanceSq(pt2, pt1), 1e-10);
+                        ^
+  symbol:   variable GeometryUtils
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:39: error: cannot find symbol
+        assertEquals(8, GeometryUtils.distanceSq(pt3, pt1), 1e-10);
+                        ^
+  symbol:   variable GeometryUtils
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:40: error: cannot find symbol
+        assertEquals(8, GeometryUtils.distanceSq(pt3, pt2), 1e-10);
+                        ^
+  symbol:   variable GeometryUtils
+  location: class CodexTest_0_8_8
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

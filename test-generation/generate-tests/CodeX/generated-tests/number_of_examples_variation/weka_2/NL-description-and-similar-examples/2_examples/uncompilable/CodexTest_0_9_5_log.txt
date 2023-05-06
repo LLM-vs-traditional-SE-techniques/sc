@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_5.java:20: error: cannot find symbol
+    PlotData2D pd = new PlotData2D(v.getAsInstance(inst, rand));
+    ^
+  symbol:   class PlotData2D
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:20: error: cannot find symbol
+    PlotData2D pd = new PlotData2D(v.getAsInstance(inst, rand));
+                        ^
+  symbol:   class PlotData2D
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:20: error: cannot find symbol
+    PlotData2D pd = new PlotData2D(v.getAsInstance(inst, rand));
+                                                   ^
+  symbol:   variable inst
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:20: error: cannot find symbol
+    PlotData2D pd = new PlotData2D(v.getAsInstance(inst, rand));
+                                                         ^
+  symbol:   variable rand
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:23: error: cannot find symbol
+    plot.addPlot(pd);		
+    ^
+  symbol:   variable plot
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:24: error: cannot find symbol
+    plot.setXindex(0);
+    ^
+  symbol:   variable plot
+  location: class CodexTest_0_9_5

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_9.java:19: error: invalid method declaration; return type required
+    assertTrue(true);
+    ^
+CodexTest_0_8_9.java:19: error: illegal start of type
+    assertTrue(true);
+               ^

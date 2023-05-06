@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_56.java:32: error: cannot find symbol
+        final ExecutorService pool = Executors.newFixedThreadPool(poolSize);
+              ^
+  symbol:   class ExecutorService
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:32: error: cannot find symbol
+        final ExecutorService pool = Executors.newFixedThreadPool(poolSize);
+                                     ^
+  symbol:   variable Executors
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:33: error: cannot find symbol
+        final List<Future<Integer>> futures = Lists.newArrayList();
+              ^
+  symbol:   class List
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:33: error: cannot find symbol
+        final List<Future<Integer>> futures = Lists.newArrayList();
+                   ^
+  symbol:   class Future
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:33: error: cannot find symbol
+        final List<Future<Integer>> futures = Lists.newArrayList();
+                                              ^
+  symbol:   variable Lists
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:36: error: cannot find symbol
+          futures.add(pool.submit(new Callable<Integer>() {
+                                      ^
+  symbol:   class Callable
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:53: error: cannot find symbol
+        for (Future<Integer> f : futures) {
+             ^
+  symbol:   class Future
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:57: error: cannot find symbol
+        pool.awaitTermination(10, TimeUnit.SECONDS);
+                                  ^
+  symbol:   variable TimeUnit
+  location: class CodexTest_0_8_56

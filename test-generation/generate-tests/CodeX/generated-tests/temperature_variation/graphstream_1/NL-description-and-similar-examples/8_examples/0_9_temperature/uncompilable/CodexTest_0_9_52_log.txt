@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_9_52.java:20: error: cannot find symbol
+		Edge edge = mock(Edge.class);
+		            ^
+  symbol:   method mock(java.lang.Class<org.graphstream.graph.Edge>)
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:22: error: edgePath is not public in org.graphstream.graph.Path; cannot be accessed from outside package
+		path.edgePath.add(edge);
+		    ^

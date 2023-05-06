@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_9_2.java:21: error: no suitable constructor found for Short(int)
+        assertEquals(new Short(1), result);
+                     ^
+    constructor java.lang.Short.Short(short) is not applicable
+      (argument mismatch; possible lossy conversion from int to short)
+    constructor java.lang.Short.Short(java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)

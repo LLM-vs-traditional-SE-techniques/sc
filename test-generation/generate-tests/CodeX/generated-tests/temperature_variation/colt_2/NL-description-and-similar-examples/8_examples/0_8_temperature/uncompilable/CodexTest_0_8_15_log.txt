@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_15.java:30: error: cannot find symbol
+        DenseDoubleMatrix2D like = (DenseDoubleMatrix2D)getMatrixFactory().like2D(4, 4);
+                                                        ^
+  symbol:   method getMatrixFactory()
+  location: class CodexTest_0_8_15
+CodexTest_0_8_15.java:33: error: cannot find symbol
+        like = (DenseDoubleMatrix2D)getMatrixFactory().like2D(4, 3);
+                                    ^
+  symbol:   method getMatrixFactory()
+  location: class CodexTest_0_8_15
+CodexTest_0_8_15.java:36: error: cannot find symbol
+        like = (DenseDoubleMatrix2D)getMatrixFactory().like2D(3, 4);
+                                    ^
+  symbol:   method getMatrixFactory()
+  location: class CodexTest_0_8_15

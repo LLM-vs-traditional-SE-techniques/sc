@@ -1,0 +1,21 @@
+{
+	"project": "Guava",
+	"package": "com.google.common.hash",
+	"class": "HashCode",
+	"method_signature": "int writeBytesTo(byte[] dest, int offset, int maxLength)",
+	"method": "public int writeBytesTo(byte[] dest, int offset, int maxLength) {\n    maxLength = Ints.min(maxLength, bits() / 8);\n    Preconditions.checkPositionIndexes(offset, offset + maxLength, dest.length);\n    writeBytesToImpl(dest, offset, maxLength);\n    return maxLength;\n  }",
+	"helpers": ["HashCode()", "byte[] asBytes()", "int asInt()"],
+	"example_same_class": {
+		"method_signature": "HashCode fromBytes(byte[] bytes)",
+		"method": "public static HashCode fromBytes(byte[] bytes) {\n    checkArgument(bytes.length >= 1, \"A HashCode must contain at least 1 byte.\");\n    return fromBytesNoCopy(bytes.clone());\n  }",
+		"test": "public void testRoundTripHashCodeUsingBaseEncoding() {\n    HashCode hash1 = Hashing.sha1().hashString(\"foo\", Charsets.US_ASCII);\n    HashCode hash2 = HashCode.fromBytes(BaseEncoding.base16().lowerCase().decode(hash1.toString()));\n    assertEquals(hash1, hash2);\n  }"
+	},
+	"example_different_project": {
+		"id": "graphstream_1",
+		"method_signature": "void add(Edge edge)",
+		"method": "public void add(Edge edge) {\n		if (nodePath.isEmpty()) {\n			add(null, edge);\n		} else {\n			add(nodePath.peek(), edge);\n		}	}",
+		"test": "@Test(expected = IllegalArgumentException.class)\n	public void add_whenAddingEdgeRootMustBeSet() {\n		Graph graph = new DefaultGraph(\"test\");\n		graph.setStrict(false);\n		graph.setAutoCreate(true);\n\n		graph.addEdge(\"ab\", \"a\", \"b\");\n		graph.addEdge(\"bc\", \"b\", \"c\");\n		graph.addEdge(\"cd\", \"c\", \"d\");\n		Path path = new Path();\n\n		// this has to fail as root of the path is not set\n		path.add(graph.getEdge(\"ab\"));\n	}"
+	},
+	"method_class_imports": "import com.google.common.hash.*;\nimport static com.google.common.base.Preconditions.checkArgument;\nimport static com.google.common.base.Preconditions.checkNotNull;\nimport static com.google.common.base.Preconditions.checkState;\nimport com.google.common.annotations.Beta;\nimport com.google.common.base.Preconditions;\nimport com.google.common.primitives.Ints;\nimport com.google.common.primitives.UnsignedInts;\nimport java.io.Serializable;",
+	"test_class_imports": "import static com.google.common.io.BaseEncoding.base16;\nimport com.google.common.base.Charsets;\nimport com.google.common.collect.ImmutableList;\nimport com.google.common.io.BaseEncoding;\nimport java.util.Arrays;"
+}

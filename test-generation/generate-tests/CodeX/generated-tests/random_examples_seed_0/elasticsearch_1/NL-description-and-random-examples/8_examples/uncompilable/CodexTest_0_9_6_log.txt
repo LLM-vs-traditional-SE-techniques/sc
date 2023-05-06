@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_6.java:65: error: cannot find symbol
+        TreeNode tn = new DefaultMutableTreeNode();
+        ^
+  symbol:   class TreeNode
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:65: error: cannot find symbol
+        TreeNode tn = new DefaultMutableTreeNode();
+                          ^
+  symbol:   class DefaultMutableTreeNode
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:67: error: cannot find symbol
+        assertEquals(tn, ((DefaultMutableTreeNode) tn).getParent());
+                           ^
+  symbol:   class DefaultMutableTreeNode
+  location: class CodexTest_0_9_6

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_33.java:20: error: cannot find symbol
+            v.getAsInstance(new Instances(new StringReader(VECTOR_TEST_ARFF)),
+                                              ^
+  symbol:   class StringReader
+  location: class CodexTest_0_7_33
+CodexTest_0_7_33.java:20: error: cannot find symbol
+            v.getAsInstance(new Instances(new StringReader(VECTOR_TEST_ARFF)),
+                                                           ^
+  symbol:   variable VECTOR_TEST_ARFF
+  location: class CodexTest_0_7_33

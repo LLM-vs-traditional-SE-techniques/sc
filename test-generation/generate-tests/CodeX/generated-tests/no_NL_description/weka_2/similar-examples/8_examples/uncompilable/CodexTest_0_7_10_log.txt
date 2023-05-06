@@ -1,0 +1,33 @@
+isCompilable => false
+CodexTest_0_7_10.java:18: error: cannot find symbol
+    m_Elements = new double[5];
+    ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:19: error: cannot find symbol
+    for (int i = 0; i < m_Elements.length; i++) {
+                        ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:20: error: cannot find symbol
+      m_Elements[i] = 1.0 * i;
+      ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:22: error: cannot find symbol
+    AlgVector algVector = new AlgVector(m_Elements);
+                                        ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_7_10
+CodexTest_0_7_10.java:23: error: no suitable constructor found for Instances(weka.core.DenseInstance,int)
+    Instances model = new Instances(new DenseInstance(5), 10);
+                      ^
+    constructor weka.core.Instances.Instances(java.io.Reader,int) is not applicable
+      (argument mismatch; weka.core.DenseInstance cannot be converted to java.io.Reader)
+    constructor weka.core.Instances.Instances(weka.core.Instances,int) is not applicable
+      (argument mismatch; weka.core.DenseInstance cannot be converted to weka.core.Instances)
+Note: CodexTest_0_7_10.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: CodexTest_0_7_10.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

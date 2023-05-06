@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_6.java:25: error: cannot find symbol
+    int hash32 = Hashing.goodFastHash(32).asInt();
+                                         ^
+  symbol:   method asInt()
+  location: interface com.google.common.hash.HashFunction
+CodexTest_0_5_6.java:26: error: cannot find symbol
+    long hash64 = Hashing.goodFastHash(64).asLong();
+                                          ^
+  symbol:   method asLong()
+  location: interface com.google.common.hash.HashFunction

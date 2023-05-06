@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_7.java:65: error: cannot find symbol
+        TestObj obj = new TestObj( new TestObj() );
+        ^
+  symbol:   class TestObj
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:65: error: cannot find symbol
+        TestObj obj = new TestObj( new TestObj() );
+                          ^
+  symbol:   class TestObj
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:65: error: cannot find symbol
+        TestObj obj = new TestObj( new TestObj() );
+                                       ^
+  symbol:   class TestObj
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:66: error: cannot find symbol
+        assertThat( obj.parent(), is( "TestObj" ) );
+                                  ^
+  symbol:   method is(java.lang.String)
+  location: class CodexTest_0_7_7

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_80.java:15: error: cannot find symbol
+    final List<Throwable> uncaughtThrowables = new ArrayList<Throwable>();
+          ^
+  symbol:   class List
+  location: class CodexTest_0_5_80
+CodexTest_0_5_80.java:15: error: cannot find symbol
+    final List<Throwable> uncaughtThrowables = new ArrayList<Throwable>();
+                                                   ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_5_80

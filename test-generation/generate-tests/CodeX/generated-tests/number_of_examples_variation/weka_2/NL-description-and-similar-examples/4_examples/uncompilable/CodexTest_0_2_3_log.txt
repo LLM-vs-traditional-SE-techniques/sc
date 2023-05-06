@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_2_3.java:23: error: cannot find symbol
+    Instances model = new Instances("Test", new ArrayList<Attribute>(), numInstances);
+                                                ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_2_3
+CodexTest_0_2_3.java:28: error: cannot find symbol
+	model.insertAttributeAt(new Attribute("Nominal" + i, Arrays.asList("A", "B", "C")), i);
+	                                                     ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_2_3

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_3.java:65: error: cannot find symbol
+        PutMappingRequestBuilder putMappingRequestBuilder = PutMappingRequest.putMappingRequest("test").type("test").source("{ \"test\" : { \"properties\" : { \"message\" : {\"type\" : \"string\", \"store\" : \"yes\"} } } }");
+        ^
+  symbol:   class PutMappingRequestBuilder
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:65: error: cannot find symbol
+        PutMappingRequestBuilder putMappingRequestBuilder = PutMappingRequest.putMappingRequest("test").type("test").source("{ \"test\" : { \"properties\" : { \"message\" : {\"type\" : \"string\", \"store\" : \"yes\"} } } }");
+                                                            ^
+  symbol:   variable PutMappingRequest
+  location: class CodexTest_0_8_3

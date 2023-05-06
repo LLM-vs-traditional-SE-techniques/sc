@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_41.java:68: error: cannot find symbol
+        RepositoryFileImpl file = new RepositoryFileImpl(fullPath, name, parent);
+        ^
+  symbol:   class RepositoryFileImpl
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:68: error: cannot find symbol
+        RepositoryFileImpl file = new RepositoryFileImpl(fullPath, name, parent);
+                                      ^
+  symbol:   class RepositoryFileImpl
+  location: class CodexTest_0_6_41

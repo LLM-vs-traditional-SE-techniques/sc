@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_9_4.java:40: error: <identifier> expected
+Input: public String representation() {
+     ^
+CodexTest_0_9_4.java:42: error: illegal start of expression
+    result.append(getBaseName(m_Base)).append(*).append(2);
+                                              ^
+CodexTest_0_9_4.java:42: error: illegal start of expression
+    result.append(getBaseName(m_Base)).append(*).append(2);
+                                               ^
+CodexTest_0_9_4.java:43: error: illegal start of expression
+    result.append([);
+                  ^
+CodexTest_0_9_4.java:43: error: ';' expected
+    result.append([);
+                   ^
+CodexTest_0_9_4.java:47: error: illegal start of expression
+    result.append(]);
+                  ^
+CodexTest_0_9_4.java:47: error: ';' expected
+    result.append(]);
+                   ^
+CodexTest_0_9_4.java:50: error: <identifier> expected
+Output: public static void stringReprTest2() {
+      ^

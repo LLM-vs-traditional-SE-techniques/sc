@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_33.java:66: error: cannot find symbol
+        String actual = new IndexRequestBuilder(new MockClient(), IndexAction.INSTANCE)
+                                                    ^
+  symbol:   class MockClient
+  location: class CodexTest_0_6_33

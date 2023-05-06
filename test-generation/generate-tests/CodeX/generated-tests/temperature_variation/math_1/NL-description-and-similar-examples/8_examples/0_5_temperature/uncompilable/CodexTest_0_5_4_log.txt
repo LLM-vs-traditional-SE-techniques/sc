@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_4.java:35: error: cannot find symbol
+        Assert.assertEquals(v.scalarMultiply(2).getNorm(), v.scalarAdd(v).getNorm(), 1.0e-12);
+                                                            ^
+  symbol:   method scalarAdd(org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D

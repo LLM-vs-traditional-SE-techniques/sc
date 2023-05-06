@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_8_78.java:65: error: cannot find symbol
+        XContentParser parser = createParser(JsonXContent.jsonXContent,
+        ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_8_78
+CodexTest_0_8_78.java:65: error: cannot find symbol
+        XContentParser parser = createParser(JsonXContent.jsonXContent,
+                                             ^
+  symbol:   variable JsonXContent
+  location: class CodexTest_0_8_78
+CodexTest_0_8_78.java:68: error: non-static method source(org.elasticsearch.common.xcontent.XContentBuilder) cannot be referenced from a static context
+        IndexRequest ir = IndexRequest.source(parser).build();
+                                      ^

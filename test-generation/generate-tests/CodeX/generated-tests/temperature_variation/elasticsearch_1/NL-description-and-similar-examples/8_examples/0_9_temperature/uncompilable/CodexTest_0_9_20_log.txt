@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_20.java:65: error: cannot find symbol
+        PutMappingResponse pmr = new PutMappingResponse();
+        ^
+  symbol:   class PutMappingResponse
+  location: class CodexTest_0_9_20
+CodexTest_0_9_20.java:65: error: cannot find symbol
+        PutMappingResponse pmr = new PutMappingResponse();
+                                     ^
+  symbol:   class PutMappingResponse
+  location: class CodexTest_0_9_20
+CodexTest_0_9_20.java:66: error: cannot find symbol
+        PutMappingResponse pmr2 = pmr.parent("123");
+        ^
+  symbol:   class PutMappingResponse
+  location: class CodexTest_0_9_20

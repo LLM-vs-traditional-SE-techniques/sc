@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_46.java:21: error: cannot find symbol
+        MockSerializationStreamReader reader = new MockSerializationStreamReader();
+        ^
+  symbol:   class MockSerializationStreamReader
+  location: class CodexTest_0_9_46
+CodexTest_0_9_46.java:21: error: cannot find symbol
+        MockSerializationStreamReader reader = new MockSerializationStreamReader();
+                                                   ^
+  symbol:   class MockSerializationStreamReader
+  location: class CodexTest_0_9_46
+CodexTest_0_9_46.java:24: error: cannot find symbol
+        IncompatibleRemoteServiceException_FieldSerializer.instantiate(reader);
+        ^
+  symbol:   variable IncompatibleRemoteServiceException_FieldSerializer
+  location: class CodexTest_0_9_46

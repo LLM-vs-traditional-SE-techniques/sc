@@ -1,0 +1,166 @@
+isCompilable => false
+CodexTest_0_8_51.java:20: error: cannot find symbol
+    Graph graph = new DefaultGraph(test);
+                                   ^
+  symbol:   variable test
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:23: error: cannot find symbol
+    graph.addEdge(ab, a, b);
+                  ^
+  symbol:   variable ab
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:23: error: cannot find symbol
+    graph.addEdge(ab, a, b);
+                      ^
+  symbol:   variable a
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:23: error: cannot find symbol
+    graph.addEdge(ab, a, b);
+                         ^
+  symbol:   variable b
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:24: error: cannot find symbol
+    graph.addEdge(bc, b, c);
+                  ^
+  symbol:   variable bc
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:24: error: cannot find symbol
+    graph.addEdge(bc, b, c);
+                      ^
+  symbol:   variable b
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:24: error: cannot find symbol
+    graph.addEdge(bc, b, c);
+                         ^
+  symbol:   variable c
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:25: error: cannot find symbol
+    graph.addEdge(cd, c, d);
+                  ^
+  symbol:   variable cd
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:25: error: cannot find symbol
+    graph.addEdge(cd, c, d);
+                      ^
+  symbol:   variable c
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:25: error: cannot find symbol
+    graph.addEdge(cd, c, d);
+                         ^
+  symbol:   variable d
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:26: error: cannot find symbol
+    graph.addEdge(da, d, a);
+                  ^
+  symbol:   variable da
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:26: error: cannot find symbol
+    graph.addEdge(da, d, a);
+                      ^
+  symbol:   variable d
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:26: error: cannot find symbol
+    graph.addEdge(da, d, a);
+                         ^
+  symbol:   variable a
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:28: error: cannot find symbol
+    path.add(graph.getEdge(ab));
+                           ^
+  symbol:   variable ab
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:29: error: cannot find symbol
+    path.add(graph.getEdge(bc));
+                           ^
+  symbol:   variable bc
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:30: error: cannot find symbol
+    path.add(graph.getEdge(cd));
+                           ^
+  symbol:   variable cd
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:31: error: cannot find symbol
+    path.add(graph.getEdge(da));
+                           ^
+  symbol:   variable da
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:32: error: cannot find symbol
+    assertTrue(abcda, path.contains(graph.getEdge(ab)));
+               ^
+  symbol:   variable abcda
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:32: error: cannot find symbol
+    assertTrue(abcda, path.contains(graph.getEdge(ab)));
+                                                  ^
+  symbol:   variable ab
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:33: error: cannot find symbol
+    assertTrue(bcda, path.contains(graph.getEdge(bc)));
+               ^
+  symbol:   variable bcda
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:33: error: cannot find symbol
+    assertTrue(bcda, path.contains(graph.getEdge(bc)));
+                                                 ^
+  symbol:   variable bc
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:34: error: cannot find symbol
+    assertTrue(cda, path.contains(graph.getEdge(cd)));
+               ^
+  symbol:   variable cda
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:34: error: cannot find symbol
+    assertTrue(cda, path.contains(graph.getEdge(cd)));
+                                                ^
+  symbol:   variable cd
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:35: error: cannot find symbol
+    assertTrue(da, path.contains(graph.getEdge(da)));
+               ^
+  symbol:   variable da
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:35: error: cannot find symbol
+    assertTrue(da, path.contains(graph.getEdge(da)));
+                                               ^
+  symbol:   variable da
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:36: error: cannot find symbol
+    assertFalse(a, path.contains(graph.getEdge(a)));
+                ^
+  symbol:   variable a
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:36: error: cannot find symbol
+    assertFalse(a, path.contains(graph.getEdge(a)));
+                                               ^
+  symbol:   variable a
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:37: error: cannot find symbol
+    assertFalse(b, path.contains(graph.getEdge(b)));
+                ^
+  symbol:   variable b
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:37: error: cannot find symbol
+    assertFalse(b, path.contains(graph.getEdge(b)));
+                                               ^
+  symbol:   variable b
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:38: error: cannot find symbol
+    assertFalse(c, path.contains(graph.getEdge(c)));
+                ^
+  symbol:   variable c
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:38: error: cannot find symbol
+    assertFalse(c, path.contains(graph.getEdge(c)));
+                                               ^
+  symbol:   variable c
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:39: error: cannot find symbol
+    assertFalse(d, path.contains(graph.getEdge(d)));
+                ^
+  symbol:   variable d
+  location: class CodexTest_0_8_51
+CodexTest_0_8_51.java:39: error: cannot find symbol
+    assertFalse(d, path.contains(graph.getEdge(d)));
+                                               ^
+  symbol:   variable d
+  location: class CodexTest_0_8_51

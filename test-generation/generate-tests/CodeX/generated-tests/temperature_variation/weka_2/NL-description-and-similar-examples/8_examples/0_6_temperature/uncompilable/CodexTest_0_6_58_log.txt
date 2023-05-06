@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_58.java:41: error: ')' expected
+                assertEquals("Numeric value incorrect", values[i], inst.value(i), 1e-6
+                                                                                      ^
+CodexTest_0_6_58.java:42: error: reached end of file while parsing
+}
+ ^

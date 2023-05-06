@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_2_34.java:20: error: cannot find symbol
+			Instance inst = v.getAsInstance(m_Instances, new Random(1));
+			                                ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_2_34
+CodexTest_0_2_34.java:21: error: cannot find symbol
+			assertEquals("Number of attributes differs", m_Instances.numAttributes(), inst.numAttributes());
+			                                             ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_2_34
+CodexTest_0_2_34.java:22: error: cannot find symbol
+			assertEquals("Number of values differs", m_Instances.numAttributes(), inst.numValues());
+			                                         ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_2_34
+CodexTest_0_2_34.java:23: error: cannot find symbol
+			assertEquals("Dataset differs", m_Instances, inst.dataset());
+			                                ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_2_34
+CodexTest_0_2_34.java:24: error: cannot find symbol
+			for (int i = 0; i < m_Instances.numAttributes(); i++) {
+			                    ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_2_34
+CodexTest_0_2_34.java:25: error: cannot find symbol
+			  if (m_Instances.attribute(i).isNumeric()) {
+			      ^
+  symbol:   variable m_Instances
+  location: class CodexTest_0_2_34

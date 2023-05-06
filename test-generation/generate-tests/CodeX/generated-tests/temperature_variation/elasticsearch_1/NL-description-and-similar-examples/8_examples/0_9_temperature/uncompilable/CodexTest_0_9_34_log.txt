@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_34.java:65: error: cannot find symbol
+        assertEquals(false, mySet.add("5"));
+                            ^
+  symbol:   variable mySet
+  location: class CodexTest_0_9_34

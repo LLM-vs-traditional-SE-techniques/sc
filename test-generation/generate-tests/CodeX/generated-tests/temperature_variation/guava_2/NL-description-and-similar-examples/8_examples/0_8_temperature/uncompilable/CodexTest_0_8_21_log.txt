@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_21.java:26: error: cannot find symbol
+    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+    ^
+  symbol:   class ByteArrayOutputStream
+  location: class CodexTest_0_8_21
+CodexTest_0_8_21.java:26: error: cannot find symbol
+    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                                     ^
+  symbol:   class ByteArrayOutputStream
+  location: class CodexTest_0_8_21

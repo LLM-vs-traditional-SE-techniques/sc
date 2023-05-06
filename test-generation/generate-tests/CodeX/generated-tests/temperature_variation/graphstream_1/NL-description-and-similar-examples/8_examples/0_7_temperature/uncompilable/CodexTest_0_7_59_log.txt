@@ -1,0 +1,45 @@
+isCompilable => false
+CodexTest_0_7_59.java:20: error: cannot find symbol
+		  Graph<Integer, DefaultEdge> g = new SimpleGraph<Integer, DefaultEdge>(DefaultEdge.class);
+		                 ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:20: error: type org.graphstream.graph.Graph does not take parameters
+		  Graph<Integer, DefaultEdge> g = new SimpleGraph<Integer, DefaultEdge>(DefaultEdge.class);
+		       ^
+CodexTest_0_7_59.java:20: error: cannot find symbol
+		  Graph<Integer, DefaultEdge> g = new SimpleGraph<Integer, DefaultEdge>(DefaultEdge.class);
+		                                      ^
+  symbol:   class SimpleGraph
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:20: error: cannot find symbol
+		  Graph<Integer, DefaultEdge> g = new SimpleGraph<Integer, DefaultEdge>(DefaultEdge.class);
+		                                                           ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:20: error: cannot find symbol
+		  Graph<Integer, DefaultEdge> g = new SimpleGraph<Integer, DefaultEdge>(DefaultEdge.class);
+		                                                                        ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:23: error: cannot find symbol
+		  DefaultEdge e = g.addEdge(1, 2);
+		  ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:24: error: cannot find symbol
+		  Path<Integer, DefaultEdge> path = new Path<Integer, DefaultEdge>(g);
+		                ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:24: error: type org.graphstream.graph.Path does not take parameters
+		  Path<Integer, DefaultEdge> path = new Path<Integer, DefaultEdge>(g);
+		      ^
+CodexTest_0_7_59.java:24: error: cannot find symbol
+		  Path<Integer, DefaultEdge> path = new Path<Integer, DefaultEdge>(g);
+		                                                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:24: error: type org.graphstream.graph.Path does not take parameters
+		  Path<Integer, DefaultEdge> path = new Path<Integer, DefaultEdge>(g);
+		                                            ^

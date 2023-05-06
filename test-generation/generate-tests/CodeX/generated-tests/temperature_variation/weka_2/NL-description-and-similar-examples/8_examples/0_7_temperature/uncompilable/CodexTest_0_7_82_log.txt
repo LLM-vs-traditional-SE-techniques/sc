@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_7_82.java:19: error: cannot find symbol
+    Instances d = new Instances(new BufferedReader(
+                                    ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:20: error: cannot find symbol
+        new StringReader(InstancesTest.NOMINAL_HEADER + InstancesTest.NOMINAL_DATA)));
+            ^
+  symbol:   class StringReader
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:20: error: cannot find symbol
+        new StringReader(InstancesTest.NOMINAL_HEADER + InstancesTest.NOMINAL_DATA)));
+                         ^
+  symbol:   variable InstancesTest
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:20: error: cannot find symbol
+        new StringReader(InstancesTest.NOMINAL_HEADER + InstancesTest.NOMINAL_DATA)));
+                                                        ^
+  symbol:   variable InstancesTest
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:24: error: cannot find symbol
+    d = new Instances(new BufferedReader(new StringReader(InstancesTest.NUMERIC_HEADER
+                          ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:24: error: cannot find symbol
+    d = new Instances(new BufferedReader(new StringReader(InstancesTest.NUMERIC_HEADER
+                                             ^
+  symbol:   class StringReader
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:24: error: cannot find symbol
+    d = new Instances(new BufferedReader(new StringReader(InstancesTest.NUMERIC_HEADER
+                                                          ^
+  symbol:   variable InstancesTest
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:25: error: cannot find symbol
+        + InstancesTest.NUMERIC_DATA)));
+          ^
+  symbol:   variable InstancesTest
+  location: class CodexTest_0_7_82

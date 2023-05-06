@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_63.java:16: error: cannot find symbol
+    verify(sandBox.getMockedLogger()).log(eq(TreeLogger.ERROR), anyString());
+                                             ^
+  symbol:   variable TreeLogger
+  location: class CodexTest_0_7_63
+CodexTest_0_7_63.java:16: error: cannot find symbol
+    verify(sandBox.getMockedLogger()).log(eq(TreeLogger.ERROR), anyString());
+                                                                ^
+  symbol:   method anyString()
+  location: class CodexTest_0_7_63
+CodexTest_0_7_63.java:16: error: cannot find symbol
+    verify(sandBox.getMockedLogger()).log(eq(TreeLogger.ERROR), anyString());
+           ^
+  symbol:   variable sandBox
+  location: class CodexTest_0_7_63

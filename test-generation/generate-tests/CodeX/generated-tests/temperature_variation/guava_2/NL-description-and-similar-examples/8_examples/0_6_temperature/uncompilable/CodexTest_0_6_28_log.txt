@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_28.java:24: error: cannot find symbol
+  public void testWriteBytesTo() throws IOException {
+                                        ^
+  symbol:   class IOException
+  location: class CodexTest_0_6_28
+CodexTest_0_6_28.java:26: error: cannot find symbol
+    int numBytes = h1.writeBytesTo(bytes, 2, 3);
+                   ^
+  symbol:   variable h1
+  location: class CodexTest_0_6_28
+CodexTest_0_6_28.java:31: error: cannot find symbol
+      assertEquals(testData[i], bytes[i + 2]);
+                   ^
+  symbol:   variable testData
+  location: class CodexTest_0_6_28

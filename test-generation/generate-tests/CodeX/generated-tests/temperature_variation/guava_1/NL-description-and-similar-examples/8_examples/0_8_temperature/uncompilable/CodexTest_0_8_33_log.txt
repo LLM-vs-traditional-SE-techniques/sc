@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_33.java:31: error: cannot find symbol
+              assertSame(myLoader, MoreObjects.firstNonNull(current.getContextClassLoader(), myLoader2));
+                                   ^
+  symbol:   variable MoreObjects
+  location: class CodexTest_0_8_33
+CodexTest_0_8_33.java:32: error: cannot find symbol
+              assertSame(myLoader, MoreObjects.firstNonNull(null, myLoader));
+                                   ^
+  symbol:   variable MoreObjects
+  location: class CodexTest_0_8_33

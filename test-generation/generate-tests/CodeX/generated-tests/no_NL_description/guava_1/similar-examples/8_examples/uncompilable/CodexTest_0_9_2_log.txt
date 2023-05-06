@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_2.java:25: error: cannot find symbol
+    HashCode hash2 = HashCode.fromBytes(BaseEncoding.base16().lowerCase().decode(hash1.toString()));
+                                                                                 ^
+  symbol:   variable hash1
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:26: error: cannot find symbol
+    assertEquals(hash1, hash2);
+                 ^
+  symbol:   variable hash1
+  location: class CodexTest_0_9_2

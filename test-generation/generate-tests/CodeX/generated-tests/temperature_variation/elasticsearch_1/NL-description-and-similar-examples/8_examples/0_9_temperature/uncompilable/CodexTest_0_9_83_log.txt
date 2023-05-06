@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_83.java:65: error: cannot find symbol
+        assertEquals("Euro", c1.getCurrency().getName());
+                             ^
+  symbol:   variable c1
+  location: class CodexTest_0_9_83

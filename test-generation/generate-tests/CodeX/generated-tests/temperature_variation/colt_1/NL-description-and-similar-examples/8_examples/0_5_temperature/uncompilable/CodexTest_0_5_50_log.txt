@@ -1,0 +1,23 @@
+isCompilable => false
+CodexTest_0_5_50.java:30: error: cannot find symbol
+        testAssign(new DenseDoubleMatrix1D(SIZE));
+                                           ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_5_50
+CodexTest_0_5_50.java:30: error: method testAssign in class CodexTest_0_5_50 cannot be applied to given types;
+        testAssign(new DenseDoubleMatrix1D(SIZE));
+        ^
+  required: no arguments
+  found: cern.colt.matrix.impl.DenseDoubleMatrix1D
+  reason: actual and formal argument lists differ in length
+CodexTest_0_5_50.java:31: error: cannot find symbol
+        testAssign(new DenseDoubleMatrix1D(SIZE*2));
+                                           ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_5_50
+CodexTest_0_5_50.java:31: error: method testAssign in class CodexTest_0_5_50 cannot be applied to given types;
+        testAssign(new DenseDoubleMatrix1D(SIZE*2));
+        ^
+  required: no arguments
+  found: cern.colt.matrix.impl.DenseDoubleMatrix1D
+  reason: actual and formal argument lists differ in length

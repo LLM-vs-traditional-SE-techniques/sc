@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_85.java:28: error: cannot find symbol
+    BigInteger bigInteger = new BigInteger(arrLong);
+    ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_9_85
+CodexTest_0_9_85.java:28: error: cannot find symbol
+    BigInteger bigInteger = new BigInteger(arrLong);
+                                ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_9_85
+CodexTest_0_9_85.java:29: error: cannot find symbol
+    BigInteger bigInteger1 = bigInteger.setBit(bitLength);
+    ^
+  symbol:   class BigInteger
+  location: class CodexTest_0_9_85
+CodexTest_0_9_85.java:30: error: cannot find symbol
+    BitArray ba = new BitArray(bitLength, bigInteger);
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_9_85
+CodexTest_0_9_85.java:30: error: cannot find symbol
+    BitArray ba = new BitArray(bitLength, bigInteger);
+                      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_9_85

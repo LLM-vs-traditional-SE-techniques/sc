@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_52.java:22: error: cannot find symbol
+        int[] actual = new ListOfInts(emptyArray).remove(0);
+                           ^
+  symbol:   class ListOfInts
+  location: class CodexTest_0_8_52

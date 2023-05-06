@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_43.java:30: error: cannot find symbol
+        assertEquals(2, matrix.like2D(2, 3).rows());
+                        ^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_43
+CodexTest_0_5_43.java:31: error: cannot find symbol
+        assertEquals(3, matrix.like2D(2, 3).columns());
+                        ^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_43

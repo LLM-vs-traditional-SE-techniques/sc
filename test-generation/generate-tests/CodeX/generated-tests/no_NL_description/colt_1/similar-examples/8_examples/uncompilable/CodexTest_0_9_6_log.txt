@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_6.java:38: error: cannot find symbol
+		sortedv.sort();
+		       ^
+  symbol:   method sort()
+  location: variable sortedv of type cern.colt.matrix.DoubleMatrix1D

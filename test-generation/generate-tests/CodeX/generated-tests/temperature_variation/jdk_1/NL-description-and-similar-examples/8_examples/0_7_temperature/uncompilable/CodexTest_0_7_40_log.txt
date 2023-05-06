@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_40.java:21: error: cannot find symbol
+        SimpleList<String> list = new SimpleList<>(new String[] {
+        ^
+  symbol:   class SimpleList
+  location: class CodexTest_0_7_40
+CodexTest_0_7_40.java:21: error: cannot find symbol
+        SimpleList<String> list = new SimpleList<>(new String[] {
+                                      ^
+  symbol:   class SimpleList
+  location: class CodexTest_0_7_40

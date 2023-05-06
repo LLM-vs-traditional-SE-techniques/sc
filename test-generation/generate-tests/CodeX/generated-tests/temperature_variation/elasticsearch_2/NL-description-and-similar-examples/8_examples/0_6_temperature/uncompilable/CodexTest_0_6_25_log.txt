@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_6_25.java:67: error: reference to source is ambiguous
+            indexRequest.source(null, XContentType.JSON);
+                        ^
+  both method source(org.elasticsearch.common.bytes.BytesReference,org.elasticsearch.common.xcontent.XContentType) in org.elasticsearch.action.index.IndexRequest and method source(byte[],org.elasticsearch.common.xcontent.XContentType) in org.elasticsearch.action.index.IndexRequest match

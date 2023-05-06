@@ -1,0 +1,38 @@
+isCompilable => false
+CodexTest_0_8_45.java:66: error: cannot find symbol
+        String randomFieldName = randomFrom("field1", "field 2", "field-3");
+                                 ^
+  symbol:   method randomFrom(java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_8_45
+CodexTest_0_8_45.java:67: error: cannot find symbol
+        String randomFieldValue = randomFrom("value1", "value 2", "value-3");
+                                  ^
+  symbol:   method randomFrom(java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_8_45
+CodexTest_0_8_45.java:68: error: cannot find symbol
+        indexRequest.source(singletonMap(randomFieldName, randomFieldValue));
+                            ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_8_45
+CodexTest_0_8_45.java:71: error: cannot find symbol
+        indexRequest.toXContent(builder, ToXContent.EMPTY_PARAMS);
+                                         ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_8_45
+CodexTest_0_8_45.java:73: error: cannot find symbol
+        Map<String, Object> serializedMap = XContentHelper.convertToMap(XContentType.JSON.xContent(), Strings.toString(builder), false);
+                                                                                                      ^
+  symbol:   variable Strings
+  location: class CodexTest_0_8_45
+CodexTest_0_8_45.java:74: error: cannot find symbol
+        assertThat(serializedMap, hasKey("source"));
+                                  ^
+  symbol:   method hasKey(java.lang.String)
+  location: class CodexTest_0_8_45
+CodexTest_0_8_45.java:76: error: cannot find symbol
+        assertThat(sourceMap, hasEntry(randomFieldName, (Object) randomFieldValue));
+                              ^
+  symbol:   method hasEntry(java.lang.String,java.lang.Object)
+  location: class CodexTest_0_8_45
+Note: CodexTest_0_8_45.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

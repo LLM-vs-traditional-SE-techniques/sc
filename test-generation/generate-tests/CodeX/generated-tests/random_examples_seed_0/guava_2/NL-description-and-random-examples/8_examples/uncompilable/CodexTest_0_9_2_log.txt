@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_2.java:26: error: cannot find symbol
+      BitMatrix matrix = new BitMatrix(8, 1);
+      ^
+  symbol:   class BitMatrix
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:26: error: cannot find symbol
+      BitMatrix matrix = new BitMatrix(8, 1);
+                             ^
+  symbol:   class BitMatrix
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:32: error: cannot find symbol
+      matrix = new BitMatrix(8, 1);
+                   ^
+  symbol:   class BitMatrix
+  location: class CodexTest_0_9_2

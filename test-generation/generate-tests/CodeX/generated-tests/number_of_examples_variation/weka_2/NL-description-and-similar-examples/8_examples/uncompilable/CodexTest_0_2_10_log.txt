@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_2_10.java:67: error: illegal start of expression
+}
+^
+CodexTest_0_2_10.java:67: error: reached end of file while parsing
+}
+ ^

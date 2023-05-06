@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_84.java:26: error: cannot find symbol
+                Hashing.sha1().newHasher().putString("Simplify.java", Charset.forName("UTF-8")).hash()
+                                                                      ^
+  symbol:   variable Charset
+  location: class CodexTest_0_9_84
+CodexTest_0_9_84.java:28: error: cannot find symbol
+                Hashing.sha1().newHasher().putString("Simplify.java", Charset.forName("UTF-8")).hash().asBytes()[0]
+                                                                      ^
+  symbol:   variable Charset
+  location: class CodexTest_0_9_84
+CodexTest_0_9_84.java:31: error: cannot find symbol
+                Hashing.sha1().newHasher().putString("Simplify.java", Charset.forName("UTF-8")).hash()
+                                                                      ^
+  symbol:   variable Charset
+  location: class CodexTest_0_9_84
+CodexTest_0_9_84.java:33: error: cannot find symbol
+                Hashing.sha1().newHasher().putString("Simplify.java", Charset.forName("UTF-8")).hash()
+                                                                      ^
+  symbol:   variable Charset
+  location: class CodexTest_0_9_84

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_5.java:23: error: cannot find symbol
+        BindingMap sut = new BindingMap();
+        ^
+  symbol:   class BindingMap
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:23: error: cannot find symbol
+        BindingMap sut = new BindingMap();
+                             ^
+  symbol:   class BindingMap
+  location: class CodexTest_0_9_5

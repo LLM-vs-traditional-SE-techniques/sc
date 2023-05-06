@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_9.java:65: error: cannot find symbol
+        assertEquals("parent", new ParentChildTests(new ParentChildImpl()).parent());
+                                   ^
+  symbol:   class ParentChildTests
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:65: error: cannot find symbol
+        assertEquals("parent", new ParentChildTests(new ParentChildImpl()).parent());
+                                                        ^
+  symbol:   class ParentChildImpl
+  location: class CodexTest_0_7_9

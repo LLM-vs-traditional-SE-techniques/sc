@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_5_57.java:66: error: package ParentJoinFieldMapper does not exist
+        ParentJoinFieldMapper.Builder builder = new ParentJoinFieldMapper.Builder("join_field", parent);
+                             ^
+CodexTest_0_5_57.java:66: error: package ParentJoinFieldMapper does not exist
+        ParentJoinFieldMapper.Builder builder = new ParentJoinFieldMapper.Builder("join_field", parent);
+                                                                         ^

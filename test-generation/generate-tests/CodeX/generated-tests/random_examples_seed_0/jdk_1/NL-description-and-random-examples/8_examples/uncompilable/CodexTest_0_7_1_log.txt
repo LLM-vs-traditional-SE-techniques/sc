@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_1.java:21: error: cannot find symbol
+        ListIterator<String> iter = list.listIterator(1);
+                                    ^
+  symbol:   variable list
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:24: error: cannot find symbol
+        assertEquals(1, list.size());
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:25: error: cannot find symbol
+        assertEquals(b, list.get(0));
+                     ^
+  symbol:   variable b
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:25: error: cannot find symbol
+        assertEquals(b, list.get(0));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:26: error: cannot find symbol
+        assertEquals(b, list.get(1));
+                     ^
+  symbol:   variable b
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:26: error: cannot find symbol
+        assertEquals(b, list.get(1));
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_7_1

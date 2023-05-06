@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_6_40.java:21: error: cannot find symbol
+        Graph graph = createGraph();
+                      ^
+  symbol:   method createGraph()
+  location: class CodexTest_0_6_40
+CodexTest_0_6_40.java:32: error: reference to contains is ambiguous
+        boolean result = path.contains(graph.getEdge("cd"));
+                             ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match

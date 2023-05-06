@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_9_15.java:19: error: incompatible types: short cannot be converted to java.lang.Boolean
+        Short result = underTest.toShort(Short.MAX_VALUE);
+                                              ^
+CodexTest_0_9_15.java:21: error: reference to assertEquals is ambiguous
+        assertEquals(Short.MAX_VALUE, result);
+        ^
+  both method assertEquals(long,long) in org.junit.Assert and method assertEquals(java.lang.Object,java.lang.Object) in org.junit.Assert match
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

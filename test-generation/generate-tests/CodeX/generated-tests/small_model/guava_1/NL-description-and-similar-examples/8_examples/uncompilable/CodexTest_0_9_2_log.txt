@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_2.java:25: error: cannot find symbol
+    return new LongHashCode(seed.raw() ^ seed.raw());
+               ^
+  symbol:   class LongHashCode
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:25: error: cannot find symbol
+    return new LongHashCode(seed.raw() ^ seed.raw());
+                                ^
+  symbol:   method raw()
+  location: variable seed of type com.google.common.hash.HashCode
+CodexTest_0_9_2.java:25: error: cannot find symbol
+    return new LongHashCode(seed.raw() ^ seed.raw());
+                                             ^
+  symbol:   method raw()
+  location: variable seed of type com.google.common.hash.HashCode

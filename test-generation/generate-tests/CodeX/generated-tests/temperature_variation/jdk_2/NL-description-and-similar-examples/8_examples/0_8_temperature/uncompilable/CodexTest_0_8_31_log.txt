@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_31.java:24: error: cannot find symbol
+        boolean result = empty.contains(object);
+                         ^
+  symbol:   variable empty
+  location: class CodexTest_0_8_31

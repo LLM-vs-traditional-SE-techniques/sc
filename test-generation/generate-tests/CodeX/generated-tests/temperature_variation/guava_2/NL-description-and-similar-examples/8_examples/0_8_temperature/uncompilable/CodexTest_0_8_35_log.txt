@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_35.java:26: error: cannot find symbol
+        InputStream in = new ByteArrayInputStream(bytes);
+        ^
+  symbol:   class InputStream
+  location: class CodexTest_0_8_35
+CodexTest_0_8_35.java:26: error: cannot find symbol
+        InputStream in = new ByteArrayInputStream(bytes);
+                             ^
+  symbol:   class ByteArrayInputStream
+  location: class CodexTest_0_8_35
+CodexTest_0_8_35.java:28: error: cannot find symbol
+            int result = ByteStreams.read(in, new byte[4], 0, 4);
+                         ^
+  symbol:   variable ByteStreams
+  location: class CodexTest_0_8_35
+CodexTest_0_8_35.java:31: error: cannot find symbol
+        } catch (IOException e) {
+                 ^
+  symbol:   class IOException
+  location: class CodexTest_0_8_35

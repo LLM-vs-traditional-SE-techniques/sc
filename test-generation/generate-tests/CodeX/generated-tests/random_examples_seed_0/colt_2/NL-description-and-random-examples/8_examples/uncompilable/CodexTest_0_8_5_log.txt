@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_5.java:38: error: <identifier> expected
+Input: public DoubleMatrix2D like2D(int rows, int columns) {
+     ^
+CodexTest_0_8_5.java:41: error: <identifier> expected
+Output: @Test
+      ^
+CodexTest_0_8_5.java:52: error: <identifier> expected
+Input: public DoubleMatrix2D like2D(int rows, int columns) {
+     ^
+CodexTest_0_8_5.java:55: error: <identifier> expected
+Output: @Test
+      ^

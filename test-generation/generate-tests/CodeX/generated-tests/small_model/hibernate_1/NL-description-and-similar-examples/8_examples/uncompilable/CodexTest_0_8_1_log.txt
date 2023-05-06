@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_8_1.java:19: error: incompatible types: java.lang.String cannot be converted to java.lang.Boolean
+        short result = underTest.toShort("Y");
+                                         ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

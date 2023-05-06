@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_39.java:24: error: <identifier> expected
+Input: public static PatchedEntry<K, V> newEntry(K key, V value, PatchedEntry<K, V> next) {
+     ^
+CodexTest_0_7_39.java:27: error: <identifier> expected
+Output:
+      ^

@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_8_56.java:21: error: cannot find symbol
+        assertTrue(BooleanArray.wrap(true, false, true).contains(Boolean.TRUE));
+                   ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:22: error: cannot find symbol
+        assertTrue(BooleanArray.wrap(true, false, true).contains(Boolean.FALSE));
+                   ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:23: error: cannot find symbol
+        assertTrue(BooleanArray.wrap(true, true).contains(Boolean.TRUE));
+                   ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:24: error: cannot find symbol
+        assertFalse(BooleanArray.wrap(true, true).contains(Boolean.FALSE));
+                    ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:25: error: cannot find symbol
+        assertFalse(BooleanArray.wrap(false, false).contains(Boolean.TRUE));
+                    ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:26: error: cannot find symbol
+        assertTrue(BooleanArray.wrap(false, false).contains(Boolean.FALSE));
+                   ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:27: error: cannot find symbol
+        assertFalse(BooleanArray.wrap(true).contains(Boolean.FALSE));
+                    ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:28: error: cannot find symbol
+        assertTrue(BooleanArray.wrap(true).contains(Boolean.TRUE));
+                   ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:29: error: cannot find symbol
+        assertFalse(BooleanArray.wrap(false).contains(Boolean.TRUE));
+                    ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:30: error: cannot find symbol
+        assertTrue(BooleanArray.wrap(false).contains(Boolean.FALSE));
+                   ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:31: error: cannot find symbol
+        assertFalse(BooleanArray.wrap().contains(Boolean.TRUE));
+                    ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:32: error: cannot find symbol
+        assertFalse(BooleanArray.wrap().contains(Boolean.FALSE));
+                    ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:33: error: cannot find symbol
+        assertFalse(BooleanArray.wrap().contains("foobar"));
+                    ^
+  symbol:   variable BooleanArray
+  location: class CodexTest_0_8_56

@@ -1,0 +1,71 @@
+isCompilable => false
+CodexTest_0_6_41.java:20: error: cannot find symbol
+        DefaultEdge e1 = new DefaultEdge();
+        ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:20: error: cannot find symbol
+        DefaultEdge e1 = new DefaultEdge();
+                             ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:21: error: cannot find symbol
+        DefaultEdge e2 = new DefaultEdge();
+        ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:21: error: cannot find symbol
+        DefaultEdge e2 = new DefaultEdge();
+                             ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:22: error: cannot find symbol
+        DefaultEdge e3 = new DefaultEdge();
+        ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:22: error: cannot find symbol
+        DefaultEdge e3 = new DefaultEdge();
+                             ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:23: error: cannot find symbol
+        DefaultEdge e4 = new DefaultEdge();
+        ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:23: error: cannot find symbol
+        DefaultEdge e4 = new DefaultEdge();
+                             ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:24: error: cannot find symbol
+        List<DefaultEdge> edges = new ArrayList<>();
+             ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:24: error: cannot find symbol
+        List<DefaultEdge> edges = new ArrayList<>();
+                                      ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:29: error: cannot find symbol
+        EdgePath<DefaultEdge> path = new EdgePathImpl<>(edges);
+        ^
+  symbol:   class EdgePath
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:29: error: cannot find symbol
+        EdgePath<DefaultEdge> path = new EdgePathImpl<>(edges);
+                 ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:29: error: cannot find symbol
+        EdgePath<DefaultEdge> path = new EdgePathImpl<>(edges);
+                                         ^
+  symbol:   class EdgePathImpl
+  location: class CodexTest_0_6_41
+CodexTest_0_6_41.java:31: error: cannot find symbol
+        assertFalse(path.contains(new DefaultEdge()));
+                                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_6_41

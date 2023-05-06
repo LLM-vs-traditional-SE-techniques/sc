@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_5.java:16: error: cannot find symbol
+        Short s = BooleanUtils.toShortObject(true);
+                  ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_5

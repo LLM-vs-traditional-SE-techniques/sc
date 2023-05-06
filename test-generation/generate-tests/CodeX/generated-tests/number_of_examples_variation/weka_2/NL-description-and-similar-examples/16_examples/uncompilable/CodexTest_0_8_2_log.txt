@@ -1,0 +1,30 @@
+isCompilable => false
+CodexTest_0_8_2.java:23: error: cannot find symbol
+	Instances train = new Instances(new BufferedReader(
+	                                    ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:24: error: cannot find symbol
+					 new FileReader(dataset)));
+					     ^
+  symbol:   class FileReader
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:33: error: incompatible types: weka.core.FastVector cannot be converted to double[]
+	Instance inst = new DenseInstance(1.0, values);
+	                                       ^
+CodexTest_0_8_2.java:36: error: incompatible types: weka.core.Instances cannot be converted to double[]
+	  (Instance)inst.copy(new Instances(train, 0));
+	                      ^
+CodexTest_0_8_2.java:38: error: incompatible types: weka.core.Instance cannot be converted to double[]
+	inst.replaceMissingValues(instWithMissing);
+	                          ^
+CodexTest_0_8_2.java:40: error: cannot find symbol
+		     inst.missingValue(), inst.value(0));
+		         ^
+  symbol:   method missingValue()
+  location: variable inst of type weka.core.Instance
+Note: CodexTest_0_8_2.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: CodexTest_0_8_2.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

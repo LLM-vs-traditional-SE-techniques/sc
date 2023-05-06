@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_3_53.java:35: error: cannot find symbol
+        Assert.assertEquals(0.0, v.scalarMultiply(0).getY(), 1.0e-12);
+                                                    ^
+  symbol:   method getY()
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_3_53.java:36: error: cannot find symbol
+        Assert.assertEquals(0.0, v.scalarMultiply(0).getZ(), 1.0e-12);
+                                                    ^
+  symbol:   method getZ()
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_3_53.java:38: error: cannot find symbol
+        Assert.assertEquals(v.getY(), v.scalarMultiply(1).getY(), 1.0e-12);
+                             ^
+  symbol:   method getY()
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_3_53.java:38: error: cannot find symbol
+        Assert.assertEquals(v.getY(), v.scalarMultiply(1).getY(), 1.0e-12);
+                                                         ^
+  symbol:   method getY()
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_3_53.java:39: error: cannot find symbol
+        Assert.assertEquals(v.getZ(), v.scalarMultiply(1).getZ(), 1.0e-12);
+                             ^
+  symbol:   method getZ()
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_3_53.java:39: error: cannot find symbol
+        Assert.assertEquals(v.getZ(), v.scalarMultiply(1).getZ(), 1.0e-12);
+                                                         ^
+  symbol:   method getZ()
+  location: class org.apache.commons.math3.geometry.euclidean.oned.Vector1D

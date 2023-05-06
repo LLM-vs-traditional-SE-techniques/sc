@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_9_26.java:66: error: cannot find symbol
+    				String bulkAction = createStringWithLength(10);
+    				                    ^
+  symbol:   method createStringWithLength(int)
+  location: class CodexTest_0_9_26
+CodexTest_0_9_26.java:67: error: cannot find symbol
+    				String metaData = createStringWithLength(5);
+    				                  ^
+  symbol:   method createStringWithLength(int)
+  location: class CodexTest_0_9_26
+CodexTest_0_9_26.java:68: error: cannot find symbol
+    				XContentParser parser =
+    				^
+  symbol:   class XContentParser
+  location: class CodexTest_0_9_26
+CodexTest_0_9_26.java:69: error: cannot find symbol
+    						createParser(
+    						^
+  symbol:   method createParser(org.elasticsearch.common.xcontent.XContent,java.lang.String)
+  location: class CodexTest_0_9_26
+CodexTest_0_9_26.java:73: error: cannot find symbol
+    				PercolateRequest.parseRequest(parser);
+    				^
+  symbol:   variable PercolateRequest
+  location: class CodexTest_0_9_26
+CodexTest_0_9_26.java:75: error: cannot find symbol
+    			} catch (PercolateException e) {
+    			         ^
+  symbol:   class PercolateException
+  location: class CodexTest_0_9_26
+CodexTest_0_9_26.java:76: error: cannot find symbol
+    				assertThat(e.getMessage(), containsString("unknown key for a " + bulkAction + " request"));
+    				                                                                 ^
+  symbol:   variable bulkAction
+  location: class CodexTest_0_9_26

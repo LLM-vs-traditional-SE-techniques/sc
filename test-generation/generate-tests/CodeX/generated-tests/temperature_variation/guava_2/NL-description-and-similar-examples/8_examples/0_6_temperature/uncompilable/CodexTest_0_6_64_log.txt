@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_64.java:29: error: cannot find symbol
+    filter.writeBytesTo(resultBytes, 0, 3);
+          ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.Integer>
+CodexTest_0_6_64.java:31: error: cannot find symbol
+    byte[] rawBytes = filter.bits().toByteArray();
+                            ^
+  symbol:   method bits()
+  location: variable filter of type com.google.common.hash.BloomFilter<java.lang.Integer>

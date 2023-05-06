@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_7_55.java:27: error: incompatible types: possible lossy conversion from int to byte
+      BitArray.fromBytes(new byte[] {0xFF});
+                                     ^
+CodexTest_0_7_55.java:27: error: cannot find symbol
+      BitArray.fromBytes(new byte[] {0xFF});
+      ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_7_55
+CodexTest_0_7_55.java:30: error: no suitable method found for assertThat(java.lang.IllegalArgumentException)
+      assertThat(expected)
+      ^
+    method org.junit.Assert.<T>assertThat(java.lang.String,T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))
+    method org.junit.Assert.<T>assertThat(T,org.hamcrest.Matcher<? super T>) is not applicable
+      (cannot infer type-variable(s) T
+        (actual and formal argument lists differ in length))

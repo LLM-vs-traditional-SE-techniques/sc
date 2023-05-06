@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_3_48.java:26: error: cannot find symbol
+    assertEquals(4, new BitArray(new byte[] {(byte) 0xFF, (byte) 0xFF, (byte) 0xFF, (byte) 0xFF}).writeBytesTo(dest, 0, 4));
+                        ^
+  symbol:   class BitArray
+  location: class CodexTest_0_3_48
+CodexTest_0_3_48.java:27: error: cannot find symbol
+    assertEquals(new BitArray(new byte[] {(byte) 0xFF, (byte) 0xFF, (byte) 0xFF, (byte) 0xFF}), new BitArray(dest));
+                     ^
+  symbol:   class BitArray
+  location: class CodexTest_0_3_48
+CodexTest_0_3_48.java:27: error: cannot find symbol
+    assertEquals(new BitArray(new byte[] {(byte) 0xFF, (byte) 0xFF, (byte) 0xFF, (byte) 0xFF}), new BitArray(dest));
+                                                                                                    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_3_48

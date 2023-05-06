@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_32.java:21: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_4_32
+CodexTest_0_4_32.java:22: error: cannot find symbol
+            assertEquals(i, list.remove(0));
+                            ^
+  symbol:   variable list
+  location: class CodexTest_0_4_32
+CodexTest_0_4_32.java:24: error: cannot find symbol
+        assertEquals(0, list.size());
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_4_32

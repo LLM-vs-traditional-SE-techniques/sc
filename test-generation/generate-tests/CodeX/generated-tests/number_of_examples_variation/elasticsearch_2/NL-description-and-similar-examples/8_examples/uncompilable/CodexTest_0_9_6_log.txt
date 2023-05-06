@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_9_6.java:65: error: package OpType does not exist
+        String opType = randomFrom(Arrays.asList(OpType.CREATE.toString(), OpType.INDEX.toString()));
+                                                       ^
+CodexTest_0_9_6.java:65: error: package OpType does not exist
+        String opType = randomFrom(Arrays.asList(OpType.CREATE.toString(), OpType.INDEX.toString()));
+                                                                                 ^
+CodexTest_0_9_6.java:67: error: cannot find symbol
+        ObjectNode testNode;
+        ^
+  symbol:   class ObjectNode
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:69: error: cannot find symbol
+            testNode = new ObjectMapper().createObjectNode();
+                           ^
+  symbol:   class ObjectMapper
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:70: error: cannot find symbol
+            ObjectNode sourceNode = testNode.putObject(IndexAction.INSTANCE.getName()).putObject("params")
+            ^
+  symbol:   class ObjectNode
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:71: error: cannot find symbol
+                    .put(IndexAction.INSTANCE.opTypeValue().getPreferredName(), opType);
+                                             ^
+  symbol:   method opTypeValue()
+  location: variable INSTANCE of type org.elasticsearch.action.index.IndexAction
+CodexTest_0_9_6.java:70: error: cannot find symbol
+            ObjectNode sourceNode = testNode.putObject(IndexAction.INSTANCE.getName()).putObject("params")
+                                                                           ^
+  symbol:   method getName()
+  location: variable INSTANCE of type org.elasticsearch.action.index.IndexAction
+CodexTest_0_9_6.java:75: error: cannot find symbol
+        IndexRequest serialized = copyWriteable(testRequest, namedWriteableRegistry, IndexRequest::new);
+                                                             ^
+  symbol:   variable namedWriteableRegistry
+  location: class CodexTest_0_9_6

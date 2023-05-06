@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_8_5.java:21: error: cannot find symbol
+    assertFalse(ContainsChecker.contains(values, null));
+                                         ^
+  symbol:   variable values
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:21: error: cannot find symbol
+    assertFalse(ContainsChecker.contains(values, null));
+                ^
+  symbol:   variable ContainsChecker
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:22: error: cannot find symbol
+    assertTrue(ContainsChecker.contains(values, "foo"));
+                                        ^
+  symbol:   variable values
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:22: error: cannot find symbol
+    assertTrue(ContainsChecker.contains(values, "foo"));
+               ^
+  symbol:   variable ContainsChecker
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:23: error: cannot find symbol
+    assertTrue(ContainsChecker.contains(values, "bar"));
+                                        ^
+  symbol:   variable values
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:23: error: cannot find symbol
+    assertTrue(ContainsChecker.contains(values, "bar"));
+               ^
+  symbol:   variable ContainsChecker
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:24: error: cannot find symbol
+    assertTrue(ContainsChecker.contains(values, "fubar"));
+                                        ^
+  symbol:   variable values
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:24: error: cannot find symbol
+    assertTrue(ContainsChecker.contains(values, "fubar"));
+               ^
+  symbol:   variable ContainsChecker
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:25: error: cannot find symbol
+    assertFalse(ContainsChecker.contains(values, "buzz"));
+                                         ^
+  symbol:   variable values
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:25: error: cannot find symbol
+    assertFalse(ContainsChecker.contains(values, "buzz"));
+                ^
+  symbol:   variable ContainsChecker
+  location: class CodexTest_0_8_5

@@ -1,0 +1,39 @@
+isCompilable => false
+CodexTest_0_7_59.java:29: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+CodexTest_0_7_59.java:31: error: cannot find symbol
+        double[] expected = new double[SIZE];
+                                       ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:32: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:34: error: cannot find symbol
+            m_Receiver.setQuick(i, Math.random() - 0.5);
+            ^
+  symbol:   variable m_Receiver
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:36: error: cannot find symbol
+        m_Receiver.assign(expected);
+        ^
+  symbol:   variable m_Receiver
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:37: error: cannot find symbol
+        for (int r = 0; r < SIZE; r++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:38: error: cannot find symbol
+            assertEquals(expected[r], m_Receiver.getQuick(r), TOL);
+                                      ^
+  symbol:   variable m_Receiver
+  location: class CodexTest_0_7_59
+CodexTest_0_7_59.java:38: error: cannot find symbol
+            assertEquals(expected[r], m_Receiver.getQuick(r), TOL);
+                                                              ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_59

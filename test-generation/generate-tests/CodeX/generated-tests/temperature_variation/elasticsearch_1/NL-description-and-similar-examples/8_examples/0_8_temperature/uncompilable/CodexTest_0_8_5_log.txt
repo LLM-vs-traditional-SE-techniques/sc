@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_5.java:69: error: cannot find symbol
+        DeleteRequest request = new DeleteRequest(index, type, id).parent(parent);
+        ^
+  symbol:   class DeleteRequest
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:69: error: cannot find symbol
+        DeleteRequest request = new DeleteRequest(index, type, id).parent(parent);
+                                    ^
+  symbol:   class DeleteRequest
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:70: error: cannot find symbol
+        assertThat(request.parent(), equalTo(parent));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_5

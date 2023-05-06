@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_88.java:38: error: illegal character: '#'
+#### 16.4 Suggest a test for a method with the AlgVector subtract(AlgVector other) signature.	
+^
+CodexTest_0_9_88.java:38: error: illegal character: '#'
+#### 16.4 Suggest a test for a method with the AlgVector subtract(AlgVector other) signature.	
+ ^
+CodexTest_0_9_88.java:38: error: illegal character: '#'
+#### 16.4 Suggest a test for a method with the AlgVector subtract(AlgVector other) signature.	
+  ^
+CodexTest_0_9_88.java:38: error: illegal character: '#'
+#### 16.4 Suggest a test for a method with the AlgVector subtract(AlgVector other) signature.	
+   ^
+CodexTest_0_9_88.java:38: error: illegal start of type
+#### 16.4 Suggest a test for a method with the AlgVector subtract(AlgVector other) signature.	
+     ^
+CodexTest_0_9_88.java:38: error: ';' expected
+#### 16.4 Suggest a test for a method with the AlgVector subtract(AlgVector other) signature.	
+         ^
+CodexTest_0_9_88.java:38: error: ';' expected
+#### 16.4 Suggest a test for a method with the AlgVector subtract(AlgVector other) signature.	
+                        ^
+CodexTest_0_9_88.java:38: error: ';' expected
+#### 16.4 Suggest a test for a method with the AlgVector subtract(AlgVector other) signature.	
+                                     ^
+CodexTest_0_9_88.java:38: error: ';' expected
+#### 16.4 Suggest a test for a method with the AlgVector subtract(AlgVector other) signature.	
+                                              ^
+CodexTest_0_9_88.java:38: error: ';' expected
+#### 16.4 Suggest a test for a method with the AlgVector subtract(AlgVector other) signature.	
+                                                                                  ^

@@ -1,0 +1,157 @@
+isCompilable => false
+CodexTest_0_9_8.java:23: error: illegal start of type
+-------------------------------------------
+^
+CodexTest_0_9_8.java:23: error: ';' expected
+-------------------------------------------
+  ^
+CodexTest_0_9_8.java:23: error: illegal start of type
+-------------------------------------------
+    ^
+CodexTest_0_9_8.java:23: error: <identifier> expected
+-------------------------------------------
+      ^
+CodexTest_0_9_8.java:23: error: ';' expected
+-------------------------------------------
+        ^
+CodexTest_0_9_8.java:23: error: illegal start of type
+-------------------------------------------
+          ^
+CodexTest_0_9_8.java:23: error: <identifier> expected
+-------------------------------------------
+            ^
+CodexTest_0_9_8.java:23: error: ';' expected
+-------------------------------------------
+              ^
+CodexTest_0_9_8.java:23: error: illegal start of type
+-------------------------------------------
+                ^
+CodexTest_0_9_8.java:23: error: <identifier> expected
+-------------------------------------------
+                  ^
+CodexTest_0_9_8.java:23: error: ';' expected
+-------------------------------------------
+                    ^
+CodexTest_0_9_8.java:23: error: illegal start of type
+-------------------------------------------
+                      ^
+CodexTest_0_9_8.java:23: error: <identifier> expected
+-------------------------------------------
+                        ^
+CodexTest_0_9_8.java:23: error: ';' expected
+-------------------------------------------
+                          ^
+CodexTest_0_9_8.java:23: error: illegal start of type
+-------------------------------------------
+                            ^
+CodexTest_0_9_8.java:23: error: <identifier> expected
+-------------------------------------------
+                              ^
+CodexTest_0_9_8.java:23: error: ';' expected
+-------------------------------------------
+                                ^
+CodexTest_0_9_8.java:23: error: illegal start of type
+-------------------------------------------
+                                  ^
+CodexTest_0_9_8.java:23: error: <identifier> expected
+-------------------------------------------
+                                    ^
+CodexTest_0_9_8.java:23: error: ';' expected
+-------------------------------------------
+                                      ^
+CodexTest_0_9_8.java:23: error: illegal start of type
+-------------------------------------------
+                                        ^
+CodexTest_0_9_8.java:23: error: <identifier> expected
+-------------------------------------------
+                                          ^
+CodexTest_0_9_8.java:23: error: ';' expected
+-------------------------------------------
+                                           ^
+CodexTest_0_9_8.java:24: error: illegal start of type
+INPUTS: 460
+      ^
+CodexTest_0_9_8.java:24: error: <identifier> expected
+INPUTS: 460
+       ^
+CodexTest_0_9_8.java:24: error: ';' expected
+INPUTS: 460
+           ^
+CodexTest_0_9_8.java:25: error: <identifier> expected
+TESTS GENERATED: 11692
+               ^
+CodexTest_0_9_8.java:25: error: illegal start of type
+TESTS GENERATED: 11692
+                 ^
+CodexTest_0_9_8.java:25: error: <identifier> expected
+TESTS GENERATED: 11692
+                      ^
+CodexTest_0_9_8.java:26: error: ';' expected
+-------------------------------------------
+  ^
+CodexTest_0_9_8.java:26: error: illegal start of type
+-------------------------------------------
+    ^
+CodexTest_0_9_8.java:26: error: <identifier> expected
+-------------------------------------------
+      ^
+CodexTest_0_9_8.java:26: error: ';' expected
+-------------------------------------------
+        ^
+CodexTest_0_9_8.java:26: error: illegal start of type
+-------------------------------------------
+          ^
+CodexTest_0_9_8.java:26: error: <identifier> expected
+-------------------------------------------
+            ^
+CodexTest_0_9_8.java:26: error: ';' expected
+-------------------------------------------
+              ^
+CodexTest_0_9_8.java:26: error: illegal start of type
+-------------------------------------------
+                ^
+CodexTest_0_9_8.java:26: error: <identifier> expected
+-------------------------------------------
+                  ^
+CodexTest_0_9_8.java:26: error: ';' expected
+-------------------------------------------
+                    ^
+CodexTest_0_9_8.java:26: error: illegal start of type
+-------------------------------------------
+                      ^
+CodexTest_0_9_8.java:26: error: <identifier> expected
+-------------------------------------------
+                        ^
+CodexTest_0_9_8.java:26: error: ';' expected
+-------------------------------------------
+                          ^
+CodexTest_0_9_8.java:26: error: illegal start of type
+-------------------------------------------
+                            ^
+CodexTest_0_9_8.java:26: error: <identifier> expected
+-------------------------------------------
+                              ^
+CodexTest_0_9_8.java:26: error: ';' expected
+-------------------------------------------
+                                ^
+CodexTest_0_9_8.java:26: error: illegal start of type
+-------------------------------------------
+                                  ^
+CodexTest_0_9_8.java:26: error: <identifier> expected
+-------------------------------------------
+                                    ^
+CodexTest_0_9_8.java:26: error: ';' expected
+-------------------------------------------
+                                      ^
+CodexTest_0_9_8.java:26: error: illegal start of type
+-------------------------------------------
+                                        ^
+CodexTest_0_9_8.java:26: error: <identifier> expected
+-------------------------------------------
+                                          ^
+CodexTest_0_9_8.java:26: error: ';' expected
+-------------------------------------------
+                                           ^
+CodexTest_0_9_8.java:27: error: reached end of file while parsing
+}
+ ^

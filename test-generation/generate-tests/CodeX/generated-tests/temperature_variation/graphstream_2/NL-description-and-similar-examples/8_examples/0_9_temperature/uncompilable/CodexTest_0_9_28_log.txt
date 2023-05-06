@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_9_28.java:20: error: cannot find symbol
+        Graph graph = createGraph();
+                      ^
+  symbol:   method createGraph()
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:21: error: cannot find symbol
+        PathFactory pathFactory = graph.traversal().paths();
+        ^
+  symbol:   class PathFactory
+  location: class CodexTest_0_9_28
+CodexTest_0_9_28.java:21: error: cannot find symbol
+        PathFactory pathFactory = graph.traversal().paths();
+                                       ^
+  symbol:   method traversal()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_9_28.java:22: error: cannot find symbol
+        Path original = pathFactory.make().extend(graph.traversal().V(1), graph.traversal().V(2), graph.traversal().V(3), graph.traversal().V(4));
+                                                       ^
+  symbol:   method traversal()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_9_28.java:22: error: cannot find symbol
+        Path original = pathFactory.make().extend(graph.traversal().V(1), graph.traversal().V(2), graph.traversal().V(3), graph.traversal().V(4));
+                                                                               ^
+  symbol:   method traversal()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_9_28.java:22: error: cannot find symbol
+        Path original = pathFactory.make().extend(graph.traversal().V(1), graph.traversal().V(2), graph.traversal().V(3), graph.traversal().V(4));
+                                                                                                       ^
+  symbol:   method traversal()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_9_28.java:22: error: cannot find symbol
+        Path original = pathFactory.make().extend(graph.traversal().V(1), graph.traversal().V(2), graph.traversal().V(3), graph.traversal().V(4));
+                                                                                                                               ^
+  symbol:   method traversal()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_9_28.java:23: error: cannot find symbol
+        Path other = pathFactory.make().extend(graph.traversal().V(1), graph.traversal().V(2), graph.traversal().V(3), graph.traversal().V(4));
+                                                    ^
+  symbol:   method traversal()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_9_28.java:23: error: cannot find symbol
+        Path other = pathFactory.make().extend(graph.traversal().V(1), graph.traversal().V(2), graph.traversal().V(3), graph.traversal().V(4));
+                                                                            ^
+  symbol:   method traversal()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_9_28.java:23: error: cannot find symbol
+        Path other = pathFactory.make().extend(graph.traversal().V(1), graph.traversal().V(2), graph.traversal().V(3), graph.traversal().V(4));
+                                                                                                    ^
+  symbol:   method traversal()
+  location: variable graph of type org.graphstream.graph.Graph
+CodexTest_0_9_28.java:23: error: cannot find symbol
+        Path other = pathFactory.make().extend(graph.traversal().V(1), graph.traversal().V(2), graph.traversal().V(3), graph.traversal().V(4));
+                                                                                                                            ^
+  symbol:   method traversal()
+  location: variable graph of type org.graphstream.graph.Graph

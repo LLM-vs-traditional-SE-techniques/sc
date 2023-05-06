@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_4.java:66: error: cannot find symbol
+        String actual = new Node<String>("test", "node").parent();
+                            ^
+  symbol:   class Node
+  location: class CodexTest_0_6_4

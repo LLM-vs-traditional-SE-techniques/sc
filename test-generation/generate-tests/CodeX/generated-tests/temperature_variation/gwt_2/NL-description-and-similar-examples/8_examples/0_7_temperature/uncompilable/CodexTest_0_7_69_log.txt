@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_69.java:14: error: cannot find symbol
+  private static UncaughtExceptionHandler getUncaughtExceptionHandler() {
+                 ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_7_69
+CodexTest_0_7_69.java:15: error: cannot find symbol
+    return GWTTestCase.getUncaughtExceptionHandler();
+                      ^
+  symbol:   method getUncaughtExceptionHandler()
+  location: class com.google.gwt.junit.client.GWTTestCase

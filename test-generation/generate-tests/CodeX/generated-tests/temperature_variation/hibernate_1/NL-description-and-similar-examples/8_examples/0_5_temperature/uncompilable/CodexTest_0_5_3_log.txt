@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_5_3.java:24: error: <identifier> expected
+Input: public static void setProperties(Object target, Map<String, Object> properties) {
+     ^
+CodexTest_0_5_3.java:36: error: <identifier> expected
+Output: public void testSetProperties() {
+      ^
+CodexTest_0_5_3.java:51: error: reached end of file while parsing
+}
+ ^

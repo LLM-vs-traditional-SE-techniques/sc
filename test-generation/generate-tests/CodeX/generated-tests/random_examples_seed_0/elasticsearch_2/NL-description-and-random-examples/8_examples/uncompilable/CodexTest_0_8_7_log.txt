@@ -1,0 +1,82 @@
+isCompilable => false
+CodexTest_0_8_7.java:67: error: <identifier> expected
+        file.setAttribute(LogConstants.LOCATION_ATTR, "file://c:/tmp/logfile.log");
+                         ^
+CodexTest_0_8_7.java:67: error: <identifier> expected
+        file.setAttribute(LogConstants.LOCATION_ATTR, "file://c:/tmp/logfile.log");
+                                                    ^
+CodexTest_0_8_7.java:67: error: illegal start of type
+        file.setAttribute(LogConstants.LOCATION_ATTR, "file://c:/tmp/logfile.log");
+                                                      ^
+CodexTest_0_8_7.java:68: error: <identifier> expected
+        log.appendChild(file);
+                       ^
+CodexTest_0_8_7.java:68: error: <identifier> expected
+        log.appendChild(file);
+                            ^
+CodexTest_0_8_7.java:70: error: <identifier> expected
+        event.setAttribute(LogConstants.ID_ATTR, "12345");
+                          ^
+CodexTest_0_8_7.java:70: error: <identifier> expected
+        event.setAttribute(LogConstants.ID_ATTR, "12345");
+                                               ^
+CodexTest_0_8_7.java:70: error: illegal start of type
+        event.setAttribute(LogConstants.ID_ATTR, "12345");
+                                                 ^
+CodexTest_0_8_7.java:71: error: <identifier> expected
+        log.appendChild(event);
+                       ^
+CodexTest_0_8_7.java:71: error: <identifier> expected
+        log.appendChild(event);
+                             ^
+CodexTest_0_8_7.java:73: error: <identifier> expected
+        entry.setAttribute(LogConstants.DATE_ATTR, "today");
+                          ^
+CodexTest_0_8_7.java:73: error: <identifier> expected
+        entry.setAttribute(LogConstants.DATE_ATTR, "today");
+                                                 ^
+CodexTest_0_8_7.java:73: error: illegal start of type
+        entry.setAttribute(LogConstants.DATE_ATTR, "today");
+                                                   ^
+CodexTest_0_8_7.java:74: error: <identifier> expected
+        entry.setAttribute(LogConstants.LEVEL_ATTR, "high");
+                          ^
+CodexTest_0_8_7.java:74: error: <identifier> expected
+        entry.setAttribute(LogConstants.LEVEL_ATTR, "high");
+                                                  ^
+CodexTest_0_8_7.java:74: error: illegal start of type
+        entry.setAttribute(LogConstants.LEVEL_ATTR, "high");
+                                                    ^
+CodexTest_0_8_7.java:75: error: <identifier> expected
+        event.appendChild(entry);
+                         ^
+CodexTest_0_8_7.java:75: error: <identifier> expected
+        event.appendChild(entry);
+                               ^
+CodexTest_0_8_7.java:76: error: <identifier> expected
+        XMLAssert.assertXMLEqual(entry, dir.readFile(FILE));
+                                ^
+CodexTest_0_8_7.java:76: error: <identifier> expected
+        XMLAssert.assertXMLEqual(entry, dir.readFile(FILE));
+                                      ^
+CodexTest_0_8_7.java:76: error: <identifier> expected
+        XMLAssert.assertXMLEqual(entry, dir.readFile(FILE));
+                                                    ^
+CodexTest_0_8_7.java:76: error: ';' expected
+        XMLAssert.assertXMLEqual(entry, dir.readFile(FILE));
+                                                     ^
+CodexTest_0_8_7.java:76: error: illegal start of type
+        XMLAssert.assertXMLEqual(entry, dir.readFile(FILE));
+                                                         ^
+CodexTest_0_8_7.java:76: error: <identifier> expected
+        XMLAssert.assertXMLEqual(entry, dir.readFile(FILE));
+                                                          ^
+CodexTest_0_8_7.java:78: error: <identifier> expected
+Input: public static ParsedDocument create(String index, String type, String id, String routing, long timestamp, long ttl, List<Document> docs, boolean mappingsModified, Version indexCreatedVersion) {
+     ^
+CodexTest_0_8_7.java:84: error: ')' expected
+                seedAndDocs.docs().toArray(new ParseContext.Document[seedAndDocs.docs().size()]), documentM
+                                                                                                           ^
+CodexTest_0_8_7.java:85: error: reached end of file while parsing
+}
+ ^

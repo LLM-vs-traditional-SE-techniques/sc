@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_68.java:26: error: illegal start of type
+      if (SshUuidHelper.isDebugOn) {
+      ^
+CodexTest_0_9_68.java:26: error: <identifier> expected
+      if (SshUuidHelper.isDebugOn) {
+                                 ^
+CodexTest_0_9_68.java:29: error: invalid method declaration; return type required
+      assertEquals(after, before);
+      ^
+CodexTest_0_9_68.java:29: error: <identifier> expected
+      assertEquals(after, before);
+                        ^
+CodexTest_0_9_68.java:29: error: <identifier> expected
+      assertEquals(after, before);
+                                ^
+CodexTest_0_9_68.java:30: error: illegal character: '`'
+```
+^
+CodexTest_0_9_68.java:30: error: illegal character: '`'
+```
+ ^
+CodexTest_0_9_68.java:30: error: illegal character: '`'
+```
+  ^
+CodexTest_0_9_68.java:31: error: reached end of file while parsing
+}
+ ^

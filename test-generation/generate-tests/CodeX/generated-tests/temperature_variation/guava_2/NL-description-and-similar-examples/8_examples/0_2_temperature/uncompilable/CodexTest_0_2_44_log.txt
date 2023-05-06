@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_2_44.java:26: error: cannot find symbol
+    int numBytes = bits() / 8;
+                   ^
+  symbol:   method bits()
+  location: class CodexTest_0_2_44
+CodexTest_0_2_44.java:29: error: cannot find symbol
+    int written = writeBytesTo(dest, offset, maxLength);
+                  ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_2_44
+CodexTest_0_2_44.java:32: error: cannot find symbol
+    System.arraycopy(asBytes(), 0, expected, offset, maxLength);
+                     ^
+  symbol:   method asBytes()
+  location: class CodexTest_0_2_44

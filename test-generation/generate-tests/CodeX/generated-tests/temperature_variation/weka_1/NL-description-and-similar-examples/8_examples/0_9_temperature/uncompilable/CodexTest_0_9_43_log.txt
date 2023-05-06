@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_43.java:18: error: cannot find symbol
+    assertEquals("Not the correct solution", -12, a.multiply(b).getElement(0));
+                                                             ^
+  symbol:   variable b
+  location: class CodexTest_0_9_43
+CodexTest_0_9_43.java:18: error: cannot find symbol
+    assertEquals("Not the correct solution", -12, a.multiply(b).getElement(0));
+                                                  ^
+  symbol:   variable a
+  location: class CodexTest_0_9_43
+CodexTest_0_9_43.java:19: error: cannot find symbol
+    assertEquals("Not the correct solution", 3, a.multiply(b).getElement(1));
+                                                           ^
+  symbol:   variable b
+  location: class CodexTest_0_9_43
+CodexTest_0_9_43.java:19: error: cannot find symbol
+    assertEquals("Not the correct solution", 3, a.multiply(b).getElement(1));
+                                                ^
+  symbol:   variable a
+  location: class CodexTest_0_9_43

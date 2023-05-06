@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_6.java:16: error: cannot find symbol
+    Thread.setDefaultUncaughtExceptionHandler(new TestExceptionHandler());
+                                                  ^
+  symbol:   class TestExceptionHandler
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:22: error: cannot find symbol
+    assertTrue(TestExceptionHandler.exceptionThrown);
+               ^
+  symbol:   variable TestExceptionHandler
+  location: class CodexTest_0_6_6

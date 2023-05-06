@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_7.java:19: error: cannot find symbol
+      Instances inst = new Instances(new BufferedReader(new FileReader(TEST_DIR + "instances.arff")));
+                                         ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:19: error: cannot find symbol
+      Instances inst = new Instances(new BufferedReader(new FileReader(TEST_DIR + "instances.arff")));
+                                                            ^
+  symbol:   class FileReader
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:19: error: cannot find symbol
+      Instances inst = new Instances(new BufferedReader(new FileReader(TEST_DIR + "instances.arff")));
+                                                                       ^
+  symbol:   variable TEST_DIR
+  location: class CodexTest_0_5_7
+CodexTest_0_5_7.java:29: error: cannot find symbol
+      Instance inst2 = instance.getAsInstance(inst, new Random(1));
+                               ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable instance of type weka.core.DenseInstance

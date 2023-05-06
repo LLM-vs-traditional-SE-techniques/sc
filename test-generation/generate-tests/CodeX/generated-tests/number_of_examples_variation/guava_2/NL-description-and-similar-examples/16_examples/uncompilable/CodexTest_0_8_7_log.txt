@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_7.java:26: error: cannot find symbol
+      IndexRequest indexRequest = new IndexRequest("");
+      ^
+  symbol:   class IndexRequest
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:26: error: cannot find symbol
+      IndexRequest indexRequest = new IndexRequest("");
+                                      ^
+  symbol:   class IndexRequest
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:30: error: cannot find symbol
+      assertThat(e.getMessage(), equalTo("opType must be create or index, found: [foobar]"));
+                                 ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_7

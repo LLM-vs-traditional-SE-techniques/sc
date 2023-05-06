@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_8.java:25: error: m_Elements has protected access in weka.core.AlgVector
+      assertEquals((i+1) + ". value differs", d3[i], v3.m_Elements[i], 1e-8);
+                                                       ^

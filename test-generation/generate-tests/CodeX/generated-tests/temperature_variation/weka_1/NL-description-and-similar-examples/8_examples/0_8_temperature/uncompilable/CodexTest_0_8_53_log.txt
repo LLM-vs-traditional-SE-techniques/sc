@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_53.java:23: error: m_Elements has protected access in weka.core.AlgVector
+    assertEquals("Array length differs", d1.length, v3.m_Elements.length);
+                                                      ^
+CodexTest_0_8_53.java:25: error: m_Elements has protected access in weka.core.AlgVector
+      assertEquals("Element " + i + " differs", d1[i] + d2[i], v3.m_Elements[i]);
+                                                                 ^
+Note: CodexTest_0_8_53.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.

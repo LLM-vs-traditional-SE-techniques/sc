@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_7_7.java:31: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D v1 = new Vector1D(2, 3);
+                                      ^
+CodexTest_0_7_7.java:32: error: incompatible types: int cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D v2 = new Vector1D(1, 1);
+                                      ^
+CodexTest_0_7_7.java:33: error: cannot find symbol
+        Assert.assertEquals(5, Line.distanceSq(v1, v2), 1e-10);
+                               ^
+  symbol:   variable Line
+  location: class CodexTest_0_7_7
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

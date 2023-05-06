@@ -1,0 +1,18 @@
+isCompilable => false
+CodexTest_0_7_1.java:33: error: incompatible types: double cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D p1 = new Vector1D(x, y);
+                                      ^
+CodexTest_0_7_1.java:36: error: incompatible types: double cannot be converted to org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+        Vector1D p2 = new Vector1D(x2, y2);
+                                       ^
+CodexTest_0_7_1.java:37: error: cannot find symbol
+        double d2 = Vector2D.distanceSq(p1, p2);
+                    ^
+  symbol:   variable Vector2D
+  location: class CodexTest_0_7_1
+CodexTest_0_7_1.java:38: error: cannot find symbol
+        double d = Vector2D.distance(p1, p2);
+                   ^
+  symbol:   variable Vector2D
+  location: class CodexTest_0_7_1
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

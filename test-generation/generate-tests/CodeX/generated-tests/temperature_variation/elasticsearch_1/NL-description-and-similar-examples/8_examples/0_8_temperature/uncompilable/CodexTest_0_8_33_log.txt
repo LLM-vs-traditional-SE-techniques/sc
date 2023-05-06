@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_33.java:67: error: cannot find symbol
+        GetFieldsRequest request = new GetFieldsRequest(z, p);
+        ^
+  symbol:   class GetFieldsRequest
+  location: class CodexTest_0_8_33
+CodexTest_0_8_33.java:67: error: cannot find symbol
+        GetFieldsRequest request = new GetFieldsRequest(z, p);
+                                       ^
+  symbol:   class GetFieldsRequest
+  location: class CodexTest_0_8_33

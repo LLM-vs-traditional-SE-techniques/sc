@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_4.java:40: error: <identifier> expected
+Input: public static String toHex(byte[] bytes) {
+     ^
+CodexTest_0_8_4.java:48: error: <identifier> expected
+Output: public void testRetrieveFirstOfTwo() {
+      ^
+CodexTest_0_8_4.java:52: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_61.java:67: error: cannot find symbol
+        IndexMetaDataBuilder builder = IndexMetaData.builder(name).settings(Settings.builder().put(IndexMetaData.SETTING_VERSION_CREATED, Version.CURRENT))
+        ^
+  symbol:   class IndexMetaDataBuilder
+  location: class CodexTest_0_7_61
+CodexTest_0_7_61.java:67: error: cannot find symbol
+        IndexMetaDataBuilder builder = IndexMetaData.builder(name).settings(Settings.builder().put(IndexMetaData.SETTING_VERSION_CREATED, Version.CURRENT))
+                                                                                                   ^
+  symbol:   variable IndexMetaData
+  location: class CodexTest_0_7_61
+CodexTest_0_7_61.java:67: error: cannot find symbol
+        IndexMetaDataBuilder builder = IndexMetaData.builder(name).settings(Settings.builder().put(IndexMetaData.SETTING_VERSION_CREATED, Version.CURRENT))
+                                                                            ^
+  symbol:   variable Settings
+  location: class CodexTest_0_7_61
+CodexTest_0_7_61.java:67: error: cannot find symbol
+        IndexMetaDataBuilder builder = IndexMetaData.builder(name).settings(Settings.builder().put(IndexMetaData.SETTING_VERSION_CREATED, Version.CURRENT))
+                                       ^
+  symbol:   variable IndexMetaData
+  location: class CodexTest_0_7_61
+CodexTest_0_7_61.java:69: error: cannot find symbol
+        IndexMetaData metaData = builder.build();
+        ^
+  symbol:   class IndexMetaData
+  location: class CodexTest_0_7_61

@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_8_44.java:76: error: no suitable method found for startObject(java.lang.String,java.util.HashMap<java.lang.String,java.lang.Object>)
+        .startObject("foo", map).endObject();
+        ^
+    method org.elasticsearch.common.xcontent.XContentBuilder.startObject() is not applicable
+      (actual and formal argument lists differ in length)
+    method org.elasticsearch.common.xcontent.XContentBuilder.startObject(java.lang.String) is not applicable
+      (actual and formal argument lists differ in length)

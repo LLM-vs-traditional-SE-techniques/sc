@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_10.java:22: error: cannot find symbol
+        List<String> underTest = getStringList();
+                                 ^
+  symbol:   method getStringList()
+  location: class CodexTest_0_9_10

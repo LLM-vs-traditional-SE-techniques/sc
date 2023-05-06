@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_9.java:66: error: cannot find symbol
+        OptimizeRequestBuilder builder = new OptimizeRequestBuilder(client).setParent(parent);
+        ^
+  symbol:   class OptimizeRequestBuilder
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:66: error: cannot find symbol
+        OptimizeRequestBuilder builder = new OptimizeRequestBuilder(client).setParent(parent);
+                                             ^
+  symbol:   class OptimizeRequestBuilder
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:66: error: cannot find symbol
+        OptimizeRequestBuilder builder = new OptimizeRequestBuilder(client).setParent(parent);
+                                                                    ^
+  symbol:   variable client
+  location: class CodexTest_0_7_9

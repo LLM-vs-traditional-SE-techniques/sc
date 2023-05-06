@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_7_7.java:66: error: cannot find symbol
+            ObjectMapper mapper = new ObjectMapper();
+            ^
+  symbol:   class ObjectMapper
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:66: error: cannot find symbol
+            ObjectMapper mapper = new ObjectMapper();
+                                      ^
+  symbol:   class ObjectMapper
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:70: error: cannot find symbol
+            XContentType xContentType = randomFrom(XContentType.values());
+                                        ^
+  symbol:   method randomFrom(org.elasticsearch.common.xcontent.XContentType[])
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:73: error: cannot find symbol
+            Assert.assertEquals(value, indexRequest.source().toUtf8());
+                                                            ^
+  symbol:   method toUtf8()
+  location: class org.elasticsearch.common.bytes.BytesReference
+CodexTest_0_7_7.java:74: error: cannot find symbol
+        } catch (JsonProcessingException e) {
+                 ^
+  symbol:   class JsonProcessingException
+  location: class CodexTest_0_7_7

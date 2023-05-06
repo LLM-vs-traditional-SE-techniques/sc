@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_6_4.java:31: error: no suitable constructor found for Vector1D(double,double,double)
+        Vector1D v1 = new Vector1D(1.5, 2.5, 3.5);
+                      ^
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor org.apache.commons.math3.geometry.euclidean.oned.Vector1D.Vector1D(double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D,double,org.apache.commons.math3.geometry.euclidean.oned.Vector1D) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_6_4.java:34: error: cannot find symbol
+        Assert.assertEquals(20.0, v1Mult.getY(), 0.0);
+                                        ^
+  symbol:   method getY()
+  location: variable v1Mult of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_6_4.java:35: error: cannot find symbol
+        Assert.assertEquals(28.0, v1Mult.getZ(), 0.0);
+                                        ^
+  symbol:   method getZ()
+  location: variable v1Mult of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D

@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_8_22.java:36: error: <identifier> expected
+Input: public static String getStringValue(String key) {
+     ^
+CodexTest_0_8_22.java:43: error: <identifier> expected
+Output: public void testGetStringValue() {
+      ^
+CodexTest_0_8_22.java:48: error: <identifier> expected
+Input: public DateTime setMillis(long instant) {
+     ^
+CodexTest_0_8_22.java:51: error: <identifier> expected
+Output: public static void testAdd2() {
+      ^
+CodexTest_0_8_22.java:60: error: <identifier> expected
+Input: public static <T> T[] toArray(final Collection<? extends T> collection, T[] array) {
+     ^
+CodexTest_0_8_22.java:71: error: reached end of file while parsing
+}
+ ^

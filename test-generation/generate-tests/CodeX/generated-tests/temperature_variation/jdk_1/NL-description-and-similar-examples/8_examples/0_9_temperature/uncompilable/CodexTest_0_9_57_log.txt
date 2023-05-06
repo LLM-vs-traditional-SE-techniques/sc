@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_57.java:19: error: cannot find symbol
+   @Test(expected = ListIndexOutOfBoundsException.class)
+                    ^
+  symbol:   class ListIndexOutOfBoundsException
+  location: class CodexTest_0_9_57

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_58.java:30: error: cannot find symbol
+        double[][] matrix = getMatrix();
+                            ^
+  symbol:   method getMatrix()
+  location: class CodexTest_0_7_58
+CodexTest_0_7_58.java:34: error: cannot find symbol
+        assertThat(a, equalTo(b));
+                      ^
+  symbol:   method equalTo(cern.colt.matrix.DoubleMatrix1D)
+  location: class CodexTest_0_7_58
+CodexTest_0_7_58.java:39: error: cannot find symbol
+        double[][] matrix = getMatrix();
+                            ^
+  symbol:   method getMatrix()
+  location: class CodexTest_0_7_58
+CodexTest_0_7_58.java:43: error: cannot find symbol
+        assertThat(a, equalTo(b));
+                      ^
+  symbol:   method equalTo(cern.colt.matrix.DoubleMatrix1D)
+  location: class CodexTest_0_7_58

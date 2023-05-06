@@ -1,0 +1,12 @@
+isCompilable => false
+CodexTest_0_9_7.java:31: error: package SparseDoubleAlgebra does not exist
+        DoubleMatrix2D A = SparseDoubleAlgebra.DEFAULT.make(a);
+                                              ^
+CodexTest_0_9_7.java:34: error: package SparseDoubleAlgebra does not exist
+        DoubleMatrix2D B = SparseDoubleAlgebra.DEFAULT.getSelection(A,r,c);
+                                              ^
+CodexTest_0_9_7.java:37: error: cannot find symbol
+        assertTrue(Equals.doubleArrayArrayEquals(expected,b));
+                   ^
+  symbol:   variable Equals
+  location: class CodexTest_0_9_7

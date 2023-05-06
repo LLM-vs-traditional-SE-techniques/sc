@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_29.java:22: error: cannot find symbol
+    Instances model = new Instances(new StringReader(AlgVectorTest.DATAMODEL));
+                                        ^
+  symbol:   class StringReader
+  location: class CodexTest_0_9_29
+CodexTest_0_9_29.java:22: error: cannot find symbol
+    Instances model = new Instances(new StringReader(AlgVectorTest.DATAMODEL));
+                                                     ^
+  symbol:   variable AlgVectorTest
+  location: class CodexTest_0_9_29

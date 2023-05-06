@@ -1,0 +1,86 @@
+isCompilable => false
+CodexTest_0_9_31.java:21: error: cannot find symbol
+        list.add(1);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:22: error: cannot find symbol
+        list.add(2);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:23: error: cannot find symbol
+        list.add(3);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:24: error: cannot find symbol
+        list.add(4);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:25: error: cannot find symbol
+        assertEquals(4, list.size());
+                        ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:26: error: cannot find symbol
+        assertEquals(list.toString(), 1, list.remove(0));
+                     ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:26: error: cannot find symbol
+        assertEquals(list.toString(), 1, list.remove(0));
+                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:27: error: cannot find symbol
+        assertEquals(list.toString(), 2, list.remove(0));
+                     ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:27: error: cannot find symbol
+        assertEquals(list.toString(), 2, list.remove(0));
+                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:28: error: cannot find symbol
+        assertEquals(list.toString(), 4, list.remove(1));
+                     ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:28: error: cannot find symbol
+        assertEquals(list.toString(), 4, list.remove(1));
+                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:29: error: cannot find symbol
+        assertEquals(list.toString(), 1, list.size());
+                     ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:29: error: cannot find symbol
+        assertEquals(list.toString(), 1, list.size());
+                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:30: error: cannot find symbol
+        assertEquals(list.toString(), 3, list.remove(0));
+                     ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:30: error: cannot find symbol
+        assertEquals(list.toString(), 3, list.remove(0));
+                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:31: error: cannot find symbol
+        assertEquals(list.toString(), 0, list.size());
+                     ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31
+CodexTest_0_9_31.java:31: error: cannot find symbol
+        assertEquals(list.toString(), 0, list.size());
+                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_9_31

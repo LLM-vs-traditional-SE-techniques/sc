@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_9_99.java:21: error: cannot find symbol
+        final Grid grid = new Grid(2, 3);
+              ^
+  symbol:   class Grid
+  location: class CodexTest_0_9_99
+CodexTest_0_9_99.java:21: error: cannot find symbol
+        final Grid grid = new Grid(2, 3);
+                              ^
+  symbol:   class Grid
+  location: class CodexTest_0_9_99
+CodexTest_0_9_99.java:22: error: cannot find symbol
+        grid.setWidget(0, 0, new Label("1"));
+                                 ^
+  symbol:   class Label
+  location: class CodexTest_0_9_99
+CodexTest_0_9_99.java:23: error: cannot find symbol
+        grid.setWidget(0, 1, new Label("2"));
+                                 ^
+  symbol:   class Label
+  location: class CodexTest_0_9_99
+CodexTest_0_9_99.java:24: error: cannot find symbol
+        grid.setWidget(0, 2, new Label("3"));
+                                 ^
+  symbol:   class Label
+  location: class CodexTest_0_9_99
+CodexTest_0_9_99.java:26: error: cannot find symbol
+        grid.setWidget(1, 1, new Label("5"));
+                                 ^
+  symbol:   class Label
+  location: class CodexTest_0_9_99
+CodexTest_0_9_99.java:27: error: cannot find symbol
+        grid.setWidget(1, 2, new Label("6"));
+                                 ^
+  symbol:   class Label
+  location: class CodexTest_0_9_99

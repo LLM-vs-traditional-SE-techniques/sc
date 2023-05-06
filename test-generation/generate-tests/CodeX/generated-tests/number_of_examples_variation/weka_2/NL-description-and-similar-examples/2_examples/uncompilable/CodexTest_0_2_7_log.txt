@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_2_7.java:36: error: unclosed string literal
+	"31.0, 32
+	^
+CodexTest_0_2_7.java:36: error: ')' expected
+	"31.0, 32
+	         ^
+CodexTest_0_2_7.java:37: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_2_7.java:18: error: 'try' without 'catch', 'finally' or resource declarations
+    try {
+    ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_1.java:69: error: cannot find symbol
+        assertThat(indexRequest.source(), equalTo(jsonMap));
+                                          ^
+  symbol:   method equalTo(java.util.Map<java.lang.String,java.lang.Object>)
+  location: class CodexTest_0_5_1

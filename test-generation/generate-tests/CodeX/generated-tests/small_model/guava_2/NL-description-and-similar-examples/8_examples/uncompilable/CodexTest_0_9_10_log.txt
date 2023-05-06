@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_10.java:25: error: cannot find symbol
+      BaseEventTime eventTime = new BaseEventTime(1234L, TemporalPrecision.DAYS);
+      ^
+  symbol:   class BaseEventTime
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:25: error: cannot find symbol
+      BaseEventTime eventTime = new BaseEventTime(1234L, TemporalPrecision.DAYS);
+                                    ^
+  symbol:   class BaseEventTime
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:25: error: cannot find symbol
+      BaseEventTime eventTime = new BaseEventTime(1234L, TemporalPrecision.DAYS);
+                                                         ^
+  symbol:   variable TemporalPrecision
+  location: class CodexTest_0_9_10
+CodexTest_0_9_10.java:26: error: cannot find symbol
+      long timestamp = eventTime.getTimestamp(TimeUnit.SECONDS);
+                                              ^
+  symbol:   variable TimeUnit
+  location: class CodexTest_0_9_10

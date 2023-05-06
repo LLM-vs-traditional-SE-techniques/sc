@@ -1,0 +1,23 @@
+isCompilable => false
+CodexTest_0_3_6.java:21: error: weka.core.Instance is abstract; cannot be instantiated
+    Instance instance = new Instance(2);
+                        ^
+CodexTest_0_3_6.java:24: error: no suitable constructor found for Instances(weka.core.FastVector,weka.core.FastVector)
+    Instances instances = new Instances(new FastVector(), new FastVector());
+                          ^
+    constructor weka.core.Instances.Instances(java.io.Reader,int) is not applicable
+      (argument mismatch; weka.core.FastVector cannot be converted to java.io.Reader)
+    constructor weka.core.Instances.Instances(weka.core.Instances,int) is not applicable
+      (argument mismatch; weka.core.FastVector cannot be converted to weka.core.Instances)
+CodexTest_0_3_6.java:30: error: no suitable constructor found for SparseInstance(double[])
+      newInstance = new SparseInstance(elements).getAsInstance(instances, random);
+                    ^
+    constructor weka.core.SparseInstance.SparseInstance(weka.core.Instance) is not applicable
+      (argument mismatch; double[] cannot be converted to weka.core.Instance)
+    constructor weka.core.SparseInstance.SparseInstance(weka.core.SparseInstance) is not applicable
+      (argument mismatch; double[] cannot be converted to weka.core.SparseInstance)
+    constructor weka.core.SparseInstance.SparseInstance(int) is not applicable
+      (argument mismatch; double[] cannot be converted to int)
+Note: CodexTest_0_3_6.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

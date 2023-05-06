@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_6_6.java:69: error: unreported exception java.io.IOException; must be caught or declared to be thrown
+        assertEquals(XContentFactory.jsonBuilder().startObject().field("field", "value").endObject().bytes(), indexRequest.source());
+                                                ^
+CodexTest_0_6_6.java:69: error: unreported exception java.io.IOException; must be caught or declared to be thrown
+        assertEquals(XContentFactory.jsonBuilder().startObject().field("field", "value").endObject().bytes(), indexRequest.source());
+                                                              ^
+CodexTest_0_6_6.java:69: error: unreported exception java.io.IOException; must be caught or declared to be thrown
+        assertEquals(XContentFactory.jsonBuilder().startObject().field("field", "value").endObject().bytes(), indexRequest.source());
+                                                                      ^
+CodexTest_0_6_6.java:69: error: unreported exception java.io.IOException; must be caught or declared to be thrown
+        assertEquals(XContentFactory.jsonBuilder().startObject().field("field", "value").endObject().bytes(), indexRequest.source());
+                                                                                                  ^

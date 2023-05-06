@@ -1,0 +1,52 @@
+isCompilable => false
+CodexTest_0_6_3.java:20: error: cannot find symbol
+		Edge e1 = new DirectedEdge(v1, v2);
+		              ^
+  symbol:   class DirectedEdge
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:20: error: cannot find symbol
+		Edge e1 = new DirectedEdge(v1, v2);
+		                           ^
+  symbol:   variable v1
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:20: error: cannot find symbol
+		Edge e1 = new DirectedEdge(v1, v2);
+		                               ^
+  symbol:   variable v2
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:21: error: cannot find symbol
+		Edge e2 = new DirectedEdge(v2, v3);
+		              ^
+  symbol:   class DirectedEdge
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:21: error: cannot find symbol
+		Edge e2 = new DirectedEdge(v2, v3);
+		                           ^
+  symbol:   variable v2
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:21: error: cannot find symbol
+		Edge e2 = new DirectedEdge(v2, v3);
+		                               ^
+  symbol:   variable v3
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:22: error: cannot find symbol
+		Edge e3 = new DirectedEdge(v3, v4);
+		              ^
+  symbol:   class DirectedEdge
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:22: error: cannot find symbol
+		Edge e3 = new DirectedEdge(v3, v4);
+		                           ^
+  symbol:   variable v3
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:22: error: cannot find symbol
+		Edge e3 = new DirectedEdge(v3, v4);
+		                               ^
+  symbol:   variable v4
+  location: class CodexTest_0_6_3
+CodexTest_0_6_3.java:23: error: constructor Path in class org.graphstream.graph.Path cannot be applied to given types;
+		Path path = new Path(e1, e2, e3);
+		            ^
+  required: no arguments
+  found: org.graphstream.graph.Edge,org.graphstream.graph.Edge,org.graphstream.graph.Edge
+  reason: actual and formal argument lists differ in length

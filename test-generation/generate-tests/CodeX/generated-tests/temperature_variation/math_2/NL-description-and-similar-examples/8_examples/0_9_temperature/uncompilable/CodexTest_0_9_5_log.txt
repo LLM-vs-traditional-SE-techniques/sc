@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_5.java:38: error: <identifier> expected
+Input: public int[] getIntArray() {
+     ^
+CodexTest_0_9_5.java:41: error: <identifier> expected
+Output: public void testSmall() {
+      ^
+CodexTest_0_9_5.java:49: error: reached end of file while parsing
+}
+ ^

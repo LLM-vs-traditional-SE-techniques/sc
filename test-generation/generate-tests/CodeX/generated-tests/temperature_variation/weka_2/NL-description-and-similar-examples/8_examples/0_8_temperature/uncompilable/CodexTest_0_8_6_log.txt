@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_6.java:18: error: cannot find symbol
+    int[] attList = m_AttributeChooser.m_SelectedAttributes;
+                    ^
+  symbol:   variable m_AttributeChooser
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:22: error: package m_AttributeChooser does not exist
+      for (int j = 0; j < m_AttributeChooser.m_SelectedAttributes.length; j++) {
+                                            ^

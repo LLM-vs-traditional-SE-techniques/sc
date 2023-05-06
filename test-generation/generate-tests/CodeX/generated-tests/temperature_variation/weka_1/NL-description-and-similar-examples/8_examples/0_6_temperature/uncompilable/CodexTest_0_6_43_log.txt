@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_43.java:21: error: cannot find symbol
+    assertEquals(new double[]{5, 7, 9}, v3.toArray());
+                                          ^
+  symbol:   method toArray()
+  location: variable v3 of type weka.core.AlgVector

@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_59.java:18: error: cannot find symbol
+      Instances model = setUpNominalTestData();
+                        ^
+  symbol:   method setUpNominalTestData()
+  location: class CodexTest_0_8_59
+CodexTest_0_8_59.java:19: error: cannot find symbol
+      m_Elements = new double[2];
+      ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_8_59
+CodexTest_0_8_59.java:20: error: cannot find symbol
+      m_Elements[0] = 1;
+      ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_8_59
+CodexTest_0_8_59.java:21: error: cannot find symbol
+      m_Elements[1] = 2;
+      ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_8_59
+CodexTest_0_8_59.java:24: error: cannot find symbol
+	Instance newInst = getAsInstance(model, random);
+	                   ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: class CodexTest_0_8_59

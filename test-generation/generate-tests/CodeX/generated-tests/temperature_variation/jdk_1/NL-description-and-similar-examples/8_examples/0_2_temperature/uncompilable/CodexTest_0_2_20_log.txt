@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_2_20.java:67: error: not a statement
+        assertEqu
+        ^
+CodexTest_0_2_20.java:67: error: ';' expected
+        assertEqu
+                 ^
+CodexTest_0_2_20.java:68: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_4.java:66: error: cannot find symbol
+            new ConstructorCallCheck(null, null, (Map) null);
+                ^
+  symbol:   class ConstructorCallCheck
+  location: class CodexTest_0_9_4

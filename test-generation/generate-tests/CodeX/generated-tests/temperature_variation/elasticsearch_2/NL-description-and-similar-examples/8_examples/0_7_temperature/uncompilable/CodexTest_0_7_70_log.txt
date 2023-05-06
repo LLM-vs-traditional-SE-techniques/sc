@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_70.java:66: error: cannot find symbol
+            client().prepareIndex("test", "type1", "1")
+            ^
+  symbol:   method client()
+  location: class CodexTest_0_7_70
+CodexTest_0_7_70.java:72: error: cannot find symbol
+            assertThat(e.getMessage(), equalTo("source is missing"));
+                                       ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_7_70

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_3_6.java:26: error: cannot find symbol
+            BitArray a = randomBitArray(i);
+            ^
+  symbol:   class BitArray
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:26: error: cannot find symbol
+            BitArray a = randomBitArray(i);
+                         ^
+  symbol:   method randomBitArray(int)
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:30: error: cannot find symbol
+            BitArray b = BitArray.fromBytes(bytes);
+            ^
+  symbol:   class BitArray
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:30: error: cannot find symbol
+            BitArray b = BitArray.fromBytes(bytes);
+                         ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_3_6

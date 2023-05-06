@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_20.java:28: error: cannot find symbol
+        assertIteratorsEquals(list.listIterator(), iter);
+        ^
+  symbol:   method assertIteratorsEquals(java.util.ListIterator<java.lang.Integer>,java.util.ListIterator<java.lang.Integer>)
+  location: class CodexTest_0_9_20

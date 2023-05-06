@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_7_7.java:24: error: cannot find symbol
+  public void testWriteBytesToSink() throws IOException {
+                                            ^
+  symbol:   class IOException
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:33: error: cannot find symbol
+  public void testWriteBytesToSinkShortLength() throws IOException {
+                                                       ^
+  symbol:   class IOException
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:26: error: cannot find symbol
+    ByteArrayDataOutput output = ByteStreams.newDataOutput();
+    ^
+  symbol:   class ByteArrayDataOutput
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:26: error: cannot find symbol
+    ByteArrayDataOutput output = ByteStreams.newDataOutput();
+                                 ^
+  symbol:   variable ByteStreams
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:35: error: cannot find symbol
+    ByteArrayDataOutput output = ByteStreams.newDataOutput();
+    ^
+  symbol:   class ByteArrayDataOutput
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:35: error: cannot find symbol
+    ByteArrayDataOutput output = ByteStreams.newDataOutput();
+                                 ^
+  symbol:   variable ByteStreams
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:38: error: cannot find symbol
+    assertEquals(ByteStreams.newDataInput(output.toByteArray()).readLong(), 42);
+                 ^
+  symbol:   variable ByteStreams
+  location: class CodexTest_0_7_7

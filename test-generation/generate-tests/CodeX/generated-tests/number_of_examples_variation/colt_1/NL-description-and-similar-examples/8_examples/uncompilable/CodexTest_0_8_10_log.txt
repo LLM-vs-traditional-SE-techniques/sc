@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_10.java:31: error: cannot find symbol
+        Random gen = new Random(seed);
+        ^
+  symbol:   class Random
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:31: error: cannot find symbol
+        Random gen = new Random(seed);
+                         ^
+  symbol:   class Random
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:41: error: cannot find symbol
+        Random gen = new Random(seed);
+        ^
+  symbol:   class Random
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:41: error: cannot find symbol
+        Random gen = new Random(seed);
+                         ^
+  symbol:   class Random
+  location: class CodexTest_0_8_10

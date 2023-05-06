@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_2.java:21: error: cannot find symbol
+        assertThat(result, is(0));
+                           ^
+  symbol:   method is(int)
+  location: class CodexTest_0_9_2

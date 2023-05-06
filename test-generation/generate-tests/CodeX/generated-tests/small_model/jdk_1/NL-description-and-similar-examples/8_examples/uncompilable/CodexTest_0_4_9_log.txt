@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_4_9.java:21: error: cannot find symbol
+        final Object[] es = elementData;
+                            ^
+  symbol:   variable elementData
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:27: error: cannot find symbol
+            assertSame(es[i], remove(i));
+                              ^
+  symbol:   method remove(int)
+  location: class CodexTest_0_4_9

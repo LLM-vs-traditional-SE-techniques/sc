@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_46.java:65: error: cannot find symbol
+        XContentBuilder builder = JsonXContent.contentBuilder();
+                                  ^
+  symbol:   variable JsonXContent
+  location: class CodexTest_0_8_46
+CodexTest_0_8_46.java:73: error: cannot find symbol
+        assertThat(indexRequest.source(), notNullValue());
+                                          ^
+  symbol:   method notNullValue()
+  location: class CodexTest_0_8_46

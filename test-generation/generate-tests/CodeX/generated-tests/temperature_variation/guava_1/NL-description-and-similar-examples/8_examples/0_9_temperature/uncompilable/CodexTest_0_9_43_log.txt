@@ -1,0 +1,32 @@
+isCompilable => false
+CodexTest_0_9_43.java:25: error: incompatible types: com.google.common.hash.Hasher cannot be converted to com.google.common.hash.HashCode
+          HashCode hash1 = Hashing.goodFastHash(64).newHasher();
+                                                             ^
+CodexTest_0_9_43.java:26: error: incompatible types: com.google.common.hash.Hasher cannot be converted to com.google.common.hash.HashCode
+          HashCode hash2 = Hashing.goodFastHash(64).newHasher();
+                                                             ^
+CodexTest_0_9_43.java:27: error: cannot find symbol
+          hash1.putInt(0);
+               ^
+  symbol:   method putInt(int)
+  location: variable hash1 of type com.google.common.hash.HashCode
+CodexTest_0_9_43.java:28: error: cannot find symbol
+          hash2.putInt(0).putInt(0);
+               ^
+  symbol:   method putInt(int)
+  location: variable hash2 of type com.google.common.hash.HashCode
+CodexTest_0_9_43.java:29: error: cannot find symbol
+          assertEquals(hash2, hash1.putLong(0L));
+                                   ^
+  symbol:   method putLong(long)
+  location: variable hash1 of type com.google.common.hash.HashCode
+CodexTest_0_9_43.java:30: error: cannot find symbol
+          hash1.putInt(0).putInt(0).putLong(1L);
+               ^
+  symbol:   method putInt(int)
+  location: variable hash1 of type com.google.common.hash.HashCode
+CodexTest_0_9_43.java:31: error: cannot find symbol
+          hash2.putLong(1L);
+               ^
+  symbol:   method putLong(long)
+  location: variable hash2 of type com.google.common.hash.HashCode

@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_27.java:14: error: cannot find symbol
+  @BenchmarkOptions(benchmarkRounds = 5, warmupRounds = 2)
+   ^
+  symbol:   class BenchmarkOptions
+  location: class CodexTest_0_9_27
+CodexTest_0_9_27.java:16: error: cannot find symbol
+    GWTTestCase.GWT_BASE_URL = GWT_DIL_RESOURCES;
+               ^
+  symbol:   variable GWT_BASE_URL
+  location: class com.google.gwt.junit.client.GWTTestCase
+CodexTest_0_9_27.java:16: error: cannot find symbol
+    GWTTestCase.GWT_BASE_URL = GWT_DIL_RESOURCES;
+                               ^
+  symbol:   variable GWT_DIL_RESOURCES
+  location: class CodexTest_0_9_27
+CodexTest_0_9_27.java:17: error: cannot find symbol
+    init();
+    ^
+  symbol:   method init()
+  location: class CodexTest_0_9_27

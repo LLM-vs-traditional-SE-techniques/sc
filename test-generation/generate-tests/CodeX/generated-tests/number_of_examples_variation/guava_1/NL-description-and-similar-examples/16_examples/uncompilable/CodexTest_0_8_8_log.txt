@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_8.java:28: error: cannot find symbol
+        assertEquals(ByteBuffer.allocate(8).putLong(0L).array(), hashCode.asBytes());
+                     ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:29: error: cannot find symbol
+        assertEquals(BitSet.valueOf(ByteBuffer.allocate(8).putLong(0L).array()), hashCode.bits());
+                                    ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:29: error: cannot find symbol
+        assertEquals(BitSet.valueOf(ByteBuffer.allocate(8).putLong(0L).array()), hashCode.bits());
+                     ^
+  symbol:   variable BitSet
+  location: class CodexTest_0_8_8

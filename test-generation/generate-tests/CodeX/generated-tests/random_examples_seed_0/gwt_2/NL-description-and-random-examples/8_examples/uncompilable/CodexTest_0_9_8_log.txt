@@ -1,0 +1,39 @@
+isCompilable => false
+CodexTest_0_9_8.java:14: error: cannot find symbol
+        public void testUncaughtExceptionHandler() throws InterruptedException, IOException {
+                                                                                ^
+  symbol:   class IOException
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:15: error: cannot find symbol
+            final CountDownLatch latch = new CountDownLatch(1);
+                  ^
+  symbol:   class CountDownLatch
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:15: error: cannot find symbol
+            final CountDownLatch latch = new CountDownLatch(1);
+                                             ^
+  symbol:   class CountDownLatch
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:16: error: cannot find symbol
+            final LogCapture capture = new LogCapture(LogLevel.ERROR);
+                  ^
+  symbol:   class LogCapture
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:16: error: cannot find symbol
+            final LogCapture capture = new LogCapture(LogLevel.ERROR);
+                                           ^
+  symbol:   class LogCapture
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:16: error: cannot find symbol
+            final LogCapture capture = new LogCapture(LogLevel.ERROR);
+                                                      ^
+  symbol:   variable LogLevel
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:18: error: cannot find symbol
+                Thread.setUncaughtExceptionHandler(new UncaughtExceptionHandler() {
+                                                       ^
+  symbol:   class UncaughtExceptionHandler
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:18: error: non-static method setUncaughtExceptionHandler(java.lang.Thread.UncaughtExceptionHandler) cannot be referenced from a static context
+                Thread.setUncaughtExceptionHandler(new UncaughtExceptionHandler() {
+                      ^

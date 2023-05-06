@@ -1,0 +1,28 @@
+isCompilable => false
+CodexTest_0_9_8.java:29: error: illegal character: '#'
+               # Temporal fix for the fact that isInteger was not used.
+               ^
+CodexTest_0_9_8.java:29: error: <identifier> expected
+               # Temporal fix for the fact that isInteger was not used.
+                             ^
+CodexTest_0_9_8.java:29: error: ';' expected
+               # Temporal fix for the fact that isInteger was not used.
+                                          ^
+CodexTest_0_9_8.java:29: error: ';' expected
+               # Temporal fix for the fact that isInteger was not used.
+                                                         ^
+CodexTest_0_9_8.java:29: error: ';' expected
+               # Temporal fix for the fact that isInteger was not used.
+                                                                 ^
+CodexTest_0_9_8.java:29: error: <identifier> expected
+               # Temporal fix for the fact that isInteger was not used.
+                                                                       ^
+CodexTest_0_9_8.java:30: error: ';' expected
+        public void testSerialIInitializer() {
+              ^
+CodexTest_0_9_8.java:30: error: invalid method declaration; return type required
+        public void testSerialIInitializer() {
+                    ^
+CodexTest_0_9_8.java:33: error: reached end of file while parsing
+}
+ ^

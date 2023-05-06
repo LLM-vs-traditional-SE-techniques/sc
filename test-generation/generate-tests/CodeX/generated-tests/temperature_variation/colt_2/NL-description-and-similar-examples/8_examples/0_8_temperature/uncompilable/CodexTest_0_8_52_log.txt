@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_52.java:30: error: cannot find symbol
+        checkLike2D(3, 2, new DenseDoubleMatrix2D(3, 2));
+        ^
+  symbol:   method checkLike2D(int,int,cern.colt.matrix.impl.DenseDoubleMatrix2D)
+  location: class CodexTest_0_8_52
+CodexTest_0_8_52.java:31: error: cannot find symbol
+        checkLike2D(4, 2, new DenseDoubleMatrix2D(4, 2));
+        ^
+  symbol:   method checkLike2D(int,int,cern.colt.matrix.impl.DenseDoubleMatrix2D)
+  location: class CodexTest_0_8_52
+CodexTest_0_8_52.java:32: error: cannot find symbol
+        checkLike2D(2, 3, new DenseDoubleMatrix2D(2, 3));
+        ^
+  symbol:   method checkLike2D(int,int,cern.colt.matrix.impl.DenseDoubleMatrix2D)
+  location: class CodexTest_0_8_52
+CodexTest_0_8_52.java:33: error: cannot find symbol
+        checkLike2D(2, 4, new DenseDoubleMatrix2D(2, 4));
+        ^
+  symbol:   method checkLike2D(int,int,cern.colt.matrix.impl.DenseDoubleMatrix2D)
+  location: class CodexTest_0_8_52

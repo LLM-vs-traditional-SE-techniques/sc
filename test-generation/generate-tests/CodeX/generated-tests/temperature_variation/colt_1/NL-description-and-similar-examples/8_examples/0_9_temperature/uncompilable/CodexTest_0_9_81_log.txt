@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_81.java:33: error: cannot find symbol
+        DoubleMatrix2D mat2D = vec1D.toArray2D();
+                                    ^
+  symbol:   method toArray2D()
+  location: variable vec1D of type cern.colt.matrix.DoubleMatrix1D
+CodexTest_0_9_81.java:34: error: cannot find symbol
+        DoubleMatrix1D vec2D = mat2D.vectorize();
+                                    ^
+  symbol:   method vectorize()
+  location: variable mat2D of type cern.colt.matrix.DoubleMatrix2D

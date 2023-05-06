@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_5_3.java:39: error: ')' expected
+							      + "Dummy,@ATTRIBUTE s numeric\n"
+							                                      ^
+CodexTest_0_5_3.java:40: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_5_3.java:18: error: 'try' without 'catch', 'finally' or resource declarations
+    try {
+    ^

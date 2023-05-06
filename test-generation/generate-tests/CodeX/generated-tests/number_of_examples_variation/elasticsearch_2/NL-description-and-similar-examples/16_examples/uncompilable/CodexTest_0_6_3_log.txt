@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_3.java:70: error: cannot find symbol
+        String actual = Strings.toString(indexRequest);
+                        ^
+  symbol:   variable Strings
+  location: class CodexTest_0_6_3

@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_7_6.java:29: error: <identifier> expected
+Input: public boolean contains(Object o) {
+     ^
+CodexTest_0_7_6.java:32: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_6.java:42: error: illegal character: '`'
+```
+^
+CodexTest_0_7_6.java:42: error: illegal character: '`'
+```
+ ^
+CodexTest_0_7_6.java:42: error: illegal character: '`'
+```
+  ^
+CodexTest_0_7_6.java:43: error: reached end of file while parsing
+}
+ ^

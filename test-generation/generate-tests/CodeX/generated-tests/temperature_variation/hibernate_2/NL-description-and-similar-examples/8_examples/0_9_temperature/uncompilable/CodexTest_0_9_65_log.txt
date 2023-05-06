@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_65.java:17: error: ';' expected
+                XMLInputFactory.newFactory().createXMLStreamReader("<a/>").getElementText())
+                                                                                            ^

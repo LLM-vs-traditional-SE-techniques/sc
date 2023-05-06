@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_1.java:26: error: cannot find symbol
+      long value = RANDOM.nextLong();
+                   ^
+  symbol:   variable RANDOM
+  location: class CodexTest_0_5_1
+CodexTest_0_5_1.java:28: error: cannot find symbol
+      assertEquals(Longs.hashCode(value), hashCode.asInt());
+                   ^
+  symbol:   variable Longs
+  location: class CodexTest_0_5_1
+CodexTest_0_5_1.java:30: error: cannot find symbol
+      assertEquals(Longs.toByteArray(value), hashCode.asBytes());
+                   ^
+  symbol:   variable Longs
+  location: class CodexTest_0_5_1

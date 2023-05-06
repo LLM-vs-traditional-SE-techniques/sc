@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_2_2.java:92: error: unclosed string literal
+        String[] properties7 = new String[]{"properties13
+                                            ^
+CodexTest_0_2_2.java:92: error: ';' expected
+        String[] properties7 = new String[]{"properties13
+                                                         ^
+CodexTest_0_2_2.java:93: error: reached end of file while parsing
+}
+ ^

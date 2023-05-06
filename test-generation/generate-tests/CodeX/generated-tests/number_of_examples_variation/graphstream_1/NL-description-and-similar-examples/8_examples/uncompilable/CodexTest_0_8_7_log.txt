@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_7.java:20: error: cannot find symbol
+        Graph g = getTestGraph();
+                  ^
+  symbol:   method getTestGraph()
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:22: error: cannot find symbol
+        assertTrue(g.pathBetween(v1, v4).contains(e12));
+                                                  ^
+  symbol:   variable e12
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:22: error: cannot find symbol
+        assertTrue(g.pathBetween(v1, v4).contains(e12));
+                                 ^
+  symbol:   variable v1
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:22: error: cannot find symbol
+        assertTrue(g.pathBetween(v1, v4).contains(e12));
+                                     ^
+  symbol:   variable v4
+  location: class CodexTest_0_8_7

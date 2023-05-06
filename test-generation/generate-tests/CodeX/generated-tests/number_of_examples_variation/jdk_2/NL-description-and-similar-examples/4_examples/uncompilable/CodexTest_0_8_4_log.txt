@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_8_4.java:22: error: java.util.Queue is abstract; cannot be instantiated
+        Queue<Integer> queue = new Queue<>(new Integer[]{1, 2, 3, 4, 5});
+                               ^

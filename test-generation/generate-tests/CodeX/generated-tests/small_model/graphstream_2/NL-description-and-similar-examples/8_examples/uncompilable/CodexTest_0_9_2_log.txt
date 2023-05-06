@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_2.java:29: error: unclosed string literal
+        Out.prln("Creating different paths
+                 ^
+CodexTest_0_9_2.java:29: error: ';' expected
+        Out.prln("Creating different paths
+                                          ^
+CodexTest_0_9_2.java:30: error: reached end of file while parsing
+}
+ ^

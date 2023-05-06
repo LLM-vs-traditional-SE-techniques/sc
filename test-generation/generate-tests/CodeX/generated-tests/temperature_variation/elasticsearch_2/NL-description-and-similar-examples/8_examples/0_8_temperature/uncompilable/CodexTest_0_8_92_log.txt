@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_92.java:65: error: cannot find symbol
+        IndexRequest indexRequest = Requests.indexRequest(new GetUrlContentResponse());
+                                                              ^
+  symbol:   class GetUrlContentResponse
+  location: class CodexTest_0_8_92
+CodexTest_0_8_92.java:66: error: cannot find symbol
+        assertEquals("settings", indexRequest.settings().get("index.number_of_shards"));
+                                             ^
+  symbol:   method settings()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_8_92.java:67: error: cannot find symbol
+        assertEquals("mappings", indexRequest.mappings().get("some_type").source().string());
+                                             ^
+  symbol:   method mappings()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_9.java:66: error: cannot find symbol
+        String result = new String().parent();
+                                    ^
+  symbol:   method parent()
+  location: class java.lang.String

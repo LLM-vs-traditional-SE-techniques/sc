@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_8.java:16: error: cannot find symbol
+    assertTrue("Should be client", JavaScriptClassLoader.isClient());
+                                   ^
+  symbol:   variable JavaScriptClassLoader
+  location: class CodexTest_0_8_8

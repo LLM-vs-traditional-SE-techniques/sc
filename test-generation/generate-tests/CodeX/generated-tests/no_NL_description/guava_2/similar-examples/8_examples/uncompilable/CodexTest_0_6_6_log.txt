@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_6.java:25: error: cannot find symbol
+    HashCode hash = HASH_CODE;
+                    ^
+  symbol:   variable HASH_CODE
+  location: class CodexTest_0_6_6

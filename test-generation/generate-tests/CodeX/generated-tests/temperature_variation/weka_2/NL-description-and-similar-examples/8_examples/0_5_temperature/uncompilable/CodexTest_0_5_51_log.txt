@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_51.java:18: error: cannot find symbol
+        Instances dataset = getRandomDataset(3);
+                            ^
+  symbol:   method getRandomDataset(int)
+  location: class CodexTest_0_5_51

@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_8_1.java:32: error: no suitable method found for assign(cern.colt.matrix.DoubleMatrix2D)
+        DoubleMatrix1D y = x.assign(d);
+                            ^
+    method cern.colt.matrix.DoubleMatrix1D.assign(double[]) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to double[])
+    method cern.colt.matrix.DoubleMatrix1D.assign(double) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to double)
+    method cern.colt.matrix.DoubleMatrix1D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.DoubleMatrix1D.assign(cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.matrix.DoubleMatrix1D)
+CodexTest_0_8_1.java:34: error: no suitable method found for assign(cern.colt.matrix.DoubleMatrix2D)
+        x.assign(d);
+         ^
+    method cern.colt.matrix.DoubleMatrix1D.assign(double[]) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to double[])
+    method cern.colt.matrix.DoubleMatrix1D.assign(double) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to double)
+    method cern.colt.matrix.DoubleMatrix1D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.DoubleMatrix1D.assign(cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix2D cannot be converted to cern.colt.matrix.DoubleMatrix1D)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

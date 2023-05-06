@@ -1,0 +1,77 @@
+isCompilable => false
+CodexTest_0_9_3.java:20: error: cannot find symbol
+        Graph<V, E> g1 = createGraph();
+              ^
+  symbol:   class V
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:20: error: cannot find symbol
+        Graph<V, E> g1 = createGraph();
+                 ^
+  symbol:   class E
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:20: error: type org.graphstream.graph.Graph does not take parameters
+        Graph<V, E> g1 = createGraph();
+             ^
+CodexTest_0_9_3.java:20: error: cannot find symbol
+        Graph<V, E> g1 = createGraph();
+                         ^
+  symbol:   method createGraph()
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:21: error: cannot find symbol
+        Graph<V, E> g2 = createGraph();
+              ^
+  symbol:   class V
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:21: error: cannot find symbol
+        Graph<V, E> g2 = createGraph();
+                 ^
+  symbol:   class E
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:21: error: type org.graphstream.graph.Graph does not take parameters
+        Graph<V, E> g2 = createGraph();
+             ^
+CodexTest_0_9_3.java:21: error: cannot find symbol
+        Graph<V, E> g2 = createGraph();
+                         ^
+  symbol:   method createGraph()
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:22: error: cannot find symbol
+        g1.addVertex(v1);
+                     ^
+  symbol:   variable v1
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:23: error: cannot find symbol
+        g1.addVertex(v2);
+                     ^
+  symbol:   variable v2
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:24: error: cannot find symbol
+        g2.addVertex(v2);
+                     ^
+  symbol:   variable v2
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:25: error: cannot find symbol
+        g2.addVertex(v1);
+                     ^
+  symbol:   variable v1
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:26: error: cannot find symbol
+        g1.addEdge(v1, v2);
+                   ^
+  symbol:   variable v1
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:26: error: cannot find symbol
+        g1.addEdge(v1, v2);
+                       ^
+  symbol:   variable v2
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:27: error: cannot find symbol
+        g2.addEdge(v1, v2);
+                   ^
+  symbol:   variable v1
+  location: class CodexTest_0_9_3
+CodexTest_0_9_3.java:27: error: cannot find symbol
+        g2.addEdge(v1, v2);
+                       ^
+  symbol:   variable v2
+  location: class CodexTest_0_9_3

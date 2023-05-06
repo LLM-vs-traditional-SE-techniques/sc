@@ -1,0 +1,3 @@
+com.google.common.hash.HashCode()
+com.google.common.hash.HashCode.padToLong()
+com.google.common.hash.HashCode.fromLong(long)

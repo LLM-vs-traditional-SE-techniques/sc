@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_9.java:16: error: package BooleanType does not exist
+        Boolean s = BooleanType.INSTANCE.fromString("true");
+                               ^

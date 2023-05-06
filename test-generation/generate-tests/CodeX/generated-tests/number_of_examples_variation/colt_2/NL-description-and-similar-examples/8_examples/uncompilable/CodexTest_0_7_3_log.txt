@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_3.java:34: error: <identifier> expected
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+     ^
+CodexTest_0_7_3.java:53: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_3.java:62: error: <identifier> expected
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+     ^
+CodexTest_0_7_3.java:78: error: illegal start of expression
+}
+^
+CodexTest_0_7_3.java:78: error: reached end of file while parsing
+}
+ ^

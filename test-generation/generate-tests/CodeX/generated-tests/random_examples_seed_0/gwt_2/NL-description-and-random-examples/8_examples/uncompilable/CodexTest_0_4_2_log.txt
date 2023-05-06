@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_4_2.java:18: error: cannot find symbol
+        throw new RuntimeException(testUncaughtExceptionHandler);
+                                   ^
+  symbol: variable testUncaughtExceptionHandler
+CodexTest_0_4_2.java:25: error: cannot find symbol
+      assertEquals(testUncaughtExceptionHandler, e.getMessage());
+                   ^
+  symbol:   variable testUncaughtExceptionHandler
+  location: class CodexTest_0_4_2

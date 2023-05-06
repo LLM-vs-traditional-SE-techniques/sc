@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_54.java:25: error: cannot find symbol
+    String base32 = decode("wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww");
+                    ^
+  symbol:   method decode(java.lang.String)
+  location: class CodexTest_0_9_54
+CodexTest_0_9_54.java:28: error: cannot find symbol
+        + "126,126,126,126,126", base32ToDecimalString(base32));
+                                 ^
+  symbol:   method base32ToDecimalString(java.lang.String)
+  location: class CodexTest_0_9_54

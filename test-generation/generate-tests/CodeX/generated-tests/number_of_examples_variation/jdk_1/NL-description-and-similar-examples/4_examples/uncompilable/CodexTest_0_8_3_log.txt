@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_3.java:36: error: <identifier> expected
+Input: public Object[] get(int... indexes) {
+     ^
+CodexTest_0_8_3.java:43: error: <identifier> expected
+Output: public void testRemove2() {
+      ^
+CodexTest_0_8_3.java:61: error: <identifier> expected
+Input:  public Object remove(int index) {
+     ^
+CodexTest_0_8_3.java:64: error: <identifier> expected
+Output: public void test
+      ^
+CodexTest_0_8_3.java:65: error: '(' expected
+}
+^

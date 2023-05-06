@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_8_8.java:15: error: cannot find symbol
+        RemoteAndroidTestRunner testRunner = new RemoteAndroidTestRunner(com.android.foo, android.test.InstrumentationTestRunner, null);
+        ^
+  symbol:   class RemoteAndroidTestRunner
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:15: error: cannot find symbol
+        RemoteAndroidTestRunner testRunner = new RemoteAndroidTestRunner(com.android.foo, android.test.InstrumentationTestRunner, null);
+                                                 ^
+  symbol:   class RemoteAndroidTestRunner
+  location: class CodexTest_0_8_8
+CodexTest_0_8_8.java:15: error: cannot find symbol
+        RemoteAndroidTestRunner testRunner = new RemoteAndroidTestRunner(com.android.foo, android.test.InstrumentationTestRunner, null);
+                                                                            ^
+  symbol:   class android
+  location: package com
+CodexTest_0_8_8.java:15: error: package android does not exist
+        RemoteAndroidTestRunner testRunner = new RemoteAndroidTestRunner(com.android.foo, android.test.InstrumentationTestRunner, null);
+                                                                                                 ^

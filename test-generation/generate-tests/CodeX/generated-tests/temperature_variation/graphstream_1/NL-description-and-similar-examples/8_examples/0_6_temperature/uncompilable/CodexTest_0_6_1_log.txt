@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_6_1.java:22: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    path.add(new Edge(new Node("A"), new Node("B")));
+                      ^
+CodexTest_0_6_1.java:22: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    path.add(new Edge(new Node("A"), new Node("B")));
+                                     ^
+CodexTest_0_6_1.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    path.add(new Edge(new Node("A"), new Node("B")));
+             ^
+CodexTest_0_6_1.java:23: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    path.add(new Edge(new Node("B"), new Node("C")));
+                      ^
+CodexTest_0_6_1.java:23: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    path.add(new Edge(new Node("B"), new Node("C")));
+                                     ^
+CodexTest_0_6_1.java:23: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    path.add(new Edge(new Node("B"), new Node("C")));
+             ^
+CodexTest_0_6_1.java:24: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    path.add(new Edge(new Node("C"), new Node("D")));
+                      ^
+CodexTest_0_6_1.java:24: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    path.add(new Edge(new Node("C"), new Node("D")));
+                                     ^
+CodexTest_0_6_1.java:24: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    path.add(new Edge(new Node("C"), new Node("D")));
+             ^
+CodexTest_0_6_1.java:26: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    boolean result = path.contains(new Edge(new Node("A"), new Node("B")));
+                                            ^
+CodexTest_0_6_1.java:26: error: org.graphstream.graph.Node is abstract; cannot be instantiated
+    boolean result = path.contains(new Edge(new Node("A"), new Node("B")));
+                                                           ^
+CodexTest_0_6_1.java:26: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    boolean result = path.contains(new Edge(new Node("A"), new Node("B")));
+                                   ^

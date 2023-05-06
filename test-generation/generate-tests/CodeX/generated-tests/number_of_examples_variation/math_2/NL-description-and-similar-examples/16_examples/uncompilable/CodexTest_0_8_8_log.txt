@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_8.java:33: error: method dotProduct in class org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be applied to given types;
+        Assert.assertEquals(0.0, Vector1D.dotProduct(new Vector1D(-1), new Vector1D(-1)), 0);
+                                         ^
+  required: org.apache.commons.math3.geometry.Vector<org.apache.commons.math3.geometry.euclidean.oned.Euclidean1D>
+  found: org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+  reason: actual and formal argument lists differ in length
+CodexTest_0_8_8.java:34: error: method dotProduct in class org.apache.commons.math3.geometry.euclidean.oned.Vector1D cannot be applied to given types;
+        Assert.assertEquals(v1.dotProduct(v2), Vector1D.dotProduct(v1, v2), 1.0e-12);
+                                                       ^
+  required: org.apache.commons.math3.geometry.Vector<org.apache.commons.math3.geometry.euclidean.oned.Euclidean1D>
+  found: org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+  reason: actual and formal argument lists differ in length

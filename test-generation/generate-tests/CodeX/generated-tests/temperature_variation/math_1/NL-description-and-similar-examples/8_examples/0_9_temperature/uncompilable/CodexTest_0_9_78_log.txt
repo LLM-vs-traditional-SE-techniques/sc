@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_78.java:31: error: cannot find symbol
+        Matrix2D m = new Matrix2D(
+        ^
+  symbol:   class Matrix2D
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:31: error: cannot find symbol
+        Matrix2D m = new Matrix2D(
+                         ^
+  symbol:   class Matrix2D
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:35: error: cannot find symbol
+        Vector2D u = new Vector2D(1.0, 2.0);
+        ^
+  symbol:   class Vector2D
+  location: class CodexTest_0_9_78
+CodexTest_0_9_78.java:35: error: cannot find symbol
+        Vector2D u = new Vector2D(1.0, 2.0);
+                         ^
+  symbol:   class Vector2D
+  location: class CodexTest_0_9_78

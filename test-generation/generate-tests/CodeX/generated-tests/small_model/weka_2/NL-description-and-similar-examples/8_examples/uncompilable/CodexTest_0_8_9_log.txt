@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_8_9.java:24: error: unclosed string literal
+      Attribute att5 = new Attribute("
+                                     ^
+CodexTest_0_8_9.java:24: error: ';' expected
+      Attribute att5 = new Attribute("
+                                      ^
+CodexTest_0_8_9.java:25: error: reached end of file while parsing
+}
+ ^
+CodexTest_0_8_9.java:18: error: 'try' without 'catch', 'finally' or resource declarations
+    try {
+    ^

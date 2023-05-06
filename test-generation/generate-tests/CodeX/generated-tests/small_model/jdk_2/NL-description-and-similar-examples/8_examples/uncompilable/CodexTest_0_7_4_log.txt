@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_7_4.java:21: error: cannot find symbol
+    assertTrue(this.contains(new Integer(1)));
+                   ^
+  symbol: method contains(java.lang.Integer)
+CodexTest_0_7_4.java:22: error: cannot find symbol
+    assertTrue(this.contains(new Integer(2)));
+                   ^
+  symbol: method contains(java.lang.Integer)
+CodexTest_0_7_4.java:23: error: cannot find symbol
+    assertTrue(this.contains(new Integer(3)));
+                   ^
+  symbol: method contains(java.lang.Integer)
+CodexTest_0_7_4.java:24: error: cannot find symbol
+    assertTrue(this.contains(new Integer(4)));
+                   ^
+  symbol: method contains(java.lang.Integer)
+CodexTest_0_7_4.java:25: error: cannot find symbol
+    assertTrue(this.contains(new Integer(5)));
+                   ^
+  symbol: method contains(java.lang.Integer)
+CodexTest_0_7_4.java:26: error: cannot find symbol
+    assertFalse(this.contains(new Integer(6)));
+                    ^
+  symbol: method contains(java.lang.Integer)
+CodexTest_0_7_4.java:27: error: cannot find symbol
+    assertFalse(this.contains(new Integer(7)));
+                    ^
+  symbol: method contains(java.lang.Integer)
+CodexTest_0_7_4.java:28: error: cannot find symbol
+    assertFalse(this.contains(new Integer(8)));
+                    ^
+  symbol: method contains(java.lang.Integer)
+CodexTest_0_7_4.java:29: error: cannot find symbol
+    assertFalse(this.contains(new Integer(9)));
+                    ^
+  symbol: method contains(java.lang.Integer)
+CodexTest_0_7_4.java:30: error: cannot find symbol
+    assertFalse(this.contains(new Integer(10)));
+                    ^
+  symbol: method contains(java.lang.Integer)

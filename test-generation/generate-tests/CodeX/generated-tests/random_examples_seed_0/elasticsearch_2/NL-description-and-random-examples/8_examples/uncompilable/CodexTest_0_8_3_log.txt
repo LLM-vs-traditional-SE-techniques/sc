@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_3.java:67: error: cannot find symbol
+        client().index(new IndexRequest("index1", "index1").source(sourceMap), RequestOptions.DEFAULT);
+                                                                               ^
+  symbol:   variable RequestOptions
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:67: error: cannot find symbol
+        client().index(new IndexRequest("index1", "index1").source(sourceMap), RequestOptions.DEFAULT);
+        ^
+  symbol:   method client()
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:68: error: cannot find symbol
+        assertThat(client().get(new GetRequest("index1", "index1", "1"), RequestOptions.DEFAULT).getSource().get("field"), equalTo("value"));
+                                    ^
+  symbol:   class GetRequest
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:68: error: cannot find symbol
+        assertThat(client().get(new GetRequest("index1", "index1", "1"), RequestOptions.DEFAULT).getSource().get("field"), equalTo("value"));
+                                                                         ^
+  symbol:   variable RequestOptions
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:68: error: cannot find symbol
+        assertThat(client().get(new GetRequest("index1", "index1", "1"), RequestOptions.DEFAULT).getSource().get("field"), equalTo("value"));
+                   ^
+  symbol:   method client()
+  location: class CodexTest_0_8_3
+CodexTest_0_8_3.java:68: error: cannot find symbol
+        assertThat(client().get(new GetRequest("index1", "index1", "1"), RequestOptions.DEFAULT).getSource().get("field"), equalTo("value"));
+                                                                                                                           ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_8_3

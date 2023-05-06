@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_81.java:30: error: cannot find symbol
+		DoubleMatrix1D a = matrix.like(5);
+		                   ^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_81
+CodexTest_0_5_81.java:31: error: cannot find symbol
+		a.assign(matrix);
+		         ^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_81
+CodexTest_0_5_81.java:34: error: cannot find symbol
+			assertEquals(matrix.get(i), a.get(i));
+			             ^
+  symbol:   variable matrix
+  location: class CodexTest_0_5_81

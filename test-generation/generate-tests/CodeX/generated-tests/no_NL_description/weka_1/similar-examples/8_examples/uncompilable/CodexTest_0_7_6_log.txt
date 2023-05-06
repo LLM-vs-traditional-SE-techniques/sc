@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_7_6.java:21: error: cannot find symbol
+    v1.set(0, 1.0);
+      ^
+  symbol:   method set(int,double)
+  location: variable v1 of type weka.core.AlgVector
+CodexTest_0_7_6.java:22: error: cannot find symbol
+    v1.set(1, 2.0);
+      ^
+  symbol:   method set(int,double)
+  location: variable v1 of type weka.core.AlgVector
+CodexTest_0_7_6.java:23: error: cannot find symbol
+    v1.set(2, 3.0);
+      ^
+  symbol:   method set(int,double)
+  location: variable v1 of type weka.core.AlgVector
+CodexTest_0_7_6.java:24: error: cannot find symbol
+    v2.set(0, 1.0);
+      ^
+  symbol:   method set(int,double)
+  location: variable v2 of type weka.core.AlgVector
+CodexTest_0_7_6.java:25: error: cannot find symbol
+    v2.set(1, 2.0);
+      ^
+  symbol:   method set(int,double)
+  location: variable v2 of type weka.core.AlgVector
+CodexTest_0_7_6.java:26: error: cannot find symbol
+    v2.set(2, 3.0);
+      ^
+  symbol:   method set(int,double)
+  location: variable v2 of type weka.core.AlgVector
+CodexTest_0_7_6.java:27: error: cannot find symbol
+    v3.set(0, 2.0);
+      ^
+  symbol:   method set(int,double)
+  location: variable v3 of type weka.core.AlgVector
+CodexTest_0_7_6.java:28: error: cannot find symbol
+    v3.set(1, 4.0);
+      ^
+  symbol:   method set(int,double)
+  location: variable v3 of type weka.core.AlgVector
+CodexTest_0_7_6.java:29: error: cannot find symbol
+    v3.set(2, 6.0);
+      ^
+  symbol:   method set(int,double)
+  location: variable v3 of type weka.core.AlgVector

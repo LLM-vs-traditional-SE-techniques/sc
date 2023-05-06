@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_7_1.java:21: error: package Vector1D does not exist
+    assertFalse("This should not be true", Vector1D.ZERO.contains(null));
+                                                   ^

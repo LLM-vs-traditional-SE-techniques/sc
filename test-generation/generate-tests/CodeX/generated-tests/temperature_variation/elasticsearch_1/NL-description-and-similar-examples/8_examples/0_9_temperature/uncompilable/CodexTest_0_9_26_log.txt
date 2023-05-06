@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_26.java:66: error: cannot find symbol
+        DocumentFile doc = new DocumentFile(x, new WordCount(10));
+        ^
+  symbol:   class DocumentFile
+  location: class CodexTest_0_9_26
+CodexTest_0_9_26.java:66: error: cannot find symbol
+        DocumentFile doc = new DocumentFile(x, new WordCount(10));
+                               ^
+  symbol:   class DocumentFile
+  location: class CodexTest_0_9_26
+CodexTest_0_9_26.java:66: error: cannot find symbol
+        DocumentFile doc = new DocumentFile(x, new WordCount(10));
+                                                   ^
+  symbol:   class WordCount
+  location: class CodexTest_0_9_26

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_7.java:17: error: cannot find symbol
+		MockBooleanTypeDescriptor underTest = new MockBooleanTypeDescriptor();
+		^
+  symbol:   class MockBooleanTypeDescriptor
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:17: error: cannot find symbol
+		MockBooleanTypeDescriptor underTest = new MockBooleanTypeDescriptor();
+		                                          ^
+  symbol:   class MockBooleanTypeDescriptor
+  location: class CodexTest_0_9_7

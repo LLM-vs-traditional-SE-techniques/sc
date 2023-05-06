@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_91.java:21: error: cannot find symbol
+        final String[] strings = new String[func1().length];
+                                            ^
+  symbol:   method func1()
+  location: class CodexTest_0_9_91
+CodexTest_0_9_91.java:22: error: cannot find symbol
+        StringArrayList list = new StringArrayList(func1(), strings, 0);
+        ^
+  symbol:   class StringArrayList
+  location: class CodexTest_0_9_91
+CodexTest_0_9_91.java:22: error: cannot find symbol
+        StringArrayList list = new StringArrayList(func1(), strings, 0);
+                                   ^
+  symbol:   class StringArrayList
+  location: class CodexTest_0_9_91
+CodexTest_0_9_91.java:22: error: cannot find symbol
+        StringArrayList list = new StringArrayList(func1(), strings, 0);
+                                                   ^
+  symbol:   method func1()
+  location: class CodexTest_0_9_91

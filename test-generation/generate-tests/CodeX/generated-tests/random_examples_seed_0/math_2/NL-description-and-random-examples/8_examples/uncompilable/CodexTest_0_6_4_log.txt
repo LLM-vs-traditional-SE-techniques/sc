@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_6_4.java:31: error: cannot find symbol
+        assertEquals(0.0, distanceSq(new Vector1D(0.0), new Vector1D(0.0)), 0.0);
+                          ^
+  symbol:   method distanceSq(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:32: error: cannot find symbol
+        assertEquals(0.0, distanceSq(new Vector1D(0.0), new Vector1D(0.0)), 0.1);
+                          ^
+  symbol:   method distanceSq(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:33: error: cannot find symbol
+        assertEquals(0.0, distanceSq(new Vector1D(0.0), new Vector1D(0.0)), 0.5);
+                          ^
+  symbol:   method distanceSq(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:34: error: cannot find symbol
+        assertEquals(0.0, distanceSq(new Vector1D(0.0), new Vector1D(0.0)), 1.0);
+                          ^
+  symbol:   method distanceSq(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:35: error: cannot find symbol
+        assertEquals(0.0, distanceSq(new Vector1D(0.0), new Vector1D(0.0)), 2.0);
+                          ^
+  symbol:   method distanceSq(org.apache.commons.math3.geometry.euclidean.oned.Vector1D,org.apache.commons.math3.geometry.euclidean.oned.Vector1D)
+  location: class CodexTest_0_6_4

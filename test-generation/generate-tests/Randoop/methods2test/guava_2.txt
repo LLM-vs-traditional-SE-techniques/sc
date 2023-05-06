@@ -1,0 +1,4 @@
+com.google.common.hash.HashCode()
+com.google.common.hash.HashCode.asBytes()
+com.google.common.hash.HashCode.asInt()
+com.google.common.hash.HashCode.writeBytesTo(byte[], int, int)

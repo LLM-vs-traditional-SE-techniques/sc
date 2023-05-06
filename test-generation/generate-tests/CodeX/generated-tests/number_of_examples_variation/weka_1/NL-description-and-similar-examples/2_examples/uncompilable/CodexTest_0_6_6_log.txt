@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_6.java:22: error: cannot find symbol
+    assertEquals("Element 0 differs", 3.0, v3.getElement(0), DELTA);
+                                                             ^
+  symbol:   variable DELTA
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:23: error: cannot find symbol
+    assertEquals("Element 1 differs", 6.2, v3.getElement(1), DELTA);
+                                                             ^
+  symbol:   variable DELTA
+  location: class CodexTest_0_6_6

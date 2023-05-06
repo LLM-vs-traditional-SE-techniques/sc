@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_7.java:21: error: cannot find symbol
+        MyList l = new MyList(0, new double[]{0, 0, 1});
+        ^
+  symbol:   class MyList
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:21: error: cannot find symbol
+        MyList l = new MyList(0, new double[]{0, 0, 1});
+                       ^
+  symbol:   class MyList
+  location: class CodexTest_0_9_7

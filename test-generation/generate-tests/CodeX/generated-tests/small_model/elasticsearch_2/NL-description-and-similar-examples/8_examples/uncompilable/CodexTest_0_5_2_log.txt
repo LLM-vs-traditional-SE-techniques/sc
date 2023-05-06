@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_5_2.java:67: error: cannot find symbol
+            builder.map(map);
+                        ^
+  symbol:   variable map
+  location: class CodexTest_0_5_2
+CodexTest_0_5_2.java:68: error: cannot find symbol
+            IndexRequest request = new IndexRequest(index, type, id).source(builder);
+                                                    ^
+  symbol:   variable index
+  location: class CodexTest_0_5_2
+CodexTest_0_5_2.java:68: error: cannot find symbol
+            IndexRequest request = new IndexRequest(index, type, id).source(builder);
+                                                           ^
+  symbol:   variable type
+  location: class CodexTest_0_5_2
+CodexTest_0_5_2.java:68: error: cannot find symbol
+            IndexRequest request = new IndexRequest(index, type, id).source(builder);
+                                                                 ^
+  symbol:   variable id
+  location: class CodexTest_0_5_2
+CodexTest_0_5_2.java:69: error: cannot find symbol
+            assertTrue(request.source().contains("\"foo\":\"bar\""));
+                                       ^
+  symbol:   method contains(java.lang.String)
+  location: class org.elasticsearch.common.bytes.BytesReference

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_4.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                                            ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:18: error: cannot find symbol
+        Instances model = new Instances(new BufferedReader(new StringReader(
+                                                               ^
+  symbol:   class StringReader
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:24: error: cannot find symbol
+        DenseInstance result = instance.getAsInstance(model, new Random(1));
+                                       ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable instance of type weka.core.DenseInstance

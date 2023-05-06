@@ -1,0 +1,101 @@
+isCompilable => false
+CodexTest_0_7_32.java:20: error: cannot find symbol
+		Graph graph = new SimpleGraph(DefaultEdge.class);
+		                  ^
+  symbol:   class SimpleGraph
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:20: error: cannot find symbol
+		Graph graph = new SimpleGraph(DefaultEdge.class);
+		                              ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:21: error: cannot find symbol
+		graph.addVertex(A);
+		                ^
+  symbol:   variable A
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:22: error: cannot find symbol
+		graph.addVertex(B);
+		                ^
+  symbol:   variable B
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:23: error: cannot find symbol
+		graph.addVertex(C);
+		                ^
+  symbol:   variable C
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:24: error: cannot find symbol
+		graph.addVertex(D);
+		                ^
+  symbol:   variable D
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:25: error: cannot find symbol
+		graph.setEdgeWeight(A, B, 1.0);
+		                    ^
+  symbol:   variable A
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:25: error: cannot find symbol
+		graph.setEdgeWeight(A, B, 1.0);
+		                       ^
+  symbol:   variable B
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:26: error: cannot find symbol
+		graph.setEdgeWeight(B, C, 2.0);
+		                    ^
+  symbol:   variable B
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:26: error: cannot find symbol
+		graph.setEdgeWeight(B, C, 2.0);
+		                       ^
+  symbol:   variable C
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:27: error: cannot find symbol
+		graph.setEdgeWeight(C, D, 3.0);
+		                    ^
+  symbol:   variable C
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:27: error: cannot find symbol
+		graph.setEdgeWeight(C, D, 3.0);
+		                       ^
+  symbol:   variable D
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:28: error: cannot find symbol
+		Path path = GraphPathImpl.createGraphPathFromVertices(graph, Arrays.asList(A, B, C, D), true, 9.0);
+		                                                                           ^
+  symbol:   variable A
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:28: error: cannot find symbol
+		Path path = GraphPathImpl.createGraphPathFromVertices(graph, Arrays.asList(A, B, C, D), true, 9.0);
+		                                                                              ^
+  symbol:   variable B
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:28: error: cannot find symbol
+		Path path = GraphPathImpl.createGraphPathFromVertices(graph, Arrays.asList(A, B, C, D), true, 9.0);
+		                                                                                 ^
+  symbol:   variable C
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:28: error: cannot find symbol
+		Path path = GraphPathImpl.createGraphPathFromVertices(graph, Arrays.asList(A, B, C, D), true, 9.0);
+		                                                                                    ^
+  symbol:   variable D
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:28: error: cannot find symbol
+		Path path = GraphPathImpl.createGraphPathFromVertices(graph, Arrays.asList(A, B, C, D), true, 9.0);
+		                                                             ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:28: error: cannot find symbol
+		Path path = GraphPathImpl.createGraphPathFromVertices(graph, Arrays.asList(A, B, C, D), true, 9.0);
+		            ^
+  symbol:   variable GraphPathImpl
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:29: error: cannot find symbol
+		assertTrue(path.contains(graph.getEdge(B, C)));
+		                                       ^
+  symbol:   variable B
+  location: class CodexTest_0_7_32
+CodexTest_0_7_32.java:29: error: cannot find symbol
+		assertTrue(path.contains(graph.getEdge(B, C)));
+		                                          ^
+  symbol:   variable C
+  location: class CodexTest_0_7_32

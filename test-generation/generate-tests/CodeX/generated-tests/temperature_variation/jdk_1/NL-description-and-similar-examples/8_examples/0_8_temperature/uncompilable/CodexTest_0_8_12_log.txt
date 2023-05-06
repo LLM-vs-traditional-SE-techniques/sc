@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_12.java:21: error: cannot find symbol
+        Object[] a = new Object[SIZE];
+                                ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_12
+CodexTest_0_8_12.java:22: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_12
+CodexTest_0_8_12.java:27: error: cannot find symbol
+        lst.subList(SIZE - 1, SIZE).toArray(b);
+                    ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_12
+CodexTest_0_8_12.java:27: error: cannot find symbol
+        lst.subList(SIZE - 1, SIZE).toArray(b);
+                              ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_12
+CodexTest_0_8_12.java:28: error: cannot find symbol
+        lst.subList(SIZE - 1, SIZE).clear();
+                    ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_12
+CodexTest_0_8_12.java:28: error: cannot find symbol
+        lst.subList(SIZE - 1, SIZE).clear();
+                              ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_12
+CodexTest_0_8_12.java:29: error: cannot find symbol
+        for (int i = 0; i < SIZE - 1; i++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_8_12

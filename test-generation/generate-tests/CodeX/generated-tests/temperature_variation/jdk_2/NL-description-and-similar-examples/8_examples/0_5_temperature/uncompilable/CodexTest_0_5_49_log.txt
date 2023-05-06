@@ -1,0 +1,81 @@
+isCompilable => false
+CodexTest_0_5_49.java:21: error: cannot find symbol
+        assertTrue(this.list.contains(this.one));
+                                          ^
+  symbol: variable one
+CodexTest_0_5_49.java:21: error: cannot find symbol
+        assertTrue(this.list.contains(this.one));
+                       ^
+  symbol: variable list
+CodexTest_0_5_49.java:22: error: cannot find symbol
+        assertTrue(this.list.contains(this.two));
+                                          ^
+  symbol: variable two
+CodexTest_0_5_49.java:22: error: cannot find symbol
+        assertTrue(this.list.contains(this.two));
+                       ^
+  symbol: variable list
+CodexTest_0_5_49.java:23: error: cannot find symbol
+        assertTrue(this.list.contains(this.three));
+                                          ^
+  symbol: variable three
+CodexTest_0_5_49.java:23: error: cannot find symbol
+        assertTrue(this.list.contains(this.three));
+                       ^
+  symbol: variable list
+CodexTest_0_5_49.java:24: error: cannot find symbol
+        assertTrue(this.list.contains(this.four));
+                                          ^
+  symbol: variable four
+CodexTest_0_5_49.java:24: error: cannot find symbol
+        assertTrue(this.list.contains(this.four));
+                       ^
+  symbol: variable list
+CodexTest_0_5_49.java:25: error: cannot find symbol
+        assertTrue(this.list.contains(this.five));
+                                          ^
+  symbol: variable five
+CodexTest_0_5_49.java:25: error: cannot find symbol
+        assertTrue(this.list.contains(this.five));
+                       ^
+  symbol: variable list
+CodexTest_0_5_49.java:26: error: cannot find symbol
+        assertTrue(this.list.contains(this.six));
+                                          ^
+  symbol: variable six
+CodexTest_0_5_49.java:26: error: cannot find symbol
+        assertTrue(this.list.contains(this.six));
+                       ^
+  symbol: variable list
+CodexTest_0_5_49.java:27: error: cannot find symbol
+        assertTrue(this.list.contains(this.seven));
+                                          ^
+  symbol: variable seven
+CodexTest_0_5_49.java:27: error: cannot find symbol
+        assertTrue(this.list.contains(this.seven));
+                       ^
+  symbol: variable list
+CodexTest_0_5_49.java:28: error: cannot find symbol
+        assertTrue(this.list.contains(this.eight));
+                                          ^
+  symbol: variable eight
+CodexTest_0_5_49.java:28: error: cannot find symbol
+        assertTrue(this.list.contains(this.eight));
+                       ^
+  symbol: variable list
+CodexTest_0_5_49.java:29: error: cannot find symbol
+        assertTrue(this.list.contains(this.nine));
+                                          ^
+  symbol: variable nine
+CodexTest_0_5_49.java:29: error: cannot find symbol
+        assertTrue(this.list.contains(this.nine));
+                       ^
+  symbol: variable list
+CodexTest_0_5_49.java:30: error: cannot find symbol
+        assertTrue(this.list.contains(this.ten));
+                                          ^
+  symbol: variable ten
+CodexTest_0_5_49.java:30: error: cannot find symbol
+        assertTrue(this.list.contains(this.ten));
+                       ^
+  symbol: variable list

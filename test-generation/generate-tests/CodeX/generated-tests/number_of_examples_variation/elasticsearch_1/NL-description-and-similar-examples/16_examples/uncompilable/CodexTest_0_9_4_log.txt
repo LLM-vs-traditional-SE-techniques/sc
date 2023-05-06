@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_4.java:66: error: cannot find symbol
+		Note note=new Note(one,two,three);
+		^
+  symbol:   class Note
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:66: error: cannot find symbol
+		Note note=new Note(one,two,three);
+		              ^
+  symbol:   class Note
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:66: error: cannot find symbol
+		Note note=new Note(one,two,three);
+		                   ^
+  symbol:   variable one
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:66: error: cannot find symbol
+		Note note=new Note(one,two,three);
+		                       ^
+  symbol:   variable two
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:66: error: cannot find symbol
+		Note note=new Note(one,two,three);
+		                           ^
+  symbol:   variable three
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:70: error: cannot find symbol
+		assertEquals(one,parent);
+		             ^
+  symbol:   variable one
+  location: class CodexTest_0_9_4

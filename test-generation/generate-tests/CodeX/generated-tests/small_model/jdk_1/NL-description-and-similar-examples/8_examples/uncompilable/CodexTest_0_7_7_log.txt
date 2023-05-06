@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_7.java:27: error: cannot find symbol
+      assertEquals(a[i], elementData(a).remove(i));
+                         ^
+  symbol:   method elementData(java.lang.Object[])
+  location: class CodexTest_0_7_7
+CodexTest_0_7_7.java:29: error: cannot find symbol
+    assertEquals(0, elementData(a).size());
+                    ^
+  symbol:   method elementData(java.lang.Object[])
+  location: class CodexTest_0_7_7

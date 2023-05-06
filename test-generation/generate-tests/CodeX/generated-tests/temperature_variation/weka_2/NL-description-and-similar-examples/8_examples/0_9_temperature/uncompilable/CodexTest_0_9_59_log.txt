@@ -1,0 +1,109 @@
+isCompilable => false
+CodexTest_0_9_59.java:18: error: ';' expected
+      SECTION
+             ^
+CodexTest_0_9_59.java:20: error: ';' expected
+      CODE
+          ^
+CodexTest_0_9_59.java:21: error: unclosed string literal
+      INSTANCE result = new INSTANCE(inst.attribute(index).numValues()");
+                                                                      ^
+CodexTest_0_9_59.java:22: error: <identifier> expected
+     result.setDataset(inst.dataset());
+                      ^
+CodexTest_0_9_59.java:22: error: <identifier> expected
+     result.setDataset(inst.dataset());
+                                   ^
+CodexTest_0_9_59.java:22: error: ';' expected
+     result.setDataset(inst.dataset());
+                                    ^
+CodexTest_0_9_59.java:22: error: illegal start of type
+     result.setDataset(inst.dataset());
+                                     ^
+CodexTest_0_9_59.java:22: error: <identifier> expected
+     result.setDataset(inst.dataset());
+                                      ^
+CodexTest_0_9_59.java:22: error: ';' expected
+     result.setDataset(inst.dataset());
+                                       ^
+CodexTest_0_9_59.java:23: error: illegal start of type
+     if (inst.isMissing(index)) {
+        ^
+CodexTest_0_9_59.java:23: error: ';' expected
+     if (inst.isMissing(index)) {
+             ^
+CodexTest_0_9_59.java:23: error: invalid method declaration; return type required
+     if (inst.isMissing(index)) {
+              ^
+CodexTest_0_9_59.java:23: error: <identifier> expected
+     if (inst.isMissing(index)) {
+                             ^
+CodexTest_0_9_59.java:23: error: ';' expected
+     if (inst.isMissing(index)) {
+                              ^
+CodexTest_0_9_59.java:25: error: illegal start of type
+     } else if (inst.attribute(index).isNominal()||inst.attribute(index).isString()) {
+       ^
+CodexTest_0_9_59.java:25: error: ';' expected
+     } else if (inst.attribute(index).isNominal()||inst.attribute(index).isString()) {
+           ^
+CodexTest_0_9_59.java:25: error: illegal start of type
+     } else if (inst.attribute(index).isNominal()||inst.attribute(index).isString()) {
+               ^
+CodexTest_0_9_59.java:25: error: ';' expected
+     } else if (inst.attribute(index).isNominal()||inst.attribute(index).isString()) {
+                    ^
+CodexTest_0_9_59.java:25: error: invalid method declaration; return type required
+     } else if (inst.attribute(index).isNominal()||inst.attribute(index).isString()) {
+                     ^
+CodexTest_0_9_59.java:25: error: <identifier> expected
+     } else if (inst.attribute(index).isNominal()||inst.attribute(index).isString()) {
+                                    ^
+CodexTest_0_9_59.java:25: error: ';' expected
+     } else if (inst.attribute(index).isNominal()||inst.attribute(index).isString()) {
+                                     ^
+CodexTest_0_9_59.java:27: error: illegal start of type
+     } else {
+       ^
+CodexTest_0_9_59.java:27: error: ';' expected
+     } else {
+           ^
+CodexTest_0_9_59.java:28: error: illegal start of type
+       throw new IllegalArgumentException(\"Can only handle nominal or string attributes!");
+       ^
+CodexTest_0_9_59.java:28: error: <identifier> expected
+       throw new IllegalArgumentException(\"Can only handle nominal or string attributes!");
+            ^
+CodexTest_0_9_59.java:28: error: ';' expected
+       throw new IllegalArgumentException(\"Can only handle nominal or string attributes!");
+                ^
+CodexTest_0_9_59.java:28: error: illegal start of type
+       throw new IllegalArgumentException(\"Can only handle nominal or string attributes!");
+                                         ^
+CodexTest_0_9_59.java:28: error: illegal character: '\'
+       throw new IllegalArgumentException(\"Can only handle nominal or string attributes!");
+                                          ^
+CodexTest_0_9_59.java:28: error: ';' expected
+       throw new IllegalArgumentException(\"Can only handle nominal or string attributes!");
+                                           ^
+CodexTest_0_9_59.java:28: error: illegal start of type
+       throw new IllegalArgumentException(\"Can only handle nominal or string attributes!");
+                                                                                          ^
+CodexTest_0_9_59.java:28: error: <identifier> expected
+       throw new IllegalArgumentException(\"Can only handle nominal or string attributes!");
+                                                                                           ^
+CodexTest_0_9_59.java:28: error: ';' expected
+       throw new IllegalArgumentException(\"Can only handle nominal or string attributes!");
+                                                                                            ^
+CodexTest_0_9_59.java:30: error: illegal start of type
+     return result;
+     ^
+CodexTest_0_9_59.java:32: error: ';' expected
+     ENDFORMA
+             ^
+CodexTest_0_9_59.java:33: error: <identifier> expected
+    ENDSECTION
+              ^
+CodexTest_0_9_59.java:34: error: reached end of file while parsing
+}
+ ^

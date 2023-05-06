@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_4_5.java:72: error: unclosed string literal
+        v.add("fiftyone
+              ^
+CodexTest_0_4_5.java:72: error: ';' expected
+        v.add("fiftyone
+                       ^
+CodexTest_0_4_5.java:73: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_1_40.java:52: error: ';' expected
+    int expectedBitsRem
+                       ^
+CodexTest_0_1_40.java:53: error: reached end of file while parsing
+}
+ ^

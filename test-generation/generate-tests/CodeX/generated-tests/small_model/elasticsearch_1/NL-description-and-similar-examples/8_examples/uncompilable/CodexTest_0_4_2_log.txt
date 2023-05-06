@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_2.java:66: error: cannot find symbol
+                new StackTraceCreator$CollectorMockup().parent());
+                    ^
+  symbol:   class StackTraceCreator$CollectorMockup
+  location: class CodexTest_0_4_2

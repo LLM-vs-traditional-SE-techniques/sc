@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_69.java:37: error: ';' expected
+Sample Output:
+             ^
+CodexTest_0_9_69.java:38: error: <identifier> expected
+    Input:
+         ^
+CodexTest_0_9_69.java:41: error: <identifier> expected
+    Output:
+          ^

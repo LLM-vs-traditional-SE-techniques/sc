@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_96.java:67: error: cannot find symbol
+        DeleteIndexRequest request = new DeleteIndexRequest();
+        ^
+  symbol:   class DeleteIndexRequest
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:67: error: cannot find symbol
+        DeleteIndexRequest request = new DeleteIndexRequest();
+                                         ^
+  symbol:   class DeleteIndexRequest
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:70: error: cannot find symbol
+        JsonXContent.contentBuilder().startObject()
+        ^
+  symbol:   variable JsonXContent
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:78: error: cannot find symbol
+        Request requestWithoutParent = request.parent(null);
+        ^
+  symbol:   class Request
+  location: class CodexTest_0_9_96
+CodexTest_0_9_96.java:80: error: cannot find symbol
+        JsonXContent.contentBuilder().startObject()
+        ^
+  symbol:   variable JsonXContent
+  location: class CodexTest_0_9_96

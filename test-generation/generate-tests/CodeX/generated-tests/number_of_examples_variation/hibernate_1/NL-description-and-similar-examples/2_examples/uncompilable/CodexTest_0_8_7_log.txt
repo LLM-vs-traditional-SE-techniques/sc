@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_8_7.java:16: error: <identifier> expected
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+     ^
+CodexTest_0_8_7.java:35: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_7.java:37: error: <identifier> expected
+Input: public Short toShort(Boolean value) {
+     ^
+CodexTest_0_8_7.java:40: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_7.java:42: error: <identifier> expected
+Input: public <X> Boolean wrap(X value, WrapperOptions options) {
+     ^
+CodexTest_0_8_7.java:46: error: ')' expected
+		if ( Boolean
+		            ^
+CodexTest_0_8_7.java:47: error: illegal start of statement
+}
+^
+CodexTest_0_8_7.java:47: error: reached end of file while parsing
+}
+ ^

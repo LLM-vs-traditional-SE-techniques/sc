@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_92.java:22: error: cannot find symbol
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+        ^
+  symbol:   class BooleanTypeDescriptor
+  location: class CodexTest_0_9_92
+CodexTest_0_9_92.java:22: error: cannot find symbol
+        BooleanTypeDescriptor underTest = new BooleanTypeDescriptor();
+                                              ^
+  symbol:   class BooleanTypeDescriptor
+  location: class CodexTest_0_9_92
+CodexTest_0_9_92.java:24: error: cannot find symbol
+        boolean result = underTest.contains(q);
+                                            ^
+  symbol:   variable q
+  location: class CodexTest_0_9_92

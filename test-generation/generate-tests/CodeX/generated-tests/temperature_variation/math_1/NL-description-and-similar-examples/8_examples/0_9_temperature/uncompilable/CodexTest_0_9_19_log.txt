@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_19.java:37: error: cannot find symbol
+        Assert.assertEquals(v1.getX(), v1.multiply(1).getX(), 1.0e-12);
+                                         ^
+  symbol:   method multiply(int)
+  location: variable v1 of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_19.java:38: error: cannot find symbol
+        Assert.assertEquals(v2.getX(), v2.multiply(1).getX(), 1.0e-12);
+                                         ^
+  symbol:   method multiply(int)
+  location: variable v2 of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_19.java:39: error: cannot find symbol
+        ArrayRealVectorTest.testMultiply(v1, v2);
+        ^
+  symbol:   variable ArrayRealVectorTest
+  location: class CodexTest_0_9_19

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_2.java:32: error: cannot find symbol
+        double[] vData = v.toArray();
+                          ^
+  symbol:   method toArray()
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_2.java:34: error: cannot find symbol
+        double[] wData = w.toArray();
+                          ^
+  symbol:   method toArray()
+  location: variable w of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D

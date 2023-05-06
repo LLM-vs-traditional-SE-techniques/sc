@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_85.java:23: error: ';' expected
+Random Input: public final boolean isGreaterThan(double value) {
+            ^
+CodexTest_0_9_85.java:26: error: ';' expected
+Random Output: public void testIsGreaterThan() {
+             ^

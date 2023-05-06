@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_8.java:20: error: cannot find symbol
+		Path path = getPath();
+		            ^
+  symbol:   method getPath()
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:25: error: cannot find symbol
+		assertTrue(!path.equals(getPath("1")));
+		                        ^
+  symbol:   method getPath(java.lang.String)
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:26: error: cannot find symbol
+		assertTrue(!path.equals(getPath("2")));
+		                        ^
+  symbol:   method getPath(java.lang.String)
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:27: error: cannot find symbol
+		assertTrue(!path.equals(getPath("1", "2")));
+		                        ^
+  symbol:   method getPath(java.lang.String,java.lang.String)
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:28: error: cannot find symbol
+		assertTrue(path.equals(getPath("1", "1")));
+		                       ^
+  symbol:   method getPath(java.lang.String,java.lang.String)
+  location: class CodexTest_0_7_8
+CodexTest_0_7_8.java:29: error: cannot find symbol
+		assertTrue(!path.equals(getPath("1", "1", "1")));
+		                        ^
+  symbol:   method getPath(java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_7_8

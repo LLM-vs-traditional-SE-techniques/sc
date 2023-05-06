@@ -1,0 +1,121 @@
+isCompilable => false
+CodexTest_0_9_60.java:30: error: cannot find symbol
+		assertEquals(new ComboFormula(FormulaType.RACE, 0, 0),
+		                 ^
+  symbol:   class ComboFormula
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:30: error: cannot find symbol
+		assertEquals(new ComboFormula(FormulaType.RACE, 0, 0),
+		                              ^
+  symbol:   variable FormulaType
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:31: error: cannot find symbol
+				new ComboFormula(FormulaType.RACE, 0, 0));
+				    ^
+  symbol:   class ComboFormula
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:31: error: cannot find symbol
+				new ComboFormula(FormulaType.RACE, 0, 0));
+				                 ^
+  symbol:   variable FormulaType
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:32: error: cannot find symbol
+		assertEquals(new ComboFormula(FormulaType.RACE, 0, 0).hashCode(),
+		                 ^
+  symbol:   class ComboFormula
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:32: error: cannot find symbol
+		assertEquals(new ComboFormula(FormulaType.RACE, 0, 0).hashCode(),
+		                              ^
+  symbol:   variable FormulaType
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:33: error: cannot find symbol
+				new ComboFormula(FormulaType.RACE, 0, 0).hashCode());
+				    ^
+  symbol:   class ComboFormula
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:33: error: cannot find symbol
+				new ComboFormula(FormulaType.RACE, 0, 0).hashCode());
+				                 ^
+  symbol:   variable FormulaType
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:35: error: cannot find symbol
+				new ComboFormula(FormulaType.RACE, 1, 0)));
+				    ^
+  symbol:   class ComboFormula
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:35: error: cannot find symbol
+				new ComboFormula(FormulaType.RACE, 1, 0)));
+				                 ^
+  symbol:   variable FormulaType
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:34: error: cannot find symbol
+		assertFalse(new ComboFormula(FormulaType.RACE, 0, 0).equals(
+		                ^
+  symbol:   class ComboFormula
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:34: error: cannot find symbol
+		assertFalse(new ComboFormula(FormulaType.RACE, 0, 0).equals(
+		                             ^
+  symbol:   variable FormulaType
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:37: error: cannot find symbol
+				new ComboFormula(FormulaType.RACE, 0, 1)));
+				    ^
+  symbol:   class ComboFormula
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:37: error: cannot find symbol
+				new ComboFormula(FormulaType.RACE, 0, 1)));
+				                 ^
+  symbol:   variable FormulaType
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:36: error: cannot find symbol
+		assertFalse(new ComboFormula(FormulaType.RACE, 0, 0).equals(
+		                ^
+  symbol:   class ComboFormula
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:36: error: cannot find symbol
+		assertFalse(new ComboFormula(FormulaType.RACE, 0, 0).equals(
+		                             ^
+  symbol:   variable FormulaType
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:38: error: cannot find symbol
+		assertFalse(new ComboFormula(FormulaType.RACE, 0, 0).hashCode() ==
+		                ^
+  symbol:   class ComboFormula
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:38: error: cannot find symbol
+		assertFalse(new ComboFormula(FormulaType.RACE, 0, 0).hashCode() ==
+		                             ^
+  symbol:   variable FormulaType
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:39: error: cannot find symbol
+				new ComboFormula(FormulaType.RACE, 1, 0).hashCode());
+				    ^
+  symbol:   class ComboFormula
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:39: error: cannot find symbol
+				new ComboFormula(FormulaType.RACE, 1, 0).hashCode());
+				                 ^
+  symbol:   variable FormulaType
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:40: error: cannot find symbol
+		assertFalse(new ComboFormula(FormulaType.RACE, 0, 0).hashCode() ==
+		                ^
+  symbol:   class ComboFormula
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:40: error: cannot find symbol
+		assertFalse(new ComboFormula(FormulaType.RACE, 0, 0).hashCode() ==
+		                             ^
+  symbol:   variable FormulaType
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:41: error: cannot find symbol
+				new ComboFormula(FormulaType.RACE, 0, 1).hashCode());
+				    ^
+  symbol:   class ComboFormula
+  location: class CodexTest_0_9_60
+CodexTest_0_9_60.java:41: error: cannot find symbol
+				new ComboFormula(FormulaType.RACE, 0, 1).hashCode());
+				                 ^
+  symbol:   variable FormulaType
+  location: class CodexTest_0_9_60

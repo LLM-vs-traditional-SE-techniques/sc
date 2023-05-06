@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_5.java:25: error: cannot find symbol
+    Random random = new Random(0);
+    ^
+  symbol:   class Random
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:25: error: cannot find symbol
+    Random random = new Random(0);
+                        ^
+  symbol:   class Random
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:31: error: cannot find symbol
+      BitArray bs = new BitArray(bits);
+      ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:31: error: cannot find symbol
+      BitArray bs = new BitArray(bits);
+                        ^
+  symbol:   class BitArray
+  location: class CodexTest_0_8_5
+CodexTest_0_8_5.java:32: error: cannot find symbol
+      byte[] bytes = bitsToBytes(bits);
+                     ^
+  symbol:   method bitsToBytes(boolean[])
+  location: class CodexTest_0_8_5

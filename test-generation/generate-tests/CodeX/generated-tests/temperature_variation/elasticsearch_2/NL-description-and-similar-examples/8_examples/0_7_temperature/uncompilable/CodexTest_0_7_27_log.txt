@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_27.java:67: error: cannot find symbol
+        assertThat(indexRequest.source(), nullValue());
+                                          ^
+  symbol:   method nullValue()
+  location: class CodexTest_0_7_27
+CodexTest_0_7_27.java:68: error: cannot find symbol
+        assertThat(indexRequest.sourceAsBytes(), nullValue());
+                               ^
+  symbol:   method sourceAsBytes()
+  location: variable indexRequest of type org.elasticsearch.action.index.IndexRequest
+CodexTest_0_7_27.java:68: error: cannot find symbol
+        assertThat(indexRequest.sourceAsBytes(), nullValue());
+                                                 ^
+  symbol:   method nullValue()
+  location: class CodexTest_0_7_27

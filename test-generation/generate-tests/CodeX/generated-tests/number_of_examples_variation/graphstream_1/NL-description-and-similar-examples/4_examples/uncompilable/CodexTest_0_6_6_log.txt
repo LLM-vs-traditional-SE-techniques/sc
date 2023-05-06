@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_6_6.java:22: error: cannot find symbol
+        path.setRoot(new Vertex());
+                         ^
+  symbol:   class Vertex
+  location: class CodexTest_0_6_6
+CodexTest_0_6_6.java:24: error: reference to contains is ambiguous
+        boolean result = path.contains(null);
+                             ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match

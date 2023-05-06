@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_58.java:71: error: cannot find symbol
+            assertThat(bytes.length(), greaterThan(0));
+                                       ^
+  symbol:   method greaterThan(int)
+  location: class CodexTest_0_7_58

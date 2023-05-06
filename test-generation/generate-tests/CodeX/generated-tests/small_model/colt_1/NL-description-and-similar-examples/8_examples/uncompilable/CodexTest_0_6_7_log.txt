@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_7.java:31: error: cannot find symbol
+        if (logger.isDebugEnabled()) {
+            ^
+  symbol:   variable logger
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:32: error: cannot find symbol
+            logger.debug("start setup");
+            ^
+  symbol:   variable logger
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:34: error: cannot find symbol
+        if (logger.isDebugEnabled()) {
+            ^
+  symbol:   variable logger
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:35: error: cannot find symbol
+            logger.debug("end setup");
+            ^
+  symbol:   variable logger
+  location: class CodexTest_0_6_7

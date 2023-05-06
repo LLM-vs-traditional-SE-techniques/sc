@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_9_1.java:30: error: <identifier> expected
+        strategies.add(new DynamicStrategy());
+                      ^
+CodexTest_0_9_1.java:30: error: illegal start of type
+        strategies.add(new DynamicStrategy());
+                       ^
+CodexTest_0_9_1.java:30: error: ')' expected
+        strategies.add(new DynamicStrategy());
+                          ^
+CodexTest_0_9_1.java:30: error: ';' expected
+        strategies.add(new DynamicStrategy());
+                                          ^
+CodexTest_0_9_1.java:30: error: illegal start of type
+        strategies.add(new DynamicStrategy());
+                                           ^
+CodexTest_0_9_1.java:30: error: <identifier> expected
+        strategies.add(new DynamicStrategy());
+                                            ^
+CodexTest_0_9_1.java:31: error: <identifier> expected
+        strategies.add(new DefaultStrategy());
+                      ^
+CodexTest_0_9_1.java:31: error: illegal start of type
+        strategies.add(new DefaultStrategy());
+                       ^
+CodexTest_0_9_1.java:31: error: ')' expected
+        strategies.add(new DefaultStrategy());
+                          ^
+CodexTest_0_9_1.java:31: error: ';' expected
+        strategies.add(new DefaultStrategy());
+                                          ^
+CodexTest_0_9_1.java:31: error: illegal start of type
+        strategies.add(new DefaultStrategy());
+                                           ^
+CodexTest_0_9_1.java:31: error: <identifier> expected
+        strategies.add(new DefaultStrategy());
+                                            ^

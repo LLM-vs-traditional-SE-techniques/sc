@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_34.java:25: error: cannot find symbol
+    byte[] dest = new byte[bits() / 8];
+                           ^
+  symbol:   method bits()
+  location: class CodexTest_0_9_34
+CodexTest_0_9_34.java:26: error: cannot find symbol
+    writeBytesTo(dest, 0, dest.length);
+    ^
+  symbol:   method writeBytesTo(byte[],int,int)
+  location: class CodexTest_0_9_34
+CodexTest_0_9_34.java:27: error: cannot find symbol
+    assertEquals(bits(), BitArray.fromBytes(dest).size());
+                 ^
+  symbol:   method bits()
+  location: class CodexTest_0_9_34
+CodexTest_0_9_34.java:27: error: cannot find symbol
+    assertEquals(bits(), BitArray.fromBytes(dest).size());
+                         ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_9_34
+CodexTest_0_9_34.java:28: error: cannot find symbol
+    assertTrue(BitArray.fromBytes(dest).countOnes() <= 1);
+               ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_9_34

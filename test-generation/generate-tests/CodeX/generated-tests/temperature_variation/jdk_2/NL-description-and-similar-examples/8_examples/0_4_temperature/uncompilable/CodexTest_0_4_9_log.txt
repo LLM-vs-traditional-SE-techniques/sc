@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_4_9.java:21: error: cannot find symbol
+        assertFalse(BooleanUtils.toBooleanObject(null).contains(null));
+                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:22: error: cannot find symbol
+        assertFalse(BooleanUtils.toBooleanObject(null).contains(Boolean.TRUE));
+                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:23: error: cannot find symbol
+        assertFalse(BooleanUtils.toBooleanObject(null).contains(Boolean.FALSE));
+                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:24: error: cannot find symbol
+        assertFalse(BooleanUtils.toBooleanObject(Boolean.TRUE).contains(null));
+                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:25: error: cannot find symbol
+        assertTrue(BooleanUtils.toBooleanObject(Boolean.TRUE).contains(Boolean.TRUE));
+                   ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:26: error: cannot find symbol
+        assertFalse(BooleanUtils.toBooleanObject(Boolean.TRUE).contains(Boolean.FALSE));
+                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:27: error: cannot find symbol
+        assertFalse(BooleanUtils.toBooleanObject(Boolean.FALSE).contains(null));
+                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:28: error: cannot find symbol
+        assertFalse(BooleanUtils.toBooleanObject(Boolean.FALSE).contains(Boolean.TRUE));
+                    ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_9
+CodexTest_0_4_9.java:29: error: cannot find symbol
+        assertTrue(BooleanUtils.toBooleanObject(Boolean.FALSE).contains(Boolean.FALSE));
+                   ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_9

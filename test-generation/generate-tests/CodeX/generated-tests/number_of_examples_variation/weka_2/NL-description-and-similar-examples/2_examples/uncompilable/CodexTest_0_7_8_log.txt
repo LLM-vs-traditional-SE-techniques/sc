@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_8.java:20: error: cannot find symbol
+      v.getAsInstance(m_Model, null);
+                      ^
+  symbol:   variable m_Model
+  location: class CodexTest_0_7_8

@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_8_74.java:31: error: cannot find symbol
+        DenseDoubleMatrix1D A1 = new DenseDoubleMatrix1D(3,3);
+        ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_74
+CodexTest_0_8_74.java:31: error: cannot find symbol
+        DenseDoubleMatrix1D A1 = new DenseDoubleMatrix1D(3,3);
+                                     ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_74
+CodexTest_0_8_74.java:32: error: cannot find symbol
+        DenseDoubleMatrix1D A2 = new DenseDoubleMatrix1D(3,3);
+        ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_74
+CodexTest_0_8_74.java:32: error: cannot find symbol
+        DenseDoubleMatrix1D A2 = new DenseDoubleMatrix1D(3,3);
+                                     ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_74
+CodexTest_0_8_74.java:33: error: cannot find symbol
+        DenseDoubleMatrix1D A3 = new DenseDoubleMatrix1D(3,3);
+        ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_74
+CodexTest_0_8_74.java:33: error: cannot find symbol
+        DenseDoubleMatrix1D A3 = new DenseDoubleMatrix1D(3,3);
+                                     ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_74
+CodexTest_0_8_74.java:34: error: cannot find symbol
+        DenseDoubleMatrix1D A4 = new DenseDoubleMatrix1D(3,3);
+        ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_74
+CodexTest_0_8_74.java:34: error: cannot find symbol
+        DenseDoubleMatrix1D A4 = new DenseDoubleMatrix1D(3,3);
+                                     ^
+  symbol:   class DenseDoubleMatrix1D
+  location: class CodexTest_0_8_74

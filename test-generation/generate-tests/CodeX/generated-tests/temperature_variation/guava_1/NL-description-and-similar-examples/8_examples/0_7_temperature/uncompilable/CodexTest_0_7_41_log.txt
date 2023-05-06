@@ -1,0 +1,100 @@
+isCompilable => false
+CodexTest_0_7_41.java:25: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:28: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:30: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:33: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:35: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:38: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:40: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:43: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:45: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:48: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:50: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:53: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:55: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:58: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:60: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:63: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:65: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:68: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:70: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:73: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:75: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:78: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:80: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:83: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:85: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:88: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:90: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:93: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:95: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:98: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_41.java:100: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_7_41.java:102: error: '(' or '[' expected
+}
+^
+CodexTest_0_7_41.java:102: error: reached end of file while parsing
+}
+ ^

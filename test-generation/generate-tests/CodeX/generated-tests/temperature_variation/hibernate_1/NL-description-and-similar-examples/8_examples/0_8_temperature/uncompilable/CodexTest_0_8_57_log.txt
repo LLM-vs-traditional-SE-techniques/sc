@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_57.java:16: error: cannot find symbol
+	    Entity e1 = new Entity();
+	    ^
+  symbol:   class Entity
+  location: class CodexTest_0_8_57
+CodexTest_0_8_57.java:16: error: cannot find symbol
+	    Entity e1 = new Entity();
+	                    ^
+  symbol:   class Entity
+  location: class CodexTest_0_8_57
+CodexTest_0_8_57.java:19: error: cannot find symbol
+	    Entity e2 = new Entity();
+	    ^
+  symbol:   class Entity
+  location: class CodexTest_0_8_57
+CodexTest_0_8_57.java:19: error: cannot find symbol
+	    Entity e2 = new Entity();
+	                    ^
+  symbol:   class Entity
+  location: class CodexTest_0_8_57

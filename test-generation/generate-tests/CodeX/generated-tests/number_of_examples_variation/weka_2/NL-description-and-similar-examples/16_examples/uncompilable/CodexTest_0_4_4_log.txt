@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_4.java:32: error: cannot find symbol
+      Instance newInst = inst.getAsInstance(model, new Random(0));
+                             ^
+  symbol:   method getAsInstance(weka.core.Instances,java.util.Random)
+  location: variable inst of type weka.core.SparseInstance

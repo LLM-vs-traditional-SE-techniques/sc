@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_3.java:66: error: cannot find symbol
+        DummyClass dummy = new DummyClass(parent);
+        ^
+  symbol:   class DummyClass
+  location: class CodexTest_0_5_3
+CodexTest_0_5_3.java:66: error: cannot find symbol
+        DummyClass dummy = new DummyClass(parent);
+                               ^
+  symbol:   class DummyClass
+  location: class CodexTest_0_5_3

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_97.java:22: error: cannot find symbol
+        Collection<String> collection = newArrayList(A, B);
+                                                     ^
+  symbol:   variable A
+  location: class CodexTest_0_9_97
+CodexTest_0_9_97.java:22: error: cannot find symbol
+        Collection<String> collection = newArrayList(A, B);
+                                                        ^
+  symbol:   variable B
+  location: class CodexTest_0_9_97
+CodexTest_0_9_97.java:24: error: cannot find symbol
+        boolean result = collection.contains(A);
+                                             ^
+  symbol:   variable A
+  location: class CodexTest_0_9_97

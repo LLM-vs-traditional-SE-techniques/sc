@@ -1,0 +1,122 @@
+isCompilable => false
+CodexTest_0_9_49.java:21: error: illegal character: '`'
+  }`
+   ^
+CodexTest_0_9_49.java:23: error: illegal start of type
+	cases := strings.Split(input, "Output:")
+	      ^
+CodexTest_0_9_49.java:23: error: ';' expected
+	cases := strings.Split(input, "Output:")
+	                                        ^
+CodexTest_0_9_49.java:24: warning: '_' used as an identifier
+	for _, testCase := range cases {
+	    ^
+  (use of '_' as an identifier might not be supported in releases after Java SE 8)
+CodexTest_0_9_49.java:24: error: <identifier> expected
+	for _, testCase := range cases {
+	     ^
+CodexTest_0_9_49.java:24: error: ';' expected
+	for _, testCase := range cases {
+	               ^
+CodexTest_0_9_49.java:24: error: ';' expected
+	for _, testCase := range cases {
+	                              ^
+CodexTest_0_9_49.java:25: error: '(' expected
+		if len(testCase) == 0 {
+		  ^
+CodexTest_0_9_49.java:25: error: ')' expected
+		if len(testCase) == 0 {
+		                     ^
+CodexTest_0_9_49.java:26: error: ';' expected
+			continue
+			        ^
+CodexTest_0_9_49.java:28: error: ';' expected
+		input = strings.Split(testCase, "Input:")[1]
+		                                            ^
+CodexTest_0_9_49.java:29: error: illegal start of expression
+		template := strings.Split(testCase, "Output:")[1]
+		          ^
+CodexTest_0_9_49.java:29: error: ';' expected
+		template := strings.Split(testCase, "Output:")[1]
+		                                                 ^
+CodexTest_0_9_49.java:31: error: not a statement
+		ast, err := gocommon.ParseString(strings.TrimSpace(input))
+		^
+CodexTest_0_9_49.java:31: error: ';' expected
+		ast, err := gocommon.ParseString(strings.TrimSpace(input))
+		   ^
+CodexTest_0_9_49.java:31: error: illegal start of expression
+		ast, err := gocommon.ParseString(strings.TrimSpace(input))
+		          ^
+CodexTest_0_9_49.java:31: error: ';' expected
+		ast, err := gocommon.ParseString(strings.TrimSpace(input))
+		                                                          ^
+CodexTest_0_9_49.java:32: error: '(' expected
+		if err != nil {
+		  ^
+CodexTest_0_9_49.java:32: error: ')' expected
+		if err != nil {
+		             ^
+CodexTest_0_9_49.java:33: error: ';' expected
+			log.Println(err)
+			                ^
+CodexTest_0_9_49.java:34: error: ';' expected
+			continue
+			        ^
+CodexTest_0_9_49.java:37: error: '(' expected
+		if method, ok := ast.(gocommon.Object).GetType().(*gocommon.MethodType); ok {
+		  ^
+CodexTest_0_9_49.java:37: error: ')' expected
+		if method, ok := ast.(gocommon.Object).GetType().(*gocommon.MethodType); ok {
+		         ^
+CodexTest_0_9_49.java:37: error: ';' expected
+		if method, ok := ast.(gocommon.Object).GetType().(*gocommon.MethodType); ok {
+		             ^
+CodexTest_0_9_49.java:37: error: variable declaration not allowed here
+		if method, ok := ast.(gocommon.Object).GetType().(*gocommon.MethodType); ok {
+		           ^
+CodexTest_0_9_49.java:37: error: <identifier> expected
+		if method, ok := ast.(gocommon.Object).GetType().(*gocommon.MethodType); ok {
+		                     ^
+CodexTest_0_9_49.java:37: error: <identifier> expected
+		if method, ok := ast.(gocommon.Object).GetType().(*gocommon.MethodType); ok {
+		                                                 ^
+CodexTest_0_9_49.java:37: error: illegal start of expression
+		if method, ok := ast.(gocommon.Object).GetType().(*gocommon.MethodType); ok {
+		                                                  ^
+CodexTest_0_9_49.java:37: error: not a statement
+		if method, ok := ast.(gocommon.Object).GetType().(*gocommon.MethodType); ok {
+		                                                                         ^
+CodexTest_0_9_49.java:37: error: ';' expected
+		if method, ok := ast.(gocommon.Object).GetType().(*gocommon.MethodType); ok {
+		                                                                           ^
+CodexTest_0_9_49.java:38: error: illegal start of expression
+			testData := gocommon.NewStubber(method).Showcase()
+			          ^
+CodexTest_0_9_49.java:38: error: ';' expected
+			testData := gocommon.NewStubber(method).Showcase()
+			                                                  ^
+CodexTest_0_9_49.java:39: error: illegal start of expression
+			testName := strings.Split(method.String(), "(")[0]
+			          ^
+CodexTest_0_9_49.java:39: error: ';' expected
+			testName := strings.Split(method.String(), "(")[0]
+			                                                  ^
+CodexTest_0_9_49.java:40: error: illegal start of expression
+			testClassName := "Test_" + method.GetPackage().Name()
+			               ^
+CodexTest_0_9_49.java:40: error: ';' expected
+			testClassName := "Test_" + method.GetPackage().Name()
+			                                                     ^
+CodexTest_0_9_49.java:41: error: illegal start of expression
+			actual := fmt.Sprintf("\nClass name: %s\n" +
+			        ^
+CodexTest_0_9_49.java:45: error: ';' expected
+				"public void %s() {\n%s}\n", testClassName, testName, input, testName, testData)
+				                                                                                ^
+CodexTest_0_9_49.java:47: error: ';' expected
+			assert.Equal(t, strings.TrimSpace(template), strings.TrimSpace(actual))
+			                                                                       ^
+CodexTest_0_9_49.java:51: error: class, interface, or enum expected
+}
+^

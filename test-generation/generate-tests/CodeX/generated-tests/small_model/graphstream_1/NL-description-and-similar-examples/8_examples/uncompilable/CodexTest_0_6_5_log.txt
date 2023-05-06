@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_6_5.java:20: error: cannot find symbol
+    AlgVector v = new AlgVector();
+    ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:20: error: cannot find symbol
+    AlgVector v = new AlgVector();
+                      ^
+  symbol:   class AlgVector
+  location: class CodexTest_0_6_5
+CodexTest_0_6_5.java:21: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    Edge e1 = new Edge("source", "target", "name");
+              ^
+CodexTest_0_6_5.java:22: error: org.graphstream.graph.Edge is abstract; cannot be instantiated
+    Edge e2 = new Edge("source2", "target2", "name2");
+              ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_1.java:65: error: cannot find symbol
+        assertEquals( "The parent is not the expected value", "I am the parent", new Parent().parent() );
+                                                                                     ^
+  symbol:   class Parent
+  location: class CodexTest_0_5_1

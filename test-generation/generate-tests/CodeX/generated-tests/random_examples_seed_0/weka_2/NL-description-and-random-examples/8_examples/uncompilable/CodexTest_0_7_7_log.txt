@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_7_7.java:18: error: weka.core.Instance is abstract; cannot be instantiated
+			Instance newInst = new Instance();
+			                   ^
+CodexTest_0_7_7.java:20: error: incompatible types: weka.core.Instance cannot be converted to double
+			DenseInstance dI = new DenseInstance(newInst, random);
+			                                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

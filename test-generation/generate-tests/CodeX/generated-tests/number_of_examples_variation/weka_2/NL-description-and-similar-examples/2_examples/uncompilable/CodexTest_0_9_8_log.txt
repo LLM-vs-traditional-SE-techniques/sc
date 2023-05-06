@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_8.java:41: error: illegal escape character
+		    "@relation null.null\
+		                         ^
+CodexTest_0_9_8.java:41: error: unclosed string literal
+		    "@relation null.null\
+		    ^
+CodexTest_0_9_8.java:42: error: reached end of file while parsing
+}
+ ^

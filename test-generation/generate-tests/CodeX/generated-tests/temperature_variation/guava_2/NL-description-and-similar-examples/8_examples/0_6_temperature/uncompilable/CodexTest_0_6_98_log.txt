@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_6_98.java:25: error: cannot find symbol
+    BitArray array = BitArray.fromHexString("abcd1234");
+    ^
+  symbol:   class BitArray
+  location: class CodexTest_0_6_98
+CodexTest_0_6_98.java:25: error: cannot find symbol
+    BitArray array = BitArray.fromHexString("abcd1234");
+                     ^
+  symbol:   variable BitArray
+  location: class CodexTest_0_6_98
+CodexTest_0_6_98.java:29: error: cannot find symbol
+        ByteBuffer.wrap(dest).getInt(),
+        ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_6_98
+CodexTest_0_6_98.java:30: error: cannot find symbol
+        ByteBuffer.wrap(new byte[] {(byte) 0xab, (byte) 0xcd, 0x12, 0x34}).getInt());
+        ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_6_98

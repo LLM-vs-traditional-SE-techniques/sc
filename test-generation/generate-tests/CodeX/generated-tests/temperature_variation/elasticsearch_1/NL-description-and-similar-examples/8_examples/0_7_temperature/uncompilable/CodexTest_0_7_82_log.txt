@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_7_82.java:65: error: cannot find symbol
+        SearchResponse searchResponse = new SearchResponse();
+        ^
+  symbol:   class SearchResponse
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:65: error: cannot find symbol
+        SearchResponse searchResponse = new SearchResponse();
+                                            ^
+  symbol:   class SearchResponse
+  location: class CodexTest_0_7_82
+CodexTest_0_7_82.java:68: error: cannot find symbol
+        searchResponse.toXContent(builder, ToXContent.EMPTY_PARAMS);
+                                           ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_7_82

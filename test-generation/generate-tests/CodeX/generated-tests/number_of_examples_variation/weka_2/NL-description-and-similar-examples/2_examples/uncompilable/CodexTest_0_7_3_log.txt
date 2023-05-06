@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_3.java:19: error: cannot find symbol
+         Instances data = new Instances(m_Data, 0);
+                                        ^
+  symbol:   variable m_Data
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:21: error: cannot find symbol
+         AlgVector v = m_Alg.getAsVector(data.firstInstance());
+                       ^
+  symbol:   variable m_Alg
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:23: error: cannot find symbol
+         Instance inst = v.getAsInstance(data, m_Random);
+                                               ^
+  symbol:   variable m_Random
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:24: error: cannot find symbol
+         assertEquals("Datatype not equal", v.getAsInstance(data, m_Random).dataset(), data);
+                                                                  ^
+  symbol:   variable m_Random
+  location: class CodexTest_0_7_3

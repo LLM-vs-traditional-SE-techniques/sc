@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_8.java:24: error: illegal start of type
+"""
+^
+CodexTest_0_7_8.java:24: error: unclosed string literal
+"""
+  ^

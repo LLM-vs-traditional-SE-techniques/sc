@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_6.java:30: error: unclosed comment
+    /*public void testNull() {
+    ^
+CodexTest_0_9_6.java:35: error: reached end of file while parsing
+}
+ ^

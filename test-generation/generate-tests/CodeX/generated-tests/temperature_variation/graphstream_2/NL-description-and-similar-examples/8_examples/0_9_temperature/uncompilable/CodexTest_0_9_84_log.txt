@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_84.java:20: error: cannot find symbol
+         Path.SubgraphPath p = new Path().add("P","Q").augment("R");
+             ^
+  symbol:   class SubgraphPath
+  location: class org.graphstream.graph.Path
+CodexTest_0_9_84.java:20: error: incompatible types: java.lang.String cannot be converted to org.graphstream.graph.Node
+         Path.SubgraphPath p = new Path().add("P","Q").augment("R");
+                                              ^
+CodexTest_0_9_84.java:22: error: incompatible types: java.lang.String cannot be converted to org.graphstream.graph.Node
+         assertNotEquals(p, new Path().add("P","R"));
+                                           ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

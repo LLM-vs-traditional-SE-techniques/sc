@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_3_4.java:56: error: <identifier> expected
+        list.
+             ^
+CodexTest_0_3_4.java:56: error: not a statement
+        list.
+            ^
+CodexTest_0_3_4.java:57: error: reached end of file while parsing
+}
+ ^

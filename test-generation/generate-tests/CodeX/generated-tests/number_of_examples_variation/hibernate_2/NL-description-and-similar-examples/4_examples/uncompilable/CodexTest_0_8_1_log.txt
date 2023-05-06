@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_1.java:23: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_8_1.java:26: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_1.java:35: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_8_1.java:38: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_1.java:47: error: <identifier> expected
+Input: public Boolean fromString(String string) {
+     ^
+CodexTest_0_8_1.java:50: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_8_1.java:59: error: illegal start of type
+*/
+^
+CodexTest_0_8_1.java:59: error: ';' expected
+*/
+ ^
+CodexTest_0_8_1.java:78: error: ';' expected
+  private void launch(final String[] args)
+                                          ^
+CodexTest_0_8_1.java:79: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_63.java:16: error: cannot find symbol
+        assertFalse(GWT.isClient);
+                       ^
+  symbol:   variable isClient
+  location: class com.google.gwt.core.client.GWT

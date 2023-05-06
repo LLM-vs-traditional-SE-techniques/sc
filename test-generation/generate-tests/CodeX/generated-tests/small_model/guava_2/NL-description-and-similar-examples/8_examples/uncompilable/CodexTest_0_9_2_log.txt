@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_2.java:25: error: cannot find symbol
+    ArrayUtils.copy(data, 0, m_Elements, 0, m_Size);
+                             ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:25: error: cannot find symbol
+    ArrayUtils.copy(data, 0, m_Elements, 0, m_Size);
+                                            ^
+  symbol:   variable m_Size
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:25: error: cannot find symbol
+    ArrayUtils.copy(data, 0, m_Elements, 0, m_Size);
+    ^
+  symbol:   variable ArrayUtils
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:26: error: cannot find symbol
+    for ( int i = m_Size; i < m_Elements.length; i++ )
+                  ^
+  symbol:   variable m_Size
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:26: error: cannot find symbol
+    for ( int i = m_Size; i < m_Elements.length; i++ )
+                              ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_9_2
+CodexTest_0_9_2.java:27: error: cannot find symbol
+      m_Elements[i] = 0.0;
+      ^
+  symbol:   variable m_Elements
+  location: class CodexTest_0_9_2

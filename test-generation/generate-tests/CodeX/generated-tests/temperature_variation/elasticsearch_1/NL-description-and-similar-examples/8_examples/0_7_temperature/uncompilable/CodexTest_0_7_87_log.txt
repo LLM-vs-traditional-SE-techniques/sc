@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_7_87.java:65: error: cannot find symbol
+        String actual = new String().parent();
+                                    ^
+  symbol:   method parent()
+  location: class java.lang.String
+CodexTest_0_7_87.java:66: error: cannot find symbol
+        String expected = this.parent;
+                              ^
+  symbol: variable parent

@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_8_11.java:21: error: cannot find symbol
+            list.add("1");
+            ^
+  symbol:   variable list
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:22: error: cannot find symbol
+            list.add("2");
+            ^
+  symbol:   variable list
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:23: error: cannot find symbol
+            list.add("3");
+            ^
+  symbol:   variable list
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:24: error: cannot find symbol
+            Assert.assertEquals("2", list.remove(1));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:25: error: cannot find symbol
+            Assert.assertEquals(2, list.size());
+                                   ^
+  symbol:   variable list
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:26: error: cannot find symbol
+            Assert.assertEquals("1", list.get(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_8_11
+CodexTest_0_8_11.java:27: error: cannot find symbol
+            Assert.assertEquals("3", list.get(1));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_8_11

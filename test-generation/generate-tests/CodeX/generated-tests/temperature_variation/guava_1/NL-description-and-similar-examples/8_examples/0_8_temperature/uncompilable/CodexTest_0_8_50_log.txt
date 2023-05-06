@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_50.java:26: error: cannot find symbol
+        Hashing.md5().hashString(secret, Charsets.US_ASCII).toString());
+                                 ^
+  symbol:   variable secret
+  location: class CodexTest_0_8_50

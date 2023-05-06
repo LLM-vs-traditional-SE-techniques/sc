@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_35.java:18: error: cannot find symbol
+        Instances instances = new Instances(this.dataset, 2);
+                                                ^
+  symbol: variable dataset
+CodexTest_0_7_35.java:19: error: cannot find symbol
+        instances.add(this.instance1);
+                          ^
+  symbol: variable instance1
+CodexTest_0_7_35.java:20: error: cannot find symbol
+        instances.add(this.instance2);
+                          ^
+  symbol: variable instance2
+CodexTest_0_7_35.java:23: error: cannot find symbol
+            newInst = this.instance3.getAsInstance(instances, this.random);
+                                                                  ^
+  symbol: variable random
+CodexTest_0_7_35.java:23: error: cannot find symbol
+            newInst = this.instance3.getAsInstance(instances, this.random);
+                          ^
+  symbol: variable instance3

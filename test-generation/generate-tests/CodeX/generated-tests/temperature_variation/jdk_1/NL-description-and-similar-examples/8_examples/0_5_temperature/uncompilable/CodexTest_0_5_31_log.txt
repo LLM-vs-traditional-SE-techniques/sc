@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_31.java:21: error: cannot find symbol
+        int size = list.size();
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_5_31
+CodexTest_0_5_31.java:22: error: cannot find symbol
+        Object o = list.remove(0);
+                   ^
+  symbol:   variable list
+  location: class CodexTest_0_5_31
+CodexTest_0_5_31.java:23: error: cannot find symbol
+        assertEquals(size-1, list.size());
+                             ^
+  symbol:   variable list
+  location: class CodexTest_0_5_31
+CodexTest_0_5_31.java:24: error: cannot find symbol
+        assertFalse(list.contains(o));
+                    ^
+  symbol:   variable list
+  location: class CodexTest_0_5_31

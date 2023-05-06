@@ -1,0 +1,36 @@
+isCompilable => false
+CodexTest_0_4_1.java:16: error: cannot find symbol
+        assertEquals(0, NumberUtils.toShort(Boolean.FALSE));
+                        ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:17: error: cannot find symbol
+        assertEquals(1, NumberUtils.toShort(Boolean.TRUE));
+                        ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:18: error: cannot find symbol
+        assertEquals(0, NumberUtils.toShort("false"));
+                        ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:19: error: cannot find symbol
+        assertEquals(1, NumberUtils.toShort("true"));
+                        ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:20: error: cannot find symbol
+        assertEquals(1, NumberUtils.toShort("on"));
+                        ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:21: error: cannot find symbol
+        assertEquals(0, NumberUtils.toShort("off"));
+                        ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:22: error: cannot find symbol
+        assertEquals(0, NumberUtils.toShort("foo"));
+                        ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_4_1

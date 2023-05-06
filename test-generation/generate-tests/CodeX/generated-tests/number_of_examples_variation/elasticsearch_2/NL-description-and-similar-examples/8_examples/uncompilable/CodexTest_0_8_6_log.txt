@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_8_6.java:65: error: <identifier> expected
+Method: public IndexRequest source(Map source, XContentType contentType) throws ElasticsearchGenerationException {
+      ^
+CodexTest_0_8_6.java:74: error: <identifier> expected
+Input: public void addClass(String className) {
+     ^
+CodexTest_0_8_6.java:77: error: <identifier> expected
+Output: public void testAddClass() {
+      ^

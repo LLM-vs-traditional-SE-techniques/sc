@@ -1,0 +1,5 @@
+isCompilable => false
+CodexTest_0_5_1.java:33: error: reference to assign is ambiguous
+        underTest.assign(null);
+                 ^
+  both method assign(cern.colt.function.DoubleFunction) in cern.colt.matrix.DoubleMatrix1D and method assign(cern.colt.matrix.DoubleMatrix1D) in cern.colt.matrix.DoubleMatrix1D match

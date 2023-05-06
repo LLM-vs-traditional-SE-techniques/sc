@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_6_60.java:21: error: cannot find symbol
+        boolean result = underTest.contains(new Object());
+                         ^
+  symbol:   variable underTest
+  location: class CodexTest_0_6_60

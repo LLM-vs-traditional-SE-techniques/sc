@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_4_3.java:25: error: <identifier> expected
+    assertEquals(m_Elements[0], new
+                                   ^
+CodexTest_0_4_3.java:26: error: '(' or '[' expected
+}
+^
+CodexTest_0_4_3.java:26: error: reached end of file while parsing
+}
+ ^

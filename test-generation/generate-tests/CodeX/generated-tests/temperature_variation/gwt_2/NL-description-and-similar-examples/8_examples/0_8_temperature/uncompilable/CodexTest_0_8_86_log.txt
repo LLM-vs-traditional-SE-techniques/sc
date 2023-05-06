@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_8_86.java:15: error: cannot find symbol
+  	FocusPanel focusPanel;
+  	^
+  symbol:   class FocusPanel
+  location: class CodexTest_0_8_86
+CodexTest_0_8_86.java:14: error: cannot find symbol
+    @UiField
+     ^
+  symbol:   class UiField
+  location: class CodexTest_0_8_86
+CodexTest_0_8_86.java:13: error: annotation type not applicable to this kind of declaration
+  @Test
+  ^

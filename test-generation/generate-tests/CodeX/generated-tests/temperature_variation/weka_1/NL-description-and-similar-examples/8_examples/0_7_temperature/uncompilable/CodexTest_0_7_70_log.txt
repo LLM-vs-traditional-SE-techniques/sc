@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_70.java:39: error: cannot find symbol
+    v1.addSelf(v2);
+      ^
+  symbol:   method addSelf(weka.core.AlgVector)
+  location: variable v1 of type weka.core.AlgVector

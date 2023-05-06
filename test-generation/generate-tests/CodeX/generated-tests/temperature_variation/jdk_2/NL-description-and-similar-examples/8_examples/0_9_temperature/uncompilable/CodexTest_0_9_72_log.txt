@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_72.java:24: error: cannot find symbol
+        boolean result = ArrayUtilsEx.contains(array, 7);
+                         ^
+  symbol:   variable ArrayUtilsEx
+  location: class CodexTest_0_9_72

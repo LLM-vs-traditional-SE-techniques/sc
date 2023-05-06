@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_5_5.java:27: error: writeBytesToImpl(byte[],int,int) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+    hashCode.writeBytesToImpl(bytes, 0, bytes.length);
+            ^
+CodexTest_0_5_5.java:28: error: fromBytesNoCopy(byte[]) is not public in com.google.common.hash.HashCode; cannot be accessed from outside package
+    assertEquals(hashCode, HashCode.fromBytesNoCopy(bytes));
+                                   ^

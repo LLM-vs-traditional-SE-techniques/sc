@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_24.java:31: error: cannot find symbol
+		DoubleMatrix2D matrix1 = factory.make(testData);
+		                                      ^
+  symbol:   variable testData
+  location: class CodexTest_0_9_24
+CodexTest_0_9_24.java:31: error: cannot find symbol
+		DoubleMatrix2D matrix1 = factory.make(testData);
+		                         ^
+  symbol:   variable factory
+  location: class CodexTest_0_9_24
+CodexTest_0_9_24.java:32: error: cannot find symbol
+		DoubleMatrix2D matrix2 = factory.make(testData, 4);
+		                                      ^
+  symbol:   variable testData
+  location: class CodexTest_0_9_24
+CodexTest_0_9_24.java:32: error: cannot find symbol
+		DoubleMatrix2D matrix2 = factory.make(testData, 4);
+		                         ^
+  symbol:   variable factory
+  location: class CodexTest_0_9_24
+CodexTest_0_9_24.java:35: error: cannot find symbol
+				TestUtils.assertEquals("matrix2[" + r + "][" + c + "]", matrix1.get(r,c), matrix2.get(r,c), normTolerance);
+				                                                                                            ^
+  symbol:   variable normTolerance
+  location: class CodexTest_0_9_24
+CodexTest_0_9_24.java:35: error: cannot find symbol
+				TestUtils.assertEquals("matrix2[" + r + "][" + c + "]", matrix1.get(r,c), matrix2.get(r,c), normTolerance);
+				^
+  symbol:   variable TestUtils
+  location: class CodexTest_0_9_24

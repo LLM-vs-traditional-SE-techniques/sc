@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_5.java:24: error: cannot find symbol
+  public static void testReadStream() throws IOException {
+                                             ^
+  symbol:   class IOException
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:25: error: cannot find symbol
+		  InputStream inputStream = new FileInputStream("/Users/admin/IdeaProjects/FlatSpec/src/FileHelperTest/com.example.FlatSpec/build.gradle");
+		  ^
+  symbol:   class InputStream
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:25: error: cannot find symbol
+		  InputStream inputStream = new FileInputStream("/Users/admin/IdeaProjects/FlatSpec/src/FileHelperTest/com.example.FlatSpec/build.gradle");
+		                                ^
+  symbol:   class FileInputStream
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:27: error: cannot find symbol
+		  File tmpFile = File.createTempFile("test", ".txt");
+		  ^
+  symbol:   class File
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:27: error: cannot find symbol
+		  File tmpFile = File.createTempFile("test", ".txt");
+		                 ^
+  symbol:   variable File
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:29: error: cannot find symbol
+		  FileOutputStream fos = new FileOutputStream(tmpFile);
+		  ^
+  symbol:   class FileOutputStream
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:29: error: cannot find symbol
+		  FileOutputStream fos = new FileOutputStream(tmpFile);
+		                             ^
+  symbol:   class FileOutputStream
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:36: error: cannot find symbol
+		  FileHelper.readStream(new PathSpec(tmpFile.getAbsolutePath()));
+		                            ^
+  symbol:   class PathSpec
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:36: error: cannot find symbol
+		  FileHelper.readStream(new PathSpec(tmpFile.getAbsolutePath()));
+		  ^
+  symbol:   variable FileHelper
+  location: class CodexTest_0_9_5

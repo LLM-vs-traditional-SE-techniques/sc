@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_5_8.java:36: error: cannot find symbol
+      m.assign(v, Functions.mult);
+                  ^
+  symbol:   variable Functions
+  location: class CodexTest_0_5_8
+CodexTest_0_5_8.java:37: error: cannot find symbol
+      m2.assign(v2, Functions.mult);
+                    ^
+  symbol:   variable Functions
+  location: class CodexTest_0_5_8

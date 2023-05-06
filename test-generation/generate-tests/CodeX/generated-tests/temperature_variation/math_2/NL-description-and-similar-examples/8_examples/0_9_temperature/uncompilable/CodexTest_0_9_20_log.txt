@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_20.java:40: error: cannot find symbol
+        Assert.assertEquals(1.0, v.getNorm2() - 5, 1.0e-15);
+                                  ^
+  symbol:   method getNorm2()
+  location: variable v of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D
+CodexTest_0_9_20.java:45: error: cannot find symbol
+        Vector1D v2 = v1.build(Double.valueOf(43));
+                        ^
+  symbol:   method build(java.lang.Double)
+  location: variable v1 of type org.apache.commons.math3.geometry.euclidean.oned.Vector1D

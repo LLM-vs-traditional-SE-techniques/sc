@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_6.java:26: error: cannot find symbol
+                Lists.newArrayList(0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0)).toByteArray();
+                ^
+  symbol:   variable Lists
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:25: error: cannot find symbol
+        byte[] bytes = ImmutableBitArray.of(
+                       ^
+  symbol:   variable ImmutableBitArray
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:27: error: cannot find symbol
+        ImmutableBitArray bitArray = ImmutableBitArray.from(bytes);
+        ^
+  symbol:   class ImmutableBitArray
+  location: class CodexTest_0_8_6
+CodexTest_0_8_6.java:27: error: cannot find symbol
+        ImmutableBitArray bitArray = ImmutableBitArray.from(bytes);
+                                     ^
+  symbol:   variable ImmutableBitArray
+  location: class CodexTest_0_8_6

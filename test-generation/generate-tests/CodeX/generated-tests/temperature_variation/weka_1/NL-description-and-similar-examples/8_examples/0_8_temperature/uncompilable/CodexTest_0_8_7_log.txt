@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_7.java:21: error: cannot find symbol
+		AlgVector v0 = createAlgVector(d0);
+		               ^
+  symbol:   method createAlgVector(double[])
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:22: error: cannot find symbol
+		AlgVector v1 = createAlgVector(d1);
+		               ^
+  symbol:   method createAlgVector(double[])
+  location: class CodexTest_0_8_7
+CodexTest_0_8_7.java:24: error: cannot find symbol
+		assertTrue(Arrays.equals(d2, v2.getArray()));
+		                               ^
+  symbol:   method getArray()
+  location: variable v2 of type weka.core.AlgVector
+CodexTest_0_8_7.java:24: error: cannot find symbol
+		assertTrue(Arrays.equals(d2, v2.getArray()));
+		           ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_8_7

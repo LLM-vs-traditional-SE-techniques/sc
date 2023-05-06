@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_1.java:65: error: cannot find symbol
+        QueryBuilder queryBuilder = QueryBuilders.hasParentQuery("blog", QueryBuilders.termQuery("tag", "something"));
+        ^
+  symbol:   class QueryBuilder
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:65: error: cannot find symbol
+        QueryBuilder queryBuilder = QueryBuilders.hasParentQuery("blog", QueryBuilders.termQuery("tag", "something"));
+                                                                         ^
+  symbol:   variable QueryBuilders
+  location: class CodexTest_0_4_1
+CodexTest_0_4_1.java:65: error: cannot find symbol
+        QueryBuilder queryBuilder = QueryBuilders.hasParentQuery("blog", QueryBuilders.termQuery("tag", "something"));
+                                    ^
+  symbol:   variable QueryBuilders
+  location: class CodexTest_0_4_1

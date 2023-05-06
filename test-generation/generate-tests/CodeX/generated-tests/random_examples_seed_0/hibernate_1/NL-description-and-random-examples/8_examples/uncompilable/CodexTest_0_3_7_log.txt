@@ -1,0 +1,56 @@
+isCompilable => false
+CodexTest_0_3_7.java:16: error: cannot find symbol
+		assertEquals(0, NumberUtils.toShort(Boolean.FALSE));
+		                ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_3_7
+CodexTest_0_3_7.java:17: error: cannot find symbol
+		assertEquals(1, NumberUtils.toShort(Boolean.TRUE));
+		                ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_3_7
+CodexTest_0_3_7.java:18: error: cannot find symbol
+		assertEquals(0, NumberUtils.toShort((Object) null));
+		                ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_3_7
+CodexTest_0_3_7.java:19: error: cannot find symbol
+		assertEquals(1, NumberUtils.toShort("true"));
+		                ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_3_7
+CodexTest_0_3_7.java:20: error: cannot find symbol
+		assertEquals(0, NumberUtils.toShort("false"));
+		                ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_3_7
+CodexTest_0_3_7.java:21: error: cannot find symbol
+		assertEquals(1, NumberUtils.toShort("on"));
+		                ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_3_7
+CodexTest_0_3_7.java:22: error: cannot find symbol
+		assertEquals(0, NumberUtils.toShort("off"));
+		                ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_3_7
+CodexTest_0_3_7.java:23: error: cannot find symbol
+		assertEquals(1, NumberUtils.toShort("yes"));
+		                ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_3_7
+CodexTest_0_3_7.java:24: error: cannot find symbol
+		assertEquals(0, NumberUtils.toShort("no"));
+		                ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_3_7
+CodexTest_0_3_7.java:25: error: cannot find symbol
+		assertEquals(0, NumberUtils.toShort(""));
+		                ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_3_7
+CodexTest_0_3_7.java:26: error: cannot find symbol
+		assertEquals(0, NumberUtils.toShort("bogus"));
+		                ^
+  symbol:   variable NumberUtils
+  location: class CodexTest_0_3_7

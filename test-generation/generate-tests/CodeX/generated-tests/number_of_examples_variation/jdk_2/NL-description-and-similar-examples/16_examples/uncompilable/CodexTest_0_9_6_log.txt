@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_6.java:21: error: cannot find symbol
+        ClassCollection classCollection = createClassCollection();
+        ^
+  symbol:   class ClassCollection
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:21: error: cannot find symbol
+        ClassCollection classCollection = createClassCollection();
+                                          ^
+  symbol:   method createClassCollection()
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:22: error: cannot find symbol
+        Class<ClassCollectionTest> testClass = ClassCollectionTest.class;
+              ^
+  symbol:   class ClassCollectionTest
+  location: class CodexTest_0_9_6
+CodexTest_0_9_6.java:22: error: cannot find symbol
+        Class<ClassCollectionTest> testClass = ClassCollectionTest.class;
+                                               ^
+  symbol:   class ClassCollectionTest
+  location: class CodexTest_0_9_6

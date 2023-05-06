@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_9_83.java:21: error: cannot find symbol
+        List<Edge> edges = new ArrayList<>();
+                               ^
+  symbol:   class ArrayList
+  location: class CodexTest_0_9_83
+CodexTest_0_9_83.java:22: error: cannot find symbol
+        Edge edge1 = new DefaultEdge("1");
+                         ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_9_83
+CodexTest_0_9_83.java:23: error: cannot find symbol
+        Edge edge2 = new Edge.Builder("2").build();
+                             ^
+  symbol:   class Builder
+  location: interface org.graphstream.graph.Edge
+CodexTest_0_9_83.java:24: error: cannot find symbol
+        Edge edge3 = new DefaultEdge("3");
+                         ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_9_83
+CodexTest_0_9_83.java:28: error: cannot find symbol
+        HashSet<Edge> edgePath = new HashSet<>();
+        ^
+  symbol:   class HashSet
+  location: class CodexTest_0_9_83
+CodexTest_0_9_83.java:28: error: cannot find symbol
+        HashSet<Edge> edgePath = new HashSet<>();
+                                     ^
+  symbol:   class HashSet
+  location: class CodexTest_0_9_83

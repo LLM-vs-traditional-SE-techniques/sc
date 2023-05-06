@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_35.java:23: error: cannot find symbol
+        v1.addToElement(0, 1);
+          ^
+  symbol:   method addToElement(int,int)
+  location: variable v1 of type weka.core.AlgVector

@@ -1,0 +1,46 @@
+isCompilable => false
+CodexTest_0_9_21.java:30: error: cannot find symbol
+        IntBuffer v1 = IntBuffer.allocate(3);
+        ^
+  symbol:   class IntBuffer
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:30: error: cannot find symbol
+        IntBuffer v1 = IntBuffer.allocate(3);
+                       ^
+  symbol:   variable IntBuffer
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:34: error: cannot find symbol
+        IntBuffer v2 = IntBuffer.allocate(3);
+        ^
+  symbol:   class IntBuffer
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:34: error: cannot find symbol
+        IntBuffer v2 = IntBuffer.allocate(3);
+                       ^
+  symbol:   variable IntBuffer
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:38: error: cannot find symbol
+        RealVector v1d = new ArrayRealVector(v1.array());
+        ^
+  symbol:   class RealVector
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:38: error: cannot find symbol
+        RealVector v1d = new ArrayRealVector(v1.array());
+                             ^
+  symbol:   class ArrayRealVector
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:39: error: cannot find symbol
+        RealVector v2d = new ArrayRealVector(v2.array());
+        ^
+  symbol:   class RealVector
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:39: error: cannot find symbol
+        RealVector v2d = new ArrayRealVector(v2.array());
+                             ^
+  symbol:   class ArrayRealVector
+  location: class CodexTest_0_9_21
+CodexTest_0_9_21.java:40: error: cannot find symbol
+        RealMatrix m = v1d.outerProduct(v2d);
+        ^
+  symbol:   class RealMatrix
+  location: class CodexTest_0_9_21

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_57.java:17: error: cannot find symbol
+    sUncaughtExceptionHandler.handle(key, value);
+    ^
+  symbol:   variable sUncaughtExceptionHandler
+  location: class CodexTest_0_9_57
+CodexTest_0_9_57.java:18: error: cannot find symbol
+    assertEquals(value, sUncaughtExceptionHandler.get(key));
+                        ^
+  symbol:   variable sUncaughtExceptionHandler
+  location: class CodexTest_0_9_57

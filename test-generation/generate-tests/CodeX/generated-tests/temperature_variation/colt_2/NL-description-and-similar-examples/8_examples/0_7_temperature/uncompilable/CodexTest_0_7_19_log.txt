@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_7_19.java:30: error: cern.colt.matrix.DoubleMatrix1D is abstract; cannot be instantiated
+        assertEquals(new DenseDoubleMatrix2D(0,0), new DoubleMatrix1D(new double[0]).like2D(0,0));
+                                                   ^
+CodexTest_0_7_19.java:31: error: cern.colt.matrix.DoubleMatrix1D is abstract; cannot be instantiated
+        assertEquals(new DenseDoubleMatrix2D(1,1), new DoubleMatrix1D(new double[1]).like2D(1,1));
+                                                   ^
+CodexTest_0_7_19.java:32: error: cern.colt.matrix.DoubleMatrix1D is abstract; cannot be instantiated
+        assertEquals(new DenseDoubleMatrix2D(2,2), new DoubleMatrix1D(new double[2]).like2D(2,2));
+                                                   ^
+CodexTest_0_7_19.java:33: error: cern.colt.matrix.DoubleMatrix1D is abstract; cannot be instantiated
+        assertEquals(new DenseDoubleMatrix2D(3,3), new DoubleMatrix1D(new double[3]).like2D(3,3));
+                                                   ^

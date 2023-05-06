@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_10.java:26: error: cannot find symbol
+        A a = new A(5);
+        ^
+  symbol:   class A
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:26: error: cannot find symbol
+        A a = new A(5);
+                  ^
+  symbol:   class A
+  location: class CodexTest_0_8_10

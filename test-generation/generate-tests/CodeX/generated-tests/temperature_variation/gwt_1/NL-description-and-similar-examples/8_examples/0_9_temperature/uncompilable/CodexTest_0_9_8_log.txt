@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_8.java:17: error: cannot find symbol
+    assertFalse("Expected false but got " + GWT.isServer(), GWT.isServer());
+                                               ^
+  symbol:   method isServer()
+  location: class com.google.gwt.core.client.GWT
+CodexTest_0_9_8.java:17: error: cannot find symbol
+    assertFalse("Expected false but got " + GWT.isServer(), GWT.isServer());
+                                                               ^
+  symbol:   method isServer()
+  location: class com.google.gwt.core.client.GWT

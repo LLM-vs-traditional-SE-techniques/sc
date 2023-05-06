@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_44.java:33: error: cannot find symbol
+		b.assign(F.square);
+		         ^
+  symbol:   variable F
+  location: class CodexTest_0_7_44

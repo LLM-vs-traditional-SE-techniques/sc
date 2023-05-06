@@ -1,0 +1,47 @@
+isCompilable => false
+CodexTest_0_9_9.java:29: error: cannot find symbol
+            if (edges.size() != p.edges.size())
+                ^
+  symbol:   variable edges
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:29: error: cannot find symbol
+            if (edges.size() != p.edges.size())
+                                 ^
+  symbol:   variable edges
+  location: variable p of type org.graphstream.graph.Path
+CodexTest_0_9_9.java:31: error: cannot find symbol
+            if (nodes.size() != p.nodes.size())
+                ^
+  symbol:   variable nodes
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:31: error: cannot find symbol
+            if (nodes.size() != p.nodes.size())
+                                 ^
+  symbol:   variable nodes
+  location: variable p of type org.graphstream.graph.Path
+CodexTest_0_9_9.java:33: error: cannot find symbol
+            for (int i = 0; i < this.edges.size(); i++) {
+                                    ^
+  symbol: variable edges
+CodexTest_0_9_9.java:34: error: cannot find symbol
+                Edge e1 = this.edges.get(i);
+                              ^
+  symbol: variable edges
+CodexTest_0_9_9.java:35: error: cannot find symbol
+                Edge e2 = p.edges.get(i);
+                           ^
+  symbol:   variable edges
+  location: variable p of type org.graphstream.graph.Path
+CodexTest_0_9_9.java:39: error: cannot find symbol
+            for (int i = 0; i < this.nodes.size(); i++) {
+                                    ^
+  symbol: variable nodes
+CodexTest_0_9_9.java:40: error: cannot find symbol
+                Node n1 = this.nodes.get(i);
+                              ^
+  symbol: variable nodes
+CodexTest_0_9_9.java:41: error: cannot find symbol
+                Node n2 = p.nodes.get(i);
+                           ^
+  symbol:   variable nodes
+  location: variable p of type org.graphstream.graph.Path

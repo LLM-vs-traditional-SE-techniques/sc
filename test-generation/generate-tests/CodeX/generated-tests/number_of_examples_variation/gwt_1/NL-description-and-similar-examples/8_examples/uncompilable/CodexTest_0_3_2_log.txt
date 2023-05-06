@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_2.java:18: error: cannot find symbol
+      RootPanel rootPanel = RootPanel.get();
+      ^
+  symbol:   class RootPanel
+  location: class CodexTest_0_3_2
+CodexTest_0_3_2.java:18: error: cannot find symbol
+      RootPanel rootPanel = RootPanel.get();
+                            ^
+  symbol:   variable RootPanel
+  location: class CodexTest_0_3_2

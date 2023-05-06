@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_1.java:26: error: cannot find symbol
+    String encoded = Base64.encodeBase64String(input.getBytes());
+                     ^
+  symbol:   variable Base64
+  location: class CodexTest_0_5_1

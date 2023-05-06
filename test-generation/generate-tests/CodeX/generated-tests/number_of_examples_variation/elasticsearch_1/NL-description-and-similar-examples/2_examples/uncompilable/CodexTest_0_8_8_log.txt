@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_8.java:65: error: cannot find symbol
+            assertNull(new StringBuilder().parent());
+                                          ^
+  symbol:   method parent()
+  location: class java.lang.StringBuilder
+CodexTest_0_8_8.java:68: error: cannot find symbol
+			assertNotNull(new StringBuilder(new StringBuilder()).parent());
+			                                                    ^
+  symbol:   method parent()
+  location: class java.lang.StringBuilder
+CodexTest_0_8_8.java:71: error: cannot find symbol
+			assertNull(new StringBuilder(new StringBuilder()).parent());
+			                                                 ^
+  symbol:   method parent()
+  location: class java.lang.StringBuilder

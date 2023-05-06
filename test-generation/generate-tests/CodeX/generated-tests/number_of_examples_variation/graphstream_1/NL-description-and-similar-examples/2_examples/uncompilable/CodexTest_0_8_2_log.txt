@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_2.java:20: error: cannot find symbol
+		assertTrue(edgePath.contains(new DefaultEdge("abc")));
+		                                 ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:20: error: cannot find symbol
+		assertTrue(edgePath.contains(new DefaultEdge("abc")));
+		           ^
+  symbol:   variable edgePath
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:21: error: cannot find symbol
+		assertFalse(edgePath.contains(new DefaultEdge("ef")));
+		                                  ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_2
+CodexTest_0_8_2.java:21: error: cannot find symbol
+		assertFalse(edgePath.contains(new DefaultEdge("ef")));
+		            ^
+  symbol:   variable edgePath
+  location: class CodexTest_0_8_2

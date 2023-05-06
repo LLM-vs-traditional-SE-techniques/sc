@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_6.java:91: error: <identifier> expected
+Input: public Boolean contains(Character value) {
+     ^
+CodexTest_0_8_6.java:94: error: <identifier> expected
+Output: public void testAnd() {
+      ^

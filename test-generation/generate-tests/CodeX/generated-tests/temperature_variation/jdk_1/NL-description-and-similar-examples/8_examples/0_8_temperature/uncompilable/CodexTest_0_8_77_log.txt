@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_77.java:21: error: cannot find symbol
+        Vector<String> v = vectorFromArray(new String[] { "a", "b", "c", "d" });
+                           ^
+  symbol:   method vectorFromArray(java.lang.String[])
+  location: class CodexTest_0_8_77
+CodexTest_0_8_77.java:23: error: cannot find symbol
+        checkVectorFromArray(v, "a", "b", "d");
+        ^
+  symbol:   method checkVectorFromArray(java.util.Vector<java.lang.String>,java.lang.String,java.lang.String,java.lang.String)
+  location: class CodexTest_0_8_77

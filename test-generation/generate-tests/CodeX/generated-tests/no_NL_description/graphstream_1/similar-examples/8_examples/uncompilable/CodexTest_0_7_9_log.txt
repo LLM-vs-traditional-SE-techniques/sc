@@ -1,0 +1,30 @@
+isCompilable => false
+CodexTest_0_7_9.java:21: error: cannot find symbol
+            assertFalse(p.contains(e));
+                                   ^
+  symbol:   variable e
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:22: error: reference to contains is ambiguous
+            assertFalse(p.contains(null));
+                         ^
+  both method contains(org.graphstream.graph.Node) in org.graphstream.graph.Path and method contains(org.graphstream.graph.Edge) in org.graphstream.graph.Path match
+CodexTest_0_7_9.java:23: error: cannot find symbol
+            p.add(e);
+                  ^
+  symbol:   variable e
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:24: error: cannot find symbol
+            assertTrue(p.contains(e));
+                                  ^
+  symbol:   variable e
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:25: error: cannot find symbol
+            p.remove(e);
+                     ^
+  symbol:   variable e
+  location: class CodexTest_0_7_9
+CodexTest_0_7_9.java:26: error: cannot find symbol
+            assertFalse(p.contains(e));
+                                   ^
+  symbol:   variable e
+  location: class CodexTest_0_7_9

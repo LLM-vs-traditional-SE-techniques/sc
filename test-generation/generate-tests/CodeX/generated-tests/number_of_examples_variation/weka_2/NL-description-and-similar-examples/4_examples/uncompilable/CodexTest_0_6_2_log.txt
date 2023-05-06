@@ -1,0 +1,33 @@
+isCompilable => false
+CodexTest_0_6_2.java:31: warning: '_' used as an identifier
+	  attVals.addElement(name + (i+1) + _ + (n+1));
+	                                    ^
+  (use of '_' as an identifier might not be supported in releases after Java SE 8)
+CodexTest_0_6_2.java:48: warning: '_' used as an identifier
+	assertEquals(name + (i+1) + _ + (int)inst.value(i) + 1, 
+	                            ^
+  (use of '_' as an identifier might not be supported in releases after Java SE 8)
+CodexTest_0_6_2.java:27: error: cannot find symbol
+      if (Arrays.binarySearch(attIndices, i) >= 0) {
+          ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:31: error: cannot find symbol
+	  attVals.addElement(name + (i+1) + _ + (n+1));
+	                                    ^
+  symbol:   variable _
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:46: error: cannot find symbol
+	if (Arrays.binarySearch(attIndices, i) >= 0)
+	    ^
+  symbol:   variable Arrays
+  location: class CodexTest_0_6_2
+CodexTest_0_6_2.java:48: error: cannot find symbol
+	assertEquals(name + (i+1) + _ + (int)inst.value(i) + 1, 
+	                            ^
+  symbol:   variable _
+  location: class CodexTest_0_6_2
+Note: CodexTest_0_6_2.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: CodexTest_0_6_2.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

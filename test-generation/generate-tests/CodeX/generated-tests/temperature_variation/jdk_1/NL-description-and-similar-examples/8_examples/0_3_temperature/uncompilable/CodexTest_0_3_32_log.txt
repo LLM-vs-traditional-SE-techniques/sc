@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_3_32.java:21: error: cannot find symbol
+        assertEquals(new Integer(2), list.remove(1));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_3_32
+CodexTest_0_3_32.java:22: error: cannot find symbol
+        assertEquals(Arrays.asList(new Integer[] { 1, 3 }), list);
+                                                            ^
+  symbol:   variable list
+  location: class CodexTest_0_3_32
+CodexTest_0_3_32.java:23: error: cannot find symbol
+        assertEquals(new Integer(1), list.remove(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_3_32
+CodexTest_0_3_32.java:24: error: cannot find symbol
+        assertEquals(Arrays.asList(new Integer[] { 3 }), list);
+                                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_3_32
+CodexTest_0_3_32.java:25: error: cannot find symbol
+        assertEquals(new Integer(3), list.remove(0));
+                                     ^
+  symbol:   variable list
+  location: class CodexTest_0_3_32
+CodexTest_0_3_32.java:26: error: cannot find symbol
+        assertEquals(Arrays.asList(new Integer[] {}), list);
+                                                      ^
+  symbol:   variable list
+  location: class CodexTest_0_3_32

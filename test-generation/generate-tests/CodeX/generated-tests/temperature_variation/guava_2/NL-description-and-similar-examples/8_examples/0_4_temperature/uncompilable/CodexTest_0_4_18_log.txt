@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_4_18.java:28: error: cannot find symbol
+    int numBytes = Longs.BYTES;
+                   ^
+  symbol:   variable Longs
+  location: class CodexTest_0_4_18
+CodexTest_0_4_18.java:29: error: cannot find symbol
+    long input = Longs.fromBytes(bytes[0], bytes[1], bytes[2], bytes[3], bytes[4], bytes[5],
+                 ^
+  symbol:   variable Longs
+  location: class CodexTest_0_4_18
+CodexTest_0_4_18.java:31: error: cannot find symbol
+    MutableBitArray bitArray = MutableBitArray.create(input, numBytes * 8);
+    ^
+  symbol:   class MutableBitArray
+  location: class CodexTest_0_4_18
+CodexTest_0_4_18.java:31: error: cannot find symbol
+    MutableBitArray bitArray = MutableBitArray.create(input, numBytes * 8);
+                               ^
+  symbol:   variable MutableBitArray
+  location: class CodexTest_0_4_18

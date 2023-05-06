@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_9_81.java:39: error: cannot find symbol
+        Assert.assertEquals(v.scalarMultiply(a).getNorm(), w.getNorm(), 1.0e-12);
+                                             ^
+  symbol:   variable a
+  location: class CodexTest_0_9_81

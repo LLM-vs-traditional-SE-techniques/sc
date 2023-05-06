@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_76.java:21: error: cannot find symbol
+        assertTrue(caseInsensitive.contains(toLowerCase()));
+                                            ^
+  symbol:   method toLowerCase()
+  location: class CodexTest_0_8_76
+CodexTest_0_8_76.java:21: error: cannot find symbol
+        assertTrue(caseInsensitive.contains(toLowerCase()));
+                   ^
+  symbol:   variable caseInsensitive
+  location: class CodexTest_0_8_76

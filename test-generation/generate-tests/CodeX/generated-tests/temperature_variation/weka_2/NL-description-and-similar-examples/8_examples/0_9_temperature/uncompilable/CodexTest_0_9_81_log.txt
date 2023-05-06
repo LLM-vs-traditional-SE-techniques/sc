@@ -1,0 +1,45 @@
+isCompilable => false
+CodexTest_0_9_81.java:18: error: cannot find symbol
+        Instances data = getTestInstancesWithOnlyNominalTestData();
+                         ^
+  symbol:   method getTestInstancesWithOnlyNominalTestData()
+  location: class CodexTest_0_9_81
+CodexTest_0_9_81.java:19: error: no suitable constructor found for AlgVector(weka.core.Instances)
+        AlgVector v = new AlgVector(data);
+                      ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; weka.core.Instances cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; weka.core.Instances cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Instances cannot be converted to weka.core.Instance)
+CodexTest_0_9_81.java:25: error: cannot find symbol
+        Instances data = getTestInstancesWithOnlyNominalTestData();
+                         ^
+  symbol:   method getTestInstancesWithOnlyNominalTestData()
+  location: class CodexTest_0_9_81
+CodexTest_0_9_81.java:26: error: no suitable constructor found for AlgVector(weka.core.Instances)
+        AlgVector v = new AlgVector(data);
+                      ^
+    constructor weka.core.AlgVector.AlgVector(int) is not applicable
+      (argument mismatch; weka.core.Instances cannot be converted to int)
+    constructor weka.core.AlgVector.AlgVector(double[]) is not applicable
+      (argument mismatch; weka.core.Instances cannot be converted to double[])
+    constructor weka.core.AlgVector.AlgVector(weka.core.Instance) is not applicable
+      (argument mismatch; weka.core.Instances cannot be converted to weka.core.Instance)
+CodexTest_0_9_81.java:33: error: cannot find symbol
+        Instances data = getTestInstancesWithOnlyNominalTestData();
+                         ^
+  symbol:   method getTestInstancesWithOnlyNominalTestData()
+  location: class CodexTest_0_9_81
+CodexTest_0_9_81.java:34: error: cannot find symbol
+        double[] dataArray = weightVector.getElement(taxC).getAttributeWeights();
+                                                     ^
+  symbol:   variable taxC
+  location: class CodexTest_0_9_81
+CodexTest_0_9_81.java:34: error: cannot find symbol
+        double[] dataArray = weightVector.getElement(taxC).getAttributeWeights();
+                             ^
+  symbol:   variable weightVector
+  location: class CodexTest_0_9_81
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

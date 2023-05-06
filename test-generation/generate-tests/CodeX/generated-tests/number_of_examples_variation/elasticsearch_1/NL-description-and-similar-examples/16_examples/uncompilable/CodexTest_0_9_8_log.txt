@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_8.java:65: error: cannot find symbol
+        GetIndexTemplateRequest request = new GetIndexTemplateRequest();
+        ^
+  symbol:   class GetIndexTemplateRequest
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:65: error: cannot find symbol
+        GetIndexTemplateRequest request = new GetIndexTemplateRequest();
+                                              ^
+  symbol:   class GetIndexTemplateRequest
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:68: error: cannot find symbol
+        assertThat(request.parent(), equalTo("parent"));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_9_8

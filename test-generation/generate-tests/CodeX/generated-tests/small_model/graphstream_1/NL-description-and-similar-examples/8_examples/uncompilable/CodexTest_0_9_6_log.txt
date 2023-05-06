@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_9_6.java:19: error: illegal start of type
+    if (edgePath != null) {
+    ^
+CodexTest_0_9_6.java:19: error: <identifier> expected
+    if (edgePath != null) {
+                ^
+CodexTest_0_9_6.java:19: error: ';' expected
+    if (edgePath != null) {
+                   ^
+CodexTest_0_9_6.java:19: error: illegal start of type
+    if (edgePath != null) {
+                        ^
+CodexTest_0_9_6.java:19: error: <identifier> expected
+    if (edgePath != null) {
+                         ^
+CodexTest_0_9_6.java:19: error: ';' expected
+    if (edgePath != null) {
+                           ^
+CodexTest_0_9_6.java:20: error: illegal start of type
+      for (Edge edge: edgePath) {
+          ^
+CodexTest_0_9_6.java:20: error: ';' expected
+      for (Edge edge: edgePath) {
+               ^
+CodexTest_0_9_6.java:20: error: <identifier> expected
+      for (Edge edge: edgePath) {
+                    ^
+CodexTest_0_9_6.java:20: error: <identifier> expected
+      for (Edge edge: edgePath) {
+                              ^
+CodexTest_0_9_6.java:26: error: class, interface, or enum expected
+    return false;
+    ^
+CodexTest_0_9_6.java:27: error: class, interface, or enum expected
+}
+^

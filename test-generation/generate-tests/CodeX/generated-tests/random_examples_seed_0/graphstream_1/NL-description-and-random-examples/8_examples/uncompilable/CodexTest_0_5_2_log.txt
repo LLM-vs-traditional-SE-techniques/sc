@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_5_2.java:50: error: unclosed string literal
+        Edge edge31 = new Edge("A", "
+                                    ^
+CodexTest_0_5_2.java:50: error: ';' expected
+        Edge edge31 = new Edge("A", "
+                                     ^
+CodexTest_0_5_2.java:51: error: reached end of file while parsing
+}
+ ^

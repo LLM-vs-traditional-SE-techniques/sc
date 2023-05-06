@@ -1,0 +1,51 @@
+isCompilable => false
+CodexTest_0_5_9.java:20: error: cannot find symbol
+    assertTrue(graph.contains(graph.getEdge("ab")));
+                              ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:20: error: cannot find symbol
+    assertTrue(graph.contains(graph.getEdge("ab")));
+               ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:21: error: cannot find symbol
+    assertTrue(graph.contains(graph.getEdge("bc")));
+                              ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:21: error: cannot find symbol
+    assertTrue(graph.contains(graph.getEdge("bc")));
+               ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:22: error: cannot find symbol
+    assertTrue(graph.contains(graph.getEdge("cd")));
+                              ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:22: error: cannot find symbol
+    assertTrue(graph.contains(graph.getEdge("cd")));
+               ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:23: error: cannot find symbol
+    assertFalse(graph.contains(graph.getEdge("de")));
+                               ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:23: error: cannot find symbol
+    assertFalse(graph.contains(graph.getEdge("de")));
+                ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:24: error: cannot find symbol
+    assertFalse(graph.contains(graph.getEdge("ef")));
+                               ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_9
+CodexTest_0_5_9.java:24: error: cannot find symbol
+    assertFalse(graph.contains(graph.getEdge("ef")));
+                ^
+  symbol:   variable graph
+  location: class CodexTest_0_5_9

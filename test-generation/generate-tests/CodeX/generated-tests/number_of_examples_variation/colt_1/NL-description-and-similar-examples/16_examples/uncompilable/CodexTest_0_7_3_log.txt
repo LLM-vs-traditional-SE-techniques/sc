@@ -1,0 +1,114 @@
+isCompilable => false
+CodexTest_0_7_3.java:31: error: cannot find symbol
+        DoubleMatrix1D m = new DenseDoubleMatrix1D(SIZE);
+                                                   ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:32: error: cannot find symbol
+        assertEquals(SIZE, m.size());
+                     ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:33: error: cannot find symbol
+        assertEquals(0, m.getQuick(0), TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:34: error: cannot find symbol
+        assertEquals(1, m.getQuick(1), TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:35: error: cannot find symbol
+        assertEquals(2, m.getQuick(2), TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:36: error: cannot find symbol
+        m = new DenseDoubleMatrix1D(SIZE, 2);
+                                    ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:37: error: cannot find symbol
+        assertEquals(SIZE, m.size());
+                     ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:38: error: cannot find symbol
+        assertEquals(2, m.getQuick(0), TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:39: error: cannot find symbol
+        assertEquals(2, m.getQuick(1), TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:40: error: cannot find symbol
+        assertEquals(2, m.getQuick(2), TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:41: error: cannot find symbol
+        m = new DenseDoubleMatrix1D(SIZE, new double[] { 2, 3, 4 });
+                                    ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:42: error: cannot find symbol
+        assertEquals(SIZE, m.size());
+                     ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:43: error: cannot find symbol
+        assertEquals(2, m.getQuick(0), TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:44: error: cannot find symbol
+        assertEquals(3, m.getQuick(1), TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:45: error: cannot find symbol
+        assertEquals(4, m.getQuick(2), TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:49: error: cannot find symbol
+        assertEquals(2, m.getQuick(0), TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:50: error: cannot find symbol
+        assertEquals(3, m.getQuick(1), TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:51: error: cannot find symbol
+        assertEquals(4, m.getQuick(2), TOL);
+                                       ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:52: error: no suitable constructor found for DenseDoubleMatrix1D(cern.colt.matrix.DoubleMatrix1D)
+        DoubleMatrix1D m2 = new DenseDoubleMatrix1D(m);
+                            ^
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix1D.DenseDoubleMatrix1D(double[]) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix1D cannot be converted to double[])
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix1D.DenseDoubleMatrix1D(int) is not applicable
+      (argument mismatch; cern.colt.matrix.DoubleMatrix1D cannot be converted to int)
+CodexTest_0_7_3.java:54: error: cannot find symbol
+        assertEquals(2, m2.getQuick(0), TOL);
+                                        ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:55: error: cannot find symbol
+        assertEquals(3, m2.getQuick(1), TOL);
+                                        ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+CodexTest_0_7_3.java:56: error: cannot find symbol
+        assertEquals(4, m2.getQuick(2), TOL);
+                                        ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_3
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

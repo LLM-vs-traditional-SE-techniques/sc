@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_3_6.java:21: error: cannot find symbol
+        Object[] a = new Object[SIZE];
+                                ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:22: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++)
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:25: error: cannot find symbol
+        for (int i = 0; i < SIZE; i++) {
+                            ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_3_6
+CodexTest_0_3_6.java:27: error: cannot find symbol
+            assertEquals(SIZE - i - 1, al.size());
+                         ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_3_6

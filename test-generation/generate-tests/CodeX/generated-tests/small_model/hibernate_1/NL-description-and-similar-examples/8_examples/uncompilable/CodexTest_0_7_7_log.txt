@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_7_7.java:40: error: <identifier> expected
+Input: public Short toShort(Boolean value) {
+     ^
+CodexTest_0_7_7.java:43: error: <identifier> expected
+Output: public void testToShortWithTrue() {
+      ^
+CodexTest_0_7_7.java:68: error: <identifier> expected
+Input: public Short toShort(Boolean value) {
+     ^
+CodexTest_0_7_7.java:71: error: <identifier> expected
+Output: public void testToShortWithTrue() {
+      ^
+CodexTest_0_7_7.java:94: error: illegal start of expression
+}
+^
+CodexTest_0_7_7.java:94: error: reached end of file while parsing
+}
+ ^

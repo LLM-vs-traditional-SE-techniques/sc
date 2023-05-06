@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_9_52.java:31: error: cannot find symbol
+        DoubleMatrix1D v1 = randomData.makeRandomVector(length);
+                            ^
+  symbol:   variable randomData
+  location: class CodexTest_0_9_52
+CodexTest_0_9_52.java:33: error: cannot find symbol
+        DoubleMatrix1D v2 = new DenseDoubleMatrix1D(v1.elements());
+                                                      ^
+  symbol:   method elements()
+  location: variable v1 of type cern.colt.matrix.DoubleMatrix1D
+CodexTest_0_9_52.java:35: error: cannot find symbol
+        assertEquals("norm different", norm, norm2, TOLERANCE);
+                                                    ^
+  symbol:   variable TOLERANCE
+  location: class CodexTest_0_9_52

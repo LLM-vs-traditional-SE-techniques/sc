@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_10.java:65: error: <identifier> expected
+        Map<String, Object> source = new {"foo": "bar"};
+                                        ^
+CodexTest_0_8_10.java:65: error: '(' or '[' expected
+        Map<String, Object> source = new {"foo": "bar"};
+                                         ^
+CodexTest_0_8_10.java:65: error: ';' expected
+        Map<String, Object> source = new {"foo": "bar"};
+                                          ^
+CodexTest_0_8_10.java:65: error: illegal start of expression
+        Map<String, Object> source = new {"foo": "bar"};
+                                               ^
+CodexTest_0_8_10.java:65: error: ';' expected
+        Map<String, Object> source = new {"foo": "bar"};
+                                                ^

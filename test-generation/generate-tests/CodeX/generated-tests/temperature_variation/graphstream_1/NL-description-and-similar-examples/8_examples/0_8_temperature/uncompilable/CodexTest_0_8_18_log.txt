@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_18.java:21: error: cannot find symbol
+        DefaultEdgePath<String, DefaultEdge> underTest = new DefaultEdgePath<>(null);
+        ^
+  symbol:   class DefaultEdgePath
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:21: error: cannot find symbol
+        DefaultEdgePath<String, DefaultEdge> underTest = new DefaultEdgePath<>(null);
+                                ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:21: error: cannot find symbol
+        DefaultEdgePath<String, DefaultEdge> underTest = new DefaultEdgePath<>(null);
+                                                             ^
+  symbol:   class DefaultEdgePath
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:22: error: cannot find symbol
+        DefaultEdge edge = new DefaultEdge("A", "B");
+        ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_18
+CodexTest_0_8_18.java:22: error: cannot find symbol
+        DefaultEdge edge = new DefaultEdge("A", "B");
+                               ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_8_18

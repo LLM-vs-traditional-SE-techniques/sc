@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_9_53.java:20: error: cannot find symbol
+        DefaultDirectedWeightedGraph<Integer, DefaultWeightedEdge> g =
+        ^
+  symbol:   class DefaultDirectedWeightedGraph
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:20: error: cannot find symbol
+        DefaultDirectedWeightedGraph<Integer, DefaultWeightedEdge> g =
+                                              ^
+  symbol:   class DefaultWeightedEdge
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:21: error: cannot find symbol
+            new DefaultDirectedWeightedGraph<Integer, DefaultWeightedEdge>(DefaultWeightedEdge.class);
+                ^
+  symbol:   class DefaultDirectedWeightedGraph
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:21: error: cannot find symbol
+            new DefaultDirectedWeightedGraph<Integer, DefaultWeightedEdge>(DefaultWeightedEdge.class);
+                                                      ^
+  symbol:   class DefaultWeightedEdge
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:21: error: cannot find symbol
+            new DefaultDirectedWeightedGraph<Integer, DefaultWeightedEdge>(DefaultWeightedEdge.class);
+                                                                           ^
+  symbol:   class DefaultWeightedEdge
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:22: error: cannot find symbol
+        DefaultWeightedEdge e12 = Graphs.addEdgeWithVertices(g, 1, 2, 10);
+        ^
+  symbol:   class DefaultWeightedEdge
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:22: error: cannot find symbol
+        DefaultWeightedEdge e12 = Graphs.addEdgeWithVertices(g, 1, 2, 10);
+                                  ^
+  symbol:   variable Graphs
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:25: error: cannot find symbol
+            Graphs.addEdgeWithVertices(g, 1, 0, i);
+            ^
+  symbol:   variable Graphs
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:27: error: cannot find symbol
+        SingleSourcePaths<Integer, DefaultWeightedEdge> path =
+        ^
+  symbol:   class SingleSourcePaths
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:27: error: cannot find symbol
+        SingleSourcePaths<Integer, DefaultWeightedEdge> path =
+                                   ^
+  symbol:   class DefaultWeightedEdge
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:28: error: cannot find symbol
+            new DijkstraShortestPath<Integer, DefaultWeightedEdge>(g).getPaths(0);
+                ^
+  symbol:   class DijkstraShortestPath
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:28: error: cannot find symbol
+            new DijkstraShortestPath<Integer, DefaultWeightedEdge>(g).getPaths(0);
+                                              ^
+  symbol:   class DefaultWeightedEdge
+  location: class CodexTest_0_9_53
+CodexTest_0_9_53.java:29: error: cannot find symbol
+        for (DefaultWeightedEdge e : g.edgeSet()) {
+             ^
+  symbol:   class DefaultWeightedEdge
+  location: class CodexTest_0_9_53

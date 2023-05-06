@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_9_6.java:29: error: <identifier> expected
+    ppublic  void testASceneario() {
+           ^
+CodexTest_0_9_6.java:29: error: invalid method declaration; return type required
+    ppublic  void testASceneario() {
+                  ^
+CodexTest_0_9_6.java:37: error: reached end of file while parsing
+}
+ ^

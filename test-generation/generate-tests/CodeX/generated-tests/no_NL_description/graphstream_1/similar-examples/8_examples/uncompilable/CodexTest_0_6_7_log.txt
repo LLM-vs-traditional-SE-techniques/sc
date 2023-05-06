@@ -1,0 +1,25 @@
+isCompilable => false
+CodexTest_0_6_7.java:19: error: invalid method declaration; return type required
+    assertTrue(path.contains(graph.getEdge("cd")));
+    ^
+CodexTest_0_6_7.java:19: error: <identifier> expected
+    assertTrue(path.contains(graph.getEdge("cd")));
+                            ^
+CodexTest_0_6_7.java:19: error: ';' expected
+    assertTrue(path.contains(graph.getEdge("cd")));
+                             ^
+CodexTest_0_6_7.java:19: error: illegal start of type
+    assertTrue(path.contains(graph.getEdge("cd")));
+                                  ^
+CodexTest_0_6_7.java:19: error: illegal start of type
+    assertTrue(path.contains(graph.getEdge("cd")));
+                                           ^
+CodexTest_0_6_7.java:19: error: ';' expected
+    assertTrue(path.contains(graph.getEdge("cd")));
+                                                ^
+CodexTest_0_6_7.java:20: error: <identifier> expected
+Input: public static String getModuleName() {
+     ^
+CodexTest_0_6_7.java:23: error: <identifier> expected
+Output: public void testGetModuleName() {
+      ^

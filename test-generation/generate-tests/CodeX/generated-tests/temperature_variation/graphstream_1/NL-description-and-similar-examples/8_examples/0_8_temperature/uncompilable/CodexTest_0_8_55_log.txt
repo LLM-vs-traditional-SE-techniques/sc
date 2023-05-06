@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_8_55.java:21: error: cannot find symbol
+        final Path path = new Path(Collections.singletonList(mock(Edge.class)));
+                                                             ^
+  symbol:   method mock(java.lang.Class<org.graphstream.graph.Edge>)
+  location: class CodexTest_0_8_55
+CodexTest_0_8_55.java:21: error: cannot find symbol
+        final Path path = new Path(Collections.singletonList(mock(Edge.class)));
+                                   ^
+  symbol:   variable Collections
+  location: class CodexTest_0_8_55
+CodexTest_0_8_55.java:23: error: cannot find symbol
+        final boolean result = path.contains(mock(Edge.class));
+                                             ^
+  symbol:   method mock(java.lang.Class<org.graphstream.graph.Edge>)
+  location: class CodexTest_0_8_55

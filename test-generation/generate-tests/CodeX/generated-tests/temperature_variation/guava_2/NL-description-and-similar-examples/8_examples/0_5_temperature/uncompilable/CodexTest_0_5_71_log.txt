@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_5_71.java:28: error: cannot find symbol
+    ByteBuffer bb = ByteBuffer.allocate(len).order(ByteOrder.LITTLE_ENDIAN).putLong(value);
+    ^
+  symbol:   class ByteBuffer
+  location: class CodexTest_0_5_71
+CodexTest_0_5_71.java:28: error: cannot find symbol
+    ByteBuffer bb = ByteBuffer.allocate(len).order(ByteOrder.LITTLE_ENDIAN).putLong(value);
+                                                   ^
+  symbol:   variable ByteOrder
+  location: class CodexTest_0_5_71
+CodexTest_0_5_71.java:28: error: cannot find symbol
+    ByteBuffer bb = ByteBuffer.allocate(len).order(ByteOrder.LITTLE_ENDIAN).putLong(value);
+                    ^
+  symbol:   variable ByteBuffer
+  location: class CodexTest_0_5_71
+CodexTest_0_5_71.java:30: error: cannot find symbol
+    int written = Bits.writeBytesTo(value, dest, 0, len);
+                  ^
+  symbol:   variable Bits
+  location: class CodexTest_0_5_71

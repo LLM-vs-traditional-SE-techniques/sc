@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_9_51.java:22: error: cannot find symbol
+        SomeType o = new SomeType();
+        ^
+  symbol:   class SomeType
+  location: class CodexTest_0_9_51
+CodexTest_0_9_51.java:22: error: cannot find symbol
+        SomeType o = new SomeType();
+                         ^
+  symbol:   class SomeType
+  location: class CodexTest_0_9_51
+CodexTest_0_9_51.java:23: error: cannot find symbol
+        ListType<SomeType> underTest = new ListType<>();
+        ^
+  symbol:   class ListType
+  location: class CodexTest_0_9_51
+CodexTest_0_9_51.java:23: error: cannot find symbol
+        ListType<SomeType> underTest = new ListType<>();
+                 ^
+  symbol:   class SomeType
+  location: class CodexTest_0_9_51
+CodexTest_0_9_51.java:23: error: cannot find symbol
+        ListType<SomeType> underTest = new ListType<>();
+                                           ^
+  symbol:   class ListType
+  location: class CodexTest_0_9_51

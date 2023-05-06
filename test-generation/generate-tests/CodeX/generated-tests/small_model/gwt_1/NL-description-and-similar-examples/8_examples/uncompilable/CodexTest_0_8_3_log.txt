@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_3.java:18: error: cannot find symbol
+    assertTrue("com.google.gwt.core.Core.JUnit".equals(BOGUS_MATCHER.getModuleName()));
+                                                       ^
+  symbol:   variable BOGUS_MATCHER
+  location: class CodexTest_0_8_3

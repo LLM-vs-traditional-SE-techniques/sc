@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_6_6.java:65: error: cannot find symbol
+        assertThat(this.parent(), equalTo("parent"));
+                       ^
+  symbol: method parent()
+CodexTest_0_6_6.java:65: error: cannot find symbol
+        assertThat(this.parent(), equalTo("parent"));
+                                  ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_6_6

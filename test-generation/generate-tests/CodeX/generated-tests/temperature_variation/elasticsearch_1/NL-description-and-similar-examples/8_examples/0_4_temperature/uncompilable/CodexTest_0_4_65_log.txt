@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_4_65.java:119: error: ';' expected
+        long versionTypeLong12
+                              ^
+CodexTest_0_4_65.java:120: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_4.java:30: error: cannot find symbol
+        testAssignDoubleMatrix1DCannoed(0, 0, new DenseDoubleMatrix1D(0));
+        ^
+  symbol:   method testAssignDoubleMatrix1DCannoed(int,int,cern.colt.matrix.impl.DenseDoubleMatrix1D)
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:31: error: cannot find symbol
+        testAssignDoubleMatrix1DCannoed(1, 1, new DenseDoubleMatrix1D(1));
+        ^
+  symbol:   method testAssignDoubleMatrix1DCannoed(int,int,cern.colt.matrix.impl.DenseDoubleMatrix1D)
+  location: class CodexTest_0_6_4
+CodexTest_0_6_4.java:32: error: cannot find symbol
+        testAssignDoubleMatrix1DCannoed(5, 5, new DenseDoubleMatrix1D(5));
+        ^
+  symbol:   method testAssignDoubleMatrix1DCannoed(int,int,cern.colt.matrix.impl.DenseDoubleMatrix1D)
+  location: class CodexTest_0_6_4

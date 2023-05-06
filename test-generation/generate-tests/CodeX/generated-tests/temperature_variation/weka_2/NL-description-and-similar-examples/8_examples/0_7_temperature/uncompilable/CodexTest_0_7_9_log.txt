@@ -1,0 +1,14 @@
+isCompilable => false
+CodexTest_0_7_9.java:18: error: org.junit.Test is abstract; cannot be instantiated
+    Test test = new Test();
+                ^
+CodexTest_0_7_9.java:20: error: cannot find symbol
+      test.setUp();
+          ^
+  symbol:   method setUp()
+  location: variable test of type org.junit.Test
+CodexTest_0_7_9.java:25: error: cannot find symbol
+    Instances instances = test.getInst();
+                              ^
+  symbol:   method getInst()
+  location: variable test of type org.junit.Test

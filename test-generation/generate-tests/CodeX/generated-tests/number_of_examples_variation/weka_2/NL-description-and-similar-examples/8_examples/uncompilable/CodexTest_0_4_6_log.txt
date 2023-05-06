@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_4_6.java:61: error: ')' expected
+    inst.setValue(39
+                    ^
+CodexTest_0_4_6.java:62: error: reached end of file while parsing
+}
+ ^

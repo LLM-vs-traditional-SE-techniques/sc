@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_4_3.java:70: error: cannot find symbol
+        assertEquals("{\"field1\":\"value1\",\"field2\":\"value2\"}", indexRequest.source().toUtf8());
+                                                                                           ^
+  symbol:   method toUtf8()
+  location: class org.elasticsearch.common.bytes.BytesReference

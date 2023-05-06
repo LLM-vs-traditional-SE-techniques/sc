@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_9.java:18: error: cannot find symbol
+    Instances data = makeSingleAttDataset("S");
+                     ^
+  symbol:   method makeSingleAttDataset(java.lang.String)
+  location: class CodexTest_0_8_9

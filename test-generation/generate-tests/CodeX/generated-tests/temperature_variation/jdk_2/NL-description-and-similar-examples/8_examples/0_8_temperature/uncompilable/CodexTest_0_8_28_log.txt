@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_8_28.java:21: error: cannot find symbol
+        assertFalse("set does not contain all values", set.containsAll(1, -1));
+                                                       ^
+  symbol:   variable set
+  location: class CodexTest_0_8_28

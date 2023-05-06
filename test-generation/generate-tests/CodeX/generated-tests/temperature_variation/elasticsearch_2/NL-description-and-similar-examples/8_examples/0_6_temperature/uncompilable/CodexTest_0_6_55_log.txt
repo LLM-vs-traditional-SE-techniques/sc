@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_55.java:68: error: cannot find symbol
+        indexRequest.toXContent(builder, ToXContent.EMPTY_PARAMS);
+                                         ^
+  symbol:   variable ToXContent
+  location: class CodexTest_0_6_55
+CodexTest_0_6_55.java:69: error: no suitable constructor found for BytesArray(org.elasticsearch.common.bytes.BytesReference)
+        Map<String, Object> map = XContentHelper.convertToMap(new BytesArray(builder.bytes()), false).v2();
+                                                              ^
+    constructor org.elasticsearch.common.bytes.BytesArray.BytesArray(java.lang.String) is not applicable
+      (argument mismatch; org.elasticsearch.common.bytes.BytesReference cannot be converted to java.lang.String)
+    constructor org.elasticsearch.common.bytes.BytesArray.BytesArray(org.apache.lucene.util.BytesRef) is not applicable
+      (argument mismatch; org.elasticsearch.common.bytes.BytesReference cannot be converted to org.apache.lucene.util.BytesRef)
+    constructor org.elasticsearch.common.bytes.BytesArray.BytesArray(byte[]) is not applicable
+      (argument mismatch; org.elasticsearch.common.bytes.BytesReference cannot be converted to byte[])
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

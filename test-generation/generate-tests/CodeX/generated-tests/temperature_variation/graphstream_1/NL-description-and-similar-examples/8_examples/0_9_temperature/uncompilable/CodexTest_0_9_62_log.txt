@@ -1,0 +1,33 @@
+isCompilable => false
+CodexTest_0_9_62.java:20: error: cannot find symbol
+    Assert.assertFalse(this.path.contains(this.edge1)&&this.path.contains(this.edge8)&&this.path.contains(this.edge9)&&this.path.contains(this.edge6));
+                                              ^
+  symbol: variable edge1
+CodexTest_0_9_62.java:20: error: cannot find symbol
+    Assert.assertFalse(this.path.contains(this.edge1)&&this.path.contains(this.edge8)&&this.path.contains(this.edge9)&&this.path.contains(this.edge6));
+                           ^
+  symbol: variable path
+CodexTest_0_9_62.java:20: error: cannot find symbol
+    Assert.assertFalse(this.path.contains(this.edge1)&&this.path.contains(this.edge8)&&this.path.contains(this.edge9)&&this.path.contains(this.edge6));
+                                                                              ^
+  symbol: variable edge8
+CodexTest_0_9_62.java:20: error: cannot find symbol
+    Assert.assertFalse(this.path.contains(this.edge1)&&this.path.contains(this.edge8)&&this.path.contains(this.edge9)&&this.path.contains(this.edge6));
+                                                           ^
+  symbol: variable path
+CodexTest_0_9_62.java:20: error: cannot find symbol
+    Assert.assertFalse(this.path.contains(this.edge1)&&this.path.contains(this.edge8)&&this.path.contains(this.edge9)&&this.path.contains(this.edge6));
+                                                                                                              ^
+  symbol: variable edge9
+CodexTest_0_9_62.java:20: error: cannot find symbol
+    Assert.assertFalse(this.path.contains(this.edge1)&&this.path.contains(this.edge8)&&this.path.contains(this.edge9)&&this.path.contains(this.edge6));
+                                                                                           ^
+  symbol: variable path
+CodexTest_0_9_62.java:20: error: cannot find symbol
+    Assert.assertFalse(this.path.contains(this.edge1)&&this.path.contains(this.edge8)&&this.path.contains(this.edge9)&&this.path.contains(this.edge6));
+                                                                                                                                              ^
+  symbol: variable edge6
+CodexTest_0_9_62.java:20: error: cannot find symbol
+    Assert.assertFalse(this.path.contains(this.edge1)&&this.path.contains(this.edge8)&&this.path.contains(this.edge9)&&this.path.contains(this.edge6));
+                                                                                                                           ^
+  symbol: variable path

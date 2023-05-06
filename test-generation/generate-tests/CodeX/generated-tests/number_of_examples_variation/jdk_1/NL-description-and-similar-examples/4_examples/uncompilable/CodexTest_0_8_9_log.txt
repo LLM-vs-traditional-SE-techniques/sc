@@ -1,0 +1,171 @@
+isCompilable => false
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                         ^
+  symbol:   variable A
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                            ^
+  symbol:   variable C
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                               ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                  ^
+  symbol:   variable A
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                     ^
+  symbol:   variable C
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                        ^
+  symbol:   variable A
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                           ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                             ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                               ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                 ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                   ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                     ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                       ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                         ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                           ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                             ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                               ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                                 ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                                   ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                                     ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                                       ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:21: error: cannot find symbol
+        Object[] data = {A, C, B, A, C, A, B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,};
+                                                                         ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:29: error: cannot find symbol
+        assertFalse(a.contains(A));
+                               ^
+  symbol:   variable A
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:30: error: cannot find symbol
+        assertTrue(a.contains(B));
+                              ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:31: error: cannot find symbol
+        assertTrue(a.contains(C));
+                              ^
+  symbol:   variable C
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:34: error: cannot find symbol
+        assertFalse(a.contains(A));
+                               ^
+  symbol:   variable A
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:35: error: cannot find symbol
+        assertTrue(a.contains(B));
+                              ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:36: error: cannot find symbol
+        assertTrue(a.contains(C));
+                              ^
+  symbol:   variable C
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:39: error: cannot find symbol
+        assertFalse(a.contains(A));
+                               ^
+  symbol:   variable A
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:40: error: cannot find symbol
+        assertTrue(a.contains(B));
+                              ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:41: error: cannot find symbol
+        assertTrue(a.contains(C));
+                              ^
+  symbol:   variable C
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:44: error: cannot find symbol
+        assertFalse(a.contains(A));
+                               ^
+  symbol:   variable A
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:45: error: cannot find symbol
+        assertTrue(a.contains(B));
+                              ^
+  symbol:   variable B
+  location: class CodexTest_0_8_9
+CodexTest_0_8_9.java:46: error: cannot find symbol
+        assertFalse(a.contains(C));
+                               ^
+  symbol:   variable C
+  location: class CodexTest_0_8_9

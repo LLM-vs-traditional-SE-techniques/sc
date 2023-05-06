@@ -1,0 +1,17 @@
+isCompilable => false
+CodexTest_0_8_27.java:39: error: cannot find symbol
+        DoubleMatrix2D res = matrix.like2D(matrix.rows(),matrix.columns());
+                                   ^
+  symbol:   method like2D(int,int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_8_27.java:41: error: no suitable method found for zMult(cern.colt.matrix.DoubleMatrix1D,cern.colt.matrix.DoubleMatrix2D,int)
+            matrix.zMult(vector,res,1);
+                  ^
+    method cern.colt.matrix.DoubleMatrix2D.zMult(cern.colt.matrix.DoubleMatrix1D,cern.colt.matrix.DoubleMatrix1D) is not applicable
+      (actual and formal argument lists differ in length)
+    method cern.colt.matrix.DoubleMatrix2D.zMult(cern.colt.matrix.DoubleMatrix1D,cern.colt.matrix.DoubleMatrix1D,double,double,boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    method cern.colt.matrix.DoubleMatrix2D.zMult(cern.colt.matrix.DoubleMatrix2D,cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (actual and formal argument lists differ in length)
+    method cern.colt.matrix.DoubleMatrix2D.zMult(cern.colt.matrix.DoubleMatrix2D,cern.colt.matrix.DoubleMatrix2D,double,double,boolean,boolean) is not applicable
+      (actual and formal argument lists differ in length)

@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_1.java:65: error: cannot find symbol
+		assertEquals(null, new Term().parent());
+		                       ^
+  symbol:   class Term
+  location: class CodexTest_0_5_1

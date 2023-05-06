@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_9_100.java:18: error: cannot find symbol
+		Node n = Mockito.mock(Node.class);
+		^
+  symbol:   class Node
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:18: error: cannot find symbol
+		Node n = Mockito.mock(Node.class);
+		                      ^
+  symbol:   class Node
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:18: error: cannot find symbol
+		Node n = Mockito.mock(Node.class);
+		         ^
+  symbol:   variable Mockito
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:19: error: cannot find symbol
+		Edge e = new Edge(n, null);
+		^
+  symbol:   class Edge
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:19: error: cannot find symbol
+		Edge e = new Edge(n, null);
+		             ^
+  symbol:   class Edge
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:23: error: cannot find symbol
+		e.setDirection(Direction.IN);
+		               ^
+  symbol:   variable Direction
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:24: error: cannot find symbol
+		assertEquals(PressureLossEdgeRenderer.DIRECTION_IN, e.getDirection());
+		             ^
+  symbol:   variable PressureLossEdgeRenderer
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:25: error: cannot find symbol
+		e.setDirection(Direction.NONE);
+		               ^
+  symbol:   variable Direction
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:26: error: cannot find symbol
+		assertEquals(PressureLossEdgeRenderer.DIRECTION_NONE, e.getDirection());
+		             ^
+  symbol:   variable PressureLossEdgeRenderer
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:27: error: cannot find symbol
+		e.setDirection(Direction.OUT);
+		               ^
+  symbol:   variable Direction
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:28: error: cannot find symbol
+		assertEquals(PressureLossEdgeRenderer.DIRECTION_OUT, e.getDirection());
+		             ^
+  symbol:   variable PressureLossEdgeRenderer
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:34: error: cannot find symbol
+		e.setDirection(Direction.IN);
+		               ^
+  symbol:   variable Direction
+  location: class CodexTest_0_9_100
+CodexTest_0_9_100.java:35: error: cannot find symbol
+		assertEquals(PressureLossEdgeRenderer.DIRECTION_IN, e.getDirection());
+		             ^
+  symbol:   variable PressureLossEdgeRenderer
+  location: class CodexTest_0_9_100

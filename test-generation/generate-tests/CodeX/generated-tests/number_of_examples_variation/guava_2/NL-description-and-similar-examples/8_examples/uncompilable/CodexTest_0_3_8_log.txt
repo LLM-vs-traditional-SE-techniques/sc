@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_3_8.java:37: error: ')' expected
+    assertEquals(0, new BloomFilter<String>(Funnels.unencodedCharsFunnel(), 3
+                                                                             ^
+CodexTest_0_3_8.java:38: error: reached end of file while parsing
+}
+ ^

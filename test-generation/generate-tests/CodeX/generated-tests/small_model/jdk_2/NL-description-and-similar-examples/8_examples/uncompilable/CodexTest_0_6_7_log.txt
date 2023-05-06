@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_7.java:22: error: cannot find symbol
+        StringTypeDescriptor underTest = new StringTypeDescriptor();
+        ^
+  symbol:   class StringTypeDescriptor
+  location: class CodexTest_0_6_7
+CodexTest_0_6_7.java:22: error: cannot find symbol
+        StringTypeDescriptor underTest = new StringTypeDescriptor();
+                                             ^
+  symbol:   class StringTypeDescriptor
+  location: class CodexTest_0_6_7

@@ -1,0 +1,22 @@
+isCompilable => false
+CodexTest_0_9_32.java:17: error: package BooleanType does not exist
+            BooleanType.INSTANCE.fromString("true"));
+                       ^
+CodexTest_0_9_32.java:21: error: package BooleanType does not exist
+            BooleanType.INSTANCE.fromString("TRUE"));
+                       ^
+CodexTest_0_9_32.java:25: error: package BooleanType does not exist
+            BooleanType.INSTANCE.fromString("false"));
+                       ^
+CodexTest_0_9_32.java:29: error: package BooleanType does not exist
+            BooleanType.INSTANCE.fromString("FALSE"));
+                       ^
+CodexTest_0_9_32.java:33: error: package BooleanType does not exist
+            BooleanType.INSTANCE.fromString(null));
+                       ^
+CodexTest_0_9_32.java:37: error: package BooleanType does not exist
+            BooleanType.INSTANCE.fromString(""));
+                       ^
+CodexTest_0_9_32.java:42: error: package BooleanType does not exist
+				BooleanType.INSTANCE.fromString("invalidString"));
+				           ^

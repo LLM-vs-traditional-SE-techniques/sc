@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_4_4.java:16: error: cannot find symbol
+        assertEquals(0, Short.valueOf(BooleanUtils.toShortObject(false)).shortValue());
+                                      ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:17: error: cannot find symbol
+        assertEquals(1, Short.valueOf(BooleanUtils.toShortObject(true)).shortValue());
+                                      ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_4
+CodexTest_0_4_4.java:18: error: cannot find symbol
+        assertNull(BooleanUtils.toShortObject(null));
+                   ^
+  symbol:   variable BooleanUtils
+  location: class CodexTest_0_4_4

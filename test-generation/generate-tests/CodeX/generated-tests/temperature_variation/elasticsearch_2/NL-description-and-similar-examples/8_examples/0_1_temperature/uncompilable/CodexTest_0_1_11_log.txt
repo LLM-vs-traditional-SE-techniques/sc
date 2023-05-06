@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_1_11.java:66: error: cannot find symbol
+        request.source(singletonMap("field", "value"));
+                       ^
+  symbol:   method singletonMap(java.lang.String,java.lang.String)
+  location: class CodexTest_0_1_11

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_91.java:65: error: cannot find symbol
+        source.parent("some_parent");
+        ^
+  symbol:   variable source
+  location: class CodexTest_0_8_91
+CodexTest_0_8_91.java:66: error: cannot find symbol
+        assertEquals("{\"query\":{\"term\":{\"_type\":{\"value\":\"some_type\",\"boost\":1.0}}},\"from\":10,\"size\":20,\"_source\":{\"includes\":null,\"excludes\":null},\"explain\":false,\"version\":true,\"sort\":null,\"track_scores\":false,\"facets\":null,\"fields\":null,\"script_fields\":null,\"highlight\":null,\"search_type\":\"dfs_query_then_fetch\",\"inner_hits\":null,\"suggest\":null,\"cursor\":null,\"timeout\":null,\"terminate_after\":0,\"fielddata_fields\":null,\"script\":null,\"_source\":\"some_source\",\"parent\":\"some_parent\"}", source.build().internalXContent().string());
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^
+  symbol:   variable source
+  location: class CodexTest_0_8_91

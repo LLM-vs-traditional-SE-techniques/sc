@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_6_24.java:30: error: cannot find symbol
+        DoubleMatrix2D m = getMatrix2D(DEFAULT_SIZE);
+                                       ^
+  symbol:   variable DEFAULT_SIZE
+  location: class CodexTest_0_6_24
+CodexTest_0_6_24.java:31: error: cannot find symbol
+        DoubleMatrix2D l = m.like2D(m.rows(), m.columns());
+                            ^
+  symbol:   method like2D(int,int)
+  location: variable m of type cern.colt.matrix.DoubleMatrix2D
+CodexTest_0_6_24.java:36: error: cannot find symbol
+                assertEquals(0, l.getQuick(r, c), TOL);
+                                                  ^
+  symbol:   variable TOL
+  location: class CodexTest_0_6_24

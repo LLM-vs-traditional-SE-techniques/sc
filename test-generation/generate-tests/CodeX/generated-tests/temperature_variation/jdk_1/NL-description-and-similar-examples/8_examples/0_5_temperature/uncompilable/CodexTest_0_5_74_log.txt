@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_5_74.java:22: error: cannot find symbol
+        list.remove(1);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_74
+CodexTest_0_5_74.java:23: error: cannot find symbol
+        assertEquals(Arrays.asList("a", "c"), list);
+                                              ^
+  symbol:   variable list
+  location: class CodexTest_0_5_74
+CodexTest_0_5_74.java:25: error: cannot find symbol
+        list.remove(1);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_74
+CodexTest_0_5_74.java:26: error: cannot find symbol
+        assertEquals(Arrays.asList("a"), list);
+                                         ^
+  symbol:   variable list
+  location: class CodexTest_0_5_74
+CodexTest_0_5_74.java:28: error: cannot find symbol
+        list.remove(0);
+        ^
+  symbol:   variable list
+  location: class CodexTest_0_5_74
+CodexTest_0_5_74.java:29: error: cannot find symbol
+        assertEquals(Arrays.asList(), list);
+                                      ^
+  symbol:   variable list
+  location: class CodexTest_0_5_74

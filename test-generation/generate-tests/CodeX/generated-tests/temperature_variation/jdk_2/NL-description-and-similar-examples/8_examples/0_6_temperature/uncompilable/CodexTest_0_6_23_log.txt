@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_6_23.java:21: error: cannot find symbol
+        assertTrue(empty.contains(null));
+                   ^
+  symbol:   variable empty
+  location: class CodexTest_0_6_23
+CodexTest_0_6_23.java:22: error: cannot find symbol
+        assertFalse(empty.contains(1));
+                    ^
+  symbol:   variable empty
+  location: class CodexTest_0_6_23
+CodexTest_0_6_23.java:23: error: cannot find symbol
+        assertTrue(singleton.contains(1));
+                   ^
+  symbol:   variable singleton
+  location: class CodexTest_0_6_23
+CodexTest_0_6_23.java:24: error: cannot find symbol
+        assertFalse(singleton.contains(2));
+                    ^
+  symbol:   variable singleton
+  location: class CodexTest_0_6_23
+CodexTest_0_6_23.java:25: error: cannot find symbol
+        assertTrue(set.contains(1));
+                   ^
+  symbol:   variable set
+  location: class CodexTest_0_6_23
+CodexTest_0_6_23.java:26: error: cannot find symbol
+        assertTrue(set.contains(2));
+                   ^
+  symbol:   variable set
+  location: class CodexTest_0_6_23
+CodexTest_0_6_23.java:27: error: cannot find symbol
+        assertTrue(set.contains(3));
+                   ^
+  symbol:   variable set
+  location: class CodexTest_0_6_23
+CodexTest_0_6_23.java:28: error: cannot find symbol
+        assertFalse(set.contains(4));
+                    ^
+  symbol:   variable set
+  location: class CodexTest_0_6_23

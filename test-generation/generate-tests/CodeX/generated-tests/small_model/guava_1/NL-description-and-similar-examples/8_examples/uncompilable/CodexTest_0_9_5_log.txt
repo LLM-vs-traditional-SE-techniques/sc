@@ -1,0 +1,4 @@
+isCompilable => false
+CodexTest_0_9_5.java:24: error: <identifier> expected
+  Input: public boolean equals(Object obj) {
+       ^

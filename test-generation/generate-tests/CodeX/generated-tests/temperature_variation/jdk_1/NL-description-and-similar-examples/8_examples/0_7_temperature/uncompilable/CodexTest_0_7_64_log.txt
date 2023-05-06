@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_7_64.java:21: error: cannot find symbol
+        array.add("first");
+        ^
+  symbol:   variable array
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:22: error: cannot find symbol
+        array.add("second");
+        ^
+  symbol:   variable array
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:23: error: cannot find symbol
+        array.add("third");
+        ^
+  symbol:   variable array
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:24: error: cannot find symbol
+        array.add("fourth");
+        ^
+  symbol:   variable array
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:25: error: cannot find symbol
+        array.add("fifth");
+        ^
+  symbol:   variable array
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:26: error: cannot find symbol
+        array.add("sixth");
+        ^
+  symbol:   variable array
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:27: error: cannot find symbol
+        array.add("seventh");
+        ^
+  symbol:   variable array
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:28: error: cannot find symbol
+        array.add("eighth");
+        ^
+  symbol:   variable array
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:29: error: cannot find symbol
+        Assert.assertEquals("first", array.remove(0));
+                                     ^
+  symbol:   variable array
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:30: error: cannot find symbol
+        Assert.assertEquals("eighth", array.remove(6));
+                                      ^
+  symbol:   variable array
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:31: error: cannot find symbol
+        Assert.assertEquals("fifth", array.remove(3));
+                                     ^
+  symbol:   variable array
+  location: class CodexTest_0_7_64
+CodexTest_0_7_64.java:32: error: cannot find symbol
+        Assert.assertEquals(5, array.size());
+                               ^
+  symbol:   variable array
+  location: class CodexTest_0_7_64

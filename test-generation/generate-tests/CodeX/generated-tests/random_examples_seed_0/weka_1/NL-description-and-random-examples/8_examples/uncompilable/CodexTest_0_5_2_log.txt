@@ -1,0 +1,16 @@
+isCompilable => false
+CodexTest_0_5_2.java:21: error: cannot find symbol
+        assertEquals(v3.get(0), 4, 1e-12);
+                       ^
+  symbol:   method get(int)
+  location: variable v3 of type weka.core.AlgVector
+CodexTest_0_5_2.java:22: error: cannot find symbol
+        assertEquals(v3.get(1), 4, 1e-12);
+                       ^
+  symbol:   method get(int)
+  location: variable v3 of type weka.core.AlgVector
+CodexTest_0_5_2.java:23: error: cannot find symbol
+        assertEquals(v3.get(2), 4, 1e-12);
+                       ^
+  symbol:   method get(int)
+  location: variable v3 of type weka.core.AlgVector

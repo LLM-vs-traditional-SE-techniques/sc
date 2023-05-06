@@ -1,0 +1,40 @@
+isCompilable => false
+CodexTest_0_9_8.java:39: error: illegal start of type
+*/
+^
+CodexTest_0_9_8.java:39: error: ';' expected
+*/
+ ^
+CodexTest_0_9_8.java:40: error: ';' expected
+JNIEXPORT jobjectArray JNICALL Java_GUnit_getUncaughtExceptionHandlerTest
+                      ^
+CodexTest_0_9_8.java:41: error: <identifier> expected
+  (JNIEnv *env, jclass thisClass, jstring input, jstring methodBody) {
+         ^
+CodexTest_0_9_8.java:41: error: ';' expected
+  (JNIEnv *env, jclass thisClass, jstring input, jstring methodBody) {
+           ^
+CodexTest_0_9_8.java:41: error: illegal start of type
+  (JNIEnv *env, jclass thisClass, jstring input, jstring methodBody) {
+              ^
+CodexTest_0_9_8.java:41: error: ';' expected
+  (JNIEnv *env, jclass thisClass, jstring input, jstring methodBody) {
+                      ^
+CodexTest_0_9_8.java:41: error: <identifier> expected
+  (JNIEnv *env, jclass thisClass, jstring input, jstring methodBody) {
+                                ^
+CodexTest_0_9_8.java:41: error: ';' expected
+  (JNIEnv *env, jclass thisClass, jstring input, jstring methodBody) {
+                                         ^
+CodexTest_0_9_8.java:41: error: <identifier> expected
+  (JNIEnv *env, jclass thisClass, jstring input, jstring methodBody) {
+                                               ^
+CodexTest_0_9_8.java:41: error: ';' expected
+  (JNIEnv *env, jclass thisClass, jstring input, jstring methodBody) {
+                                                        ^
+CodexTest_0_9_8.java:41: error: <identifier> expected
+  (JNIEnv *env, jclass thisClass, jstring input, jstring methodBody) {
+                                                                   ^
+CodexTest_0_9_8.java:42: error: reached end of file while parsing
+}
+ ^

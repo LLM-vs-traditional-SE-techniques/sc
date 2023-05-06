@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_8_83.java:23: error: cannot find symbol
+        IntArrayList intArrayList = new IntArrayList(array);
+        ^
+  symbol:   class IntArrayList
+  location: class CodexTest_0_8_83
+CodexTest_0_8_83.java:23: error: cannot find symbol
+        IntArrayList intArrayList = new IntArrayList(array);
+                                        ^
+  symbol:   class IntArrayList
+  location: class CodexTest_0_8_83

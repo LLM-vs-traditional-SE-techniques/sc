@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_6_30.java:116: error: ';' expected
+        String isAfter
+                      ^
+CodexTest_0_6_30.java:117: error: reached end of file while parsing
+}
+ ^

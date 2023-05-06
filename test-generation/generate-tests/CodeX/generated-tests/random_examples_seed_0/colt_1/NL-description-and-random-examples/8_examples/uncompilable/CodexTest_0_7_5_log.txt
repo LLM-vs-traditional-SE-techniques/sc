@@ -1,0 +1,61 @@
+isCompilable => false
+CodexTest_0_7_5.java:33: error: cannot find symbol
+		matrix.assign(other);
+		^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:35: error: cannot find symbol
+			assertEquals(matrix.getQuick(i), values[i] + 1, TOL);
+			             ^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:35: error: cannot find symbol
+			assertEquals(matrix.getQuick(i), values[i] + 1, TOL);
+			                                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:40: error: cannot find symbol
+		matrix.assign(other);
+		^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:42: error: cannot find symbol
+			assertEquals(matrix.getQuick(i), values[i] + 1, TOL);
+			             ^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:42: error: cannot find symbol
+			assertEquals(matrix.getQuick(i), values[i] + 1, TOL);
+			                                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:47: error: cannot find symbol
+		matrix.assign(other);
+		^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:49: error: cannot find symbol
+			assertEquals(matrix.getQuick(i), values[i] + 1, TOL);
+			             ^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:49: error: cannot find symbol
+			assertEquals(matrix.getQuick(i), values[i] + 1, TOL);
+			                                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:54: error: cannot find symbol
+		matrix.assign(other);
+		^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:56: error: cannot find symbol
+			assertEquals(matrix.getQuick(i), values[i] + 1, TOL);
+			             ^
+  symbol:   variable matrix
+  location: class CodexTest_0_7_5
+CodexTest_0_7_5.java:56: error: cannot find symbol
+			assertEquals(matrix.getQuick(i), values[i] + 1, TOL);
+			                                                ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_5

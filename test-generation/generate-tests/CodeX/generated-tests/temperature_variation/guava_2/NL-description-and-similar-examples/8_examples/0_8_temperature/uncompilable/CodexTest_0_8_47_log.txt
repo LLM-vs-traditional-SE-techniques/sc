@@ -1,0 +1,26 @@
+isCompilable => false
+CodexTest_0_8_47.java:25: error: cannot find symbol
+    Payload payload = new Payload(new BytesRef("abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"));
+    ^
+  symbol:   class Payload
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:25: error: cannot find symbol
+    Payload payload = new Payload(new BytesRef("abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"));
+                          ^
+  symbol:   class Payload
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:25: error: cannot find symbol
+    Payload payload = new Payload(new BytesRef("abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"));
+                                      ^
+  symbol:   class BytesRef
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:26: error: cannot find symbol
+    BytesRef buffer = new BytesRef(new byte[10]);
+    ^
+  symbol:   class BytesRef
+  location: class CodexTest_0_8_47
+CodexTest_0_8_47.java:26: error: cannot find symbol
+    BytesRef buffer = new BytesRef(new byte[10]);
+                          ^
+  symbol:   class BytesRef
+  location: class CodexTest_0_8_47

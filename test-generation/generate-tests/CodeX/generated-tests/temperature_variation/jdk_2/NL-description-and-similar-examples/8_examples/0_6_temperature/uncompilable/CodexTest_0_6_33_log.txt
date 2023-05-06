@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_33.java:21: error: cannot find symbol
+        ImmutableList<String> list = ImmutableList.of("one", "two", "three");
+        ^
+  symbol:   class ImmutableList
+  location: class CodexTest_0_6_33
+CodexTest_0_6_33.java:21: error: cannot find symbol
+        ImmutableList<String> list = ImmutableList.of("one", "two", "three");
+                                     ^
+  symbol:   variable ImmutableList
+  location: class CodexTest_0_6_33

@@ -1,0 +1,41 @@
+isCompilable => false
+CodexTest_0_4_16.java:22: error: cannot find symbol
+        path1.setRoot(new DefaultNode("a"));
+                          ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_4_16
+CodexTest_0_4_16.java:23: error: cannot find symbol
+        path2.setRoot(new DefaultNode("a"));
+                          ^
+  symbol:   class DefaultNode
+  location: class CodexTest_0_4_16
+CodexTest_0_4_16.java:25: error: cannot find symbol
+        path1.add(new DefaultEdge("ab"));
+                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_16
+CodexTest_0_4_16.java:26: error: cannot find symbol
+        path2.add(new DefaultEdge("ab"));
+                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_16
+CodexTest_0_4_16.java:28: error: cannot find symbol
+        path1.add(new DefaultEdge("bc"));
+                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_16
+CodexTest_0_4_16.java:29: error: cannot find symbol
+        path2.add(new DefaultEdge("bc"));
+                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_16
+CodexTest_0_4_16.java:31: error: cannot find symbol
+        path1.add(new DefaultEdge("cd"));
+                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_16
+CodexTest_0_4_16.java:32: error: cannot find symbol
+        path2.add(new DefaultEdge("cd"));
+                      ^
+  symbol:   class DefaultEdge
+  location: class CodexTest_0_4_16

@@ -1,0 +1,13 @@
+isCompilable => false
+CodexTest_0_9_93.java:30: error: <identifier> expected
+      	list.assign(elements);
+      	           ^
+CodexTest_0_9_93.java:30: error: <identifier> expected
+      	list.assign(elements);
+      	                    ^
+CodexTest_0_9_93.java:31: error: <identifier> expected
+      	elements = list.elements();	
+      	        ^
+CodexTest_0_9_93.java:33: error: class, interface, or enum expected
+}
+^

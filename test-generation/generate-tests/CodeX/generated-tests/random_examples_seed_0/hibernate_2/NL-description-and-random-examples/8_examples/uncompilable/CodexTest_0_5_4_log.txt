@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_5_4.java:17: error: cannot find symbol
+		Boolean actual = Boolean.fromString( "true" );
+		                        ^
+  symbol:   method fromString(java.lang.String)
+  location: class java.lang.Boolean

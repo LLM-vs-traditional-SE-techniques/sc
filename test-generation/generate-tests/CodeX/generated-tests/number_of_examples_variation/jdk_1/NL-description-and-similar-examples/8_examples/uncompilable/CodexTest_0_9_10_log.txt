@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_9_10.java:19: error: illegal start of type
+     * this test case will pass and another one will fail caused by the index < 0
+     ^
+CodexTest_0_9_10.java:19: error: ';' expected
+     * this test case will pass and another one will fail caused by the index < 0
+      ^
+CodexTest_0_9_10.java:19: error: <identifier> expected
+     * this test case will pass and another one will fail caused by the index < 0
+                ^
+CodexTest_0_9_10.java:19: error: ';' expected
+     * this test case will pass and another one will fail caused by the index < 0
+                               ^
+CodexTest_0_9_10.java:19: error: ';' expected
+     * this test case will pass and another one will fail caused by the index < 0
+                                           ^
+CodexTest_0_9_10.java:19: error: ';' expected
+     * this test case will pass and another one will fail caused by the index < 0
+                                                    ^
+CodexTest_0_9_10.java:19: error: ';' expected
+     * this test case will pass and another one will fail caused by the index < 0
+                                                                ^
+CodexTest_0_9_10.java:19: error: ';' expected
+     * this test case will pass and another one will fail caused by the index < 0
+                                                                       ^
+CodexTest_0_9_10.java:19: error: illegal start of type
+     * this test case will pass and another one will fail caused by the index < 0
+                                                                                ^
+CodexTest_0_9_10.java:19: error: <identifier> expected
+     * this test case will pass and another one will fail caused by the index < 0
+                                                                                 ^
+CodexTest_0_9_10.java:20: error: illegal start of type
+     * @Test(expected = IndexOutOfBoundsException.class)
+       ^
+CodexTest_0_9_10.java:20: error: ';' expected
+     * @Test(expected = IndexOutOfBoundsException.class)
+                                                        ^

@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_7_86.java:31: error: cannot find symbol
+        DoubleMatrix1D A = factory.make(SIZE);
+                                        ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:34: error: cannot find symbol
+            assertEquals(2, A.getQuick(i), TOL);
+                                           ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:36: error: cannot find symbol
+        DoubleMatrix1D B = factory.make(SIZE);
+                                        ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:39: error: cannot find symbol
+            assertEquals(2, B.getQuick(i), TOL);
+                                           ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:42: error: cannot find symbol
+        DoubleMatrix1D C = factory.make(SIZE);
+                                        ^
+  symbol:   variable SIZE
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:44: error: cannot find symbol
+        A.assign(C, DoubleFunctions.plus);
+                    ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:46: error: cannot find symbol
+            assertEquals(5, A.getQuick(i), TOL);
+                                           ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:48: error: cannot find symbol
+        A.assign(C, DoubleFunctions.plusMultFirst(2));
+                    ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:50: error: cannot find symbol
+            assertEquals(11, A.getQuick(i), TOL);
+                                            ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:52: error: cannot find symbol
+        A.assign(C, DoubleFunctions.plusMultSecond(3));
+                    ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:54: error: cannot find symbol
+            assertEquals(14, A.getQuick(i), TOL);
+                                            ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:56: error: cannot find symbol
+        A.assign(C, DoubleFunctions.plusMult(2,3));
+                    ^
+  symbol:   variable DoubleFunctions
+  location: class CodexTest_0_7_86
+CodexTest_0_7_86.java:58: error: cannot find symbol
+            assertEquals(20, A.getQuick(i), TOL);
+                                            ^
+  symbol:   variable TOL
+  location: class CodexTest_0_7_86

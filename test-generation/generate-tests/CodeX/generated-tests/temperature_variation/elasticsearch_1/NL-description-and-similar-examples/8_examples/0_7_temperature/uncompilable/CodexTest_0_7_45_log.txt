@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_7_45.java:66: error: cannot find symbol
+        UpdateRequestBuilder updateRequestBuilder = new UpdateRequestBuilder(null, "test", "123");
+        ^
+  symbol:   class UpdateRequestBuilder
+  location: class CodexTest_0_7_45
+CodexTest_0_7_45.java:66: error: cannot find symbol
+        UpdateRequestBuilder updateRequestBuilder = new UpdateRequestBuilder(null, "test", "123");
+                                                        ^
+  symbol:   class UpdateRequestBuilder
+  location: class CodexTest_0_7_45

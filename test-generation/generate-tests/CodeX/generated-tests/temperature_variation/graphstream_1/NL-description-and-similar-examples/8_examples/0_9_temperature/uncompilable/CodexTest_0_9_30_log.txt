@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_30.java:20: error: cannot find symbol
+          TreePath path = new TreePath(this.treeNode);
+          ^
+  symbol:   class TreePath
+  location: class CodexTest_0_9_30
+CodexTest_0_9_30.java:20: error: cannot find symbol
+          TreePath path = new TreePath(this.treeNode);
+                              ^
+  symbol:   class TreePath
+  location: class CodexTest_0_9_30
+CodexTest_0_9_30.java:20: error: cannot find symbol
+          TreePath path = new TreePath(this.treeNode);
+                                           ^
+  symbol: variable treeNode
+CodexTest_0_9_30.java:21: error: cannot find symbol
+          assertTrue(path.contains(this.edge));
+                                       ^
+  symbol: variable edge

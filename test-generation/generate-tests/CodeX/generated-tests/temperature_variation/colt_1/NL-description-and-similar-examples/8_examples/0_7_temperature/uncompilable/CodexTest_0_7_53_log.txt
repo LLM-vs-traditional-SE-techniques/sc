@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_7_53.java:36: error: cannot find symbol
+        B.assign(A, cern.jet.math.Functions.eq);
+                                           ^
+  symbol:   variable eq
+  location: class cern.jet.math.Functions

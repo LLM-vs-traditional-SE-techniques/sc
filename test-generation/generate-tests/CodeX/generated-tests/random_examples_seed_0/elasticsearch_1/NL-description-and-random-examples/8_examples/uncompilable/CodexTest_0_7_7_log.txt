@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_7_7.java:66: error: cannot find symbol
+        this.clazz.setParent(expected);
+            ^
+  symbol: variable clazz
+CodexTest_0_7_7.java:67: error: cannot find symbol
+        assertEquals(expected, this.clazz.parent());
+                                   ^
+  symbol: variable clazz

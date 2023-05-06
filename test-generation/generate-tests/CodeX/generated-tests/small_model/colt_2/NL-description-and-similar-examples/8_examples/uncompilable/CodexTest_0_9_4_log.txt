@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_4.java:30: error: cannot find symbol
+        DoubleMatrix1D result = matrix.like(3, 4);
+                                ^
+  symbol:   variable matrix
+  location: class CodexTest_0_9_4
+CodexTest_0_9_4.java:31: error: cannot find symbol
+        assertEquals(4, result.columns());
+                              ^
+  symbol:   method columns()
+  location: variable result of type cern.colt.matrix.DoubleMatrix1D

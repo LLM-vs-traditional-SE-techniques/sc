@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_5_72.java:46: error: ')' expected
+			assertEquals("Number of elements differs", numElements, vector
+			                                                              ^
+CodexTest_0_5_72.java:47: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,8 @@
+isCompilable => false
+CodexTest_0_9_51.java:36: error: incompatible types: com.google.common.hash.HashCode cannot be converted to long
+        HashCode.fromInt(0), HashCode.fromLong(Hashing.goodFastHash(32).hashLong(10)));
+                                                                                ^
+CodexTest_0_9_51.java:38: error: incompatible types: com.google.common.hash.HashCode cannot be converted to long
+        HashCode.fromLong(0), HashCode.fromLong(Hashing.goodFastHash(64).hashLong(0)));
+                                                                                 ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

@@ -1,0 +1,24 @@
+isCompilable => false
+CodexTest_0_9_69.java:24: error: cannot find symbol
+            Integer[] testArray = toArray(createIntArray(testSize));
+                                          ^
+  symbol:   method createIntArray(int)
+  location: class CodexTest_0_9_69
+CodexTest_0_9_69.java:25: error: cannot find symbol
+            Integer[] removedItems = createIntArray(removeSize);
+                                     ^
+  symbol:   method createIntArray(int)
+  location: class CodexTest_0_9_69
+CodexTest_0_9_69.java:33: error: cannot find symbol
+            Integer[] expected = toArray(testList);
+                                 ^
+  symbol:   method toArray(java.util.List<java.lang.Integer>)
+  location: class CodexTest_0_9_69
+CodexTest_0_9_69.java:36: error: removeRange(int,int) has protected access in java.util.ArrayList
+            al.removeRange(itemOffset, itemOffset + removeSize);
+              ^
+CodexTest_0_9_69.java:37: error: cannot find symbol
+            Integer[] actual = toArray(al);
+                               ^
+  symbol:   method toArray(java.util.ArrayList<java.lang.Integer>)
+  location: class CodexTest_0_9_69

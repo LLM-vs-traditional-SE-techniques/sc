@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_56.java:66: error: cannot find symbol
+        _testParent = new Parent();
+        ^
+  symbol:   variable _testParent
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:66: error: cannot find symbol
+        _testParent = new Parent();
+                          ^
+  symbol:   class Parent
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:67: error: cannot find symbol
+        _testParent.parent(parentName);
+        ^
+  symbol:   variable _testParent
+  location: class CodexTest_0_8_56
+CodexTest_0_8_56.java:68: error: cannot find symbol
+        Assert.assertEquals(parentName,_testParent.parent());
+                                       ^
+  symbol:   variable _testParent
+  location: class CodexTest_0_8_56

@@ -1,0 +1,10 @@
+isCompilable => false
+CodexTest_0_4_8.java:34: error: unclosed string literal
+                        + "test,test2\n" + "test,test2\n" + "test,test
+                                                            ^
+CodexTest_0_4_8.java:34: error: ')' expected
+                        + "test,test2\n" + "test,test2\n" + "test,test
+                                                                      ^
+CodexTest_0_4_8.java:35: error: reached end of file while parsing
+}
+ ^

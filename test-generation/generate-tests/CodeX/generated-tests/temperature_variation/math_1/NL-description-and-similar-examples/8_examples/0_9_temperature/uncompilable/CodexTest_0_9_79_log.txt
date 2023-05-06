@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_79.java:34: error: cannot find symbol
+        Vector3D v3D = new Vector3D(1, 2, 3);
+        ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_79
+CodexTest_0_9_79.java:34: error: cannot find symbol
+        Vector3D v3D = new Vector3D(1, 2, 3);
+                           ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_79
+CodexTest_0_9_79.java:35: error: cannot find symbol
+        Vector3D v3Dtest = v3D.scalarMultiply(2);
+        ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_79
+CodexTest_0_9_79.java:36: error: cannot find symbol
+        assertTrue(v3Dtest.equals(new Vector3D(2, 4, 6)));
+                                      ^
+  symbol:   class Vector3D
+  location: class CodexTest_0_9_79

@@ -1,0 +1,66 @@
+isCompilable => false
+CodexTest_0_8_49.java:21: error: cannot find symbol
+        String[] expected = strings.clone();
+                            ^
+  symbol:   variable strings
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:22: error: cannot find symbol
+        String removed = l.remove(1);
+                         ^
+  symbol:   variable l
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:23: error: cannot find symbol
+        assertEquals(list0.length + list1.length + list2.length - 1, l.size());
+                     ^
+  symbol:   variable list0
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:23: error: cannot find symbol
+        assertEquals(list0.length + list1.length + list2.length - 1, l.size());
+                                    ^
+  symbol:   variable list1
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:23: error: cannot find symbol
+        assertEquals(list0.length + list1.length + list2.length - 1, l.size());
+                                                   ^
+  symbol:   variable list2
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:23: error: cannot find symbol
+        assertEquals(list0.length + list1.length + list2.length - 1, l.size());
+                                                                     ^
+  symbol:   variable l
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:26: error: cannot find symbol
+                Stream.concat(Arrays.stream(list0), Stream.concat(
+                                                    ^
+  symbol:   variable Stream
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:28: error: cannot find symbol
+                        Arrays.stream(list2))).toArray(Object[]::new),
+                                      ^
+  symbol:   variable list2
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:27: error: cannot find symbol
+                        Arrays.stream(list1, 1, list1.length),
+                                      ^
+  symbol:   variable list1
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:27: error: cannot find symbol
+                        Arrays.stream(list1, 1, list1.length),
+                                                ^
+  symbol:   variable list1
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:26: error: cannot find symbol
+                Stream.concat(Arrays.stream(list0), Stream.concat(
+                ^
+  symbol:   variable Stream
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:26: error: cannot find symbol
+                Stream.concat(Arrays.stream(list0), Stream.concat(
+                                            ^
+  symbol:   variable list0
+  location: class CodexTest_0_8_49
+CodexTest_0_8_49.java:29: error: cannot find symbol
+                l.toArray(new String[0])));
+                ^
+  symbol:   variable l
+  location: class CodexTest_0_8_49

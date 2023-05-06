@@ -1,0 +1,32 @@
+isCompilable => false
+CodexTest_0_3_5.java:31: error: no suitable constructor found for DenseDoubleMatrix2D(int,int,double[])
+        DenseDoubleMatrix2D A = new DenseDoubleMatrix2D(4,3,values);
+                                ^
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix2D.DenseDoubleMatrix2D(double[][]) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix2D.DenseDoubleMatrix2D(int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor cern.colt.matrix.impl.DenseDoubleMatrix2D.DenseDoubleMatrix2D(int,int,double[],int,int,int,int) is not applicable
+      (actual and formal argument lists differ in length)
+CodexTest_0_3_5.java:32: error: no suitable method found for assign(double[])
+        A.assign(values);
+         ^
+    method cern.colt.matrix.DoubleMatrix2D.assign(double[][]) is not applicable
+      (argument mismatch; double[] cannot be converted to double[][])
+    method cern.colt.matrix.DoubleMatrix2D.assign(double) is not applicable
+      (argument mismatch; double[] cannot be converted to double)
+    method cern.colt.matrix.DoubleMatrix2D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.DoubleMatrix2D.assign(cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+    method cern.colt.matrix.impl.DenseDoubleMatrix2D.assign(double[][]) is not applicable
+      (argument mismatch; double[] cannot be converted to double[][])
+    method cern.colt.matrix.impl.DenseDoubleMatrix2D.assign(double) is not applicable
+      (argument mismatch; double[] cannot be converted to double)
+    method cern.colt.matrix.impl.DenseDoubleMatrix2D.assign(cern.colt.function.DoubleFunction) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.function.DoubleFunction)
+    method cern.colt.matrix.impl.DenseDoubleMatrix2D.assign(cern.colt.matrix.DoubleMatrix2D) is not applicable
+      (argument mismatch; double[] cannot be converted to cern.colt.matrix.DoubleMatrix2D)
+Note: CodexTest_0_3_5.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output

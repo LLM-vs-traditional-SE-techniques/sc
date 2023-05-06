@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_3_25.java:19: error: cannot find symbol
+			Instances model = new Instances(new StringReader("@RELATION test\n" +
+			                                    ^
+  symbol:   class StringReader
+  location: class CodexTest_0_3_25

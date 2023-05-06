@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_36.java:21: error: cannot find symbol
+        List<Object> list = new List<Object>(arrayOf(1, 2));
+                                             ^
+  symbol:   method arrayOf(int,int)
+  location: class CodexTest_0_8_36
+CodexTest_0_8_36.java:21: error: java.util.List is abstract; cannot be instantiated
+        List<Object> list = new List<Object>(arrayOf(1, 2));
+                            ^

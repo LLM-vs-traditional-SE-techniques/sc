@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_7_4.java:19: error: cannot find symbol
+      Instances i = new Instances(new BufferedReader(new FileReader(m_Generator.getOptions().getDataFile())));
+                                      ^
+  symbol:   class BufferedReader
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:19: error: cannot find symbol
+      Instances i = new Instances(new BufferedReader(new FileReader(m_Generator.getOptions().getDataFile())));
+                                                         ^
+  symbol:   class FileReader
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:19: error: cannot find symbol
+      Instances i = new Instances(new BufferedReader(new FileReader(m_Generator.getOptions().getDataFile())));
+                                                                    ^
+  symbol:   variable m_Generator
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:21: error: cannot find symbol
+      DataGenerator.makeDataGenerator(m_Generator.getOptions(), i);
+                                      ^
+  symbol:   variable m_Generator
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:21: error: cannot find symbol
+      DataGenerator.makeDataGenerator(m_Generator.getOptions(), i);
+      ^
+  symbol:   variable DataGenerator
+  location: class CodexTest_0_7_4
+CodexTest_0_7_4.java:22: error: cannot find symbol
+      Instance result = m_Generator.getAsInstance(i, new Random(1));
+                        ^
+  symbol:   variable m_Generator
+  location: class CodexTest_0_7_4

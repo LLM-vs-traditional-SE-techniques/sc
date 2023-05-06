@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_6_10.java:31: error: cannot find symbol
+        DoubleFactory2D underTest = new DenseDoubleFactory2D();
+                                        ^
+  symbol:   class DenseDoubleFactory2D
+  location: class CodexTest_0_6_10
+CodexTest_0_6_10.java:33: error: cannot find symbol
+        DoubleMatrix2D result = underTest.like2D(2, 3);
+                                         ^
+  symbol:   method like2D(int,int)
+  location: variable underTest of type cern.colt.matrix.DoubleFactory2D

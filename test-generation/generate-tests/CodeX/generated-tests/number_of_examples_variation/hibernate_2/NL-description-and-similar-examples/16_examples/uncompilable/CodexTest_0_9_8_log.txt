@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_8.java:16: error: cannot find symbol
+        assertEquals(Boolean.valueOf(true), CollectionUtils.get(list, 8));
+                                                                ^
+  symbol:   variable list
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:16: error: cannot find symbol
+        assertEquals(Boolean.valueOf(true), CollectionUtils.get(list, 8));
+                                            ^
+  symbol:   variable CollectionUtils
+  location: class CodexTest_0_9_8

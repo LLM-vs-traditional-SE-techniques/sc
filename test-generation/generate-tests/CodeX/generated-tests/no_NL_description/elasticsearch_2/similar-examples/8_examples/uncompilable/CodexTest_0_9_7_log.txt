@@ -1,0 +1,37 @@
+isCompilable => false
+CodexTest_0_9_7.java:65: error: cannot find symbol
+        IndexRequest indexRequest = new IndexRequest(index, type, id);
+                                                     ^
+  symbol:   variable index
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:65: error: cannot find symbol
+        IndexRequest indexRequest = new IndexRequest(index, type, id);
+                                                            ^
+  symbol:   variable type
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:65: error: cannot find symbol
+        IndexRequest indexRequest = new IndexRequest(index, type, id);
+                                                                  ^
+  symbol:   variable id
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:68: error: cannot find symbol
+        try (XContentParser parser = XContentHelper.createParser(NamedXContentRegistry.EMPTY, LoggingDeprecationHandler.INSTANCE, bytes, XContentType.JSON)) {
+             ^
+  symbol:   class XContentParser
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:68: error: cannot find symbol
+        try (XContentParser parser = XContentHelper.createParser(NamedXContentRegistry.EMPTY, LoggingDeprecationHandler.INSTANCE, bytes, XContentType.JSON)) {
+                                                                 ^
+  symbol:   variable NamedXContentRegistry
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:68: error: cannot find symbol
+        try (XContentParser parser = XContentHelper.createParser(NamedXContentRegistry.EMPTY, LoggingDeprecationHandler.INSTANCE, bytes, XContentType.JSON)) {
+                                                                                              ^
+  symbol:   variable LoggingDeprecationHandler
+  location: class CodexTest_0_9_7
+CodexTest_0_9_7.java:69: error: package XContentParser does not exist
+            assertSame(XContentParser.Token.START_OBJECT, parser.nextToken());
+                                     ^
+CodexTest_0_9_7.java:70: error: package XContentParser does not exist
+            assertSame(XContentParser.Token.END_OBJECT, parser.nextToken());
+                                     ^

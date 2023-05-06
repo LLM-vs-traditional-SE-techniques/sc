@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_8_10.java:66: error: cannot find symbol
+            DirectoryHierarchyRule underTest = new DirectoryHierarchyRule();
+            ^
+  symbol:   class DirectoryHierarchyRule
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:66: error: cannot find symbol
+            DirectoryHierarchyRule underTest = new DirectoryHierarchyRule();
+                                                   ^
+  symbol:   class DirectoryHierarchyRule
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:67: error: cannot find symbol
+            underTest.setParent(PARENT_NAME_VALUE);
+                                ^
+  symbol:   variable PARENT_NAME_VALUE
+  location: class CodexTest_0_8_10
+CodexTest_0_8_10.java:71: error: cannot find symbol
+            assertEquals(PARENT_NAME_VALUE, result);
+                         ^
+  symbol:   variable PARENT_NAME_VALUE
+  location: class CodexTest_0_8_10

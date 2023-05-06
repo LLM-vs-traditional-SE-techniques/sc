@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_8.java:21: error: cannot find symbol
+        DoubleArrayList v = new DoubleArrayList(new double[] {2,3,5,7,11,13,17,23});
+        ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:21: error: cannot find symbol
+        DoubleArrayList v = new DoubleArrayList(new double[] {2,3,5,7,11,13,17,23});
+                                ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:23: error: cannot find symbol
+        assertEquals(new DoubleArrayList(new double[] {2,3,5,7,13,17,23}), v);
+                         ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_9_8
+CodexTest_0_9_8.java:27: error: cannot find symbol
+        assertEquals(new DoubleArrayList(), v);
+                         ^
+  symbol:   class DoubleArrayList
+  location: class CodexTest_0_9_8

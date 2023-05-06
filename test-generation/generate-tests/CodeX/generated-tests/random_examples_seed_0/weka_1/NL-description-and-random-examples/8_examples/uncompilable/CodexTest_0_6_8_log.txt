@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_6_8.java:20: error: cannot find symbol
+        a.set(0, 1);
+         ^
+  symbol:   method set(int,int)
+  location: variable a of type weka.core.AlgVector
+CodexTest_0_6_8.java:21: error: cannot find symbol
+        a.set(1, 2);
+         ^
+  symbol:   method set(int,int)
+  location: variable a of type weka.core.AlgVector
+CodexTest_0_6_8.java:22: error: cannot find symbol
+        b.set(0, 3);
+         ^
+  symbol:   method set(int,int)
+  location: variable b of type weka.core.AlgVector
+CodexTest_0_6_8.java:23: error: cannot find symbol
+        b.set(1, 4);
+         ^
+  symbol:   method set(int,int)
+  location: variable b of type weka.core.AlgVector
+CodexTest_0_6_8.java:25: error: cannot find symbol
+        assertEquals(4, c.get(0), 0.0);
+                         ^
+  symbol:   method get(int)
+  location: variable c of type weka.core.AlgVector
+CodexTest_0_6_8.java:26: error: cannot find symbol
+        assertEquals(6, c.get(1), 0.0);
+                         ^
+  symbol:   method get(int)
+  location: variable c of type weka.core.AlgVector

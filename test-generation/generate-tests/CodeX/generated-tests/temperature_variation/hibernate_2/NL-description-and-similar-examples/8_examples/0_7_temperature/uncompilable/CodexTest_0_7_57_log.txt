@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_7_57.java:41: error: <identifier> expected
+Input: public ResultSet getResultSet() {
+     ^
+CodexTest_0_7_57.java:44: error: <identifier> expected
+Output: public void testGetResultSet() throws SQLException {
+      ^

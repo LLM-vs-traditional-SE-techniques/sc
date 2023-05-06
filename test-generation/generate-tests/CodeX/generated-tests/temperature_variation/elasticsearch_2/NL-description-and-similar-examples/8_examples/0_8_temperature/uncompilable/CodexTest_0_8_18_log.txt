@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_8_18.java:70: error: ';' expected
+						.value("test*")
+						               ^
+CodexTest_0_8_18.java:71: error: reached end of file while parsing
+}
+ ^

@@ -1,0 +1,19 @@
+isCompilable => false
+CodexTest_0_9_3.java:42: error: ';' expected
+Suggest a test for a method with the double aggregate(DoubleDoubleFunction aggr, DoubleFunction f) signature.
+         ^
+CodexTest_0_9_3.java:42: error: <identifier> expected
+Suggest a test for a method with the double aggregate(DoubleDoubleFunction aggr, DoubleFunction f) signature.
+              ^
+CodexTest_0_9_3.java:42: error: ';' expected
+Suggest a test for a method with the double aggregate(DoubleDoubleFunction aggr, DoubleFunction f) signature.
+                           ^
+CodexTest_0_9_3.java:42: error: ';' expected
+Suggest a test for a method with the double aggregate(DoubleDoubleFunction aggr, DoubleFunction f) signature.
+                                    ^
+CodexTest_0_9_3.java:42: error: ';' expected
+Suggest a test for a method with the double aggregate(DoubleDoubleFunction aggr, DoubleFunction f) signature.
+                                                                                                  ^
+CodexTest_0_9_3.java:60: error: reached end of file while parsing
+}
+ ^

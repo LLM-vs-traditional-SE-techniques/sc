@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_9_5.java:65: error: cannot find symbol
+			checkParent(null);
+			^
+  symbol:   method checkParent(<nulltype>)
+  location: class CodexTest_0_9_5
+CodexTest_0_9_5.java:68: error: cannot find symbol
+			checkParent("/1.2.8/");
+			^
+  symbol:   method checkParent(java.lang.String)
+  location: class CodexTest_0_9_5

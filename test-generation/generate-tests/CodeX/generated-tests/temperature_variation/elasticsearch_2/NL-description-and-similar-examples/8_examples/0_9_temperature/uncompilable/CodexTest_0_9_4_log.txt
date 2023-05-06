@@ -1,0 +1,7 @@
+isCompilable => false
+CodexTest_0_9_4.java:72: error: unreported exception java.io.IOException; must be caught or declared to be thrown
+        assertEquals(XContentHelper.convertToJson(new BytesArray(source), false, false, XContentType.JSON), indexRequest.source().utf8ToString());
+                                                 ^
+CodexTest_0_9_4.java:74: error: unreported exception java.io.IOException; must be caught or declared to be thrown
+        assertEquals(XContentHelper.convertToJson(new BytesArray(source), false, false, XContentType.JSON), indexRequestFromMap.source().utf8ToString());
+                                                 ^

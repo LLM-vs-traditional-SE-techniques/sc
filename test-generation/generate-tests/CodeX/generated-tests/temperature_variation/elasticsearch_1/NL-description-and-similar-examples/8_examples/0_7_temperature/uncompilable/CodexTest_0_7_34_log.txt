@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_7_34.java:67: error: cannot find symbol
+        UpdateRequest request = new UpdateRequest(type, "id");
+        ^
+  symbol:   class UpdateRequest
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:67: error: cannot find symbol
+        UpdateRequest request = new UpdateRequest(type, "id");
+                                    ^
+  symbol:   class UpdateRequest
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:68: error: cannot find symbol
+        assertThat(request.parent(), nullValue());
+                                     ^
+  symbol:   method nullValue()
+  location: class CodexTest_0_7_34
+CodexTest_0_7_34.java:70: error: cannot find symbol
+        assertThat(request.parent(), equalTo(parent));
+                                     ^
+  symbol:   method equalTo(java.lang.String)
+  location: class CodexTest_0_7_34

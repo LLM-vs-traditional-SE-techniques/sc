@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_5_5.java:30: error: package DenseDoubleAlgebra does not exist
+        final DoubleMatrix2D matrix = DenseDoubleAlgebra.DEFAULT.make(new double[][] { { 1, 2, 3 }, { 4, 5, 6 } });
+                                                        ^
+CodexTest_0_5_5.java:31: error: cannot find symbol
+        final DoubleMatrix2D like2D = matrix.like2D(matrix.rows(), matrix.columns());
+                                            ^
+  symbol:   method like2D(int,int)
+  location: variable matrix of type cern.colt.matrix.DoubleMatrix2D

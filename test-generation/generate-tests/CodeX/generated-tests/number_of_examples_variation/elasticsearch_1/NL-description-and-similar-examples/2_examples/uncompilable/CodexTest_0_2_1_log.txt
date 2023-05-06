@@ -1,0 +1,6 @@
+isCompilable => false
+CodexTest_0_2_1.java:65: error: cannot find symbol
+        assertNull(new Node().parent());
+                       ^
+  symbol:   class Node
+  location: class CodexTest_0_2_1

@@ -1,0 +1,11 @@
+isCompilable => false
+CodexTest_0_3_1.java:76: error: cannot find symbol
+        DocWriteRequest<?> request = new IndexRequest(index, type, id)
+                                                      ^
+  symbol:   variable index
+  location: class CodexTest_0_3_1
+CodexTest_0_3_1.java:78: error: cannot find symbol
+                .timestamp(timestamp)
+                ^
+  symbol:   method timestamp(java.lang.String)
+  location: class org.elasticsearch.action.index.IndexRequest

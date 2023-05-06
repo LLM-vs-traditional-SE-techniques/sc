@@ -1,0 +1,31 @@
+isCompilable => false
+CodexTest_0_8_7.java:29: error: <identifier> expected
+Input:  public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_8_7.java:32: error: <identifier> expected
+Output: public void testRoundTripHashCodeUsingBaseEncoding() {
+      ^
+CodexTest_0_8_7.java:39: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_8_7.java:42: error: <identifier> expected
+Output: public void testObjectHashCode() {
+      ^
+CodexTest_0_8_7.java:47: error: <identifier> expected
+Input:   public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_8_7.java:50: error: <identifier> expected
+Output: public void testRoundTripHashCodeUsingBaseEncoding() {
+      ^
+CodexTest_0_8_7.java:56: error: <identifier> expected
+Input: public static HashCode fromLong(long hash) {
+     ^
+CodexTest_0_8_7.java:59: error: <identifier> expected
+Output: public void testObjectHashCode() {
+      ^
+CodexTest_0_8_7.java:64: error: <identifier> expected
+Input: public static HashCode fromBytes(byte[] bytes) {
+     ^
+CodexTest_0_8_7.java:66: error: reached end of file while parsing
+}
+ ^

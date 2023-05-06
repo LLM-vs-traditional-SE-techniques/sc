@@ -1,0 +1,21 @@
+isCompilable => false
+CodexTest_0_9_9.java:65: error: cannot find symbol
+        FamilyMember parent = new FamilyMember("John");
+        ^
+  symbol:   class FamilyMember
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:65: error: cannot find symbol
+        FamilyMember parent = new FamilyMember("John");
+                                  ^
+  symbol:   class FamilyMember
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:66: error: cannot find symbol
+        FamilyMember child = new FamilyMember("Joe");
+        ^
+  symbol:   class FamilyMember
+  location: class CodexTest_0_9_9
+CodexTest_0_9_9.java:66: error: cannot find symbol
+        FamilyMember child = new FamilyMember("Joe");
+                                 ^
+  symbol:   class FamilyMember
+  location: class CodexTest_0_9_9

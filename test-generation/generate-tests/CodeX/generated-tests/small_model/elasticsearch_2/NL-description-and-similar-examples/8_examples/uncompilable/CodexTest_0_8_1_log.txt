@@ -1,0 +1,9 @@
+isCompilable => false
+CodexTest_0_8_1.java:64: error: cannot find symbol
+    public com.qihoo.qsql.org.apache.lucene.util.automaton.RegExp toRegExp(SymbolTable symbolTable) {
+                                                                           ^
+  symbol:   class SymbolTable
+  location: class CodexTest_0_8_1
+CodexTest_0_8_1.java:64: error: package com.qihoo.qsql.org.apache.lucene.util.automaton does not exist
+    public com.qihoo.qsql.org.apache.lucene.util.automaton.RegExp toRegExp(SymbolTable symbolTable) {
+                                                          ^

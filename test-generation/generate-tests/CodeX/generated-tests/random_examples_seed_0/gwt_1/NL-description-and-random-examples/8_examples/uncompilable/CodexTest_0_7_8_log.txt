@@ -1,0 +1,49 @@
+isCompilable => false
+CodexTest_0_7_8.java:16: error: <identifier> expected
+Input: public static Boolean valueOf(boolean b) {
+     ^
+CodexTest_0_7_8.java:19: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:21: error: <identifier> expected
+Input: public static Boolean valueOf(String s) {
+     ^
+CodexTest_0_7_8.java:24: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:26: error: <identifier> expected
+Input: public final boolean getElement(int index) {
+     ^
+CodexTest_0_7_8.java:29: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:31: error: <identifier> expected
+Input: public static boolean isClient() {
+     ^
+CodexTest_0_7_8.java:34: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:36: error: <identifier> expected
+Input: public static Boolean valueOf(boolean b) {
+     ^
+CodexTest_0_7_8.java:39: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:41: error: <identifier> expected
+Input: public static Boolean valueOf(String s) {
+     ^
+CodexTest_0_7_8.java:44: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:46: error: <identifier> expected
+Input: public final boolean getElement(int index) {
+     ^
+CodexTest_0_7_8.java:49: error: <identifier> expected
+Output:
+      ^
+CodexTest_0_7_8.java:51: error: <identifier> expected
+Input: public static boolean isClient() {
+     ^
+CodexTest_0_7_8.java:54: error: <identifier> expected
+Output:
+      ^
